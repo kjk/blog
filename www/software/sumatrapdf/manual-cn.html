@@ -147,14 +147,14 @@ table.shortcuts {
 
     <h2 id="manual-cmd-line">命令行参数</h2>
 
-    命令行参数:
+    命令行参数选项:
     <table class="shortcuts">
       <tr><td align="right"><b>-page $pageno</b></td>
-        <td>&nbsp;open PDF at a given page</td></tr>
+        <td>&nbsp;在指定页码打开PDF</td></tr>
       <tr><td align="right"><b>-named-dest $dest</b></td>
-        <td>&nbsp;open PDF at a specified named destination</td></tr>
+        <td>&nbsp;在指定位置打开PDF</td></tr>
       <tr><td align="right"><b>-lang $language</b></td>
-        <td>&nbsp;set user interface language. $language is a two-letter language code e.g. "en", "de"</td></tr>
+		<td>&nbsp;设置界面语言. $language参数是两个字母的语言码 例如 "en", "de"</td></tr>
 
 <!--
       <tr><td align="right"><b>-title $title</b></td>
@@ -162,114 +162,94 @@ table.shortcuts {
 -->
 
       <tr><td align="right"><b>-restrict</b></td>
-        <td>&nbsp;run in <a href="#manual-restricted">restricted mode</a>.</td></tr>
+        <td>&nbsp;run in <a href="#manual-restricted">受限制模式</a>.</td></tr>
       <tr><td align="right"><b>-reuse-instance</b></td>
-        <td>&nbsp;use existing Sumatra process instead of starting a new process</td></tr>
+		<td>&nbsp;使用当前进程, 不新建进程</td></tr>
       <tr><td align="right"><b>-presentation $file.pdf</b></td>
-        <td>&nbsp;opens a PDF file in presentation (full-screen) mode</td></tr>
+        <td>&nbsp;用幻灯片(全屏)模式打开PDF</td></tr>
       <tr><td align="right"><b>-register-for-pdf</b></td>
-        <td>&nbsp;forces registering Sumatra as a default reader for PDF files and exits</td></tr>
+		<td>&nbsp;手动设置Sumatra为默认PDF阅读器, 设置后退出</td></tr>
       <tr><td align="right"><b>-esc-to-exit</b></td>
-        <td>&nbsp;if given, ESC key will exit the program. It's persisted in settings file, so only needs to be provided once</td></tr>
+		<td>&nbsp;使用此参数后, 按ESC键可退出程序. 此参数会写入设置文件, 因此只需设置一次即可.</td></tr>
       <tr><td align="right"><b>-bg-color $color</b></td>
-        <td>&nbsp;change the yellow background color to a provided color in hex format (e.g. 0xffff00)</td></tr>
+		<td>&nbsp;修改背景颜色, 十六进制颜色值(例如 0xffff00)</td></tr>
       <tr><td align="right"><b>-invert-colors</b></td>
-        <td>&nbsp;will invert colors in the PDF (e.g. white would become black and black would become white).</td></tr>
+		<td>&nbsp;此参数将会反色显示PDF(例如 白色会变成黑色, 黑色会变成白色).</td></tr>
 
     </table>
 
-    <p>Note: <b>-esc-to-exit</b> and <b>-bg-color</b> options change the defaults and persist
-    them in sumatrapdfprefs.dat file (in %appdata%\SumatraPDF directory if installed, in the
-    same directory as executable in portable mode). To revert back to defaults, you can
-    delete sumatrapdfprefs.dat file.</p>
+	<p>注意: <b>-esc-to-exit</b> 和 <b>-bg-color</b> 选项将改变sumatrapdfprefs.dat文件(安装版在 %appdata%\SumatraPDF目录, 绿色版在执行文件的所在目录) 中的默认设置. 若要恢复默认设置,可以删掉sumatrapdfprefs.dat文件.</p>
 
-    <p>Printing related cmd-line arguments:
+    <p>打印相关的命令行参数:
     <table class="shortcuts">
       <tr><td align="right"><b>-print-to-default $file.pdf</b></td>
-        <td>&nbsp;prints a PDF file on a default printer</td></tr>
+        <td>&nbsp;在默认打印机上打印PDF文件</td></tr>
       <tr><td align="right"><b>-print-to $printer_name $file.pdf</b></td>
-        <td>&nbsp;prints a PDF on a given printer</td></tr>
+        <td>&nbsp;在指定打印机上打印PDF文件</td></tr>
       <tr><td align="right"><b>-print-dialog $file.pdf</b></td>
-        <td>&nbsp;opens a PDF file and shows a print dialog to select printer and printing options</td></tr>
+		<td>&nbsp;打开PDF文件,并且显示一个打印对话框, 以选择打印机和打印选项.</td></tr>
       <tr><td align="right"><b>-exit-on-print</b></td>
-        <td>&nbsp;when -print-to-default or -print-to is used, will exit after printing</td></tr>
+        <td>&nbsp;当使用了参数-print-to-default 或者 -print-to 时, 打印后会退出</td></tr>
     </table>
     </p>
 
-    <h2 id="manual-latex">LaTeX preview support</h2>
-    <p> Sumatra has built-in support for easy previewing of LaTeX documents.
-        Read <a href="http://william.famille-blum.org/blog/static.php?page=static081010-000413">this page</a> for more information and detailed instructions on how to configure various text editors
-        to integrate with Sumatra's preview functionality.
+    <h2 id="manual-latex">LaTeX 预览支持</h2>
+    <p> Sumatra 内置了预览 LaTeX 文件的支持.
+        请阅读 <a href="http://william.famille-blum.org/blog/static.php?page=static081010-000413">这个页面</a> 以获取更多信息和设置各种文本编辑器整合Sumatra预览功能的详细说明.
     </p>
 
-    <h2 id="manual-browser-plugin">Browser plugin</h2>
-    <p>The "full installer" version includes a browser plugin for Firefox, Chrome
-      and Opera (Internet Explorer is not supported). It's not installed by default
-      so you have to use installer's options button to install it.</p>
-    <p>You might need to configure the browser too: enable Sumatra's PDF
-       plugin and disable PDF plugin from other programs.</p>
+    <h2 id="manual-browser-plugin">浏览器插件</h2>
+	<p>"完整安装包"包括Firefox, Chrome and Opera (Internet Explorer 不支持)浏览器的插件. 默认不会安装插件, 所以你需要进入安装选项按钮设置以安装它.</p>
+    <p>你的浏览器也许同样需要设置You might need to configure the browser too: 从其他程序中启用或禁用Sumatra的插件.</p>
 
-    <p><b>Firefox</b></p>
-    <p>You need to disable PDF plugins from other programs (e.g. Adobe Reader
-      of Foxit) if you have them installed. Use <b>Tools/Add-ons</b> menu.
-      Switch to <b>Plugins</b> tab, enable Sumatra PDF plugin and disable
-      other PDF plugins.</p>
+	<p><b>Firefox火狐浏览器</b></p>
+	<p>如果你安装了其他PDF插件(例如Adobe Reader或者Foxit),你可能需要禁用它们. 点击<b>工具/扩展</b> 菜单.
+      转到<b>插件</b>选项卡, 启用Sumatra PDF插件并禁用其他PDF插件.</p>
 
-    <p><b>Known issues with Firefox plugin</b></p>
-    <p>In some  cases (if Foxit plugin is also already installed) Sumatra's plugin
-    will not work even if other plugins are disabled. This issue was fixed
-    in Firefox 4.0.</p>
+    <p><b>Firefox插件的已知问题</b></p>
+	<p>某些情况下(如果同样安装了Foxit插件)Sumatra的插件也不会生效, 即使其他插件都禁用了.这个问题已经在Firefox 4.0中修复了.</p>
 
-    <p><b>Chrome</b></p>
-    <p>Newer version of Chrome have a PDF plugin built-in. If you want to use
-    Sumatra's plugin, you need to disable Chrome's plugin (and potentially
-    plugins from other apps like Adobe Reader or FoxIt).<p>
-    <p>Type <b>about:plugins</b> in the address bar, make sure to enable
-    Sumatra PDF plugin and disable other PDF plugins.</p>
+    <p><b>Chrome浏览器</b></p>
+	<p>新版的Chrome浏览器自带一个PDF插件. 如果你想要使用Sumatra的插件, 你需要禁用Chrome的插件(和其他应用程序的插件, 可能包括像是Adobe Reader或者FoxIt).<p>
+    <p>在地址栏输入<b>about:plugins</b>, 以确认启用了Sumatra PDF 插件并且禁用了其他的PDF插件.</p>
 
-    <p><b>Opera</b></p>
+    <p><b>Opera浏览器</b></p>
     <ol>
-    <li>Run Opera and hit CTRL + F12</li>
-    <li>Choose Advanced tab</li>
-    <li>From the list on the left choose Downloading or so (that is between the Fonts and Programs - I my GUI is not in English)</li>
-    <li>In the middle box find "application/pdf" and Click "Edit" on the right</li>
-    <li>Enable "Use the plugin at the bottom" and choose "SumatraPDF Browser Plugin"</li>
-    <li>Click "OK" and then "OK". Restart Opera</li>
+    <li>启动Opera 按下快捷键CTRL + F12</li>
+    <li>选择高级选项卡</li>
+    <li>从左侧列表中选择下载(大约在自合和应用程序之间-我用的不是英文界面)</li>
+    <li>在中间的列表中找到"application/pdf" 并且在右侧点击"编辑"</li>
+    <li>激活底部的"Use the plugin"并选择"SumatraPDF Browser Plugin"</li>
+	<li>点击"OK", 再点击"OK". 重启Opera</li>
     </ol>
 
 
-    <h2 id="manual-restricted">Running in restricted mode</h2>
-    <p>A restricted mode is useful if you want to use SumatraPDF as a bundled viewer
-    for your program's documentation or in kiosk mode. In restricted mode some actions
-    that are not appropriate in such context are disabled:</p>
+    <h2 id="manual-restricted">运行受限制模式(restricted mode)</h2>
+	<p>如果把SumatraPDF作为你应用程序的自带文档浏览器或者kiosk模式, 受限制模式(restricted mode)是非常有用的.在这种受限制模式的场合中, 一些不合适的功能被禁用:</p>
     <ul>
-      <li>opening new files</li>
-      <li>launching URLs from with PDF document</li>
-      <li>text and image selection</li>
-      <li>printing</li>
-      <li>changing default settings</li>
-      <li>saving to disk</li>
-      <li>automatic and manual update checks</li>
-      <li>a history of recently opened files</li>
-      <li>TeX support</li>
-      <li>registering as a default PDF viewer</li>
-      <li>opening with Adobe Acrobat</li>
-      <li>e-mailing PDF</li>
+      <li>打开新文件</li>
+      <li>打开PDF文件中的URLs链接</li>
+      <li>选择文本或图片</li>
+      <li>打印</li>
+      <li>改变默认设置</li>
+      <li>保存</li>
+      <li>自动或手动更新检查</li>
+      <li>最近打开的文件历史</li>
+      <li>TeX 支持/li>
+      <li>注册成为默认PDF阅读器</li>
+      <li>用Adobe Acrobat打开</li>
+      <li>用电子邮件发送PDF</li>
     </ul>
 
-    <h2 id="manual-notes">Notes</h2>
+    <h2 id="manual-notes">注意</h2>
 
-    <p>If "Remember settings for each document" is turned on and a PDF is later opened again,
-    Sumatra PDF will return to the page shown when it was closed. Settings are not only
-    stored for those 10 files shown in the "File" menu - but resuming will not work
-    if the file has been moved in the meantime</p>
+	<p>如果勾选了"为每一个文档记住这个设置"选项并且稍后一个PDF再次打开, Sumatra PDF 会回到它关闭时的页面视图.这项设置只保存了"文件"菜单中显示的10个文件 - 但如果在此期间文件被移动的话, 则不会生效</p>
 
-    <p>Some settings (e.g. fullscreen) are saved as defaults without a GUI option,
-      when SumatraPDF is closed without any document open.</p>
+	<p>当SumatraPDF关闭时没有任何打开文档, 一些设置(例如全屏)是在非图形界面选项中默认保存的.</p>
 
-    <h2 id="manual-limitations">Known limitations</h2>
+    <h2 id="manual-limitations">已知限制</h2>
 
-    <p>Editing interactive forms and adding comments is not implemented.</p>
+    <p>编辑交互表单和添加注释还没有实现.</p>
 
 <!--
     <h2 id="manual-browser">Disable viewing PDF files directly in web browser (IE and Firefox)</h2>
