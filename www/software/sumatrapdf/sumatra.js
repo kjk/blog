@@ -8,6 +8,16 @@ var gRuTrans = {
 	"Forums" : "Форум"
 };
 
+var gBgTrans = {
+	"Home" : "Начало",
+	"News" : "Новини",
+	"Manual" : "Ръководство",
+	"Download" : "Сваляне",
+	"Contribute" : "Допринесете",
+	"Translations" : "Преводи",
+	"Forums" : "Форум"
+};
+
 var gRoTrans = {
 	"Home" : "Acasă",
 	"News" : "Ştiri",
@@ -70,7 +80,7 @@ var gCnTrans = {
 
 var gTabTrans = {
 	"ru" : gRuTrans, "ro" : gRoTrans, "pt" : gPtTrans, "ja" : gJaTrans,
-	"es" : gEsTrans, "de" : gDeTrans, "cn" : gCnTrans
+	"es" : gEsTrans, "de" : gDeTrans, "cn" : gCnTrans, "bg" : gBgTrans
 };
 
 var gLangCookieName = "forceSumLang";
@@ -84,6 +94,7 @@ var gLanguages = [
 	//"fr", ["Français", "French"],
 	"pt", ["Português", "Portuguese"],
 	"ru", ["Pусский", "Russian"],
+	"bg", ["Български", "Bulgarian"],
 	"ro", ["Română", "Romanian"],
 	"ja", ["日本語", "Japanese"],
 	"cn", ["简体中文", "Chinese"]
@@ -106,11 +117,11 @@ function langNativeName(lang) {
 }
 
 var gTransalatedPages = [
-	"download-free-pdf-viewer", ["ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru"],
+	"download-free-pdf-viewer", ["ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg"],
 	"download-prev", ["de", "es", "ja", "pt", "ro"],
-	"downloadafter", ["de", "es", "ja", "pt", "ro"],
-	"free-pdf-reader", ["cn", "de", "es", "ja", "pt", "ro", "ru"],
-	"manual", ["ru", "cn", "de", "es", "ja", "pt", "ro", "ru"],
+	"downloadafter", ["de", "es", "ja", "pt", "ro", "bg"],
+	"free-pdf-reader", ["cn", "de", "es", "ja", "pt", "ro", "ru", "bg"],
+	"manual", ["ru", "cn", "de", "es", "ja", "pt", "ro", "ru", "bg"],
 	"news", ["pt"]
 ];
 
