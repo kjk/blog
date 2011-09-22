@@ -108,9 +108,20 @@ var gCnTrans = {
 	"Forums" : "论坛"	
 };
 
+var gSrTrans = {
+	"Home" : "Почетак",
+	"News" : "Новости",
+	"Manual" : "Упутство",
+	"Download" : "Преузимање",
+	"Contribute" : "Допринос",
+	"Translations" : "Преводи",
+	"Forums" : "Форум"	
+};
+
 var gTabTrans = {
 	"ru" : gRuTrans, "ro" : gRoTrans, "pt" : gPtTrans, "ja" : gJaTrans,
-	"es" : gEsTrans, "de" : gDeTrans, "cn" : gCnTrans, "bg" : gBgTrans
+	"es" : gEsTrans, "de" : gDeTrans, "cn" : gCnTrans, "bg" : gBgTrans,
+	"sr" : gSrTrans
 };
 
 var gLangCookieName = "forceSumLang";
@@ -126,6 +137,7 @@ var gLanguages = [
 	"pt", ["Português", "Portuguese"],
 	"ru", ["Pусский", "Russian"],
 	"ro", ["Română", "Romanian"],
+	"sr", ["Српски", "Serbian"],
 	"ja", ["日本語", "Japanese"],
 	"cn", ["简体中文", "Chinese"]
 ];
@@ -147,11 +159,11 @@ function langNativeName(lang) {
 }
 
 var gTransalatedPages = [
-	"download-free-pdf-viewer", ["ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg"],
-	"download-prev", ["de", "es", "ja", "pt", "ro"],
-	"downloadafter", ["de", "es", "ja", "pt", "ro", "bg"],
-	"free-pdf-reader", ["cn", "de", "es", "ja", "pt", "ro", "ru", "bg"],
-	"manual", ["ru", "cn", "de", "es", "ja", "pt", "ro", "ru", "bg"],
+	"download-free-pdf-viewer", ["ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg", "sr"],
+	"download-prev", ["de", "es", "ja", "pt", "ro", "sr"],
+	"downloadafter", ["de", "es", "ja", "pt", "ro", "bg", "sr"],
+	"free-pdf-reader", ["cn", "de", "es", "ja", "pt", "ro", "ru", "bg", "sr"],
+	"manual", ["ru", "cn", "de", "es", "ja", "pt", "ro", "ru", "bg", "sr"],
 	"news", ["pt"]
 ];
 
