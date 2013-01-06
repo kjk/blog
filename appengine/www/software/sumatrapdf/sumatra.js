@@ -153,11 +153,22 @@ var gEuTrans = {
 	"Forums" : "Foroak"
 };
 
+var gUzTrans = {
+	"Home" : "Bosh sahifa",
+	"Version History" : "Versiyalar tarixi",
+	"Manual" : "Qo'llanma",
+	"Download" : "Yuklab olish",
+	"Contribute" : "Ishtirok etish",
+	"Translations" : "Tarjimalar",
+	"Forums" : "Forum"
+};
+
 var gTabTrans = {
 	"ru" : gRuTrans, "ro" : gRoTrans, "pt" : gPtTrans,
 	"ja" : gJaTrans, "es" : gEsTrans, "de" : gDeTrans,
 	"fr" : gFrTrans, "cn" : gCnTrans, "bg" : gBgTrans,
-	"sr" : gSrTrans, "ka" : gKaTrans, "eu" : gEuTrans
+	"sr" : gSrTrans, "ka" : gKaTrans, "eu" : gEuTrans,
+	"uz" : gUzTrans
 };
 
 var gLangCookieName = "forceSumLang";
@@ -177,7 +188,8 @@ var gLanguages = [
 	"ro", ["Română", "Romanian"],
 	"ja", ["日本語", "Japanese"],
 	"cn", ["简体中文", "Chinese"],
-	"ka", ["ქართული ენა", "Georgian"]
+	"ka", ["ქართული ენა", "Georgian"],
+	"uz", ["O'zbek", "Uzbek"]
 ];
 
 // For ie compat, from https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array/indexOf
@@ -231,11 +243,11 @@ function langNativeName(lang) {
 }
 
 var gTransalatedPages = [
-	"download-free-pdf-viewer", ["ka", "ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg", "sr", "eu"],
-	"download-prev", ["ka", "de", "fr", "es", "ja", "pt", "ro", "sr", "eu"],
-	"downloadafter", ["ka", "de", "fr", "es", "ja", "pt", "ro", "bg", "sr", "eu"],
-	"free-pdf-reader", ["ka", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu"],
-	"manual", ["ka", "ru", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu"],
+	"download-free-pdf-viewer", ["ka", "ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
+	"download-prev", ["ka", "de", "fr", "es", "ja", "pt", "ro", "sr", "eu", "uz"],
+	"downloadafter", ["ka", "de", "fr", "es", "ja", "pt", "ro", "bg", "sr", "eu", "uz"],
+	"free-pdf-reader", ["ka", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
+	"manual", ["ka", "ru", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
 	"news", ["pt", "fr"]
 ];
 
