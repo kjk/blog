@@ -10,6 +10,8 @@
 table.shortcuts {
   color: black;
   border: 0px;
+  font-size: 90%;
+  line-height: 105%
 }
 </style>
 </head>
@@ -158,6 +160,8 @@ table.shortcuts {
 		<td>&nbsp;ändert die gelbe Hintergrundfarbe zu der im HEX-Format angegebenen Farbe (z.B. 0xffff00) *</td></tr>
 			<tr><td align="right"><b>-invert-colors</b></td>
 				<td>&nbsp;invertiert die Farben im PDF (weiß wird beispielsweise schwarz und schwarz wird weiß).</td></tr>
+			<tr><td align="right"><b>-manga-mode $mode</b></td>
+				<td>&nbsp;Erlaubt Anzeige von Manga comics. $mode darf folgende Werte annehmen 1, true, 0, false</td></tr>
 		</table>
 
 		<p>* Hinweis: Die <b>-esc-to-exit</b> und <b>-bgcolor</b> Einstellung wir in der Einstellungsdatei gespeichert, muss also nur einmalig angegeben werden.
@@ -194,11 +198,6 @@ Um die Einstellungen zurückzusetzen kann man die Datei sumatrapdfprefs.dat lös
 		<p><b>Firefox</b></p>
 		<p>
 			Man muss die PDF plugins anderer Programme (z.B. Adobe Reader oder Foxit) deaktivieren, wenn sie installiert sind. Dazu nutzt man den <b>Add-ons-Manager</b> und wechselt bei diesem zum Abschnitt <b>Plugins</b>. Dort aktiviert man das Sumatra PDF plugin und deaktiviert die anderen PDF plugins.
-		</p>
-
-		<p><b>Bekannte Probleme mit dem Firefox plugin</b></p>
-		<p>
-			In einigen Fällen (Wenn das Foxit Plugin bereits installiert war), funktioniert das Sumatra Plugin auch dann nicht, wenn die anderen PDF Plugins deaktiviert sind. Dieses Problem wurde in Firefox 4.0 behoben.
 		</p>
 
 		<p><b>Chrome</b></p>
@@ -259,6 +258,9 @@ Um die Einstellungen zurückzusetzen kann man die Datei sumatrapdfprefs.dat lös
 
 		<p>Ausfüllen von interaktiven Formularen und Hinzufügen von Kommentaren ist nicht eingebaut.</p>
 
+		<h2 id="more-docs">Ausführlichere Dokumentation</h2>
+
+		<p>Eine ausführlichere Dokumentation (auf englisch) ist zu finden unter <a href="http://code.google.com/p/sumatrapdf/">this page</a>.</p>
   </div>
 </div>
 
