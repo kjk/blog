@@ -114,6 +114,16 @@ var gFrTrans = {
 	"Forums" : "Forum"
 };
 
+var gHrTrans = {
+	"Home" : "Početna",
+	"Version History" : "Povijest verzija",
+	"Manual" : "Priručnik",
+	"Download" : "Preuzimanje",
+	"Contribute" : "Sudjelovanje",
+	"Translations" : "Prijevod",
+	"Forums" : "Forum"
+};
+
 var gCnTrans = {
 	"Home" : "主页",
 	"Version History" : "新闻",
@@ -167,9 +177,10 @@ var gUzTrans = {
 var gTabTrans = {
 	"ru" : gRuTrans, "ro" : gRoTrans, "pt" : gPtTrans,
 	"ja" : gJaTrans, "es" : gEsTrans, "de" : gDeTrans,
-	"fr" : gFrTrans, "cn" : gCnTrans, "bg" : gBgTrans,
-	"sr" : gSrTrans, "ka" : gKaTrans, "eu" : gEuTrans,
-	"uz" : gUzTrans
+	"fr" : gFrTrans, "hr" : gHrTrans, "cn" : gCnTrans,
+	"bg" : gBgTrans, "sr" : gSrTrans, "ka" : gKaTrans,
+	"eu" : gEuTrans, "uz" : gUzTrans
+	
 };
 
 var gLangCookieName = "forceSumLang";
@@ -184,6 +195,7 @@ var gLanguages = [
 	"es", ["Español", "Spanish"],
 	"eu", ["Euskara", "Basque"],
 	"fr", ["Français", "French"],
+	"hr", ["Hrvatski", "Croatian"],
 	"pt", ["Português", "Portuguese"],
 	"ru", ["Pусский", "Russian"],
 	"ro", ["Română", "Romanian"],
@@ -244,11 +256,11 @@ function langNativeName(lang) {
 }
 
 var gTransalatedPages = [
-	"download-free-pdf-viewer", ["ka", "ru", "cn", "de", "es", "fr", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
-	"download-prev", ["ka", "de", "fr", "es", "ja", "pt", "ro", "sr", "eu", "uz"],
-	"downloadafter", ["ka", "de", "fr", "es", "ja", "pt", "ro", "bg", "sr", "eu", "uz"],
-	"free-pdf-reader", ["ka", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
-	"manual", ["ka", "ru", "cn", "de", "fr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
+	"download-free-pdf-viewer", ["ka", "ru", "cn", "de", "es", "fr", "hr", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
+	"download-prev", ["ka", "de", "fr", "hr", "es", "ja", "pt", "ro", "sr", "eu", "uz"],
+	"downloadafter", ["ka", "de", "fr", "hr", "es", "ja", "pt", "ro", "bg", "sr", "eu", "uz"],
+	"free-pdf-reader", ["ka", "cn", "de", "fr", "hr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
+	"manual", ["ka", "ru", "cn", "de", "fr", "hr", "es", "ja", "pt", "ro", "ru", "bg", "sr", "eu", "uz"],
 	"news", ["pt", "fr"]
 ];
 
