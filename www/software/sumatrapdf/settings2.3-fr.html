@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Personnalisation de SumatraPDF</title>
+    <style type="text/css">
+body {
+	font-size: 90%;
+	background-color: #f5f5f5;
+}
+
+.desc {
+	padding: 0px 10px 0px 10px;
+}
+
+.txt1 {
+	/* bold doesn't look good in the fonts above */
+	font-family: Monaco, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Lucida Console', monospace;
+	font-size: 88%;
+	color: #800; /* this is brown */
+}
+
+.txt2 {
+	font-family: Verdana, Arial, sans-serif;
+	font-family: serif;
+	font-size: 90%;
+	font-weight: bold;
+	color: #800; /* this is brown */
+}
+
+.txt {
+	font-family: serif;
+	font-size: 95%;
+	font-weight: bold;
+	color: #800; /* this is brown */
+	color: #000;
+	background-color: #ececec;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, .15) 3px 3px 4px;
+	-webkit-box-shadow: rgba(0, 0, 0, .15) 3px 3px 4px;
+	padding: 10px 10px 10px 20px;
+}
+
+.cm {
+	color: #800;   /* this is brown, a bit aggressive */
+	color: #8c8c8c; /* this is gray */
+	color: #555; /* this is darker gray */
+	font-weight: normal;
+}
+
+/* TODO: make this prettier */
+.adv {
+	background-color: #ffffec;
+}
+</style> </head>
+  <body>
+    <div class="desc">
+      <h2>Personnalisation de SumatraPDF</h2>
+      <p>On peut changer l'aspect et le comportement de <a href="http://blog.kowalczyk.info/software/sumatrapdf/">SumatraPDF</a>
+        en éditant le fichier <code>SumatraPDF-settings.txt</code>. Le fichier
+        est sauvegardé dans le répertoire <code>%APPDATA%\SumatraPDF</code>
+        pour la version installée ou dans le même répertoire que <span style="font-family: monospace;">l'exécutable
+          </span><code>SumatraPDF.exe</code> executable pour la version
+        portable.</p>
+      <p>Utiliser l'option de menu <code>Préférences -&gt; Options avancées...</code>
+        pour ouvrir le fichier de configuration avec l'éditeur de texte par
+        défaut.</p>
+      <p>Le fichier est un simple fichier texte. Ci-dessous, une explication de
+        la signification des différents paramètres, et leur valeur par défaut.</p>
+      <p>Les paramètres en surbrillance ne peuvent être changés dans l'interface
+        utilisateur. La modification des autres paramètres directement dans ce
+        fichier n'est pas recommandé.</p>
+      <p>Pour ajouter ou supprimer des lignes comportant des crochets droits, <b>bien
+          s'assurer de toujours ajouter ou supprimer les crochets droits par
+          paires !</b> Faute de quoi, on risque de perdre toutes le données qui
+        les suivent.</p>
+    </div>
+    <pre class="txt"><div><span class="cm">la <a href="#color">couleur</a> de la fenêtre sans document, jaune traditionnellement </span>
+MainWindowBackground = #fff200
+
+<span class="cm">si fixé à ‘true’, la touche Echap ferme SumatraPDF</span>
+EscToExit = false
+
+<span class="cm">si ‘true’, les fichiers sont toujours ouverts dans le processus SumatraPDF en cours</span>
+
+<span class="cm"><br>options de personnalisation de l'interface utilisateur des fichiers PDF, XPS, DjVu and PostScript</span>
+FixedPageUI [
+    <span class="cm">valeur hexadécimale de la <a href="#color">couleur</a> de remplacement du noir (texte)</span>
+    TextColor = #000000
+
+    <span class="cm">valeur hexadécimale de la <a href="#color">couleur</a> de remplacement du blanc (arrière-plan)</span>
+    BackgroundColor = #ffffff
+
+    <span class="cm">marges haute, droite, du bas et gauche (dans cet ordre) entre la fenêtre et le document</span>
+    WindowMargin = 2 4 2 4
+
+    <span class="cm">distance horizontale et verticale entre deux pages dans les modes « double page » et «comme un livre »</span>
+    PageSpacing = 4 4
+
+    <span class="cm">les <a href="#color">couleurs</a> à utiliser pour un dégradé depuis le haut jusqu'au bas (des arrêts seront insérés dans tout le document à intervalles réguliers) ; pour l'instant, seulement trois couleurs au maximum sont supportées  ;  
+    l'idée derrière cette fonction expérimentale est que l'arrière-plan permettrait d'influer sur l'avancement de la lecture ;</span><span
+class="cm"> valeurs suggérées : #2828aa #28aa28 #aa2828</span>
+    GradientColors =
+]
+
+<span class="cm">options de personnalisation de l'interface utilisateur des livres numériques (EPUB, Mobi, FictionBook). Si UseFixedPageUI est  fixé à ‘true’, 
+ce sont les paramètres de FixedPageUI qui s'appliquent<span style="font-weight: bold;"> </span></span>
+EbookUI [
+    <span class="cm">l'utilisation de la police prend effet à la réouverture du document</span>
+    FontName = Georgia
+
+    <span class="cm">la taille  de la police prend effet à la réouverture du document</span>
+    FontSize = 12.5
+
+    <span class="cm"><a href="#color">couleur</a> du text</span>e
+    TextColor = #5f4b32
+ 
+    <span class="cm"><a href="#color">couleur</a> de l'arrière plan (page)</span>
+    BackgroundColor = #fbf0d9
+
+    <span class="cm">si ‘true’ l'interface utilisateur des documents PDF est utilisée aussi pour les livres numériques (permet impression et 
+    recherche, désactive la recomposition automatique)<span style="font-weight: bold;"></span></span><br>    UseFixedPageUI = false
+]
+
+<span class="cm">options de personnalisation de l'interface utilisateur des bandes dessinées et des images</span>
+ComicBookUI [
+    <span class="cm">marges haute, droite, du bas et gauche (dans cet ordre) entre la fenêtre et le document</span>
+    WindowMargin = 0 0 0 0
+
+    <span class="cm">distance horizontale et verticale entre deux pages dans les modes « double page » et « comme un livre »</span>
+    PageSpacing = 4 4
+
+    <span style="color: #555555;"></span><span class="cm">si fixé à  ‘true’, les bandes dessinées s'affichent par défaut en mode « manga »  (de droite à gauche pour l'affichage <br>    simultané de 2 pages )</span>
+    CbxMangaMode = false
+]
+
+<span class="cm">options de personnalisation de l'interface utilisateur des fichiers CHM. Si UseFixedPageUI est fixé à ‘true’, ce sont les paramètres de FixedPageUI qui s'appliquent</span>
+ChmUI [
+    <span class="cm">si ‘true’ l'interface utilisateur des documents PDF est utilisée aussi pour les documents CHM</span>
+    UseFixedPageUI = false
+]
+
+<span class="cm">liste de visionneuses externes supplémentaires pour divers types de fichiers (possiblement, entrées multiples pour le même 
+format)</span>
+ExternalViewers [
+  [
+    <span class="cm">ligne de commande permettant d'appeler la visionneuse externe ; peut contenir les paramètres %p pour le numéro de  pagee t %1 pour 
+    le nom du fichier</span>
+    CommandLine =
+
+    <span class="cm">nom de la visionneuse externe à afficher dans le menu (déduit de la ligne de commande si laissé vide)</span>
+    Name =
+
+    <span class="cm">filtre des types de fichiers pour lesquels l'option de menu est affichée (p. ex. "*.pdf;*.xps" ; "*" si laissé vide)</span>
+    Filter =
+  ]
+]
+
+<span class="cm">niveaux de zoom successifs appliqués ; toutes les valeurs doivent être comprises entre 8.33 et 6400</span>
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+
+<span class="cm">facteur de zoom en pourcentage du niveau det zoom courant. Si 0 ou négatif, les valeurs de 
+ZoomLevels sont utilisées</span>
+ZoomIncrement = 0
+
+<span class="cm">ces paramètres remplacent sur les valeurs par défaut de la boîte de dialogue  Imprimer…</span>
+PrinterDefaults [
+    <span class="cm">valeur par défaut de mise à l'échelle (shrink, fit, none)</span>
+    PrintScale = shrink
+
+    <span class="cm">valeur par défaut de l'option de compatibilité</span>
+    PrintAsImage = false
+]
+
+<span class="cm">options de personnalisation pour l'affichage des résultats de la recherche directe (depuis les éditeurs LaTeX)</span>
+ForwardSearch [
+    <span class="cm">fixé à une valeur positive, le style de mise en valeur du résultat de la recherche directe est changé en un rectangle 
+    à gauche de la page (à la distance indiquée de la marge gauche)</span>
+    HighlightOffset = 0
+
+    <span class="cm">largeur du rectangle de mise en valeur (si HighlightOffset  &gt; 0)</span>
+    HighlightWidth = 15
+
+    <span class="cm"><a href="#color">couleur</a> de mise en valeur de la recherche directe</span>
+    HighlightColor = #ff8165
+
+    <span class="cm">si fixé à ‘true’, la mise en valeur reste visible jusqu'au clic suivant de la souris (au lieu qu'elle s'évanouisse 
+    immédiatement)</span>
+    HighlightPermanent = false
+]
+</div>
+<span class="cm">si fixé à ‘true’, les paramètres d'affichage sont sauvegardés par document (c.-à-d. tout ce qui suit  
+UseDefaultState dans FileStates)</span>
+RememberStatePerDocument = true
+
+<span class="cm"><a href="langs.html">code ISO</a> de la langue actuelle de l'interface utilisateur</span>
+UiLanguage =
+
+<span class="cm">si fixé à ‘true’, la barre d'outils s'affiche dans le haut de la fenêtre</span>
+ShowToolbar = true
+
+<span class="cm">si fixé à ‘true’, la  barre latérale des Favoris s'affiche</span>
+ShowFavorites = false
+
+<span class="cm">liste d'extensions auxquelles SumatraPDF est associé et sera de nouveau associé si une autre 
+application les a prises en charge (p. ex. ".pdf .xps .epub")</span>
+AssociatedExtensions =
+
+<span class="cm">si les associations de fichiers doivent être corrigées automatiquement ou seulement sur demande de l'utilisateur</span>
+AssociateSilently = false
+
+<span class="cm">si fixé à ‘true’,  l'existence d'une mise à jour est faite quotidiennement</span>
+CheckForUpdates = true
+
+<span class="cm">ne plus demander à effectuer la mise à jour vers cette version</span>
+VersionToSkip =
+
+<span class="cm">si fixé à ‘true’, se rappelle les fichiers ouverts et leurs paramètres d'affichage</span>
+RememberOpenedFiles = true
+
+<span class="cm">si fixé à ‘true’, utilise les <a href="#color">couleurs</a> système Windows pour les couleurs de texte  et d'arrière-plan. Prévaut sur les autres paramétrages</span>
+UseSysColors = false
+
+<span class="cm">motif de commande utilisé pour lancer l'éditeur LaTeX lors de la recherche inverse</span>
+InverseSearchCmdLine =
+
+<span class="cm">si fixé à ‘true’, la commande de recherche inverse avec SyncTeX est affichée dans le menu Préférences -&gt; Options</span>
+EnableTeXEnhancements = false
+
+<span class="cm">affichage par défaut. Valeurs possibles  : automatic, single page, facing, book view, continuous, 
+continuous facing, continuous book view</span>
+DefaultDisplayMode = automatic
+
+<span class="cm">zoom par défaut (en %) ou l'une de ces valeurs: fit page, fit width, fit content</span>
+DefaultZoom = fit page
+
+<span class="cm">état par défaut de la fenêtre. 1 est  ‘normal’, 2 est ‘maximisé’, 3 est ‘plein écran’, 4 est ‘minimisé</span>’
+WindowState = 1
+
+<span class="cm">position par défault (x, y) et dimensions (largeur, hauteur) de la fenêtre</span>
+WindowPos = 0 0 0 0
+
+<span class="cm">si fixé à ‘true’, la </span><span class="cm"><span class="cm">table des matières</span>  (</span><span
+class="cm">barre latérale des signets</span><span class="cm">) s'affiche si elle est présente dans le document</span><br>ShowToc = true
+
+<span class="cm">largeur de la barre latérale des signets/favoris (si elle est affichée)</span>
+SidebarDx = 0
+
+<span class="cm">si les parties favoris et signets de la barre latérale sont affichées, hauteur de la partie signets (table 
+des matières)</span>
+TocDy = 0
+
+<span class="cm">si fixé à ‘true’, affichage d'une liste de documents lus fréquemment  tant qu'aucun document n'est chargé</span>
+ShowStartPage = true
+
+<span class="cm">renseignements sur les fichiers ouverts (dans l'ordre de plus récente utilisation)</span>
+FileStates [
+  [
+    <span class="cm">chemin d'accès au document</span>
+    FilePath =
+
+    <span class="cm">Valeurs conservées dans les signets/favoris</span>
+    Favorites [
+      [
+        <span class="cm">nom de ce favori apparaissant dans le menu</span>
+        Name =
+
+        <span class="cm">numéro de la page mise en signet</span>
+        PageNo = 0
+
+        <span class="cm">étiquette pour cette page (présente uniquement si les numéros de page logique et physique diffèrent)</span>
+        PageLabel =
+      ]
+    ]
+
+    <span class="cm">un document peut être « punaisé » dans la liste des documents fréquemment lus de façon qu'il ne soit pas déplacé par les documents  
+    </span><span class="cm"><span class="cm">ouverts récemment</span></span>
+    IsPinned = false
+
+    <span class="cm">si fixé à ‘true’, le fichier est considéré comme inexistant et ne s'affichera plus dans aucune liste</span>
+    IsMissing = false
+
+    <span class="cm">nombre de fois que ce document a été ouvert récemment</span>
+    OpenCount = 0
+
+    <span class="cm">donnée requise pour ouvrir un document protégé par mot de passe, sans avoir à redemander le mot de passe</span>
+    DecryptionKey =
+
+    <span class="cm">si fixé à ‘true’, les valeurs par défaut globales sont utilisées à l'ouverture du fichier (plutôt que les valeurs ci-dessous)</span>
+    UseDefaultState = false
+
+    <span class="cm">affichage des  pages. Valeurs autorisées : automatic, single page, facing, book view, continuous, continuous 
+    facing, continuous book view</span>
+    DisplayMode = automatic
+
+    <span class="cm">position atteinte en faisant défiler le document (dans les directions x et y)</span>
+    ScrollPos = 0 0
+
+    <span class="cm">numéro de la dernière page lue</span>
+    PageNo = 1
+
+    <span class="cm">zoom (en %) ou l'une de ces valeurs: fit page, fit width, fit content</span>
+    Zoom = fit page
+
+    <span class="cm">de quel multiple de 90 degrés les pages ont été tournées</span>
+    Rotation = 0
+
+    <span class="cm">état de la fenêtre. 1 est ‘normal’, 2 est ‘maximisé’, 3 est ‘plein écran’, 4 est ‘minimisé’</span>
+    WindowState = 0
+
+    <span class="cm">position par défaut (valable sur n'importe quel moniteur)</span>
+    WindowPos = 0 0 0 0
+
+    <span class="cm">si fixé à ‘true’, affichage de la barre latérale de table des matières (signets) si elle est présente dans le document</span>
+    ShowToc = true
+
+    <span class="cm">largeur du panneau latéral contenant la table des matières</span>
+    SidebarDx = 0
+
+    <span class="cm">si fixé à ‘true’, le document est affiché de droite à gauche dans les modes ‘double page’et ‘comme un livre’ (utilisé uniquement 
+    pour les bandes dessinées)</span>
+    DisplayR2L = false
+
+    <span class="cm">donnée requise pour rouvrir un livre numérique à la dernière page lue</span>
+    ReparseIdx = 0
+
+    <span class="cm">donnée requise pour déterminer quelles parties de la table des matières ont été développées</span>
+    TocState =
+  ]
+]
+
+<span class="cm">données requises pour déterminer quand SumatraPDF a vérifié l'existence de  mises à jour <br>pour la dernière fois</span>
+TimeOfLastUpdateCheck = 0 0
+
+<span class="cm">valeur requise pour  déterminer la récence pour la valeur de OpenCount dans FileStates</span>
+OpenCountWeek = 0
+</pre>
+    <div class="desc">
+      <h3 id="color">Syntaxe pour les valeurs des&nbsp; couleurs</h3>
+      <p>La syntaxe pour les couleurs est : <code>#rrggbb</code>.</p>
+      <p>Les composantes sont des valeurs hexadécimales (dans la plage 00 ...
+        FF), qui représentent :<br>
+      </p>
+      <p> </p>
+      <ul>
+        <li><code>rr</code> : la composante rouge</li>
+        <li><code>gg</code> : la composante verte</li>
+        <li><code>bb</code> : la composante bleue</li>
+      </ul>
+      Par exemple, #ff0000 signifie : « couleur rouge ». Vous pouvez utiliser <a
+        href="http://www.colorpicker.com/">Color Picker</a> or <a href="http://colorschemedesigner.com/">ColorScheme
+        Designer</a> pour choisir une couleur. </div>
+  </body>
+</html>

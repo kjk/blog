@@ -1,305 +1,428 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Language" content="fr">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="keywords" content="pdf, epub, mobi, chm, cbr, cbz, xps, djvu, reader, viewer" />
-  <meta name="description" content="Sumatra PDF reader and viewer for Windows" />
-<title>Manuel pour Sumatra PDF reader</title>
-<style type="text/css">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="fr">
+    <meta name="keywords" content="pdf, epub, mobi, chm, cbr, cbz, xps, djvu, reader, viewer">
+    <meta name="description" content="Sumatra PDF reader and viewer for Windows">
+    <title>Manuel pour Sumatra PDF reader</title>
+    <style type="text/css">
 table.shortcuts {
   color: black;
   border: 0px;
 }
-</style>
-<link rel="stylesheet" href="sumatra.css" type="text/css" />
-
-</head>
-<body>
-
-<script type="text/javascript" src="sumatra.js"></script>
-
-<div class="gooad">
-<script type="text/javascript">adData();</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-</div>
-
-<div id="container">
-<div id="banner">
-
-<h1 style="display:inline;">Sumatra PDF <font size="-1">est un lecteur PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CBR pour Windows</font></h1>
-<script type="text/javascript">document.write(langsNavHtml());</script>
-
-<script type="text/javascript">document.write(navHtml());</script>
-</div>
-
-<div id="center">
-  <div class="content">
-    <h2 id="manual-keyboard">Raccourcis clavier</h2>
-
-    <table style="font-size: 90%; line-height: 105%">
-      <tr>
-        <td valign="top">
-          <table class="shortcuts">
-            <tr><td></td><td><b>Navigation</b></td></tr>
-            <tr><td align="right"><b>Bouton droit de la souris</b></td>
-                <td>&nbsp;D&eacute;filement</td></tr>
-            <tr><td align="right"><b>j/k</b>, <b>fl&egrave;che Haut/Bas</b></td>
-                <td>&nbsp;d&eacute;filement haut/bas ligne &agrave; ligne</td></tr>
-            <tr><td align="right"><b>Barre d'espace</b></td>
-                <td>&nbsp;Une page &eacute;cran vers le bas</td></tr>
-            <tr><td align="right"><b>&lt;Shift&gt;</b> + <b>space</b></td>
-              <td>&nbsp;Une page &eacute;cran vers le haut</td></tr>
-            <tr><td align="right"><b>n/p</b>, <B>&lt;Ctrl&gt; + fl&egrave;che Gauche/Droite</B></td>
-              <td>&nbsp;Page du document suivante/pr&eacute;c&eacute;dente</td></tr>
-            <tr><td align="right"><b>Page Down/Page Up</b></td>
-              <td>&nbsp;Page du document suivante/pr&eacute;c&eacute;dente</td></tr>
-            <tr><td align="right"><b>&lt;Alt&gt;</b> + <b>fl&egrave;che Gauche</b></td>
-              <td>&nbsp;Revenir</td></tr>
-            <tr><td align="right"><b>&lt;Alt&gt;</b> + <b>fl&egrave;che Droite</b></td>
-              <td>&nbsp;Avancer</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>G</b>, <b>g</b></td>
-              <td>&nbsp;go to page</td></tr>
-            <tr><td align="right"><b>Home</b></td>
-              <td>&nbsp;Premi&egrave;re page</td></tr>
-            <tr><td align="right"><b>Fin</b></td>
-              <td>&nbsp;Derni&egrave;re page</td></tr>
-            <tr><td align="right"><b>b</b></td>
-              <td>&nbsp;Page suivante en mode Livre / Double page</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>&lt;Maj&gt;</b> + <b>fl&egrave;che Gauche/Droite</b>
-              </td> <td>&nbsp;Document Pr&eacute;c&eacute;dent/Suivant<BR>dans le r&eacute;pertoire en cours</td></tr>
-            <tr><td>&nbsp;</td><td></td></tr>
-            <tr><td></td><td><b>Actions</b></td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>O</b></td>
-              <td>&nbsp;Ouvrir un nouveau document</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>W</b></td>
-              <td>&nbsp;Fermer le document en cours</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>S</b></td>
-              <td>&nbsp;Enregistrer sous...</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>P</b></td>
-              <td>&nbsp;Imprimer</td></tr>
-            <tr><td align="right"><b>r</b></td>
-              <td>&nbsp;R&eacute;ouvrir (rafra&icirc;chir)</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>F</b>, <b>/</b></td>
-              <td>&nbsp;Recherche de texte</td></tr>
-            <tr><td align="right"><b>F3</b>/<b>&lt;Maj&gt;</b> + <b>F3</b></td>
-              <td>&nbsp;Rechercher le m&ecirc;me texte avant/apr&egrave;s</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>Q</b> ou <b>q</b></td>
-              <td>&nbsp;quitter le programme</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>bouton gauche de la souris</b></td>
-              <td>&nbsp;s&eacute;lectionner du texte ou des images</td></tr>
+</style> <link rel="stylesheet" href="sumatra.css" type="text/css">
+  </head>
+  <body>
+    <script type="text/javascript" src="sumatra.js"></script>
+    <div class="gooad">
+      <script type="text/javascript">adData();</script>
+      <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    <div id="container">
+      <div id="banner">
+        <h1 style="display:inline;">Sumatra PDF <font size="-1">est un lecteur
+            PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CBR pour Windows</font></h1>
+        <script type="text/javascript">document.write(langsNavHtml());</script>
+        <script type="text/javascript">document.write(navHtml());</script> </div>
+      <div id="center">
+        <div class="content">
+          <h2 id="manual-keyboard">Raccourcis clavier</h2>
+          <table style="font-size: 90%; line-height: 110%">
+            <tbody>
+              <tr>
+                <td valign="top">
+                  <table class="shortcuts" cellspacing="15">
+                    <tbody style="height: 757.4px;">
+                      <tr valign="top">
+                        <td style="height: 12.8667px;"><br>
+                        </td>
+                        <td><b>Navigation</b></td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>Bouton droit de la souris</b></td>
+                        <td> Défilement</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>j/k</b>, <b>flèche Haut/Bas</b></td>
+                        <td> Défilement haut/bas ligne à ligne</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>Barre d'espace</b></td>
+                        <td> Une page écran vers le bas</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Maj&gt;</b> + <b>Barre
+                            d'espace</b></td>
+                        <td> Une page écran vers le haut</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>n/p</b>, <b>&lt;Ctrl&gt; + flèche
+                            Gauche/Droite</b></td>
+                        <td>Page du document suivante/précédente</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>Page Down/Page Up</b></td>
+                        <td> Page du document suivante/précédente</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Alt&gt;</b> + <b>flèche Gauche</b></td>
+                        <td> Revenir</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Alt&gt;</b> + <b>flèche Droite</b></td>
+                        <td> Avancer</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>G</b>, <b>g</b></td>
+                        <td> Aller à la (go to) page</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>Home</b></td>
+                        <td> Première page</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>Fin</b></td>
+                        <td> Dernière page</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>b</b></td>
+                        <td> Page suivante en mode ‘livre’/‘double page’S</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>&lt;Maj&gt;</b>
+                          + <b>flèche Gauche/Droite</b> </td>
+                        <td> Document précédent/suivant<br>
+                          dans le répertoire en cours</td>
+                      </tr>
+                      <tr>
+                        <td <="" td=""> <br>
+                        </td>
+                        <td style="height: 12.2833px;"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><br>
+                        </td>
+                        <td><b>Actions</b></td>
+                      </tr>
+                      <tr valign="top ">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>O</b></td>
+                        <td> Ouvrir un nouveau document</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>W</b></td>
+                        <td> Fermer le document en cours</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>S</b></td>
+                        <td> Enregistrer sous...</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>P</b></td>
+                        <td> Imprimer</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>r</b></td>
+                        <td> Rouvrir (rafraîchir)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>F</b>, <b>/</b></td>
+                        <td> Recherche de texte</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>F3</b> / <b>&lt;Maj&gt;</b>+<b>F3</b></td>
+                        <td> Rechercher le même texte avant/après</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>Q</b> ou <b>q</b></td>
+                        <td> Quitter le programme</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>bouton
+                            gauche de la souris</b></td>
+                        <td> Sélectionner du texte ou des images</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td valign="top">
+                  <table class="shortcuts" cellspacing="15">
+                    <tbody>
+                      <tr>
+                        <td><br>
+                        </td>
+                        <td><b style="">Visualisation</b></td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>+</b>, <b>-</b></td>
+                        <td> Agrandir/Réduire (zoom in/out)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>molette de
+                            la souris</b></td>
+                        <td> Agrandir/Réduire (zoom in/out)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>z</b></td>
+                        <td> Bascule entre les modes Page entière,<br>
+                          Pleine largeur et Ajuster au contenu</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>c</b></td>
+                        <td> Bascule entre les modes ‘vue continue’/‘vue
+                          discontinue’</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt; &lt;Maj&gt; -/+</b></td>
+                        <td> Rotation sur la gauche/droite</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>F12</b></td>
+                        <td> Afficher/Masquer la table des matières</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>F6</b> </td>
+                        <td> Bascule entre les fenètres table des matières et
+                          page</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>L</b> ou <b>F11</b></td>
+                        <td> Activer/Désactiver le mode ‘présentation’</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Maj&gt;</b> + <b>F11</b></td>
+                        <td> Activer/Désactiver le mode ‘plein écran’</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Ctrl&gt; &lt;Maj&gt;</b> + <b>L</b></td>
+                        <td> Activer/Désactiver le mode ‘plein écran’</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>&lt;Echap&gt;</b></td>
+                        <td> Sortie des modes ‘plein écran’ ou ‘présentation’</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>.</b> </td>
+                        <td> En mode ‘présentation’, change l'arrière-plan en
+                          noir</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>w</b> </td>
+                        <td> En mode ‘présentation’, change l'arrière-plan en
+                          blanc</td>
+                      </tr>
+                      <tr valign="top">
+                        <td align="right"><b>i</b> </td>
+                        <td>En mode ‘plein écran’ ou ‘présentation’<br>
+                          affiche l'information de page en cours</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
           </table>
-        </td>
-        <td>&nbsp;&nbsp;&nbsp;</td>
-        <td valign="top">
-          <table class="shortcuts">
-            <tr><td></td><td><b>Visualisation</b></td></tr>
-            <tr><td align="right"><b>+</b>, <b>-</b></td>
-              <td>&nbsp;Agrandir/R&eacute;duire (zoom in/out)</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>molette de la souris</b></td>
-              <td>&nbsp;Agrandir/R&eacute;duire (zoom in/out)</td></tr>
-            <tr><td align="right"><b>z</b></td>
-              <td>&nbsp;Bascule entre modes Page enti&egrave;re,<BR>Pleine largeur et Ajuster au contenu</td></tr>
-            <tr><td align="right"><b>c</b></td>
-              <td>&nbsp;Bascule mode Vue continue/discontinue</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt; &lt;Shift&gt; -/+</b></td>
-              <td>&nbsp;Rotation sur la Gauche/Droite</td></tr>
-            <tr><td align="right"><b>F12</b></td> 
-                <td>&nbsp;Afficher/Masquer la Table des mati&egrave;re</td></tr>
-            <tr><td align="right"><b>F6</b>
-              </td> <td>&nbsp;Bascule entre fen&egrave;tres Table des mati&egrave;re et Page</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt;</b> + <b>L</b> ou <b>F11</b></td>
-                <td>&nbsp;Activer/D&eacute;sactiver le mode Pr&eacute;sentation</td></tr>
-            <tr><td align="right"><b>&lt;Shift&gt;</b> + <b>F11</b></td>
-                <td>&nbsp;Activer/D&eacute;sactiver le mode Plein &eacute;cran</td></tr>
-            <tr><td align="right"><b>&lt;Ctrl&gt; &lt;Shift&gt;</b> + <b>L</b></td>
-                <td>&nbsp;Activer/D&eacute;sactiver le mode Plein &eacute;cran</td></tr>
-            <tr><td align="right"><b>&lt;Esc&gt;</b></td>
-                <td>&nbsp;Sortie des modes Plein &eacute;cran ou Pr&eacute;sentation</td></tr>
-            <tr><td align="right"><b>.</b>
-              </td> <td>&nbsp;en mode Pr&eacute;sentation, change l'arri&egrave;re-plan en noir</td></tr>
-            <tr><td align="right"><b>w</b>
-              </td> <td>&nbsp;en mode Pr&eacute;sentation, change l'arri&egrave;re-plan en blanc</td></tr>
-            <tr><td align="right"><b>i</b>
-              </td> <td>&nbsp;en modes Plein &eacute;cran ou Pr&eacute;sentation<BR>affiche l'information de page en cours</td></tr>
+          <h2 id="advanced-settings"><br>
+          </h2>
+          <h2 id="advanced-settings">Options avancées</h2>
+          <p> Depuis la version 2.3, SumatraPDF peut être grandement
+            personnalisé en éditant le <a href="settings-fr.html">fichier de
+              configuration </a>. </p>
+          <h2 id="manual-cmd-line">Paramètres de la ligne de commandes</h2>
+          Pour une documentation plus complète, lire <a href="http://code.google.com/p/sumatrapdf/wiki/CommandLineArguments">cette
+            page (en anglais)</a>.
+          <p> Paramètres&nbsp;: </p>
+          <table class="shortcuts" style="font-size:90%,line-height:110%" cellspacing="15">
+            <tbody>
+              <tr valign="top">
+                <td align="right"><b>-page $numpage</b></td>
+                <td>Ouvre le document à la page spécifiée</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-named-dest $dest</b></td>
+                <td>Ouvre le document à la page de la destination (dans un
+                  document PDF, équivalent d'un signet)</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-lang $language</b></td>
+                <td>Sélection de la langue pour l'interface utilisateur. <br>
+                  $language est un code de deux lettres, p. ex. "en", "fr" (Voir
+                  la <a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/strings/index.tsv?r=7174">liste
+                    des codes)</a></td>
+              </tr>
+              <!--
+      <tr><td align="right"><b>-title $title</b></td>        <td>&nbsp;set the window title</td></tr>-->
+              <tr valign="top">
+                <td align="right"><b>-restrict</b></td>
+                <td>Démarrer en <a href="#manual-restricted">mode restreint</a>.</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-reuse-instance</b></td>
+                <td>Utilise le programme en cours d'exécution au lieu de lancer
+                  une nouvelle instance</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-presentation $file.pdf</b></td>
+                <td>Ouvre un fichier PDF en mode présentation (plein écran)</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-register-for-pdf</b></td>
+                <td>Le programme définit Sumatra comme lecteur PDF par défaut
+                  puis se termine</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-esc-to-exit</b></td>
+                <td>La touche Echap est définie comme touche de sortie du
+                  programme.<br>
+                  À n'utiliser qu'une fois, après cela le changement est
+                  enregistré dans le fichier de paramètres</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-bg-color $color</b></td>
+                <td>Change la couleur d'arrière-plan jaune en celle passée en
+                  paramètre.<br>
+                  $color est une valeur au format hexadécimal (p. ex. 0xffff00)</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-invert-colors</b></td>
+                <td>Inverse les couleurs dans le document PDF (p. ex. le blanc
+                  devient noir, et le noir devient blanc).</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-manga-mode $mode</b></td>
+                <td>Permet l'affichage des mangas. $mode accepte les valeurs
+                  suivantes&nbsp;: 1, true, 0, false</td>
+              </tr>
+            </tbody>
           </table>
-        </td>
-      </tr>
-    </table>
-    <p></p>
-
-    <h2 id="manual-cmd-line">Param&egrave;tres de la ligne de commandes</h2>
-
-    Pour une documentation plus compl&egrave;te, lire <a href="http://code.google.com/p/sumatrapdf/wiki/CommandLineArguments">cette page (en anglais)</a>.
-
-    <p>
-    Param&egrave;tres&nbsp;:
-    <table class="shortcuts">
-      <tr><td align="right"><b>-page $numpage</b></td>
-        <td>&nbsp;Ouvre le document &agrave; la page sp&eacute;cifi&eacute;e</td></tr>
-      <tr><td align="right"><b>-named-dest $dest</b></td>
-        <td>&nbsp;ouvre le document &agrave; la page de la destination (dans un document PDF, &eacute;quivalent d'un signet)</td></tr>
-      <tr><td align="right"><b>-lang $language</b></td>
-        <td>&nbsp;S&eacute;lection de la langue pour l'interface utilisateur. <BR>$language est un code de deux lettres, p. ex. "en", "de" (Voir la <a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/strings/index.tsv">liste des codes</a></td></tr>
-
-<!--
-      <tr><td align="right"><b>-title $title</b></td>
-        <td>&nbsp;set the window title</td></tr>
--->
-
-      <tr><td align="right"><b>-restrict</b></td>
-        <td>&nbsp;D&eacute;marrer en <a href="#manual-restricted">mode restreint</a>.</td></tr>
-      <tr><td align="right"><b>-reuse-instance</b></td>
-        <td>&nbsp;Utilise le programme en cours d'ex&eacute;cution au lieu de lancer une nouvelle instance</td></tr>
-      <tr><td align="right"><b>-presentation $file.pdf</b></td>
-        <td>&nbsp;Ouvre un fichier PDF en mode pr&eacute;sentation (plein &eacute;cran)</td></tr>
-      <tr><td align="right"><b>-register-for-pdf</b></td>
-        <td>&nbsp;Le programme d&eacute;finit Sumatra comme lecteur PDF par d&eacute;faut puis se termine</td></tr>
-      <tr><td align="right"><b>-esc-to-exit</b></td>
-        <td>&nbsp;La touche ESC est d&eacute;finie comme touche de sortie du programme.<BR>&Agrave; n'utiliser qu'une fois, apr&egrave;s cela le changement est enregistr&eacute; dans le fichier de param&egrave;tres</td></tr>
-      <tr><td align="right"><b>-bg-color $couleur</b></td>
-        <td>&nbsp;change la couleur d'arri&egrave;re-plan jaune en celle pass&eacute;e en param&egrave;tre.<BR>$couleur est une valeur au format hexad&eacute;cimal (p. ex. 0xffff00)</td></tr>
-      <tr><td align="right"><b>-invert-colors</b></td>
-        <td>&nbsp;Inverse les couleurs dans le document PDF (p. ex. le blanc devient noir, et le noir devient blanc).</td></tr>
-
-    </table>
-    </p>
-  
-    <p>Note: les options <b>-esc-to-exit</b> et <b>-bg-color</b> changent les valeurs par d&eacute;faut
-    et sont enregistr&eacute;es dans le fichier de param&egrave;tres sumatrapdfprefs.dat (dans le r&eacute;pertoire
-    %appdata%\SumatraPDF si install&eacute; avec le programme d'installation, sinon, dans le m&ecirc;me
-    r&eacute;pertoire que celui du programme).<BR>Pour revenir aux param&egrave;tres par d&eacute;faut, il suffit de
-    supprimer le fichier sumatrapdfprefs.dat.</p>
-
-    <p>Param&egrave;tres pour l'impression&nbsp;:
-    <table class="shortcuts">
-      <tr><td align="right"><b>-print-to-default $file.pdf</b></td>
-        <td>&nbsp;Imprime le fichier sp&eacute;cifi&eacute; sur l'imprimante par d&eacute;faut</td></tr>
-      <tr><td align="right"><b>-print-to $printer_name $file.pdf</b></td>
-        <td>&nbsp;Imprime le fichier sp&eacute;cifi&eacute; sur l'imprimante d&eacute;sign&eacute;e</td></tr>
-      <tr><td align="right"><b>-print-dialog $file.pdf</b></td>
-        <td>&nbsp;Ouvre le fichier sp&eacute;cifi&eacute; et lance la bo&icirc;te de dialogue pour le choix de l'imprimante et des options d'impression</td></tr>
-      <tr><td align="right"><b>-exit-on-print</b></td>
-        <td>&nbsp;quand -print-to-default ou -print-to est utilis&eacute;, quitte le programme &agrave; la fin de l'impression</td></tr>
-    </table>
-    </p>
-
-    <P></P>
-    <h2 id="manual-latex">Support pour la pr&eacute;visualisation de documents LaTeX</h2>
-    <p> Sumatra int&egrave;gre un support pour une pr&eacute;visualisation facile de documents LaTeX.
-        Lire <a href="http://william.famille-blum.org/blog/static.php?page=static081010-000413">cette page (en anglais)</a>
-        pour plus de d&eacute;tails et pour des instructions pr&eacute;cises sur la mani&egrave;re de configurer divers editeurs LaTeX
-        pour y int&eacute;grer les fonctionnalit&eacute;s Sumatra de pr&eacute;visualisation.
-    </p>
-
-    <P></P>
-    <h2 id="manual-browser-plugin">Plugin (module) pour navigateurs Internet</h2>
-    <p>Le programme d'installation de Sumatra inclut un plugin pour Firefox, Chrome
-      et Opera (Internet Explorer n'est pas pris en charge). Il n'est pas install&eacute; par
-      d&eacute;faut, et il vous faut donc cocher l'option durant l'installation pour l'activer.</p>
-    <p>Vous pouvez avoir besoin de configurer le navigateur aussi, activer le plugin Sumatra
-      et d&eacute;sactiver ceux des autres programmes.</p>
-
-    <p><b>Firefox</b></p>
-    <p>Vous devez d&eacute;sactiver les plugins PDF pour d'autres programmes (comme Adobe Reader ou Foxit)
-      s'ils sont install&eacute;s. Passez par le menu <b>Outils/Modules compl&eacute;mentaires</b>. Basculez sur
-      l'onglet <b>Plugins</b>, activez le plugin Sumatra PDF et d&eacute;sactivez les autres plugins PDF.</p>
-
-    <p><b>Probl&egrave;mes connus avec le plugin Firefox</b></p>
-    <p>Dans certains cas (quand le plugin Foxit est aussi d&eacute;j&agrave; install&eacute;) le plugin Sumatra ne marchera
-    pas m&ecirc;me si les autres sont d&eacute;sactiv&eacute;s. Ce probl&egrave;me a &eacute;t&eacute; r&eacute;solu avec Firefox 4.0.</p>
-
-    <p><b>Chrome</b></p>
-    <p>Les versions les plus r&eacute;centes de Chrome ont un plugin PDF pr&eacute;install&eacute;. Si vous d&eacute;sirez utiliser
-    celui de Sumatra, vous devez d&eacute;sactiver celui de Chrome (et possiblement ceux d'autres programmes,
-    comme Adobe Reader ou FoxIt Reader).</p>
-    <p>Entrez <b>about:plugins</b> dans la barre d'adresse, puis assurez-vous d'activer le plugin PDF de
-    Sumatra et de d&eacute;sactiver les autres.</p>
-
-    <p><b>Opera</b></p>
-    <ol>
-    <li>D&eacute;marrez Opera et tapez CTRL + F12</li>
-    <li>S&eacute;lectionnez l'onglet Avanc&eacute; (Advanced)</li>
-    <li>Dans la liste sur la gauche, choisissez T&eacute;l&eacute;chargements (Downloads)</li>
-    <li>Dans la bo&icirc;te de dialogue qui s'affiche, recherchez "application/pdf",<BR>
-    cliquez desssus avec le bouton droit de la souris puis s&eacute;lectionnez "Editer" (Edit)</li>
-    <li>S&eacute;lectionnez "Utiliser le plugin" (Use the plugin) en bas et choisissez "SumatraPDF Browser Plugin"</li>
-    <li>Cliquez sur "OK" puis de nouveau sur "OK". Red&eacute;marrez Opera</li>
-    </ol>
-
-
-    <h2 id="manual-restricted">D&eacute;marrer en mode restreint</h2>
-    <p>Le mode restreint est tr&egrave;s utile si vous utilisez SumatraPDF comme visualiseur par
-    d&eacute;faut pour documenter ses programmes ou en mode &laquo;kiosque&raquo; (mode pr&eacute;sentation). En mode
-    restreint, certaines actions non adapt&eacute;es &agrave; ces contextes  sont d&eacute;sactiv&eacute;es&nbsp;:</p>
-    <ul>
-      <li>Ouvrir de nouveaux fichiers</li>
-      <li>Ouvrir un page Web depuis un document PDF</li>
-      <li>S&eacute;lection d'images et de texte</li>
-      <li>Impression</li>
-      <li>Modifier les param&egrave;tres par d&eacute;faut</li>
-      <li>Enregistrer le document</li>
-      <li>V&eacute;rification automatique et manuelle des mises &agrave; jour</li>
-      <li>Historique des derniers fichiers ouverts</li>
-      <li>support de TeX</li>
-      <li>D&eacute;finir Sumatra comme lecteur PDF par d&eacute;faut</li>
-      <li>Ouvrir le document avec Adobe Acrobat</li>
-      <li>Envoyer le document PDF par email</li>
-    </ul>
-
-    <h2 id="manual-notes">Notes</h2>
-
-    <p>Si "Se rappeler ces param&egrave;tres pour chaque document" est coch&eacute; dans les options, quand
-    un document PDF est r&eacute;ouvert, Sumatra PDF ira directement &agrave; la derni&egrave;re page affich&eacute;e lors
-    de sa derni&egrave;re ouverture. Cela s'applique aussi aux documents d&eacute;j&agrave; ouverts qui ne sont pas
-    dans la liste des dix plus r&eacute;cents. Cette fonction ne s'appliquera pas &agrave; un document d&eacute;j&agrave;
-    ouvert mais qui aura &eacute;t&eacute; d&eacute;plac&eacute; entretemps.</p>
-
-    <p>Certains param&egrave;tres (p. ex. le mode plein &eacute;cran) sont enregistr&eacute;s comme param&egrave;tres par
-    d&eacute;faut m&ecirc;me quand ils n'ont pas &eacute;t&eacute; d&eacute;finis comme tels quand on quitte SumatraPDF sans
-    qu'un document soit ouvert.</p>
-
-    <h2 id="manual-limitations">Restrictions connues</h2>
-
-    <p>L'&eacute;dition de formulaires interactifs et l'ajout de commentaires ne sont pas impl&eacute;ment&eacute;s.</p>
-
-    <h2 id="more-docs">Plus de documentation</h2>
-
-    <p>Vous trouverez plus de documentation (en anglais) &agrave; partir de <a href="http://code.google.com/p/sumatrapdf/">cette page</a>.</p>
-<!--
-    <h2 id="manual-browser">Disable viewing PDF files directly in web browser (IE and Firefox)</h2>
-    Adobe Acrobat also comes with Internet Explorer and Firefox plugin
-    which makes it take over PDF files downloaded via browser and display
-    them directly in the browser. <p>This is not always a desired behaviour
-    and you can use Sumatra as the default PDF viewer in both IE and Firefox,
-    without completely uninstalling Adobe Acrobat. <p>Here are the steps (based
-    on <a href="http://notlost.blogspot.com/2007/06/switching-to-sumatra-pdf-reader.html">
-    this blog post</a>):
-    <ul>
-        <li>Launch Adobe Acrobat</li>
-        <li>Select Edit/Preferences</li>
-        <li>Select Internet</li>
-        <li>Uncheck Display PDF in browser</li>
-        <li>Click OK</li>
-        <li>Launch Sumatra PDF viewer</li>
-        <li>Select menu Setting/Options... and click "Make SumatraPDF my main PDF reader" button</li>
-    </ul>
-    <p>
-    Clicking on links to PDF documents should no longer open the
-    embedded viewer but pop up a dialog box. Select "Always perform this
-    action..." checkbox if you want Sumatra to automatically open those PDF files.</p>
--->
-<!-- link no longer seems to work
-    <p>If those instructions don't work, you can always try <a href="http://howto.helpero.com/howto/Disable-PDF-Browser-Plugin-For-Firefox_29.html">this method.</a></p>
--->
-  </div>
-</div>
-
-<hr/>
-<center><a href="/">Krzysztof Kowalczyk</a></center>
-</div>
-
-<script type="text/javascript">
+          <p>Note: les options <b>-esc-to-exit</b> et <b>-bg-color</b>
+            changent les valeurs par défaut et sont enregistrées dans le fichier
+            de paramètres sumatrapdfprefs.dat (dans le répertoire
+            %appdata%\SumatraPDF si installé avec le programme d'installation,
+            sinon, dans le même répertoire que celui du programme).<br>
+            Pour revenir aux paramètres par défaut, il suffit de supprimer le
+            fichier sumatrapdfprefs.dat.</p>
+          <p>Paramètres pour l'impression&nbsp;: </p>
+          <table class="shortcuts" style="font-size:90%,lineheight:110%" cellspacing="15">
+            <tbody>
+              <tr valign="top">
+                <td align="right"><b>-print-to-default $file.pdf</b></td>
+                <td>Imprime le fichier spécifié sur l'imprimante par défaut</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-print-to $printer_name $file.pdf</b></td>
+                <td>Imprime le fichier spécifié sur l'imprimante désignée</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-print-dialog $file.pdf</b></td>
+                <td>Ouvre le fichier spécifié et lance la boîte de dialogue pour
+                  le choix de l'imprimante et des options d'impression</td>
+              </tr>
+              <tr valign="top">
+                <td align="right"><b>-exit-on-print</b></td>
+                <td>Quand -print-to-default ou -print-to est utilisé, quitte le
+                  programme à la fin de l'impression</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 id="manual-latex"><br>
+          </h2>
+          <h2 id="manual-latex">Support pour la prévisualisation de documents
+            LaTeX</h2>
+          <p> Sumatra intègre un support pour une prévisualisation facile de
+            documents LaTeX. Lire <a href="http://william.famille-blum.org/blog/static.php?page=static081010-000413">cette
+              page (en anglais)</a> pour plus de détails et pour des
+            instructions précises sur la manière de configurer divers editeurs
+            LaTeX pour y intégrer les fonctionnalités Sumatra de
+            prévisualisation. </p>
+          <h2 id="manual-browser-plugin">Plugin (module) pour navigateurs
+            Internet</h2>
+          <p>Le programme d'installation de Sumatra inclut un plugin pour
+            Firefox, Chrome et Opera (Internet Explorer n'est pas pris en
+            charge). Il n'est pas installé par défaut, et il vous faut donc
+            cocher l'option durant l'installation pour l'activer.</p>
+          <p>Vous pouvez avoir besoin de configurer le navigateur aussi, activer
+            le plugin Sumatra et désactiver ceux des autres programmes.</p>
+          <p><b>Firefox</b></p>
+          <p>Vous devez désactiver les plugins PDF pour d'autres programmes
+            (comme Adobe Reader ou Foxit) s'ils sont installés. Passez par le
+            menu <b>Outils/Modules complémentaires</b>. Basculez sur l'onglet <b>Plugins</b>,
+            activez le plugin Sumatra PDF et désactivez les autres plugins PDF.</p>
+          <p><b>Problèmes connus avec le plugin Firefox</b></p>
+          <p>Dans certains cas (quand le plugin Foxit est aussi déjà installé),
+            le plugin Sumatra ne marchera pas même si les autres sont
+            désactivés. Ce problème a été résolu avec Firefox 4.0.</p>
+          <p><b>Chrome</b></p>
+          <p>Les versions les plus récentes de Chrome ont un plugin PDF
+            préinstallé. Si vous désirez utiliser celui de Sumatra, vous devez
+            désactiver celui de Chrome (et possiblement ceux d'autres
+            programmes, comme Adobe Reader ou FoxIt Reader).</p>
+          <p>Entrez <b>about:plugins</b> dans la barre d'adresse, puis
+            assurez-vous d'activer le plugin PDF de Sumatra et de désactiver les
+            autres.</p>
+          <p><b>Opera</b></p>
+          <ol>
+            <li>Démarrez Opera et tapez CTRL + F12</li>
+            <li>Sélectionnez l'onglet Avancé (Advanced)</li>
+            <li>Dans la liste sur la gauche, choisissez Téléchargements
+              (Downloads)</li>
+            <li>Dans la boîte de dialogue qui s'affiche, recherchez
+              "application/pdf",<br>
+              cliquez desssus avec le bouton droit de la souris puis
+              sélectionnez "Éditer" (Edit)</li>
+            <li>Sélectionnez "Utiliser le plugin" (Use the plugin) en bas et
+              choisissez "SumatraPDF Browser Plugin"</li>
+            <li>Cliquez sur "OK" puis de nouveau sur "OK". Redémarrez Opera</li>
+          </ol>
+          <h2 id="manual-restricted">Démarrer en mode restreint</h2>
+          <p>Le mode restreint est très utile si vous utilisez SumatraPDF comme
+            visualiseur par défaut pour documenter ses programmes ou en mode «
+            kiosque » (mode présentation). En mode restreint, certaines actions
+            non adaptées à ces contextes sont désactivées&nbsp;:</p>
+          <ul>
+            <li>Ouvrir de nouveaux fichiers</li>
+            <li>Ouvrir un page Web depuis un document PDF</li>
+            <li>Sélection d'images et de texte</li>
+            <li>Impression</li>
+            <li>Modifier les paramètres par défaut</li>
+            <li>Enregistrer le document</li>
+            <li>Vérification automatique et manuelle des mises à jour</li>
+            <li>Historique des derniers fichiers ouverts</li>
+            <li>support de TeX</li>
+            <li>Définir Sumatra comme lecteur PDF par défaut</li>
+            <li>Ouvrir le document avec Adobe Acrobat</li>
+            <li>Envoyer le document PDF par email</li>
+          </ul>
+          <h2 id="manual-notes">Notes</h2>
+          <p>Si "Se rappeler ces paramètres pour chaque document" est coché dans
+            les options, quand un document PDF est rouvert, Sumatra PDF ira
+            directement à la dernière page affichée lors de sa dernière
+            ouverture. Cela s'applique aussi aux documents déjà ouverts qui ne
+            sont pas dans la liste des dix plus récents. Cette fonction ne
+            s'appliquera pas à un document déjà ouvert mais qui aura été déplacé
+            entre-temps.</p>
+          <p>Certains paramètres (p. ex. le mode plein écran) sont enregistrés
+            comme paramètres par défaut même quand ils n'ont pas été définis
+            comme tels quand on quitte SumatraPDF sans qu'un document soit
+            ouvert.</p>
+          <h2 id="manual-limitations">Restrictions connues</h2>
+          <p>L'édition de formulaires interactifs et l'ajout de commentaires ne
+            sont pas implémentés.</p>
+          <h2 id="more-docs">Plus de documentation</h2>
+          <p>Vous trouverez plus de documentation (en anglais) à partir de <a href="http://code.google.com/p/sumatrapdf/">cette
+              page</a>.</p>
+          <!--
+    <h2 id="manual-browser">Disable viewing PDF files directly in web browser (IE and Firefox)</h2>    Adobe Acrobat also comes with Internet Explorer and Firefox plugin    which makes it take over PDF files downloaded via browser and display    them directly in the browser. <p>This is not always a desired behaviour    and you can use Sumatra as the default PDF viewer in both IE and Firefox,    without completely uninstalling Adobe Acrobat. <p>Here are the steps (based    on <a href="http://notlost.blogspot.com/2007/06/switching-to-sumatra-pdf-reader.html">    this blog post</a>):    <ul>        <li>Launch Adobe Acrobat</li>        <li>Select Edit/Preferences</li>        <li>Select Internet</li>        <li>Uncheck Display PDF in browser</li>        <li>Click OK</li>        <li>Launch Sumatra PDF viewer</li>        <li>Select menu Setting/Options... and click "Make SumatraPDF my main PDF reader" button</li>    </ul>    <p>    Clicking on links to PDF documents should no longer open the    embedded viewer but pop up a dialog box. Select "Always perform this    action..." checkbox if you want Sumatra to automatically open those PDF files.</p>-->
+          <!-- link no longer seems to work
+    <p>If those instructions don't work, you can always try <a href="http://howto.helpero.com/howto/Disable-PDF-Browser-Plugin-For-Firefox_29.html">this method.</a></p>-->
+        </div>
+      </div>
+      <hr>
+      <center><a href="/">Krzysztof Kowalczyk</a></center>
+    </div>
+    <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-194516-1']);
   _gaq.push(['_trackPageview']);
@@ -310,7 +433,5 @@ table.shortcuts {
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
   })();
 </script>
-
-</body>
+  </body>
 </html>
-

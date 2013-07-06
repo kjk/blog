@@ -1,428 +1,546 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Language" content="fr">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="pdf, epub, mobi, chm, cbr, cbz, xps, djvu, reader, viewer" />
-<meta name="description" content="Sumatra PDF reader and viewer for Windows" />
-
-<title>News &agrave; propos de Sumatra PDF reader</title>
-<link rel="stylesheet" href="sumatra.css" type="text/css" />
-
-</head>
-<body>
-
-<script type="text/javascript" src="sumatra.js"></script>
-
-<div class="gooad">
-<script type="text/javascript">adData();</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-</div>
-
-<div id="container">
-<div id="banner">
-
-<h1 style="display:inline;">Sumatra PDF <font size="-1">est un lecteur PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CBR pour Windows</font></h1>
-<script type="text/javascript">document.write(langsNavHtml());</script>
-
-<script type="text/javascript">document.write(navHtml());</script>
-</div>
-
-<div id="center">
-<div class="content">
-
-<!--
-<script type="text/javascript">adData();</script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
--->
-
-<h2 id="version_history">Historique</h2>
-
-2.1.1 (2012-05-07)
-<p>Changements dans cette version:</p>
-<ul>
-<li>Correction de quelques bugs</li>
-</ul>
-
-2.1 (2012-05-03)
-<p>Changements dans cette version:</p>
-<ul>
-<li>support du format de e-book EPUB</li>
-<li>Ajout d'un menu File/Rename pour renommer le fichier en cours (contribution de Vasily Fomin)</li>
-<li>support des fichiers TIFF multi-pages</li>
-<li>support des images TGA</li>
-<li>support pour plusieurs metadata des fichiers  CBZ (bandes dessin&eacute;es)</li>
-<li>support pour les images JPEG XR (disponible dans Windows Vista et sup&eacute;rieur,
-  pour Windows XP le <a href="http://www.microsoft.com/fr-fr/download/details.aspx?id=32">Windows Imaging Component</a> doit &ecirc;tre install&eacute;)</li>
-<li>the installer is now signed</li>
-</ul>
-
-2.0.1 (2012-04-08)
-<p>Changements dans cette version:</p>
-<ul>
-<li>correction pour le chargement des fichiers .mobi depuis la ligne de commandes</li>
-<li>Correction d'un bug pour le chargement multiple de fichiers .mobi en une fois</li>
-<li>Correction d'un bug lors de l'affichage de bulles d'aide pour les entr&eacute;es de la table des mati&egrave;res</li>
-</ul>
-
-2.0 (2012-04-02)
-<p>Changements dans cette version:</p>
-<ul>
-<li>support pour le format d'e-Book <a href="/articles/mobi-ebook-reader-viewer-for-windows-fr.html">MOBI</a></li>
-<li>support pour l'ouverture de documents CHM sur des lecteurs r&eacute;seau</li>
-<li>Une s�lection sous forme d'image peut �tre copy�e dans le presse-papier avec un clic droit de la souris</li>
-<li>Utilisation de <a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/src/ucrt/readme.txt">ucrt</a>
-pour r&eacute;duire la taille du programme</li>
-</ul>
-
-1.9 (2011-11-23)
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>support pour les documents <a href="/articles/chm-reader-viewer-for-windows-fr.html">CHM</a></li>
-<li>support des entr&eacute;es tactiles (&laquo;&nbsp;touch gestures&nbsp;&raquo;), disponible sur  Windows 7 ou sup&eacute;rieur.
-Contribution de Robert Prouse</li>
-<li>Ouvre les fichiers audio et video li&eacute;s dans un media player externe</li>
-<li>Support am&eacute;lior&eacute; des groupes de transparence PDF</li>
-</ul>
-
-1.8 (2011-09-18)
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>Support am&eacute;lior&eacute; des zones de texte dans les formulaires PDF</li>
-<li>Plusieurs am&eacute;liorations et correcions de bugs mineures</li>
-<li>Chargement acc&eacute;l&eacute;r&eacute; de certains types de fichiers djvu</li>
-</ul>
-
-1.7 (2011-07-18)
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>Favoris</li>
-<li>Support am&eacute;lior&eacute; des lagages &laquo; right-to-left &raquo; (de droite &agrave; gauche), tels que l'arabe</li>
-<li>les num&eacute;ros de pages &laquo; logiques &raquo; (c.-&agrave;-d., non automatiques, comme par exemple i, ii, iii, etc.)
-sont affich&eacute;s et utilis&eacute;s, si un document les fournit</li>
-<li>Permet de restreindre les fonctionnalit&eacute;s de SumatraPDF avec plus de granularit&eacute;. Voir
-<a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/docs/sumatrapdfrestrict.ini">sumatrapdfrestric.init</a>
-pour plus d'informations</li>
-<li>-named-dest recherch&eacute; aussi des ch&acirc;ines de caract&egrave;res dans la table des mati&egrave;res</li>
-<li>Support am&eacute;lior&eacute; des fichiers EPS (n&eacute;cessite Ghostscript)</li>
-<li>Installeur plus fiable et plus efficace</li>
-<li>Nombreuses am&eacute;liorations et correcions de bugs mineures</li>
-</ul>
-
-1.6 (2011-05-30)
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>Ajout du support pour l'affichage des documents DjVu</li>
-<li>Affichage de la liste des documents fr&eacute;quemment lus quand aucun document n'est ouvert</li>
-<li>Ajout du support pour l'affichage des documents Postscript (n&eacute;cessite la pr&eacute;sence d'une version r&eacute;cente de Ghostscript)</li>
-<li>Ajout du support pour l'affichage de r&eacute;pertoires contenant des images gliss&eacute;s dans la fen&ecirc;tre SumatraPDF</li>
-<li>Support des liens cliquables ; Table des mati&egrave;res pour les documents XPS</li>
-<li>Affiche la progression de l'impression et permet son annulation</li>
-<li>Ajout d'un bouton d'impression sur la barre d'outils</li>
-<li>exp&eacute;rimental&nbsp;: pr&eacute;visualisation de documents PDF dans Windows Vista and 7.
-Cr&eacute;e des miniatures et affiche les documents dans la pr&eacute;visualisation du panneau d'exploration.
-Doit &ecirc;tre explicitement s&eacute;lectionn&eacute; durant l'installation. Des comptes-rendus indiquent que &ccedil;a ne
-fonctionne pas avec Windows 7 x64.</li>
-</ul>
-
-1.5.1 (2011-04-26)
-<p>Changements dans cette version:</p>
-<ul>
-<li>Am&eacute;liorations de quelques bugs</li>
-</ul>
-
-1.5 (2011-04-23)
-<p>Changements dans cette version:</p>
-<ul>
-<li>Ajout du support pour l'affichage des documents XPS</li>
-<li>Ajout du support pour l'affichage des bands dessin&eacute;es CBZ et CBR</li>
-<!--li>add File/Save Shortcut menu item to create shortcuts to a specific place in a document</li-->
-<li>Ajout d'un menu contextuel pour la copie de texte, d'adresses de liens et de commentaires, et pour
-les plugins navigateurs, des fonctions  d'enregistrement et d'impression.</li>
-<li>Ajout du parcours du r&eacute;pertoire en cours (Ctrl+Shift+Right ouvre le PDF suivant, Ctrl+Shift+Left ouvre le pr&eacute;c&eacute;dent)</li>
-</ul>
-
-1.4 (2011-03-12)
-<p>Changements dans cette version:</p>
-<ul>
-<li>Plugin pour les navigateurs Internet Firefox/Chrome/Opera (Internet Explorer non support&eacute;). Par d&eacute;faut, non install&eacute;.</li>
-<li>IFilter, qui am&eacute;liore la recherche de texte dans les fichiers PDF dans la fonction de recherche int&eacute;gr&eacute;e de Windows
-accessible dans le menu d&eacute;marrer ou le menu contextuel de l'Explorateur Windows.
-N'est pas non plus install&eacute; par d&eacute;faut</li>
-<!--li>scrolling with right mouse button</li-->
-<li>Possibilit&eacute; de choisir le r&eacute;pertoire d'installation avec l'installeur</li>
-<li>Options de menu pour r&eacute;ouvrir le document courant dans Foxit et PDF-XChange (s'ils sont install&eacute;s)</li>
-<li>Nous ne compressons plus l'ex&eacute;cutable dans l'installeur avec mpress. Il produit une identification erron&eacute;e
-de virus dans Sumatra par certains programmes anti-virus. L'inconv&eacute;nient est que le programme occupe plus
-d'espace disque, d&eacute;sormais. Note: nous compressons toujours la version portable dans le .zip</li>
-<li>Suppression du param�tre de ligne de commandes -title</li>
-<li>Support pour les fichiers PDF encrypt&eacute;s AES-256</li>
-<li>Correction d'un d&eacute;passement d'entier signal&eacute; par Jeroen van der Gun et quelques autres
-corrections mineures et am&eacute;liorations pour la prise en charge des PDF</li>
-</ul>
-
-1.3 (2011-02-04)
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>S&eacute;lection et copie de texte am&eacute;lior&eacute;e. Nous imitons d&eacute;sormais la m&eacute;thode dont
-un navigateur Internet ou Adobe Reader travaillent&nbsp;: simplement s&eacute;lectionner
-le texte avec la souris et utiliser Ctrl-C pour le copier dans le Presse-papier</li>
-<li>Shift+Bouton gauche de la souris permet maintenant de faire d&eacute;filer le document,
-Ctrl+Bouton&nbsp;gauche cr&eacute;e toujours une s&eacute;lection rectangulaire (pour copier une image)</li>
-<li>le raccourci 'c' est une bascule en mode Vue continue/discontinue</li>
-<li>'+' / '*' sur le pav&eacute; num&eacute;rique permettent le zoom et la rotation</li>
-<li>Ajout d'ic&ocirc;nes dans la barre d'outils pour "Page unique" et "Pleine largeur", et mise &agrave;
-jour de l'apparance des ic&ocirc;nes de la barre d'outils</li>
-<li>support pour la molette de d&eacute;filement de la souris pour le d&eacute;filement avant/arri&egrave;re</li>
-<li>1.2 introduit un nouveau mode plein &eacute;cran qui devient le mode plein &eacute;cran par d&eacute;faut.
-L'ancien mode restait disponible mais peu ais&eacute;ment accessible. Nous avons ajout&eacute; une
-option de menu Affichage/Pr&eacute;sentation menu pour le nouveau mode et Affichage/Plein &eacute;cran
-pour l'ancien, pour rendre le premier plus visible</li>
-<li>Installeur nouveau et am&eacute;lior&eacute;</li>
-<li>Performance du zoom am&eacute;lior&eacute;e (zoomer &agrave; 6400% ne fait plus planter le programme)</li>
-<li>La recherche de texte utilise moins de m&eacute;moire vive</li>
-<li>Nouvelles am&eacute;liorations pour l'impression</li>
-<li>Mise &agrave; jour des traductions</li>
-<li>Mise &agrave; jour avec la plus r&eacute;cente version de mupdf pour diverses am&eacute;liorations et corrections de bugs</li>
-<li>Utilisation de la librairie libjpeg-turbo &agrave; la place de libjpeg, pour un d&eacute;codage plus rapide de certains PDFs</li>
-<li>Mise &agrave; jour de la librairie openjpeg avec la version 1.4 et de freetype avec la version 2.4.4</li>
-<li>Correction de deux probl&egrave;mes de d&eacute;passement de calcul signal&eacute;s par Stefan Cornelius de Secunia Research</li>
-</ul>
-
-<p>Participants &agrave; cette version&nbsp;:
-<ul> 
-<li>Simon B&uuml;nzli (zeniko)</li>
-<li>Krzysztof Kowalczyk</li>
-</ul></p>
-
-1.2 (2010-11-26):
-
-<p>Participants &agrave; cette version&nbsp;:
-<ul>
-<li>Simon B&uuml;nzli (zeniko)</li>
-<li>William Blum</li>
-<li>Krzysztof Kowalczyk</li>
-</ul></p>
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>Impression am&eacute;lior&eacute;e&nbsp;: plus rapide et demandant moins de ressources syst&egrave;me</li>
-<li>Ajout du raccourci Ctrl-Y pour le Zoom personnalis&eacute;</li>
-<li>Ajout du raccourci Ctrl-A pour la s&eacute;lection de tout le texte</li>
-<li>Mode plein &eacute;cran am&eacute;lior&eacute;</li>
-<!--li>open embedded PDF documents</li-->
-<li>Permet d'enregistrer sur le disque les fichiers joints d'un document PDF</li>
-<li>Derni&egrave;res corrections et am&eacute;liorations pour le rendu des PDF du mupdf project</li>
-</ul>
-
-1.1 (2010-05-20):
-
-<p>
-<p>Participants &agrave; cette version&nbsp;:
-<ul>
-<li>Simon B&uuml;nzli (zeniko)</li>
-<li>William Blum</li>
-<li>Krzysztof Kowalczyk</li>
-</ul>
-</p>
-
-<p>Changements dans cette version:</p>
-<ul>
-<li>Ajout du mode Livre (option de menu &#8220;Affichage/Comme un livre&#8221;), d&eacute;sign&eacute; comme &#8220;Continue - Page double&#8221; dans Adobe Reader</li>
-<li>Ajout de l'option de menu &#8220;Fichier/Propri&eacute;t&eacute;s&#8221;, qui affiche les informations de base sur le fichier <span class="caps">PDF</span> en cours</li>
-<li>Ajout de l'option de menu &#8220;Fichier/Envoyer par courriel&#8221;</li>
-<li>Ajout de l'exportation au format texte. Avec l'option de menu &#8220;Fichier/Enregistrer sous...&#8221;,
-dans la liste des types de fichiers, passer de &#8220;document <span class="caps">PDF</span>s&#8221; &agrave; &#8220;Document textz&#8221;.
-N'esp&eacute;rez pas de miracles, cependant, la conversion en texte n'est pas tr&egrave;s bonne dans bien des cas.</li>
-<!--li>auto-detect commonly used TeX editors for inverse-search command</li-->
-<li>Correction de bugs dans la prise en charge des <span class="caps">PDF</span> (plus de PDF sont affich&eacute;s correctement)</li>
-<li>Diverses corrections de bugs et de petites am&eacute;liorations dans l'interface utilisateur</li>
-<li>Ajout des raccourcis "Ctrl +" et "Ctrl -" pour le zoom (conforme aux raccourcis Adobe Reader)</li>
-</ul>
-		
-1.0.1 (2009-11-27):
-<ul>
-<li>Plusieurs probl&egrave;mes de <a href="http://fr.wikipedia.org/wiki/Fuite_de_m%C3%A9moire">&laquo;fuite de m&eacute;moire&raquo;</a> corrig&eacute;s (Simon B&uuml;nzli)</li>
-<li>Pr&eacute;vention de plantages possible &agrave; cause d'une corruption de la pile (signal&eacute; par Christophe Devine)</li>
-<li>D&eacute;finir Sumatra comme lecteur PDF par d&eacute;faut ne r&eacute;clame plus les droits administrateur sous Vista/Windows 7</li>
-<li>Mise &agrave; jour des traductions</li>
-</ul>
-
-1.0 (2009-11-17):
-<ul>
-<li>Beaucoup de corrections de petits bugs et d'am&eacute;liorations</li>
-</ul>
-
-0.9.4 (2009-07-19):
-<ul>
-<li>Compatibilit&eacute; PDF am&eacute;lior&eacute;e (un plus grand nombre de types de documents peuvent &ecirc;tre affich&eacute;s correctement)</li>
-<li>Ajout d'une bo&icirc;te de dialogue pour les options (contribution de Simon B&uuml;nzli)</li>
-<li>Am&eacute;liorations dans la gestion de l'<a href="http://fr.wikipedia.org/wiki/Unicode">unicode</a></li>
-<li>Affichage par d&eacute;faut, Vue continue au lieu de Une seule page</li>
-<li>Am&eacute;liorations pour SyncTex (contribution de William Blum)</li>
-<li>Ajout d'une option permettant de ne pas conserver l'historique des fichiers ouverts</li>
-<!--li>a new icon for documents association (contribution de George Georgiou)</li-->
-<li>Beaucoup de corrections de bugs&nbsp;; polissage de l'interface</li>
-</ul>
-0.9.3 (2008-10-07):
-<ul>
-<li>Corrige un probl&egrave;me pour l'ouverture de fichiers non-ascii</li>
-<li>Mise &agrave; jour des traductions japonaise et br&eacute;silienne</li>
-</ul>
-
-0.9.2 (2008-10-06):
-<ul>
-  <li>Possibilit&eacute; de d&eacute;sactiver l'option de mise &agrave; jour automatique</li>
-  <li>Am&eacute;lioration de l'affichage de texte - correction de probl&egrave;mes de chevauchement de texte</li>
-  <li>Am&eacute;lioration de la substitution de polices demand&eacute;es dans le document PDF qui sont absentes</li>
-  <li>Peut d&eacute;sormais ouvrir un fichier PDF avec un nom non-ascii</li>
-  <li>Am&eacute;liorations pour le <a href="http://fr.wikipedia.org/wiki/Dynamic_Data_Exchange">DDE</a> (contribution de Danilo Roascio)</li>
-  <li>Am&eacute;liorations pour SyncTex</li>
-  <li>Am&eacute;liore la persistance des &eacute;tats (contribution de Robert Liu)</li>
-  <li>Corrige un plantage apr&egrave;s l'appui sur 'Annuler' lors de la saisie d'un mot de passe</li>
-  <li>Mise &agrave; jour des traductions</li>
-</ul>
-
-0.9.1 (2008-08-22):
-<ul>
-  <li>Am&eacute;lioration du rendu de certains types de PDF</li>
-  <li>support pour les liens dans les fichiers PDF</li>
-  <li>Ajout de -restrict et -title dans les options de ligne de commandes (contribution de Matthew Wilcoxson)</li>
-  <li>Active le support de SyncTex qui avait &eacute;t&eacute; d&eacute;sactiv&eacute; par erreur dans la version 0.9</li>
-  <li>Diverses corrections&nbsp;; mise &agrave; jour des traductions</li>
-</ul>
-
-0.9 (2008-08-10):
-<ul>
-  <li>Ajout de Ctrl-P comme raccourci pour l'impression</li>
-  <li>Ajout de F11 comme raccourci pour le mode Plein &eacute;cran</li>
-  <li>D&eacute;sormais la bo&icirc;te de dialogue pour mot de passe n'affiche plus celui-ci en clair</li>
-  <li>support pour les PDF avec encryption AES</li>
-  <li>Mises &agrave; jour pour l'int&eacute;gration de SyncTeX/PdfSync (contribution de William Blum)</li>
-  <li>Ajout du param&egrave;tre de ligne de commandes -nameddest et de commands DDE pour aller directement
-      vers une destination nomm&eacute;e (contribution de Alexander Klenin)</li>
-  <li>Ajout du param&egrave;tre de ligne de commandes -reuse-instance (contribution de William Blum)</li>
-  <li>Ajout de commandes DDE pour l'ouverture de fichiers PDF (contribution de William Blum)</li>
-  <li>Moteur de rendu poppler retir&eacute;, ce qui donne un programme plus compact&nbsp;; mise &agrave; jour de
-    mupdf avec les sources les plus r&eacute;centes</li>
-  <li>Diverses corrections&nbsp;; mise &agrave; jour des traductions</li>
-</ul>
-0.8.1 (2008-05-27):
-<ul>
-  <li>Rechargement automatique des PDF modifi&eacute;s (contribution de William Blum)</li>
-  <li>Int&eacute;gration de TeX (contribution de William Blum)</li>
-  <li>Ic&ocirc;ne mise &agrave; jour pour l'option "Respecter la casse" de la recherche de texte (contribution de Sonke Tesch)</li>
-  <li>Le changement de langue est d&eacute;sormais une bo&icirc;te de dialogue au lieu d'une option de menu</li>
-  <li>M&eacute;morisation de plus d'options (tel que l'affichage par d&eacute;faut)</li>
-  <li>Recherche automatique de nouvelles versions du programme</li>
-  <li>Ajout du param&egrave;tre de ligne de commandes -lang $lang</li>
-    <li>Ajout du param&egrave;tre de ligne de commandes -print-dialog (contribution de Peter Astrand)</li>
-  <li>D&eacute;selection avec ESC ou un clic de souris en dehors de la s&eacute;lection</li>
-  <!--li>fix showing boxes in table of contents tree</li-->
-  <li>Mise &agrave; jour des traductions (contribution de <a href="translators-fr.html">beaucoup de personnes</a>)</li>
-</ul>
-
-0.8 (2008-01-01):
-<ul>
-  <li>Ajout de la fonction de recherche (contribution de MrChuoi)</li>
-  <li>Ajout de la fen&ecirc;tre de la table des mati&egrave;res (les signets) (contribution de MrChuoi)</li>
-  <li>Ajout de beaucoup de traductions (contribution de <a href="translators-fr.html">beaucoup de personnes</a>)</li>
-  <li>Nouvelle ic&ocirc;ne pour le programme</li>
-  <li>Impression am&eacute;lior&eacute;e</li>
-  <li>Correction de quelques bugs</li>
-  <li>Affichage acc&eacute;l&eacute;r&eacute;</li>
-  <li>Am&eacute;lioration de la prise en charge de certains types de PDFs</li>
-  <li>Ajout du param&egrave;tre de ligne de commandes -esc-to-exit</li>
-  <li>Ajout du param&egrave;tre de ligne de commandes -bgcolor $color</li>
-</ul>
-0.7 (2007-07-28):
-<ul>
-  <li>Ajout de la possibilit&eacute; de s&eacute;lectionner le texte et de le copier dans le Presse-papiers (contribution de Tomek Weksej)</li>
-  <li>Programme d&eacute;sormais multilingue (13 traductions, contribution de <a href="translators-fr.html">beaucoup de personnes</a>)</li>
-  <li>Ajout de l'otion de menu Enregistrer sous...</li>
-  <li>La liste des fichiers ouverts r&eacute;cemment est mise &agrave; jour sans d&eacute;lai</li>
-  <li>Probl&egrave;me d'association des .pdf dans la base de registre sous Vista r&eacute;solu</li>
-  <!--li>added ability to compile as DLL and C# sample application - contribution de Valery Possoz</li-->
-  <!--li>mingw compilation fixes and project files for CodeBlocks - contribution de MrChuoi</li-->
-  <li>Correction de quelques bugs</li>
-  <li>Fichiers source d&eacute;plac&eacute;s vers le site Google Code project</li>
-</ul>
-0.6 (2007-04-29):
-<ul>
-  <li>Ouverture de fichiers PDF prot&eacute;g&eacute;s par mot de passe d&eacute;sormais possible</li>
-  <li>Ne permet plus d'imprimer les PDF pour lesquels l'impression est interdite</li>
-  <li>Ne r&eacute;ouvre plus automatiquement les fichiers au d&eacute;marrage</li>
-  <li>Corrige l'ouverture de PDF depuis un partage en r&eacute;seau</li>
-  <li>R&eacute;nov&eacute;, meilleure ic&ocirc;ne</li>
-  <li>Rechargement du document quand on change de moteur de rendu</li>
-  <li>Am&eacute;liore l'aspect du curseur lors d'un gliss&eacute;</li>
-  <li>Corrige l'aspect de la barre d'outils sur XP et Vista avec le th&egrave;me &laquo;&nbsp;classique&nbsp;&raquo;</li>
-  <li>Quand le moteur MuPDF ne peut pas charger un fichier ou rendre une page, il y a un repli vers
-      le moteur poppler pour obtenir un rendu plus fiable</li>
-  <li>Correction de quelques bugs</li>
-</ul>
-0.5 (2007-03-04):
-<ul>
-  <li>Correction de probl&egrave;mes d'affichage avec certains PDF</li>
-  <li>Acc&eacute;l&eacute;rations - l'application peut &ecirc;tre plus prompte et de ce fait il y a moins d'attente pour l'affichage</li>
-  <li>Ajout du raccourci 'r' pour rouvrir le fichier PDF en cours</li>
-  <li>Ajout des raccourcis &lt;Ctrl&gt;-&lt;Shift&gt;-+ et &lt;Ctrl&gt;-&lt;Shift&gt;-- pour la rotation
-      horaire et anti-horaire (conforme aux raccourcis Adobe Reader)</li>
-  <li>Correction d'un ou deux bugs</li>
-</ul>
-0.4 (2007-02-18):
-<ul>
-  <li>Impression</li>
-  <li>Demande une confirmation avant d'enregistrer Sumatra comme lecteur PDF par d&eacute;faut</li>
-  <li>Affichage plus rapide, merci au moteur de rendu alternatif. Le pr&eacute;c&eacute;dent moteur est toujours disponible</li>
-  <li>D&eacute;filement avec la molette de la souris</li>
-  <li>Correction de probl&egrave;mes avec la barre d'outils sous win2k</li>
-  <li>Am&eacute;liore l'acc&egrave;s au r&eacute;tertoire des polices install&eacute;es</li>
-  <li>Am&eacute;liorations pour le mode portable</li>
-  <li>Le d&eacute;sinstalleur supprime compl&egrave;tement le programme</li>
-  <li>Changement du nom du fichier de pr&eacute;f&eacute;rences de prefs.txt en sumatrapdfprefs.txt</li>
-</ul>
-0.3 (2006-11-25):
-<ul>
-  <li>Ajout d'une barre d'outils pour les op&eacute;rations les plus courantes</li>
-  <li>Affichage plus prompt car le rendu est pr&eacute;par&eacute; en arri&egrave;re-plan et qu'il y a mise en cache de la page suivante</li>
-  <li>Certains choses sont plus rapides</li>
-</ul>
-
-0.2 (2006-08-06):
-<ul>
-  <li>Ajout des modes d'affichage page enti&egrave;re, continu et continu page enti&egrave;re</li>
-  <li>Enregistre l'historique des fichiers pr&eacute;c&eacute;demment ouverts</li>
-  <li>Sauvegarde la session, c.-&agrave;-d. qu'&agrave; la sortie le programme enregistre quels fichiers &eacute;taient ouverts
-      et restaure la session quand le programme est d&eacute;marr&eacute; sans param&egrave;tres de ligne de commandes</li>
-  <li>Capacit&eacute; d'ouvrir certains fichiers encrypt&eacute;s</li>
-  <li>Bo&icirc;te de dialogue "Aller &agrave; la page..."</li>
-  <li>Ic&ocirc;ne moins envahissante (moins jaune) qui ne vous saute plus &agrave; la figure depuis le bureau</li>
-  <li>Correction du probl&egrave;me de non affichage de certains textes (meilleur mapping pour les polices&nbsp;;
-     utilisation d'une police par d&eacute;faut si celle sp&eacute;cifi&eacute;e dans le PDF est absente)</li>
-  <li>Gestion des liens URI dans les documents PDF</li>
-  <li>Affichage d'un &eacute;cran "&Agrave; propos..."</li>
-  <li>Mise &agrave; disposition d'une version .zip pour ceux qui ne peuvent pas lancer le programme d'installation</li>
-  <li>Passage du moteur xpdf au moteur poppler</li>
-</ul>
-
-0.1 (2006-06-01):
-<ul>
-  <li>Premi&egrave;re version r&eacute;alis&eacute;e</li>
-</ul>
-
-</div>
-</div>
-<hr/>
-<center><a href="/">Krzysztof Kowalczyk</a></center>
-</div>
-
-<script type="text/javascript">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="fr">
+    <meta name="keywords" content="pdf, epub, mobi, chm, cbr, cbz, xps, djvu, reader, viewer">
+    <meta name="description" content="Sumatra PDF reader and viewer for Windows">
+    <title>News à propos de Sumatra PDF reader</title>
+    <link rel="stylesheet" href="sumatra.css" type="text/css">
+  </head>
+  <body>
+    <script type="text/javascript" src="sumatra.js"></script>
+    <div class="gooad">
+      <script type="text/javascript">adData();</script>
+      <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    <div id="container">
+      <div id="banner">
+        <h1 style="display:inline;">Sumatra PDF <font size="-1">est un lecteur
+            PDF, ePub, MOBI, CHM, XPS, DjVu, CBZ, CBR pour Windows</font></h1>
+        <script type="text/javascript">document.write(langsNavHtml());</script>
+        <script type="text/javascript">document.write(navHtml());</script> </div>
+      <div id="center">
+        <div class="content">
+          <!--
+<script type="text/javascript">adData();</script><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>-->
+          <h2 id="version_history">Historique</h2>
+          2.3.2 (2013-05-25)
+          <p>Changement dans cette version :</p>
+          <ul>
+            <li>correction de bogue dans le changement de langue via le menu
+              Préférences/Changement de langue</li>
+          </ul>
+          2.3.1 (2013-05-23)
+          <p>Changement dans cette version :</p>
+          <ul>
+            <li>ne requiert pas SSE2 (pour le support des ordinateurs anciens,
+              sans instructions SSE2)</li>
+          </ul>
+          2.3 (2013-05-22)
+          <p>Changements dans cette version :</p>
+          <ul>
+            <li>plus grande configurabilité via les <a href="settings.html">options
+                avancées</a></li>
+            <li>"Aller à la page" dans l'interface-utilisateur des livres
+              numériques</li>
+            <li>ajout du menu Affichage/Mode manga pour les bandes dessinées
+              (fichiers CBZ/CBR)</li>
+            <li>nouveaux raccourcis-clavier :
+              <ul>
+                <li>Ctrl-Up : page précédente</li>
+                <li>Ctrl-Down : page suivante</li>
+              </ul>
+            </li>
+            <li>ajout du support des documents OpenXPS</li>
+            <li>support de l'algorithme Deflate64 pour les fichiers Comic Book
+              (CBZ/CBR)</li>
+            <li>correction&nbsp;: retrait de paragraphe manquant dans les
+              documents EPUB</li>
+            <li>l'impression avec l'option "Utiliser les dimensions d'origine"
+              ne centre plus les pages sur la feuille</li>
+            <li>taille réduite. L'installeur est environ 1 Mo plus petit</li>
+            <li>inconvénient&nbsp;: cette version ne supporte plus les
+              processeurs très anciens, sans <a href="http://en.wikipedia.org/wiki/SSE2">
+                instructions SSE2</a>. L'utilisation de SSE2 rend Sumatra plus
+              rapide. Si vous avez un vieil ordinateur sans SSE2, il vous faudra
+              utiliser la version 2.2.1.</li>
+          </ul>
+          2.2.1 (2013-01-12)
+          <p>Changements dans cette version :</p>
+          <ul>
+            <li>correction&nbsp;: un livre numérique parfois ne se rappelait pas
+              la position de lecture antérieure</li>
+            <li>correction&nbsp;: Sumatra ne se fermait plus après ouverture de
+              fichiers sur un lecteur réseau</li>
+            <li>corrections des plantages les plus fréquents et de la robustesse
+              de l'analyseur PDF</li>
+          </ul>
+          2.2 (2012-12-24)
+          <p>Changements dans cette version :</p>
+          <ul>
+            <li>ajout du support du format de livre numérique FictionBook</li>
+            <li>ajout du support des documents PDF chiffrés avec Acrobat X</li>
+            <li>option de compatibilité “Imprimer en tant qu'image” dans le
+              dialogue d'impression pour un affichage correct des mangas</li>
+            <li>nombreuses petites améliorations et corrections de robustesse</li>
+          </ul>
+          2.1.1 (2012-05-07)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>correction de quelques bogues</li>
+          </ul>
+          2.1 (2012-05-03)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>support du format de livre numérique EPUB</li>
+            <li>ajout d'un menu Ficher/Renommer pour renommer le fichier en
+              cours (contribution de Vasily Fomin)</li>
+            <li>support des fichiers TIFF multi-pages</li>
+            <li>support des images TGA</li>
+            <li>support pour plusieurs métadonnées des fichiers CBZ (bandes
+              dessinées)</li>
+            <li>support pour les images JPEG XR (disponible dans Windows Vista
+              et supérieur, pour Windows XP le <a href="http://www.microsoft.com/fr-fr/download/details.aspx?id=32">Windows
+                Imaging Component</a> doit être installé)</li>
+            <li>l'installeur est maintenant signé</li>
+          </ul>
+          2.0.1 (2012-04-08)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>correction pour le chargement des fichiers .mobi depuis la ligne
+              de commandes</li>
+            <li>correction d'un bogue pour le chargement multiple de fichiers
+              .mobi en une fois</li>
+            <li>correction d'un bogue lors de l'affichage de bulles d'aide pour
+              les entrées de la table des matières</li>
+          </ul>
+          2.0 (2012-04-02)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>support pour le format de livre numérique <a href="/articles/mobi-ebook-reader-viewer-for-windows-fr.html">MOBI</a></li>
+            <li>support pour l'ouverture de documents CHM sur des lecteurs
+              réseau</li>
+            <li>une sélection sous forme d'image peut être copiée dans le
+              presse-papier avec un clic droit de la souris</li>
+            <li>utilisation de <a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/src/ucrt/readme.txt">ucrt</a>
+              pour réduire la taille du programme</li>
+          </ul>
+          1.9 (2011-11-23)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>support pour les documents <a href="/articles/chm-reader-viewer-for-windows-fr.html">CHM</a></li>
+            <li>support des entrées tactiles («&nbsp;touch gestures&nbsp;»),
+              disponible sur Windows 7 ou supérieur (contribution de Robert
+              Prouse)</li>
+            <li>ouvre les fichiers audio et vidéo liés dans un lecteur
+              multimédia externe</li>
+            <li>support amélioré des groupes de transparence PDF</li>
+          </ul>
+          1.8 (2011-09-18)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>support amélioré des zones de texte dans les formulaires PDF</li>
+            <li>plusieurs améliorations et corrections de bogues mineurs</li>
+            <li>chargement accéléré de certains types de fichiers djvu</li>
+          </ul>
+          1.7 (2011-07-18)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>favoris</li>
+            <li>support amélioré des langues « de droite à gauche », tel l'arabe</li>
+            <li>les numéros de pages « logiques » (c.-à-d., non automatiques,
+              comme par exemple i, ii, iii, etc.) sont affichés et utilisés, si
+              un document les fournit</li>
+            <li>permet de restreindre les fonctionnalités de SumatraPDF avec
+              plus de granularité. Voir <a href="http://code.google.com/p/sumatrapdf/source/browse/trunk/docs/sumatrapdfrestrict.ini">sumatrapdfrestric.init</a>
+              pour plus d'informations</li>
+            <li>-named-dest recherche aussi les chaînes de caractères dans la
+              table des matières</li>
+            <li>support amélioré des fichiers EPS (nécessite Ghostscript)</li>
+            <li>installeur plus fiable et plus efficace</li>
+            <li>nombreuses améliorations et corrections de bogues mineurs</li>
+          </ul>
+          1.6 (2011-05-30)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>ajout du support de l'affichage des documents DjVu</li>
+            <li>affichage de la liste des documents fréquemment lus quand aucun
+              document n'est ouvert</li>
+            <li>ajout du support pour l'affichage des documents Postscript
+              (nécessite la présence d'une version récente de Ghostscript)</li>
+            <li>ajout du support pour l'affichage de répertoires contenant des
+              images glissés dans la fenêtre SumatraPDF</li>
+            <li>support des liens cliquables : table des matières pour les
+              documents XPS</li>
+            <li>affiche la progression de l'impression et permet son annulation</li>
+            <li>ajout d'un bouton d'impression dans la barre d'outils</li>
+            <li>expérimental&nbsp;: prévisualisation de documents PDF dans
+              Windows Vista and 7. Crée des miniatures et affiche les documents
+              dans la prévisualisation du panneau d'exploration. Doit être
+              explicitement sélectionné durant l'installation. Des
+              comptes-rendus indiquent que ça ne fonctionne pas avec Windows 7
+              x64.</li>
+          </ul>
+          1.5.1 (2011-04-26)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>correction de quelques rares plantages</li>
+          </ul>
+          1.5 (2011-04-23)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>ajout du support des documents XPS</li>
+            <li>ajout du support des bandes dessinées CBZ et CBR</li>
+            <li>ajout d'un menu Fichier/enregistrer un raccourci pour créer un
+              raccourci du fichier en cours</li>
+            <li>ajout d'un menu contextuel pour la copie de texte, d'adresses de
+              liens et de commentaires, et pour les plugins des navigateurs, des
+              fonctions d'enregistrement et d'impression</li>
+            <li>ajout de la navigation dans le répertoire en cours (Ctrl + Maj +
+              flèche Droite ouvre le PDF suivant, Ctrl + Maj + flèche gauche
+              ouvre le précédent)</li>
+          </ul>
+          1.4 (2011-03-12)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>plugin pour les navigateurs internet Firefox/Chrome/Opera
+              (Internet Explorer non supporté). Par défaut, non installé.</li>
+            <li>IFilter, qui permet la recherche de texte dans les fichiers PDF
+              pour la fonction de recherche intégrée de Windows (Windows Desktop
+              Search, accessible dans le menu démarrer ou le menu contextuel de
+              l'Explorateur Windows). N'est pas non plus installé par défaut</li>
+            <li>défilement avec le bouton droit de la souris</li>
+            <li>possibilité de choisir le répertoire d'installation avec
+              l'installeur</li>
+            <li>options de menu pour rouvrir le document courant dans Foxit et
+              PDF-XChange (s'ils sont installés)</li>
+            <li>nous ne compressons plus l'exécutable dans l'installeur avec
+              mpress. Il produit une identification erronée de virus dans
+              Sumatra par certains programmes anti-virus. L'inconvénient est que
+              le programme occupe plus d'espace disque, désormais. Note: nous
+              compressons toujours la version portable dans le .zip</li>
+            <li>suppression du paramètre de ligne de commandes -title</li>
+            <li>support pour les fichiers PDF chiffrés avec AES-256</li>
+            <li>correction d'un dépassement d'entier signalé par Jeroen van der
+              Gun et quelques autres corrections mineures et améliorations pour
+              la prise en charge des PDF</li>
+          </ul>
+          1.3 (2011-02-04)
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>sélection et copie de texte améliorée. Nous imitons désormais la
+              méthode dont un navigateur internet ou Adobe Reader
+              travaillent&nbsp;: simplement sélectionner le texte avec la souris
+              et utiliser Ctrl-C pour le copier dans le presse-papier</li>
+            <li>Maj + Bouton gauche de la souris permet maintenant de faire
+              défiler le document, Ctrl + Bouton&nbsp;gauche crée toujours une
+              sélection rectangulaire (pour copier une image)</li>
+            <li>le raccourci 'c' est une bascule en mode Vue
+              continue/discontinue</li>
+            <li>'+' / '*' sur le pavé numérique permettent le zoom et la
+              rotation</li>
+            <li>ajout d'icônes dans la barre d'outils pour “Page unique” et
+              “Pleine largeur”, et mise à jour de l'apparence des icônes de la
+              barre d'outils</li>
+            <li>support pour la molette de défilement de la souris pour le
+              défilement avant/arrière</li>
+            <li>1.2 introduit un nouveau mode plein écran qui devient le mode
+              plein écran par défaut. L'ancien mode restait disponible mais peu
+              aisément accessible. Nous avons ajouté une option de menu
+              Affichage/Présentation pour le nouveau mode et Affichage/Plein
+              écran pour l'ancien, pour rendre le premier plus visible</li>
+            <li>installeur nouveau et amélioré</li>
+            <li>performance du zoom améliorée (zoomer à 6400% ne fait plus
+              planter le programme)</li>
+            <li>la recherche de texte utilise moins de mémoire vive</li>
+            <li>nouvelles améliorations pour l'impression</li>
+            <li>mise à jour des traductions</li>
+            <li>mise à jour avec la plus récente version de mupdf pour diverses
+              améliorations et corrections de bogues</li>
+            <li>utilisation de la librairie libjpeg-turbo à la place de libjpeg,
+              pour un décodage plus rapide de certains PDF</li>
+            <li>mise à jour de la librairie openjpeg avec la version 1.4 et de
+              freetype avec la version 2.4.4</li>
+            <li>correction de deux problèmes de dépassement de calcul signalés
+              par Stefan Cornelius de Secunia Research</li>
+          </ul>
+          <p>Participants à cette version&nbsp;: </p>
+          <ul>
+            <li>Simon Bünzli (zeniko)</li>
+            <li>Krzysztof Kowalczyk</li>
+          </ul>
+          1.2 (2010-11-26):
+          <p>Participants à cette version&nbsp;: </p>
+          <ul>
+            <li>Simon Bünzli (zeniko)</li>
+            <li>William Blum</li>
+            <li>Krzysztof Kowalczyk</li>
+          </ul>
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>impression améliorée&nbsp;: plus rapide et demandant moins de
+              ressources système</li>
+            <li>ajout du raccourci Ctrl-Y pour le Zoom personnalisé</li>
+            <li>ajout du raccourci Ctrl-A pour la sélection de tout le texte</li>
+            <li>mode plein écran amélioré</li>
+            <li>ouvre les documents PDF inclus</li>
+            <li>permet d'enregistrer sur le disque les fichiers joints d'un
+              document PDF</li>
+            <li>dernières corrections et améliorations pour le rendu des PDF du
+              Mupdf Project</li>
+          </ul>
+          1.1 (2010-05-20):
+          <p> </p>
+          <p>Participants à cette version&nbsp;: </p>
+          <ul>
+            <li>Simon Bünzli (zeniko)</li>
+            <li>William Blum</li>
+            <li>Krzysztof Kowalczyk</li>
+          </ul>
+          <p>Changements dans cette version:</p>
+          <ul>
+            <li>ajout du mode Livre (option de menu “Affichage/Comme un livre”),
+              désigné comme “Continue – Page double” dans Adobe Reader</li>
+            <li>ajout de l'option de menu “Fichier/Propriétés”, qui affiche les
+              informations de base sur le fichier <span class="caps">PDF</span>
+              en cours</li>
+            <li>ajout de l'option de menu “Fichier/Envoyer par courriel”</li>
+            <li>ajout de l'exportation au format texte. Avec l'option de menu
+              “Fichier/Enregistrer sous...”, dans la liste des types de
+              fichiers, passer de “Documents <span class="caps">PDF</span>” à
+              “Documents textes”. N'espérez pas de miracles, cependant, la
+              conversion en texte n'est pas très bonne dans bien des cas.</li>
+            <li>auto-détection des éditeurs LaTeX les plus courants pour la
+              recherche inverse</li>
+            <li>correction de bogues dans la prise en charge des <span class="caps">PDF</span>
+              (plus de PDF sont affichés correctement)</li>
+            <li>diverses corrections de bogues et de petites améliorations dans
+              l'interface utilisateur</li>
+            <li>ajout des raccourcis "Ctrl +" et "Ctrl -" pour le zoom (conforme
+              aux raccourcis Adobe Reader)</li>
+          </ul>
+          1.0.1 (2009-11-27):
+          <ul>
+            <li>plusieurs problèmes de <a href="http://fr.wikipedia.org/wiki/Fuite_de_m%C3%A9moire">«
+                fuite de mémoire »</a> corrigés (Simon Bünzli)</li>
+            <li>prévention de plantages possibles à cause d'une corruption de la
+              pile (signalé par Christophe Devine)</li>
+            <li>définir Sumatra comme lecteur PDF par défaut ne réclame plus les
+              droits d'administrateur sous Vista/Windows 7</li>
+            <li>mise à jour des traductions</li>
+          </ul>
+          1.0 (2009-11-17):
+          <ul>
+            <li>nombreuses corrections de petits bogues et améliorations</li>
+          </ul>
+          0.9.4 (2009-07-19):
+          <ul>
+            <li>compatibilité PDF améliorée (un plus grand nombre de types de
+              documents peuvent être affichés correctement)</li>
+            <li>ajout d'une boîte de dialogue pour les options (contribution de
+              Simon Bünzli)</li>
+            <li>améliorations dans la gestion de l'<a href="http://fr.wikipedia.org/wiki/Unicode">unicode</a></li>
+            <li>affichage par défaut : Vue continue au lieu de Une seule page</li>
+            <li>améliorations pour SyncTex (contribution de William Blum)</li>
+            <li>ajout d'une option permettant de ne pas conserver l'historique
+              des fichiers ouverts</li>
+            <li>nouvelle icône pour l'association de documents (contribution de
+              Georges Georgiou)</li>
+            <li>beaucoup de corrections de bogues&nbsp;; polissage de
+              l'interface</li>
+          </ul>
+          0.9.3 (2008-10-07):
+          <ul>
+            <li>corrige un problème pour l'ouverture de fichiers non-ascii</li>
+            <li>mise à jour des traductions japonaise et brésilienne</li>
+          </ul>
+          0.9.2 (2008-10-06):
+          <ul>
+            <li>possibilité de désactiver l'option de mise à jour automatique</li>
+            <li>amélioration de l'affichage de texte – correction de problèmes
+              de chevauchement de texte</li>
+            <li>amélioration de la substitution de polices pour les polices
+              absentes du document PDF</li>
+            <li>peut désormais ouvrir un fichier PDF avec un nom non-ascii</li>
+            <li>améliorations du <a href="http://fr.wikipedia.org/wiki/Dynamic_Data_Exchange">DDE</a>
+              (contribution de Danilo Roascio)</li>
+            <li>améliorations pour SyncTex</li>
+            <li>améliore la persistance des états (contribution de Robert Liu)</li>
+            <li>corrige un plantage après l'appui sur 'Annuler' lors de la
+              saisie d'un mot de passe</li>
+            <li>mise à jour des traductions</li>
+          </ul>
+          0.9.1 (2008-08-22):
+          <ul>
+            <li>amélioration du rendu de certains types de PDF</li>
+            <li>support pour les liens dans les fichiers PDF</li>
+            <li>ajout de -restrict et -title dans les options de ligne de
+              commandes (contribution de Matthew Wilcoxson)</li>
+            <li>activation du support de SyncTex qui avait été désactivé par
+              erreur dans la version 0.9</li>
+            <li>diverses corrections&nbsp;; mise à jour des traductions</li>
+          </ul>
+          0.9 (2008-08-10):
+          <ul>
+            <li>ajout de Ctrl-P comme raccourci pour l'impression</li>
+            <li>ajout de F11 comme raccourci pour le mode Plein écran</li>
+            <li>désormais, la boîte de dialogue pour mot de passe n'affiche plus
+              celui-ci en clair</li>
+            <li>support pour les PDF avec chiffrement AES</li>
+            <li>mises à jour pour l'intégration de SyncTeX/PdfSync (contribution
+              de William Blum)</li>
+            <li>ajout du paramètre de ligne de commandes -nameddest et de
+              commandes DDE pour aller directement vers une destination nommée
+              (contribution de Alexander Klenin)</li>
+            <li>ajout du paramètre de ligne de commandes -reuse-instance
+              (contribution de William Blum)</li>
+            <li>ajout de commandes DDE pour l'ouverture de fichiers PDF
+              (contribution de William Blum)</li>
+            <li>moteur de rendu poppler retiré, ce qui donne un programme plus
+              compact&nbsp;; mise à jour de mupdf avec les sources les plus
+              récentes</li>
+            <li>diverses corrections&nbsp;; mise à jour des traductions</li>
+          </ul>
+          0.8.1 (2008-05-27):
+          <ul>
+            <li>rechargement automatique des PDF modifiés (contribution de
+              William Blum)</li>
+            <li>intégration de TeX (contribution de William Blum)</li>
+            <li>icône mise à jour pour l'option "Respecter la casse" de la
+              recherche de texte (contribution de Sonke Tesch)</li>
+            <li>le changement de langue est désormais une boîte de dialogue au
+              lieu d'une option de menu</li>
+            <li>mémorisation de plus d'options (tel que l'affichage par défaut)</li>
+            <li>recherche automatique de nouvelles versions du programme</li>
+            <li>ajout du paramètre de ligne de commandes -lang $lang</li>
+            <li>ajout du paramètre de ligne de commandes -print-dialog
+              (contribution de Peter Astrand)</li>
+            <li>déselection avec ESC ou un clic de souris en dehors de la
+              sélection</li>
+            <li>correction pour l'affichage de boîtes dans le panneau des
+              signets</li>
+            <li>mise à jour des traductions (contribution de <a href="translators-fr.html">nombreuses
+                personnes</a>)</li>
+          </ul>
+          0.8 (2008-01-01):
+          <ul>
+            <li>ajout de la fonction de recherche (contribution de MrChuoi)</li>
+            <li>ajout de la fenêtre de la table des matières (les signets)
+              (contribution de MrChuoi)</li>
+            <li>ajout de beaucoup de traductions (contribution de&nbsp;<a href="file:///C:/Users/Bernard/Documents/GitHub/web-blog/www/software/sumatrapdf/translators-fr.html">nombreuses</a><a
+                href="translators-fr.html"> personnes</a>)</li>
+            <li>nouvelle icône pour le programme</li>
+            <li>impression améliorée</li>
+            <li>correction de quelques plantages</li>
+            <li>affichage accéléré</li>
+            <li>amélioration de la prise en charge de certains types de PDF</li>
+            <li>ajout du paramètre de ligne de commandes -esc-to-exit</li>
+            <li>ajout du paramètre de ligne de commandes -bgcolor $color</li>
+          </ul>
+          0.7 (2007-07-28):
+          <ul>
+            <li>ajout de la possibilité de sélectionner le texte et de le copier
+              dans le Presse-papiers (contribution de Tomek Weksej)</li>
+            <li>programme désormais multilingue (13 traductions, contribution de
+              <a href="file:///C:/Users/Bernard/Documents/GitHub/web-blog/www/software/sumatrapdf/translators-fr.html">nombreuses</a><a
+                href="translators-fr.html"> personnes</a>)</li>
+            <li>ajout de l'option de menu Enregistrer sous...</li>
+            <li>la liste des fichiers récemment ouverts est mise à jour sans
+              délai</li>
+            <li>problème d'association des .pdf dans la base de registre sous
+              Vista résolu</li>
+            <li>ajout de la possibilité de compiler comme dll et comme exemple
+              d'application C# (contribution de Valery Possoz)</li>
+            <li>corrections pour la compilation mingw et fichiers de projet Code::Blocks
+              (contribution de MrChuoi)</li>
+            <li>correction de quelques plantages</li>
+            <li>fichiers sources déplacés vers le site Google Code project</li>
+          </ul>
+          0.6 (2007-04-29):
+          <ul>
+            <li>l'ouverture de fichiers PDF protégés par mot de passe est
+              désormais possible</li>
+            <li>ne permet plus d'imprimer les PDF pour lesquels l'impression est
+              interdite</li>
+            <li>ne rouvre plus automatiquement les fichiers au démarrage</li>
+            <li>correction de l'ouverture de PDF partagés en réseau</li>
+            <li>nouvelle icône, meilleure</li>
+            <li>rafraîchissement du document quand on change de moteur de rendu</li>
+            <li>améliore l'aspect du curseur lors d'un glisser</li>
+            <li>corrige l'aspect de la barre d'outils sur XP et Vista avec le
+              thème «&nbsp;classique&nbsp;»</li>
+            <li>quand le moteur muPDF ne peut pas charger un fichier ou rendre
+              une page, retour au moteur poppler pour obtenir un rendu plus
+              fiable</li>
+            <li>correction de quelques plantages</li>
+          </ul>
+          0.5 (2007-03-04):
+          <ul>
+            <li>correction de problèmes d'affichage avec certains PDF</li>
+            <li>accélérations – l'application peut être plus réactive et de ce
+              fait, il y a moins d'attente pour l'affichage</li>
+            <li>ajout du raccourci 'r' pour rouvrir le fichier PDF en cours</li>
+            <li>ajout des raccourcis &lt;Ctrl&gt;-&lt;Maj&gt;-+ et
+              &lt;Ctrl&gt;-&lt;Maj&gt;-- pour les rotations horaire et
+              anti-horaire (conforme aux raccourcis d'Adobe Reader)</li>
+            <li>correction d'un ou deux plantages</li>
+          </ul>
+          0.4 (2007-02-18):
+          <ul>
+            <li>impression</li>
+            <li>demande une confirmation avant d'enregistrer Sumatra comme
+              lecteur PDF par défaut</li>
+            <li>affichage plus rapide, merci au moteur de rendu alternatif. Le
+              précédent moteur est toujours disponible</li>
+            <li>défilement avec la molette de la souris</li>
+            <li>correction de problèmes avec la barre d'outils sous win2k</li>
+            <li>améliore l'accès au répertoire des polices installées</li>
+            <li>améliorations pour le mode portable</li>
+            <li>le désinstalleur supprime complètement le programme</li>
+            <li>changement du nom du fichier de préférences de prefs.txt en
+              sumatrapdfprefs.txt</li>
+          </ul>
+          0.3 (2006-11-25):
+          <ul>
+            <li>ajout d'une barre d'outils pour les opérations les plus
+              courantes</li>
+            <li>affichage plus prompt parce que le rendu est préparé en
+              arrière-plan et que la page suivante est mise en cache</li>
+            <li>certains choses sont plus rapides</li>
+          </ul>
+          0.2 (2006-08-06):
+          <ul>
+            <li>ajout des modes d'affichage page entière, continu et continu
+              page entière</li>
+            <li>enregistre l'historique des fichiers précédemment ouverts</li>
+            <li>sauvegarde la session, c.-à-d. qu'à la sortie le programme
+              enregistre quels fichiers étaient ouverts et restaure la session
+              quand le programme est démarré sans paramètres de ligne de
+              commandes</li>
+            <li>capacité d'ouvrir certains fichiers chiffrés</li>
+            <li>boîte de dialogue "Aller à la page..."</li>
+            <li>icône moins envahissante (moins jaune) qui ne vous saute plus à
+              la figure depuis le bureau</li>
+            <li>correction du problème de non-affichage de certains textes
+              (meilleur mapping pour les polices&nbsp;; utilisation d'une police
+              par défaut si celle spécifiée dans le PDF est absente)</li>
+            <li>gestion des liens URI dans les documents PDF</li>
+            <li>affichage d'un écran "À propos..."</li>
+            <li>mise à disposition d'une version .zip pour ceux qui ne peuvent
+              pas lancer le programme d'installation</li>
+            <li>passage du moteur xpdf au moteur poppler</li>
+          </ul>
+          0.1 (2006-06-01):
+          <ul>
+            <li>première version réalisée</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <center><a href="/">Krzysztof Kowalczyk</a></center>
+    </div>
+    <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-194516-1']);
   _gaq.push(['_trackPageview']);
@@ -432,9 +550,5 @@ N'esp&eacute;rez pas de miracles, cependant, la conversion en texte n'est pas tr
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
   })();
-</script>
-
-
-</body>
+</script> </body>
 </html>
-
