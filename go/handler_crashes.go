@@ -15,7 +15,7 @@ import (
 )
 
 var blacklistedSumatraVersions = []string{"1.5.1", "1.6", "1.7", "1.8", "1.9",
-	"2.0", "2.0.1", "2.1", "2.1.1", "2.2", "2.2.1", "2.3"}
+	"2.0", "2.0.1", "2.1", "2.1.1", "2.2", "2.2.1", "2.3", "2.3.1", "2.3.2"}
 
 func (c *Crash) Version() string {
 	ver := *c.ProgramVersion

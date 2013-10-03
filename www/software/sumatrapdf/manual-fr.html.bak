@@ -40,7 +40,7 @@ table.shortcuts {
                         <td><b>Navigation</b></td>
                       </tr>
                       <tr valign="top">
-                        <td align="right"><b>Molette de la souris</b></td>
+                        <td align="right"><b>Bouton droit de la souris</b></td>
                         <td> Défilement</td>
                       </tr>
                       <tr valign="top">
@@ -59,11 +59,11 @@ table.shortcuts {
                       <tr valign="top">
                         <td align="right"><b>n/p</b>, <b>&lt;Ctrl&gt; + flèche
                             Gauche/Droite</b></td>
-                        <td>Page suivante/précédente</td>
+                        <td>Page du document suivante/précédente</td>
                       </tr>
                       <tr valign="top">
-                        <td align="right"><b>Page Suiv./Page Préc.</b></td>
-                        <td> Page suivante/précédente</td>
+                        <td align="right"><b>Page Down/Page Up</b></td>
+                        <td> Page du document suivante/précédente</td>
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>&lt;Alt&gt;</b> + <b>flèche Gauche</b></td>
@@ -87,18 +87,12 @@ table.shortcuts {
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>b</b></td>
-                        <td> Page suivante en mode ‘livre’/ ‘double page’</td>
+                        <td> Page suivante en mode ‘livre’/‘double page’S</td>
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>&lt;Ctrl&gt;</b> + <b>&lt;Maj&gt;</b>
-                          + <b>flèche Gauche</b> </td>
-                        <td> Document précédent<br>
-                          dans le répertoire en cours</td>
-                      </tr>
-                      <tr valign="top">
-                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>&lt;Maj&gt;</b>
-                          + <b>flèche Droite</b> </td>
-                        <td> Document suivant<br>
+                          + <b>flèche Gauche/Droite</b> </td>
+                        <td> Document précédent/suivant<br>
                           dans le répertoire en cours</td>
                       </tr>
                       <tr>
@@ -166,8 +160,8 @@ table.shortcuts {
                         <td> Agrandir/Réduire (zoom in/out)</td>
                       </tr>
                       <tr valign="top">
-                        <td align="right"><b>&lt;Ctrl&gt;</b>/<span style="font-weight: bold;">
-                            bouton droit</span> + <b>molette de la souris</b></td>
+                        <td align="right"><b>&lt;Ctrl&gt;</b> + <b>molette de
+                            la souris</b></td>
                         <td> Agrandir/Réduire (zoom in/out)</td>
                       </tr>
                       <tr valign="top">
@@ -190,7 +184,7 @@ table.shortcuts {
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>F6</b> </td>
-                        <td> Bascule entre les fenêtres table des matières et
+                        <td> Bascule entre les fenètres table des matières et
                           page</td>
                       </tr>
                       <tr valign="top">
@@ -211,27 +205,18 @@ table.shortcuts {
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>.</b> </td>
-                        <td> En mode ‘présentation’, change la couleur
-                          d'arrière-plan en noir</td>
+                        <td> En mode ‘présentation’, change l'arrière-plan en
+                          noir</td>
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>w</b> </td>
-                        <td> En mode ‘présentation’, change la couleur
-                          d'arrière-plan en blanc</td>
+                        <td> En mode ‘présentation’, change l'arrière-plan en
+                          blanc</td>
                       </tr>
                       <tr valign="top">
                         <td align="right"><b>i</b> </td>
                         <td>En mode ‘plein écran’ ou ‘présentation’<br>
                           affiche l'information de page en cours</td>
-                      </tr>
-                      <tr>
-                        <td align="right"><b>F8</b> </td>
-                        <td style="height: 12.8667px;">&nbsp;Afficher/Masquer la
-                          barre d'outils</td>
-                      </tr>
-                      <tr>
-                        <td align="right"><b>F9</b> </td>
-                        <td>&nbsp;Afficher/Masquer la barre de menus</td>
                       </tr>
                     </tbody>
                   </table>
@@ -373,7 +358,7 @@ table.shortcuts {
           <p>Les versions les plus récentes de Chrome ont un plugin PDF
             préinstallé. Si vous désirez utiliser celui de Sumatra, vous devez
             désactiver celui de Chrome (et possiblement ceux d'autres
-            programmes, comme Adobe Reader ou Foxit Reader).</p>
+            programmes, comme Adobe Reader ou FoxIt Reader).</p>
           <p>Entrez <b>about:plugins</b> dans la barre d'adresse, puis
             assurez-vous d'activer le plugin PDF de Sumatra et de désactiver les
             autres.</p>
@@ -405,14 +390,14 @@ table.shortcuts {
             <li>Enregistrer le document</li>
             <li>Vérification automatique et manuelle des mises à jour</li>
             <li>Historique des derniers fichiers ouverts</li>
-            <li>Support de TeX</li>
+            <li>support de TeX</li>
             <li>Définir Sumatra comme lecteur PDF par défaut</li>
             <li>Ouvrir le document avec Adobe Acrobat</li>
-            <li>Envoyer le document PDF par courriel</li>
+            <li>Envoyer le document PDF par email</li>
           </ul>
           <h2 id="manual-notes">Notes</h2>
-          <p>Si « Se rappeler ces paramètres pour chaque document » est coché
-            dans les options, quand un document PDF est rouvert, Sumatra PDF ira
+          <p>Si "Se rappeler ces paramètres pour chaque document" est coché dans
+            les options, quand un document PDF est rouvert, Sumatra PDF ira
             directement à la dernière page affichée lors de sa dernière
             ouverture. Cela s'applique aussi aux documents déjà ouverts qui ne
             sont pas dans la liste des dix plus récents. Cette fonction ne
@@ -420,7 +405,7 @@ table.shortcuts {
             entre-temps.</p>
           <p>Certains paramètres (p. ex. le mode plein écran) sont enregistrés
             comme paramètres par défaut même quand ils n'ont pas été définis
-            comme tels si l'on quitte SumatraPDF sans qu'un document soit
+            comme tels quand on quitte SumatraPDF sans qu'un document soit
             ouvert.</p>
           <h2 id="manual-limitations">Restrictions connues</h2>
           <p>L'édition de formulaires interactifs et l'ajout de commentaires ne

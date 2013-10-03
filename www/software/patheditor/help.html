@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="for-windows.css">
+<title>Information about %PATH% variable</title>
+</head>
+
+<body>
+
+<div id="hdrfotofi">
+	<a href="for-windows.html" class="yepilink">Path Editor</a>
+	&nbsp;
+</div>
+
+<div id="content">
+	<h2>Information about %PATH% variable</h2>
+	<p>On Windows, <code>%PATH%</code> environment variable determines which directories
+		are searched to find an application whose name was typed from the
+		command line</p>
+	<p>The value is a string that consists of name of directories separated by
+		";" character.
+	</p>
+	<p>There are 2 <code>%PATH%</code> variables:
+		<ul>
+			<li>system one, which applies to all users</li>
+			<li>per-user, which is combined with the system one, but is different
+				for each user</li>
+		</ul>
+	</p>
+	<p>System variable is stored in the registry under
+		<code>HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment</code>.
+	</p>
+	<p>User variable is stored in the registry under
+		<code>HKCU\Environment</code>.
+	</p>
+	<p>HKLM stands for HKEY_LOCAL_MACHINE.</p>
+	<p>HKCU stands for HKEY_CURRENT_USER.</p>
+	<div style="clear:both;">&nbsp;</div>
+	<hr>
+    <center><span id="footer">By <a href="/">Krzysztof Kowalczyk</a></span></center>
+</div>
+
+</body>
+</html>
