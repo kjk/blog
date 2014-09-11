@@ -1,0 +1,43 @@
+package textiler
+
+// html blocks that don't need escaping
+var blockTags = map[string]bool{
+	"b":          true,
+	"p":          true,
+	"dl":         true,
+	"h1":         true,
+	"h2":         true,
+	"h3":         true,
+	"h4":         true,
+	"h5":         true,
+	"h6":         true,
+	"ol":         true,
+	"ul":         true,
+	"del":        true,
+	"div":        true,
+	"ins":        true,
+	"pre":        true,
+	"code":       true,
+	"form":       true,
+	"math":       true,
+	"table":      true,
+	"iframe":     true,
+	"script":     true,
+	"fieldset":   true,
+	"noscript":   true,
+	"blockquote": true,
+
+	// HTML5
+	"video":      true,
+	"aside":      true,
+	"canvas":     true,
+	"figure":     true,
+	"footer":     true,
+	"header":     true,
+	"hgroup":     true,
+	"output":     true,
+	"article":    true,
+	"section":    true,
+	"progress":   true,
+	"figcaption": true,
+}

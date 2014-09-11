@@ -1,7 +1,12 @@
 {
-	"ImportPath": "github.com/kjk/blog",
+	"ImportPath": "github.com/kjk/web-blog",
 	"GoVersion": "go1.3",
 	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go.net/html",
+			"Comment": "null-139",
+			"Rev": "98fd1f5506373df1033b67a1881078705456e2ee"
+		},
 		{
 			"ImportPath": "github.com/crowdmob/goamz/aws",
 			"Rev": "721b8036c20a0f864b374e8cc142c71bb3802f90"
