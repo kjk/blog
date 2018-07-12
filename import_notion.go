@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/kjk/notion"
 )
@@ -198,6 +199,21 @@ func genBlocksHTML(f io.Writer, parent *notion.Block, level int) {
 		}
 		genBlockHTML(f, block, level)
 	}
+}
+
+type Metadata struct {
+	ID   string
+	Tags []string
+	Date string
+}
+
+func (m *Metadata) GetDate() (time.Time, bool) {
+	return time.Now(), false
+}
+
+// exttract metadata from blocks
+func extractMeta(pageInfo *notion.PageInfo) *Metadata {
+	return nil
 }
 
 func genHTML(pageID string, pageInfo *notion.PageInfo) []byte {
