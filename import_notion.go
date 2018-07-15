@@ -202,18 +202,76 @@ func genBlocksHTML(f io.Writer, parent *notionapi.Block, level int) {
 }
 
 type Metadata struct {
-	ID   string
-	Tags []string
-	Date string
-}
-
-func (m *Metadata) GetDate() (time.Time, bool) {
-	return time.Now(), false
+	ID          string
+	Tags        []string
+	Date        string
+	DateParsed  time.Time
+	Description string
 }
 
 // exttract metadata from blocks
-func extractMeta(pageInfo *notionapi.PageInfo) *Metadata {
-	return nil
+func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
+	blocks := pageInfo.Page.Content
+	// metadata blocks are always at the beginning. They are TypeText blocks and
+	// have only one plain string as content
+	res := Metadata{}
+	for len(blocks) > 0 {
+		block := blocks[0]
+		if block.Type != notionapi.TypeText {
+			break
+		}
+
+		if len(block.InlineContent) > 0 {
+			break
+		}
+		inline := block.InlineContent[0]
+		// must be plain text
+		if inline.AttrFlags != 0 || len(inline.Attrs) > 0 {
+			break
+		}
+		// remove empty lines at the top
+		s := strings.TrimSpace(inline.Text)
+		if s == "" {
+			blocks = blocks[1:]
+			continue
+		}
+		parts := strings.Split(s, ":")
+		if len(parts) != 2 {
+			continue
+		}
+		key := strings.ToLower(strings.TrimSpace(parts[0]))
+		val := strings.TrimSpace(parts[1])
+		switch key {
+		case "tags":
+			res.Tags = strings.Split(val, ",")
+			for i, tag := range res.Tags {
+				res.Tags[i] = strings.TrimSpace(tag)
+			}
+		case "id":
+			res.ID = val
+		case "date":
+			res.Date = val
+			// 2002-06-21T04:15:29-07:00
+			parsed, err := time.Parse(time.RFC3339, res.Date)
+			if err != nil {
+				panicMsg("Failed to parse date '%s' in notion page with id '%s'. Error: %s", res.Date, pageInfo.ID, err)
+			}
+			res.DateParsed = parsed
+		case "description":
+			res.Description = val
+		default:
+			panicMsg("Unsupported tag '%s' in notion page with id '%s'", pageInfo.ID)
+		}
+
+	}
+	pageInfo.Page.Content = blocks
+	return &res
+}
+
+func panicMsg(format string, args ...interface{}) {
+	s := fmt.Sprintf(format, args...)
+	fmt.Printf("%s\n", s)
+	panic(s)
 }
 
 func genHTML(pageID string, pageInfo *notionapi.PageInfo) []byte {
