@@ -264,36 +264,36 @@ func prettyHTML(d []byte) []byte {
 
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
-	page := pageInfo.Page
-	title := page.Title
-	id := normalizeID(page.ID)
+	//page := pageInfo.Page
+	//title := page.Title
+	//id := normalizeID(page.ID)
 	blocks := pageInfo.Page.Content
-	fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
+	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	res := Metadata{}
 	nBlock := 0
 	for len(blocks) > 0 {
 		block := blocks[0]
-		fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
+		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
 
 		if block.Type != notionapi.BlockText {
-			fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+			//fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
 
 		if len(block.InlineContent) == 0 {
-			fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+			//fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
 			blocks = blocks[1:]
 			break
 		} else {
-			fmt.Printf("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
+			//fmt.Printf("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
 		}
 
 		inline := block.InlineContent[0]
 		// must be plain text
 		if !inline.IsPlain() {
-			fmt.Printf("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
+			//fmt.Printf("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
 			break
 		}
 
@@ -302,11 +302,11 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
-			fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
 			blocks = blocks[1:]
 			break
 		}
-		fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
+		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
 
 		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {
@@ -344,7 +344,7 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		case "collection":
 			res.Collection = val
 		default:
-			//rmCached(pageInfo.ID)
+			rmCached(pageInfo.ID)
 			panicMsg("Unsupported meta '%s' in notion page with id '%s'", key, pageInfo.ID)
 		}
 		nBlock++
@@ -379,7 +379,6 @@ func panicMsg(format string, args ...interface{}) {
 }
 
 func genHTML(pageInfo *notionapi.PageInfo) []byte {
-	extractMetadata(pageInfo)
 	title := pageInfo.Page.Title
 	title = template.HTMLEscapeString(title)
 
@@ -442,6 +441,7 @@ func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
 			fmt.Printf("json.Unmarshal() on '%s' failed with %s\n", cachedPath, err)
 		}
 	}
+	fmt.Printf("downloading page with id %s\n", pageID)
 	res, err := notionapi.GetPageInfo(pageID)
 	if err != nil {
 		return nil, err
@@ -507,10 +507,18 @@ type NotionDoc struct {
 	meta     *Metadata
 }
 
+func loadOne(id string) {
+	id = normalizeID(id)
+	page, err := loadPage(id)
+	panicIfErr(err)
+	extractMetadata(page)
+}
+
 func loadNotionBlogPosts() map[string]*NotionDoc {
 	indexPageID := normalizeID("300db9dc27c84958a08b8d0c37f4cfe5")
 	pageInfo, err := loadPage(indexPageID)
 	panicIfErr(err)
+
 	res := make(map[string]*NotionDoc)
 	for _, block := range pageInfo.Page.Content {
 		if block.Type != notionapi.BlockPage {
@@ -523,7 +531,6 @@ func loadNotionBlogPosts() map[string]*NotionDoc {
 			continue
 		}
 		fmt.Printf("%s-%s\n", title, id)
-		os.Stdout.Sync()
 		page, err := loadPage(id)
 		panicIfErr(err)
 		meta := extractMetadata(page)
@@ -628,6 +635,7 @@ func importNotion() {
 	os.MkdirAll(destDir, 0755)
 
 	if true {
+		//loadOne("431295a5-4f7e-4208-869f-4763862c1f05")
 		docs := loadNotionBlogPosts()
 		genNotionBasic(docs)
 		return
