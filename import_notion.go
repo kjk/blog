@@ -42,18 +42,28 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 	return f, nil
 }
 
-func genHTMLTitle(f io.Writer, pageBlock *notionapi.Block) {
-	title := ""
-	if len(pageBlock.InlineContent) > 0 {
-		title = pageBlock.InlineContent[0].Text
-		title = template.HTMLEscapeString(title)
-	}
-
-	s := fmt.Sprintf(`  <div class="title">%s</div>%s`, title, "\n")
-	io.WriteString(f, s)
+// HTMLGenerator is for notion -> HTML generation
+type HTMLGenerator struct {
+	f                 *bytes.Buffer
+	pageInfo          *notionapi.PageInfo
+	level             int
+	numberedListLevel int
+	err               error
 }
 
-func genInlineBlockHTML(f io.Writer, b *notionapi.InlineBlock) error {
+func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
+	return &HTMLGenerator{
+		f:        &bytes.Buffer{},
+		pageInfo: pageInfo,
+	}
+}
+
+func (g *HTMLGenerator) Gen() []byte {
+	g.genBlocks(g.pageInfo.Page)
+	return g.f.Bytes()
+}
+
+func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) error {
 	var start, close string
 	if b.AttrFlags&notionapi.AttrBold != 0 {
 		start += "<b>"
@@ -88,16 +98,13 @@ func genInlineBlockHTML(f io.Writer, b *notionapi.InlineBlock) error {
 	if !skipText {
 		start += b.Text
 	}
-	_, err := io.WriteString(f, start+close)
-	if err != nil {
-		return err
-	}
-	return nil
+	_, err := io.WriteString(g.f, start+close)
+	return err
 }
 
-func genInlineBlocksHTML(f io.Writer, blocks []*notionapi.InlineBlock) error {
+func (g *HTMLGenerator) genInlineBlocks(blocks []*notionapi.InlineBlock) error {
 	for _, block := range blocks {
-		err := genInlineBlockHTML(f, block)
+		err := g.genInlineBlock(block)
 		if err != nil {
 			return err
 		}
@@ -105,32 +112,34 @@ func genInlineBlocksHTML(f io.Writer, blocks []*notionapi.InlineBlock) error {
 	return nil
 }
 
-func genBlockSurroudedHTML(f io.Writer, block *notionapi.Block, start, close string, level int) {
-	io.WriteString(f, start+"\n")
-	genInlineBlocksHTML(f, block.InlineContent)
-	genBlocksHTML(f, block, level+1)
-	io.WriteString(f, close+"\n")
+func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close string) {
+	io.WriteString(g.f, start+"\n")
+	g.genInlineBlocks(block.InlineContent)
+	g.level++
+	g.genBlocks(block)
+	g.level--
+	io.WriteString(g.f, close+"\n")
 }
 
-func genBlockHTML(f io.Writer, block *notionapi.Block, level int) {
+func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	levelCls := ""
-	if level > 0 {
-		levelCls = fmt.Sprintf(" lvl%d", level)
+	if g.level > 0 {
+		levelCls = fmt.Sprintf(" lvl%d", g.level)
 	}
 
 	switch block.Type {
 	case notionapi.TypeText:
 		start := fmt.Sprintf(`<p>`)
 		close := `</p>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeHeader:
 		start := fmt.Sprintf(`<h1 class="hdr%s">`, levelCls)
 		close := `</h1>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeSubHeader:
 		start := fmt.Sprintf(`<h2 class="hdr%s">`, levelCls)
 		close := `</h2>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeTodo:
 		clsChecked := ""
 		if block.IsChecked {
@@ -138,25 +147,25 @@ func genBlockHTML(f io.Writer, block *notionapi.Block, level int) {
 		}
 		start := fmt.Sprintf(`<div class="todo%s%s">`, levelCls, clsChecked)
 		close := `</div>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeToggle:
 		start := fmt.Sprintf(`<div class="toggle%s">`, levelCls)
 		close := `</div>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeBulletedList:
 		start := fmt.Sprintf(`<div class="bullet-list%s">`, levelCls)
 		close := `</div>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeNumberedList:
 		start := fmt.Sprintf(`<div class="numbered-list%s">`, levelCls)
 		close := `</div>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeQuote:
 		start := fmt.Sprintf(`<quote class="%s">`, levelCls)
 		close := `</quote>`
-		genBlockSurroudedHTML(f, block, start, close, level)
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeDivider:
-		fmt.Fprintf(f, `<hr class="%s"/>`+"\n", levelCls)
+		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", levelCls)
 	case notionapi.TypePage:
 		id := strings.TrimSpace(block.ID)
 		cls := "page"
@@ -166,20 +175,20 @@ func genBlockHTML(f io.Writer, block *notionapi.Block, level int) {
 		title := template.HTMLEscapeString(block.Title)
 		url := normalizeID(id) + ".html"
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
-		fmt.Fprintf(f, "%s\n", html)
+		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.TypeCode:
 		code := template.HTMLEscapeString(block.Code)
-		fmt.Fprintf(f, `<div class="%s">Lang for code: %s</div>
+		fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
 <pre class="%s">
 %s
 </pre>`, levelCls, block.CodeLanguage, levelCls, code)
 	case notionapi.TypeBookmark:
-		fmt.Fprintf(f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
+		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
 	case notionapi.TypeGist:
-		fmt.Fprintf(f, `<div class="gist %s">Gist for %s</div>`+"\n", levelCls, block.Source)
+		fmt.Fprintf(g.f, `<div class="gist %s">Gist for %s</div>`+"\n", levelCls, block.Source)
 	case notionapi.TypeImage:
 		link := block.ImageURL
-		fmt.Fprintf(f, `<img class="%s" src="%s" />`+"\n", levelCls, link)
+		fmt.Fprintf(g.f, `<img class="%s" src="%s" />`+"\n", levelCls, link)
 	case notionapi.TypeColumnList:
 		// TODO: implement me
 	case notionapi.TypeCollectionView:
@@ -190,14 +199,14 @@ func genBlockHTML(f io.Writer, block *notionapi.Block, level int) {
 	}
 }
 
-func genBlocksHTML(f io.Writer, parent *notionapi.Block, level int) {
+func (g *HTMLGenerator) genBlocks(parent *notionapi.Block) {
 	blocks := parent.Content
 	for i, block := range blocks {
 		if block == nil {
 			id := parent.ContentIDs[i]
 			fmt.Printf("No block at index %d with id=%s. Parent block %s of type %s\n", i, id, parent.ID, parent.Type)
 		}
-		genBlockHTML(f, block, level)
+		g.genBlock(block)
 	}
 }
 
@@ -294,9 +303,8 @@ func genHTML(pageID string, pageInfo *notionapi.PageInfo) []byte {
 	title := pageInfo.Page.Title
 	title = template.HTMLEscapeString(title)
 
-	f := &bytes.Buffer{}
-	genBlocksHTML(f, pageInfo.Page, 0)
-	html := string(f.Bytes())
+	gen := NewHTMLGenerator(pageInfo)
+	html := string(gen.Gen())
 
 	s := fmt.Sprintf(`<!doctype html>
 <html>
