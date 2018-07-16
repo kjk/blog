@@ -13,7 +13,6 @@ import (
 	"time"
 
 	"github.com/kjk/notionapi"
-	"github.com/yosssi/gohtml"
 )
 
 var (
@@ -25,23 +24,6 @@ var (
 		"0c896ea2efd24ec7be1d1f6e3b22d254",
 	}
 )
-
-// convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
-func normalizeID(s string) string {
-	return strings.Replace(s, "-", "", -1)
-}
-
-func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
-	name := fmt.Sprintf("%s.go.log.txt", pageID)
-	path := filepath.Join("log", name)
-	f, err := os.Create(path)
-	if err != nil {
-		fmt.Printf("os.Create('%s') failed with %s\n", path, err)
-		return nil, err
-	}
-	notionapi.Logger = f
-	return f, nil
-}
 
 // Metadata describes meta information extracted from the page
 type Metadata struct {
@@ -64,11 +46,27 @@ func (m *Metadata) IsNotImportant() bool {
 	return strings.EqualFold(m.Status, "notimportant")
 }
 
-func prettyHTML(d []byte) []byte {
-	gohtml.Condense = true
-	s := string(d)
-	s = gohtml.Format(s)
-	return []byte(s)
+// NotionDoc represents a notion page and additional info we need about it
+type NotionDoc struct {
+	pageInfo *notionapi.PageInfo
+	meta     *Metadata
+}
+
+// convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
+func normalizeID(s string) string {
+	return strings.Replace(s, "-", "", -1)
+}
+
+func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
+	name := fmt.Sprintf("%s.go.log.txt", pageID)
+	path := filepath.Join("log", name)
+	f, err := os.Create(path)
+	if err != nil {
+		fmt.Printf("os.Create('%s') failed with %s\n", path, err)
+		return nil, err
+	}
+	notionapi.Logger = f
+	return f, nil
 }
 
 // exttract metadata from blocks
@@ -162,29 +160,17 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	return &res
 }
 
-func rmCached(pageID string) {
-	id := normalizeID(pageID)
-	{
-		path := filepath.Join("log", id+".go.log.txt")
-		err := os.Remove(path)
-		if err != nil {
-			fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
-		}
-	}
-
-	{
-		path := filepath.Join("cache", id+".json")
-		err := os.Remove(path)
-		if err != nil {
-			fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
-		}
+func rmFile(path string) {
+	err := os.Remove(path)
+	if err != nil {
+		fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
 	}
 }
 
-func panicMsg(format string, args ...interface{}) {
-	s := fmt.Sprintf(format, args...)
-	fmt.Printf("%s\n", s)
-	panic(s)
+func rmCached(pageID string) {
+	id := normalizeID(pageID)
+	rmFile(filepath.Join("log", id+".go.log.txt"))
+	rmFile(filepath.Join(cacheDir, id+".json"))
 }
 
 func genHTML(pageInfo *notionapi.PageInfo) []byte {
@@ -237,7 +223,7 @@ func genHTML(pageInfo *notionapi.PageInfo) []byte {
 
 func loadPageFromCache(pageID string) *notionapi.PageInfo {
 	var pageInfo notionapi.PageInfo
-	cachedPath := filepath.Join("cache", pageID+".json")
+	cachedPath := filepath.Join(cacheDir, pageID+".json")
 	if useCache {
 		d, err := ioutil.ReadFile(cachedPath)
 		if err == nil {
@@ -252,7 +238,7 @@ func loadPageFromCache(pageID string) *notionapi.PageInfo {
 
 func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
 	fmt.Printf("downloading page with id %s\n", pageID)
-	cachedPath := filepath.Join("cache", pageID+".json")
+	cachedPath := filepath.Join(cacheDir, pageID+".json")
 	lf, _ := openLogFileForPageID(pageID)
 	if lf != nil {
 		defer lf.Close()
@@ -316,44 +302,10 @@ func copyCSS() {
 	panicIfErr(err)
 }
 
-// NotionDoc represents a notion page and additional info we need about it
-type NotionDoc struct {
-	pageInfo *notionapi.PageInfo
-	meta     *Metadata
-}
-
 func loadOne(id string) {
 	id = normalizeID(id)
 	_, err := loadPage(id)
 	panicIfErr(err)
-}
-
-func loadNotionBlogPosts() map[string]*NotionDoc {
-	indexPageID := normalizeID("300db9dc27c84958a08b8d0c37f4cfe5")
-	doc, err := loadPage(indexPageID)
-	panicIfErr(err)
-	pageInfo := doc.pageInfo
-
-	res := make(map[string]*NotionDoc)
-	for _, block := range pageInfo.Page.Content {
-		if block.Type != notionapi.BlockPage {
-			continue
-		}
-
-		title := block.Title
-		id := normalizeID(block.ID)
-		if _, ok := res[id]; ok {
-			continue
-		}
-		fmt.Printf("%s-%s\n", title, id)
-		doc, err := loadPage(id)
-		panicIfErr(err)
-		if doc.meta.IsHidden() {
-			continue
-		}
-		res[id] = doc
-	}
-	return res
 }
 
 func genIndexHTML(docs []*NotionDoc) []byte {
@@ -441,10 +393,10 @@ func genNotionBasic(pages map[string]*NotionDoc) {
 
 func importNotion() {
 	os.MkdirAll("log", 0755)
-	os.MkdirAll("cache", 0755)
+	os.MkdirAll(cacheDir, 0755)
 	os.MkdirAll(destDir, 0755)
 
-	if true {
+	if false {
 		//loadOne("431295a5-4f7e-4208-869f-4763862c1f05")
 		docs := loadNotionBlogPosts()
 		genNotionBasic(docs)

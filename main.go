@@ -23,16 +23,18 @@ var (
 	analyticsCode = "UA-194516-1"
 	showDrafts    bool
 
-	flgNewArticleTitle string
-	flgWatch           bool
-	flgVerbose         bool
-	inProduction       bool
+	flgNewArticleTitle  string
+	flgRedownloadNotion bool
+	flgWatch            bool
+	flgVerbose          bool
+	inProduction        bool
 )
 
 func parseCmdLineFlags() {
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.BoolVar(&flgWatch, "watch", false, "if true, runs caddy for preview and re-builds on changes")
 	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
+	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
 	flag.Parse()
 }
 
@@ -220,7 +222,7 @@ func runCaddyAndWatch() {
 }
 
 func main() {
-	if true {
+	if false {
 		importNotion()
 		os.Exit(0)
 	}
@@ -228,6 +230,11 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
+
+	if flgRedownloadNotion {
+		notionRedownload()
+		return
+	}
 
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)

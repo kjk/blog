@@ -14,12 +14,19 @@ import (
 	"unicode/utf8"
 
 	"github.com/kjk/u"
+	"github.com/yosssi/gohtml"
 )
 
 func panicIfErr(err error) {
 	if err != nil {
 		panic(err.Error())
 	}
+}
+
+func panicMsg(format string, args ...interface{}) {
+	s := fmt.Sprintf(format, args...)
+	fmt.Printf("%s\n", s)
+	panic(s)
 }
 
 // whitelisted characters valid in url
@@ -323,4 +330,11 @@ func dirCopyRecur(dst string, src string, shouldSkipFile func(string) bool) (int
 		}
 	}
 	return nFilesCopied, nil
+}
+
+func prettyHTML(d []byte) []byte {
+	gohtml.Condense = true
+	s := string(d)
+	s = gohtml.Format(s)
+	return []byte(s)
 }
