@@ -1,0 +1,220 @@
+{
+  "ID": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+  "Page": {
+    "alive": true,
+    "content": [
+      "64090ac0-d40c-40a8-b636-a99c4604e27c",
+      "49350b21-a0c2-4ef5-bb07-b1f7abdadad1",
+      "bd10da50-d65a-4efc-b9ca-888e2dc7ad84",
+      "80956cec-ef7d-431a-9b10-d8ff85269edf",
+      "e32f7d6e-f345-4808-98e4-2f64f14df2b8",
+      "c7b209eb-b8ff-4443-9b62-66f13007fc73",
+      "b06254fb-b83c-4632-bf96-a2455c2661b0"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195941638,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531623522726,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Forcing basic http authentication for HttpWebRequest (in .NET/C#)"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 7,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "64090ac0-d40c-40a8-b636-a99c4604e27c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623522726,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 14007"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 14007"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "49350b21-a0c2-4ef5-bb07-b1f7abdadad1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195941638,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: .net, c#"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: .net, c#"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "bd10da50-d65a-4efc-b9ca-888e2dc7ad84",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195941638,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2009-03-14T16:12:55-07:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2009-03-14T16:12:55-07:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "80956cec-ef7d-431a-9b10-d8ff85269edf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623521490,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "e32f7d6e-f345-4808-98e4-2f64f14df2b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195941638,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "HttpWebRequest is a handy .NET class for doing HTTP requests. It has built-in support for HTTP basic authentication via credentials. However, it doesn’t work the way I expected: supplying credentials doesn’t send Authorization HTTP header with the request but only in response to server’s challenge. It often breaks in real world, where servers might not issue a challenge and simply not authenticate a request."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "HttpWebRequest is a handy .NET class for doing HTTP requests. It has built-in support for HTTP basic authentication via credentials. However, it doesn’t work the way I expected: supplying credentials doesn’t send Authorization HTTP header with the request but only in response to server’s challenge. It often breaks in real world, where servers might not issue a challenge and simply not authenticate a request."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941638,
+        "id": "c7b209eb-b8ff-4443-9b62-66f13007fc73",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195941638,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Fortunately fixing it by manually adding Authorization HTTP header to the request is simple and this code snippet shows how to do it:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Fortunately fixing it by manually adding Authorization HTTP header to the request is simple and this code snippet shows how to do it:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941639,
+        "id": "b06254fb-b83c-4632-bf96-a2455c2661b0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195941639,
+        "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Java/C/C++/C#"
+            ]
+          ],
+          "title": [
+            [
+              "public void SetBasicAuthHeader(WebRequest req, String userName, String\nuserPassword)\n{\n string authInfo = userName + “:” + userPassword;\n authInfo = Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));\n req.Headers[“Authorization”] = “Basic ” + authInfo;\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "public void SetBasicAuthHeader(WebRequest req, String userName, String\nuserPassword)\n{\n string authInfo = userName + “:” + userPassword;\n authInfo = Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));\n req.Headers[“Authorization”] = “Basic ” + authInfo;\n}",
+        "code_language": "Java/C/C++/C#"
+      }
+    ],
+    "title": "Forcing basic http authentication for HttpWebRequest (in .NET/C#)",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

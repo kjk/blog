@@ -184,27 +184,6 @@ func decodeDate(s string, date *string, dateParsed *time.Time, pageID string) {
 	*dateParsed = parsed
 }
 
-/*
-type Article struct {
-	ID             string
-	OrigID         string
-	Title          string
-	Tags           []string
-	Format         int
-	OrigPath       string // path of the markdown file with content
-	Body           []byte
-	BodyHTML       string
-	HeaderImageURL string
-	Collection     string
-	CollectionURL  string
-	Status         int
-	Description    string
-
-	HTMLBody     template.HTML
-	DisplayMonth string
-}
-*/
-
 func notionDocToArticle(doc *NotionDoc) *Article {
 	meta := doc.meta
 	page := doc.pageInfo.Page

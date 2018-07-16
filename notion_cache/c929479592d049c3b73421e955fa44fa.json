@@ -1,0 +1,327 @@
+{
+  "ID": "c9294795-92d0-49c3-b734-21e955fa44fa",
+  "Page": {
+    "alive": true,
+    "content": [
+      "cffa3f97-19fe-44ff-9b23-ccf249ed3018",
+      "bdbca027-1dd1-4d34-91b6-5a57aa39586f",
+      "5b63c6df-83d2-4a0b-9290-69d26ecd04f1",
+      "fa0ecabb-457a-4536-a446-6c0cb21b2563",
+      "dddb2b46-d9cf-4177-839f-55e198cdefe3",
+      "04667def-f51f-46dd-9ed1-737a8e99a2be",
+      "17ff387b-7808-4e5e-be5d-f3d4f3b29895",
+      "0eac89ff-ed67-4886-aa8a-b03bd5f4fe45"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195944559,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531623517721,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Parsing s3 log files in python"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 7,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944559,
+        "id": "cffa3f97-19fe-44ff-9b23-ccf249ed3018",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623517721,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 13010"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 13010"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944559,
+        "id": "bdbca027-1dd1-4d34-91b6-5a57aa39586f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944559,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: aws, python"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: aws, python"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944559,
+        "id": "5b63c6df-83d2-4a0b-9290-69d26ecd04f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944559,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2009-03-08T16:54:37-07:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2009-03-08T16:54:37-07:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944559,
+        "id": "fa0ecabb-457a-4536-a446-6c0cb21b2563",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623516176,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944560,
+        "id": "dddb2b46-d9cf-4177-839f-55e198cdefe3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944560,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "After we "
+            ],
+            [
+              "took care of compacting s3 logs",
+              [
+                [
+                  "a",
+                  "/article/Compacting-s3-aws-logs.html"
+                ]
+              ]
+            ],
+            [
+              ", it’s time to parse them. s3 log format is "
+            ],
+            [
+              "well documented",
+              [
+                [
+                  "a",
+                  "http://docs.amazonwebservices.com/AmazonS3/latest/index.html?LogFormat.html"
+                ]
+              ]
+            ],
+            [
+              " and can be parsed with a simple regular expression."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "After we "
+          },
+          {
+            "Text": "took care of compacting s3 logs",
+            "Link": "/article/Compacting-s3-aws-logs.html"
+          },
+          {
+            "Text": ", it’s time to parse them. s3 log format is "
+          },
+          {
+            "Text": "well documented",
+            "Link": "http://docs.amazonwebservices.com/AmazonS3/latest/index.html?LogFormat.html"
+          },
+          {
+            "Text": " and can be parsed with a simple regular expression."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944560,
+        "id": "04667def-f51f-46dd-9ed1-737a8e99a2be",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944560,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It took me some time to craft it, so here it is. You can also view the source "
+            ],
+            [
+              "here",
+              [
+                [
+                  "a",
+                  "http://code.google.com/p/kjk/source/browse/trunk/scripts/test_parse_s3_log.py"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "It took me some time to craft it, so here it is. You can also view the source "
+          },
+          {
+            "Text": "here",
+            "Link": "http://code.google.com/p/kjk/source/browse/trunk/scripts/test_parse_s3_log.py"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944560,
+        "id": "17ff387b-7808-4e5e-be5d-f3d4f3b29895",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944560,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "#!/usr/bin/env python\nimport re\n\ns3_line_logpats  = r'(\\S+) (\\S+) \\[(.*?)\\] (\\S+) (\\S+) ' \\\n           r'(\\S+) (\\S+) (\\S+) \"([^\"]+)\" ' \\\n           r'(\\S+) (\\S+) (\\S+) (\\S+) (\\S+) (\\S+) ' \\\n           r'\"([^\"]+)\" \"([^\"]+)\"'\n\ns3_line_logpat = re.compile(s3_line_logpats)\n\n(S3_LOG_BUCKET_OWNER, S3_LOG_BUCKET, S3_LOG_DATETIME, S3_LOG_IP,\nS3_LOG_REQUESTOR_ID, S3_LOG_REQUEST_ID, S3_LOG_OPERATION, S3_LOG_KEY,\nS3_LOG_HTTP_METHOD_URI_PROTO, S3_LOG_HTTP_STATUS, S3_LOG_S3_ERROR,\nS3_LOG_BYTES_SENT, S3_LOG_OBJECT_SIZE, S3_LOG_TOTAL_TIME,\nS3_LOG_TURN_AROUND_TIME, S3_LOG_REFERER, S3_LOG_USER_AGENT) = range(17)\n\ns3_names = (\"bucket_owner\", \"bucket\", \"datetime\", \"ip\", \"requestor_id\",\n\"request_id\", \"operation\", \"key\", \"http_method_uri_proto\", \"http_status\",\n\"s3_error\", \"bytes_sent\", \"object_size\", \"total_time\", \"turn_around_time\",\n\"referer\", \"user_agent\")\n\ndef parse_s3_log_line(line):\n    match = s3_line_logpat.match(line)\n    result = [match.group(1+n) for n in range(17)]\n    return result\n\ndef dump_parsed_s3_line(parsed):\n    for (name, val) in zip(s3_names, parsed):\n        print(\"%s: %s\" % (name, val))\n\ndef test():\n    l = r'607c4573f2972c26aff39f7e56ff0490881a35c19b9bf94072cbab8c3219f948 kjkpub [06/Mar/2009:23:13:28 +0000] 41.221.20.231 65a011a29cdf8ec533ec3d1ccaae921c C46E93FF2E865AC1 REST.GET.OBJECT sumatrapdf/rel/SumatraPDF-0.9.1.zip \"GET /sumatrapdf/rel/SumatraPDF-0.9.1.zip HTTP/1.1\" 206 - 43457 1003293 697 611 \"http://kjkpub.s3.amazonaws.com/sumatrapdf/rel/\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\"'\n    parsed = parse_s3_log_line(l)\n    dump_parsed_s3_line(parsed)\n\nif __name__ == \"__main__\":\n    test()"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "#!/usr/bin/env python\nimport re\n\ns3_line_logpats  = r'(\\S+) (\\S+) \\[(.*?)\\] (\\S+) (\\S+) ' \\\n           r'(\\S+) (\\S+) (\\S+) \"([^\"]+)\" ' \\\n           r'(\\S+) (\\S+) (\\S+) (\\S+) (\\S+) (\\S+) ' \\\n           r'\"([^\"]+)\" \"([^\"]+)\"'\n\ns3_line_logpat = re.compile(s3_line_logpats)\n\n(S3_LOG_BUCKET_OWNER, S3_LOG_BUCKET, S3_LOG_DATETIME, S3_LOG_IP,\nS3_LOG_REQUESTOR_ID, S3_LOG_REQUEST_ID, S3_LOG_OPERATION, S3_LOG_KEY,\nS3_LOG_HTTP_METHOD_URI_PROTO, S3_LOG_HTTP_STATUS, S3_LOG_S3_ERROR,\nS3_LOG_BYTES_SENT, S3_LOG_OBJECT_SIZE, S3_LOG_TOTAL_TIME,\nS3_LOG_TURN_AROUND_TIME, S3_LOG_REFERER, S3_LOG_USER_AGENT) = range(17)\n\ns3_names = (\"bucket_owner\", \"bucket\", \"datetime\", \"ip\", \"requestor_id\",\n\"request_id\", \"operation\", \"key\", \"http_method_uri_proto\", \"http_status\",\n\"s3_error\", \"bytes_sent\", \"object_size\", \"total_time\", \"turn_around_time\",\n\"referer\", \"user_agent\")\n\ndef parse_s3_log_line(line):\n    match = s3_line_logpat.match(line)\n    result = [match.group(1+n) for n in range(17)]\n    return result\n\ndef dump_parsed_s3_line(parsed):\n    for (name, val) in zip(s3_names, parsed):\n        print(\"%s: %s\" % (name, val))\n\ndef test():\n    l = r'607c4573f2972c26aff39f7e56ff0490881a35c19b9bf94072cbab8c3219f948 kjkpub [06/Mar/2009:23:13:28 +0000] 41.221.20.231 65a011a29cdf8ec533ec3d1ccaae921c C46E93FF2E865AC1 REST.GET.OBJECT sumatrapdf/rel/SumatraPDF-0.9.1.zip \"GET /sumatrapdf/rel/SumatraPDF-0.9.1.zip HTTP/1.1\" 206 - 43457 1003293 697 611 \"http://kjkpub.s3.amazonaws.com/sumatrapdf/rel/\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\"'\n    parsed = parse_s3_log_line(l)\n    dump_parsed_s3_line(parsed)\n\nif __name__ == \"__main__\":\n    test()",
+        "code_language": "Plain Text"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944560,
+        "id": "0eac89ff-ed67-4886-aa8a-b03bd5f4fe45",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195944560,
+        "parent_id": "c9294795-92d0-49c3-b734-21e955fa44fa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This snippet only shows how to break one s3 log line into its components ("
+            ],
+            [
+              "parse_s3_log_line",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "). Some work is needed to build upon this for parsing log files and extracting useful information out of them. For doing that, I recommend techniques described in "
+            ],
+            [
+              "Generator Tricks for Systems Programmers",
+              [
+                [
+                  "a",
+                  "http://www.dabeaz.com/generators-uk/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "This snippet only shows how to break one s3 log line into its components ("
+          },
+          {
+            "Text": "parse_s3_log_line",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "). Some work is needed to build upon this for parsing log files and extracting useful information out of them. For doing that, I recommend techniques described in "
+          },
+          {
+            "Text": "Generator Tricks for Systems Programmers",
+            "Link": "http://www.dabeaz.com/generators-uk/"
+          }
+        ]
+      }
+    ],
+    "title": "Parsing s3 log files in python",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

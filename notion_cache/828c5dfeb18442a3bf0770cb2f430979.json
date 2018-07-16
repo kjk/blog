@@ -1,0 +1,385 @@
+{
+  "ID": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+  "Page": {
+    "alive": true,
+    "content": [
+      "5506d57e-5045-402c-827e-55b567a0efba",
+      "cf81db91-ca53-4f65-91f1-90ef8d222bb0",
+      "36466ea7-81ac-4839-ae66-edfea9c2ac7f",
+      "4b5749a3-0118-4791-91e3-9598b1c87176",
+      "d9db5b12-5545-4cf8-b89b-af54dd4b923e",
+      "2e13bd07-18d3-415b-93e0-5bc1d23ce78f",
+      "8ab4b163-6e20-4da1-bebd-3765bc1da4c3",
+      "2bc5a545-5492-4a29-8c17-d28488905000",
+      "4cbf1c64-db94-4efb-84cc-4b52386b0ff3",
+      "aaa7f7c3-e209-4f3f-84e7-7e68c1987c05",
+      "5b0039dd-6d77-41a6-84d2-f9299b83cfe0",
+      "335c4716-c674-4d6c-be27-5c47af65398c"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195849586,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531624118380,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Embedding binary resources on Windows"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "5506d57e-5045-402c-827e-55b567a0efba",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624118380,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 1294"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 1294"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "cf81db91-ca53-4f65-91f1-90ef8d222bb0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: win32, c, programming"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: win32, c, programming"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "36466ea7-81ac-4839-ae66-edfea9c2ac7f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2006-01-29T16:00:00-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2006-01-29T16:00:00-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "4b5749a3-0118-4791-91e3-9598b1c87176",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624117205,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "d9db5b12-5545-4cf8-b89b-af54dd4b923e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Windows binary can have resources embedded in them. Most resources are of predetermined type (e.g. a menu, an icon or a bitmap) but you can also embed arbitrary binary data (e.g. a text file). The proper syntax is hard to figure out just from reading msdn docs."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Windows binary can have resources embedded in them. Most resources are of predetermined type (e.g. a menu, an icon or a bitmap) but you can also embed arbitrary binary data (e.g. a text file). The proper syntax is hard to figure out just from reading msdn docs."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "2e13bd07-18d3-415b-93e0-5bc1d23ce78f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This snippet shows how to embed a binary resource from a file."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "This snippet shows how to embed a binary resource from a file."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "8ab4b163-6e20-4da1-bebd-3765bc1da4c3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "First you need to define a resource identifier in a header file (e.g. "
+            ],
+            [
+              "resource.h",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ") that will be used by both C compiler and resource compiler:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "First you need to define a resource identifier in a header file (e.g. "
+          },
+          {
+            "Text": "resource.h",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ") that will be used by both C compiler and resource compiler:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "2bc5a545-5492-4a29-8c17-d28488905000",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "#define MY_RESOURCE 300"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "#define MY_RESOURCE 300",
+        "code_language": "Plain Text"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "4cbf1c64-db94-4efb-84cc-4b52386b0ff3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Then you need to add to your resource file (e.g. "
+            ],
+            [
+              "resource.rc",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "):"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Then you need to add to your resource file (e.g. "
+          },
+          {
+            "Text": "resource.rc",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "):"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "aaa7f7c3-e209-4f3f-84e7-7e68c1987c05",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "MY_RESOURCE RCDATA \"file-with-data.txt\""
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "MY_RESOURCE RCDATA \"file-with-data.txt\"",
+        "code_language": "Plain Text"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "5b0039dd-6d77-41a6-84d2-f9299b83cfe0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "And finally, this is how you can get to this data:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "And finally, this is how you can get to this data:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195849586,
+        "id": "335c4716-c674-4d6c-be27-5c47af65398c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195849586,
+        "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "void WorkOnResource(void)\n{\n    HGLOBAL     res_handle = NULL;\n    HRSRC       res;\n    char *      res_data;\n    DWORD       res_size;\n\n    // NOTE: providing g_hInstance is important, NULL might not work\n    res = FindResource(g_hInstance, MAKEINTRESOURCE(MY_RESOURCE), RT_RCDATA);\n    if (!res)\n        return;\n    res_handle = LoadResource(NULL, res);\n    if (!res_handle)\n        return;\n    res_data = (char*)LockResource(res_handle);\n    res_size = SizeofResource(NULL, res);\n    /* you can now use the resource data */\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "void WorkOnResource(void)\n{\n    HGLOBAL     res_handle = NULL;\n    HRSRC       res;\n    char *      res_data;\n    DWORD       res_size;\n\n    // NOTE: providing g_hInstance is important, NULL might not work\n    res = FindResource(g_hInstance, MAKEINTRESOURCE(MY_RESOURCE), RT_RCDATA);\n    if (!res)\n        return;\n    res_handle = LoadResource(NULL, res);\n    if (!res_handle)\n        return;\n    res_data = (char*)LockResource(res_handle);\n    res_size = SizeofResource(NULL, res);\n    /* you can now use the resource data */\n}",
+        "code_language": "Plain Text"
+      }
+    ],
+    "title": "Embedding binary resources on Windows",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

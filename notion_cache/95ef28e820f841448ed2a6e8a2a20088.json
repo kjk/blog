@@ -1,0 +1,306 @@
+{
+  "ID": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+  "Page": {
+    "alive": true,
+    "content": [
+      "8e3db782-25f9-49a5-bc4d-41ba48c999c0",
+      "7d4b0e00-13c8-43f2-ad37-37dda2841746",
+      "00a181f0-4daa-4ddc-8ed4-86478fc8c050",
+      "c657fc7f-e2af-4f70-a352-512140c69693",
+      "8c69df60-6a07-42c9-9e4c-d6dfb369b182",
+      "24d6ee36-9873-4d55-b15b-edb882c712d4",
+      "2b997dc8-4f78-4fda-b257-af1315d48843",
+      "d8ca2bd4-89ba-48bd-974f-fef5bedfd4e8",
+      "79e4ba3e-8535-48c3-84d4-20ca1a5dddba"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195845500,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531624146638,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Get file size under windows"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "8e3db782-25f9-49a5-bc4d-41ba48c999c0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624146638,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 303"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 303"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "7d4b0e00-13c8-43f2-ad37-37dda2841746",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: win32, c, programming"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: win32, c, programming"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "00a181f0-4daa-4ddc-8ed4-86478fc8c050",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2006-01-06T16:00:00-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2006-01-06T16:00:00-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "c657fc7f-e2af-4f70-a352-512140c69693",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624145542,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "8c69df60-6a07-42c9-9e4c-d6dfb369b182",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Windows doesn’t have an API to get a file size based on file name. This small function does that."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Windows doesn’t have an API to get a file size based on file name. This small function does that."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "24d6ee36-9873-4d55-b15b-edb882c712d4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It returns -1 if a file doesn’t exist."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "It returns -1 if a file doesn’t exist."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "2b997dc8-4f78-4fda-b257-af1315d48843",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It doesn’t handle files \u003e 2 GB (max positive number for 32 bit signed value). It’s quite easy to extend it to 64-bits if you know what is the 64 bit integer type in your compiler (unfortunately there’s no standard)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "It doesn’t handle files \u003e 2 GB (max positive number for 32 bit signed value). It’s quite easy to extend it to 64-bits if you know what is the 64 bit integer type in your compiler (unfortunately there’s no standard)."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "d8ca2bd4-89ba-48bd-974f-fef5bedfd4e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A better design might be "
+            ],
+            [
+              "BOOL GetFileSize(const TCHAR *fileName, unsigned long *fileSizeOut)",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " i.e. returning false if file doesn’t exist and putting the file size into "
+            ],
+            [
+              "fileSizeOut",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "A better design might be "
+          },
+          {
+            "Text": "BOOL GetFileSize(const TCHAR *fileName, unsigned long *fileSizeOut)",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " i.e. returning false if file doesn’t exist and putting the file size into "
+          },
+          {
+            "Text": "fileSizeOut",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845500,
+        "id": "79e4ba3e-8535-48c3-84d4-20ca1a5dddba",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845500,
+        "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Java/C/C++/C#"
+            ]
+          ],
+          "title": [
+            [
+              "long GetFileSize(const TCHAR *fileName)\n{\n    BOOL                        fOk;\n    WIN32_FILE_ATTRIBUTE_DATA   fileInfo;\n\n    if (NULL == fileName)\n        return -1;\n\n    fOk = GetFileAttributesEx(fileName, GetFileExInfoStandard, (void*)\u0026fileInfo);\n    if (!fOk)\n        return -1;\n    assert(0 == fileInfo.nFileSizeHigh);\n    return (long)fileInfo.nFileSizeLow;\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "long GetFileSize(const TCHAR *fileName)\n{\n    BOOL                        fOk;\n    WIN32_FILE_ATTRIBUTE_DATA   fileInfo;\n\n    if (NULL == fileName)\n        return -1;\n\n    fOk = GetFileAttributesEx(fileName, GetFileExInfoStandard, (void*)\u0026fileInfo);\n    if (!fOk)\n        return -1;\n    assert(0 == fileInfo.nFileSizeHigh);\n    return (long)fileInfo.nFileSizeLow;\n}",
+        "code_language": "Java/C/C++/C#"
+      }
+    ],
+    "title": "Get file size under windows",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

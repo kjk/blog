@@ -1,0 +1,356 @@
+{
+  "ID": "0853348f-7ec4-464e-8714-524e64b03941",
+  "Page": {
+    "alive": true,
+    "content": [
+      "cfeb51f3-e712-4fb3-92f6-afe29c441a0d",
+      "b1eac669-4574-41f1-9136-5c2ef7dec831",
+      "ec9660fa-1f65-4172-832d-6b3655c9d2ca",
+      "a751d460-89fe-49cf-91d2-05c145572bbf",
+      "1a16fdeb-1381-436a-971b-b85bc8e548c0",
+      "d32abeb7-a9f4-4e68-8870-3780cddbe962",
+      "11b31d6d-665f-4383-adec-087b075b278f",
+      "f843105e-3935-4c63-9dfb-758507683f73",
+      "9d6e6f04-e642-4fc7-97ef-23695bdd6cf8",
+      "617b2538-e1b4-40a9-a931-f6571cb5bde4",
+      "d08a3c4f-bd55-4d0d-912a-fe8234f04ae2"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195826560,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "0853348f-7ec4-464e-8714-524e64b03941",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531624227531,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Local DNS modifications on Windows (/etc/hosts equivalent)"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "cfeb51f3-e712-4fb3-92f6-afe29c441a0d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624227531,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 1308"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 1308"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "b1eac669-4574-41f1-9136-5c2ef7dec831",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: windows"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: windows"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "ec9660fa-1f65-4172-832d-6b3655c9d2ca",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2005-12-30T16:00:00-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2005-12-30T16:00:00-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "a751d460-89fe-49cf-91d2-05c145572bbf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624226606,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "1a16fdeb-1381-436a-971b-b85bc8e548c0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "On Unix, "
+            ],
+            [
+              "/etc/hosts",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " file contains mappings between an IP address and a name of the host. It overrides mappings from DNS. Windows has an equivalent of this file: "
+            ],
+            [
+              "c:\\WINDOWS\\system32\\drivers\\etc\\hosts",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " (at least that’s the name on Windows XP)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "On Unix, "
+          },
+          {
+            "Text": "/etc/hosts",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " file contains mappings between an IP address and a name of the host. It overrides mappings from DNS. Windows has an equivalent of this file: "
+          },
+          {
+            "Text": "c:\\WINDOWS\\system32\\drivers\\etc\\hosts",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " (at least that’s the name on Windows XP)."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "d32abeb7-a9f4-4e68-8870-3780cddbe962",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "What are possible uses for this file:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "What are possible uses for this file:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "11b31d6d-665f-4383-adec-087b075b278f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "when I make changes to my blog, I develop and test the changes on my local Apache setup on windows. My config files are setup up so that they work correctly both on my local test server and deployed server. To make things easier, I use hosts file to map local loopback address 127.0.0.1 to blog.local.org"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "when I make changes to my blog, I develop and test the changes on my local Apache setup on windows. My config files are setup up so that they work correctly both on my local test server and deployed server. To make things easier, I use hosts file to map local loopback address 127.0.0.1 to blog.local.org"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "f843105e-3935-4c63-9dfb-758507683f73",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "changing hosts file can be used to fool local computer and simulate DNS changes (e.g. for testing before making real DNS changes)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "changing hosts file can be used to fool local computer and simulate DNS changes (e.g. for testing before making real DNS changes)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "9d6e6f04-e642-4fc7-97ef-23695bdd6cf8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Changes to hosts file take place immediately after saving the file."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Changes to hosts file take place immediately after saving the file."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "617b2538-e1b4-40a9-a931-f6571cb5bde4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here’s the simplest mapping from 127.0.0.1 to localhost and blog.local.org names:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Here’s the simplest mapping from 127.0.0.1 to localhost and blog.local.org names:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195826560,
+        "id": "d08a3c4f-bd55-4d0d-912a-fe8234f04ae2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195826560,
+        "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "127.0.0.1       localhost blog.local.org"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "127.0.0.1       localhost blog.local.org",
+        "code_language": "Plain Text"
+      }
+    ],
+    "title": "Local DNS modifications on Windows (/etc/hosts equivalent)",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

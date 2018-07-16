@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	cacheDir = "cache"
+	cacheDir = "notion_cache"
 )
 
 func loadNotionBlogPosts() map[string]*NotionDoc {

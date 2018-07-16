@@ -1,0 +1,206 @@
+{
+  "ID": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+  "Page": {
+    "alive": true,
+    "content": [
+      "96cc93a4-b2d4-4539-bb5d-9d7f2ad2a44c",
+      "3335a3e7-6dfd-4bd9-a18e-40a19a78db15",
+      "ff0fcf9d-f8be-42b5-9583-9d5cd9671837",
+      "94f7b836-5c15-4304-b53a-2baa5bcf53b3",
+      "0d65cec8-ab9b-44d6-a898-c79251e818aa"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195845703,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531623975426,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "php_mysql.dll not loading in PHP 5.1.4 and Apache 2.2"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845703,
+        "id": "96cc93a4-b2d4-4539-bb5d-9d7f2ad2a44c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623975426,
+        "parent_id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 1957"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 1957"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845703,
+        "id": "3335a3e7-6dfd-4bd9-a18e-40a19a78db15",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845703,
+        "parent_id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2006-08-06T22:31:07-07:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2006-08-06T22:31:07-07:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845703,
+        "id": "ff0fcf9d-f8be-42b5-9583-9d5cd9671837",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845703,
+        "parent_id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Status: hidden"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Status: hidden"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845703,
+        "id": "94f7b836-5c15-4304-b53a-2baa5bcf53b3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623974245,
+        "parent_id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845704,
+        "id": "0d65cec8-ab9b-44d6-a898-c79251e818aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845704,
+        "parent_id": "b6e07724-a143-4aff-a26a-69cf18186e0b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Installing software is always fun. A recent purchase of new computer forced to redo the setup of my test web development environment (i.e. Apache + PHP + MySQL) under Windows XP. Something I did at least 3 times in the past.\nMurphy, as always, won, and things that could go wrong, went.\nBut this is an educational tale, so let’s get to the point.\nThe official Windows installation for latest Apache 2.0.x is so bad that after vanilla installation with no changes at all, Apache refused to run. I didn’t feel like debugging problems caused by a broken installer, so I tried the latest 2.2.x installer. That worked out-of-the box (although the Apache monitor that they start by default and stick into tray seems pointless to me).\nSecond problem was that the latest version of Apache (2.2.x) isn’t binary-compatible with 2.0 and the latest PHP 5.1.4 only comes with 2.0 adapter so I had to hunt down binary 2.2. Thank god for "
+            ],
+            [
+              "Apache Lounge",
+              [
+                [
+                  "a",
+                  "http://www.apachelounge.com/"
+                ]
+              ]
+            ],
+            [
+              ".\nThird problem was that even after setting correct extension_dir in php.ini and uncommenting extension=php_mysql.dll, I was getting mysterious error:\n\u003e PHP Warning: PHP Startup: Unable to load dynamic library \u003e ‘C:\\\\php-514\\\\ext\\\\php_mysql.dll’ - The specified module could \u003e not be found.\\r\\n in Unknown on line 0\nIt’s mysterious because the file clearly is there. Lucky for me that I misspent part of my life doing Windows programming, which includes intricacies of DLL loading, and I know that a DLL might not get loaded even if it exists when it refers to another DLL that is not present in %PATH%.\nAfter some googling I found that others had the same problem and the solution proposed was to copy libmysql.dll to c:\\windows or c:\\windows\\system32. Polluting system directories is a gross solution but at the time I would be happy if things just worked. However, copying libmysql.dll to c:\\windows didn’t solve the problem.\nIn a flash of inspiration I decided to run "
+            ],
+            [
+              "Dependency Walker",
+              [
+                [
+                  "a",
+                  "http://www.dependencywalker.com/"
+                ]
+              ]
+            ],
+            [
+              " on php_mysql.dll to see what else it might depend on. Turns out it also needs php5ts.dll and probably in some cases msjava.dll (that is nowhere to be found and fortunately doesn’t seem necessary). I copied php5ts.dll to c:\\windows as well and voila, things work.\nI, however, am left with a bad taste in my mouth. More on that later, now let’s recap wisdom gained:\n- Apache logs are essential for diagnostic of Apache-related problems - Dependency Walker is one of those tools that you need once a year, but when you do, it saves you. Learn to use and learn about DLLs in Windows. Apparently installing PHP requires that.\nNow about bad taste in my mouth.\nApache and PHP are amongst the most popular open-source project and yet the Windows experience of using them is awful.\nManaging dependencies is a nightmare (3 versions of Apache + a dozen versions of PHP, good luck figuring out what’s compatible with what).\nOpen-source world, in general, is not good about maintaining binary compatibility. Apache 2.0 was supposed to be the big rewrite, what was so important to add to Apache 2.2 to justify a 3rd, incompatible binary interface.\nForcing people to copy DLL to system folders to make things work is bad and easily fixable. PHP could easily figure out the path of their main DLL and add it to path so that DLLs that it knows live there could be loaded by system.\nLet’s not forget misleading error messages. Could not be found? But it’s there! Windows is partly to blame, because that’s probably the error that it returns to PHP, but given that it seems to be a common problem, it could be smart enough to stat the file to see whether it’s really not there or it’s not loading because of some other reason.\nGiven those problems it’s only a minor issue that Apache Foundations seems to change their minds about where Apache is being installed about once a year."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Installing software is always fun. A recent purchase of new computer forced to redo the setup of my test web development environment (i.e. Apache + PHP + MySQL) under Windows XP. Something I did at least 3 times in the past.\nMurphy, as always, won, and things that could go wrong, went.\nBut this is an educational tale, so let’s get to the point.\nThe official Windows installation for latest Apache 2.0.x is so bad that after vanilla installation with no changes at all, Apache refused to run. I didn’t feel like debugging problems caused by a broken installer, so I tried the latest 2.2.x installer. That worked out-of-the box (although the Apache monitor that they start by default and stick into tray seems pointless to me).\nSecond problem was that the latest version of Apache (2.2.x) isn’t binary-compatible with 2.0 and the latest PHP 5.1.4 only comes with 2.0 adapter so I had to hunt down binary 2.2. Thank god for "
+          },
+          {
+            "Text": "Apache Lounge",
+            "Link": "http://www.apachelounge.com/"
+          },
+          {
+            "Text": ".\nThird problem was that even after setting correct extension_dir in php.ini and uncommenting extension=php_mysql.dll, I was getting mysterious error:\n\u003e PHP Warning: PHP Startup: Unable to load dynamic library \u003e ‘C:\\\\php-514\\\\ext\\\\php_mysql.dll’ - The specified module could \u003e not be found.\\r\\n in Unknown on line 0\nIt’s mysterious because the file clearly is there. Lucky for me that I misspent part of my life doing Windows programming, which includes intricacies of DLL loading, and I know that a DLL might not get loaded even if it exists when it refers to another DLL that is not present in %PATH%.\nAfter some googling I found that others had the same problem and the solution proposed was to copy libmysql.dll to c:\\windows or c:\\windows\\system32. Polluting system directories is a gross solution but at the time I would be happy if things just worked. However, copying libmysql.dll to c:\\windows didn’t solve the problem.\nIn a flash of inspiration I decided to run "
+          },
+          {
+            "Text": "Dependency Walker",
+            "Link": "http://www.dependencywalker.com/"
+          },
+          {
+            "Text": " on php_mysql.dll to see what else it might depend on. Turns out it also needs php5ts.dll and probably in some cases msjava.dll (that is nowhere to be found and fortunately doesn’t seem necessary). I copied php5ts.dll to c:\\windows as well and voila, things work.\nI, however, am left with a bad taste in my mouth. More on that later, now let’s recap wisdom gained:\n- Apache logs are essential for diagnostic of Apache-related problems - Dependency Walker is one of those tools that you need once a year, but when you do, it saves you. Learn to use and learn about DLLs in Windows. Apparently installing PHP requires that.\nNow about bad taste in my mouth.\nApache and PHP are amongst the most popular open-source project and yet the Windows experience of using them is awful.\nManaging dependencies is a nightmare (3 versions of Apache + a dozen versions of PHP, good luck figuring out what’s compatible with what).\nOpen-source world, in general, is not good about maintaining binary compatibility. Apache 2.0 was supposed to be the big rewrite, what was so important to add to Apache 2.2 to justify a 3rd, incompatible binary interface.\nForcing people to copy DLL to system folders to make things work is bad and easily fixable. PHP could easily figure out the path of their main DLL and add it to path so that DLLs that it knows live there could be loaded by system.\nLet’s not forget misleading error messages. Could not be found? But it’s there! Windows is partly to blame, because that’s probably the error that it returns to PHP, but given that it seems to be a common problem, it could be smart enough to stat the file to see whether it’s really not there or it’s not loading because of some other reason.\nGiven those problems it’s only a minor issue that Apache Foundations seems to change their minds about where Apache is being installed about once a year."
+          }
+        ]
+      }
+    ],
+    "title": "php_mysql.dll not loading in PHP 5.1.4 and Apache 2.2",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

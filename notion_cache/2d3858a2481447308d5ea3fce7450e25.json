@@ -1,0 +1,249 @@
+{
+  "ID": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+  "Page": {
+    "alive": true,
+    "content": [
+      "2e4d6ab1-54b5-4386-8a38-7c902d4096aa",
+      "07be653e-d115-4102-9a48-374ad9fa7415",
+      "5e92ee7d-8661-4dd6-b14f-a85aff499ad6",
+      "35a9de8d-191a-424b-a878-cfe271fd6cff",
+      "d61ef4fc-7375-4ade-b7c0-b115a5232e6e",
+      "2c32e04c-8e45-4d94-bb73-f6366e6a5e27"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195845515,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531624169556,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Check if file exists on Windows"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "2e4d6ab1-54b5-4386-8a38-7c902d4096aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624169556,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 305"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 305"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "07be653e-d115-4102-9a48-374ad9fa7415",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845515,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: win32, c, programming"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: win32, c, programming"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "5e92ee7d-8661-4dd6-b14f-a85aff499ad6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845515,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2006-01-01T16:00:00-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2006-01-01T16:00:00-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "35a9de8d-191a-424b-a878-cfe271fd6cff",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624168433,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "d61ef4fc-7375-4ade-b7c0-b115a5232e6e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845515,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Windows doesn’t have a built-in function that checks if a file with a given name exists. It can be trivially written using "
+            ],
+            [
+              "GetFileAttributes",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " or "
+            ],
+            [
+              "FindFirstFile",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " APIs. Version below uses "
+            ],
+            [
+              "GetFileAttributes",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Windows doesn’t have a built-in function that checks if a file with a given name exists. It can be trivially written using "
+          },
+          {
+            "Text": "GetFileAttributes",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " or "
+          },
+          {
+            "Text": "FindFirstFile",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " APIs. Version below uses "
+          },
+          {
+            "Text": "GetFileAttributes",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845515,
+        "id": "2c32e04c-8e45-4d94-bb73-f6366e6a5e27",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195845515,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Java/C/C++/C#"
+            ]
+          ],
+          "title": [
+            [
+              "/* Return TRUE if file 'fileName' exists */\nbool FileExists(const TCHAR *fileName)\n{\n    DWORD       fileAttr;\n\n    fileAttr = GetFileAttributes(fileName);\n    if (0xFFFFFFFF == fileAttr)\n        return false;\n    return true;\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1,
+        "code": "/* Return TRUE if file 'fileName' exists */\nbool FileExists(const TCHAR *fileName)\n{\n    DWORD       fileAttr;\n\n    fileAttr = GetFileAttributes(fileName);\n    if (0xFFFFFFFF == fileAttr)\n        return false;\n    return true;\n}",
+        "code_language": "Java/C/C++/C#"
+      }
+    ],
+    "title": "Check if file exists on Windows",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

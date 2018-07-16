@@ -1,0 +1,655 @@
+{
+  "ID": "16a651dd-4b01-4b73-8974-befd23ffe539",
+  "Page": {
+    "alive": true,
+    "content": [
+      "fa3eedc1-93db-4556-ab71-bc372b51e4b4",
+      "478bc51a-c4d3-48f0-b008-c8272cd4ac2e",
+      "09d9f773-61de-4345-ba47-07595d57fd93",
+      "ed77d67f-9192-48fa-a775-3743cb7d8e00",
+      "61a2abe4-9522-4136-94da-b049a9e04f69",
+      "f4ae1cc3-e31f-4a70-8d36-6d50ed198987",
+      "643c282e-a24c-4f79-ad8b-05701b6a9e43",
+      "fbe52ca4-73ed-4cec-b071-afcce14bd8a7",
+      "4beca667-2f0c-447f-8240-7622b6f89285",
+      "04c53cd8-259c-44bc-8896-75162ad99ca3",
+      "125e698d-2b35-41df-ada2-c921cbd76c8f",
+      "a2a258b1-0b7a-482d-b687-83d5dd71115b",
+      "9118b5f2-1892-4117-b714-b35715ef2f9b",
+      "cee2d234-3d04-4b5c-b4a2-e338e57566e5",
+      "fd9221d4-f00a-4890-a2f5-b23cf1de7420",
+      "b152cc91-d6ce-4db4-9f14-f39ade1d4163",
+      "c395324f-c186-4202-9283-d9361a446fce",
+      "ca721b39-dcd1-4465-93f3-23902cbf5ea0"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195923167,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531623767494,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Logging in WinDBG"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 7,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "fa3eedc1-93db-4556-ab71-bc372b51e4b4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623767494,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 980"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 980"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "478bc51a-c4d3-48f0-b008-c8272cd4ac2e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: debugging, windbg"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Tags: debugging, windbg"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "09d9f773-61de-4345-ba47-07595d57fd93",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2008-01-06T17:57:52-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2008-01-06T17:57:52-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "ed77d67f-9192-48fa-a775-3743cb7d8e00",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623766410,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "61a2abe4-9522-4136-94da-b049a9e04f69",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Logging is often useful when debugging software to help understand its behavior."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Logging is often useful when debugging software to help understand its behavior."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "f4ae1cc3-e31f-4a70-8d36-6d50ed198987",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Consider a problem I was having: Sumatra was crashing because of invalid refcounting of "
+            ],
+            [
+              "fz_shade",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " object. Refcounting took place only in two functions: "
+            ],
+            [
+              "fz_keepshade()",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " and "
+            ],
+            [
+              "fz_dropshade()",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " so my plan of attack was to see who calls those functions and from that hopefully figure out why there is a mismatch."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Consider a problem I was having: Sumatra was crashing because of invalid refcounting of "
+          },
+          {
+            "Text": "fz_shade",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " object. Refcounting took place only in two functions: "
+          },
+          {
+            "Text": "fz_keepshade()",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " and "
+          },
+          {
+            "Text": "fz_dropshade()",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " so my plan of attack was to see who calls those functions and from that hopefully figure out why there is a mismatch."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "643c282e-a24c-4f79-ad8b-05701b6a9e43",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "If I had a logging system with ability to dump callstacks already built into the program, I could modify the program to add logging to those two functions, re-run and look at the logs."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "If I had a logging system with ability to dump callstacks already built into the program, I could modify the program to add logging to those two functions, re-run and look at the logs."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "fbe52ca4-73ed-4cec-b071-afcce14bd8a7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "But I didn’t so I used WinDBG as an ad-hoc logger."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "But I didn’t so I used WinDBG as an ad-hoc logger."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "4beca667-2f0c-447f-8240-7622b6f89285",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The trick is to know the following:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "The trick is to know the following:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "04c53cd8-259c-44bc-8896-75162ad99ca3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              ".logopen $filename",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " WinDBG command"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": ".logopen $filename",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " WinDBG command"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "125e698d-2b35-41df-ada2-c921cbd76c8f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              ".logclose",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " WinDBG command"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": ".logclose",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " WinDBG command"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "a2a258b1-0b7a-482d-b687-83d5dd71115b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "conditional breakpoints"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "conditional breakpoints"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "9118b5f2-1892-4117-b714-b35715ef2f9b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Under WinDBG I set the following two breakpoints:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Under WinDBG I set the following two breakpoints:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "cee2d234-3d04-4b5c-b4a2-e338e57566e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "bp SumatraPDF!fz_dropshade \"kb; g\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "bp SumatraPDF!fz_dropshade \"kb; g\"",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "fd9221d4-f00a-4890-a2f5-b23cf1de7420",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "bp SumatraPDF!fz_keepshade \"kb; g\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "bp SumatraPDF!fz_keepshade \"kb; g\"",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "b152cc91-d6ce-4db4-9f14-f39ade1d4163",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "bp creates a new breakpoint on entry to a given function. A string "
+            ],
+            [
+              "\"kb; g\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " is composed of WinDBG commands executed when a breakpoint is hit. In this case I just dump the callstack with "
+            ],
+            [
+              "kb",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " and continue execution with "
+            ],
+            [
+              "g",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "bp creates a new breakpoint on entry to a given function. A string "
+          },
+          {
+            "Text": "\"kb; g\"",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " is composed of WinDBG commands executed when a breakpoint is hit. In this case I just dump the callstack with "
+          },
+          {
+            "Text": "kb",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " and continue execution with "
+          },
+          {
+            "Text": "g",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "c395324f-c186-4202-9283-d9361a446fce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Then I used "
+            ],
+            [
+              ".logopen $filename",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " so that everything WinDBG prints in output window also gets written to a file and voila - an ad-hoc logging without the need to modify and recompile the program."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Then I used "
+          },
+          {
+            "Text": ".logopen $filename",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " so that everything WinDBG prints in output window also gets written to a file and voila - an ad-hoc logging without the need to modify and recompile the program."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923168,
+        "id": "ca721b39-dcd1-4465-93f3-23902cbf5ea0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195923168,
+        "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "And yes, after some staring at resulting log I fixed the crash."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "And yes, after some staring at resulting log I fixed the crash."
+          }
+        ]
+      }
+    ],
+    "title": "Logging in WinDBG",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

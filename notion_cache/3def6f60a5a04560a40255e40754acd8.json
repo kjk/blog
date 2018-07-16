@@ -1,0 +1,175 @@
+{
+  "ID": "3def6f60-a5a0-4560-a402-55e40754acd8",
+  "Page": {
+    "alive": true,
+    "content": [
+      "550f1815-8995-4a49-8ed5-12bbd6198829",
+      "ba360efa-78b8-480c-bf35-860975f15f78",
+      "5ca7fae5-7fed-4e03-88b5-fdd38b4ad735",
+      "ee9605e7-9c08-4cb4-8b0e-a267cbe26b89"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195850002,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "3def6f60-a5a0-4560-a402-55e40754acd8",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531623934875,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Navigating source code in large programs"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195850002,
+        "id": "550f1815-8995-4a49-8ed5-12bbd6198829",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623934875,
+        "parent_id": "3def6f60-a5a0-4560-a402-55e40754acd8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 1969"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 1969"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195850003,
+        "id": "ba360efa-78b8-480c-bf35-860975f15f78",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195850003,
+        "parent_id": "3def6f60-a5a0-4560-a402-55e40754acd8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2006-09-21T12:35:37-07:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2006-09-21T12:35:37-07:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195850003,
+        "id": "5ca7fae5-7fed-4e03-88b5-fdd38b4ad735",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531623933615,
+        "parent_id": "3def6f60-a5a0-4560-a402-55e40754acd8",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195850003,
+        "id": "ee9605e7-9c08-4cb4-8b0e-a267cbe26b89",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195850003,
+        "parent_id": "3def6f60-a5a0-4560-a402-55e40754acd8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Navigating Linux Source Code",
+              [
+                [
+                  "a",
+                  "http://www.ddj.com/184401358"
+                ]
+              ]
+            ],
+            [
+              " is an article that tells you, in many words, how to spend hours to get a somewhat usable way of navigating large code base.\nA feel compelled to point out that Windows users have a superior solution: "
+            ],
+            [
+              "Source Insight",
+              [
+                [
+                  "a",
+                  "http://www.sourceinsight.com/"
+                ]
+              ]
+            ],
+            [
+              " editor. I’ve learned about it many, many years ago when I started my first programming job at Microsoft. Everyone on my team (with one exception) was using Source Insight as their programming editor. Many teams at Microsoft were using it. At that time Visual Studio 6 (or any other editor) was no competition. Visual Studio 2005 closes the gap but I still feel blind when I’m not using Source Insight when writing or browsing the code. Source Insight works best for C/C++/Java/C# code, because it has built-in semantic parsers for those languages (as opposed to simplistic syntax coloring available in most editors). When it comes to speed and ease of use when browsing unfamiliar code base, nothing I’ve seen so far comes even close to Source Insight. It’s really that good.\nA text editor is not something that can be appreciated in a day or two. You have to stick with it for some time before you learn the good way of doing things, but Source Insight is well worth the investement.\nThe crucial thing are projects: those are the units best understood by Source Insight and only when you create a project you get access to the time saving features. Project is just a set of files and you have to create it explicitly. Obviously, files in a project usually are all files for a given program. Once you create a project, Source Insight parses the files and builds a database of all symbols. It’s like tags except Source Insight parser is almost as good as compiler’s parser and the database is updated while you change the files. Once you have the symbol database, navigating the source code in many ways is just a snap.\nAnother crucial thing is that Source Insight is optimized for really large projects. I’ve created projects with millions lines of code (linux kernel, mozilla, webkit etc.) and Source Insight handled them blazingly fast.\nAs it usually is with editors, no-one really changes their habits. Once they become vi or emacs or foo addicts, nothing will make them switch. But do try Source Insight if you ever find yourself working on large C/C++/Java/C# project.\nThe bottom line is that Source Insight saves time and cuts down annoyance. When working with large code we have to switch between various files, find out what is the exact definition of function foo or find that function that has “append” in the name but we forgot what exactly was the name and how this function worked. In Source Insight doing those things is fast. I’ve watched an experience vi user navigate between multiple source files and felt sorry for him seeing how much effort he had to spend doing the same thing that I could do in Source Insight with ctrl-o and a few keystrokes. I also feel sorry (or infuriated, depending on the day) when I can’t use Source Insight and have to use dumb programming editors that can’t tell a difference between a function, a keyword or a variable."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Navigating Linux Source Code",
+            "Link": "http://www.ddj.com/184401358"
+          },
+          {
+            "Text": " is an article that tells you, in many words, how to spend hours to get a somewhat usable way of navigating large code base.\nA feel compelled to point out that Windows users have a superior solution: "
+          },
+          {
+            "Text": "Source Insight",
+            "Link": "http://www.sourceinsight.com/"
+          },
+          {
+            "Text": " editor. I’ve learned about it many, many years ago when I started my first programming job at Microsoft. Everyone on my team (with one exception) was using Source Insight as their programming editor. Many teams at Microsoft were using it. At that time Visual Studio 6 (or any other editor) was no competition. Visual Studio 2005 closes the gap but I still feel blind when I’m not using Source Insight when writing or browsing the code. Source Insight works best for C/C++/Java/C# code, because it has built-in semantic parsers for those languages (as opposed to simplistic syntax coloring available in most editors). When it comes to speed and ease of use when browsing unfamiliar code base, nothing I’ve seen so far comes even close to Source Insight. It’s really that good.\nA text editor is not something that can be appreciated in a day or two. You have to stick with it for some time before you learn the good way of doing things, but Source Insight is well worth the investement.\nThe crucial thing are projects: those are the units best understood by Source Insight and only when you create a project you get access to the time saving features. Project is just a set of files and you have to create it explicitly. Obviously, files in a project usually are all files for a given program. Once you create a project, Source Insight parses the files and builds a database of all symbols. It’s like tags except Source Insight parser is almost as good as compiler’s parser and the database is updated while you change the files. Once you have the symbol database, navigating the source code in many ways is just a snap.\nAnother crucial thing is that Source Insight is optimized for really large projects. I’ve created projects with millions lines of code (linux kernel, mozilla, webkit etc.) and Source Insight handled them blazingly fast.\nAs it usually is with editors, no-one really changes their habits. Once they become vi or emacs or foo addicts, nothing will make them switch. But do try Source Insight if you ever find yourself working on large C/C++/Java/C# project.\nThe bottom line is that Source Insight saves time and cuts down annoyance. When working with large code we have to switch between various files, find out what is the exact definition of function foo or find that function that has “append” in the name but we forgot what exactly was the name and how this function worked. In Source Insight doing those things is fast. I’ve watched an experience vi user navigate between multiple source files and felt sorry for him seeing how much effort he had to spend doing the same thing that I could do in Source Insight with ctrl-o and a few keystrokes. I also feel sorry (or infuriated, depending on the day) when I can’t use Source Insight and have to use dumb programming editors that can’t tell a difference between a function, a keyword or a variable."
+          }
+        ]
+      }
+    ],
+    "title": "Navigating source code in large programs",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

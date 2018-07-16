@@ -1,0 +1,211 @@
+{
+  "ID": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+  "Page": {
+    "alive": true,
+    "content": [
+      "bffc067b-f863-4e14-9567-2b277682f750",
+      "9a9338c9-3065-46aa-9211-1af33201dbb2",
+      "253c6d08-dcc9-419f-99e5-9fae97304c48",
+      "69d1d4db-5ea5-4507-9d58-ff97e5468d2b",
+      "a11c77bb-7ae0-4077-a1b0-54f16ab973f6",
+      "97686657-2f7c-4627-933b-cb27de513d8a"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531195823551,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531624509160,
+    "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Subversion with SSH on Windows tip"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 13,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195823552,
+        "id": "bffc067b-f863-4e14-9567-2b277682f750",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624509160,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Id: 895"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Id: 895"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195823552,
+        "id": "9a9338c9-3065-46aa-9211-1af33201dbb2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195823552,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Date: 2005-02-09T01:12:23-08:00"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "Date: 2005-02-09T01:12:23-08:00"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531624505846,
+        "id": "253c6d08-dcc9-419f-99e5-9fae97304c48",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624508177,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Status: hidden"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 34,
+        "inline_content": [
+          {
+            "Text": "Status: hidden"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195823552,
+        "id": "69d1d4db-5ea5-4507-9d58-ff97e5468d2b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531624505330,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195823552,
+        "id": "a11c77bb-7ae0-4077-a1b0-54f16ab973f6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195823552,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "If you’re running Subversion with SSH on Windows, you need to have an SSH client installed (I use plink which is part of putty) and set SVN_SSH apropriately. Here’s a tip: make sure to run at least one query against the server that holds your source code e.g. run a simple command like ls: "
+            ],
+            [
+              "plink -pw $YourPassword $YourLogin@$YourServer ls",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ". To increase security SSH calculates a checksum for the server you’re trying to connect to (so that e.g. if someone hi-jacks DNS server and redirects your SSH connection to their own server with the intent of capturing your login/password, SSH will warn you that server’s signature doesn’t match previously seen signature). The problem is that it’s an interactive process i.e. SSH displays a warning and waits for you to accept the new server signature. It also does that when the signature doesn’t exist (i.e. this is the first time you connect to a given server via SSH). Subversion doesn’t show that message but still waits for user’s confirmation which looks like it hung."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "If you’re running Subversion with SSH on Windows, you need to have an SSH client installed (I use plink which is part of putty) and set SVN_SSH apropriately. Here’s a tip: make sure to run at least one query against the server that holds your source code e.g. run a simple command like ls: "
+          },
+          {
+            "Text": "plink -pw $YourPassword $YourLogin@$YourServer ls",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ". To increase security SSH calculates a checksum for the server you’re trying to connect to (so that e.g. if someone hi-jacks DNS server and redirects your SSH connection to their own server with the intent of capturing your login/password, SSH will warn you that server’s signature doesn’t match previously seen signature). The problem is that it’s an interactive process i.e. SSH displays a warning and waits for you to accept the new server signature. It also does that when the signature doesn’t exist (i.e. this is the first time you connect to a given server via SSH). Subversion doesn’t show that message but still waits for user’s confirmation which looks like it hung."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195823552,
+        "id": "97686657-2f7c-4627-933b-cb27de513d8a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531195823552,
+        "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I’ve just spent an hour trying to figure out such problem."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1,
+        "inline_content": [
+          {
+            "Text": "I’ve just spent an hour trying to figure out such problem."
+          }
+        ]
+      }
+    ],
+    "title": "Subversion with SSH on Windows tip",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 9
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}
