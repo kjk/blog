@@ -14,7 +14,6 @@ import (
 
 	"github.com/chilts/sid"
 	"github.com/kjk/betterguid"
-	"github.com/kjk/u"
 	"github.com/oklog/ulid"
 	"github.com/rs/xid"
 	uuid "github.com/satori/go.uuid"
@@ -79,7 +78,7 @@ func netlifyPath(fileName string) string {
 	fileName = strings.TrimLeft(fileName, "/")
 	path := filepath.Join("netlify_static", fileName)
 	err := mkdirForFile(path)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	return path
 }
 
@@ -206,14 +205,14 @@ func skipTmplFiles(path string) bool {
 func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	outDir := filepath.Join("netlify_static")
 	err = os.RemoveAll(outDir)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	err = os.MkdirAll(outDir, 0755)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	nCopied, err := dirCopyRecur(outDir, "www", skipTmplFiles)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	fmt.Printf("Copied %d files\n", nCopied)
 
 	netlifyAddStaticRedirects()
@@ -270,14 +269,14 @@ func netlifyBuild() {
 	{
 		// /atom.xml
 		d, err := genAtomXML(true)
-		u.PanicIfErr(err)
+		panicIfErr(err)
 		netlifyWriteFile("/atom.xml", d)
 	}
 
 	{
 		// /atom-all.xml
 		d, err := genAtomXML(false)
-		u.PanicIfErr(err)
+		panicIfErr(err)
 		netlifyWriteFile("/atom-all.xml", d)
 	}
 
@@ -287,7 +286,7 @@ func netlifyBuild() {
 		logVerbose("%d articles\n", len(articles))
 		for _, a := range articles {
 			article := getArticleByID(a.ID)
-			u.PanicIf(article == nil, "No article for id '%s'", a.ID)
+			panicIf(article == nil, "No article for id '%s'", a.ID)
 			shareHTML := makeShareHTML(article)
 
 			coverImage := ""
@@ -363,7 +362,7 @@ func netlifyBuild() {
 	{
 		// /dailynotes/week/${day} : week starting with a given day
 		for weekStart, notes := range notesWeekStartDayToNotes {
-			u.PanicIf(len(notes) == 0, "no notes for week '%s'", weekStart)
+			panicIf(len(notes) == 0, "no notes for week '%s'", weekStart)
 			var nextWeek, prevWeek string
 			for idx, ws := range notesWeekStarts {
 				if ws != weekStart {
@@ -421,7 +420,7 @@ func netlifyBuild() {
 		// /dailynotes/tag/${tag}
 		seenTags := make(map[string]bool)
 		for tag, notes := range notesTagToNotes {
-			u.PanicIf(len(notes) == 0, "no notes for tag '%s'", tag)
+			panicIf(len(notes) == 0, "no notes for tag '%s'", tag)
 			model := struct {
 				Notes         []*note
 				TagCounts     []tagWithCount
@@ -435,7 +434,7 @@ func netlifyBuild() {
 			}
 			// TODO: this tag can be
 			tag2 := urlify(tag)
-			u.PanicIf(seenTags[tag2], "already seen tag: '%s' '%s'", tag, tag2)
+			panicIf(seenTags[tag2], "already seen tag: '%s' '%s'", tag, tag2)
 			path := fmt.Sprintf("/dailynotes/dailynotes-tag-%s.html", tag2)
 			netlifyExecTemplate(path, tmplNotesTag, model)
 			from := fmt.Sprintf("/dailynotes/tag/%s", tag)
@@ -477,14 +476,14 @@ func netlifyBuild() {
 		}
 
 		data, err := feed.GenXml()
-		u.PanicIfErr(err)
+		panicIfErr(err)
 		netlifyWriteFile("/dailynotes-atom.xml", data)
 	}
 
 	{
 		// /sitemap.xml
 		data, err := genSiteMap("https://blog.kowalczyk.info")
-		u.PanicIfErr(err)
+		panicIfErr(err)
 		netlifyWriteFile("/sitemap.xml", data)
 	}
 

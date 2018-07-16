@@ -146,7 +146,7 @@ func extractMetaDataFromLines(lines []string) ([]string, noteMetadata) {
 		lines[writeIdx] = lines[i]
 		writeIdx++
 	}
-	//u.PanicIf(res.ID == "", "note has no Id:. Note: %s\n", strings.Join(lines, "\n"))
+	//panicIf(res.ID == "", "note has no Id:. Note: %s\n", strings.Join(lines, "\n"))
 	return lines[:writeIdx], res
 }
 
@@ -178,7 +178,7 @@ func noteToHTML(s string) string {
 	}
 	//fmt.Printf("%s\n", s)
 	s, _ = sanitize.HTMLAllowing(s)
-	//u.PanicIfErr(err)
+	//panicIfErr(err)
 	//fmt.Printf("%s\n\n\n", s)
 	return s
 }
@@ -206,7 +206,7 @@ func extractCodeSnippets(lines []string) ([]string, []*codeSnippetInfo) {
 				codeLineStart = -1
 				code := strings.Join(codeLines, "\n")
 				codeHTML, err := syntaxhighlight.AsHTML([]byte(code))
-				u.PanicIfErr(err)
+				panicIfErr(err)
 				anchor := genRandomString()
 				resLines = append(resLines, anchor)
 				snippetInfo := &codeSnippetInfo{
@@ -222,7 +222,7 @@ func extractCodeSnippets(lines []string) ([]string, []*codeSnippetInfo) {
 		}
 	}
 	// TODO: could append unclosed lines
-	u.PanicIf(codeLineStart != -1)
+	panicIf(codeLineStart != -1)
 
 	return resLines, codeSnippets
 }
@@ -291,7 +291,7 @@ func readNotesFoDay(path string) ([]*notesForDay, error) {
 		if err == nil {
 			// this is a new day
 			dayStr := s
-			u.PanicIf(seenDays[dayStr], "duplicate day: %s", dayStr)
+			panicIf(seenDays[dayStr], "duplicate day: %s", dayStr)
 			seenDays[dayStr] = true
 
 			if curr != nil {
@@ -323,7 +323,7 @@ func readNotesFoDay(path string) ([]*notesForDay, error) {
 func notesGenIDIfNecessary() {
 	path := filepath.Join("articles", "notes.txt")
 	notesPerDay, err := readNotesFoDay(path)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	var lines []string
 	var updatedNotes []*note
 	for _, dayNotes := range notesPerDay {
@@ -350,7 +350,7 @@ func notesGenIDIfNecessary() {
 	if len(updatedNotes) > 0 {
 		s := strings.Join(lines, "\n")
 		err := ioutil.WriteFile(path, []byte(s), 0644)
-		u.PanicIfErr(err)
+		panicIfErr(err)
 		fmt.Printf("Generated id for %d notes\n", len(updatedNotes))
 		fmt.Printf("Need to checkin.\n")
 		os.Exit(0)
@@ -403,7 +403,7 @@ func readNotes(path string) error {
 			notesAllNotes = append(notesAllNotes, note)
 			nNotes++
 			id := note.ID
-			u.PanicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)
+			panicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)
 			notesIDToNote[id] = note
 			note.Day = day.Day
 			note.DayStr = day.Day.Format("2006-01-02")

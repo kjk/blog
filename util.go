@@ -13,7 +13,6 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/kjk/u"
 	"github.com/yosssi/gohtml"
 )
 
@@ -27,6 +26,35 @@ func panicMsg(format string, args ...interface{}) {
 	s := fmt.Sprintf(format, args...)
 	fmt.Printf("%s\n", s)
 	panic(s)
+}
+
+// FmtArgs formats args as a string. First argument should be format string
+// and the rest are arguments to the format
+func FmtArgs(args ...interface{}) string {
+	if len(args) == 0 {
+		return ""
+	}
+	format := args[0].(string)
+	if len(args) == 1 {
+		return format
+	}
+	return fmt.Sprintf(format, args[1:]...)
+}
+
+func panicWithMsg(defaultMsg string, args ...interface{}) {
+	s := FmtArgs(args...)
+	if s == "" {
+		s = defaultMsg
+	}
+	fmt.Printf("%s\n", s)
+	panic(s)
+}
+
+func panicIf(cond bool, args ...interface{}) {
+	if !cond {
+		return
+	}
+	panicWithMsg("PanicIf: condition failed", args...)
 }
 
 // whitelisted characters valid in url
@@ -248,7 +276,7 @@ func normalizeNewlines(d []byte) []byte {
 // return first line of d and the rest
 func bytesRemoveFirstLine(d []byte) (string, []byte) {
 	idx := bytes.IndexByte(d, 10)
-	u.PanicIf(-1 == idx)
+	panicIf(-1 == idx)
 	l := d[:idx]
 	return string(l), d[idx+1:]
 }

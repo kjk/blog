@@ -8,8 +8,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-
-	"github.com/kjk/u"
 )
 
 var (
@@ -82,7 +80,7 @@ const keyTitle = "Title"
 
 func mdToHTML(mdFile, templateFile, htmlFile string) {
 	md, err := ioutil.ReadFile(mdFile)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	md, meta := parseMd(md)
 	body := markdownToHTML(md, "")
 
@@ -95,9 +93,9 @@ func mdToHTML(mdFile, templateFile, htmlFile string) {
 	templates = template.Must(template.ParseFiles(templateFile))
 	var buf bytes.Buffer
 	err = templates.ExecuteTemplate(&buf, templateName, model)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	err = ioutil.WriteFile(htmlFile, buf.Bytes(), 0644)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	fmt.Printf("%s => %s\n", mdFile, htmlFile)
 }
 
@@ -114,7 +112,7 @@ func findMdTemplate(mdFile string) string {
 
 func regenMd() {
 	mdFiles, err := getFilesRecur("www", isMarkdownFile)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	for _, mdFile := range mdFiles {
 		htmlFile := replaceExt(mdFile, ".html")
 		templateFile := findMdTemplate(mdFile)

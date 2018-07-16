@@ -596,11 +596,11 @@ func readRedirects() {
 			continue
 		}
 		parts := strings.Split(string(l), "|")
-		u.PanicIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
+		panicIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
 		idStr := parts[0]
 		url := strings.TrimSpace(parts[1])
 		idNum, err := strconv.Atoi(idStr)
-		u.PanicIfErr(err, "malformed line in article_redirects.txt. Line:\n%s\n", l)
+		panicIf(err != nil, "malformed line in article_redirects.txt. Line:\n%s\nError: %s\n", l, err)
 		id := u.EncodeBase64(idNum)
 		a := store.GetArticleByID(id)
 		if a != nil {
@@ -655,7 +655,7 @@ func netlifyAddArticleRedirects() {
 	for from, articleID := range articleRedirects {
 		from = "/" + from
 		article := store.GetArticleByID(articleID)
-		u.PanicIf(article == nil, "didn't find article for id '%s'", articleID)
+		panicIf(article == nil, "didn't find article for id '%s'", articleID)
 		to := article.URL()
 		netflifyAddTempRedirect(from, to) // TODO: change to permanent
 	}
@@ -708,14 +708,14 @@ func genCaddyRedir(r *netlifyRedirect) string {
 func writeCaddyConfig() {
 	path := filepath.Join("Caddyfile")
 	f, err := os.Create(path)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	defer f.Close()
 
 	_, err = f.Write([]byte(caddyProlog))
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	for _, r := range netlifyRedirects {
 		s := genCaddyRedir(r)
 		_, err = io.WriteString(f, s)
-		u.PanicIfErr(err)
+		panicIfErr(err)
 	}
 }

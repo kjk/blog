@@ -12,7 +12,6 @@ import (
 	"github.com/gomarkdown/markdown/ast"
 	mdhtml "github.com/gomarkdown/markdown/html"
 	"github.com/gomarkdown/markdown/parser"
-	"github.com/kjk/u"
 	"github.com/microcosm-cc/bluemonday"
 )
 
@@ -23,10 +22,10 @@ var (
 
 func init() {
 	htmlFormatter = html.New(html.WithClasses(), html.TabWidth(2))
-	u.PanicIf(htmlFormatter == nil, "couldn't create html formatter")
+	panicIf(htmlFormatter == nil, "couldn't create html formatter")
 	styleName := "monokailight"
 	highlightStyle = styles.Get(styleName)
-	u.PanicIf(highlightStyle == nil, "didn't find style '%s'", styleName)
+	panicIf(highlightStyle == nil, "didn't find style '%s'", styleName)
 
 }
 

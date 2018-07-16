@@ -53,8 +53,8 @@ type Article struct {
 	Status         int
 	Description    string
 
-	HTMLBody     template.HTML
-	DisplayMonth string
+	HTMLBody template.HTML
+	//DisplayMonth string
 }
 
 // URL returns article's permalink
@@ -129,7 +129,7 @@ func parseFormat(s string) int {
 	case "text":
 		return formatText
 	}
-	u.PanicIf(true, "unknown format: '%s'", s)
+	panicIf(true, "unknown format: '%s'", s)
 	return 0
 }
 
@@ -161,7 +161,10 @@ func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
 }
 
 func parseStatus(status string) (int, error) {
-	status = strings.ToLower(status)
+	status = strings.TrimSpace(strings.ToLower(status))
+	if status == "" {
+		return statusNormal, nil
+	}
 	switch status {
 	case "hidden":
 		return statusHidden, nil
@@ -179,11 +182,7 @@ func parseStatus(status string) (int, error) {
 func setStatusMust(article *Article, val string) {
 	var err error
 	article.Status, err = parseStatus(val)
-	u.PanicIfErr(err)
-}
-
-func setDescriptionMust(article *Article, val string) {
-	article.Description = val
+	panicIfErr(err)
 }
 
 func setCollectionMust(article *Article, val string) {
@@ -196,7 +195,7 @@ func setCollectionMust(article *Article, val string) {
 		collectionURL = "/book/windows-programming-in-go.html"
 		val = "Windows Programming In Go"
 	}
-	u.PanicIf(collectionURL == "", "'%s' is now a known collection", val)
+	panicIf(collectionURL == "", "'%s' is now a known collection", val)
 	article.Collection = val
 	article.CollectionURL = collectionURL
 
@@ -206,9 +205,21 @@ func setHeaderImageMust(article *Article, val string) {
 		val = "/" + val
 	}
 	path := filepath.Join("www", val)
-	u.PanicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
+	panicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
 	//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
 	article.HeaderImageURL = val
+}
+
+func articleSetID(a *Article, v string) {
+	// we handle 2 types of ids:
+	// - blog posts from articles/ directory have integer id
+	// - blog posts imported from quicknotes have id that are strings
+	a.OrigID = strings.TrimSpace(v)
+	a.ID = a.OrigID
+	id, err := strconv.Atoi(a.ID)
+	if err == nil {
+		a.ID = u.EncodeBase64(id)
+	}
 }
 
 // might return nil if article is meant to be skipped (deleted or draft)
@@ -249,15 +260,7 @@ func readArticle(path string) (*Article, error) {
 				return nil, err
 			}
 		case "id":
-			// we handle 2 types of ids:
-			// - blog posts from articles/ directory have integer id
-			// - blog posts imported from quicknotes have id that are strings
-			a.OrigID = strings.TrimSpace(v)
-			a.ID = a.OrigID
-			id, err := strconv.Atoi(a.ID)
-			if err == nil {
-				a.ID = u.EncodeBase64(id)
-			}
+			articleSetID(a, v)
 			a.OrigPath = path
 		case "title":
 			a.Title = v
@@ -282,7 +285,7 @@ func readArticle(path string) (*Article, error) {
 		case "collection":
 			setCollectionMust(a, v)
 		case "description":
-			setDescriptionMust(a, v)
+			a.Description = v
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
@@ -350,11 +353,6 @@ func readArticlesFromDir(dir string) ([]*Article, []string, error) {
 		}
 		name := filepath.Base(path)
 		if name == "notes.txt" {
-			err := readNotes(path)
-			if err != nil {
-				fmt.Printf("readWorkLog(%s) failed with %s\n", path, err)
-				return nil, nil, err
-			}
 			continue
 		}
 
@@ -375,6 +373,10 @@ func NewArticlesStore() (*ArticlesStore, error) {
 	articles, _, err := readArticles()
 	if err != nil {
 		return nil, err
+	}
+	articles2 := loadArticlesFromNotion()
+	if len(articles2) > 0 {
+		articles = append(articles, articles2...)
 	}
 	sort.Slice(articles, func(i, j int) bool {
 		return articles[i].PublishedOn.After(articles[j].PublishedOn)
@@ -419,7 +421,7 @@ func shouldGetArticle(a *Article, typ int) bool {
 		return isNormal(a) || (a.Status == statusNotImportant)
 	}
 
-	u.PanicIf(typ != articlesWithHidden, "unknown typ: %d", typ)
+	panicIf(typ != articlesWithHidden, "unknown typ: %d", typ)
 	return isNormal(a) || (a.Status == statusNotImportant) || (a.Status == statusHidden)
 }
 

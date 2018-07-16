@@ -32,28 +32,28 @@ type Metadata struct {
 	DateStr      string
 	CreatedAtStr string
 	UpdatedAtStr string
-	Date         time.Time
-	CreatedAt    time.Time
-	UpdatedAt    time.Time
+	PublishedOn  time.Time
+	UpdatedOn    time.Time
 	Description  string
 	HeaderImage  string
 	Collection   string
-	Status       string // hidden, notimportant
+	Status       int
 }
 
 // IsHidden returns true if page is hidden/deleted
 func (m *Metadata) IsHidden() bool {
-	return strings.EqualFold(m.Status, "hidden")
+	return m.Status == statusHidden
 }
 
 func (m *Metadata) IsNotImportant() bool {
-	return strings.EqualFold(m.Status, "notimportant")
+	return m.Status == statusNotImportant
 }
 
 // NotionDoc represents a notion page and additional info we need about it
 type NotionDoc struct {
 	pageInfo *notionapi.PageInfo
 	meta     *Metadata
+	html     []byte
 }
 
 // convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
@@ -75,15 +75,17 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
-	page := pageInfo.Page
+	//page := pageInfo.Page
 	//title := page.Title
-	id := normalizeID(page.ID)
+	//id := normalizeID(page.ID)
 	blocks := pageInfo.Page.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	res := Metadata{}
 	nBlock := 0
+	var publishedOn time.Time
+	var err error
 	for len(blocks) > 0 {
 		block := blocks[0]
 		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
@@ -128,22 +130,24 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		val := strings.TrimSpace(parts[1])
 		switch key {
 		case "tags":
-			res.Tags = strings.Split(val, ",")
-			for i, tag := range res.Tags {
-				res.Tags[i] = strings.TrimSpace(tag)
-			}
+			res.Tags = parseTags(val)
 			//fmt.Printf("Tags: %v\n", res.Tags)
 		case "id":
 			res.ID = val
 			//fmt.Printf("ID: %s\n", res.ID)
-		case "date":
-			decodeDate(val, &res.DateStr, &res.Date, id)
-		case "createdat":
-			decodeDate(val, &res.CreatedAtStr, &res.CreatedAt, id)
+
+		case "publishedon":
+			publishedOn, err = parseDate(val)
+			panicIfErr(err)
+		case "date", "createdat":
+			res.PublishedOn, err = parseDate(val)
+			panicIfErr(err)
 		case "updatedat":
-			decodeDate(val, &res.UpdatedAtStr, &res.UpdatedAt, id)
+			res.UpdatedOn, err = parseDate(val)
+			panicIfErr(err)
 		case "status":
-			res.Status = val
+			res.Status, err = parseStatus(val)
+			panicIfErr(err)
 		case "description":
 			res.Description = val
 			//fmt.Printf("Description: %s\n", res.Description)
@@ -157,6 +161,15 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		}
 		nBlock++
 	}
+
+	// PublishedOn over-writes Date and CreatedAt
+	if !publishedOn.IsZero() {
+		res.PublishedOn = publishedOn
+	}
+
+	if res.UpdatedOn.IsZero() {
+		res.UpdatedOn = res.PublishedOn
+	}
 	pageInfo.Page.Content = blocks
 	return &res
 }
@@ -169,6 +182,86 @@ func decodeDate(s string, date *string, dateParsed *time.Time, pageID string) {
 		panicMsg("Failed to parse date '%s' in page '%s'. Error: %s", s, pageID, err)
 	}
 	*dateParsed = parsed
+}
+
+/*
+type Article struct {
+	ID             string
+	OrigID         string
+	Title          string
+	Tags           []string
+	Format         int
+	OrigPath       string // path of the markdown file with content
+	Body           []byte
+	BodyHTML       string
+	HeaderImageURL string
+	Collection     string
+	CollectionURL  string
+	Status         int
+	Description    string
+
+	HTMLBody     template.HTML
+	DisplayMonth string
+}
+*/
+
+func notionDocToArticle(doc *NotionDoc) *Article {
+	meta := doc.meta
+	page := doc.pageInfo.Page
+	a := &Article{}
+	articleSetID(a, meta.ID)
+	a.PublishedOn = meta.PublishedOn
+	a.UpdatedOn = meta.UpdatedOn
+	a.Title = page.Title
+	a.Tags = meta.Tags
+	a.Description = meta.Description
+
+	if meta.HeaderImage != "" {
+		setHeaderImageMust(a, meta.HeaderImage)
+	}
+	if meta.Collection != "" {
+		setCollectionMust(a, meta.Collection)
+	}
+
+	html := string(doc.html)
+	a.BodyHTML = string(html)
+	a.HTMLBody = template.HTML(a.BodyHTML)
+	return a
+}
+
+func loadArticlesFromNotion() []*Article {
+	indexID := "300db9dc27c84958a08b8d0c37f4cfe5"
+	fileInfos, err := ioutil.ReadDir(cacheDir)
+	panicIfErr(err)
+
+	var res []*Article
+	for _, fi := range fileInfos {
+		if fi.IsDir() {
+			continue
+		}
+		name := fi.Name()
+		ext := filepath.Ext(name)
+		if ext != ".json" {
+			continue
+		}
+		if strings.Contains(name, indexID) {
+			continue
+		}
+		parts := strings.Split(name, ".")
+		pageID := parts[0]
+		pageInfo := loadPageFromCache(pageID)
+		meta := extractMetadata(pageInfo)
+		html := genHTML(pageInfo)
+		doc := &NotionDoc{
+			pageInfo: pageInfo,
+			meta:     meta,
+			html:     html,
+		}
+		article := notionDocToArticle(doc)
+		res = append(res, article)
+	}
+
+	return res
 }
 
 func rmFile(path string) {
@@ -240,7 +333,7 @@ func loadPageFromCache(pageID string) *notionapi.PageInfo {
 		if err == nil {
 			err = json.Unmarshal(d, &pageInfo)
 			panicIfErr(err)
-			fmt.Printf("Got data for pageID %s from cache file %s\n", pageID, cachedPath)
+			//fmt.Printf("Got data for pageID %s from cache file %s\n", pageID, cachedPath)
 			return &pageInfo
 		}
 	}
@@ -386,8 +479,8 @@ func genNotionBasic(pages map[string]*NotionDoc) {
 		docs = append(docs, doc)
 	}
 	sort.Slice(docs, func(i, j int) bool {
-		d1 := docs[i].meta.DateParsed
-		d2 := docs[j].meta.DateParsed
+		d1 := docs[i].meta.PublishedOn
+		d2 := docs[j].meta.PublishedOn
 		return d1.Sub(d2) > 0
 	})
 	d := genIndexHTML(docs)

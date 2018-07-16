@@ -53,7 +53,7 @@ func findTemplate(name string) string {
 			return path
 		}
 	}
-	u.PanicIf(true, "didn't find tamplate %s in dirs %v", name, tmplDirs)
+	panicIf(true, "didn't find tamplate %s in dirs %v", name, tmplDirs)
 	return ""
 }
 
@@ -73,7 +73,7 @@ func netlifyExecTemplate(fileName string, templateName string, model interface{}
 func execTemplate(path string, templateName string, model interface{}) {
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, templateName, model)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
-	u.PanicIfErr(err)
+	panicIfErr(err)
 }

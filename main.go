@@ -14,7 +14,6 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/kjk/u"
 )
 
 var (
@@ -42,17 +41,19 @@ func logVerbose(format string, args ...interface{}) {
 	fmt.Printf(format, args...)
 }
 
-func loadArticles() {
+func loadArticlesAndNotes() {
 	s, err := NewArticlesStore()
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	store = s
+	notesPath := filepath.Join("articles", "notes.txt")
+	err = readNotes(notesPath)
 }
 
 func rebuildAll() {
 	notesGenIDIfNecessary()
 	regenMd()
 	loadTemplates()
-	loadArticles()
+	loadArticlesAndNotes()
 	readRedirects()
 	netlifyBuild()
 }
@@ -63,7 +64,7 @@ func runCaddy() *exec.Cmd {
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err := cmd.Start()
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	return cmd
 }
 
@@ -90,16 +91,16 @@ func getDirsRecur(dir string) ([]string, error) {
 
 func rebuildOnChanges() {
 	dirs, err := getDirsRecur("www")
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	dirs2, err := getDirsRecur("books")
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	dirs3, err := getDirsRecur("articles")
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	dirs = append(dirs, dirs2...)
 	dirs = append(dirs, dirs3...)
 
 	watcher, err := fsnotify.NewWatcher()
-	u.PanicIfErr(err)
+	panicIfErr(err)
 	defer watcher.Close()
 	done := make(chan bool)
 	go func() {
