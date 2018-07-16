@@ -18,6 +18,7 @@ import (
 var (
 	flgRecursive bool
 	useCache     = true
+	destDir      = "notion_www"
 	toVisit      = []string{
 		// 57-MicroConf-videos-for-self-funded-software-businesses
 		"0c896ea2efd24ec7be1d1f6e3b22d254",
@@ -71,19 +72,18 @@ func genInlineBlockHTML(f io.Writer, b *notionapi.InlineBlock) error {
 		close += "</code>"
 	}
 	skipText := false
-	for _, attrRaw := range b.Attrs {
-		switch attr := attrRaw.(type) {
-		case *notionapi.AttrLink:
-			start += fmt.Sprintf(`<a href="%s">%s</a>`, attr.Link, b.Text)
-			skipText = true
-		case *notionapi.AttrUser:
-			start += fmt.Sprintf(`<span class="user">@%s</span>`, attr.UserID)
-			skipText = true
-		case *notionapi.AttrDate:
-			// TODO: serialize date properly
-			start += fmt.Sprintf(`<span class="date">@TODO: date</span>`)
-			skipText = true
-		}
+	if b.Link != "" {
+		start += fmt.Sprintf(`<a href="%s">%s</a>`, b.Link, b.Text)
+		skipText = true
+	}
+	if b.UserID != "" {
+		start += fmt.Sprintf(`<span class="user">@%s</span>`, b.UserID)
+		skipText = true
+	}
+	if b.Date != nil {
+		// TODO: serialize date properly
+		start += fmt.Sprintf(`<span class="date">@TODO: date</span>`)
+		skipText = true
 	}
 	if !skipText {
 		start += b.Text
@@ -120,8 +120,8 @@ func genBlockHTML(f io.Writer, block *notionapi.Block, level int) {
 
 	switch block.Type {
 	case notionapi.TypeText:
-		start := fmt.Sprintf(`<div class="text%s">`, levelCls)
-		close := `</div>`
+		start := fmt.Sprintf(`<p>`)
+		close := `</p>`
 		genBlockSurroudedHTML(f, block, start, close, level)
 	case notionapi.TypeHeader:
 		start := fmt.Sprintf(`<h1 class="hdr%s">`, levelCls)
@@ -212,31 +212,42 @@ type Metadata struct {
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	blocks := pageInfo.Page.Content
+	fmt.Printf("extractMetadata: %d blocks\n", len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	res := Metadata{}
+	nBlock := 0
 	for len(blocks) > 0 {
 		block := blocks[0]
 		if block.Type != notionapi.TypeText {
+			fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
 
-		if len(block.InlineContent) > 0 {
+		if len(block.InlineContent) == 0 {
+			fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
 			break
 		}
+
 		inline := block.InlineContent[0]
 		// must be plain text
-		if inline.AttrFlags != 0 || len(inline.Attrs) > 0 {
+		if !inline.IsPlain() {
+			fmt.Printf("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
 			break
 		}
+
+		blocks = blocks[1:]
+
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
-			blocks = blocks[1:]
+			fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
 			continue
 		}
-		parts := strings.Split(s, ":")
+
+		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {
+			fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
 			continue
 		}
 		key := strings.ToLower(strings.TrimSpace(parts[0]))
@@ -247,8 +258,10 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 			for i, tag := range res.Tags {
 				res.Tags[i] = strings.TrimSpace(tag)
 			}
+			fmt.Printf("Tags: %v\n", res.Tags)
 		case "id":
 			res.ID = val
+			fmt.Printf("ID: %s\n", res.ID)
 		case "date":
 			res.Date = val
 			// 2002-06-21T04:15:29-07:00
@@ -257,12 +270,14 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 				panicMsg("Failed to parse date '%s' in notion page with id '%s'. Error: %s", res.Date, pageInfo.ID, err)
 			}
 			res.DateParsed = parsed
+			fmt.Printf("Date: %s\n", res.Date)
 		case "description":
 			res.Description = val
+			fmt.Printf("Description: %s\n", res.Description)
 		default:
 			panicMsg("Unsupported tag '%s' in notion page with id '%s'", pageInfo.ID)
 		}
-
+		nBlock++
 	}
 	pageInfo.Page.Content = blocks
 	return &res
@@ -275,24 +290,52 @@ func panicMsg(format string, args ...interface{}) {
 }
 
 func genHTML(pageID string, pageInfo *notionapi.PageInfo) []byte {
-	f := &bytes.Buffer{}
+	extractMetadata(pageInfo)
 	title := pageInfo.Page.Title
 	title = template.HTMLEscapeString(title)
-	fmt.Fprintf(f, `<!doctype html>
+
+	f := &bytes.Buffer{}
+	genBlocksHTML(f, pageInfo.Page, 0)
+	html := string(f.Bytes())
+
+	s := fmt.Sprintf(`<!doctype html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="/main.css" rel="stylesheet">
 		<title>%s</title>
+		<link href="/main.css" rel="stylesheet">
 	</head>
-	<body>`, title)
+<body>
+<div id="tophdr">
+<ul id="nav">
+  <li><a href="/software/">Software</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/archives.html">Articles</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/documents.html">Documents</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/dailynotes">Daily Notes</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/resume.html">Résumé</a></li>
+</ul>
+</div>
 
-	page := pageInfo.Page
-	genHTMLTitle(f, page)
-	genBlocksHTML(f, page, 0)
-	fmt.Fprintf(f, "</body>\n</html>\n")
-	return f.Bytes()
+<div id="content">
+  <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+    <div class="title">
+      <a href="/">Home</a>  / %s
+    </div>
+    <div>
+      %s
+    </div>
+  </div>
+</div>
+</body>
+</html>
+`, title, title, html)
+
+	return []byte(s)
 }
 
 func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
@@ -355,8 +398,8 @@ func findSubPageIDs(blocks []*notionapi.Block) []string {
 }
 
 func copyCSS() {
-	src := filepath.Join("cmd", "tohtml", "main.css")
-	dst := filepath.Join("www", "main.css")
+	src := filepath.Join("www", "css", "main.css")
+	dst := filepath.Join(destDir, "main.css")
 	err := copyFile(dst, src)
 	if err != nil {
 		panic(err.Error())
@@ -366,6 +409,7 @@ func copyCSS() {
 func importNotion() {
 	os.MkdirAll("log", 0755)
 	os.MkdirAll("cache", 0755)
+	os.MkdirAll(destDir, 0755)
 
 	notionapi.DebugLog = true
 	seen := map[string]struct{}{}
@@ -382,7 +426,7 @@ func importNotion() {
 		if firstPage {
 			name = "index.html"
 		}
-		path := filepath.Join("www", name)
+		path := filepath.Join(destDir, name)
 		pageInfo, err := toHTML(id, path)
 		if err != nil {
 			fmt.Printf("toHTML('%s') failed with %s\n", id, err)
@@ -393,5 +437,5 @@ func importNotion() {
 		}
 		firstPage = false
 	}
-	//copyCSS()
+	copyCSS()
 }
