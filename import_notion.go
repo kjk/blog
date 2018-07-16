@@ -426,22 +426,28 @@ func genHTML(pageInfo *notionapi.PageInfo) []byte {
 	return d
 }
 
-func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
+func loadPageFromCache(pageID string) *notionapi.PageInfo {
 	var pageInfo notionapi.PageInfo
 	cachedPath := filepath.Join("cache", pageID+".json")
 	if useCache {
 		d, err := ioutil.ReadFile(cachedPath)
 		if err == nil {
 			err = json.Unmarshal(d, &pageInfo)
-			if err == nil {
-				fmt.Printf("Got data for pageID %s from cache file %s\n", pageID, cachedPath)
-				return &pageInfo, nil
-			}
-			// not a fatal error, just a warning
-			fmt.Printf("json.Unmarshal() on '%s' failed with %s\n", cachedPath, err)
+			panicIfErr(err)
+			fmt.Printf("Got data for pageID %s from cache file %s\n", pageID, cachedPath)
+			return &pageInfo
 		}
 	}
+	return nil
+}
+
+func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
 	fmt.Printf("downloading page with id %s\n", pageID)
+	cachedPath := filepath.Join("cache", pageID+".json")
+	lf, _ := openLogFileForPageID(pageID)
+	if lf != nil {
+		defer lf.Close()
+	}
 	res, err := notionapi.GetPageInfo(pageID)
 	if err != nil {
 		return nil, err
@@ -449,10 +455,7 @@ func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
 	d, err := json.MarshalIndent(res, "", "  ")
 	if err == nil {
 		err = ioutil.WriteFile(cachedPath, d, 0644)
-		if err != nil {
-			// not a fatal error, just a warning
-			fmt.Printf("ioutil.WriteFile(%s) failed with %s\n", cachedPath, err)
-		}
+		panicIfErr(err)
 	} else {
 		// not a fatal error, just a warning
 		fmt.Printf("json.Marshal() on pageID '%s' failed with %s\n", pageID, err)
@@ -460,28 +463,31 @@ func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
 	return res, nil
 }
 
-func loadPage(pageID string) (*notionapi.PageInfo, error) {
-	lf, _ := openLogFileForPageID(pageID)
-	if lf != nil {
-		defer lf.Close()
+func loadPage(pageID string) (*NotionDoc, error) {
+	var err error
+	pageInfo := loadPageFromCache(pageID)
+	if pageInfo == nil {
+		pageInfo, err = downloadAndCachePage(pageID)
+		if err != nil {
+			return nil, err
+		}
 	}
-	pageInfo, err := getPageInfoCached(pageID)
-	if err != nil {
-		fmt.Printf("getPageInfoCached('%s') failed with %s\n", pageID, err)
-		return nil, err
+	doc := &NotionDoc{
+		pageInfo: pageInfo,
 	}
-	return pageInfo, nil
+	doc.meta = extractMetadata(pageInfo)
+	return doc, nil
 }
 
-func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
+func toHTML(pageID, path string) (*NotionDoc, error) {
 	fmt.Printf("toHTML: pageID=%s, path=%s\n", pageID, path)
-	pageInfo, err := loadPage(pageID)
+	doc, err := loadPage(pageID)
 	if err != nil {
 		return nil, err
 	}
-	d := genHTML(pageInfo)
+	d := genHTML(doc.pageInfo)
 	err = ioutil.WriteFile(path, d, 0644)
-	return pageInfo, err
+	return doc, err
 }
 
 func findSubPageIDs(blocks []*notionapi.Block) []string {
@@ -509,15 +515,15 @@ type NotionDoc struct {
 
 func loadOne(id string) {
 	id = normalizeID(id)
-	page, err := loadPage(id)
+	_, err := loadPage(id)
 	panicIfErr(err)
-	extractMetadata(page)
 }
 
 func loadNotionBlogPosts() map[string]*NotionDoc {
 	indexPageID := normalizeID("300db9dc27c84958a08b8d0c37f4cfe5")
-	pageInfo, err := loadPage(indexPageID)
+	doc, err := loadPage(indexPageID)
 	panicIfErr(err)
+	pageInfo := doc.pageInfo
 
 	res := make(map[string]*NotionDoc)
 	for _, block := range pageInfo.Page.Content {
@@ -531,15 +537,10 @@ func loadNotionBlogPosts() map[string]*NotionDoc {
 			continue
 		}
 		fmt.Printf("%s-%s\n", title, id)
-		page, err := loadPage(id)
+		doc, err := loadPage(id)
 		panicIfErr(err)
-		meta := extractMetadata(page)
-		if meta.IsHidden() {
+		if doc.meta.IsHidden() {
 			continue
-		}
-		doc := &NotionDoc{
-			pageInfo: page,
-			meta:     meta,
 		}
 		res[id] = doc
 	}
@@ -657,12 +658,12 @@ func importNotion() {
 			name = "index.html"
 		}
 		path := filepath.Join(destDir, name)
-		pageInfo, err := toHTML(id, path)
+		doc, err := toHTML(id, path)
 		if err != nil {
 			fmt.Printf("toHTML('%s') failed with %s\n", id, err)
 		}
 		if flgRecursive {
-			subPages := findSubPageIDs(pageInfo.Page.Content)
+			subPages := findSubPageIDs(doc.pageInfo.Page.Content)
 			toVisit = append(toVisit, subPages...)
 		}
 		firstPage = false
