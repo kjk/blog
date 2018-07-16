@@ -127,19 +127,19 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	}
 
 	switch block.Type {
-	case notionapi.TypeText:
+	case notionapi.BlockText:
 		start := fmt.Sprintf(`<p>`)
 		close := `</p>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeHeader:
+	case notionapi.BlockHeader:
 		start := fmt.Sprintf(`<h1 class="hdr%s">`, levelCls)
 		close := `</h1>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeSubHeader:
+	case notionapi.BlockSubHeader:
 		start := fmt.Sprintf(`<h2 class="hdr%s">`, levelCls)
 		close := `</h2>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeTodo:
+	case notionapi.BlockTodo:
 		clsChecked := ""
 		if block.IsChecked {
 			clsChecked = " todo-checked"
@@ -147,17 +147,17 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		start := fmt.Sprintf(`<div class="todo%s%s">`, levelCls, clsChecked)
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeToggle:
+	case notionapi.BlockToggle:
 		start := fmt.Sprintf(`<div class="toggle%s">`, levelCls)
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeQuote:
+	case notionapi.BlockQuote:
 		start := fmt.Sprintf(`<quote class="%s">`, levelCls)
 		close := `</quote>`
 		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeDivider:
+	case notionapi.BlockDivider:
 		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", levelCls)
-	case notionapi.TypePage:
+	case notionapi.BlockPage:
 		id := strings.TrimSpace(block.ID)
 		cls := "page"
 		if block.IsLinkToPage() {
@@ -167,22 +167,22 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		url := normalizeID(id) + ".html"
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
-	case notionapi.TypeCode:
+	case notionapi.BlockCode:
 		code := template.HTMLEscapeString(block.Code)
 		fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
 <pre class="%s">
 %s
 </pre>`, levelCls, block.CodeLanguage, levelCls, code)
-	case notionapi.TypeBookmark:
+	case notionapi.BlockBookmark:
 		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
-	case notionapi.TypeGist:
+	case notionapi.BlockGist:
 		fmt.Fprintf(g.f, `<div class="gist %s">Gist for %s</div>`+"\n", levelCls, block.Source)
-	case notionapi.TypeImage:
+	case notionapi.BlockImage:
 		link := block.ImageURL
 		fmt.Fprintf(g.f, `<img class="%s" src="%s" />`+"\n", levelCls, link)
-	case notionapi.TypeColumnList:
+	case notionapi.BlockColumnList:
 		// TODO: implement me
-	case notionapi.TypeCollectionView:
+	case notionapi.BlockCollectionView:
 		// TODO: implement me
 	default:
 		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
@@ -199,22 +199,22 @@ func (g *HTMLGenerator) genBlocks(blocks []*notionapi.Block) {
 			continue
 		}
 
-		if block.Type == notionapi.TypeNumberedList {
+		if block.Type == notionapi.BlockNumberedList {
 			fmt.Fprintf(g.f, `<ol>`)
 			for len(blocks) > 0 {
 				block := blocks[0]
-				if block.Type != notionapi.TypeNumberedList {
+				if block.Type != notionapi.BlockNumberedList {
 					break
 				}
 				g.genBlockSurrouded(block, `<li>`, `</li>`)
 				blocks = blocks[1:]
 			}
 			fmt.Fprintf(g.f, `</ol>`)
-		} else if block.Type == notionapi.TypeBulletedList {
+		} else if block.Type == notionapi.BlockBulletedList {
 			fmt.Fprintf(g.f, `<ul>`)
 			for len(blocks) > 0 {
 				block := blocks[0]
-				if block.Type != notionapi.TypeBulletedList {
+				if block.Type != notionapi.BlockBulletedList {
 					break
 				}
 				g.genBlockSurrouded(block, `<li>`, `</li>`)
@@ -250,7 +250,7 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	nBlock := 0
 	for len(blocks) > 0 {
 		block := blocks[0]
-		if block.Type != notionapi.TypeText {
+		if block.Type != notionapi.BlockText {
 			fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
@@ -420,7 +420,7 @@ func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
 func findSubPageIDs(blocks []*notionapi.Block) []string {
 	var res []string
 	for _, block := range blocks {
-		if block.Type == notionapi.TypePage {
+		if block.Type == notionapi.BlockPage {
 			res = append(res, block.ID)
 		}
 	}
