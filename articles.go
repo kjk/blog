@@ -19,13 +19,6 @@ import (
 	"github.com/kr/fs"
 )
 
-// for Article.Format
-const (
-	formatHTML     = 0
-	formatMarkdown = 1
-	formatText     = 2
-)
-
 // for Article.Status
 const (
 	statusNormal       = iota // show on main page
@@ -43,7 +36,6 @@ type Article struct {
 	UpdatedOn      time.Time
 	Title          string
 	Tags           []string
-	Format         int
 	OrigPath       string // path of the markdown file with content
 	Body           []byte
 	BodyHTML       string
@@ -54,7 +46,6 @@ type Article struct {
 	Description    string
 
 	HTMLBody template.HTML
-	//DisplayMonth string
 }
 
 // URL returns article's permalink
@@ -117,20 +108,6 @@ func parseTags(s string) []string {
 		res = append(res, tag)
 	}
 	return res
-}
-
-func parseFormat(s string) int {
-	s = strings.ToLower(s)
-	switch s {
-	case "html":
-		return formatHTML
-	case "markdown", "md":
-		return formatMarkdown
-	case "text":
-		return formatText
-	}
-	panicIf(true, "unknown format: '%s'", s)
-	return 0
 }
 
 func parseDate(s string) (time.Time, error) {
@@ -266,8 +243,6 @@ func readArticle(path string) (*Article, error) {
 			a.Title = v
 		case "tags":
 			a.Tags = parseTags(v)
-		case "format":
-			a.Format = parseFormat(v)
 		case "publishedon":
 			publishedOn, err = parseDate(v)
 			if err != nil {
@@ -286,6 +261,14 @@ func readArticle(path string) (*Article, error) {
 			setCollectionMust(a, v)
 		case "description":
 			a.Description = v
+		case "format":
+			v := strings.TrimSpace(strings.ToLower(v))
+			switch v {
+			case "markdown", "md":
+				// do nothing
+			default:
+				return nil, fmt.Errorf("Unknown format '%s'", v)
+			}
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
@@ -311,7 +294,7 @@ func readArticle(path string) (*Article, error) {
 	}
 
 	a.Body = d
-	a.BodyHTML = msgToHTML(a.Body, a.Format)
+	a.BodyHTML = markdownToHTML(a.Body, "")
 	a.HTMLBody = template.HTML(a.BodyHTML)
 	return a, nil
 }
@@ -492,18 +475,6 @@ func strToHTML(s string) string {
 	}
 	ns = strings.Replace(ns, "\n", "<br>", -1)
 	return "<p>" + ns + "</p>"
-}
-
-func msgToHTML(msg []byte, format int) string {
-	switch format {
-	case formatHTML:
-		return string(msg)
-	case formatMarkdown:
-		return markdownToHTML(msg, "")
-	case formatText:
-		return strToHTML(string(msg))
-	}
-	panic("unknown format")
 }
 
 // MonthArticle combines article and a month
