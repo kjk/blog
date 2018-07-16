@@ -232,31 +232,43 @@ func (g *HTMLGenerator) genContent(parent *notionapi.Block) {
 	g.genBlocks(parent.Content)
 }
 
+// Metadata describes meta information extracted from the page
 type Metadata struct {
 	ID          string
 	Tags        []string
 	Date        string
 	DateParsed  time.Time
 	Description string
+	HeaderImage string
+	Collection  string
+	Status      string // hidden, notimportant
+}
+
+// IsHidden returns true if page is hidden/deleted
+func (m *Metadata) IsHidden() bool {
+	return strings.EqualFold(m.Status, "hidden")
 }
 
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	blocks := pageInfo.Page.Content
-	fmt.Printf("extractMetadata: %d blocks\n", len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	res := Metadata{}
 	nBlock := 0
+	seenEmpty := false
 	for len(blocks) > 0 {
 		block := blocks[0]
+
 		if block.Type != notionapi.BlockText {
-			fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+			//fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
 
 		if len(block.InlineContent) == 0 {
-			fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+			//fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+			seenEmpty = true
+			blocks = blocks[1:]
 			break
 		}
 
@@ -272,13 +284,17 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
-			fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			seenEmpty = true
 			continue
 		}
 
 		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {
-			fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
+			//fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
+			if seenEmpty {
+				break
+			}
 			continue
 		}
 		key := strings.ToLower(strings.TrimSpace(parts[0]))
@@ -289,11 +305,11 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 			for i, tag := range res.Tags {
 				res.Tags[i] = strings.TrimSpace(tag)
 			}
-			fmt.Printf("Tags: %v\n", res.Tags)
+			//fmt.Printf("Tags: %v\n", res.Tags)
 		case "id":
 			res.ID = val
-			fmt.Printf("ID: %s\n", res.ID)
-		case "date":
+			//fmt.Printf("ID: %s\n", res.ID)
+		case "date", "createdat", "updatedat":
 			res.Date = val
 			// 2002-06-21T04:15:29-07:00
 			parsed, err := time.Parse(time.RFC3339, res.Date)
@@ -301,17 +317,43 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 				panicMsg("Failed to parse date '%s' in notion page with id '%s'. Error: %s", res.Date, pageInfo.ID, err)
 			}
 			res.DateParsed = parsed
-			fmt.Printf("Date: %s\n", res.Date)
+			//fmt.Printf("Date: %s\n", res.Date)
+		case "status":
+			res.Status = val
 		case "description":
 			res.Description = val
-			fmt.Printf("Description: %s\n", res.Description)
+			//fmt.Printf("Description: %s\n", res.Description)
+		case "headerimage":
+			res.HeaderImage = val
+		case "collection":
+			res.Collection = val
 		default:
-			panicMsg("Unsupported tag '%s' in notion page with id '%s'", pageInfo.ID)
+			rmCached(pageInfo.ID)
+			panicMsg("Unsupported meta '%s' in notion page with id '%s'", key, pageInfo.ID)
 		}
 		nBlock++
 	}
 	pageInfo.Page.Content = blocks
 	return &res
+}
+
+func rmCached(pageID string) {
+	id := normalizeID(pageID)
+	{
+		path := filepath.Join("log", id+".log.txt")
+		err := os.Remove(path)
+		if err != nil {
+			fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
+		}
+	}
+
+	{
+		path := filepath.Join("cache", id+".json")
+		err := os.Remove(path)
+		if err != nil {
+			fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
+		}
+	}
 }
 
 func panicMsg(format string, args ...interface{}) {
@@ -401,8 +443,7 @@ func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
 	return res, nil
 }
 
-func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
-	fmt.Printf("toHTML: pageID=%s, path=%s\n", pageID, path)
+func loadPage(pageID string) (*notionapi.PageInfo, error) {
 	lf, _ := openLogFileForPageID(pageID)
 	if lf != nil {
 		defer lf.Close()
@@ -410,6 +451,15 @@ func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
 	pageInfo, err := getPageInfoCached(pageID)
 	if err != nil {
 		fmt.Printf("getPageInfoCached('%s') failed with %s\n", pageID, err)
+		return nil, err
+	}
+	return pageInfo, nil
+}
+
+func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
+	fmt.Printf("toHTML: pageID=%s, path=%s\n", pageID, path)
+	pageInfo, err := loadPage(pageID)
+	if err != nil {
 		return nil, err
 	}
 	d := genHTML(pageID, pageInfo)
@@ -431,15 +481,55 @@ func copyCSS() {
 	src := filepath.Join("www", "css", "main.css")
 	dst := filepath.Join(destDir, "main.css")
 	err := copyFile(dst, src)
-	if err != nil {
-		panic(err.Error())
+	panicIfErr(err)
+}
+
+// NotionDoc represents a notion page and additional info we need about it
+type NotionDoc struct {
+	pageInfo *notionapi.PageInfo
+	meta     *Metadata
+}
+
+func loadNotionBlogPosts() map[string]*NotionDoc {
+	indexPageID := normalizeID("300db9dc27c84958a08b8d0c37f4cfe5")
+	pageInfo, err := loadPage(indexPageID)
+	panicIfErr(err)
+	res := make(map[string]*NotionDoc)
+	for _, block := range pageInfo.Page.Content {
+		if block.Type != notionapi.BlockPage {
+			continue
+		}
+
+		title := block.Title
+		id := normalizeID(block.ID)
+		if _, ok := res[id]; ok {
+			continue
+		}
+		fmt.Printf("%s-%s\n", title, id)
+		page, err := loadPage(id)
+		panicIfErr(err)
+		meta := extractMetadata(page)
+		if meta.IsHidden() {
+			continue
+		}
+		doc := &NotionDoc{
+			pageInfo: page,
+			meta:     meta,
+		}
+		res[id] = doc
 	}
+	return res
 }
 
 func importNotion() {
 	os.MkdirAll("log", 0755)
 	os.MkdirAll("cache", 0755)
 	os.MkdirAll(destDir, 0755)
+
+	loadNotionBlogPosts()
+	if true {
+		return
+	}
 
 	notionapi.DebugLog = true
 	seen := map[string]struct{}{}

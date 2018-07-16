@@ -16,6 +16,12 @@ import (
 	"github.com/kjk/u"
 )
 
+func panicIfErr(err error) {
+	if err != nil {
+		panic(err.Error())
+	}
+}
+
 // whitelisted characters valid in url
 func validateRune(c rune) byte {
 	if c >= 'a' && c <= 'z' {
