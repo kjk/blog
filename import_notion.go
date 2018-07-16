@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"github.com/kjk/notionapi"
+	"github.com/yosssi/gohtml"
 )
 
 var (
@@ -249,6 +250,13 @@ func (m *Metadata) IsHidden() bool {
 	return strings.EqualFold(m.Status, "hidden")
 }
 
+func prettyHTML(d []byte) []byte {
+	gohtml.Condense = true
+	s := string(d)
+	s = gohtml.Format(s)
+	return []byte(s)
+}
+
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	blocks := pageInfo.Page.Content
@@ -407,7 +415,8 @@ func genHTML(pageID string, pageInfo *notionapi.PageInfo) []byte {
 </html>
 `, title, title, html)
 
-	return []byte(s)
+	d := prettyHTML([]byte(s))
+	return d
 }
 
 func getPageInfoCached(pageID string) (*notionapi.PageInfo, error) {
@@ -526,8 +535,8 @@ func importNotion() {
 	os.MkdirAll("cache", 0755)
 	os.MkdirAll(destDir, 0755)
 
-	loadNotionBlogPosts()
 	if true {
+		loadNotionBlogPosts()
 		return
 	}
 

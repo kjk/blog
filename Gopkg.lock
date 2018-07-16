@@ -2,6 +2,7 @@
 
 
 [[projects]]
+  digest = "1:4e0e50432c703cee687344686aa0253c82220968e7f6e465c21c14a61d8d2be4"
   name = "github.com/alecthomas/chroma"
   packages = [
     ".",
@@ -32,169 +33,264 @@
     "lexers/w",
     "lexers/x",
     "lexers/y",
-    "styles"
+    "styles",
   ]
+  pruneopts = "UT"
   revision = "563aadc53c53292c4c1def1b0a547be498bba83e"
   version = "v0.3.0"
 
 [[projects]]
   branch = "master"
+  digest = "1:4b06b3257b686b3aef902adf064fb12507953a6c95a331a2f5a65945d5745ad7"
   name = "github.com/chilts/sid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "6cf658ffc40cc14559db7af19fdae2ac0bf3d780"
 
 [[projects]]
   branch = "master"
+  digest = "1:710109527a119c813d4fac773712dd92f449ed7c2f7b81f49822f94d290c8f72"
   name = "github.com/danwakefield/fnmatch"
   packages = ["."]
+  pruneopts = "UT"
   revision = "cbb64ac3d964b81592e64f957ad53df015803288"
 
 [[projects]]
+  digest = "1:a2c1d0e43bd3baaa071d1b9ed72c27d78169b2b269f71c105ac4ba34b1be4a39"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
+  pruneopts = "UT"
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
 
 [[projects]]
+  digest = "1:975f3864da443fad01c3ea07fae30307cfb6301c62cf4051e97b1476b708ae86"
   name = "github.com/dlclark/regexp2"
   packages = [
     ".",
-    "syntax"
+    "syntax",
   ]
+  pruneopts = "UT"
   revision = "487489b64fb796de2e55f4e8a4ad1e145f80e957"
   version = "v1.1.6"
 
 [[projects]]
+  digest = "1:abeb38ade3f32a92943e5be54f55ed6d6e3b6602761d74b4aab4c9dd45c18abd"
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
+  pruneopts = "UT"
   revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
   version = "v1.4.7"
 
 [[projects]]
   branch = "master"
+  digest = "1:d65c7c18929955204a8a70b98abc1071321add3935b86d8b7eab68836733d37c"
   name = "github.com/gomarkdown/markdown"
   packages = [
     ".",
     "ast",
     "html",
-    "parser"
+    "parser",
   ]
-  revision = "9059a41742a293f6d971a28795bd18a0815fc15f"
+  pruneopts = "UT"
+  revision = "87d7df2d203e25ed3d4dcdf939238905a6c81509"
 
 [[projects]]
+  digest = "1:6ebdc68ef7cd81000d0f0713a09ffb50429b34e69f202b5176838f4be5cf5b5c"
   name = "github.com/kennygrant/sanitize"
   packages = ["."]
+  pruneopts = "UT"
   revision = "2e6820834a1f36c626bf19a253b7d3cc060e9b8b"
   version = "v1.2.3"
 
 [[projects]]
   branch = "master"
+  digest = "1:238f1d1a060189e5e6b4065a1a785cedf7c5b8e2fdc2f8b10aa3b68c79cb7995"
   name = "github.com/kjk/betterguid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "c442874ba63a7beb6c8b6f14ad1675de747b7f71"
 
 [[projects]]
   branch = "master"
+  digest = "1:e7cc1cfbfb4063832d1fcf119e4ae31309b413bcbd4d4e655b8c7abb166f2938"
+  name = "github.com/kjk/notionapi"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "0a2def95c6271bd95e087eb7ba60d8a7ef01ff45"
+
+[[projects]]
+  branch = "master"
+  digest = "1:8fadd28f69dbdbc3328ee32d537793e65be549f04a99a29c785f70159ee5cefe"
   name = "github.com/kjk/u"
   packages = ["."]
+  pruneopts = "UT"
   revision = "93181be023c9670de435766579b45c9d912aaf1c"
 
 [[projects]]
   branch = "master"
+  digest = "1:9cedee824c21326bd26950bd9e1ffe9dc4e7ca03dc8634d0e6f954ee6a383172"
   name = "github.com/kr/fs"
   packages = ["."]
-  revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
+  pruneopts = "UT"
+  revision = "1455def202f6e05b95cc7bfc7e8ae67ae5141eba"
 
 [[projects]]
   branch = "master"
+  digest = "1:a1f5a38c6c82d8f1e8a7b9fb9ea8b125b17188cdfb38f2cd08055ff9b51f5ec4"
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
-  revision = "542fd4642604d0d0c26112396ce5b1a9d01eee0b"
+  pruneopts = "UT"
+  revision = "dafebb5b6ff2861a0d69af64991e10866c19be85"
 
 [[projects]]
+  digest = "1:e25f71dc198d4f3285f663d1d32b90b219a5e680ac5cc77ace86f663f6d68baf"
   name = "github.com/oklog/ulid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "d311cb43c92434ec4072dfbbda3400741d0a6337"
   version = "v0.3.0"
 
 [[projects]]
+  digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
+  pruneopts = "UT"
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:757b110984b77e820e01c60d3ac03a376a0fdb05c990dd9d6bd4f9ba0d606261"
   name = "github.com/rs/xid"
   packages = ["."]
-  revision = "02dd45c33376f85d1064355dc790dcc4850596b1"
-  version = "v1.1"
+  pruneopts = "UT"
+  revision = "2c7e97ce663ff82c49656bca3048df0fdd83c5f9"
+  version = "v1.2.0"
 
 [[projects]]
+  digest = "1:274f67cb6fed9588ea2521ecdac05a6d62a8c51c074c1fccc6a49a40ba80e925"
   name = "github.com/satori/go.uuid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
   version = "v1.2.0"
 
 [[projects]]
+  digest = "1:8a3e7525dc0cf0236b163166800ecbc78d6c8c5d7ac956996e7b3bef8cfadc41"
   name = "github.com/segmentio/ksuid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "112f929a3020abfcd06b77c963ec919130796a35"
   version = "1.0.1"
 
 [[projects]]
   branch = "master"
+  digest = "1:8e9c06a6265bacd03807c0e4776c91b0d36d7ea0f91c87f7f044a04c44f489b2"
   name = "github.com/sony/sonyflake"
   packages = ["."]
+  pruneopts = "UT"
   revision = "fa881fb1052b152e977c41023052c2f2a1c475e9"
 
 [[projects]]
   branch = "master"
+  digest = "1:7d1a56d6e478d101047b32fe6ea432966db16867a3984b53bef75e3c160087b1"
   name = "github.com/sourcegraph/annotate"
   packages = ["."]
+  pruneopts = "UT"
   revision = "f4cad6c6324d3f584e1743d8b3e0e017a5f3a636"
 
 [[projects]]
   branch = "master"
+  digest = "1:9df4f012b99e1ea84cd1c3c29874cfb541b9726be43c62f05feef3a85e300688"
   name = "github.com/sourcegraph/syntaxhighlight"
   packages = ["."]
+  pruneopts = "UT"
   revision = "bd320f5d308e1a3c4314c678d8227a0d72574ae7"
 
 [[projects]]
+  digest = "1:18752d0b95816a1b777505a97f71c7467a8445b8ffb55631a7bf779f6ba4fa83"
   name = "github.com/stretchr/testify"
   packages = ["assert"]
-  revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
-  version = "v1.2.1"
+  pruneopts = "UT"
+  revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+  version = "v1.2.2"
 
 [[projects]]
   branch = "master"
+  digest = "1:778dec8b91b59aeb3c54d76b2b6e7d789252032269ae3590e8cac616fd41bda2"
   name = "github.com/thomas11/atomgenerator"
   packages = ["."]
+  pruneopts = "UT"
   revision = "0b3b01da14a48f084a3effeda175ce53c4d8320e"
 
 [[projects]]
   branch = "master"
-  name = "golang.org/x/net"
-  packages = [
-    "html",
-    "html/atom"
-  ]
-  revision = "cbe0f9307d0156177f9dd5dc85da1a31abc5f2fb"
+  digest = "1:2a6d6f93510531f9a868b9c088e3a3649d4e28ea04eed2f2dfdd97d7e91c1670"
+  name = "github.com/yosssi/gohtml"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "97fbf36f4aa81f723d0530f5495a820ba267ae5f"
 
 [[projects]]
   branch = "master"
-  name = "golang.org/x/sys"
-  packages = ["unix"]
-  revision = "88d2dcc510266da9f7f8c7f34e1940716cab5f5c"
+  digest = "1:ee15023f3a869df3a9a871cd54da8651e211dc99ab6e19e87cca7ddac94a10e0"
+  name = "golang.org/x/net"
+  packages = [
+    "html",
+    "html/atom",
+  ]
+  pruneopts = "UT"
+  revision = "d0887baf81f4598189d4e12a37c6da86f0bba4d0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:72d6244a51be9611f08994aca19677fcc31676b3e7b742c37e129e6ece4ad8fc"
+  name = "golang.org/x/sys"
+  packages = [
+    "unix",
+    "windows",
+  ]
+  pruneopts = "UT"
+  revision = "ac767d655b305d4e9612f5f6e33120b9176c4ad4"
+
+[[projects]]
+  digest = "1:a7c01f7cf3aa0cfb633ed91d781fca7bf6a9c95d9ccec4d2ec3fb7deee872967"
   name = "mvdan.cc/xurls"
   packages = ["."]
+  pruneopts = "UT"
   revision = "d315b61cf6727664f310fa87b3197e9faf2a8513"
   version = "v1.1.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "45f2edc5f9a1cea96d15d8489bffd8eb0c3dc36160bfa75bffaa1863c24ffde3"
+  input-imports = [
+    "github.com/alecthomas/chroma",
+    "github.com/alecthomas/chroma/formatters/html",
+    "github.com/alecthomas/chroma/lexers",
+    "github.com/alecthomas/chroma/styles",
+    "github.com/chilts/sid",
+    "github.com/fsnotify/fsnotify",
+    "github.com/gomarkdown/markdown",
+    "github.com/gomarkdown/markdown/ast",
+    "github.com/gomarkdown/markdown/html",
+    "github.com/gomarkdown/markdown/parser",
+    "github.com/kennygrant/sanitize",
+    "github.com/kjk/betterguid",
+    "github.com/kjk/notionapi",
+    "github.com/kjk/u",
+    "github.com/kr/fs",
+    "github.com/microcosm-cc/bluemonday",
+    "github.com/oklog/ulid",
+    "github.com/rs/xid",
+    "github.com/satori/go.uuid",
+    "github.com/segmentio/ksuid",
+    "github.com/sony/sonyflake",
+    "github.com/sourcegraph/syntaxhighlight",
+    "github.com/stretchr/testify/assert",
+    "github.com/thomas11/atomgenerator",
+    "github.com/yosssi/gohtml",
+    "mvdan.cc/xurls",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
