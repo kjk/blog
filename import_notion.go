@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 
@@ -250,6 +251,10 @@ func (m *Metadata) IsHidden() bool {
 	return strings.EqualFold(m.Status, "hidden")
 }
 
+func (m *Metadata) IsNotImportant() bool {
+	return strings.EqualFold(m.Status, "notimportant")
+}
+
 func prettyHTML(d []byte) []byte {
 	gohtml.Condense = true
 	s := string(d)
@@ -259,25 +264,30 @@ func prettyHTML(d []byte) []byte {
 
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
+	page := pageInfo.Page
+	title := page.Title
+	id := normalizeID(page.ID)
 	blocks := pageInfo.Page.Content
+	fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	res := Metadata{}
 	nBlock := 0
-	seenEmpty := false
 	for len(blocks) > 0 {
 		block := blocks[0]
+		fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
 
 		if block.Type != notionapi.BlockText {
-			//fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+			fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
 
 		if len(block.InlineContent) == 0 {
-			//fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
-			seenEmpty = true
+			fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
 			blocks = blocks[1:]
 			break
+		} else {
+			fmt.Printf("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
 		}
 
 		inline := block.InlineContent[0]
@@ -292,18 +302,16 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
-			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
-			seenEmpty = true
-			continue
+			fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			blocks = blocks[1:]
+			break
 		}
+		fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
 
 		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {
 			//fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
-			if seenEmpty {
-				break
-			}
-			continue
+			break
 		}
 		key := strings.ToLower(strings.TrimSpace(parts[0]))
 		val := strings.TrimSpace(parts[1])
@@ -336,7 +344,7 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		case "collection":
 			res.Collection = val
 		default:
-			rmCached(pageInfo.ID)
+			//rmCached(pageInfo.ID)
 			panicMsg("Unsupported meta '%s' in notion page with id '%s'", key, pageInfo.ID)
 		}
 		nBlock++
@@ -348,7 +356,7 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 func rmCached(pageID string) {
 	id := normalizeID(pageID)
 	{
-		path := filepath.Join("log", id+".log.txt")
+		path := filepath.Join("log", id+".go.log.txt")
 		err := os.Remove(path)
 		if err != nil {
 			fmt.Printf("os.Remove(%s) failed with %s\n", path, err)
@@ -370,7 +378,7 @@ func panicMsg(format string, args ...interface{}) {
 	panic(s)
 }
 
-func genHTML(pageID string, pageInfo *notionapi.PageInfo) []byte {
+func genHTML(pageInfo *notionapi.PageInfo) []byte {
 	extractMetadata(pageInfo)
 	title := pageInfo.Page.Title
 	title = template.HTMLEscapeString(title)
@@ -471,7 +479,7 @@ func toHTML(pageID, path string) (*notionapi.PageInfo, error) {
 	if err != nil {
 		return nil, err
 	}
-	d := genHTML(pageID, pageInfo)
+	d := genHTML(pageInfo)
 	err = ioutil.WriteFile(path, d, 0644)
 	return pageInfo, err
 }
@@ -515,6 +523,7 @@ func loadNotionBlogPosts() map[string]*NotionDoc {
 			continue
 		}
 		fmt.Printf("%s-%s\n", title, id)
+		os.Stdout.Sync()
 		page, err := loadPage(id)
 		panicIfErr(err)
 		meta := extractMetadata(page)
@@ -530,13 +539,97 @@ func loadNotionBlogPosts() map[string]*NotionDoc {
 	return res
 }
 
+func genIndexHTML(docs []*NotionDoc) []byte {
+	lines := []string{}
+	for _, doc := range docs {
+		meta := doc.meta
+		if meta.IsNotImportant() {
+			continue
+		}
+		page := doc.pageInfo.Page
+		id := normalizeID(page.ID)
+		title := page.Title
+		s := fmt.Sprintf(`<div>
+		<a href="/article/%s/index.html">%s</a>
+			<span style="font-size:80%%">
+				<span class="taglink">in:</span> <a href="/tag/go" class="taglink">go</a>, <a href="/tag/programming" class="taglink">programming</a>
+			</span>
+</div>`, id, title)
+		lines = append(lines, s)
+	}
+	html := strings.Join(lines, "\n")
+
+	s := fmt.Sprintf(`<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Krzysztof Kowalczyk's external brain</title>
+		<link href="/main.css" rel="stylesheet">
+	</head>
+<body>
+<div id="tophdr">
+<ul id="nav">
+  <li><a href="/software/">Software</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/archives.html">Articles</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/documents.html">Documents</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/dailynotes">Daily Notes</a></li>
+  <li><span style="color:#aaa">&bull;</span></li>
+  <li><a href="/resume.html">Résumé</a></li>
+</ul>
+</div>
+
+<div id="content">
+  <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+    <div class="title">
+      <a href="/">Home</a>
+    </div>
+    <div class="articles-list-wrap">
+      %s
+    </div>
+  </div>
+</div>
+</body>
+</html>
+`, html)
+
+	d := prettyHTML([]byte(s))
+	return d
+}
+
+func genNotionBasic(pages map[string]*NotionDoc) {
+	docs := make([]*NotionDoc, 0)
+	for _, doc := range pages {
+		docs = append(docs, doc)
+	}
+	sort.Slice(docs, func(i, j int) bool {
+		d1 := docs[i].meta.DateParsed
+		d2 := docs[j].meta.DateParsed
+		return d1.Sub(d2) > 0
+	})
+	d := genIndexHTML(docs)
+	path := filepath.Join(destDir, "index.html")
+	err := ioutil.WriteFile(path, d, 0644)
+	panicIfErr(err)
+	for _, doc := range docs {
+		d := genHTML(doc.pageInfo)
+		id := normalizeID(doc.pageInfo.Page.ID)
+		path := filepath.Join(destDir, id+".html")
+		err = ioutil.WriteFile(path, d, 0644)
+	}
+}
+
 func importNotion() {
 	os.MkdirAll("log", 0755)
 	os.MkdirAll("cache", 0755)
 	os.MkdirAll(destDir, 0755)
 
 	if true {
-		loadNotionBlogPosts()
+		docs := loadNotionBlogPosts()
+		genNotionBasic(docs)
 		return
 	}
 
