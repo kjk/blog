@@ -44,11 +44,10 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 
 // HTMLGenerator is for notion -> HTML generation
 type HTMLGenerator struct {
-	f                 *bytes.Buffer
-	pageInfo          *notionapi.PageInfo
-	level             int
-	numberedListLevel int
-	err               error
+	f        *bytes.Buffer
+	pageInfo *notionapi.PageInfo
+	level    int
+	err      error
 }
 
 func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
@@ -59,7 +58,7 @@ func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
 }
 
 func (g *HTMLGenerator) Gen() []byte {
-	g.genBlocks(g.pageInfo.Page)
+	g.genContent(g.pageInfo.Page)
 	return g.f.Bytes()
 }
 
@@ -116,7 +115,7 @@ func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close s
 	io.WriteString(g.f, start+"\n")
 	g.genInlineBlocks(block.InlineContent)
 	g.level++
-	g.genBlocks(block)
+	g.genContent(block)
 	g.level--
 	io.WriteString(g.f, close+"\n")
 }
@@ -150,14 +149,6 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeToggle:
 		start := fmt.Sprintf(`<div class="toggle%s">`, levelCls)
-		close := `</div>`
-		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeBulletedList:
-		start := fmt.Sprintf(`<div class="bullet-list%s">`, levelCls)
-		close := `</div>`
-		g.genBlockSurrouded(block, start, close)
-	case notionapi.TypeNumberedList:
-		start := fmt.Sprintf(`<div class="numbered-list%s">`, levelCls)
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.TypeQuote:
@@ -199,15 +190,46 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	}
 }
 
-func (g *HTMLGenerator) genBlocks(parent *notionapi.Block) {
-	blocks := parent.Content
-	for i, block := range blocks {
+func (g *HTMLGenerator) genBlocks(blocks []*notionapi.Block) {
+	for len(blocks) > 0 {
+		block := blocks[0]
 		if block == nil {
-			id := parent.ContentIDs[i]
-			fmt.Printf("No block at index %d with id=%s. Parent block %s of type %s\n", i, id, parent.ID, parent.Type)
+			fmt.Printf("Missing block\n")
+			blocks = blocks[1:]
+			continue
 		}
-		g.genBlock(block)
+
+		if block.Type == notionapi.TypeNumberedList {
+			fmt.Fprintf(g.f, `<ol>`)
+			for len(blocks) > 0 {
+				block := blocks[0]
+				if block.Type != notionapi.TypeNumberedList {
+					break
+				}
+				g.genBlockSurrouded(block, `<li>`, `</li>`)
+				blocks = blocks[1:]
+			}
+			fmt.Fprintf(g.f, `</ol>`)
+		} else if block.Type == notionapi.TypeBulletedList {
+			fmt.Fprintf(g.f, `<ul>`)
+			for len(blocks) > 0 {
+				block := blocks[0]
+				if block.Type != notionapi.TypeBulletedList {
+					break
+				}
+				g.genBlockSurrouded(block, `<li>`, `</li>`)
+				blocks = blocks[1:]
+			}
+			fmt.Fprintf(g.f, `</ul>`)
+		} else {
+			g.genBlock(block)
+			blocks = blocks[1:]
+		}
 	}
+}
+
+func (g *HTMLGenerator) genContent(parent *notionapi.Block) {
+	g.genBlocks(parent.Content)
 }
 
 type Metadata struct {
