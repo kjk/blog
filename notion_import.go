@@ -27,14 +27,18 @@ var (
 
 // Metadata describes meta information extracted from the page
 type Metadata struct {
-	ID          string
-	Tags        []string
-	Date        string
-	DateParsed  time.Time
-	Description string
-	HeaderImage string
-	Collection  string
-	Status      string // hidden, notimportant
+	ID           string
+	Tags         []string
+	DateStr      string
+	CreatedAtStr string
+	UpdatedAtStr string
+	Date         time.Time
+	CreatedAt    time.Time
+	UpdatedAt    time.Time
+	Description  string
+	HeaderImage  string
+	Collection   string
+	Status       string // hidden, notimportant
 }
 
 // IsHidden returns true if page is hidden/deleted
@@ -71,9 +75,9 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 
 // exttract metadata from blocks
 func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
-	//page := pageInfo.Page
+	page := pageInfo.Page
 	//title := page.Title
-	//id := normalizeID(page.ID)
+	id := normalizeID(page.ID)
 	blocks := pageInfo.Page.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
@@ -132,15 +136,12 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 		case "id":
 			res.ID = val
 			//fmt.Printf("ID: %s\n", res.ID)
-		case "date", "createdat", "updatedat":
-			res.Date = val
-			// 2002-06-21T04:15:29-07:00
-			parsed, err := time.Parse(time.RFC3339, res.Date)
-			if err != nil {
-				panicMsg("Failed to parse date '%s' in notion page with id '%s'. Error: %s", res.Date, pageInfo.ID, err)
-			}
-			res.DateParsed = parsed
-			//fmt.Printf("Date: %s\n", res.Date)
+		case "date":
+			decodeDate(val, &res.DateStr, &res.Date, id)
+		case "createdat":
+			decodeDate(val, &res.CreatedAtStr, &res.CreatedAt, id)
+		case "updatedat":
+			decodeDate(val, &res.UpdatedAtStr, &res.UpdatedAt, id)
 		case "status":
 			res.Status = val
 		case "description":
@@ -158,6 +159,16 @@ func extractMetadata(pageInfo *notionapi.PageInfo) *Metadata {
 	}
 	pageInfo.Page.Content = blocks
 	return &res
+}
+
+func decodeDate(s string, date *string, dateParsed *time.Time, pageID string) {
+	*date = s
+	// 2002-06-21T04:15:29-07:00
+	parsed, err := time.Parse(time.RFC3339, s)
+	if err != nil {
+		panicMsg("Failed to parse date '%s' in page '%s'. Error: %s", s, pageID, err)
+	}
+	*dateParsed = parsed
 }
 
 func rmFile(path string) {
