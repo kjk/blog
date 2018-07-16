@@ -11,7 +11,6 @@ import (
 	"os/exec"
 	"path/filepath"
 	"runtime"
-	"strconv"
 	"time"
 
 	"github.com/fsnotify/fsnotify"
@@ -23,7 +22,6 @@ var (
 	analyticsCode = "UA-194516-1"
 	showDrafts    bool
 
-	flgNewArticleTitle  string
 	flgRedownloadNotion bool
 	flgWatch            bool
 	flgVerbose          bool
@@ -31,7 +29,6 @@ var (
 )
 
 func parseCmdLineFlags() {
-	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.BoolVar(&flgWatch, "watch", false, "if true, runs caddy for preview and re-builds on changes")
 	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
@@ -43,56 +40,6 @@ func logVerbose(format string, args ...interface{}) {
 		return
 	}
 	fmt.Printf(format, args...)
-}
-
-func findUniqueArticleID(articles []*Article) string {
-	existingIDs := make(map[string]bool)
-	for _, a := range articles {
-		existingIDs[a.ID] = true
-	}
-
-	for i := 1; i < 10000; i++ {
-		s := u.EncodeBase64(i)
-		if !existingIDs[s] {
-			return strconv.Itoa(i)
-		}
-	}
-	u.PanicIf(true, "couldn't find unique article id")
-	return ""
-}
-
-func genNewArticle(title string) {
-	fmt.Printf("genNewArticle: %q\n", title)
-	store, err := NewArticlesStore()
-	if err != nil {
-		log.Fatalf("NewStore() failed with %s", err)
-	}
-	newID := findUniqueArticleID(store.articles)
-	t := time.Now()
-	dir := "articles"
-	yyyy := fmt.Sprintf("%04d", t.Year())
-	month := t.Month()
-	sanitizedTitle := sanitizeForFile(title)
-	name := fmt.Sprintf("%02d-%s.md", month, sanitizedTitle)
-	fmt.Printf("new id: %s, name: %s\n", newID, name)
-	path := filepath.Join(dir, yyyy, name)
-	s := fmt.Sprintf(`---
-Id: %s
-Title: %s
-Date: %s
-Format: Markdown
----`, newID, title, t.Format(time.RFC3339))
-	for i := 1; i < 10; i++ {
-		if !u.PathExists(path) {
-			break
-		}
-		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
-		path = filepath.Join(dir, yyyy, name)
-	}
-	u.PanicIf(u.PathExists(path))
-	fmt.Printf("path: %s\n", path)
-	u.CreateDirForFileMust(path)
-	ioutil.WriteFile(path, []byte(s), 0644)
 }
 
 func loadArticles() {
@@ -236,10 +183,6 @@ func main() {
 		return
 	}
 
-	if flgNewArticleTitle != "" {
-		genNewArticle(flgNewArticleTitle)
-		return
-	}
 	inProduction = true
 	if flgWatch {
 		showDrafts = true
