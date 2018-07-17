@@ -138,11 +138,14 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.BlockCode:
-		code := template.HTMLEscapeString(block.Code)
-		fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
-<pre class="%s">
-%s
-</pre>`, levelCls, block.CodeLanguage, levelCls, code)
+		/*
+			code := template.HTMLEscapeString(block.Code)
+			fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
+			<pre class="%s">
+			%s
+			</pre>`, levelCls, block.CodeLanguage, levelCls, code)
+		*/
+		htmlHighlight(g.f, string(block.Code), block.CodeLanguage, "")
 	case notionapi.BlockBookmark:
 		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
 	case notionapi.BlockGist:
