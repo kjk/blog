@@ -305,6 +305,7 @@ func netlifyBuild() {
 				TagsDisplay    string
 				HeaderImageURL string
 				GitHubEditURL  string
+				NotionEditURL  string
 			}{
 				AnalyticsCode: analyticsCode,
 				Article:       article,
@@ -312,7 +313,12 @@ func netlifyBuild() {
 				CoverImage:    coverImage,
 				PageTitle:     article.Title,
 				ShareHTML:     template.HTML(shareHTML),
-				GitHubEditURL: "https://github.com/kjk/blog/edit/master/" + article.OrigPath,
+			}
+			if a.pageInfo != nil {
+				id := normalizeID(a.pageInfo.ID)
+				model.NotionEditURL = "https://notion.so/" + id
+			} else {
+				model.GitHubEditURL = "https://github.com/kjk/blog/edit/master/" + article.OrigPath
 			}
 
 			path := fmt.Sprintf("/blog/%s.html", article.ID)

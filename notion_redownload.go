@@ -11,13 +11,13 @@ var (
 	cacheDir = "notion_cache"
 )
 
-func loadNotionBlogPosts() map[string]*NotionDoc {
+func loadNotionBlogPosts() map[string]*Article {
 	indexPageID := normalizeID("300db9dc27c84958a08b8d0c37f4cfe5")
 	doc, err := loadPage(indexPageID)
 	panicIfErr(err)
 	pageInfo := doc.pageInfo
 
-	res := make(map[string]*NotionDoc)
+	res := make(map[string]*Article)
 	for _, block := range pageInfo.Page.Content {
 		if block.Type != notionapi.BlockPage {
 			continue
@@ -31,7 +31,7 @@ func loadNotionBlogPosts() map[string]*NotionDoc {
 		fmt.Printf("%s-%s\n", title, id)
 		doc, err := loadPage(id)
 		panicIfErr(err)
-		if doc.meta.IsHidden() {
+		if doc.Status == statusHidden {
 			continue
 		}
 		res[id] = doc

@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/kjk/notionapi"
 	"github.com/kjk/u"
 	"github.com/kr/fs"
 )
@@ -46,6 +47,8 @@ type Article struct {
 	Description    string
 
 	HTMLBody template.HTML
+
+	pageInfo *notionapi.PageInfo
 }
 
 // URL returns article's permalink

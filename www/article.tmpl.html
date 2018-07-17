@@ -6,33 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="always">
     <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
-    <link rel="canonical" href="{{.CanonicalURL}}" />
-    {{if .Article.Description}}
-        <meta name="description" content="{{.Article.Description}}">
-    {{end}}
+    <link rel="canonical" href="{{.CanonicalURL}}" /> {{if .Article.Description}}
+    <meta name="description" content="{{.Article.Description}}"> {{end}}
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
     <meta name="twitter:site" content="@kjk">
-    <meta name="twitter:title" content="{{.PageTitle}}">
-    {{if .Article.Description}}
-    <meta name="twitter:description" content="{{.Article.Description}}">
-    {{end}}
-    <meta name="twitter:creator" content="@kjk">
-    {{if .CoverImage}}
-    <meta name="twitter:image" content="{{.CoverImage}}">
-    {{end}}
+    <meta name="twitter:title" content="{{.PageTitle}}"> {{if .Article.Description}}
+    <meta name="twitter:description" content="{{.Article.Description}}"> {{end}}
+    <meta name="twitter:creator" content="@kjk"> {{if .CoverImage}}
+    <meta name="twitter:image" content="{{.CoverImage}}"> {{end}}
 
     <!-- Open Graph i.e. Facebook data -->
     <meta property="og:title" content="{{.PageTitle}}">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{.CanonicalURL}}" />
-    {{if .Article.Description}}
-    <meta property="og:description" content="{{.Article.Description}}">
-    {{end}}
-    {{if .CoverImage}}
-    <meta property="og:image" content="{{.CoverImage}}">
-    {{end}}
+    <meta property="og:url" content="{{.CanonicalURL}}" /> {{if .Article.Description}}
+    <meta property="og:description" content="{{.Article.Description}}"> {{end}} {{if .CoverImage}}
+    <meta property="og:image" content="{{.CoverImage}}"> {{end}}
 
     <title>{{.PageTitle}}</title>
 
@@ -47,15 +37,19 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> {{if .Article.CollectionURL}} / <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a> {{end}} / {{.Article.Title}}
-                {{if .Article.IsDraft}}<span class="draft">draft<span>{{end}}
-                {{if .Article.DebugIsNotImportant}}<span class="draft">unimportant</span>{{end}}
-                {{if .Article.DebugIsHidden}}<span class="draft">hidden</span>{{end}}
+                <a href="/">Home</a> {{if .Article.CollectionURL}} /
+                <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a> {{end}} / {{.Article.Title}} {{if .Article.IsDraft}}
+                <span class="draft">draft
+                    <span>{{end}} {{if .Article.DebugIsNotImportant}}
+                        <span class="draft">unimportant</span>{{end}} {{if .Article.DebugIsHidden}}
+                        <span class="draft">hidden</span>{{end}}
             </div>
 
             {{if .Article.HeaderImageURL}}
             <div class="article-header hide-mobile">
-                <center><img class="hdr-image hide-mobile" src="{{.Article.HeaderImageURL}}"></center>
+                <center>
+                    <img class="hdr-image hide-mobile" src="{{.Article.HeaderImageURL}}">
+                </center>
             </div>
             {{end}}
 
@@ -66,13 +60,15 @@
             {{if .Article.CollectionURL}}
             <center>
                 <div style="font-size: 120%">
-                    Part of <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a>
+                    Part of
+                    <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a>
                 </div>
             </center>
             {{else}}
             <center>
                 <div style="font-size: 120%">
-                    Go to <a href="/">index of articles</a>.
+                    Go to
+                    <a href="/">index of articles</a>.
                 </div>
             </center>
             {{end}}
@@ -84,14 +80,15 @@
                 </div>
                 {{end}}
                 <div style="margin-left:auto">
-                    Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
-                 </div>
+                    Found a mistake, have a comment?
+                    <a href="/contactme.html">Let me know</a>.
+                </div>
             </div>
 
             <p></p>
             <center>
-                <p  class="share-me">
-                        {{.ShareHTML}}
+                <p class="share-me">
+                    {{.ShareHTML}}
                 </p>
             </center>
             <p></p>
@@ -99,10 +96,21 @@
 
     </div>
 
+    {{if .GitHubEditURL}}
     <div class="github-link">
         <a href="{{.GitHubEditURL}}" target="_blank">Edit on GitHub</a>
     </div>
+    {{end}}
 
+    <!-- -->
+
+    {{if .NotionEditURL}}
+    <div class="github-link">
+        <a href="{{.NotionEditURL}}" target="_blank">Edit on Notion</a>
+    </div>
+    {{end}}
+
+    <!-- -->
     {{ template "analytics.tmpl.html" . }}
 
 </body>
