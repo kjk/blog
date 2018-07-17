@@ -32,12 +32,19 @@
       "459354c1-8163-49bf-b13d-3946e50f2131",
       "90bdc57b-8707-4836-8569-533c998ddc16",
       "a544baf4-80f5-43ce-b7f9-5aa84e2cac9a",
+      "0d19c7d4-e536-4f18-8085-d9b271145094",
+      "41bff244-5590-4f97-9f21-6ec0d81eff49",
       "a4d5821c-3c1d-455f-8481-60142fbde4b9",
       "81df19cd-221d-4aa0-9960-c4e871b0c8f5",
       "1c717946-2e00-48f0-ab23-8831c66e03df",
       "b4e20182-726a-4366-bd1b-8a2732711cad",
       "2a45f270-cbf8-46b4-b2e0-2a3d1d437ae5",
-      "4de8ee53-b69d-405e-9059-9a27d6c307f2"
+      "4de8ee53-b69d-405e-9059-9a27d6c307f2",
+      "f0f45ca8-c88a-46c2-9630-87bd30573e4c",
+      "b431fb24-5e69-497a-9ae6-32f439bbb214",
+      "f65425ad-4a6c-4a32-9317-c1892dcb30f1",
+      "74275c41-29fe-4f25-b7c6-a54a49fe0046",
+      "09346e6a-e2a1-4b05-a54a-94d81e073975"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531204099503,
@@ -47,7 +54,7 @@
     },
     "id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531383540061,
+    "last_edited_time": 1531814058256,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -58,7 +65,7 @@
       ]
     },
     "type": "page",
-    "version": 7,
+    "version": 39,
     "content_resolved": [
       {
         "alive": true,
@@ -996,21 +1003,83 @@
         "created_time": 1531204099504,
         "id": "a544baf4-80f5-43ce-b7f9-5aa84e2cac9a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099504,
+        "last_edited_time": 1531814039085,
         "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "More information: * https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/ * https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525 for more inf"
+              "More information:"
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 9,
         "inline_content": [
           {
-            "Text": "More information: * https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/ * https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525 for more inf"
+            "Text": "More information:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814039085,
+        "id": "0d19c7d4-e536-4f18-8085-d9b271145094",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814044495,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21,
+        "inline_content": [
+          {
+            "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/",
+            "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814044495,
+        "id": "41bff244-5590-4f97-9f21-6ec0d81eff49",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814058256,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 24,
+        "inline_content": [
+          {
+            "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525",
+            "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525"
           }
         ]
       },
@@ -1200,14 +1269,35 @@
         "created_time": 1531204099505,
         "id": "4de8ee53-b69d-405e-9059-9a27d6c307f2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099505,
+        "last_edited_time": 1531813956179,
         "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The meaning of those should be self-evident: * "
-            ],
+              "The meaning of those should be self-evident:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "The meaning of those should be self-evident:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531813956179,
+        "id": "f0f45ca8-c88a-46c2-9630-87bd30573e4c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813963587,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
               "__i386__",
               [
@@ -1215,10 +1305,29 @@
                   "c"
                 ]
               ]
-            ],
-            [
-              " * "
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21,
+        "inline_content": [
+          {
+            "Text": "__i386__",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531813963587,
+        "id": "b431fb24-5e69-497a-9ae6-32f439bbb214",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813967908,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
               "__x86_64__",
               [
@@ -1226,10 +1335,33 @@
                   "c"
                 ]
               ]
-            ],
-            [
-              " * "
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "__x86_64__",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "71c3fd2d-01ed-49aa-84f3-861e2c615e9e",
+          "4672b533-94cd-416e-9591-bae90a0e8c20"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531813967908,
+        "id": "f65425ad-4a6c-4a32-9317-c1892dcb30f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813987426,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
               "__arm__",
               [
@@ -1239,30 +1371,95 @@
               ]
             ],
             [
-              ". If defined, you can further check: * "
-            ],
-            [
-              "__ARM_ARCH_5T__",
-              [
+              ". If defined, you can further check:"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 22,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531813976963,
+            "id": "71c3fd2d-01ed-49aa-84f3-861e2c615e9e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531813981721,
+            "parent_id": "f65425ad-4a6c-4a32-9317-c1892dcb30f1",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "c"
+                  "__ARM_ARCH_5T__",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
                 ]
               ]
-            ],
-            [
-              " * "
-            ],
-            [
-              "__ARM_ARCH_7A__",
-              [
+            },
+            "type": "bulleted_list",
+            "version": 17,
+            "inline_content": [
+              {
+                "Text": "__ARM_ARCH_5T__",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531813981721,
+            "id": "4672b533-94cd-416e-9591-bae90a0e8c20",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531813985114,
+            "parent_id": "f65425ad-4a6c-4a32-9317-c1892dcb30f1",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "c"
+                  "__ARM_ARCH_7A__",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
                 ]
               ]
-            ],
-            [
-              " * "
-            ],
+            },
+            "type": "bulleted_list",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "__ARM_ARCH_7A__",
+                "AttrFlags": 2
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "__arm__",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ". If defined, you can further check:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531813985114,
+        "id": "74275c41-29fe-4f25-b7c6-a54a49fe0046",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813989762,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
               "__powerpc64__",
               [
@@ -1270,10 +1467,29 @@
                   "c"
                 ]
               ]
-            ],
-            [
-              " * "
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17,
+        "inline_content": [
+          {
+            "Text": "__powerpc64__",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531813989762,
+        "id": "09346e6a-e2a1-4b05-a54a-94d81e073975",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813991907,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
               "__aarch64__",
               [
@@ -1284,54 +1500,9 @@
             ]
           ]
         },
-        "type": "text",
-        "version": 1,
+        "type": "bulleted_list",
+        "version": 12,
         "inline_content": [
-          {
-            "Text": "The meaning of those should be self-evident: * "
-          },
-          {
-            "Text": "__i386__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * "
-          },
-          {
-            "Text": "__x86_64__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * "
-          },
-          {
-            "Text": "__arm__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": ". If defined, you can further check: * "
-          },
-          {
-            "Text": "__ARM_ARCH_5T__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * "
-          },
-          {
-            "Text": "__ARM_ARCH_7A__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * "
-          },
-          {
-            "Text": "__powerpc64__",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * "
-          },
           {
             "Text": "__aarch64__",
             "AttrFlags": 2

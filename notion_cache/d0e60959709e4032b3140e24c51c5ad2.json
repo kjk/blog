@@ -11,6 +11,7 @@
       "e8923115-967e-4c18-8010-9a04e878a521",
       "816b141d-bae7-447d-a5f6-1b8739dfbe8e",
       "ad4162c2-6adc-4b61-b5d8-04979dcb8420",
+      "315c0117-7c90-40bf-ba8e-6c09e07f994e",
       "64af524f-87c4-4d17-8462-bb8aba45cfd6",
       "41d6afb9-0bb3-4b55-98fa-a02eae11c3d6",
       "0257cdad-4fe4-4dfa-a167-f33f156882c2",
@@ -27,7 +28,7 @@
     "id": "d0e60959-709e-4032-b314-0e24c51c5ad2",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531307805820,
+    "last_edited_time": 1531813043297,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -38,7 +39,7 @@
       ]
     },
     "type": "page",
-    "version": 75,
+    "version": 77,
     "content_resolved": [
       {
         "alive": true,
@@ -237,14 +238,44 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530169093355,
-        "id": "64af524f-87c4-4d17-8462-bb8aba45cfd6",
+        "created_time": 1531813043297,
+        "id": "315c0117-7c90-40bf-ba8e-6c09e07f994e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530169093368,
+        "last_edited_time": 1531813043297,
         "parent_id": "d0e60959-709e-4032-b314-0e24c51c5ad2",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530169093355,
+        "id": "64af524f-87c4-4d17-8462-bb8aba45cfd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531813058590,
+        "parent_id": "d0e60959-709e-4032-b314-0e24c51c5ad2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "My comments",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 21,
+        "inline_content": [
+          {
+            "Text": "My comments",
+            "AttrFlags": 1
+          }
+        ]
       },
       {
         "alive": true,
@@ -253,22 +284,11 @@
         "id": "41d6afb9-0bb3-4b55-98fa-a02eae11c3d6",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530169114905,
+        "last_edited_time": 1531813048617,
         "parent_id": "d0e60959-709e-4032-b314-0e24c51c5ad2",
         "parent_table": "block",
         "properties": {
           "title": [
-            [
-              "My comments:",
-              [
-                [
-                  "i"
-                ]
-              ]
-            ],
-            [
-              " "
-            ],
             [
               "I think it’s better to say that being first gives one extremely big advantage over competition but doesn’t guarantee the success.",
               [
@@ -280,15 +300,8 @@
           ]
         },
         "type": "text",
-        "version": 5,
+        "version": 9,
         "inline_content": [
-          {
-            "Text": "My comments:",
-            "AttrFlags": 4
-          },
-          {
-            "Text": " "
-          },
           {
             "Text": "I think it’s better to say that being first gives one extremely big advantage over competition but doesn’t guarantee the success.",
             "AttrFlags": 4
