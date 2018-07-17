@@ -122,8 +122,8 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockQuote:
-		start := fmt.Sprintf(`<quote class="%s">`, levelCls)
-		close := `</quote>`
+		start := fmt.Sprintf(`<blockquote class="%s">`, levelCls)
+		close := `</blockquote>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockDivider:
 		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", levelCls)
