@@ -14,6 +14,12 @@
       "962994ba-13a7-4caa-9e82-2b670e56d498",
       "dd18fc1b-e14d-4ed7-8d58-4113047ba527",
       "db5540f7-09fd-4768-bb5f-376f0339672f",
+      "a27f7e00-8574-4991-8d96-6b2354e2662c",
+      "9abe17df-96d9-4dbd-9e6f-5c9808c38006",
+      "47910691-88d7-457e-8dcf-e2e6e1e6ec56",
+      "20d9268f-6369-4ebf-9d11-67da5cd73bdb",
+      "2603e161-200e-48ad-8d05-655885c5ee86",
+      "fc10c774-729e-4cd1-9b16-918802fc1945",
       "08721030-d4ef-4664-a93b-505825c203e8",
       "1f8729f1-1416-4aa1-b93c-526eda5f4418",
       "83295e39-b6dc-473a-b7fd-43448c311843",
@@ -54,7 +60,7 @@
     },
     "id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531814058256,
+    "last_edited_time": 1531814739929,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -65,7 +71,7 @@
       ]
     },
     "type": "page",
-    "version": 39,
+    "version": 51,
     "content_resolved": [
       {
         "alive": true,
@@ -339,13 +345,37 @@
         "created_time": 1531204099503,
         "id": "db5540f7-09fd-4768-bb5f-376f0339672f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099503,
+        "last_edited_time": 1531814697302,
         "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Other documentations: * predefined macros in "
+              "Other documentations: "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Other documentations: "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814697302,
+        "id": "a27f7e00-8574-4991-8d96-6b2354e2662c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814704383,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "predefined macros in "
             ],
             [
               "Visual Studio",
@@ -357,7 +387,69 @@
               ]
             ],
             [
-              " * https://sourceforge.net/p/predef/wiki/Compilers/ * to list clang’s pre-defined macros: "
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19,
+        "inline_content": [
+          {
+            "Text": "predefined macros in "
+          },
+          {
+            "Text": "Visual Studio",
+            "Link": "https://msdn.microsoft.com/en-us/library/b0084kay.aspx"
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814704383,
+        "id": "9abe17df-96d9-4dbd-9e6f-5c9808c38006",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814712047,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://sourceforge.net/p/predef/wiki/Compilers/",
+              [
+                [
+                  "a",
+                  "https://sourceforge.net/p/predef/wiki/Compilers/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 20,
+        "inline_content": [
+          {
+            "Text": "https://sourceforge.net/p/predef/wiki/Compilers/",
+            "Link": "https://sourceforge.net/p/predef/wiki/Compilers/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814712047,
+        "id": "47910691-88d7-457e-8dcf-e2e6e1e6ec56",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814721810,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "to list clang’s pre-defined macros: "
             ],
             [
               "clang -x c /dev/null -dM -E",
@@ -366,9 +458,34 @@
                   "c"
                 ]
               ]
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "to list clang’s pre-defined macros: "
+          },
+          {
+            "Text": "clang -x c /dev/null -dM -E",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814719854,
+        "id": "20d9268f-6369-4ebf-9d11-67da5cd73bdb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814732746,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
-              " * to list gcc’s pre-defined macros: "
+              "to list gcc’s pre-defined macros: "
             ],
             [
               "gcc -x c /dev/null -dM -E",
@@ -379,7 +496,38 @@
               ]
             ],
             [
-              " (not that on mac gcc is actually clang that ships with XCode) * the "
+              " (not that on mac gcc is actually clang that ships with XCode)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "to list gcc’s pre-defined macros: "
+          },
+          {
+            "Text": "gcc -x c /dev/null -dM -E",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " (not that on mac gcc is actually clang that ships with XCode)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814732746,
+        "id": "2603e161-200e-48ad-8d05-655885c5ee86",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814739929,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "the "
             ],
             [
               "-x c /dev/null -dM -E",
@@ -390,7 +538,38 @@
               ]
             ],
             [
-              " also works for mingw (which is based on gcc) * listing predefined macros "
+              " also works for mingw (which is based on gcc)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "the "
+          },
+          {
+            "Text": "-x c /dev/null -dM -E",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " also works for mingw (which is based on gcc)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814739929,
+        "id": "fc10c774-729e-4cd1-9b16-918802fc1945",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814740914,
+        "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "listing predefined macros "
             ],
             [
               "for other compilers",
@@ -403,39 +582,11 @@
             ]
           ]
         },
-        "type": "text",
-        "version": 1,
+        "type": "bulleted_list",
+        "version": 12,
         "inline_content": [
           {
-            "Text": "Other documentations: * predefined macros in "
-          },
-          {
-            "Text": "Visual Studio",
-            "Link": "https://msdn.microsoft.com/en-us/library/b0084kay.aspx"
-          },
-          {
-            "Text": " * https://sourceforge.net/p/predef/wiki/Compilers/ * to list clang’s pre-defined macros: "
-          },
-          {
-            "Text": "clang -x c /dev/null -dM -E",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * to list gcc’s pre-defined macros: "
-          },
-          {
-            "Text": "gcc -x c /dev/null -dM -E",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " (not that on mac gcc is actually clang that ships with XCode) * the "
-          },
-          {
-            "Text": "-x c /dev/null -dM -E",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " also works for mingw (which is based on gcc) * listing predefined macros "
+            "Text": "listing predefined macros "
           },
           {
             "Text": "for other compilers",

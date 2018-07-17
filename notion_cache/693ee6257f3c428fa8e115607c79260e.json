@@ -14,6 +14,11 @@
       "08ac030b-7324-4061-8ef7-644edba13e72",
       "f081459d-802f-4432-89d7-f30d60fb2705",
       "9e3740a3-eb97-4177-95e4-456fa16d1999",
+      "a83cb376-7619-4217-a2b8-0e7787d34f3c",
+      "20f1c6a2-0f63-4e68-bfc0-3620a82f22e6",
+      "6ba58c97-fb73-42b2-897d-c10797a5ff50",
+      "2bcf2944-970d-4390-bc74-1dc7edbc9bef",
+      "e0acbc91-7021-4ad4-a229-8cc929f04093",
       "204b4f07-5190-4f98-9e7e-393ad6bcf52a",
       "34d3e1b5-b88e-43fb-b62e-622102d5522c",
       "7e1e060d-01e2-4deb-8abd-422b1a128126",
@@ -45,7 +50,7 @@
     },
     "id": "693ee625-7f3c-428f-a8e1-15607c79260e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531736728118,
+    "last_edited_time": 1531814842721,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -56,7 +61,7 @@
       ]
     },
     "type": "page",
-    "version": 13,
+    "version": 23,
     "content_resolved": [
       {
         "alive": true,
@@ -422,13 +427,61 @@
         "created_time": 1531204099701,
         "id": "9e3740a3-eb97-4177-95e4-456fa16d1999",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099701,
+        "last_edited_time": 1531814811504,
         "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The high-level use is: * create a tree of nodes that represents a layout you want to represent * set desired flexbox properties on each node using "
+              "The high-level use is: "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "The high-level use is: "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814811504,
+        "id": "a83cb376-7619-4217-a2b8-0e7787d34f3c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814830903,
+        "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "create a tree of nodes that represents a layout you want to represent"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21,
+        "inline_content": [
+          {
+            "Text": "create a tree of nodes that represents a layout you want to represent"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814818049,
+        "id": "20f1c6a2-0f63-4e68-bfc0-3620a82f22e6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814829160,
+        "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "set desired flexbox properties on each node using "
             ],
             [
               "node.StyleSet*()",
@@ -449,9 +502,41 @@
                   "https://github.com/kjk/flex/blob/master/yoga_props.go#L58"
                 ]
               ]
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "set desired flexbox properties on each node using "
+          },
+          {
+            "Text": "node.StyleSet*()",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          },
+          {
+            "Text": "functions",
+            "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L58"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814826373,
+        "id": "6ba58c97-fb73-42b2-897d-c10797a5ff50",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814836554,
+        "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
-              " * call "
+              "call "
             ],
             [
               "flex.CalculateLayout(rootNode, parentWidth, parentHeight, direction)",
@@ -460,9 +545,34 @@
                   "c"
                 ]
               ]
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12,
+        "inline_content": [
+          {
+            "Text": "call "
+          },
+          {
+            "Text": "flex.CalculateLayout(rootNode, parentWidth, parentHeight, direction)",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814836554,
+        "id": "2bcf2944-970d-4390-bc74-1dc7edbc9bef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814842721,
+        "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
-              " * each node is now measured and positioned so you can e.g. size and position widgets associated with each node. You can get the size on position of nodes with "
+              "each node is now measured and positioned so you can e.g. size and position widgets associated with each node. You can get the size on position of nodes with "
             ],
             [
               "node.LayoutGet*()",
@@ -483,9 +593,41 @@
                   "https://github.com/kjk/flex/blob/master/yoga_props.go#L531"
                 ]
               ]
-            ],
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "each node is now measured and positioned so you can e.g. size and position widgets associated with each node. You can get the size on position of nodes with "
+          },
+          {
+            "Text": "node.LayoutGet*()",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          },
+          {
+            "Text": "functions",
+            "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L531"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531814842721,
+        "id": "e0acbc91-7021-4ad4-a229-8cc929f04093",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531814853281,
+        "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
             [
-              " * when layout hierachy changes (e.g. the node represents a label and you’ve changed its text, which changes it’s intrisic size), call "
+              "when layout hierachy changes (e.g. the node represents a label and you’ve changed its text, which changes it’s intrinsic size), call "
             ],
             [
               "node.MarkDirty()",
@@ -511,46 +653,11 @@
             ]
           ]
         },
-        "type": "text",
-        "version": 1,
+        "type": "bulleted_list",
+        "version": 14,
         "inline_content": [
           {
-            "Text": "The high-level use is: * create a tree of nodes that represents a layout you want to represent * set desired flexbox properties on each node using "
-          },
-          {
-            "Text": "node.StyleSet*()",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " "
-          },
-          {
-            "Text": "functions",
-            "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L58"
-          },
-          {
-            "Text": " * call "
-          },
-          {
-            "Text": "flex.CalculateLayout(rootNode, parentWidth, parentHeight, direction)",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " * each node is now measured and positioned so you can e.g. size and position widgets associated with each node. You can get the size on position of nodes with "
-          },
-          {
-            "Text": "node.LayoutGet*()",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " "
-          },
-          {
-            "Text": "functions",
-            "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L531"
-          },
-          {
-            "Text": " * when layout hierachy changes (e.g. the node represents a label and you’ve changed its text, which changes it’s intrisic size), call "
+            "Text": "when layout hierachy changes (e.g. the node represents a label and you’ve changed its text, which changes it’s intrinsic size), call "
           },
           {
             "Text": "node.MarkDirty()",
