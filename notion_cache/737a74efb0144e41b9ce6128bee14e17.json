@@ -6,7 +6,12 @@
       "3b521387-3b98-4875-a95d-8ba251686857",
       "1627f183-9735-4316-a375-8aa9406de1a0",
       "0fba899c-2dd2-4a0d-8330-0e13cea3541b",
-      "47599877-c077-470d-ae2a-8c2eacc208e8"
+      "47599877-c077-470d-ae2a-8c2eacc208e8",
+      "efadd339-29c3-4222-8c80-312a65b630b6",
+      "f11695ba-fb3f-4b7b-83e7-e88cd72fe374",
+      "e5ec6646-8af5-499e-8924-ce29ca143bf9",
+      "eddf9c8b-5bc9-4ce5-80da-469eb8ba3102",
+      "4b449e6e-0e65-4209-84d6-30e31f17e768"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157292308,
@@ -17,7 +22,7 @@
     "id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531383131074,
+    "last_edited_time": 1531818181021,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -28,7 +33,7 @@
       ]
     },
     "type": "page",
-    "version": 55,
+    "version": 65,
     "content_resolved": [
       {
         "alive": true,
@@ -97,7 +102,7 @@
         "created_time": 1531122193151,
         "id": "47599877-c077-470d-ae2a-8c2eacc208e8",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531122193166,
+        "last_edited_time": 1531818164767,
         "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
         "parent_table": "block",
         "properties": {
@@ -115,12 +120,12 @@
               ]
             ],
             [
-              " about the realities of software development. Although his article is aimed at people who want to get features into software, I think it should first be read by people who manage software projects (Havoc assumes that they already know but this is probably not the case). The main insight is that software cannot grow infinitely. Each additional feature has a cost of implementing it and of future maintenance. Maintenance cost is non-linear: difficulty of maintaining the code grows much faster than number of lines added. Such is the nature of software."
+              " about the realities of software development."
             ]
           ]
         },
         "type": "text",
-        "version": 6,
+        "version": 10,
         "inline_content": [
           {
             "Text": "Havoc "
@@ -130,9 +135,117 @@
             "Link": "http://www106.pair.com/rhp/features.html"
           },
           {
-            "Text": " about the realities of software development. Although his article is aimed at people who want to get features into software, I think it should first be read by people who manage software projects (Havoc assumes that they already know but this is probably not the case). The main insight is that software cannot grow infinitely. Each additional feature has a cost of implementing it and of future maintenance. Maintenance cost is non-linear: difficulty of maintaining the code grows much faster than number of lines added. Such is the nature of software."
+            "Text": " about the realities of software development."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531818162828,
+        "id": "efadd339-29c3-4222-8c80-312a65b630b6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531818171405,
+        "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Although his article is aimed at people who want to get features into software, I think it should first be read by people who manage software projects (Havoc assumes that they already know but this is probably not the case). "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Although his article is aimed at people who want to get features into software, I think it should first be read by people who manage software projects (Havoc assumes that they already know but this is probably not the case). "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531818171405,
+        "id": "f11695ba-fb3f-4b7b-83e7-e88cd72fe374",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531818174054,
+        "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The main insight is that software cannot grow infinitely. "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "The main insight is that software cannot grow infinitely. "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531818174054,
+        "id": "e5ec6646-8af5-499e-8924-ce29ca143bf9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531818177749,
+        "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Each additional feature has a cost of implementing it and of future maintenance. "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Each additional feature has a cost of implementing it and of future maintenance. "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531818177749,
+        "id": "eddf9c8b-5bc9-4ce5-80da-469eb8ba3102",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531818181021,
+        "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Maintenance cost is non-linear: difficulty of maintaining the code grows much faster than number of lines added. "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Maintenance cost is non-linear: difficulty of maintaining the code grows much faster than number of lines added. "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531818181021,
+        "id": "4b449e6e-0e65-4209-84d6-30e31f17e768",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531818181021,
+        "parent_id": "737a74ef-b014-4e41-b9ce-6128bee14e17",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
       }
     ],
     "title": "How to refuse features",
