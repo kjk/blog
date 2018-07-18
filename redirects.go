@@ -660,12 +660,14 @@ func netlifyAddArticleRedirects() {
 		netflifyAddTempRedirect(from, to) // TODO: change to permanent
 	}
 
-	// redirect /article/:id/* => /article/:id/pretty-title
-	netlifyAddRewrite("/article/:id/*", "/blog/:id.html")
 }
 
+// redirect /article/:id/* => /article/:id/pretty-title
+const netlifyRedirectsProlog = `/article/:id/*	/blog/:id.html	200
+`
+
 func netlifyWriteRedirects() {
-	var buf bytes.Buffer
+	buf := bytes.NewBufferString(netlifyRedirectsProlog)
 	for _, r := range netlifyRedirects {
 		s := fmt.Sprintf("%s\t%s\t%d\n", r.from, r.to, r.code)
 		buf.WriteString(s)
@@ -674,10 +676,17 @@ func netlifyWriteRedirects() {
 }
 
 // https://caddyserver.com/tutorial/caddyfile
+// redirect /article/:id/* => /article/:id/pretty-title
 var caddyProlog = `localhost:8080
 root netlify_static
 errors stdout
 log stdout
+
+rewrite / {
+	r  ^/article/(.*)/.*$
+	to /blog/{1}.html
+}
+
 `
 
 func isRewrite(r *netlifyRedirect) bool {
@@ -689,6 +698,10 @@ func genCaddyRedir(r *netlifyRedirect) string {
 		return fmt.Sprintf("rewrite / %s\n", r.to)
 	}
 	if isRewrite(r) {
+		// hack: caddy doesn't like `++` in from
+		if strings.Contains(r.from, "++") {
+			return ""
+		}
 		if strings.HasSuffix(r.from, "*") {
 			base := strings.TrimSuffix(r.from, "*")
 			to := strings.Replace(r.to, ":splat", "{1}", -1)
