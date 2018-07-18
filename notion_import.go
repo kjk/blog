@@ -43,13 +43,13 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 }
 
 func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
-	//id := normalizeID(page.ID)
 	blocks := pageInfo.Page.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
 	page := pageInfo.Page
 	title := page.Title
+	id := normalizeID(page.ID)
 	res := &Article{
 		pageInfo: pageInfo,
 		Title:    title,
@@ -132,6 +132,7 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 		}
 		nBlock++
 	}
+	pageInfo.Page.Content = blocks
 
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
@@ -141,12 +142,13 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 	if res.UpdatedOn.IsZero() {
 		res.UpdatedOn = res.PublishedOn
 	}
-	pageInfo.Page.Content = blocks
+
+	if res.ID == "" {
+		res.ID = id
+	}
 
 	gen := NewHTMLGenerator(pageInfo)
-	html := string(gen.Gen())
-
-	res.Body = []byte(html)
+	res.Body = gen.Gen()
 
 	res.BodyHTML = string(res.Body)
 	res.HTMLBody = template.HTML(res.BodyHTML)
