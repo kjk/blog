@@ -355,43 +355,26 @@ func genNotionBasic(pages map[string]*Article) {
 	}
 }
 
-func importNotion() {
+func testNotionToHTML() {
 	os.MkdirAll(notionLogDir, 0755)
 	os.MkdirAll(cacheDir, 0755)
 	os.MkdirAll(destDir, 0755)
 
-	if false {
-		//loadOne("431295a5-4f7e-4208-869f-4763862c1f05")
-		docs := loadNotionPages(notionBlogsStartPage)
-		genNotionBasic(docs)
-		return
-	}
+	//notionapi.DebugLog = true
+	startPageID := normalizeID(notionWebsiteStartPage)
+	articles := loadNotionPages(startPageID)
+	fmt.Printf("Loaded %d articles\n", len(articles))
 
-	notionapi.DebugLog = true
-	seen := map[string]struct{}{}
-	firstPage := true
-	for len(toVisit) > 0 {
-		pageID := toVisit[0]
-		toVisit = toVisit[1:]
-		id := normalizeID(pageID)
-		if _, ok := seen[id]; ok {
-			continue
-		}
-		seen[id] = struct{}{}
+	for _, article := range articles {
+		id := normalizeID(article.ID)
 		name := id + ".html"
-		if firstPage {
+		if id == startPageID {
 			name = "index.html"
 		}
 		path := filepath.Join(destDir, name)
-		doc, err := toHTML(id, path)
-		if err != nil {
-			fmt.Printf("toHTML('%s') failed with %s\n", id, err)
-		}
-		if flgRecursive {
-			subPages := findSubPageIDs(doc.pageInfo.Page.Content)
-			toVisit = append(toVisit, subPages...)
-		}
-		firstPage = false
+		d := genHTML(article.pageInfo)
+		err := ioutil.WriteFile(path, d, 0644)
+		panicIfErr(err)
 	}
 	copyCSS()
 }

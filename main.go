@@ -5,13 +5,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"math/rand"
 	_ "net/url"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"runtime"
-	"time"
 
 	"github.com/fsnotify/fsnotify"
 )
@@ -165,9 +163,13 @@ func runCaddyAndWatch() {
 }
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
+
+	if false {
+		testNotionToHTML()
+		os.Exit(0)
+	}
 
 	if false {
 		_, err := loadPageAsArticle("fa3fc358e5644f39b89c57f13d426d54")
