@@ -324,7 +324,6 @@ func netlifyBuild() {
 			path := fmt.Sprintf("/blog/%s.html", article.ID)
 			logVerbose("%s, %s => %s, %s, %s\n", article.OrigID, article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
-			netlifyAddRewrite(article.URL(), path)
 		}
 	}
 

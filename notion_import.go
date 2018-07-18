@@ -261,7 +261,7 @@ func loadPageFromCache(pageID string) *notionapi.PageInfo {
 }
 
 func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
-	fmt.Printf("downloading page with id %s\n", pageID)
+	//fmt.Printf("downloading page with id %s\n", pageID)
 	cachedPath := filepath.Join(cacheDir, pageID+".json")
 	lf, _ := openLogFileForPageID(pageID)
 	if lf != nil {
