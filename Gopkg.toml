@@ -34,16 +34,8 @@
   name = "github.com/chilts/sid"
 
 [[constraint]]
-  name = "github.com/fsnotify/fsnotify"
-  version = "1.4.7"
-
-[[constraint]]
   branch = "master"
   name = "github.com/gomarkdown/markdown"
-
-[[constraint]]
-  name = "github.com/kennygrant/sanitize"
-  version = "1.2.3"
 
 [[constraint]]
   branch = "master"
@@ -82,20 +74,12 @@
   name = "github.com/sony/sonyflake"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/sourcegraph/syntaxhighlight"
-
-[[constraint]]
   name = "github.com/stretchr/testify"
   version = "1.2.1"
 
 [[constraint]]
   branch = "master"
   name = "github.com/thomas11/atomgenerator"
-
-[[constraint]]
-  name = "mvdan.cc/xurls"
-  version = "1.1.0"
 
 [prune]
   go-tests = true

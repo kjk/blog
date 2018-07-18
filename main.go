@@ -3,15 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"log"
 	_ "net/url"
 	"os"
 	"os/exec"
-	"path/filepath"
 	"runtime"
-
-	"github.com/fsnotify/fsnotify"
 )
 
 var (
@@ -61,82 +57,6 @@ func runCaddy() *exec.Cmd {
 	return cmd
 }
 
-func getDirsRecur(dir string) ([]string, error) {
-	toVisit := []string{dir}
-	idx := 0
-	for idx < len(toVisit) {
-		dir = toVisit[idx]
-		idx++
-		fileInfos, err := ioutil.ReadDir(dir)
-		if err != nil {
-			return nil, err
-		}
-		for _, fi := range fileInfos {
-			if !fi.IsDir() {
-				continue
-			}
-			path := filepath.Join(dir, fi.Name())
-			toVisit = append(toVisit, path)
-		}
-	}
-	return toVisit, nil
-}
-
-func rebuildOnChanges() {
-	dirs, err := getDirsRecur("www")
-	panicIfErr(err)
-	dirs2, err := getDirsRecur("books")
-	panicIfErr(err)
-	dirs3, err := getDirsRecur("articles")
-	panicIfErr(err)
-	dirs = append(dirs, dirs2...)
-	dirs = append(dirs, dirs3...)
-
-	watcher, err := fsnotify.NewWatcher()
-	panicIfErr(err)
-	defer watcher.Close()
-	done := make(chan bool)
-	go func() {
-		defer func() {
-			if r := recover(); r != nil {
-				fmt.Printf("Recovered in rebuildOnChanges(). Error: '%s'\n", r)
-				// TODO: why this doesn't seem to trigger done
-				done <- true
-			}
-		}()
-
-		for {
-			select {
-			case event := <-watcher.Events:
-				// filter out events that are just chmods
-				if event.Op&fsnotify.Chmod == fsnotify.Chmod {
-					continue
-				}
-				fmt.Println("event:", event)
-				if event.Op&fsnotify.Write == fsnotify.Write {
-					fmt.Println("modified file:", event.Name)
-				}
-				if isWhitelistedFromChanges(event.Name) {
-					fmt.Printf("no rebuild because file whitelisted\n")
-				} else {
-					// TODO: could also restart caddy to pick up redirects
-					rebuildAll()
-				}
-			case err := <-watcher.Errors:
-				fmt.Println("error:", err)
-			}
-		}
-	}()
-	for _, dir := range dirs {
-		fmt.Printf("Watching dir: '%s'\n", dir)
-		watcher.Add(dir)
-	}
-	// waiting forever
-	// TODO: pick up ctrl-c and cleanup and quit
-	<-done
-	fmt.Printf("exiting rebuildOnChanges()")
-}
-
 func openBrowser(url string) {
 	var err error
 
@@ -159,7 +79,6 @@ func openBrowser(url string) {
 func runCaddyAndWatch() {
 	runCaddy()
 	openBrowser("http://localhost:8080")
-	rebuildOnChanges()
 }
 
 func main() {
