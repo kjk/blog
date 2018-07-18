@@ -13,9 +13,6 @@ var (
 	tmplMainPage         = "mainpage.tmpl.html"
 	tmplArticle          = "article.tmpl.html"
 	tmplArchive          = "archive.tmpl.html"
-	tmplNotesWeek        = "notes_week.tmpl.html"
-	tmplNotesTag         = "notes_tag.tmpl.html"
-	tmplNotesNote        = "notes_note.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
 	tmplDocuments        = "documents.tmpl.html"
 	tmplGoCookBook       = "go-cookbook.tmpl.html"
@@ -24,9 +21,6 @@ var (
 		tmplMainPage,
 		tmplArticle,
 		tmplArchive,
-		tmplNotesWeek,
-		tmplNotesTag,
-		tmplNotesNote,
 		tmplGenerateUniqueID,
 		tmplDocuments,
 		tmplGoCookBook,

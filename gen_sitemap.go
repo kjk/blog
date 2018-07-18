@@ -62,15 +62,6 @@ func genSiteMap(host string) ([]byte, error) {
 		urls = append(urls, uri)
 	}
 
-	for _, note := range notesAllNotes {
-		pageURL := path.Join(host, note.URL)
-		uri := SiteMapURL{
-			URL:          pageURL,
-			LastModified: note.Day.Format("2006-01-02"),
-		}
-		urls = append(urls, uri)
-	}
-
 	urlset.URLS = urls
 
 	xmlData, err := xml.MarshalIndent(urlset, "", "")

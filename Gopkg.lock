@@ -96,14 +96,6 @@
   revision = "87d7df2d203e25ed3d4dcdf939238905a6c81509"
 
 [[projects]]
-  digest = "1:6ebdc68ef7cd81000d0f0713a09ffb50429b34e69f202b5176838f4be5cf5b5c"
-  name = "github.com/kennygrant/sanitize"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "2e6820834a1f36c626bf19a253b7d3cc060e9b8b"
-  version = "v1.2.3"
-
-[[projects]]
   branch = "master"
   digest = "1:238f1d1a060189e5e6b4065a1a785cedf7c5b8e2fdc2f8b10aa3b68c79cb7995"
   name = "github.com/kjk/betterguid"
@@ -192,22 +184,6 @@
   revision = "fa881fb1052b152e977c41023052c2f2a1c475e9"
 
 [[projects]]
-  branch = "master"
-  digest = "1:7d1a56d6e478d101047b32fe6ea432966db16867a3984b53bef75e3c160087b1"
-  name = "github.com/sourcegraph/annotate"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "f4cad6c6324d3f584e1743d8b3e0e017a5f3a636"
-
-[[projects]]
-  branch = "master"
-  digest = "1:9df4f012b99e1ea84cd1c3c29874cfb541b9726be43c62f05feef3a85e300688"
-  name = "github.com/sourcegraph/syntaxhighlight"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "bd320f5d308e1a3c4314c678d8227a0d72574ae7"
-
-[[projects]]
   digest = "1:18752d0b95816a1b777505a97f71c7467a8445b8ffb55631a7bf779f6ba4fa83"
   name = "github.com/stretchr/testify"
   packages = ["assert"]
@@ -253,14 +229,6 @@
   pruneopts = "UT"
   revision = "ac767d655b305d4e9612f5f6e33120b9176c4ad4"
 
-[[projects]]
-  digest = "1:a7c01f7cf3aa0cfb633ed91d781fca7bf6a9c95d9ccec4d2ec3fb7deee872967"
-  name = "mvdan.cc/xurls"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "d315b61cf6727664f310fa87b3197e9faf2a8513"
-  version = "v1.1.0"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
@@ -275,7 +243,6 @@
     "github.com/gomarkdown/markdown/ast",
     "github.com/gomarkdown/markdown/html",
     "github.com/gomarkdown/markdown/parser",
-    "github.com/kennygrant/sanitize",
     "github.com/kjk/betterguid",
     "github.com/kjk/notionapi",
     "github.com/kjk/u",
@@ -286,11 +253,9 @@
     "github.com/satori/go.uuid",
     "github.com/segmentio/ksuid",
     "github.com/sony/sonyflake",
-    "github.com/sourcegraph/syntaxhighlight",
     "github.com/stretchr/testify/assert",
     "github.com/thomas11/atomgenerator",
     "github.com/yosssi/gohtml",
-    "mvdan.cc/xurls",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

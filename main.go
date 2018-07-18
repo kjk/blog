@@ -22,13 +22,11 @@ var (
 	showDrafts    bool
 
 	flgRedownloadNotion bool
-	flgWatch            bool
 	flgVerbose          bool
 	inProduction        bool
 )
 
 func parseCmdLineFlags() {
-	flag.BoolVar(&flgWatch, "watch", false, "if true, runs caddy for preview and re-builds on changes")
 	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
 	flag.Parse()
@@ -45,12 +43,9 @@ func loadArticlesAndNotes() {
 	s, err := NewArticlesStore()
 	panicIfErr(err)
 	store = s
-	notesPath := filepath.Join("articles", "notes.txt")
-	err = readNotes(notesPath)
 }
 
 func rebuildAll() {
-	notesGenIDIfNecessary()
 	regenMd()
 	loadTemplates()
 	loadArticlesAndNotes()
@@ -185,12 +180,5 @@ func main() {
 	}
 
 	inProduction = true
-	if flgWatch {
-		showDrafts = true
-		inProduction = false
-	}
 	rebuildAll()
-	if flgWatch {
-		runCaddyAndWatch()
-	}
 }

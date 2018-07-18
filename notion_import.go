@@ -221,8 +221,6 @@ func genHTML(pageInfo *notionapi.PageInfo) []byte {
   <li><span style="color:#aaa">&bull;</span></li>
   <li><a href="/documents.html">Documents</a></li>
   <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/dailynotes">Daily Notes</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
   <li><a href="/resume.html">Résumé</a></li>
 </ul>
 </div>
@@ -363,8 +361,6 @@ func genIndexHTML(docs []*Article) []byte {
   <li><a href="/archives.html">Articles</a></li>
   <li><span style="color:#aaa">&bull;</span></li>
   <li><a href="/documents.html">Documents</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/dailynotes">Daily Notes</a></li>
   <li><span style="color:#aaa">&bull;</span></li>
   <li><a href="/resume.html">Résumé</a></li>
 </ul>
