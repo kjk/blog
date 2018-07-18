@@ -84,7 +84,7 @@ func main() {
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
 
-	if true {
+	if false {
 		testOneNotionPage()
 		os.Exit(0)
 	}
