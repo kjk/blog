@@ -391,9 +391,6 @@ func isNormal(a *Article) bool {
 	if a.Status == statusNormal {
 		return true
 	}
-	if a.Status == statusDraft {
-		return showDrafts
-	}
 	return false
 }
 

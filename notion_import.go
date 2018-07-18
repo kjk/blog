@@ -358,8 +358,9 @@ func createNotionDirs() {
 
 // downloads and html
 func testOneNotionPage() {
-	id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
-	//id = "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle
+	//id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
+	//id := "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle, devlog 2018
+	id := "484919a1647144c29234447ce408ff6b" // test toggle
 	createNotionDirs()
 	id = normalizeID(id)
 	article, err := loadPageAsArticle(id)
