@@ -126,7 +126,7 @@ func notionRedownload() {
 		}
 	}
 
-	if false {
+	if true {
 		articles := loadNotionPages(notionGoCookbookStartPage)
 		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
 		for k, v := range articles {

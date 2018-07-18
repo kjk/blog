@@ -304,7 +304,6 @@ func readArticle(path string) (*Article, error) {
 
 func readArticles() ([]*Article, []string, error) {
 	dirsToScan := []string{
-		filepath.Join("books", "go-cookbook"),
 		filepath.Join("books", "windows-programming-in-go"),
 	}
 	var allArticles []*Article
