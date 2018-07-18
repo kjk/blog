@@ -661,12 +661,7 @@ func netlifyAddArticleRedirects() {
 	}
 
 	// redirect /article/:id/* => /article/:id/pretty-title
-	articles := store.GetArticles(articlesWithHidden)
-	for _, article := range articles {
-		from := fmt.Sprintf("/article/%s/*", article.ID)
-		path := fmt.Sprintf("/blog/%s.html", article.ID)
-		netlifyAddRewrite(from, path)
-	}
+	netlifyAddRewrite("/article/:id/*", "/blog/:id.html")
 }
 
 func netlifyWriteRedirects() {
