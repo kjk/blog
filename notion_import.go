@@ -269,12 +269,6 @@ func copyCSS() {
 	panicIfErr(err)
 }
 
-func loadOne(id string) {
-	id = normalizeID(id)
-	_, err := loadPageAsArticle(id)
-	panicIfErr(err)
-}
-
 func genIndexHTML(docs []*Article) []byte {
 	lines := []string{}
 	for _, doc := range docs {
@@ -355,11 +349,29 @@ func genNotionBasic(pages map[string]*Article) {
 	}
 }
 
-func testNotionToHTML() {
+func createNotionDirs() {
 	os.MkdirAll(notionLogDir, 0755)
 	os.MkdirAll(cacheDir, 0755)
 	os.MkdirAll(destDir, 0755)
+	copyCSS()
+}
 
+// downloads and html
+func testOneNotionPage() {
+	id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
+	//id = "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle
+	createNotionDirs()
+	id = normalizeID(id)
+	article, err := loadPageAsArticle(id)
+	panicIfErr(err)
+	path := filepath.Join(destDir, "index.html")
+	d := genHTML(article.pageInfo)
+	err = ioutil.WriteFile(path, d, 0644)
+	panicIfErr(err)
+}
+
+func testNotionToHTML() {
+	createNotionDirs()
 	//notionapi.DebugLog = true
 	startPageID := normalizeID(notionWebsiteStartPage)
 	articles := loadNotionPages(startPageID)
@@ -376,5 +388,4 @@ func testNotionToHTML() {
 		err := ioutil.WriteFile(path, d, 0644)
 		panicIfErr(err)
 	}
-	copyCSS()
 }

@@ -81,6 +81,16 @@ hr {
   margin-left: 4em;
 }
 
+.column-list {
+  display: flex;
+  width: 100%;
+}
+
+/* size all columns equally */
+.column-list > div {
+  flex: 1
+}
+
 .title,
 .title:visited {
   color: #000;

@@ -73,7 +73,6 @@ func openBrowser(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
 
 func runCaddyAndWatch() {
@@ -84,6 +83,11 @@ func runCaddyAndWatch() {
 func main() {
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
+
+	if true {
+		testOneNotionPage()
+		os.Exit(0)
+	}
 
 	if false {
 		testNotionToHTML()

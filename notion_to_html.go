@@ -90,6 +90,27 @@ func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close s
 	io.WriteString(g.f, close+"\n")
 }
 
+// Children of BlockColumnList are BlockColumn blocks
+func (g *HTMLGenerator) genColumnList(block *notionapi.Block) {
+	panicIf(block.Type != notionapi.BlockColumnList, "unexpected block type '%s'", block.Type)
+	nColumns := len(block.Content)
+	panicIf(nColumns == 0, "has no columns")
+	// TODO: for now equal width columns
+	s := `<div class="column-list">`
+	io.WriteString(g.f, s)
+
+	for _, col := range block.Content {
+		// TODO: get column ration from col.FormatColumn.ColumnRation, which is float 0...1
+		panicIf(col.Type != notionapi.BlockColumn, "unexpected block type '%s'", col.Type)
+		io.WriteString(g.f, `<div>`)
+		g.genBlocks(col.Content)
+		io.WriteString(g.f, `</div>`)
+	}
+
+	s = `</div>`
+	io.WriteString(g.f, s)
+}
+
 func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	levelCls := ""
 	if g.level > 0 {
@@ -154,6 +175,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		link := block.ImageURL
 		fmt.Fprintf(g.f, `<img class="%s" src="%s" />`+"\n", levelCls, link)
 	case notionapi.BlockColumnList:
+		g.genColumnList(block)
 		// TODO: implement me
 	case notionapi.BlockCollectionView:
 		// TODO: implement me
