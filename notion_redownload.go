@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 
 	"github.com/kjk/notionapi"
 )
@@ -19,12 +20,33 @@ var (
 )
 
 func findSubPageIDs(blocks []*notionapi.Block) []string {
-	var res []string
-	for _, block := range blocks {
+	pageIDs := map[string]struct{}{}
+	seen := map[string]struct{}{}
+	toVisit := blocks
+	for len(toVisit) > 0 {
+		block := toVisit[0]
+		toVisit = toVisit[1:]
+		id := normalizeID(block.ID)
 		if block.Type == notionapi.BlockPage {
-			res = append(res, block.ID)
+			pageIDs[id] = struct{}{}
+			seen[id] = struct{}{}
+		}
+		for _, b := range block.Content {
+			if b == nil {
+				continue
+			}
+			id := normalizeID(block.ID)
+			if _, ok := seen[id]; ok {
+				continue
+			}
+			toVisit = append(toVisit, b)
 		}
 	}
+	res := []string{}
+	for id := range pageIDs {
+		res = append(res, id)
+	}
+	sort.Strings(res)
 	return res
 }
 

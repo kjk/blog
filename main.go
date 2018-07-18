@@ -169,6 +169,14 @@ func main() {
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
 
+	if false {
+		_, err := loadPageAsArticle("fa3fc358e5644f39b89c57f13d426d54")
+		if err != nil {
+			fmt.Printf("loadPageAsArticle() failed with '%s'\n", err)
+		}
+		os.Exit(0)
+	}
+
 	if flgRedownloadNotion {
 		notionRedownload()
 		return
