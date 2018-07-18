@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"html/template"
 	"io"
@@ -32,7 +31,7 @@ func normalizeID(s string) string {
 
 func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 	name := fmt.Sprintf("%s.go.log.txt", pageID)
-	path := filepath.Join("log", name)
+	path := filepath.Join(notionLogDir, name)
 	f, err := os.Create(path)
 	if err != nil {
 		fmt.Printf("os.Create('%s') failed with %s\n", path, err)
@@ -57,6 +56,7 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 	nBlock := 0
 	var publishedOn time.Time
 	var err error
+	endLoop := false
 	for len(blocks) > 0 {
 		block := blocks[0]
 		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
@@ -81,13 +81,11 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 			break
 		}
 
-		blocks = blocks[1:]
-
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
 			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
-			blocks = blocks[1:]
+			blocks = blocks[2:]
 			break
 		}
 		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
@@ -127,9 +125,19 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 		case "collection":
 			setCollectionMust(res, val)
 		default:
-			rmCached(pageInfo.ID)
-			panicMsg("Unsupported meta '%s' in notion page with id '%s'", key, pageInfo.ID)
+			// assume that unrecognized meta means this article doesn't have
+			// proper meta tags. It might miss meta-tags that are badly named
+			endLoop = true
+			/*
+				rmCached(pageInfo.ID)
+				title := pageInfo.Page.Title
+				panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(pageInfo.ID), title)
+			*/
 		}
+		if endLoop {
+			break
+		}
+		blocks = blocks[1:]
 		nBlock++
 	}
 	pageInfo.Page.Content = blocks
@@ -193,7 +201,7 @@ func rmFile(path string) {
 
 func rmCached(pageID string) {
 	id := normalizeID(pageID)
-	rmFile(filepath.Join("log", id+".go.log.txt"))
+	rmFile(filepath.Join(notionLogDir, id+".go.log.txt"))
 	rmFile(filepath.Join(cacheDir, id+".json"))
 }
 
@@ -243,74 +251,15 @@ func genHTML(pageInfo *notionapi.PageInfo) []byte {
 	return d
 }
 
-func loadPageFromCache(pageID string) *notionapi.PageInfo {
-	var pageInfo notionapi.PageInfo
-	cachedPath := filepath.Join(cacheDir, pageID+".json")
-	if useCache {
-		d, err := ioutil.ReadFile(cachedPath)
-		if err == nil {
-			err = json.Unmarshal(d, &pageInfo)
-			panicIfErr(err)
-			//fmt.Printf("Got data for pageID %s from cache file %s\n", pageID, cachedPath)
-			return &pageInfo
-		}
-	}
-	return nil
-}
-
-func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
-	//fmt.Printf("downloading page with id %s\n", pageID)
-	cachedPath := filepath.Join(cacheDir, pageID+".json")
-	lf, _ := openLogFileForPageID(pageID)
-	if lf != nil {
-		defer lf.Close()
-	}
-	res, err := notionapi.GetPageInfo(pageID)
-	if err != nil {
-		return nil, err
-	}
-	d, err := json.MarshalIndent(res, "", "  ")
-	if err == nil {
-		err = ioutil.WriteFile(cachedPath, d, 0644)
-		panicIfErr(err)
-	} else {
-		// not a fatal error, just a warning
-		fmt.Printf("json.Marshal() on pageID '%s' failed with %s\n", pageID, err)
-	}
-	return res, nil
-}
-
-func loadPage(pageID string) (*Article, error) {
-	var err error
-	pageInfo := loadPageFromCache(pageID)
-	if pageInfo == nil {
-		pageInfo, err = downloadAndCachePage(pageID)
-		if err != nil {
-			return nil, err
-		}
-	}
-	return articleFromPage(pageInfo), nil
-}
-
 func toHTML(pageID, path string) (*Article, error) {
 	fmt.Printf("toHTML: pageID=%s, path=%s\n", pageID, path)
-	doc, err := loadPage(pageID)
+	article, err := loadPageAsArticle(pageID)
 	if err != nil {
 		return nil, err
 	}
-	d := genHTML(doc.pageInfo)
+	d := genHTML(article.pageInfo)
 	err = ioutil.WriteFile(path, d, 0644)
-	return doc, err
-}
-
-func findSubPageIDs(blocks []*notionapi.Block) []string {
-	var res []string
-	for _, block := range blocks {
-		if block.Type == notionapi.BlockPage {
-			res = append(res, block.ID)
-		}
-	}
-	return res
+	return article, err
 }
 
 func copyCSS() {
@@ -322,7 +271,7 @@ func copyCSS() {
 
 func loadOne(id string) {
 	id = normalizeID(id)
-	_, err := loadPage(id)
+	_, err := loadPageAsArticle(id)
 	panicIfErr(err)
 }
 
@@ -407,13 +356,13 @@ func genNotionBasic(pages map[string]*Article) {
 }
 
 func importNotion() {
-	os.MkdirAll("log", 0755)
+	os.MkdirAll(notionLogDir, 0755)
 	os.MkdirAll(cacheDir, 0755)
 	os.MkdirAll(destDir, 0755)
 
 	if false {
 		//loadOne("431295a5-4f7e-4208-869f-4763862c1f05")
-		docs := loadNotionBlogPosts()
+		docs := loadNotionPages(notionBlogsStartPage)
 		genNotionBasic(docs)
 		return
 	}

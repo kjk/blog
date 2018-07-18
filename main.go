@@ -165,11 +165,6 @@ func runCaddyAndWatch() {
 }
 
 func main() {
-	if false {
-		importNotion()
-		os.Exit(0)
-	}
-
 	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
