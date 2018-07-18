@@ -172,7 +172,7 @@ func netlifyWriteArticlesArchiveForTag(tag string) {
 			tagInPath = "cplusplus"
 		}
 		tagInPath = urlify(tagInPath)
-		path = fmt.Sprintf("/blog/archives-by-tag-%s.html", tagInPath)
+		path = fmt.Sprintf("/article/archives-by-tag-%s.html", tagInPath)
 		from := "/tag/" + tag
 		netlifyAddRewrite(from, path)
 	}
@@ -321,7 +321,7 @@ func netlifyBuild() {
 				model.GitHubEditURL = "https://github.com/kjk/blog/edit/master/" + article.OrigPath
 			}
 
-			path := fmt.Sprintf("/blog/%s.html", article.ID)
+			path := fmt.Sprintf("/article/%s.html", article.ID)
 			logVerbose("%s, %s => %s, %s, %s\n", article.OrigID, article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
 		}

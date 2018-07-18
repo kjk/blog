@@ -663,7 +663,7 @@ func netlifyAddArticleRedirects() {
 }
 
 // redirect /article/:id/* => /article/:id/pretty-title
-const netlifyRedirectsProlog = `/article/:id/*	/blog/:id.html	200
+const netlifyRedirectsProlog = `/article/:id/*	/article/:id.html	200
 `
 
 func netlifyWriteRedirects() {
@@ -684,7 +684,7 @@ log stdout
 
 rewrite / {
 	r  ^/article/(.*)/.*$
-	to /blog/{1}.html
+	to /article/{1}.html
 }
 
 `
