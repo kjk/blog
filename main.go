@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
+	"time"
 )
 
 var (
@@ -49,13 +50,11 @@ func rebuildAll() {
 }
 
 // caddy -log stdout
-func startCaddy() *exec.Cmd {
+func runCaddy() {
 	cmd := exec.Command("caddy", "-log", "stdout")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
-	err := cmd.Start()
-	panicIfErr(err)
-	return cmd
+	cmd.Run()
 }
 
 func stopCaddy(cmd *exec.Cmd) {
@@ -81,10 +80,11 @@ func openBrowser(url string) {
 }
 
 func preview() {
-	cmd := startCaddy()
-	defer stopCaddy(cmd)
-	openBrowser("http://localhost:8080")
-	// TODO: install os.Signal handler and wait for ctrl-c
+	go func() {
+		time.Sleep(time.Second * 3)
+		openBrowser("http://localhost:8080")
+	}()
+	runCaddy()
 }
 
 func main() {

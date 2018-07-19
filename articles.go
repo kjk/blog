@@ -1,13 +1,10 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
 	"fmt"
 	"html/template"
-	"io/ioutil"
 	"log"
-	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
@@ -17,7 +14,6 @@ import (
 
 	"github.com/kjk/notionapi"
 	"github.com/kjk/u"
-	"github.com/kr/fs"
 )
 
 // for Article.Status
@@ -171,9 +167,6 @@ func setCollectionMust(article *Article, val string) {
 	case "go-cookbook":
 		collectionURL = "/book/go-cookbook.html"
 		val = "Go Cookbook"
-	case "go-windows":
-		collectionURL = "/book/windows-programming-in-go.html"
-		val = "Windows Programming In Go"
 	}
 	panicIf(collectionURL == "", "'%s' is now a known collection", val)
 	article.Collection = val
@@ -202,167 +195,9 @@ func articleSetID(a *Article, v string) {
 	}
 }
 
-// might return nil if article is meant to be skipped (deleted or draft)
-func readArticle(path string) (*Article, error) {
-	f, err := os.Open(path)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-
-	a := &Article{}
-	r := bufio.NewReader(f)
-	var publishedOn time.Time
-	atBeginning := true
-	for {
-		l, err := r.ReadString('\n')
-		if err != nil {
-			return nil, err
-		}
-		l = strings.TrimSpace(l)
-		if isSepLine(l) {
-			if atBeginning {
-				continue
-			}
-			break
-		}
-		atBeginning = false
-		parts := strings.SplitN(l, ":", 2)
-		if len(parts) != 2 {
-			return nil, fmt.Errorf("Unexpected line: %q", l)
-		}
-		k := strings.ToLower(parts[0])
-		v := strings.TrimSpace(parts[1])
-		switch k {
-		case "status":
-			a.Status, err = parseStatus(v)
-			if err != nil {
-				return nil, err
-			}
-		case "id":
-			articleSetID(a, v)
-			a.OrigPath = path
-		case "title":
-			a.Title = v
-		case "tags":
-			a.Tags = parseTags(v)
-		case "publishedon":
-			publishedOn, err = parseDate(v)
-			if err != nil {
-				return nil, fmt.Errorf("%q is not a valid PublishedOn date", v)
-			}
-		case "date", "createdat":
-			a.PublishedOn, err = parseDate(v)
-			if err != nil {
-				return nil, fmt.Errorf("%q is not a valid date", v)
-			}
-		case "updatedat":
-			a.UpdatedOn, err = parseDate(v)
-		case "headerimage":
-			setHeaderImageMust(a, v)
-		case "collection":
-			setCollectionMust(a, v)
-		case "description":
-			a.Description = v
-		case "format":
-			v := strings.TrimSpace(strings.ToLower(v))
-			switch v {
-			case "markdown", "md":
-				// do nothing
-			default:
-				return nil, fmt.Errorf("Unknown format '%s'", v)
-			}
-		default:
-			return nil, fmt.Errorf("Unexpected key: %q", k)
-		}
-	}
-
-	// if deleted, act as doesn't exist
-	if a.Status == statusDeleted {
-		return nil, nil
-	}
-
-	// PublishedOn over-writes Date and CreatedAt
-	if !publishedOn.IsZero() {
-		a.PublishedOn = publishedOn
-	}
-
-	if a.UpdatedOn.IsZero() {
-		a.UpdatedOn = a.PublishedOn
-	}
-
-	d, err := ioutil.ReadAll(r)
-	if err != nil {
-		return nil, err
-	}
-
-	a.Body = d
-	a.BodyHTML = markdownToHTML(a.Body, "")
-	a.HTMLBody = template.HTML(a.BodyHTML)
-	return a, nil
-}
-
-func readArticles() ([]*Article, []string, error) {
-	dirsToScan := []string{
-		filepath.Join("books", "windows-programming-in-go"),
-	}
-	var allArticles []*Article
-	var allDirs []string
-	timeStart := time.Now()
-	for _, dir := range dirsToScan {
-		articles, dirs, err := readArticlesFromDir(dir)
-		if err != nil {
-			return nil, nil, err
-		}
-		allArticles = append(allArticles, articles...)
-		allDirs = append(allDirs, dirs...)
-	}
-	fmt.Printf("read %d articles in %s\n", len(allArticles), time.Since(timeStart))
-	return allArticles, allDirs, nil
-}
-
-func readArticlesFromDir(dir string) ([]*Article, []string, error) {
-	walker := fs.Walk(dir)
-	var res []*Article
-	var dirs []string
-	for walker.Step() {
-		if walker.Err() != nil {
-			fmt.Printf("readArticles: walker.Step() failed with %s\n", walker.Err())
-			return nil, nil, walker.Err()
-		}
-		st := walker.Stat()
-		path := walker.Path()
-		if st.IsDir() {
-			dirs = append(dirs, path)
-			continue
-		}
-		name := filepath.Base(path)
-		if name == "notes.txt" {
-			continue
-		}
-
-		a, err := readArticle(path)
-		if err != nil {
-			fmt.Printf("readArticle() of %s failed with %s\n", path, err)
-			return nil, nil, err
-		}
-		if a != nil {
-			res = append(res, a)
-		}
-	}
-	return res, dirs, nil
-}
-
 // NewArticlesStore returns a store of articles
 func NewArticlesStore() (*ArticlesStore, error) {
-	articles, _, err := readArticles()
-	if err != nil {
-		return nil, err
-	}
-	articles2 := loadArticlesFromNotion()
-	if len(articles2) > 0 {
-		articles = append(articles, articles2...)
-	}
+	articles := loadArticlesFromNotion()
 	sort.Slice(articles, func(i, j int) bool {
 		return articles[i].PublishedOn.After(articles[j].PublishedOn)
 	})
