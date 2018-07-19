@@ -1,12 +1,10 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"html/template"
 	"log"
 	"path/filepath"
-	"regexp"
 	"sort"
 	"strconv"
 	"strings"
@@ -90,10 +88,6 @@ type ArticlesStore struct {
 	idToArticle map[string]*Article
 }
 
-func isSepLine(s string) bool {
-	return strings.HasPrefix(s, "---")
-}
-
 func parseTags(s string) []string {
 	tags := strings.Split(s, ",")
 	var res []string
@@ -120,20 +114,6 @@ func parseDate(s string) (time.Time, error) {
 	}
 	// TODO: more formats?
 	return time.Now(), err
-}
-
-func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
-	eolIdx := bytes.IndexByte(d, '\n')
-	if eolIdx == -1 || eolIdx < len(prefix) {
-		return d, ""
-	}
-	maybePrefix := strings.ToLower(string(d[:len(prefix)]))
-	if maybePrefix != prefix {
-		return d, ""
-	}
-	val := d[len(prefix):eolIdx]
-	d = d[eolIdx+1:]
-	return d, strings.TrimSpace(string(val))
 }
 
 func parseStatus(status string) (int, error) {
@@ -256,59 +236,6 @@ func (s *ArticlesStore) GetArticles(typ int) []*Article {
 // GetArticleByID returns an article given its id
 func (s *ArticlesStore) GetArticleByID(id string) *Article {
 	return s.idToArticle[id]
-}
-
-// TODO: this is simplistic but works for me, http://net.tutsplus.com/tutorials/other/8-regular-expressions-you-should-know/
-// has more elaborate regex for extracting urls
-var urlRx = regexp.MustCompile(`https?://[[:^space:]]+`)
-var notURLEndChars = []byte(".),")
-
-func notURLEndChar(c byte) bool {
-	return -1 != bytes.IndexByte(notURLEndChars, c)
-}
-
-var disableUrlization = false
-
-func strToHTML(s string) string {
-	matches := urlRx.FindAllStringIndex(s, -1)
-	if nil == matches || disableUrlization {
-		s = template.HTMLEscapeString(s)
-		s = strings.Replace(s, "\n", "<br>", -1)
-		return "<p>" + s + "</p>"
-	}
-
-	urlMap := make(map[string]string)
-	ns := ""
-	prevEnd := 0
-	for n, match := range matches {
-		start, end := match[0], match[1]
-		for end > start && notURLEndChar(s[end-1]) {
-			end--
-		}
-		url := s[start:end]
-		ns += s[prevEnd:start]
-
-		// placeHolder is meant to be an unlikely string that doesn't exist in
-		// the message, so that we can replace the string with it and then
-		// revert the replacement. A more robust approach would be to remember
-		// offsets
-		placeHolder, ok := urlMap[url]
-		if !ok {
-			placeHolder = fmt.Sprintf("a;dfsl;a__lkasjdfh1234098;lajksdf_%d", n)
-			urlMap[url] = placeHolder
-		}
-		ns += placeHolder
-		prevEnd = end
-	}
-	ns += s[prevEnd:len(s)]
-
-	ns = template.HTMLEscapeString(ns)
-	for url, placeHolder := range urlMap {
-		url = fmt.Sprintf(`<a href="%s" rel="nofollow">%s</a>`, url, url)
-		ns = strings.Replace(ns, placeHolder, url, -1)
-	}
-	ns = strings.Replace(ns, "\n", "<br>", -1)
-	return "<p>" + ns + "</p>"
 }
 
 // MonthArticle combines article and a month
