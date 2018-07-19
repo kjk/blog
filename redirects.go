@@ -705,9 +705,18 @@ func genCaddyRedir(r *netlifyRedirect) string {
 		if strings.HasSuffix(r.from, "*") {
 			base := strings.TrimSuffix(r.from, "*")
 			to := strings.Replace(r.to, ":splat", "{1}", -1)
-			return fmt.Sprintf("rewrite \"%s\" {\n    regexp (.*)\n    to %s\n}\n", base, to)
+			return fmt.Sprintf(`
+rewrite "%s" {
+    regexp (.*)
+    to %s
+}
+`, base, to)
 		}
-		return fmt.Sprintf("rewrite \"%s\" \"%s\"\n", r.from, r.to)
+		return fmt.Sprintf(`
+rewrite "^%s$" {
+    to %s
+}
+`, r.from, r.to)
 	}
 
 	return fmt.Sprintf("redir \"%s\" \"%s\" %d\n", r.from, r.to, r.code)

@@ -17,11 +17,14 @@
     <div id="content" style="clear:both; ">
         <div class="mainpage-wrap">
             <div class="headline">
-                Hello. I'm <a href="/resume.html">Chris</a>. I live in San Francisco.
+                Hello. I'm
+                <a href="/resume.html">Chris</a>. I live in San Francisco.
             </div>
 
             <div class="headline underline">
-                I maintain free Go book <a href="https://www.programming-books.io/essential/go/">Essential Go</a> and <a href="/software">few other things</a>.
+                I maintain free Go book
+                <a href="https://www.programming-books.io/essential/go/">Essential Go</a> and
+                <a href="/software">few other things</a>.
             </div>
 
         </div>
@@ -32,21 +35,27 @@
                     <a href="/atom.xml">RSS/Atom feed</a>
                 </div>
 
+                <div>Recent articles:</div>
                 {{range .Articles}}
-                <div>
+                <div style="margin-left: 1em;">
                     <a href="{{.URL}}">{{.Title}}</a>
                     {{if .TagsDisplay}}
-                        <span style="font-size:80%">
-                            <span class="taglink">in:</span> {{.TagsDisplay}}
-                        </span>
+                    <span style="font-size:80%">
+                        <span class="taglink">in:</span> {{.TagsDisplay}}
+                    </span>
                     {{end}}
                 </div>
                 {{end}}
+                <div>
+                    <a href="/archives.html">See all...</a>
+                </div>
 
-                <p>
-                    Subscribe to <a href="/atom.xml">RSS/Atom feed</a>.
-                </p>
+                <hr>
 
+                <div>My external brain:</div>
+                <div>
+                    {{.WebsiteHTML}}
+                </div>
             </div>
         </div>
     </div>

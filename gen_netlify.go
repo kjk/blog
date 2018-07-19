@@ -155,7 +155,7 @@ func buildTags(articles []*Article) []*TagInfo {
 
 func netlifyWriteArticlesArchiveForTag(tag string) {
 	path := "/archives.html"
-	articles := GetArticles(articlesWithLessVisible)
+	articles := blogArticles
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 		// must manually resolve conflict due to urlify
@@ -239,6 +239,31 @@ func netlifyBuild() {
 	{
 		// /
 		articles := blogArticles
+		if len(articles) > 5 {
+			articles = articles[:5]
+		}
+		articleCount := len(articles)
+		websiteIndexPage := notionIDToArticle[notionWebsiteStartPage]
+		model := struct {
+			AnalyticsCode string
+			Article       *Article
+			Articles      []*Article
+			ArticleCount  int
+			WebsiteHTML   template.HTML
+		}{
+			AnalyticsCode: analyticsCode,
+			Article:       nil, // always nil
+			ArticleCount:  articleCount,
+			Articles:      articles,
+			WebsiteHTML:   websiteIndexPage.HTMLBody,
+		}
+		netlifyExecTemplate("/index.html", tmplMainPage, model)
+	}
+
+	// TODO: maybe just use /archive.html
+	{
+		// /blogindex.html
+		articles := blogArticles
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -251,7 +276,7 @@ func netlifyBuild() {
 			ArticleCount:  articleCount,
 			Articles:      articles,
 		}
-		netlifyExecTemplate("/index.html", tmplMainPage, model)
+		netlifyExecTemplate("/blogindex.html", tmplBlogIndex, model)
 	}
 
 	{
@@ -312,16 +337,14 @@ func netlifyBuild() {
 	{
 		// /archives.html
 		netlifyWriteArticlesArchiveForTag("")
-		seenTags := make(map[string]bool)
-		articles := GetArticles(articlesWithLessVisible)
-		for _, article := range articles {
+		tags := map[string]struct{}{}
+		for _, article := range blogArticles {
 			for _, tag := range article.Tags {
-				if !seenTags[tag] {
-					netlifyWriteArticlesArchiveForTag(tag)
-					seenTags[tag] = true
-					continue
-				}
+				tags[tag] = struct{}{}
 			}
+		}
+		for tag := range tags {
+			netlifyWriteArticlesArchiveForTag(tag)
 		}
 	}
 

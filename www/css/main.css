@@ -88,7 +88,7 @@ hr {
 
 /* size all columns equally */
 .column-list > div {
-  flex: 1
+  flex: 1;
 }
 
 .title,
@@ -172,6 +172,14 @@ See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
 
 .visible {
   color: #000;
+}
+
+.toggler {
+  cursor: pointer;
+}
+
+.toggler:hover {
+  background-color: lightgray;
 }
 
 .nowrap {

@@ -229,6 +229,7 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
+		// TODO: use pageInfo.Page.CreatedTime if publishedOn.IsZero()
 		article.PublishedOn = publishedOn
 	}
 

@@ -30,6 +30,7 @@ func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
 
 // Gen returns generated HTML
 func (g *HTMLGenerator) Gen() []byte {
+	g.writeString(`<p></p>`)
 	g.genContent(g.pageInfo.Page)
 	return g.f.Bytes()
 }
@@ -162,7 +163,7 @@ func (g *HTMLGenerator) genToggle(block *notionapi.Block) {
                 <div style="display: flex; flex-direction: column;">
                     <div style="width: 100%%; margin-top: 2px; margin-bottom: 0px;">
                         <div style="color: rgb(66, 66, 65);">
-							<div style="display: flex; margin-bottom: -1em;">
+							<div style="">
 								%s
                                 <!-- <div style="padding: 3px 2px;">text inside list</div> -->
                             </div>
@@ -223,7 +224,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 			cls = "page-link"
 		}
 		title := template.HTMLEscapeString(block.Title)
-		url := normalizeID(id) + ".html"
+		url := "/article/" + normalizeID(id) + "/" + urlify(title)
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.BlockCode:

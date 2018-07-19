@@ -11,6 +11,7 @@ import (
 
 var (
 	tmplMainPage         = "mainpage.tmpl.html"
+	tmplBlogIndex        = "blog_index.tmpl.html"
 	tmplArticle          = "article.tmpl.html"
 	tmplArchive          = "archive.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
@@ -19,6 +20,7 @@ var (
 	tmpl404              = "404.tmpl.html"
 	templateNames        = []string{
 		tmplMainPage,
+		tmplBlogIndex,
 		tmplArticle,
 		tmplArchive,
 		tmplGenerateUniqueID,

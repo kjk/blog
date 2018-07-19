@@ -182,10 +182,19 @@ func loadAllArticles() {
 		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
 	}
 
-	if false {
+	{
 		articles := loadNotionPages(notionWebsiteStartPage)
-		fmt.Printf("Loaded %d articles\n", len(articles))
+		fmt.Printf("Loaded %d website articles\n", len(articles))
 	}
+
+	for _, a := range notionIDToArticle {
+		if a.IsBlog() {
+			blogArticles = append(blogArticles, a)
+		}
+	}
+	sort.Slice(blogArticles, func(i, j int) bool {
+		return blogArticles[i].PublishedOn.After(blogArticles[j].PublishedOn)
+	})
 
 	var articles []*Article
 	for _, a := range notionIDToArticle {
@@ -193,12 +202,6 @@ func loadAllArticles() {
 	}
 
 	storeArticles = articles
-	for _, a := range notionIDToArticle {
-		blogArticles = append(blogArticles, a)
-	}
-	sort.Slice(blogArticles, func(i, j int) bool {
-		return blogArticles[i].PublishedOn.After(blogArticles[j].PublishedOn)
-	})
 
 	panicIf(idToArticle != nil, "idToArticle not nil")
 	idToArticle = make(map[string]*Article)
@@ -209,38 +212,6 @@ func loadAllArticles() {
 		}
 		idToArticle[a.ID] = a
 	}
-}
-
-const (
-	articlesWithLessVisible = 1
-)
-
-func isNormal(a *Article) bool {
-	if a.Status == statusNormal {
-		return true
-	}
-	return false
-}
-
-func shouldGetArticle(a *Article, typ int) bool {
-	switch typ {
-	case articlesWithLessVisible:
-		return isNormal(a) || (a.Status == statusNotImportant)
-	default:
-		panicIf(true, "unknown typ: %d", typ)
-	}
-	return false
-}
-
-// GetArticles returns articles with a given type
-func GetArticles(typ int) []*Article {
-	var res []*Article
-	for _, a := range storeArticles {
-		if shouldGetArticle(a, typ) {
-			res = append(res, a)
-		}
-	}
-	return res
 }
 
 // MonthArticle combines article and a month
