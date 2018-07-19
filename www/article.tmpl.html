@@ -98,11 +98,7 @@
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
                 <a href="/">Home</a> {{if .Article.CollectionURL}} /
-                <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a> {{end}} / {{.Article.Title}} {{if .Article.IsDraft}}
-                <span class="draft">draft
-                    <span>{{end}} {{if .Article.DebugIsNotImportant}}
-                        <span class="draft">unimportant</span>{{end}} {{if .Article.DebugIsHidden}}
-                        <span class="draft">hidden</span>{{end}}
+                <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a> {{end}} / {{.Article.Title}}
             </div>
 
             {{if .Article.HeaderImageURL}}

@@ -17,7 +17,6 @@ import (
 // for Article.Status
 const (
 	statusNormal       = iota // show on main page
-	statusDraft               // not shown in production but shown in dev
 	statusNotImportant        // linked from archive page, but not main page
 	statusHidden              // not linked from any page but accessible via url
 	statusDeleted             // not shown at all
@@ -48,21 +47,6 @@ type Article struct {
 // URL returns article's permalink
 func (a *Article) URL() string {
 	return "/article/" + a.ID + "/" + urlify(a.Title) + ".html"
-}
-
-// IsDraft returns true if article is a draft
-func (a *Article) IsDraft() bool {
-	return a.Status == statusDraft
-}
-
-// DebugIsNotImportant returns true if article is not important and we're previewing locally
-func (a *Article) DebugIsNotImportant() bool {
-	return !inProduction && (a.Status == statusNotImportant)
-}
-
-// DebugIsHidden returns true if article is not important and we're previewing locally
-func (a *Article) DebugIsHidden() bool {
-	return !inProduction && (a.Status == statusHidden)
 }
 
 // TagsDisplay returns tags as html
@@ -124,8 +108,6 @@ func parseStatus(status string) (int, error) {
 	switch status {
 	case "hidden":
 		return statusHidden, nil
-	case "draft":
-		return statusDraft, nil
 	case "notimportant":
 		return statusNotImportant, nil
 	case "deleted":

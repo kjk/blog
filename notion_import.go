@@ -110,8 +110,7 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 			res.UpdatedOn, err = parseDate(val)
 			panicIfErr(err)
 		case "status":
-			res.Status, err = parseStatus(val)
-			panicIfErr(err)
+			setStatusMust(res, val)
 		case "description":
 			res.Description = val
 			//fmt.Printf("Description: %s\n", res.Description)
