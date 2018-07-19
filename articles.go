@@ -14,6 +14,11 @@ import (
 	"github.com/kjk/u"
 )
 
+var (
+	storeArticles []*Article
+	idToArticle   map[string]*Article
+)
+
 // for Article.Status
 const (
 	statusNormal       = iota // show on main page
@@ -67,12 +72,6 @@ func (a *Article) TagsDisplay() template.HTML {
 // PublishedOnShort is a short version of date
 func (a *Article) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
-}
-
-// ArticlesStore is a store for articles
-type ArticlesStore struct {
-	articles    []*Article
-	idToArticle map[string]*Article
 }
 
 func parseTags(s string) []string {
@@ -160,25 +159,22 @@ func articleSetID(a *Article, v string) {
 	}
 }
 
-// NewArticlesStore returns a store of articles
-func NewArticlesStore() (*ArticlesStore, error) {
+func loadAllArticles() {
 	articles := loadArticlesFromNotion()
 	sort.Slice(articles, func(i, j int) bool {
 		return articles[i].PublishedOn.After(articles[j].PublishedOn)
 	})
 
-	res := &ArticlesStore{
-		articles: articles,
-	}
-	res.idToArticle = make(map[string]*Article)
+	panicIf(idToArticle != nil, "idToArticle not nil")
+	idToArticle = make(map[string]*Article)
 	for _, a := range articles {
-		curr := res.idToArticle[a.ID]
+		curr := idToArticle[a.ID]
 		if curr != nil {
 			log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.OrigPath, a.OrigPath)
 		}
-		res.idToArticle[a.ID] = a
+		idToArticle[a.ID] = a
 	}
-	return res, nil
+	storeArticles = articles
 }
 
 const (
@@ -207,20 +203,15 @@ func shouldGetArticle(a *Article, typ int) bool {
 	return isNormal(a) || (a.Status == statusNotImportant) || (a.Status == statusHidden)
 }
 
-// GetArticles returns articles of a given type
-func (s *ArticlesStore) GetArticles(typ int) []*Article {
+// GetArticles returns articles with a given type
+func GetArticles(typ int) []*Article {
 	var res []*Article
-	for _, a := range s.articles {
+	for _, a := range storeArticles {
 		if shouldGetArticle(a, typ) {
 			res = append(res, a)
 		}
 	}
 	return res
-}
-
-// GetArticleByID returns an article given its id
-func (s *ArticlesStore) GetArticleByID(id string) *Article {
-	return s.idToArticle[id]
 }
 
 // MonthArticle combines article and a month

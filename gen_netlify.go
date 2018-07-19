@@ -33,7 +33,7 @@ func copyAndSortArticles(articles []*Article) []*Article {
 }
 
 func genAtomXML(excludeNotes bool) ([]byte, error) {
-	articles := store.GetArticles(articlesNormal)
+	articles := GetArticles(articlesNormal)
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
@@ -102,13 +102,7 @@ func makeShareHTML(article *Article) string {
 }
 
 func getArticleByID(articleID string) *Article {
-	articles := store.GetArticles(articlesWithHidden)
-	for _, a := range articles {
-		if a.ID == articleID {
-			return a
-		}
-	}
-	return nil
+	return idToArticle[articleID]
 }
 
 // TagInfo represents a single tag for articles
@@ -161,7 +155,7 @@ func buildTags(articles []*Article) []*TagInfo {
 
 func netlifyWriteArticlesArchiveForTag(tag string) {
 	path := "/archives.html"
-	articles := store.GetArticles(articlesWithLessVisible)
+	articles := GetArticles(articlesWithLessVisible)
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 		// must manually resolve conflict due to urlify
@@ -244,7 +238,7 @@ func netlifyBuild() {
 
 	{
 		// /
-		articles := store.GetArticles(articlesNormal)
+		articles := GetArticles(articlesNormal)
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -276,7 +270,7 @@ func netlifyBuild() {
 
 	{
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
-		articles := store.GetArticles(articlesWithHidden)
+		articles := GetArticles(articlesWithHidden)
 		logVerbose("%d articles\n", len(articles))
 		for _, article := range articles {
 			shareHTML := makeShareHTML(article)
@@ -320,7 +314,7 @@ func netlifyBuild() {
 		// /archives.html
 		netlifyWriteArticlesArchiveForTag("")
 		seenTags := make(map[string]bool)
-		articles := store.GetArticles(articlesWithLessVisible)
+		articles := GetArticles(articlesWithLessVisible)
 		for _, article := range articles {
 			for _, tag := range article.Tags {
 				if !seenTags[tag] {

@@ -12,7 +12,6 @@ import (
 )
 
 var (
-	store         *ArticlesStore
 	analyticsCode = "UA-194516-1"
 
 	flgRedownloadNotion bool
@@ -39,11 +38,7 @@ func logVerbose(format string, args ...interface{}) {
 func rebuildAll() {
 	regenMd()
 	loadTemplates()
-
-	s, err := NewArticlesStore()
-	panicIfErr(err)
-	store = s
-
+	loadAllArticles()
 	readRedirects()
 	netlifyBuild()
 }

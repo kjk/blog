@@ -40,7 +40,7 @@ var staticURLS = []string{
 }
 
 func genSiteMap(host string) ([]byte, error) {
-	articles := store.GetArticles(articlesNormal)
+	articles := GetArticles(articlesNormal)
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
