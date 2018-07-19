@@ -323,7 +323,6 @@ func removeCachedNotion() {
 	panicIfErr(err)
 	err = os.RemoveAll(notionLogDir)
 	panicIfErr(err)
-
 	createNotionDirs()
 }
 
@@ -335,11 +334,6 @@ func notionRedownload() {
 	loadAllArticles()
 	articles := storeArticles
 	fmt.Printf("Loaded %d articles\n", len(articles))
-
-	for _, article := range articles {
-		// generate html to verify it'll work
-		notionToHTML(article.pageInfo)
-	}
 }
 
 // downloads and html
@@ -351,8 +345,7 @@ func testOneNotionPage() {
 	id = normalizeID(id)
 	article := loadPageAsArticle(id)
 	path := filepath.Join(destDir, "index.html")
-	d := notionToHTML(article.pageInfo)
-	err := ioutil.WriteFile(path, d, 0644)
+	err := ioutil.WriteFile(path, article.Body, 0644)
 	panicIfErr(err)
 	copyCSS()
 }
@@ -371,8 +364,7 @@ func testNotionToHTML() {
 			name = "index.html"
 		}
 		path := filepath.Join(destDir, name)
-		d := notionToHTML(article.pageInfo)
-		err := ioutil.WriteFile(path, d, 0644)
+		err := ioutil.WriteFile(path, article.Body, 0644)
 		panicIfErr(err)
 	}
 }
