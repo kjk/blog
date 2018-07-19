@@ -1,12 +1,14 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"html/template"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 
@@ -14,8 +16,17 @@ import (
 )
 
 var (
-	useCache = true
-	destDir  = "notion_www"
+	useCacheForNotion = true
+	// if true, we'll log
+	logNotionRequests = false
+
+	destDir      = "netlify_static"
+	cacheDir     = "notion_cache"
+	notionLogDir = "log"
+
+	notionBlogsStartPage      = "300db9dc27c84958a08b8d0c37f4cfe5"
+	notionWebsiteStartPage    = "568ac4c064c34ef6a6ad0b8d77230681"
+	notionGoCookbookStartPage = "7495260a1daa46118858ad2e049e77e6"
 )
 
 // convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
@@ -24,6 +35,10 @@ func normalizeID(s string) string {
 }
 
 func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
+	if !logNotionRequests {
+		return nil, nil
+	}
+
 	name := fmt.Sprintf("%s.go.log.txt", pageID)
 	path := filepath.Join(notionLogDir, name)
 	f, err := os.Create(path)
@@ -35,7 +50,83 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 	return f, nil
 }
 
-func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
+func findSubPageIDs(blocks []*notionapi.Block) []string {
+	pageIDs := map[string]struct{}{}
+	seen := map[string]struct{}{}
+	toVisit := blocks
+	for len(toVisit) > 0 {
+		block := toVisit[0]
+		toVisit = toVisit[1:]
+		id := normalizeID(block.ID)
+		if block.Type == notionapi.BlockPage {
+			pageIDs[id] = struct{}{}
+			seen[id] = struct{}{}
+		}
+		for _, b := range block.Content {
+			if b == nil {
+				continue
+			}
+			id := normalizeID(block.ID)
+			if _, ok := seen[id]; ok {
+				continue
+			}
+			toVisit = append(toVisit, b)
+		}
+	}
+	res := []string{}
+	for id := range pageIDs {
+		res = append(res, id)
+	}
+	sort.Strings(res)
+	return res
+}
+
+func loadPageFromCache(pageID string) *notionapi.PageInfo {
+	if !useCacheForNotion {
+		return nil
+	}
+
+	cachedPath := filepath.Join(cacheDir, pageID+".json")
+	d, err := ioutil.ReadFile(cachedPath)
+	if err != nil {
+		return nil
+	}
+
+	var pageInfo notionapi.PageInfo
+	err = json.Unmarshal(d, &pageInfo)
+	panicIfErr(err)
+	fmt.Printf("Got %s from cache (%s)\n", pageID, pageInfo.Page.Title)
+	return &pageInfo
+}
+
+func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
+	//fmt.Printf("downloading page with id %s\n", pageID)
+	lf, _ := openLogFileForPageID(pageID)
+	if lf != nil {
+		defer lf.Close()
+	}
+	cachedPath := filepath.Join(cacheDir, pageID+".json")
+	res, err := notionapi.GetPageInfo(pageID)
+	if err != nil {
+		return nil, err
+	}
+	d, err := json.MarshalIndent(res, "", "  ")
+	if err == nil {
+		err = ioutil.WriteFile(cachedPath, d, 0644)
+		panicIfErr(err)
+	} else {
+		// not a fatal error, just a warning
+		fmt.Printf("json.Marshal() on pageID '%s' failed with %s\n", pageID, err)
+	}
+	return res, nil
+}
+
+func notionToHTML(pageInfo *notionapi.PageInfo) []byte {
+	gen := NewHTMLGenerator(pageInfo)
+	return gen.Gen()
+}
+
+func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 	blocks := pageInfo.Page.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
@@ -98,13 +189,14 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 		case "id":
 			articleSetID(article, val)
 			//fmt.Printf("ID: %s\n", res.ID)
-
 		case "publishedon":
 			publishedOn, err = parseDate(val)
 			panicIfErr(err)
+			article.inBlog = true
 		case "date", "createdat":
 			article.PublishedOn, err = parseDate(val)
 			panicIfErr(err)
+			article.inBlog = true
 		case "updatedat":
 			article.UpdatedOn, err = parseDate(val)
 			panicIfErr(err)
@@ -155,46 +247,75 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 	return article
 }
 
-func notionToHTML(pageInfo *notionapi.PageInfo) []byte {
-	gen := NewHTMLGenerator(pageInfo)
-	return gen.Gen()
+func loadPageAsArticle(pageID string) *Article {
+	var err error
+	pageInfo := loadPageFromCache(pageID)
+	if pageInfo == nil {
+		pageInfo, err = downloadAndCachePage(pageID)
+		panicIfErr(err)
+		fmt.Printf("Downloaded %s %s\n", pageID, pageInfo.Page.Title)
+	}
+	return notionPageToArticle(pageInfo)
 }
 
-// TODO: change this to download from Notion via cache, so that
-// notionRedownload() is just calling this, for consistency
-func loadArticlesFromNotion() []*Article {
-	pagesToIgnore := []string{
-		notionBlogsStartPage, notionGoCookbookStartPage,
+func loadNotionPages(indexPageID string) map[string]*Article {
+	toVisit := []string{indexPageID}
+	res := make(map[string]*Article)
+
+	for len(toVisit) > 0 {
+		pageID := normalizeID(toVisit[0])
+		toVisit = toVisit[1:]
+
+		if _, ok := res[pageID]; ok {
+			continue
+		}
+
+		article := loadPageAsArticle(pageID)
+
+		if false && article.Status == statusHidden {
+			continue
+		}
+
+		res[pageID] = article
+
+		page := article.pageInfo.Page
+		subPages := findSubPageIDs(page.Content)
+		toVisit = append(toVisit, subPages...)
 	}
-	fileInfos, err := ioutil.ReadDir(cacheDir)
-	panicIfErr(err)
+	return res
+}
+
+func loadArticlesFromNotion() []*Article {
+	docs := make(map[string]*Article)
+
+	{
+		articles := loadNotionPages(notionBlogsStartPage)
+		fmt.Printf("Loaded %d blog articles\n\n", len(articles))
+		for k, v := range articles {
+			docs[k] = v
+		}
+	}
+
+	{
+		articles := loadNotionPages(notionGoCookbookStartPage)
+		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
+		for k, v := range articles {
+			docs[k] = v
+		}
+	}
+
+	if false {
+		articles := loadNotionPages(notionWebsiteStartPage)
+		fmt.Printf("Loaded %d articles\n", len(articles))
+		for k, v := range articles {
+			docs[k] = v
+		}
+	}
 
 	var res []*Article
-	for _, fi := range fileInfos {
-		if fi.IsDir() {
-			continue
-		}
-		name := fi.Name()
-		ext := filepath.Ext(name)
-		if ext != ".json" {
-			continue
-		}
-		ignorePage := false
-		for _, s := range pagesToIgnore {
-			if strings.Contains(name, s) {
-				ignorePage = true
-			}
-		}
-		if ignorePage {
-			continue
-		}
-		parts := strings.Split(name, ".")
-		pageID := parts[0]
-		pageInfo := loadPageFromCache(pageID)
-		article := articleFromPage(pageInfo)
-		res = append(res, article)
+	for _, doc := range docs {
+		res = append(res, doc)
 	}
-
 	return res
 }
 
@@ -219,10 +340,37 @@ func copyCSS() {
 }
 
 func createNotionDirs() {
-	os.MkdirAll(notionLogDir, 0755)
-	os.MkdirAll(cacheDir, 0755)
-	os.MkdirAll(destDir, 0755)
-	copyCSS()
+	if logNotionRequests {
+		err := os.MkdirAll(notionLogDir, 0755)
+		panicIfErr(err)
+	}
+	{
+		err := os.MkdirAll(cacheDir, 0755)
+		panicIfErr(err)
+	}
+}
+
+func removeCachedNotion() {
+	err := os.RemoveAll(cacheDir)
+	panicIfErr(err)
+	err = os.RemoveAll(notionLogDir)
+	panicIfErr(err)
+
+	createNotionDirs()
+}
+
+// this re-downloads pages from Notion by deleting cache locally
+func notionRedownload() {
+	//notionapi.DebugLog = true
+	removeCachedNotion()
+
+	articles := loadArticlesFromNotion()
+	fmt.Printf("Loaded %d articles\n", len(articles))
+
+	for _, article := range articles {
+		// generate html to verify it'll work
+		notionToHTML(article.pageInfo)
+	}
 }
 
 // downloads and html
@@ -232,12 +380,12 @@ func testOneNotionPage() {
 	id := "484919a1647144c29234447ce408ff6b" // test toggle
 	createNotionDirs()
 	id = normalizeID(id)
-	article, err := loadPageAsArticle(id)
-	panicIfErr(err)
+	article := loadPageAsArticle(id)
 	path := filepath.Join(destDir, "index.html")
 	d := notionToHTML(article.pageInfo)
-	err = ioutil.WriteFile(path, d, 0644)
+	err := ioutil.WriteFile(path, d, 0644)
 	panicIfErr(err)
+	copyCSS()
 }
 
 func testNotionToHTML() {

@@ -54,47 +54,10 @@
             margin-right: auto;
         }
 
-        .draft {
-            background-color: lightyellow;
-        }
-
-        .draft>a::after {
-            content: "draft";
-            color: red;
-            margin-left: 8px;
-        }
-
         .book-tagline {
             font-size: 0.8em;
         }
     </style>
-
-    <script>
-        function $(id) {
-            return document.getElementById(id);
-        }
-
-        var hideDrafts = {{.InProduction }};
-        function render() {
-            var el = $("drafts");
-            var el2 = $("toggle-drafts");
-            if (hideDrafts) {
-                el.style.display = "none";
-                el2.textContent = "show drafts";
-            } else {
-                el.style.display = "block";
-                el2.textContent = "hide drafts";
-            }
-        }
-        function toggleDrafts() {
-            hideDrafts = !hideDrafts;
-            render();
-        }
-        document.addEventListener("DOMContentLoaded", function (event) {
-            render();
-        });
-    </script>
-
 </head>
 
 <body>
@@ -104,40 +67,43 @@
             <h1 style="font-size:2em">Go Cookbook</h1>
         </center>
         <center class="book-tagline">collection of articles about programming in Go</center>
-        <center style="margin-top: 0.8em">By <a href="/">Krzysztof Kowalczyk</a></center>
+        <center style="margin-top: 0.8em">By
+            <a href="/">Krzysztof Kowalczyk</a>
+        </center>
         <div class="article-header hide-mobile">
-            <center><img class="center hide-mobile" src="/gfx/headers/header-16.jpg"></center>
+            <center>
+                <img class="center hide-mobile" src="/gfx/headers/header-16.jpg">
+            </center>
         </div>
 
         <p>
-            <center><b style="font-size:1.4em">Table of Contents</b></center>
-            <center><a href="#" onclick="toggleDrafts(); return false;" id="toggle-drafts">show drafts</a></center>
+            <center>
+                <b style="font-size:1.4em">Table of Contents</b>
+            </center>
         </p>
-
-
-        <div id="drafts" style="display:none">
-        </div>
 
         <div>
             <a href="/article/1Bkr/3-ways-to-iterate-in-go.html">3 ways to iterate</a>
-            <div class="summary">3 different way to implement an iterator in Go: callbacks, channels, struct with <tt>Next()</tt> function.
+            <div class="summary">3 different way to implement an iterator in Go: callbacks, channels, struct with
+                <tt>Next()</tt> function.
             </div>
         </div>
         <br>
 
         <div>
             <a href="/article/wOYk/advanced-command-execution-in-go-with-osexec.html">Advanced command execution with os/exec</a>
-            <div class="summary">Standard library <a href="https://golang.org/pkg/os/exec/">os/exec</a> is used for executing external programs.
-                This article describes slightly more advanced use cases.
+            <div class="summary">Standard library
+                <a href="https://golang.org/pkg/os/exec/">os/exec</a> is used for executing external programs. This article describes slightly more advanced use cases.
             </div>
         </div>
         <br>
 
         <div>
             <a href="/article/Jl3G/https-for-free-in-go.html">HTTPS for free using Let's Encrypt</a>
-            <div class="summary">In the past supporting HTTPS required paying for SSL certificate. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>                we get free SSL certificates and <a href="https://golang.org/x/crypto/acme/autocert">autocert</a> library
-                does all the hard work of provisioning them. Learn how to easily add HTTPS support and redirect HTTP traffic
-                to HTTPS.</div>
+            <div class="summary">In the past supporting HTTPS required paying for SSL certificate. Thanks to
+                <a href="https://letsencrypt.org/">Let's Encrypt</a> we get free SSL certificates and
+                <a href="https://golang.org/x/crypto/acme/autocert">autocert</a> library does all the hard work of provisioning them. Learn how to easily add HTTPS support and
+                redirect HTTP traffic to HTTPS.</div>
         </div>
         <br>
 
@@ -186,8 +152,9 @@
 
         <div>
             <a href="/article/f/accessing-github-api-from-go.html">Accessing GitHub API</a>
-            <div class="summary"><a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service.
-                This article will get you started writing programs that access the API.</div>
+            <div class="summary">
+                <a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service. This article will get you
+                started writing programs that access the API.</div>
         </div>
         <br>
 
@@ -200,7 +167,8 @@
 
         <div>
             <a href="/article/n/fuzzing-markdown-parser-written-in-go.htmll">Fuzzing markdown parser with go-fuzz</a>
-            <div class="summary">Fuzzing programs in Go is almost trivial thanks to <a href="https://github.com/dvyukov/go-fuzz">go-fuzz</a>. This article describes how I fuzzed my markdown parsing library.</div>
+            <div class="summary">Fuzzing programs in Go is almost trivial thanks to
+                <a href="https://github.com/dvyukov/go-fuzz">go-fuzz</a>. This article describes how I fuzzed my markdown parsing library.</div>
         </div>
         <br>
 
@@ -221,13 +189,16 @@
         <br>
         <center>
             <div class="beg">
-                If you like "Go Cookbook", <a href="https://twitter.com/intent/tweet?text=Go+Cookbook+-+a+book+involving+Go+and+programming&url=https%3A%2F%2Fblog.kowalczyk.info%2Fbook%2Fgo-cookbook.html&via=kjk">share it on Twitter</a>.
-                To be notified about new chapters, <a href="https://twitter.com/intent/follow?user_id=3194001">follow @kjk</a>.
+                If you like "Go Cookbook",
+                <a href="https://twitter.com/intent/tweet?text=Go+Cookbook+-+a+book+involving+Go+and+programming&url=https%3A%2F%2Fblog.kowalczyk.info%2Fbook%2Fgo-cookbook.html&via=kjk">share it on Twitter</a>. To be notified about new chapters,
+                <a href="https://twitter.com/intent/follow?user_id=3194001">follow @kjk</a>.
             </div>
         </center>
 
         <hr>
-        <center>Written by <a href="/">Krzysztof Kowalczyk</a></center>
+        <center>Written by
+            <a href="/">Krzysztof Kowalczyk</a>
+        </center>
         <p></p>
     </div>
 
