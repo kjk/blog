@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="always">
+    <meta name="description" content="Personal page of Krzysztof Kowalczyk. Programmer, creator of SumatraPDF.">
+
+    <title>Krzysztof Kowalczyk</title>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    {{ template "page_navbar.tmpl.html" . }}
+
+    <div id="content" style="clear:both; ">
+        <div class="mainpage-wrap">
+            <div class="headline">
+                Hello. I'm <a href="/resume.html">Chris</a>. I live in San Francisco.
+            </div>
+
+            <div class="headline underline">
+                I maintain free Go book <a href="https://www.programming-books.io/essential/go/">Essential Go</a> and <a href="/software">few other things</a>.
+            </div>
+
+        </div>
+
+        <div class="articles-list-wrap">
+            <div>
+                <div class="headline" style="float: right; font-size:80%">
+                    <a href="/atom.xml">RSS/Atom feed</a>
+                </div>
+
+                {{range .Articles}}
+                <div>
+                    <a href="{{.URL}}">{{.Title}}</a>
+                    {{if .TagsDisplay}}
+                        <span style="font-size:80%">
+                            <span class="taglink">in:</span> {{.TagsDisplay}}
+                        </span>
+                    {{end}}
+                </div>
+                {{end}}
+
+                <p>
+                    Subscribe to <a href="/atom.xml">RSS/Atom feed</a>.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr> {{ template "analytics.tmpl.html" . }}
+
+</body>
+
+</html>
