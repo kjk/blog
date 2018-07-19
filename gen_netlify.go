@@ -33,7 +33,7 @@ func copyAndSortArticles(articles []*Article) []*Article {
 }
 
 func genAtomXML(excludeNotes bool) ([]byte, error) {
-	articles := GetArticles(articlesNormal)
+	articles := blogArticles
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
@@ -238,7 +238,7 @@ func netlifyBuild() {
 
 	{
 		// /
-		articles := GetArticles(articlesNormal)
+		articles := blogArticles
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -270,9 +270,8 @@ func netlifyBuild() {
 
 	{
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
-		articles := GetArticles(articlesWithHidden)
-		logVerbose("%d articles\n", len(articles))
-		for _, article := range articles {
+		logVerbose("%d articles\n", len(notionIDToArticle))
+		for _, article := range notionIDToArticle {
 			shareHTML := makeShareHTML(article)
 
 			coverImage := ""

@@ -75,7 +75,7 @@ func openBrowser(url string) {
 
 func preview() {
 	go func() {
-		time.Sleep(time.Second * 3)
+		time.Sleep(time.Second * 1)
 		openBrowser("http://localhost:8080")
 	}()
 	runCaddy()

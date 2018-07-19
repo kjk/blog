@@ -36,11 +36,10 @@ var staticURLS = []string{
 	"/articles/where-to-get-free-ebooks-epub-mobi.html",
 	"/software/",
 	"/documents.html",
-	"/dailynotes",
 }
 
 func genSiteMap(host string) ([]byte, error) {
-	articles := GetArticles(articlesNormal)
+	articles := blogArticles // TODO: this should be all articles
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {

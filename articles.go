@@ -15,9 +15,13 @@ import (
 )
 
 var (
+	// maps notion page ID to *Article
 	notionIDToArticle map[string]*Article
-	storeArticles     []*Article
-	idToArticle       map[string]*Article
+	// maps id to *Article. id can either be notion page ID
+	// or shorter, legacy id
+	idToArticle   map[string]*Article
+	storeArticles []*Article
+	blogArticles  []*Article
 )
 
 // for Article.Status
@@ -73,6 +77,11 @@ func (a *Article) TagsDisplay() template.HTML {
 // PublishedOnShort is a short version of date
 func (a *Article) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
+}
+
+// IsBlog returns true if this article belongs to a blog
+func (a *Article) IsBlog() bool {
+	return a.inBlog
 }
 
 func parseTags(s string) []string {
@@ -183,8 +192,12 @@ func loadAllArticles() {
 		articles = append(articles, a)
 	}
 
-	sort.Slice(articles, func(i, j int) bool {
-		return articles[i].PublishedOn.After(articles[j].PublishedOn)
+	storeArticles = articles
+	for _, a := range notionIDToArticle {
+		blogArticles = append(blogArticles, a)
+	}
+	sort.Slice(blogArticles, func(i, j int) bool {
+		return blogArticles[i].PublishedOn.After(blogArticles[j].PublishedOn)
 	})
 
 	panicIf(idToArticle != nil, "idToArticle not nil")
@@ -196,13 +209,10 @@ func loadAllArticles() {
 		}
 		idToArticle[a.ID] = a
 	}
-	storeArticles = articles
 }
 
 const (
-	articlesNormal          = 0
 	articlesWithLessVisible = 1
-	articlesWithHidden      = 2
 )
 
 func isNormal(a *Article) bool {
@@ -213,16 +223,13 @@ func isNormal(a *Article) bool {
 }
 
 func shouldGetArticle(a *Article, typ int) bool {
-	if typ == articlesNormal {
-		return isNormal(a)
-	}
-
-	if typ == articlesWithLessVisible {
+	switch typ {
+	case articlesWithLessVisible:
 		return isNormal(a) || (a.Status == statusNotImportant)
+	default:
+		panicIf(true, "unknown typ: %d", typ)
 	}
-
-	panicIf(typ != articlesWithHidden, "unknown typ: %d", typ)
-	return isNormal(a) || (a.Status == statusNotImportant) || (a.Status == statusHidden)
+	return false
 }
 
 // GetArticles returns articles with a given type
