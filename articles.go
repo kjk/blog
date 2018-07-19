@@ -38,6 +38,9 @@ type Article struct {
 	CollectionURL  string
 	Status         int
 	Description    string
+	// if true, this belongs to blog i.e. will be present in atom.xml
+	// and listed in blog section
+	inBlog bool
 
 	HTMLBody template.HTML
 

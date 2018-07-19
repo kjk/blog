@@ -7,7 +7,6 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
-	"sort"
 	"strings"
 	"time"
 
@@ -44,7 +43,7 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 	page := pageInfo.Page
 	title := page.Title
 	id := normalizeID(page.ID)
-	res := &Article{
+	article := &Article{
 		pageInfo: pageInfo,
 		Title:    title,
 	}
@@ -94,30 +93,30 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 		val := strings.TrimSpace(parts[1])
 		switch key {
 		case "tags":
-			res.Tags = parseTags(val)
+			article.Tags = parseTags(val)
 			//fmt.Printf("Tags: %v\n", res.Tags)
 		case "id":
-			articleSetID(res, val)
+			articleSetID(article, val)
 			//fmt.Printf("ID: %s\n", res.ID)
 
 		case "publishedon":
 			publishedOn, err = parseDate(val)
 			panicIfErr(err)
 		case "date", "createdat":
-			res.PublishedOn, err = parseDate(val)
+			article.PublishedOn, err = parseDate(val)
 			panicIfErr(err)
 		case "updatedat":
-			res.UpdatedOn, err = parseDate(val)
+			article.UpdatedOn, err = parseDate(val)
 			panicIfErr(err)
 		case "status":
-			setStatusMust(res, val)
+			setStatusMust(article, val)
 		case "description":
-			res.Description = val
+			article.Description = val
 			//fmt.Printf("Description: %s\n", res.Description)
 		case "headerimage":
-			setHeaderImageMust(res, val)
+			setHeaderImageMust(article, val)
 		case "collection":
-			setCollectionMust(res, val)
+			setCollectionMust(article, val)
 		default:
 			// assume that unrecognized meta means this article doesn't have
 			// proper meta tags. It might miss meta-tags that are badly named
@@ -138,24 +137,27 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
-		res.PublishedOn = publishedOn
+		article.PublishedOn = publishedOn
 	}
 
-	if res.UpdatedOn.IsZero() {
-		res.UpdatedOn = res.PublishedOn
+	if article.UpdatedOn.IsZero() {
+		article.UpdatedOn = article.PublishedOn
 	}
 
-	if res.ID == "" {
-		res.ID = id
+	if article.ID == "" {
+		article.ID = id
 	}
 
+	article.Body = notionToHTML(pageInfo)
+	article.BodyHTML = string(article.Body)
+	article.HTMLBody = template.HTML(article.BodyHTML)
+
+	return article
+}
+
+func notionToHTML(pageInfo *notionapi.PageInfo) []byte {
 	gen := NewHTMLGenerator(pageInfo)
-	res.Body = gen.Gen()
-
-	res.BodyHTML = string(res.Body)
-	res.HTMLBody = template.HTML(res.BodyHTML)
-
-	return res
+	return gen.Gen()
 }
 
 // TODO: change this to download from Notion via cache, so that
@@ -209,148 +211,11 @@ func rmCached(pageID string) {
 	rmFile(filepath.Join(cacheDir, id+".json"))
 }
 
-func genHTML(pageInfo *notionapi.PageInfo) []byte {
-	title := pageInfo.Page.Title
-	title = template.HTMLEscapeString(title)
-
-	gen := NewHTMLGenerator(pageInfo)
-	html := string(gen.Gen())
-
-	s := fmt.Sprintf(`<!doctype html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>%s</title>
-		<link href="/main.css" rel="stylesheet">
-	</head>
-<body>
-<div id="tophdr">
-<ul id="nav">
-  <li><a href="/software/">Software</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/archives.html">Articles</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/documents.html">Documents</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/resume.html">Résumé</a></li>
-</ul>
-</div>
-
-<div id="content">
-  <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
-    <div class="title">
-      <a href="/">Home</a>  / %s
-    </div>
-    <div>
-      %s
-    </div>
-  </div>
-</div>
-</body>
-</html>
-`, title, title, html)
-
-	d := prettyHTML([]byte(s))
-	return d
-}
-
-func toHTML(pageID, path string) (*Article, error) {
-	fmt.Printf("toHTML: pageID=%s, path=%s\n", pageID, path)
-	article, err := loadPageAsArticle(pageID)
-	if err != nil {
-		return nil, err
-	}
-	d := genHTML(article.pageInfo)
-	err = ioutil.WriteFile(path, d, 0644)
-	return article, err
-}
-
 func copyCSS() {
 	src := filepath.Join("www", "css", "main.css")
 	dst := filepath.Join(destDir, "main.css")
 	err := copyFile(dst, src)
 	panicIfErr(err)
-}
-
-func genIndexHTML(docs []*Article) []byte {
-	lines := []string{}
-	for _, doc := range docs {
-		if doc.Status == statusNotImportant {
-			continue
-		}
-		page := doc.pageInfo.Page
-		id := normalizeID(page.ID)
-		title := page.Title
-		s := fmt.Sprintf(`<div>
-		<a href="/article/%s/index.html">%s</a>
-			<span style="font-size:80%%">
-				<span class="taglink">in:</span> <a href="/tag/go" class="taglink">go</a>, <a href="/tag/programming" class="taglink">programming</a>
-			</span>
-</div>`, id, title)
-		lines = append(lines, s)
-	}
-	html := strings.Join(lines, "\n")
-
-	s := fmt.Sprintf(`<!doctype html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Krzysztof Kowalczyk's external brain</title>
-		<link href="/main.css" rel="stylesheet">
-	</head>
-<body>
-<div id="tophdr">
-<ul id="nav">
-  <li><a href="/software/">Software</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/archives.html">Articles</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/documents.html">Documents</a></li>
-  <li><span style="color:#aaa">&bull;</span></li>
-  <li><a href="/resume.html">Résumé</a></li>
-</ul>
-</div>
-
-<div id="content">
-  <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
-    <div class="title">
-      <a href="/">Home</a>
-    </div>
-    <div class="articles-list-wrap">
-      %s
-    </div>
-  </div>
-</div>
-</body>
-</html>
-`, html)
-
-	d := prettyHTML([]byte(s))
-	return d
-}
-
-func genNotionBasic(pages map[string]*Article) {
-	docs := make([]*Article, 0)
-	for _, doc := range pages {
-		docs = append(docs, doc)
-	}
-	sort.Slice(docs, func(i, j int) bool {
-		d1 := docs[i].PublishedOn
-		d2 := docs[j].PublishedOn
-		return d1.Sub(d2) > 0
-	})
-	d := genIndexHTML(docs)
-	path := filepath.Join(destDir, "index.html")
-	err := ioutil.WriteFile(path, d, 0644)
-	panicIfErr(err)
-	for _, doc := range docs {
-		d := genHTML(doc.pageInfo)
-		id := normalizeID(doc.pageInfo.Page.ID)
-		path := filepath.Join(destDir, id+".html")
-		err = ioutil.WriteFile(path, d, 0644)
-	}
 }
 
 func createNotionDirs() {
@@ -370,7 +235,7 @@ func testOneNotionPage() {
 	article, err := loadPageAsArticle(id)
 	panicIfErr(err)
 	path := filepath.Join(destDir, "index.html")
-	d := genHTML(article.pageInfo)
+	d := notionToHTML(article.pageInfo)
 	err = ioutil.WriteFile(path, d, 0644)
 	panicIfErr(err)
 }
@@ -389,7 +254,7 @@ func testNotionToHTML() {
 			name = "index.html"
 		}
 		path := filepath.Join(destDir, name)
-		d := genHTML(article.pageInfo)
+		d := notionToHTML(article.pageInfo)
 		err := ioutil.WriteFile(path, d, 0644)
 		panicIfErr(err)
 	}

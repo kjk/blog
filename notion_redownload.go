@@ -127,16 +127,21 @@ func loadNotionPages(indexPageID string) map[string]*Article {
 	return res
 }
 
-// this re-downloads pages from Notion by deleting cache locally
-func notionRedownload() {
-	//notionapi.DebugLog = true
-
+func removeCachedNotion() {
 	err := os.RemoveAll(cacheDir)
+	panicIfErr(err)
+	err = os.RemoveAll(notionLogDir)
 	panicIfErr(err)
 	err = os.MkdirAll(notionLogDir, 0755)
 	panicIfErr(err)
 	err = os.MkdirAll(cacheDir, 0755)
 	panicIfErr(err)
+}
+
+// this re-downloads pages from Notion by deleting cache locally
+func notionRedownload() {
+	//notionapi.DebugLog = true
+	removeCachedNotion()
 
 	docs := make(map[string]*Article)
 
@@ -166,6 +171,6 @@ func notionRedownload() {
 
 	for _, doc := range docs {
 		// generate html to verify it'll work
-		genHTML(doc.pageInfo)
+		notionToHTML(doc.pageInfo)
 	}
 }

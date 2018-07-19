@@ -152,21 +152,12 @@
 
     </div>
 
-    {{if .GitHubEditURL}}
-    <div class="github-link">
-        <a href="{{.GitHubEditURL}}" target="_blank">Edit on GitHub</a>
-    </div>
-    {{end}}
-
-    <!-- -->
-
     {{if .NotionEditURL}}
-    <div class="github-link">
+    <div class="edit-link">
         <a href="{{.NotionEditURL}}" target="_blank">Edit on Notion</a>
     </div>
     {{end}}
 
-    <!-- -->
     {{ template "analytics.tmpl.html" . }}
 
 </body>

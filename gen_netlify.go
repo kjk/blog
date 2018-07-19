@@ -284,9 +284,7 @@ func netlifyBuild() {
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 		articles := store.GetArticles(articlesWithHidden)
 		logVerbose("%d articles\n", len(articles))
-		for _, a := range articles {
-			article := getArticleByID(a.ID)
-			panicIf(article == nil, "No article for id '%s'", a.ID)
+		for _, article := range articles {
 			shareHTML := makeShareHTML(article)
 
 			coverImage := ""
@@ -304,7 +302,6 @@ func netlifyBuild() {
 				ShareHTML      template.HTML
 				TagsDisplay    string
 				HeaderImageURL string
-				GitHubEditURL  string
 				NotionEditURL  string
 			}{
 				AnalyticsCode: analyticsCode,
@@ -314,11 +311,9 @@ func netlifyBuild() {
 				PageTitle:     article.Title,
 				ShareHTML:     template.HTML(shareHTML),
 			}
-			if a.pageInfo != nil {
-				id := normalizeID(a.pageInfo.ID)
+			if article.pageInfo != nil {
+				id := normalizeID(article.pageInfo.ID)
 				model.NotionEditURL = "https://notion.so/" + id
-			} else {
-				model.GitHubEditURL = "https://github.com/kjk/blog/edit/master/" + article.OrigPath
 			}
 
 			path := fmt.Sprintf("/article/%s.html", article.ID)
