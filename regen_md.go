@@ -126,9 +126,3 @@ func regenMd() {
 		mdOutWhitelist[htmlFile] = true
 	}
 }
-
-// files written under www by md => html conversion
-// should not trigger regeneration
-func isWhitelistedFromChanges(path string) bool {
-	return mdOutWhitelist[path]
-}

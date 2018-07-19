@@ -2,5 +2,6 @@
 
 This is a static blog for https://blog.kowalczyk.info.
 
-It's generated mostly from markdown files by a simple Go program
-and deployed to https://www.netlify.com/.
+The content is managed in https://notion.so, cached in `notion_cache/` directory.
+
+This custom program converts content from Notion to static html and deploys to https://www.netlify.com/.
