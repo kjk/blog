@@ -15,8 +15,9 @@ import (
 )
 
 var (
-	storeArticles []*Article
-	idToArticle   map[string]*Article
+	notionIDToArticle map[string]*Article
+	storeArticles     []*Article
+	idToArticle       map[string]*Article
 )
 
 // for Article.Status
@@ -160,7 +161,28 @@ func articleSetID(a *Article, v string) {
 }
 
 func loadAllArticles() {
-	articles := loadArticlesFromNotion()
+	notionIDToArticle = make(map[string]*Article)
+
+	{
+		articles := loadNotionPages(notionBlogsStartPage)
+		fmt.Printf("Loaded %d blog articles\n\n", len(articles))
+	}
+
+	{
+		articles := loadNotionPages(notionGoCookbookStartPage)
+		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
+	}
+
+	if false {
+		articles := loadNotionPages(notionWebsiteStartPage)
+		fmt.Printf("Loaded %d articles\n", len(articles))
+	}
+
+	var articles []*Article
+	for _, a := range notionIDToArticle {
+		articles = append(articles, a)
+	}
+
 	sort.Slice(articles, func(i, j int) bool {
 		return articles[i].PublishedOn.After(articles[j].PublishedOn)
 	})

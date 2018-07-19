@@ -258,15 +258,16 @@ func loadPageAsArticle(pageID string) *Article {
 	return notionPageToArticle(pageInfo)
 }
 
-func loadNotionPages(indexPageID string) map[string]*Article {
+func loadNotionPages(indexPageID string) []*Article {
+	var articles []*Article
+
 	toVisit := []string{indexPageID}
-	res := make(map[string]*Article)
 
 	for len(toVisit) > 0 {
 		pageID := normalizeID(toVisit[0])
 		toVisit = toVisit[1:]
 
-		if _, ok := res[pageID]; ok {
+		if _, ok := notionIDToArticle[pageID]; ok {
 			continue
 		}
 
@@ -276,47 +277,14 @@ func loadNotionPages(indexPageID string) map[string]*Article {
 			continue
 		}
 
-		res[pageID] = article
+		notionIDToArticle[pageID] = article
+		articles = append(articles, article)
 
 		page := article.pageInfo.Page
 		subPages := findSubPageIDs(page.Content)
 		toVisit = append(toVisit, subPages...)
 	}
-	return res
-}
-
-func loadArticlesFromNotion() []*Article {
-	docs := make(map[string]*Article)
-
-	{
-		articles := loadNotionPages(notionBlogsStartPage)
-		fmt.Printf("Loaded %d blog articles\n\n", len(articles))
-		for k, v := range articles {
-			docs[k] = v
-		}
-	}
-
-	{
-		articles := loadNotionPages(notionGoCookbookStartPage)
-		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
-		for k, v := range articles {
-			docs[k] = v
-		}
-	}
-
-	if false {
-		articles := loadNotionPages(notionWebsiteStartPage)
-		fmt.Printf("Loaded %d articles\n", len(articles))
-		for k, v := range articles {
-			docs[k] = v
-		}
-	}
-
-	var res []*Article
-	for _, doc := range docs {
-		res = append(res, doc)
-	}
-	return res
+	return articles
 }
 
 func rmFile(path string) {
@@ -364,7 +332,8 @@ func notionRedownload() {
 	//notionapi.DebugLog = true
 	removeCachedNotion()
 
-	articles := loadArticlesFromNotion()
+	loadAllArticles()
+	articles := storeArticles
 	fmt.Printf("Loaded %d articles\n", len(articles))
 
 	for _, article := range articles {
