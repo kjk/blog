@@ -27,6 +27,66 @@
     <title>{{.PageTitle}}</title>
 
     <link href="/css/main.css" rel="stylesheet">
+    <script type="text/javascript">
+        // describes which toggles are open and which ones are closed
+        var openedToggles = {};
+
+        function updateToggles() {
+            //console.log("updateToggles");
+            // get all elements with id attribute.
+            var els = document.querySelectorAll("[id]");
+            function onel(el) {
+                // format of attribute we recognize is:
+                // toggle-${what}-${no}
+                var id = el.getAttribute("id");
+                var parts = id.split("-")
+                if ((parts.length != 3) || (parts[0] != "toggle")) {
+                    return;
+                }
+                var what = parts[1];
+                var no = parts[2];
+                var isOpen = (openedToggles[no] === "yes");
+                // console.log("id:", id, "isOpen:", isOpen);
+                if (what === "content") {
+                    var disp = isOpen ? "block" : "none";
+                    el.style.display = disp;
+                } else if (what == "opener") {
+                    var disp = isOpen ? "none" : "block";
+                    el.style.display = disp;
+                } else if (what == "closer") {
+                    var disp = isOpen ? "block" : "none";
+                    el.style.display = disp;
+                }
+            }
+            els.forEach(onel);
+        }
+
+        function onToggleClick(el) {
+            //console.log("onToggleClick. el:", el);
+            var id = el.getAttribute("id");
+            var parts = id.split("-")
+            if ((parts.length != 3) || (parts[0] != "toggle")) {
+                return;
+            }
+            var what = parts[1];
+            if (what !== "toggle") {
+                console.log("unexpected what:", what);
+                return;
+            }
+            var no = parts[2];
+            var isOpen = (openedToggles[no] === "yes");
+            if (isOpen) {
+                delete openedToggles[no];
+            } else {
+                openedToggles[no] = "yes";
+            }
+            updateToggles();
+        }
+
+        // function onLoad() { updateToggles(); }
+        // window.onload = onLoad;
+
+    </script>
 </head>
 
 <body>

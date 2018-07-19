@@ -361,6 +361,11 @@ func dirCopyRecur(dst string, src string, shouldSkipFile func(string) bool) (int
 }
 
 func prettyHTML(d []byte) []byte {
+	// TODO: disable for now as it messes up inline by adding padding e.g.
+	// around bold elements
+	if true {
+		return d
+	}
 	gohtml.Condense = true
 	s := string(d)
 	s = gohtml.Format(s)

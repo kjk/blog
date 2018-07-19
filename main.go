@@ -36,16 +36,14 @@ func logVerbose(format string, args ...interface{}) {
 	fmt.Printf(format, args...)
 }
 
-func loadArticlesAndNotes() {
-	s, err := NewArticlesStore()
-	panicIfErr(err)
-	store = s
-}
-
 func rebuildAll() {
 	regenMd()
 	loadTemplates()
-	loadArticlesAndNotes()
+
+	s, err := NewArticlesStore()
+	panicIfErr(err)
+	store = s
+
 	readRedirects()
 	netlifyBuild()
 }
@@ -101,7 +99,7 @@ func main() {
 		return
 	}
 
-	if true {
+	if false {
 		testOneNotionPage()
 		os.Exit(0)
 	}

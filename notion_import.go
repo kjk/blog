@@ -15,13 +15,8 @@ import (
 )
 
 var (
-	flgRecursive bool
-	useCache     = true
-	destDir      = "notion_www"
-	toVisit      = []string{
-		// 57-MicroConf-videos-for-self-funded-software-businesses
-		"0c896ea2efd24ec7be1d1f6e3b22d254",
-	}
+	useCache = true
+	destDir  = "notion_www"
 )
 
 // convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
@@ -164,8 +159,12 @@ func articleFromPage(pageInfo *notionapi.PageInfo) *Article {
 	return res
 }
 
+// TODO: change this to download from Notion via cache, so that
+// notionRedownload() is just calling this, for consistency
 func loadArticlesFromNotion() []*Article {
-	indexID := "300db9dc27c84958a08b8d0c37f4cfe5"
+	pagesToIgnore := []string{
+		notionBlogsStartPage, notionGoCookbookStartPage,
+	}
 	fileInfos, err := ioutil.ReadDir(cacheDir)
 	panicIfErr(err)
 
@@ -179,7 +178,13 @@ func loadArticlesFromNotion() []*Article {
 		if ext != ".json" {
 			continue
 		}
-		if strings.Contains(name, indexID) {
+		ignorePage := false
+		for _, s := range pagesToIgnore {
+			if strings.Contains(name, s) {
+				ignorePage = true
+			}
+		}
+		if ignorePage {
 			continue
 		}
 		parts := strings.Split(name, ".")

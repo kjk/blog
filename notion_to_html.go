@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"html/template"
 	"io"
+	"strconv"
 	"strings"
 
 	"github.com/kjk/notionapi"
@@ -15,6 +16,7 @@ type HTMLGenerator struct {
 	f        *bytes.Buffer
 	pageInfo *notionapi.PageInfo
 	level    int
+	nToggle  int
 	err      error
 }
 
@@ -32,7 +34,7 @@ func (g *HTMLGenerator) Gen() []byte {
 	return g.f.Bytes()
 }
 
-func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) error {
+func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 	var start, close string
 	if b.AttrFlags&notionapi.AttrBold != 0 {
 		start += "<b>"
@@ -67,27 +69,28 @@ func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) error {
 	if !skipText {
 		start += b.Text
 	}
-	_, err := io.WriteString(g.f, start+close)
-	return err
+	g.writeString(start + close)
 }
 
-func (g *HTMLGenerator) genInlineBlocks(blocks []*notionapi.InlineBlock) error {
+func (g *HTMLGenerator) getInline(blocks []*notionapi.InlineBlock) []byte {
+	b := g.newBuffer()
+	g.genInlineBlocks(blocks)
+	return g.restoreBuffer(b)
+}
+
+func (g *HTMLGenerator) genInlineBlocks(blocks []*notionapi.InlineBlock) {
 	for _, block := range blocks {
-		err := g.genInlineBlock(block)
-		if err != nil {
-			return err
-		}
+		g.genInlineBlock(block)
 	}
-	return nil
 }
 
 func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close string) {
-	io.WriteString(g.f, start+"\n")
+	g.writeString(start + "\n")
 	g.genInlineBlocks(block.InlineContent)
 	g.level++
 	g.genContent(block)
 	g.level--
-	io.WriteString(g.f, close+"\n")
+	g.writeString(close + "\n")
 }
 
 // Children of BlockColumnList are BlockColumn blocks
@@ -97,17 +100,84 @@ func (g *HTMLGenerator) genColumnList(block *notionapi.Block) {
 	panicIf(nColumns == 0, "has no columns")
 	// TODO: for now equal width columns
 	s := `<div class="column-list">`
-	io.WriteString(g.f, s)
+	g.writeString(s)
 
 	for _, col := range block.Content {
 		// TODO: get column ration from col.FormatColumn.ColumnRation, which is float 0...1
 		panicIf(col.Type != notionapi.BlockColumn, "unexpected block type '%s'", col.Type)
-		io.WriteString(g.f, `<div>`)
+		g.writeString(`<div>`)
 		g.genBlocks(col.Content)
-		io.WriteString(g.f, `</div>`)
+		g.writeString(`</div>`)
 	}
 
 	s = `</div>`
+	g.writeString(s)
+}
+
+func (g *HTMLGenerator) newBuffer() *bytes.Buffer {
+	curr := g.f
+	g.f = &bytes.Buffer{}
+	return curr
+}
+
+func (g *HTMLGenerator) restoreBuffer(b *bytes.Buffer) []byte {
+	d := g.f.Bytes()
+	g.f = b
+	return d
+}
+
+func (g *HTMLGenerator) genToggle(block *notionapi.Block) {
+	panicIf(block.Type != notionapi.BlockToggle, "unexpected block type '%s'", block.Type)
+	g.nToggle++
+	id := strconv.Itoa(g.nToggle)
+
+	inline := g.getInline(block.InlineContent)
+
+	b := g.newBuffer()
+	g.genBlocks(block.Content)
+	inner := g.restoreBuffer(b)
+
+	s := fmt.Sprintf(`<div style="width: 100%%; margin-top: 2px; margin-bottom: 1px;">
+    <div style="display: flex; align-items: flex-start; width: 100%%; padding-left: 2px; color: rgb(66, 66, 65);">
+
+        <div style="margin-right: 4px; width: 24px; flex-grow: 0; flex-shrink: 0; display: flex; align-items: center; justify-content: center; min-height: calc((1.5em + 3px) + 3px); padding-right: 2px;">
+            <div id="toggle-toggle-%s" onclick="javascript:onToggleClick(this)" class="toggler" style="align-items: center; user-select: none; display: flex; width: 1.25rem; height: 1.25rem; justify-content: center; flex-shrink: 0;">
+
+                <svg id="toggle-closer-%s" width="100%%" height="100%%" viewBox="0 0 100 100" style="fill: currentcolor; display: none; width: 0.6875em; height: 0.6875em; transition: transform 300ms ease-in-out; transform: rotateZ(180deg);">
+                    <polygon points="5.9,88.2 50,11.8 94.1,88.2 "></polygon>
+                </svg>
+
+                <svg id="toggle-opener-%s" width="100%%" height="100%%" viewBox="0 0 100 100" style="fill: currentcolor; display: block; width: 0.6875em; height: 0.6875em; transition: transform 300ms ease-in-out; transform: rotateZ(90deg);">
+                    <polygon points="5.9,88.2 50,11.8 94.1,88.2 "></polygon>
+                </svg>
+            </div>
+        </div>
+
+        <div style="flex: 1 1 0px; min-width: 1px;">
+            <div style="display: flex;">
+                <div style="padding-top: 3px; padding-bottom: 3px">%s</div>
+            </div>
+
+            <div style="margin-left: -2px; display: none" id="toggle-content-%s">
+                <div style="display: flex; flex-direction: column;">
+                    <div style="width: 100%%; margin-top: 2px; margin-bottom: 0px;">
+                        <div style="color: rgb(66, 66, 65);">
+							<div style="display: flex; margin-bottom: -1em;">
+								%s
+                                <!-- <div style="padding: 3px 2px;">text inside list</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`, id, id, id, string(inline), id, string(inner))
+	g.writeString(s)
+}
+
+func (g *HTMLGenerator) writeString(s string) {
 	io.WriteString(g.f, s)
 }
 
@@ -139,9 +209,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockToggle:
-		start := fmt.Sprintf(`<div class="toggle%s">`, levelCls)
-		close := `</div>`
-		g.genBlockSurrouded(block, start, close)
+		g.genToggle(block)
 	case notionapi.BlockQuote:
 		start := fmt.Sprintf(`<blockquote class="%s">`, levelCls)
 		close := `</blockquote>`
