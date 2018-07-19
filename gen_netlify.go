@@ -229,10 +229,7 @@ func netlifyBuild() {
 	{
 		// url: /book/go-cookbook.html
 		model := struct {
-			InProduction bool
-		}{
-			InProduction: true,
-		}
+		}{}
 		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
 		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
@@ -240,10 +237,7 @@ func netlifyBuild() {
 	{
 		// url: /book/windows-programming-in-go.html
 		model := struct {
-			InProduction bool
-		}{
-			InProduction: true,
-		}
+		}{}
 		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
 		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}

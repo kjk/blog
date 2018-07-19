@@ -19,7 +19,6 @@ var (
 	flgDeploy           bool
 	flgPreview          bool
 	flgVerbose          bool
-	inProduction        bool
 )
 
 func parseCmdLineFlags() {
@@ -94,7 +93,6 @@ func main() {
 	// make sure this happens first so that building for deployment is not
 	// disrupted by the temporary testing code we might have below
 	if flgDeploy {
-		inProduction = true
 		rebuildAll()
 		return
 	}
@@ -119,7 +117,6 @@ func main() {
 		return
 	}
 
-	inProduction = true
 	rebuildAll()
 	if flgPreview {
 		preview()
