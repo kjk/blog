@@ -30,8 +30,16 @@ func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
 
 // Gen returns generated HTML
 func (g *HTMLGenerator) Gen() []byte {
+	page := g.pageInfo.Page
+	f := page.FormatPage
 	g.writeString(`<p></p>`)
+	if f != nil && f.PageFont == "mono" {
+		g.writeString(`<div style="font-family: monospace">`)
+	}
 	g.genContent(g.pageInfo.Page)
+	if f != nil && f.PageFont == "mono" {
+		g.writeString(`</div>`)
+	}
 	return g.f.Bytes()
 }
 

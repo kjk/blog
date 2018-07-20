@@ -18,7 +18,7 @@ import (
 var (
 	useCacheForNotion = true
 	// if true, we'll log
-	logNotionRequests = false
+	logNotionRequests = true
 
 	destDir      = "netlify_static"
 	cacheDir     = "notion_cache"

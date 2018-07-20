@@ -103,7 +103,8 @@ func main() {
 	}
 
 	if false {
-		loadPageAsArticle("fa3fc358e5644f39b89c57f13d426d54")
+		createNotionDirs()
+		loadPageAsArticle("ac7e26d8729240f2adea5a9c63c00394")
 		os.Exit(0)
 	}
 
