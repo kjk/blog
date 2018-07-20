@@ -237,6 +237,14 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 		article.UpdatedOn = article.PublishedOn
 	}
 
+	if article.PublishedOn.IsZero() {
+		article.PublishedOn = pageInfo.Page.CreatedOn()
+	}
+
+	if article.UpdatedOn.IsZero() {
+		article.UpdatedOn = pageInfo.Page.UpdatedOn()
+	}
+
 	if article.ID == "" {
 		article.ID = id
 	}
