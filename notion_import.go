@@ -274,6 +274,61 @@ func loadPageAsArticle(pageID string) *Article {
 	return notionPageToArticle(pageInfo)
 }
 
+func addIdToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block) {
+	id := normalizeID(block.ID)
+	idToBlock[id] = block
+	for _, block := range block.Content {
+		if block == nil {
+			continue
+		}
+		addIdToBlock(block, idToBlock)
+	}
+}
+
+func updateArticlesPaths(articles []*Article, rootPageID string) {
+	idToBlock := map[string]*notionapi.Block{}
+	for _, a := range articles {
+		page := a.pageInfo
+		if page == nil {
+			continue
+		}
+		addIdToBlock(page.Page, idToBlock)
+	}
+
+	for _, article := range articles {
+		// some already have path (e.g. those that belong to a collection)
+		if len(article.Paths) > 0 {
+			continue
+		}
+		currID := normalizeID(article.pageInfo.Page.ParentID)
+		var paths []URLPath
+		for currID != rootPageID {
+			block := idToBlock[currID]
+			if block == nil {
+				break
+			}
+			// parent could be a column
+			if block.Type != notionapi.BlockPage {
+				currID = normalizeID(block.ParentID)
+				continue
+			}
+			title := block.Title
+			uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
+			path := URLPath{
+				Name: title,
+				URL:  uri,
+			}
+			paths = append(paths, path)
+			currID = normalizeID(block.ParentID)
+		}
+		n := len(paths)
+		for i := 1; i <= n; i++ {
+			path := paths[n-i]
+			article.Paths = append(article.Paths, path)
+		}
+	}
+}
+
 func loadNotionPages(indexPageID string) []*Article {
 	var articles []*Article
 
@@ -300,6 +355,8 @@ func loadNotionPages(indexPageID string) []*Article {
 		subPages := findSubPageIDs(page.Content)
 		toVisit = append(toVisit, subPages...)
 	}
+
+	updateArticlesPaths(articles, indexPageID)
 	return articles
 }
 
