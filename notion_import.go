@@ -245,6 +245,13 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 	article.BodyHTML = string(article.Body)
 	article.HTMLBody = template.HTML(article.BodyHTML)
 
+	if article.Collection != "" {
+		path := URLPath{
+			Name: article.Collection,
+			URL:  article.CollectionURL,
+		}
+		article.Paths = append(article.Paths, path)
+	}
 	return article
 }
 
