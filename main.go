@@ -103,8 +103,10 @@ func main() {
 	}
 
 	if false {
+		// redownload a single page
+		useCacheForNotion = false
 		createNotionDirs()
-		loadPageAsArticle("ac7e26d8729240f2adea5a9c63c00394")
+		loadPageAsArticle("ea07db1b9bff415ab180b0525f3898f6")
 		os.Exit(0)
 	}
 

@@ -225,7 +225,7 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 		blocks = blocks[1:]
 		nBlock++
 	}
-	pageInfo.Page.Content = blocks
+	page.Content = blocks
 
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
@@ -238,11 +238,11 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 	}
 
 	if article.PublishedOn.IsZero() {
-		article.PublishedOn = pageInfo.Page.CreatedOn()
+		article.PublishedOn = page.CreatedOn()
 	}
 
 	if article.UpdatedOn.IsZero() {
-		article.UpdatedOn = pageInfo.Page.UpdatedOn()
+		article.UpdatedOn = page.UpdatedOn()
 	}
 
 	if article.ID == "" {
@@ -259,6 +259,12 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 			URL:  article.CollectionURL,
 		}
 		article.Paths = append(article.Paths, path)
+	}
+
+	format := page.FormatPage
+	// set image header from cover page
+	if article.HeaderImageURL == "" && format != nil && format.PageCoverURL != "" {
+		article.HeaderImageURL = format.PageCoverURL
 	}
 	return article
 }
