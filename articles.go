@@ -148,8 +148,11 @@ func setCollectionMust(article *Article, val string) {
 	case "go-cookbook":
 		collectionURL = "/book/go-cookbook.html"
 		val = "Go Cookbook"
+	case "go-windows":
+		// ignore
+		return
 	}
-	panicIf(collectionURL == "", "'%s' is now a known collection", val)
+	panicIf(collectionURL == "", "'%s' is not a known collection", val)
 	article.Collection = val
 	article.CollectionURL = collectionURL
 
