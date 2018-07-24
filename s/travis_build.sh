@@ -21,7 +21,7 @@ setup_git()
 update_from_notion()
 {
     echo "cron: updating from notion"
-    setup_git()
+    setup_git
 
     go build -o blog
     ./blog -redownload-notion
@@ -31,7 +31,7 @@ update_from_notion()
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" == "cron"]; then
-    update_from_notio
+    update_from_notion
 else
     build
 fi
