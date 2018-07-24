@@ -25,6 +25,7 @@ update_from_notion()
 
     go build -o blog
     ./blog -redownload-notion
+    git add notion_cache/*
     git commit -am "travis: update from notion"
     git push
 }
