@@ -10,12 +10,13 @@
     <meta name="description" content="{{.Article.Description}}"> {{end}}
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary">
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@kjk">
     <meta name="twitter:title" content="{{.PageTitle}}"> {{if .Article.Description}}
     <meta name="twitter:description" content="{{.Article.Description}}"> {{end}}
     <meta name="twitter:creator" content="@kjk"> {{if .CoverImage}}
-    <meta name="twitter:image" content="{{.CoverImage}}"> {{end}}
+    <meta name="twitter:image" content="{{.CoverImage}}"> {{end}} {{if .Description}}
+    <meta name="twitter:description" content="{{.Description}}" /> {{end}}
 
     <!-- Open Graph i.e. Facebook data -->
     <meta property="og:title" content="{{.PageTitle}}">

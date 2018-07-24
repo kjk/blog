@@ -164,7 +164,7 @@ func setHeaderImageMust(article *Article, val string) {
 	path := filepath.Join("www", val)
 	panicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
 	//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
-	article.HeaderImageURL = val
+	article.HeaderImageURL = netlifyRequestGetFullHost() + val
 }
 
 func articleSetID(a *Article, v string) {

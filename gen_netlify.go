@@ -301,7 +301,7 @@ func netlifyBuild() {
 
 			coverImage := ""
 			if article.HeaderImageURL != "" {
-				coverImage = netlifyRequestGetFullHost() + article.HeaderImageURL
+				coverImage = article.HeaderImageURL
 			}
 
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
@@ -315,6 +315,7 @@ func netlifyBuild() {
 				TagsDisplay    string
 				HeaderImageURL string
 				NotionEditURL  string
+				Description    string
 			}{
 				AnalyticsCode: analyticsCode,
 				Article:       article,
@@ -322,6 +323,7 @@ func netlifyBuild() {
 				CoverImage:    coverImage,
 				PageTitle:     article.Title,
 				ShareHTML:     template.HTML(shareHTML),
+				Description:   article.Description,
 			}
 			if article.pageInfo != nil {
 				id := normalizeID(article.pageInfo.ID)
