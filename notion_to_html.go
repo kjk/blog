@@ -247,13 +247,13 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	case notionapi.BlockBookmark:
 		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
 	case notionapi.BlockGist:
-		fmt.Fprintf(g.f, `<div class="gist %s">Gist for %s</div>`+"\n", levelCls, block.Source)
+		s := fmt.Sprintf(`<script src="%s.js"></script>`, block.Source)
+		g.writeString(s)
 	case notionapi.BlockImage:
 		link := block.ImageURL
-		fmt.Fprintf(g.f, `<img class="%s" src="%s" />`+"\n", levelCls, link)
+		fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", levelCls, link)
 	case notionapi.BlockColumnList:
 		g.genColumnList(block)
-		// TODO: implement me
 	case notionapi.BlockCollectionView:
 		// TODO: implement me
 	default:

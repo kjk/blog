@@ -386,15 +386,26 @@ func copyCSS() {
 	panicIfErr(err)
 }
 
-func createNotionDirs() {
+func createNotionCacheDir() {
+	err := os.MkdirAll(cacheDir, 0755)
+	panicIfErr(err)
+}
+
+func createNotionLogDir() {
 	if logNotionRequests {
 		err := os.MkdirAll(notionLogDir, 0755)
 		panicIfErr(err)
 	}
-	{
-		err := os.MkdirAll(cacheDir, 0755)
-		panicIfErr(err)
-	}
+}
+
+func createDestDir() {
+	err := os.MkdirAll(destDir, 0755)
+	panicIfErr(err)
+}
+
+func createNotionDirs() {
+	createNotionLogDir()
+	createNotionCacheDir()
 }
 
 func removeCachedNotion() {
@@ -415,18 +426,38 @@ func notionRedownload() {
 	fmt.Printf("Loaded %d articles\n", len(articles))
 }
 
+func notionRedownloadOne(id string) {
+	id = normalizeID(id)
+	pageInfo, err := downloadAndCachePage(id)
+	panicIfErr(err)
+	fmt.Printf("Downloaded %s %s\n", id, pageInfo.Page.Title)
+}
+
 // downloads and html
 func testOneNotionPage() {
 	//id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
 	//id := "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle, devlog 2018
-	id := "484919a1647144c29234447ce408ff6b" // test toggle
+	//id := "484919a1647144c29234447ce408ff6b" // test toggle
+	id := "88aee8f43620471aa9dbcad28368174c" // test image and gist
 	createNotionDirs()
+	createDestDir()
+	useCacheForNotion = false
+
 	id = normalizeID(id)
 	article := loadPageAsArticle(id)
 	path := filepath.Join(destDir, "index.html")
 	err := ioutil.WriteFile(path, article.Body, 0644)
 	panicIfErr(err)
 	copyCSS()
+
+	err = os.Chdir(destDir)
+	panicIfErr(err)
+
+	go func() {
+		time.Sleep(time.Second * 1)
+		openBrowser("http://localhost:2015")
+	}()
+	runCaddy()
 }
 
 func testNotionToHTML() {
