@@ -43,6 +43,31 @@ func (g *HTMLGenerator) Gen() []byte {
 	return g.f.Bytes()
 }
 
+func isValidNotionID(id string) bool {
+	// TODO: more strict i.e. check all characters are hex
+	return len(id) == len("ea07db1b9bff415ab180b0525f3898f6")
+}
+
+// change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
+// =>
+// /article/${id}
+func maybeReplaceNotionLink(uri string) string {
+	if !strings.HasPrefix(uri, "https://www.notion.so/") {
+		return uri
+	}
+	parts := strings.Split(uri, "-")
+	n := len(parts)
+	if n < 2 {
+		return uri
+	}
+	id := normalizeID(parts[n-1])
+	if !isValidNotionID(id) {
+		return uri
+	}
+	// TODO: a way to lookup title of this page for nicer urls
+	return "/article/" + id + "/"
+}
+
 func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 	var start, close string
 	if b.AttrFlags&notionapi.AttrBold != 0 {
@@ -63,7 +88,8 @@ func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 	}
 	skipText := false
 	if b.Link != "" {
-		start += fmt.Sprintf(`<a href="%s">%s</a>`, b.Link, b.Text)
+		link := maybeReplaceNotionLink(b.Link)
+		start += fmt.Sprintf(`<a href="%s">%s</a>`, link, b.Text)
 		skipText = true
 	}
 	if b.UserID != "" {
