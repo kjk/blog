@@ -30,7 +30,7 @@ update_from_notion()
     git push
 }
 
-if [ "${TRAVIS_EVENT_TYPE}" == "cron"]; then
+if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
     update_from_notion
 else
     build
