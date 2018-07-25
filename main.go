@@ -98,25 +98,12 @@ func main() {
 	}
 
 	if false {
-		testOneNotionPage()
-		os.Exit(0)
-	}
-
-	if false {
-		testNotionToHTML()
-		os.Exit(0)
-	}
-
-	if false {
-		// redownload a single page
-		useCacheForNotion = false
-		createNotionDirs()
-		loadPageAsArticle("ea07db1b9bff415ab180b0525f3898f6")
+		testNotionToHTMLOnePage("dd5c0a813dfe4487a6cd432f82c0c2fc")
 		os.Exit(0)
 	}
 
 	if flgRedownloadNotion {
-		notionRedownload()
+		notionRedownloadAll()
 		return
 	}
 

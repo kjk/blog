@@ -417,7 +417,7 @@ func removeCachedNotion() {
 }
 
 // this re-downloads pages from Notion by deleting cache locally
-func notionRedownload() {
+func notionRedownloadAll() {
 	//notionapi.DebugLog = true
 	removeCachedNotion()
 
@@ -434,11 +434,11 @@ func notionRedownloadOne(id string) {
 }
 
 // downloads and html
-func testOneNotionPage() {
+func testNotionToHTMLOnePage(id string) {
 	//id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
 	//id := "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle, devlog 2018
 	//id := "484919a1647144c29234447ce408ff6b" // test toggle
-	id := "88aee8f43620471aa9dbcad28368174c" // test image and gist
+	//id := "88aee8f43620471aa9dbcad28368174c" // test image and gist
 	createNotionDirs()
 	createDestDir()
 	useCacheForNotion = false
@@ -458,23 +458,4 @@ func testOneNotionPage() {
 		openBrowser("http://localhost:2015")
 	}()
 	runCaddy()
-}
-
-func testNotionToHTML() {
-	createNotionDirs()
-	//notionapi.DebugLog = true
-	startPageID := normalizeID(notionWebsiteStartPage)
-	articles := loadNotionPages(startPageID)
-	fmt.Printf("Loaded %d articles\n", len(articles))
-
-	for _, article := range articles {
-		id := normalizeID(article.ID)
-		name := id + ".html"
-		if id == startPageID {
-			name = "index.html"
-		}
-		path := filepath.Join(destDir, name)
-		err := ioutil.WriteFile(path, article.Body, 0644)
-		panicIfErr(err)
-	}
 }
