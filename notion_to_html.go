@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"html"
 	"html/template"
 	"io"
 	"strconv"
@@ -126,6 +127,55 @@ func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close s
 	g.genContent(block)
 	g.level--
 	g.writeString(close + "\n")
+}
+
+func (g *HTMLGenerator) genCollectionView(block *notionapi.Block) {
+	viewInfo := block.CollectionViews[0]
+	view := viewInfo.CollectionView
+	columns := view.Format.TableProperties
+	s := `<table class="notion-table"><thead><tr>`
+	for _, col := range columns {
+		colName := col.Property
+		colInfo := viewInfo.Collection.CollectionSchema[colName]
+		name := colInfo.Name
+		s += `<th>` + html.EscapeString(name) + `</th>`
+	}
+	s += `</tr></thead>`
+	s += `<tbody>`
+	for _, row := range viewInfo.CollectionRows {
+		s += `<tr>`
+		props := row.Properties
+		for _, col := range columns {
+			colName := col.Property
+			v := props[colName]
+			colVal := "no val"
+			a, ok := v.([]interface{})
+			if !ok {
+				colVal = fmt.Sprintf("type1: %T", v)
+			} else {
+				v = a[0]
+				a, ok = v.([]interface{})
+				if !ok {
+					colVal = fmt.Sprintf("type2: %T", v)
+				} else {
+					v = a[0]
+					str, ok := v.(string)
+					if !ok {
+						colVal = fmt.Sprintf("type3: %T", v)
+					} else {
+						colVal = str
+					}
+				}
+			}
+			//colInfo := viewInfo.Collection.CollectionSchema[colName]
+			// TODO: format colVal according to colInfo
+			s += `<td>` + html.EscapeString(colVal) + `</td>`
+		}
+		s += `</tr>`
+	}
+	s += `</tbody>`
+	s += `</table>`
+	g.writeString(s)
 }
 
 // Children of BlockColumnList are BlockColumn blocks
@@ -281,7 +331,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	case notionapi.BlockColumnList:
 		g.genColumnList(block)
 	case notionapi.BlockCollectionView:
-		// TODO: implement me
+		g.genCollectionView(block)
 	default:
 		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
 		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))

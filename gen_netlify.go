@@ -317,11 +317,6 @@ func netlifyBuild() {
 		logVerbose("%d articles\n", len(notionIDToArticle))
 		for _, article := range notionIDToArticle {
 
-			coverImage := ""
-			if article.HeaderImageURL != "" {
-				coverImage = article.HeaderImageURL
-			}
-
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
 				AnalyticsCode      string
@@ -341,7 +336,7 @@ func netlifyBuild() {
 				AnalyticsCode:      analyticsCode,
 				Article:            article,
 				CanonicalURL:       canonicalURL,
-				CoverImage:         coverImage,
+				CoverImage:         article.HeaderImageURL,
 				PageTitle:          article.Title,
 				Description:        article.Description,
 				TwitterShareURL:    makeTwitterShareURL(article),
