@@ -155,9 +155,19 @@ table.notion-table {
   background-color: white;
 }
 
+table.notion-table th {
+  color: rgb(165, 165, 165);
+  font-weight: normal;
+  border-right: 1px solid rgb(243, 243, 243);
+  border-bottom: 1px solid rgb(221, 225, 227);
+  border-top: 1px solid rgb(221, 225, 227);
+}
+
 table.notion-table td {
-  padding-right: 16px;
-  /* background-color: lightcyan; */
+  border-right: 1px solid rgb(243, 243, 243);
+  border-bottom: 1px solid rgb(221, 225, 227);
+  padding: 1px 8px 1px;
+  margin: 0px;
 }
 
 .ad {
