@@ -129,6 +129,48 @@ func (g *HTMLGenerator) genBlockSurrouded(block *notionapi.Block, start, close s
 	g.writeString(close + "\n")
 }
 
+/*
+v is expected to be
+[
+	[
+		"foo"
+	]
+]
+and we want to return "foo"
+If not present or unexpected shape, return ""
+is still visible
+*/
+func propsValueToText(v interface{}) string {
+	if v == nil {
+		return ""
+	}
+
+	// [ [ "foo" ]]
+	a, ok := v.([]interface{})
+	if !ok {
+		return fmt.Sprintf("type1: %T", v)
+	}
+	// [ "foo" ]
+	if len(a) == 0 {
+		return ""
+	}
+	v = a[0]
+	a, ok = v.([]interface{})
+	if !ok {
+		return fmt.Sprintf("type2: %T", v)
+	}
+	// "foo"
+	if len(a) == 0 {
+		return ""
+	}
+	v = a[0]
+	str, ok := v.(string)
+	if !ok {
+		return fmt.Sprintf("type3: %T", v)
+	}
+	return str
+}
+
 func (g *HTMLGenerator) genCollectionView(block *notionapi.Block) {
 	viewInfo := block.CollectionViews[0]
 	view := viewInfo.CollectionView
@@ -148,28 +190,16 @@ func (g *HTMLGenerator) genCollectionView(block *notionapi.Block) {
 		for _, col := range columns {
 			colName := col.Property
 			v := props[colName]
-			colVal := "no val"
-			a, ok := v.([]interface{})
-			if !ok {
-				colVal = fmt.Sprintf("type1: %T", v)
+			colVal := propsValueToText(v)
+			if colVal == "" {
+				// use &nbsp; so that empty row still shows up
+				// could also set a min-height to 1em or sth. like that
+				s += `<td>&nbsp;</td>`
 			} else {
-				v = a[0]
-				a, ok = v.([]interface{})
-				if !ok {
-					colVal = fmt.Sprintf("type2: %T", v)
-				} else {
-					v = a[0]
-					str, ok := v.(string)
-					if !ok {
-						colVal = fmt.Sprintf("type3: %T", v)
-					} else {
-						colVal = str
-					}
-				}
+				//colInfo := viewInfo.Collection.CollectionSchema[colName]
+				// TODO: format colVal according to colInfo
+				s += `<td>` + html.EscapeString(colVal) + `</td>`
 			}
-			//colInfo := viewInfo.Collection.CollectionSchema[colName]
-			// TODO: format colVal according to colInfo
-			s += `<td>` + html.EscapeString(colVal) + `</td>`
 		}
 		s += `</tr>`
 	}

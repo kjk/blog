@@ -97,9 +97,8 @@ func main() {
 		os.Exit(0)
 	}
 
-	if false {
-		// https://www.notion.so/Comparing-prices-of-VPS-servers-dd5c0a813dfe4487a6cd432f82c0c2fc
-		testNotionToHTMLOnePage("dd5c0a813dfe4487a6cd432f82c0c2fc")
+	if true {
+		testNotionToHTMLOnePage("f3dfcf36fb46412980b8efa4336c0ea5")
 		os.Exit(0)
 	}
 
