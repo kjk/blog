@@ -92,13 +92,32 @@ func netlifyRequestGetFullHost() string {
 	return "https://blog.kowalczyk.info"
 }
 
-func makeShareHTML(article *Article) string {
+// https://www.linkedin.com/shareArticle?mini=true&;url=https://nodesource.com/blog/why-the-new-v8-is-so-damn-fast"
+func makeLinkedinShareURL(article *Article) string {
+	uri := netlifyRequestGetFullHost() + article.URL()
+	uri = url.QueryEscape(uri)
+	return fmt.Sprintf(`https://www.linkedin.com/shareArticle?mini=true&url=%s`, uri)
+}
+
+// https://www.facebook.com/sharer/sharer.php?u=https://nodesource.com/blog/why-the-new-v8-is-so-damn-fast
+func makeFacebookShareURL(article *Article) string {
+	uri := netlifyRequestGetFullHost() + article.URL()
+	uri = url.QueryEscape(uri)
+	return fmt.Sprintf(`https://www.facebook.com/sharer/sharer.php?u=%s`, uri)
+}
+
+// https://plus.google.com/share?url=https://nodesource.com/blog/why-the-new-v8-is-so-damn-fast
+func makeGooglePlusShareURL(article *Article) string {
+	uri := netlifyRequestGetFullHost() + article.URL()
+	uri = url.QueryEscape(uri)
+	return fmt.Sprintf(`https://plus.google.com/share?url=%s`, uri)
+}
+
+func makeTwitterShareURL(article *Article) string {
 	title := url.QueryEscape(article.Title)
 	uri := netlifyRequestGetFullHost() + article.URL()
 	uri = url.QueryEscape(uri)
-	shareURL := fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
-	followURL := `https://twitter.com/intent/follow?user_id=3194001`
-	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
+	return fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
 }
 
 func getArticleByID(articleID string) *Article {
@@ -297,7 +316,6 @@ func netlifyBuild() {
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 		logVerbose("%d articles\n", len(notionIDToArticle))
 		for _, article := range notionIDToArticle {
-			shareHTML := makeShareHTML(article)
 
 			coverImage := ""
 			if article.HeaderImageURL != "" {
@@ -306,24 +324,30 @@ func netlifyBuild() {
 
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
-				AnalyticsCode  string
-				Article        *Article
-				CanonicalURL   string
-				CoverImage     string
-				PageTitle      string
-				ShareHTML      template.HTML
-				TagsDisplay    string
-				HeaderImageURL string
-				NotionEditURL  string
-				Description    string
+				AnalyticsCode      string
+				Article            *Article
+				CanonicalURL       string
+				CoverImage         string
+				PageTitle          string
+				TagsDisplay        string
+				HeaderImageURL     string
+				NotionEditURL      string
+				Description        string
+				TwitterShareURL    string
+				FacebookShareURL   string
+				LinkedInShareURL   string
+				GooglePlusShareURL string
 			}{
-				AnalyticsCode: analyticsCode,
-				Article:       article,
-				CanonicalURL:  canonicalURL,
-				CoverImage:    coverImage,
-				PageTitle:     article.Title,
-				ShareHTML:     template.HTML(shareHTML),
-				Description:   article.Description,
+				AnalyticsCode:      analyticsCode,
+				Article:            article,
+				CanonicalURL:       canonicalURL,
+				CoverImage:         coverImage,
+				PageTitle:          article.Title,
+				Description:        article.Description,
+				TwitterShareURL:    makeTwitterShareURL(article),
+				FacebookShareURL:   makeFacebookShareURL(article),
+				LinkedInShareURL:   makeLinkedinShareURL(article),
+				GooglePlusShareURL: makeGooglePlusShareURL(article),
 			}
 			if article.pageInfo != nil {
 				id := normalizeID(article.pageInfo.ID)
