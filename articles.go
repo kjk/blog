@@ -40,8 +40,8 @@ type Article struct {
 	UpdatedOn      time.Time
 	Title          string
 	Tags           []string
-	Body           []byte
 	BodyHTML       string
+	HTMLBody       template.HTML
 	HeaderImageURL string
 	Collection     string
 	CollectionURL  string
@@ -51,8 +51,6 @@ type Article struct {
 	// if true, this belongs to blog i.e. will be present in atom.xml
 	// and listed in blog section
 	inBlog bool
-
-	HTMLBody template.HTML
 
 	page *notionapi.Page
 }
@@ -415,8 +413,8 @@ func loadArticles() *Articles {
 	}
 
 	for _, article := range res.articles {
-		article.Body = notionToHTML(article.page, res)
-		article.BodyHTML = string(article.Body)
+		html := notionToHTML(article.page, res)
+		article.BodyHTML = string(html)
 		article.HTMLBody = template.HTML(article.BodyHTML)
 	}
 
