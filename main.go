@@ -38,9 +38,9 @@ func logVerbose(format string, args ...interface{}) {
 func rebuildAll() {
 	regenMd()
 	loadTemplates()
-	loadAllArticles()
-	readRedirects()
-	netlifyBuild()
+	articles := loadArticles()
+	readRedirects(articles)
+	netlifyBuild(articles)
 }
 
 // caddy -log stdout

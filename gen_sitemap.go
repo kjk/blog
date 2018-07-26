@@ -38,8 +38,8 @@ var staticURLS = []string{
 	"/documents.html",
 }
 
-func genSiteMap(host string) ([]byte, error) {
-	articles := blogArticles // TODO: this should be all articles
+func genSiteMap(store *Articles, host string) ([]byte, error) {
+	articles := store.articles
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {

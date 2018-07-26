@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"html/template"
-	"log"
 	"path/filepath"
 	"sort"
 	"strconv"
@@ -15,14 +14,6 @@ import (
 )
 
 var (
-	// maps notion page ID to *Article
-	notionIDToArticle map[string]*Article
-	// maps id to *Article. id can either be notion page ID
-	// or shorter, legacy id
-	idToArticle   map[string]*Article
-	storeArticles []*Article
-	blogArticles  []*Article
-
 	notionBlogsStartPage      = "300db9dc27c84958a08b8d0c37f4cfe5"
 	notionWebsiteStartPage    = "568ac4c064c34ef6a6ad0b8d77230681"
 	notionGoCookbookStartPage = "7495260a1daa46118858ad2e049e77e6"
@@ -66,6 +57,16 @@ type Article struct {
 	HTMLBody template.HTML
 
 	pageInfo *notionapi.PageInfo
+}
+
+// Articles has info about all articles downloaded from notion
+type Articles struct {
+	idToArticle map[string]*Article
+	idToPage    map[string]*notionapi.PageInfo
+	// all downloaded articles
+	articles []*Article
+	// articles that belong to a blog
+	blog []*Article
 }
 
 // URL returns article's permalink
@@ -337,9 +338,48 @@ func addIDToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block)
 	}
 }
 
-func updateArticlesPaths(articles []*Article, rootPageID string) {
+func buildArticleNavigation(article *Article, isRootPage func(string) bool, idToBlock map[string]*notionapi.Block) {
+	// some already have path (e.g. those that belong to a collection)
+	if len(article.Paths) > 0 {
+		return
+	}
+
+	page := article.pageInfo.Page
+	currID := normalizeID(page.ParentID)
+
+	var paths []URLPath
+	for !isRootPage(currID) {
+		block := idToBlock[currID]
+		if block == nil {
+			break
+		}
+		// parent could be a column
+		if block.Type != notionapi.BlockPage {
+			currID = normalizeID(block.ParentID)
+			continue
+		}
+		title := block.Title
+		uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
+		path := URLPath{
+			Name: title,
+			URL:  uri,
+		}
+		paths = append(paths, path)
+		currID = normalizeID(block.ParentID)
+	}
+
+	// set in reverse order
+	n := len(paths)
+	for i := 1; i <= n; i++ {
+		path := paths[n-i]
+		article.Paths = append(article.Paths, path)
+	}
+}
+
+// build navigation bread-crumbs for articles
+func buildArticlesNavigation(articles *Articles) {
 	idToBlock := map[string]*notionapi.Block{}
-	for _, a := range articles {
+	for _, a := range articles.articles {
 		page := a.pageInfo
 		if page == nil {
 			continue
@@ -347,111 +387,46 @@ func updateArticlesPaths(articles []*Article, rootPageID string) {
 		addIDToBlock(page.Page, idToBlock)
 	}
 
-	for _, article := range articles {
-		// some already have path (e.g. those that belong to a collection)
-		if len(article.Paths) > 0 {
-			continue
+	isRoot := func(id string) bool {
+		id = normalizeID(id)
+		switch id {
+		case notionBlogsStartPage, notionWebsiteStartPage, notionGoCookbookStartPage:
+			return true
 		}
-		currID := normalizeID(article.pageInfo.Page.ParentID)
-		var paths []URLPath
-		for currID != rootPageID {
-			block := idToBlock[currID]
-			if block == nil {
-				break
-			}
-			// parent could be a column
-			if block.Type != notionapi.BlockPage {
-				currID = normalizeID(block.ParentID)
-				continue
-			}
-			title := block.Title
-			uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
-			path := URLPath{
-				Name: title,
-				URL:  uri,
-			}
-			paths = append(paths, path)
-			currID = normalizeID(block.ParentID)
-		}
-		n := len(paths)
-		for i := 1; i <= n; i++ {
-			path := paths[n-i]
-			article.Paths = append(article.Paths, path)
-		}
+		return false
+	}
+
+	for _, article := range articles.articles {
+		buildArticleNavigation(article, isRoot, idToBlock)
 	}
 }
 
-func loadNotionPagesAsArticles(indexPageID string) []*Article {
-	pages := loadNotionPages(indexPageID, useCacheForNotion)
-	articles := notionPagesToArticles(pages)
-	updateArticlesPaths(articles, indexPageID)
-	return articles
-}
+func loadArticles() *Articles {
+	res := &Articles{}
+	startIDs := []string{notionBlogsStartPage, notionGoCookbookStartPage, notionWebsiteStartPage}
+	res.idToPage = loadAllPages(startIDs, useCacheForNotion)
 
-func notionPagesToArticles(pages map[string]*notionapi.PageInfo) []*Article {
-	var articles []*Article
-	for _, page := range pages {
-		articles = append(articles, notionPageToArticle(page))
-	}
-	return articles
-}
-
-func buildIDToArticle(articles []*Article) {
-	for _, article := range articles {
-		page := article.pageInfo
-		if page != nil {
-			id := normalizeID(page.ID)
-			notionIDToArticle[id] = article
+	res.idToArticle = map[string]*Article{}
+	for id, page := range res.idToPage {
+		panicIf(id != normalizeID(id), "bad id '%s' sneaked in", id)
+		article := notionPageToArticle(page)
+		res.idToArticle[id] = article
+		// this might be legacy, short id. If not, we just set the same value twice
+		articleID := article.ID
+		res.idToArticle[articleID] = article
+		if article.IsBlog() {
+			res.blog = append(res.blog, article)
 		}
-	}
-}
-
-func loadAllArticles() {
-	notionIDToArticle = make(map[string]*Article)
-
-	{
-		articles := loadNotionPagesAsArticles(notionBlogsStartPage)
-		buildIDToArticle(articles)
-		fmt.Printf("Loaded %d blog articles\n\n", len(articles))
+		res.articles = append(res.articles, article)
 	}
 
-	{
-		articles := loadNotionPagesAsArticles(notionGoCookbookStartPage)
-		buildIDToArticle(articles)
-		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
-	}
+	buildArticlesNavigation(res)
 
-	{
-		articles := loadNotionPagesAsArticles(notionWebsiteStartPage)
-		buildIDToArticle(articles)
-		fmt.Printf("Loaded %d website articles\n", len(articles))
-	}
-
-	for _, a := range notionIDToArticle {
-		if a.IsBlog() {
-			blogArticles = append(blogArticles, a)
-		}
-	}
-	sort.Slice(blogArticles, func(i, j int) bool {
-		return blogArticles[i].PublishedOn.After(blogArticles[j].PublishedOn)
+	sort.Slice(res.blog, func(i, j int) bool {
+		return res.blog[i].PublishedOn.After(res.blog[j].PublishedOn)
 	})
 
-	var articles []*Article
-	for _, a := range notionIDToArticle {
-		articles = append(articles, a)
-	}
-
-	storeArticles = articles
-
-	panicIf(idToArticle != nil, "idToArticle not nil")
-	idToArticle = make(map[string]*Article)
-	for _, a := range articles {
-		curr := idToArticle[a.ID]
-		if curr != nil {
-			log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.OrigPath, a.OrigPath)
-		}
-		idToArticle[a.ID] = a
-	}
+	return res
 }
 
 // MonthArticle combines article and a month

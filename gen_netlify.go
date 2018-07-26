@@ -32,8 +32,8 @@ func copyAndSortArticles(articles []*Article) []*Article {
 	return res
 }
 
-func genAtomXML(excludeNotes bool) ([]byte, error) {
-	articles := blogArticles
+func genAtomXML(store *Articles, excludeNotes bool) ([]byte, error) {
+	articles := store.blog
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
@@ -120,10 +120,6 @@ func makeTwitterShareURL(article *Article) string {
 	return fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
 }
 
-func getArticleByID(articleID string) *Article {
-	return idToArticle[articleID]
-}
-
 // TagInfo represents a single tag for articles
 type TagInfo struct {
 	URL   string
@@ -172,9 +168,9 @@ func buildTags(articles []*Article) []*TagInfo {
 	return res
 }
 
-func netlifyWriteArticlesArchiveForTag(tag string) {
+func netlifyWriteArticlesArchiveForTag(store *Articles, tag string) {
 	path := "/archives.html"
-	articles := blogArticles
+	articles := store.blog
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 		// must manually resolve conflict due to urlify
@@ -215,7 +211,7 @@ func skipTmplFiles(path string) bool {
 	return false
 }
 
-func netlifyBuild() {
+func netlifyBuild(store *Articles) {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
 	panicIfErr(err)
@@ -257,12 +253,12 @@ func netlifyBuild() {
 
 	{
 		// /
-		articles := blogArticles
+		articles := store.blog
 		if len(articles) > 5 {
 			articles = articles[:5]
 		}
 		articleCount := len(articles)
-		websiteIndexPage := notionIDToArticle[notionWebsiteStartPage]
+		websiteIndexPage := store.idToArticle[notionWebsiteStartPage]
 		model := struct {
 			AnalyticsCode string
 			Article       *Article
@@ -282,7 +278,7 @@ func netlifyBuild() {
 	// TODO: maybe just use /archive.html
 	{
 		// /blogindex.html
-		articles := blogArticles
+		articles := store.blog
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -300,22 +296,22 @@ func netlifyBuild() {
 
 	{
 		// /atom.xml
-		d, err := genAtomXML(true)
+		d, err := genAtomXML(store, true)
 		panicIfErr(err)
 		netlifyWriteFile("/atom.xml", d)
 	}
 
 	{
 		// /atom-all.xml
-		d, err := genAtomXML(false)
+		d, err := genAtomXML(store, false)
 		panicIfErr(err)
 		netlifyWriteFile("/atom-all.xml", d)
 	}
 
 	{
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
-		logVerbose("%d articles\n", len(notionIDToArticle))
-		for _, article := range notionIDToArticle {
+		logVerbose("%d articles\n", len(store.idToPage))
+		for _, article := range store.articles {
 
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
@@ -357,21 +353,21 @@ func netlifyBuild() {
 
 	{
 		// /archives.html
-		netlifyWriteArticlesArchiveForTag("")
+		netlifyWriteArticlesArchiveForTag(store, "")
 		tags := map[string]struct{}{}
-		for _, article := range blogArticles {
+		for _, article := range store.blog {
 			for _, tag := range article.Tags {
 				tags[tag] = struct{}{}
 			}
 		}
 		for tag := range tags {
-			netlifyWriteArticlesArchiveForTag(tag)
+			netlifyWriteArticlesArchiveForTag(store, tag)
 		}
 	}
 
 	{
 		// /sitemap.xml
-		data, err := genSiteMap("https://blog.kowalczyk.info")
+		data, err := genSiteMap(store, "https://blog.kowalczyk.info")
 		panicIfErr(err)
 		netlifyWriteFile("/sitemap.xml", data)
 	}
@@ -425,7 +421,7 @@ func netlifyBuild() {
 
 	// no longer care about /worklog
 
-	netlifyAddArticleRedirects()
+	netlifyAddArticleRedirects(store)
 	netlifyWriteRedirects()
 	writeCaddyConfig()
 }

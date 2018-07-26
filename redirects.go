@@ -588,7 +588,7 @@ var redirects = [][]string{
 
 var articleRedirects = make(map[string]string)
 
-func readRedirects() {
+func readRedirects(store *Articles) {
 	d := []byte(articleRedirectsTxt)
 	lines := bytes.Split(d, []byte{'\n'})
 	for _, l := range lines {
@@ -602,7 +602,7 @@ func readRedirects() {
 		idNum, err := strconv.Atoi(idStr)
 		panicIf(err != nil, "malformed line in article_redirects.txt. Line:\n%s\nError: %s\n", l, err)
 		id := u.EncodeBase64(idNum)
-		a := getArticleByID(id)
+		a := store.idToArticle[id]
 		if a != nil {
 			articleRedirects[url] = id
 			continue
@@ -651,10 +651,10 @@ func netlifyAddStaticRedirects() {
 	}
 }
 
-func netlifyAddArticleRedirects() {
+func netlifyAddArticleRedirects(store *Articles) {
 	for from, articleID := range articleRedirects {
 		from = "/" + from
-		article := getArticleByID(articleID)
+		article := store.idToArticle[articleID]
 		panicIf(article == nil, "didn't find article for id '%s'", articleID)
 		to := article.URL()
 		netflifyAddTempRedirect(from, to) // TODO: change to permanent

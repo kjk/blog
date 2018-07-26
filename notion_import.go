@@ -126,28 +126,37 @@ func loadNotionPage(pageID string, getFromCache bool) (*notionapi.PageInfo, erro
 
 }
 
-func loadNotionPages(indexPageID string, useCache bool) map[string]*notionapi.PageInfo {
-	res := map[string]*notionapi.PageInfo{}
+func loadNotionPages(indexPageID string, idToPage map[string]*notionapi.PageInfo, useCache bool) {
 	toVisit := []string{indexPageID}
 
 	for len(toVisit) > 0 {
 		pageID := normalizeID(toVisit[0])
 		toVisit = toVisit[1:]
 
-		if _, ok := res[pageID]; ok {
+		if _, ok := idToPage[pageID]; ok {
 			continue
 		}
 
 		page, err := loadNotionPage(pageID, useCache)
 		panicIfErr(err)
 
-		res[pageID] = page
+		idToPage[pageID] = page
 
 		subPages := findSubPageIDs(page.Page.Content)
 		toVisit = append(toVisit, subPages...)
 	}
+}
 
-	return res
+func loadAllPages(startIDs []string, useCache bool) map[string]*notionapi.PageInfo {
+	idToPage := map[string]*notionapi.PageInfo{}
+	nPrev := 0
+	for _, startID := range startIDs {
+		loadNotionPages(startID, idToPage, useCache)
+		nDownloaded := len(idToPage) - nPrev
+		fmt.Printf("Downloaded %d pages\n", nDownloaded)
+		nPrev = len(idToPage)
+	}
+	return idToPage
 }
 
 func rmFile(path string) {
@@ -193,9 +202,8 @@ func notionRedownloadAll() {
 	//notionapi.DebugLog = true
 	removeCachedNotion()
 
-	loadAllArticles()
-	articles := storeArticles
-	fmt.Printf("Loaded %d articles\n", len(articles))
+	articles := loadArticles()
+	fmt.Printf("Loaded %d articles\n", len(articles.idToPage))
 }
 
 func notionRedownloadOne(id string) {
