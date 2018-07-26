@@ -66,9 +66,13 @@ func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
 	if !isValidNotionID(id) {
 		return uri
 	}
+	article := g.idToArticle(id)
 	id = g.maybeReplaceID(id)
-	// TODO: a way to lookup title of this page for nicer urls
-	return "/article/" + id + "/"
+	title := ""
+	if article != nil {
+		title = urlify(article.Title)
+	}
+	return "/article/" + id + "/" + title
 }
 
 func (g *HTMLGenerator) maybeReplaceID(id string) string {
@@ -82,7 +86,7 @@ func (g *HTMLGenerator) maybeReplaceID(id string) string {
 	}
 
 	if id != article.ID {
-		fmt.Printf("id chagne: %s => %s\n", id, article.ID)
+		//fmt.Printf("id change: %s => %s\n", id, article.ID)
 		return article.ID
 	}
 	return id
