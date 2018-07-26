@@ -22,6 +22,10 @@ var (
 	idToArticle   map[string]*Article
 	storeArticles []*Article
 	blogArticles  []*Article
+
+	notionBlogsStartPage      = "300db9dc27c84958a08b8d0c37f4cfe5"
+	notionWebsiteStartPage    = "568ac4c064c34ef6a6ad0b8d77230681"
+	notionGoCookbookStartPage = "7495260a1daa46118858ad2e049e77e6"
 )
 
 // for Article.Status
@@ -167,6 +171,149 @@ func setHeaderImageMust(article *Article, val string) {
 	article.HeaderImageURL = netlifyRequestGetFullHost() + val
 }
 
+func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
+	blocks := pageInfo.Page.Content
+	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
+	// metadata blocks are always at the beginning. They are TypeText blocks and
+	// have only one plain string as content
+	page := pageInfo.Page
+	title := page.Title
+	id := normalizeID(page.ID)
+	article := &Article{
+		pageInfo: pageInfo,
+		Title:    title,
+	}
+	nBlock := 0
+	var publishedOn time.Time
+	var err error
+	endLoop := false
+	for len(blocks) > 0 {
+		block := blocks[0]
+		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
+
+		if block.Type != notionapi.BlockText {
+			//fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+			break
+		}
+
+		if len(block.InlineContent) == 0 {
+			//fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+			blocks = blocks[1:]
+			break
+		} else {
+			//fmt.Printf("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
+		}
+
+		inline := block.InlineContent[0]
+		// must be plain text
+		if !inline.IsPlain() {
+			//fmt.Printf("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
+			break
+		}
+
+		// remove empty lines at the top
+		s := strings.TrimSpace(inline.Text)
+		if s == "" {
+			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			blocks = blocks[2:]
+			break
+		}
+		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
+
+		parts := strings.SplitN(s, ":", 2)
+		if len(parts) != 2 {
+			//fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
+			break
+		}
+		key := strings.ToLower(strings.TrimSpace(parts[0]))
+		val := strings.TrimSpace(parts[1])
+		switch key {
+		case "tags":
+			article.Tags = parseTags(val)
+			//fmt.Printf("Tags: %v\n", res.Tags)
+		case "id":
+			articleSetID(article, val)
+			//fmt.Printf("ID: %s\n", res.ID)
+		case "publishedon":
+			publishedOn, err = parseDate(val)
+			panicIfErr(err)
+			article.inBlog = true
+		case "date", "createdat":
+			article.PublishedOn, err = parseDate(val)
+			panicIfErr(err)
+			article.inBlog = true
+		case "updatedat":
+			article.UpdatedOn, err = parseDate(val)
+			panicIfErr(err)
+		case "status":
+			setStatusMust(article, val)
+		case "description":
+			article.Description = val
+			//fmt.Printf("Description: %s\n", res.Description)
+		case "headerimage":
+			setHeaderImageMust(article, val)
+		case "collection":
+			setCollectionMust(article, val)
+		default:
+			// assume that unrecognized meta means this article doesn't have
+			// proper meta tags. It might miss meta-tags that are badly named
+			endLoop = true
+			/*
+				rmCached(pageInfo.ID)
+				title := pageInfo.Page.Title
+				panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(pageInfo.ID), title)
+			*/
+		}
+		if endLoop {
+			break
+		}
+		blocks = blocks[1:]
+		nBlock++
+	}
+	page.Content = blocks
+
+	// PublishedOn over-writes Date and CreatedAt
+	if !publishedOn.IsZero() {
+		// TODO: use pageInfo.Page.CreatedTime if publishedOn.IsZero()
+		article.PublishedOn = publishedOn
+	}
+
+	if article.UpdatedOn.IsZero() {
+		article.UpdatedOn = article.PublishedOn
+	}
+
+	if article.PublishedOn.IsZero() {
+		article.PublishedOn = page.CreatedOn()
+	}
+
+	if article.UpdatedOn.IsZero() {
+		article.UpdatedOn = page.UpdatedOn()
+	}
+
+	if article.ID == "" {
+		article.ID = id
+	}
+
+	article.Body = notionToHTML(pageInfo)
+	article.BodyHTML = string(article.Body)
+	article.HTMLBody = template.HTML(article.BodyHTML)
+
+	if article.Collection != "" {
+		path := URLPath{
+			Name: article.Collection,
+			URL:  article.CollectionURL,
+		}
+		article.Paths = append(article.Paths, path)
+	}
+
+	format := page.FormatPage
+	// set image header from cover page
+	if article.HeaderImageURL == "" && format != nil && format.PageCoverURL != "" {
+		article.HeaderImageURL = format.PageCoverURL
+	}
+	return article
+}
+
 func articleSetID(a *Article, v string) {
 	// we handle 2 types of ids:
 	// - blog posts from articles/ directory have integer id
@@ -179,21 +326,104 @@ func articleSetID(a *Article, v string) {
 	}
 }
 
+func addIDToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block) {
+	id := normalizeID(block.ID)
+	idToBlock[id] = block
+	for _, block := range block.Content {
+		if block == nil {
+			continue
+		}
+		addIDToBlock(block, idToBlock)
+	}
+}
+
+func updateArticlesPaths(articles []*Article, rootPageID string) {
+	idToBlock := map[string]*notionapi.Block{}
+	for _, a := range articles {
+		page := a.pageInfo
+		if page == nil {
+			continue
+		}
+		addIDToBlock(page.Page, idToBlock)
+	}
+
+	for _, article := range articles {
+		// some already have path (e.g. those that belong to a collection)
+		if len(article.Paths) > 0 {
+			continue
+		}
+		currID := normalizeID(article.pageInfo.Page.ParentID)
+		var paths []URLPath
+		for currID != rootPageID {
+			block := idToBlock[currID]
+			if block == nil {
+				break
+			}
+			// parent could be a column
+			if block.Type != notionapi.BlockPage {
+				currID = normalizeID(block.ParentID)
+				continue
+			}
+			title := block.Title
+			uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
+			path := URLPath{
+				Name: title,
+				URL:  uri,
+			}
+			paths = append(paths, path)
+			currID = normalizeID(block.ParentID)
+		}
+		n := len(paths)
+		for i := 1; i <= n; i++ {
+			path := paths[n-i]
+			article.Paths = append(article.Paths, path)
+		}
+	}
+}
+
+func loadNotionPagesAsArticles(indexPageID string) []*Article {
+	pages := loadNotionPages(indexPageID, useCacheForNotion)
+	articles := notionPagesToArticles(pages)
+	updateArticlesPaths(articles, indexPageID)
+	return articles
+}
+
+func notionPagesToArticles(pages map[string]*notionapi.PageInfo) []*Article {
+	var articles []*Article
+	for _, page := range pages {
+		articles = append(articles, notionPageToArticle(page))
+	}
+	return articles
+}
+
+func buildIDToArticle(articles []*Article) {
+	for _, article := range articles {
+		page := article.pageInfo
+		if page != nil {
+			id := normalizeID(page.ID)
+			notionIDToArticle[id] = article
+		}
+	}
+}
+
 func loadAllArticles() {
 	notionIDToArticle = make(map[string]*Article)
 
 	{
-		articles := loadNotionPages(notionBlogsStartPage)
+		articles := loadNotionPagesAsArticles(notionBlogsStartPage)
+		buildIDToArticle(articles)
 		fmt.Printf("Loaded %d blog articles\n\n", len(articles))
 	}
 
 	{
-		articles := loadNotionPages(notionGoCookbookStartPage)
+		articles := loadNotionPagesAsArticles(notionGoCookbookStartPage)
+		buildIDToArticle(articles)
 		fmt.Printf("Loaded %d go cookbook articles\n\n", len(articles))
 	}
 
 	{
-		articles := loadNotionPages(notionWebsiteStartPage)
+		articles := loadNotionPagesAsArticles(notionWebsiteStartPage)
+		buildIDToArticle(articles)
 		fmt.Printf("Loaded %d website articles\n", len(articles))
 	}
 
