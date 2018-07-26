@@ -340,8 +340,8 @@ func netlifyBuild(store *Articles) {
 				LinkedInShareURL:   makeLinkedinShareURL(article),
 				GooglePlusShareURL: makeGooglePlusShareURL(article),
 			}
-			if article.pageInfo != nil {
-				id := normalizeID(article.pageInfo.ID)
+			if article.page != nil {
+				id := normalizeID(article.page.ID)
 				model.NotionEditURL = "https://notion.so/" + id
 			}
 

@@ -56,13 +56,13 @@ type Article struct {
 
 	HTMLBody template.HTML
 
-	pageInfo *notionapi.PageInfo
+	page *notionapi.Page
 }
 
 // Articles has info about all articles downloaded from notion
 type Articles struct {
 	idToArticle map[string]*Article
-	idToPage    map[string]*notionapi.PageInfo
+	idToPage    map[string]*notionapi.Page
 	// all downloaded articles
 	articles []*Article
 	// articles that belong to a blog
@@ -172,17 +172,17 @@ func setHeaderImageMust(article *Article, val string) {
 	article.HeaderImageURL = netlifyRequestGetFullHost() + val
 }
 
-func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
-	blocks := pageInfo.Page.Content
+func notionPageToArticle(page *notionapi.Page) *Article {
+	blocks := page.Root.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
-	page := pageInfo.Page
-	title := page.Title
-	id := normalizeID(page.ID)
+	root := page.Root
+	title := root.Title
+	id := normalizeID(root.ID)
 	article := &Article{
-		pageInfo: pageInfo,
-		Title:    title,
+		page:  page,
+		Title: title,
 	}
 	nBlock := 0
 	var publishedOn time.Time
@@ -260,9 +260,9 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 			// proper meta tags. It might miss meta-tags that are badly named
 			endLoop = true
 			/*
-				rmCached(pageInfo.ID)
-				title := pageInfo.Page.Title
-				panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(pageInfo.ID), title)
+				rmCached(page.ID)
+				title := page.Page.Title
+				panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(page.ID), title)
 			*/
 		}
 		if endLoop {
@@ -271,11 +271,11 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 		blocks = blocks[1:]
 		nBlock++
 	}
-	page.Content = blocks
+	root.Content = blocks
 
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
-		// TODO: use pageInfo.Page.CreatedTime if publishedOn.IsZero()
+		// TODO: use page.Root.CreatedTime if publishedOn.IsZero()
 		article.PublishedOn = publishedOn
 	}
 
@@ -284,11 +284,11 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 	}
 
 	if article.PublishedOn.IsZero() {
-		article.PublishedOn = page.CreatedOn()
+		article.PublishedOn = root.CreatedOn()
 	}
 
 	if article.UpdatedOn.IsZero() {
-		article.UpdatedOn = page.UpdatedOn()
+		article.UpdatedOn = root.UpdatedOn()
 	}
 
 	if article.ID == "" {
@@ -303,7 +303,7 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 		article.Paths = append(article.Paths, path)
 	}
 
-	format := page.FormatPage
+	format := root.FormatPage
 	// set image header from cover page
 	if article.HeaderImageURL == "" && format != nil && format.PageCoverURL != "" {
 		article.HeaderImageURL = format.PageCoverURL
@@ -340,7 +340,7 @@ func buildArticleNavigation(article *Article, isRootPage func(string) bool, idTo
 		return
 	}
 
-	page := article.pageInfo.Page
+	page := article.page.Root
 	currID := normalizeID(page.ParentID)
 
 	var paths []URLPath
@@ -376,11 +376,11 @@ func buildArticleNavigation(article *Article, isRootPage func(string) bool, idTo
 func buildArticlesNavigation(articles *Articles) {
 	idToBlock := map[string]*notionapi.Block{}
 	for _, a := range articles.articles {
-		page := a.pageInfo
+		page := a.page
 		if page == nil {
 			continue
 		}
-		addIDToBlock(page.Page, idToBlock)
+		addIDToBlock(page.Root, idToBlock)
 	}
 
 	isRoot := func(id string) bool {
@@ -417,7 +417,7 @@ func loadArticles() *Articles {
 	}
 
 	for _, article := range res.articles {
-		article.Body = notionToHTML(article.pageInfo, res)
+		article.Body = notionToHTML(article.page, res)
 		article.BodyHTML = string(article.Body)
 		article.HTMLBody = template.HTML(article.BodyHTML)
 	}

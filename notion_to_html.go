@@ -15,7 +15,7 @@ import (
 // HTMLGenerator is for notion -> HTML generation
 type HTMLGenerator struct {
 	f           *bytes.Buffer
-	pageInfo    *notionapi.PageInfo
+	page        *notionapi.Page
 	level       int
 	nToggle     int
 	err         error
@@ -23,22 +23,22 @@ type HTMLGenerator struct {
 }
 
 // NewHTMLGenerator returns new HTMLGenerator
-func NewHTMLGenerator(pageInfo *notionapi.PageInfo) *HTMLGenerator {
+func NewHTMLGenerator(page *notionapi.Page) *HTMLGenerator {
 	return &HTMLGenerator{
-		f:        &bytes.Buffer{},
-		pageInfo: pageInfo,
+		f:    &bytes.Buffer{},
+		page: page,
 	}
 }
 
 // Gen returns generated HTML
 func (g *HTMLGenerator) Gen() []byte {
-	page := g.pageInfo.Page
+	page := g.page.Root
 	f := page.FormatPage
 	g.writeString(`<p></p>`)
 	if f != nil && f.PageFont == "mono" {
 		g.writeString(`<div style="font-family: monospace">`)
 	}
-	g.genContent(g.pageInfo.Page)
+	g.genContent(g.page.Root)
 	if f != nil && f.PageFont == "mono" {
 		g.writeString(`</div>`)
 	}
