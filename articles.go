@@ -295,10 +295,6 @@ func notionPageToArticle(pageInfo *notionapi.PageInfo) *Article {
 		article.ID = id
 	}
 
-	article.Body = notionToHTML(pageInfo)
-	article.BodyHTML = string(article.Body)
-	article.HTMLBody = template.HTML(article.BodyHTML)
-
 	if article.Collection != "" {
 		path := URLPath{
 			Name: article.Collection,
@@ -403,7 +399,7 @@ func buildArticlesNavigation(articles *Articles) {
 
 func loadArticles() *Articles {
 	res := &Articles{}
-	startIDs := []string{notionBlogsStartPage, notionGoCookbookStartPage, notionWebsiteStartPage}
+	startIDs := []string{notionWebsiteStartPage}
 	res.idToPage = loadAllPages(startIDs, useCacheForNotion)
 
 	res.idToArticle = map[string]*Article{}
@@ -418,6 +414,12 @@ func loadArticles() *Articles {
 			res.blog = append(res.blog, article)
 		}
 		res.articles = append(res.articles, article)
+	}
+
+	for _, article := range res.articles {
+		article.Body = notionToHTML(article.pageInfo, res)
+		article.BodyHTML = string(article.Body)
+		article.HTMLBody = template.HTML(article.BodyHTML)
 	}
 
 	buildArticlesNavigation(res)

@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"time"
 
 	"github.com/kjk/notionapi"
 )
@@ -81,11 +82,10 @@ func loadPageFromCache(pageID string) *notionapi.PageInfo {
 		return nil
 	}
 
-	var pageInfo notionapi.PageInfo
-	err = json.Unmarshal(d, &pageInfo)
+	var page notionapi.PageInfo
+	err = json.Unmarshal(d, &page)
 	panicIfErr(err)
-	fmt.Printf("Got %s from cache (%s)\n", pageID, pageInfo.Page.Title)
-	return &pageInfo
+	return &page
 }
 
 func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
@@ -110,20 +110,29 @@ func downloadAndCachePage(pageID string) (*notionapi.PageInfo, error) {
 	return res, nil
 }
 
-func notionToHTML(pageInfo *notionapi.PageInfo) []byte {
+func notionToHTML(pageInfo *notionapi.PageInfo, articles *Articles) []byte {
 	gen := NewHTMLGenerator(pageInfo)
+	if articles != nil {
+		gen.idToArticle = func(id string) *Article {
+			return articles.idToArticle[id]
+		}
+	}
 	return gen.Gen()
 }
 
 func loadNotionPage(pageID string, getFromCache bool) (*notionapi.PageInfo, error) {
 	if getFromCache {
-		pageInfo := loadPageFromCache(pageID)
-		if pageInfo != nil {
-			return pageInfo, nil
+		page := loadPageFromCache(pageID)
+		if page != nil {
+			fmt.Printf("Got from cache %s %s\n", pageID, page.Page.Title)
+			return page, nil
 		}
 	}
-	return downloadAndCachePage(pageID)
-
+	page, err := downloadAndCachePage(pageID)
+	if err == nil {
+		fmt.Printf("Downloaded %s %s\n", page.ID, page.Page.Title)
+	}
+	return page, err
 }
 
 func loadNotionPages(indexPageID string, idToPage map[string]*notionapi.PageInfo, useCache bool) {
@@ -202,8 +211,9 @@ func notionRedownloadAll() {
 	//notionapi.DebugLog = true
 	removeCachedNotion()
 
+	timeStart := time.Now()
 	articles := loadArticles()
-	fmt.Printf("Loaded %d articles\n", len(articles.idToPage))
+	fmt.Printf("Loaded %d articles in %s\n", len(articles.idToPage), time.Since(timeStart))
 }
 
 func notionRedownloadOne(id string) {

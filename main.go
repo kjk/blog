@@ -104,7 +104,7 @@ func main() {
 
 	if flgRedownloadNotion {
 		notionRedownloadAll()
-		return
+		os.Exit(0)
 	}
 
 	rebuildAll()

@@ -14,11 +14,12 @@ import (
 
 // HTMLGenerator is for notion -> HTML generation
 type HTMLGenerator struct {
-	f        *bytes.Buffer
-	pageInfo *notionapi.PageInfo
-	level    int
-	nToggle  int
-	err      error
+	f           *bytes.Buffer
+	pageInfo    *notionapi.PageInfo
+	level       int
+	nToggle     int
+	err         error
+	idToArticle func(string) *Article
 }
 
 // NewHTMLGenerator returns new HTMLGenerator
@@ -52,7 +53,7 @@ func isValidNotionID(id string) bool {
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // =>
 // /article/${id}
-func maybeReplaceNotionLink(uri string) string {
+func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
 	if !strings.HasPrefix(uri, "https://www.notion.so/") {
 		return uri
 	}
@@ -65,8 +66,26 @@ func maybeReplaceNotionLink(uri string) string {
 	if !isValidNotionID(id) {
 		return uri
 	}
+	id = g.maybeReplaceID(id)
 	// TODO: a way to lookup title of this page for nicer urls
 	return "/article/" + id + "/"
+}
+
+func (g *HTMLGenerator) maybeReplaceID(id string) string {
+	id = normalizeID(id)
+	if g.idToArticle == nil {
+		return id
+	}
+	article := g.idToArticle(id)
+	if article == nil {
+		return id
+	}
+
+	if id != article.ID {
+		fmt.Printf("id chagne: %s => %s\n", id, article.ID)
+		return article.ID
+	}
+	return id
 }
 
 func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
@@ -89,7 +108,7 @@ func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 	}
 	skipText := false
 	if b.Link != "" {
-		link := maybeReplaceNotionLink(b.Link)
+		link := g.maybeReplaceNotionLink(b.Link)
 		start += fmt.Sprintf(`<a href="%s">%s</a>`, link, b.Text)
 		skipText = true
 	}
@@ -338,7 +357,8 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 			cls = "page-link"
 		}
 		title := template.HTMLEscapeString(block.Title)
-		url := "/article/" + normalizeID(id) + "/" + urlify(title)
+		id = g.maybeReplaceID(id)
+		url := "/article/" + id + "/" + urlify(title)
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.BlockCode:
