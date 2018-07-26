@@ -120,7 +120,7 @@ func notionToHTML(page *notionapi.Page, articles *Articles) []byte {
 	return gen.Gen()
 }
 
-func loadNotionPage(pageID string, getFromCache bool) (*notionapi.Page, error) {
+func loadNotionPage(pageID string, getFromCache bool, n int) (*notionapi.Page, error) {
 	if getFromCache {
 		page := loadPageFromCache(pageID)
 		if page != nil {
@@ -130,7 +130,7 @@ func loadNotionPage(pageID string, getFromCache bool) (*notionapi.Page, error) {
 	}
 	page, err := downloadAndCachePage(pageID)
 	if err == nil {
-		fmt.Printf("Downloaded %s %s\n", page.ID, page.Root.Title)
+		fmt.Printf("Downloaded %d %s %s\n", n, page.ID, page.Root.Title)
 	}
 	return page, err
 }
@@ -138,6 +138,7 @@ func loadNotionPage(pageID string, getFromCache bool) (*notionapi.Page, error) {
 func loadNotionPages(indexPageID string, idToPage map[string]*notionapi.Page, useCache bool) {
 	toVisit := []string{indexPageID}
 
+	n := 1
 	for len(toVisit) > 0 {
 		pageID := normalizeID(toVisit[0])
 		toVisit = toVisit[1:]
@@ -146,8 +147,9 @@ func loadNotionPages(indexPageID string, idToPage map[string]*notionapi.Page, us
 			continue
 		}
 
-		page, err := loadNotionPage(pageID, useCache)
+		page, err := loadNotionPage(pageID, useCache, n)
 		panicIfErr(err)
+		n++
 
 		idToPage[pageID] = page
 
