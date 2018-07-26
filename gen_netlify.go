@@ -346,7 +346,7 @@ func netlifyBuild(store *Articles) {
 			}
 
 			path := fmt.Sprintf("/article/%s.html", article.ID)
-			logVerbose("%s, %s => %s, %s, %s\n", article.OrigID, article.ID, path, article.URL(), article.Title)
+			logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
 		}
 	}

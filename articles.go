@@ -36,12 +36,10 @@ type URLPath struct {
 // Article describes a single article
 type Article struct {
 	ID             string
-	OrigID         string
 	PublishedOn    time.Time
 	UpdatedOn      time.Time
 	Title          string
 	Tags           []string
-	OrigPath       string // path of the markdown file with content
 	Body           []byte
 	BodyHTML       string
 	HeaderImageURL string
@@ -312,11 +310,11 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 }
 
 func articleSetID(a *Article, v string) {
-	// we handle 2 types of ids:
+	// we handle 3 types of ids:
 	// - blog posts from articles/ directory have integer id
 	// - blog posts imported from quicknotes have id that are strings
-	a.OrigID = strings.TrimSpace(v)
-	a.ID = a.OrigID
+	// - articles written in notion, have notion string id
+	a.ID = strings.TrimSpace(v)
 	id, err := strconv.Atoi(a.ID)
 	if err == nil {
 		a.ID = u.EncodeBase64(id)
