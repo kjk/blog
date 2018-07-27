@@ -295,6 +295,38 @@ func netlifyBuild(store *Articles) {
 	}
 
 	{
+		// /changelog
+		articles := append([]*Article{}, store.articles...)
+		sort.Slice(articles, func(i, j int) bool {
+			a1 := articles[i]
+			a2 := articles[j]
+			return a1.UpdatedOn.After(a2.UpdatedOn)
+		})
+		if len(articles) > 64 {
+			articles = articles[:64]
+		}
+		prevAge := -1
+		for _, a := range articles {
+			age := a.UpdatedAge()
+			if prevAge != age {
+				a.UpdatedAgeStr = fmt.Sprintf("%d d", a.UpdatedAge())
+			}
+			prevAge = age
+		}
+
+		model := struct {
+			AnalyticsCode string
+			Article       *Article
+			Articles      []*Article
+		}{
+			AnalyticsCode: analyticsCode,
+			Article:       nil, // always nil
+			Articles:      articles,
+		}
+		netlifyExecTemplate("/changelog", tmplChangelog, model)
+	}
+
+	{
 		// /atom.xml
 		d, err := genAtomXML(store, true)
 		panicIfErr(err)

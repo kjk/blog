@@ -48,6 +48,9 @@ type Article struct {
 	Status         int
 	Description    string
 	Paths          []URLPath
+
+	UpdatedAgeStr string
+
 	// if true, this belongs to blog i.e. will be present in atom.xml
 	// and listed in blog section
 	inBlog bool
@@ -70,6 +73,15 @@ func (a *Article) URL() string {
 	return "/article/" + a.ID + "/" + urlify(a.Title) + ".html"
 }
 
+// PathAsText returns navigation path as text
+func (a *Article) PathAsText() string {
+	paths := []string{"Home"}
+	for _, urlpath := range a.Paths {
+		paths = append(paths, urlpath.Name)
+	}
+	return strings.Join(paths, " / ")
+}
+
 // TagsDisplay returns tags as html
 func (a *Article) TagsDisplay() template.HTML {
 	arr := make([]string, 0)
@@ -90,6 +102,12 @@ func (a *Article) PublishedOnShort() string {
 // IsBlog returns true if this article belongs to a blog
 func (a *Article) IsBlog() bool {
 	return a.inBlog
+}
+
+// UpdatedAge returns when it was updated last, in days
+func (a *Article) UpdatedAge() int {
+	dur := time.Since(a.UpdatedOn)
+	return int(dur / (time.Hour * 24))
 }
 
 func parseTags(s string) []string {
@@ -181,9 +199,13 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 		Title: title,
 	}
 	nBlock := 0
-	var publishedOn time.Time
 	var err error
 	endLoop := false
+
+	article.PublishedOn = root.CreatedOn()
+	article.UpdatedOn = root.UpdatedOn()
+	var publishedOnOverwrite time.Time
+
 	for len(blocks) > 0 {
 		block := blocks[0]
 		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
@@ -232,7 +254,8 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 			articleSetID(article, val)
 			//fmt.Printf("ID: %s\n", res.ID)
 		case "publishedon":
-			publishedOn, err = parseDate(val)
+			// PublishedOn over-writes Date and CreatedAt
+			publishedOnOverwrite, err = parseDate(val)
 			panicIfErr(err)
 			article.inBlog = true
 		case "date", "createdat":
@@ -269,22 +292,8 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 	}
 	root.Content = blocks
 
-	// PublishedOn over-writes Date and CreatedAt
-	if !publishedOn.IsZero() {
-		// TODO: use page.Root.CreatedTime if publishedOn.IsZero()
-		article.PublishedOn = publishedOn
-	}
-
-	if article.UpdatedOn.IsZero() {
-		article.UpdatedOn = article.PublishedOn
-	}
-
-	if article.PublishedOn.IsZero() {
-		article.PublishedOn = root.CreatedOn()
-	}
-
-	if article.UpdatedOn.IsZero() {
-		article.UpdatedOn = root.UpdatedOn()
+	if !publishedOnOverwrite.IsZero() {
+		article.PublishedOn = publishedOnOverwrite
 	}
 
 	if article.ID == "" {

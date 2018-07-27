@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="always">
+  <meta name="robots" content="noindex">
+
+  <link href="/css/main.css" rel="stylesheet">
+  <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
+
+  <title>Recently changed</title>
+  <style>
+    #arc {
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    #arc th {
+      padding: 0 1.75em 0 0;
+      vertical-align: baseline;
+      text-align: right;
+    }
+
+    .day {
+      font-size: 85%;
+      color: lightgray;
+      padding-right: 8px;
+    }
+
+    .path {
+      font-size: 85%;
+      color: lightgray;
+      margin-left: 12px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  {{template "page_navbar.tmpl.html"}}
+
+  <div id="content" style="clear:both;line-height:1.50; margin-top: 18px; margin-left: 18pt; margin-right: 18pt;">
+
+    <p><a href="/">Home</a> / Recently updated</p>
+
+    <table id="arc">
+      <tbody>
+        {{range .Articles}}
+        <tr>
+          <td class="day">{{.UpdatedAgeStr}}</td>
+          <td><a href="{{.URL}}">{{.Title}}</a> <span class="path">{{.PathAsText}}</span> </td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+  </div>
+  <p style="clear:both"></p>
+  <hr>
+  <center><a href="/">Krzysztof Kowalczyk</a></center>
+  <br>
+  {{template "analytics.tmpl.html" .}}
+
+</body>
+
+</html>
