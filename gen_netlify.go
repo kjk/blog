@@ -233,7 +233,7 @@ func netlifyBuild(store *Articles) {
 	netflifyAddTempRedirect("/articles/", "/documents.html")
 	netflifyAddTempRedirect("/articles/index.html", "/documents.html")
 	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
-	//netlifyExecTemplate("/documents.html", tmplDocuments, nil)
+	netflifyAddTempRedirect("/software/index.html", "/software/")
 
 	{
 		// url: /book/go-cookbook.html
@@ -379,7 +379,7 @@ func netlifyBuild(store *Articles) {
 			logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
 			if article.urlOverride != "" {
-				fmt.Printf("url override 2: %s => %s\n", article.urlOverride, path)
+				//fmt.Printf("url override: %s => %s\n", article.urlOverride, path)
 				netlifyAddRewrite(article.urlOverride, path)
 			}
 		}
