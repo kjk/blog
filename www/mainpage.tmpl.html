@@ -42,9 +42,6 @@
 
         <div class="articles-list-wrap">
             <div>
-                <div class="headline" style="float: right; font-size:80%">
-                    <a href="/atom.xml">RSS/Atom feed</a>
-                </div>
 
                 <center>
                     <b>Recently I wrote</b>
@@ -59,8 +56,13 @@
                     {{end}}
                 </div>
                 {{end}}
-                <div>
-                    <a href="/archives.html">See all...</a>
+                <div style="display:flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                    <div>
+                        <a href="/archives.html">See all...</a>
+                    </div>
+                    <div class="headline" style="font-size:80%">
+                        <a href="/atom.xml">RSS/Atom feed</a>
+                    </div>
                 </div>
 
                 <hr>
