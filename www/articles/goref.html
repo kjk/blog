@@ -1,93 +1,100 @@
+<!doctype html>
 <html>
+
 <head>
 	<title>Go Quick Reference</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
 	<meta name="description" content="Go language quick reference" />
-<style type="text/css">
-body {
-	margin: 0px;
-	padding: 0px;
-}
+	<style type="text/css">
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
 
-.tophdr {
-	border-bottom: 1px solid black;
-	padding-bottom: 2px;
-	margin-bottom: 4px;
-	width: 100%;
-}
+		.tophdr {
+			border-bottom: 1px solid black;
+			padding-bottom: 2px;
+			margin-bottom: 4px;
+			width: 100%;
+		}
 
-ul {
-	margin: 0px;
-}
+		ul {
+			margin: 0px;
+		}
 
-#content {
-	margin-left: 10px;
-	margin-right: 10px;
-	font-size: 11pt;
-}
+		#content {
+			margin-left: 10px;
+			margin-right: 10px;
+			font-size: 11pt;
+		}
 
-.code {
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 8pt;
-	font-family: menlo; monaco; monospace;
-}
+		.code {
+			padding-left: 4px;
+			padding-right: 4px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			font-size: 8pt;
+			font-family: menlo;
+			monaco;
+			monospace;
+		}
 
-.item {
-	border: 1px dotted gray;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	margin-bottom: 2px;
-}
+		.item {
+			border: 1px dotted gray;
+			padding-left: 4px;
+			padding-right: 4px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			margin-bottom: 2px;
+		}
 
-.itemtitle {
-	font-weight: bold;
-	padding-bottom: 4px;
-}
+		.itemtitle {
+			font-weight: bold;
+			padding-bottom: 4px;
+		}
 
-.gist {
-	font-size: 85%;
-}
-
-</style>
+		.gist {
+			font-size: 85%;
+		}
+	</style>
 
 </head>
 
 <body>
 
-<div class="tophdr">Go language quick reference <span style="font-size:80%">by <a href="https://blog.kowalczyk.info">Krzysztof Kowalczyk</a></span></div>
+	<div class="tophdr">Go language quick reference
+		<span style="font-size:80%">by
+			<a href="https://blog.kowalczyk.info">Krzysztof Kowalczyk</a>
+		</span>
+	</div>
 
-<div id="content">
-<div class="item">
-<div class="itemtitle">Table of contents</div>
-<ul>
-	<li>basic types: integers and floats, arrays, strings, maps (dictionaries/hashes), structs</li>
-	<li>control structures: if, for, switch</li>
-	<li>object-oriented programming</li>
-	<li>file operations</li>
-	<li>concurrency, goroutines and channels</li>
-	<li>reflection</li>
-</ul>
-</div>
+	<div id="content">
+		<div class="item">
+			<div class="itemtitle">Table of contents</div>
+			<ul>
+				<li>basic types: integers and floats, arrays, strings, maps (dictionaries/hashes), structs</li>
+				<li>control structures: if, for, switch</li>
+				<li>object-oriented programming</li>
+				<li>file operations</li>
+				<li>concurrency, goroutines and channels</li>
+				<li>reflection</li>
+			</ul>
+		</div>
 
-<div class="item" id="it-0">
+		<div class="item" id="it-0">
 
-<div class="itemtitle">Arrays and slices</div>
-Notable things about arrays:
-<ul>
-	<li>arrays are values, so:
-		<ul>
-			<li>assigning one array to another copies the values</li>
-			<li>passing an array to a function passes a copy of array</li>
-		</ul>
-	<li>size of an array is part of the type. [10]int is a different type than [20]int</li>
-</ul>
+			<div class="itemtitle">Arrays and slices</div>
+			Notable things about arrays:
+			<ul>
+				<li>arrays are values, so:
+					<ul>
+						<li>assigning one array to another copies the values</li>
+						<li>passing an array to a function passes a copy of array</li>
+					</ul>
+					<li>size of an array is part of the type. [10]int is a different type than [20]int</li>
+			</ul>
 
-<pre class="code">
+			<pre class="code">
 var strArr []string // array of strings
 var intArr []int    // array of integers
 
@@ -111,15 +118,15 @@ for _, n := range intArr {
 	sum += n
 }
 </pre>
-</div>
+		</div>
 
-<!--
+		<!--
 <div class="item gist">
 <script src="http://gist.github.com/400130.js?file=test.go"></script>
 </div>
 -->
 
-</div>
+	</div>
 
 </body>
 

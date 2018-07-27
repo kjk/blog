@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 	"html"
-	"html/template"
 	"io"
 	"strconv"
 	"strings"
 
+	"github.com/alecthomas/template"
 	"github.com/kjk/notionapi"
 )
 
@@ -67,29 +67,20 @@ func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
 		return uri
 	}
 	article := g.idToArticle(id)
-	id = g.maybeReplaceID(id)
-	title := ""
-	if article != nil {
-		title = urlify(article.Title)
-	}
-	return "/article/" + id + "/" + title
+	return article.URL()
 }
 
-func (g *HTMLGenerator) maybeReplaceID(id string) string {
-	id = normalizeID(id)
-	if g.idToArticle == nil {
-		return id
-	}
+func (g *HTMLGenerator) getURLAndTitleForBlock(block *notionapi.Block) (string, string) {
+	id := normalizeID(block.ID)
 	article := g.idToArticle(id)
 	if article == nil {
-		return id
+		title := block.Title
+		fmt.Printf("No article for id %s %s\n", id, title)
+		url := "/article/" + id + "/" + urlify(title)
+		return url, title
 	}
 
-	if id != article.ID {
-		//fmt.Printf("id change: %s => %s\n", id, article.ID)
-		return article.ID
-	}
-	return id
+	return article.URL(), article.Title
 }
 
 func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
@@ -355,14 +346,12 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	case notionapi.BlockDivider:
 		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", levelCls)
 	case notionapi.BlockPage:
-		id := strings.TrimSpace(block.ID)
 		cls := "page"
 		if block.IsLinkToPage() {
 			cls = "page-link"
 		}
-		title := template.HTMLEscapeString(block.Title)
-		id = g.maybeReplaceID(id)
-		url := "/article/" + id + "/" + urlify(title)
+		url, title := g.getURLAndTitleForBlock(block)
+		title = template.HTMLEscapeString(title)
 		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.BlockCode:

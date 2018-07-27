@@ -48,6 +48,7 @@ type Article struct {
 	Status         int
 	Description    string
 	Paths          []URLPath
+	urlOverride    string
 
 	UpdatedAgeStr string
 
@@ -70,6 +71,9 @@ type Articles struct {
 
 // URL returns article's permalink
 func (a *Article) URL() string {
+	if a.urlOverride != "" {
+		return a.urlOverride
+	}
 	return "/article/" + a.ID + "/" + urlify(a.Title) + ".html"
 }
 
@@ -274,6 +278,8 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 			setHeaderImageMust(article, val)
 		case "collection":
 			setCollectionMust(article, val)
+		case "url":
+			article.urlOverride = val
 		default:
 			// assume that unrecognized meta means this article doesn't have
 			// proper meta tags. It might miss meta-tags that are badly named
@@ -411,6 +417,9 @@ func loadArticles() *Articles {
 	for id, page := range res.idToPage {
 		panicIf(id != normalizeID(id), "bad id '%s' sneaked in", id)
 		article := notionPageToArticle(page)
+		if article.urlOverride != "" {
+			fmt.Printf("url override 1: %s => %s\n", article.urlOverride, article.ID)
+		}
 		res.idToArticle[id] = article
 		// this might be legacy, short id. If not, we just set the same value twice
 		articleID := article.ID

@@ -226,14 +226,14 @@ func netlifyBuild(store *Articles) {
 
 	netlifyAddStaticRedirects()
 	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
-	netlifyAddRewrite("/articles/", "/documents.html")
-	netlifyAddRewrite("/articles/index.html", "/documents.html")
 	//netlifyAddRewrite("/book/", "/static/documents.html")
 	//netflifyAddTempRedirect("/book/*", "/article/:splat")
 	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org/:splat")
 
-	netlifyExecTemplate("/documents.html", tmplDocuments, nil)
+	netflifyAddTempRedirect("/articles/", "/documents.html")
+	netflifyAddTempRedirect("/articles/index.html", "/documents.html")
 	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
+	//netlifyExecTemplate("/documents.html", tmplDocuments, nil)
 
 	{
 		// url: /book/go-cookbook.html
@@ -344,7 +344,6 @@ func netlifyBuild(store *Articles) {
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 		logVerbose("%d articles\n", len(store.idToPage))
 		for _, article := range store.articles {
-
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
 				AnalyticsCode      string
@@ -376,10 +375,13 @@ func netlifyBuild(store *Articles) {
 				id := normalizeID(article.page.ID)
 				model.NotionEditURL = "https://notion.so/" + id
 			}
-
 			path := fmt.Sprintf("/article/%s.html", article.ID)
 			logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
+			if article.urlOverride != "" {
+				fmt.Printf("url override 2: %s => %s\n", article.urlOverride, path)
+				netlifyAddRewrite(article.urlOverride, path)
+			}
 		}
 	}
 

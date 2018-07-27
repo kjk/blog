@@ -15,7 +15,6 @@ var (
 	tmplArticle          = "article.tmpl.html"
 	tmplArchive          = "archive.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
-	tmplDocuments        = "documents.tmpl.html"
 	tmplGoCookBook       = "go-cookbook.tmpl.html"
 	tmplChangelog        = "changelog.tmpl.html"
 	tmpl404              = "404.tmpl.html"
@@ -25,7 +24,6 @@ var (
 		tmplArticle,
 		tmplArchive,
 		tmplGenerateUniqueID,
-		tmplDocuments,
 		tmplGoCookBook,
 		tmplChangelog,
 		tmpl404,
