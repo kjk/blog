@@ -88,6 +88,23 @@ func loadPageFromCache(pageID string) *notionapi.Page {
 	return &page
 }
 
+// I got "connection reset by peer" error once so retry download 3 times, with a short sleep in-between
+func downloadPageRetry(pageID string) (*notionapi.Page, error) {
+	var res *notionapi.Page
+	var err error
+	for i := 0; i < 3; i++ {
+		if i > 0 {
+			fmt.Printf("Download %s failed with '%s'\n", pageID, err)
+			time.Sleep(3 * time.Second) // not sure if it matters
+		}
+		res, err = notionapi.DownloadPage(pageID)
+		if err == nil {
+			return res, nil
+		}
+	}
+	return nil, err
+}
+
 func downloadAndCachePage(pageID string) (*notionapi.Page, error) {
 	//fmt.Printf("downloading page with id %s\n", pageID)
 	lf, _ := openLogFileForPageID(pageID)
@@ -95,11 +112,11 @@ func downloadAndCachePage(pageID string) (*notionapi.Page, error) {
 		defer lf.Close()
 	}
 	cachedPath := filepath.Join(cacheDir, pageID+".json")
-	res, err := notionapi.DownloadPage(pageID)
+	page, err := downloadPageRetry(pageID)
 	if err != nil {
 		return nil, err
 	}
-	d, err := json.MarshalIndent(res, "", "  ")
+	d, err := json.MarshalIndent(page, "", "  ")
 	if err == nil {
 		err = ioutil.WriteFile(cachedPath, d, 0644)
 		panicIfErr(err)
@@ -107,7 +124,7 @@ func downloadAndCachePage(pageID string) (*notionapi.Page, error) {
 		// not a fatal error, just a warning
 		fmt.Printf("json.Marshal() on pageID '%s' failed with %s\n", pageID, err)
 	}
-	return res, nil
+	return page, nil
 }
 
 func notionToHTML(page *notionapi.Page, articles *Articles) []byte {
