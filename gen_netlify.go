@@ -295,7 +295,7 @@ func netlifyBuild(store *Articles) {
 	}
 
 	{
-		// /changelog
+		// /changelog.html
 		articles := append([]*Article{}, store.articles...)
 		sort.Slice(articles, func(i, j int) bool {
 			a1 := articles[i]
@@ -323,7 +323,7 @@ func netlifyBuild(store *Articles) {
 			Article:       nil, // always nil
 			Articles:      articles,
 		}
-		netlifyExecTemplate("/changelog", tmplChangelog, model)
+		netlifyExecTemplate("/changelog.html", tmplChangelog, model)
 	}
 
 	{
