@@ -1,5 +1,5 @@
 #!/bin/bash
-set -u -e -o pipefail -o verbose
+set -u -e -o pipefail
 
 build()
 {
@@ -22,9 +22,12 @@ update_from_notion()
 {
     echo "cron: updating from notion"
     setup_git
+    git status
+    git checkout master
 
     go build -o blog
     ./blog -redownload-notion
+    git status
     git add notion_cache/*
     git commit -am "travis: update from notion"
     git push
