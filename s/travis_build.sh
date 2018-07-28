@@ -41,5 +41,6 @@ update_from_notion()
 if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
     update_from_notion
 else
-    build
+    update_from_notion
+    # build
 fi
