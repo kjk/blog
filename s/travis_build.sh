@@ -18,6 +18,8 @@ setup_git()
   git config --global github.token "${GH_TOKEN}"
 }
 
+# this downloads the latest version of content from notion and checks it in
+# this is triggered via daily cron builds on travis (they run at midnight)
 update_from_notion()
 {
     echo "cron: updating from notion"
@@ -36,13 +38,13 @@ update_from_notion()
     git add notion_cache/*
     echo "after git add"
     git status
-    git commit -am "travis: update from notion"
+    now=`date +%Y-%m-%d`
+    git commit -am "travis: update from notion on ${now}"
     git push "https://${GH_TOKEN}@github.com/kjk/blog.git" master
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
     update_from_notion
 else
-    update_from_notion
-    # build
+    build
 fi
