@@ -28,6 +28,8 @@ update_from_notion()
 
     go build -o blog
     ./blog -redownload-notion
+
+    git checkout Gopkg.lock
     git status
     git add notion_cache/*
     echo "after git add"
