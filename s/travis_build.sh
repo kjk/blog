@@ -35,12 +35,12 @@ update_from_notion()
     git checkout Gopkg.lock
     git checkout netlify.toml
     git status
-    git add notion_cache/*
+    git add notion_cache/* || true
     echo "after git add"
     git status
     now=`date +%Y-%m-%d`
-    git commit -am "travis: update from notion on ${now}"
-    git push "https://${GH_TOKEN}@github.com/kjk/blog.git" master
+    git commit -am "travis: update from notion on ${now}" || true
+    git push "https://${GH_TOKEN}@github.com/kjk/blog.git" master || true
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
