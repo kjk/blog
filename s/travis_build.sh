@@ -21,16 +21,19 @@ setup_git()
 update_from_notion()
 {
     echo "cron: updating from notion"
+    rm -rf netlify*
     setup_git
     git status
-    git checkout master
+    git checkout -b master
 
     go build -o blog
     ./blog -redownload-notion
     git status
     git add notion_cache/*
+    echo "after git add"
+    git status
     git commit -am "travis: update from notion"
-    git push
+    git push "https://${GH_TOKEN}@github.com/kjk/blog.git" master
 }
 
 if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
