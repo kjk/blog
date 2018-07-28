@@ -23,13 +23,15 @@ update_from_notion()
     echo "cron: updating from notion"
     rm -rf netlify*
     setup_git
-    git status
-    git checkout -b master
+    git checkout master
 
     go build -o blog
     ./blog -redownload-notion
 
+    echo "after build"
+    git status
     git checkout Gopkg.lock
+    git checkout netlify.toml
     git status
     git add notion_cache/*
     echo "after git add"
