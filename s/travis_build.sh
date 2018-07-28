@@ -39,7 +39,15 @@ update_from_notion()
     echo "after git add"
     git status
     now=`date +%Y-%m-%d`
-    git commit -am "travis: update from notion on ${now}" || true
+
+    # "git commit" returns 1 if there's nothing to commit, so don't report this as failed build
+    set +e
+    git commit -am "travis: update from notion on ${now}"
+    if [ "$?" -ne "0" ]; then
+        echo "nothing to commit"
+        exit 0
+    fi
+    set -e
     git push "https://${GH_TOKEN}@github.com/kjk/blog.git" master || true
 }
 
