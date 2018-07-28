@@ -35,7 +35,7 @@ update_from_notion()
     git checkout Gopkg.lock
     git checkout netlify.toml
     git status
-    git add notion_cache/* || true
+    git add notion_cache/*
     echo "after git add"
     git status
     now=`date +%Y-%m-%d`
