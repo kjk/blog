@@ -141,7 +141,7 @@ func loadNotionPage(pageID string, getFromCache bool, n int) (*notionapi.Page, e
 	if getFromCache {
 		page := loadPageFromCache(pageID)
 		if page != nil {
-			fmt.Printf("Got from cache %s %s\n", pageID, page.Root.Title)
+			fmt.Printf("Got %d from cache %s %s\n", n, pageID, page.Root.Title)
 			return page, nil
 		}
 	}
