@@ -41,6 +41,17 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:315c5f2f60c76d89b871c73f9bd5fe689cad96597afd50fb9992228ef80bdd34"
+  name = "github.com/alecthomas/template"
+  packages = [
+    ".",
+    "parse",
+  ]
+  pruneopts = "UT"
+  revision = "a0175ee3bccc567396460bf5acd36800cb10c49c"
+
+[[projects]]
+  branch = "master"
   digest = "1:4b06b3257b686b3aef902adf064fb12507953a6c95a331a2f5a65945d5745ad7"
   name = "github.com/chilts/sid"
   packages = ["."]
@@ -76,7 +87,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:dbf133f18ba1180c0ef54253821840c6d21a0f8135794063343f620a1957caf3"
+  digest = "1:2ac606ee8dd8ae2cd3e3a63d5cb4cb16f86f5e6d2f0e85f871ea23c090e6a0ce"
   name = "github.com/gomarkdown/markdown"
   packages = [
     ".",
@@ -85,7 +96,7 @@
     "parser",
   ]
   pruneopts = "UT"
-  revision = "000a40581ec73cfd948956e9a7a8fbcab130c4f8"
+  revision = "0196bb87c5dfd433358e139a024f641b34fde2b4"
 
 [[projects]]
   branch = "master"
@@ -97,11 +108,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ecf3ff22f588701154d8b483ae8c7adcac7362658619b10fde448b4731fbe1a3"
+  digest = "1:3e5c8720d3bfedadab091cf2d9453a30d4c65eba969faec2648edf7f733dd975"
   name = "github.com/kjk/notionapi"
   packages = ["."]
   pruneopts = "UT"
-  revision = "87db2635157e2ddeb6c8b866afe071f43667867f"
+  revision = "a08bf053cfcdbfe2b513a29ec688d80dc366aded"
 
 [[projects]]
   branch = "master"
@@ -200,18 +211,18 @@
     "html/atom",
   ]
   pruneopts = "UT"
-  revision = "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd"
+  revision = "c4299a1a0d8524c11563db160fbf9bddbceadb21"
 
 [[projects]]
   branch = "master"
-  digest = "1:be95d758fc4d9216e5d41ff5b98b46938fba85ca5bc2ddc45a1b03e2bb10fe7c"
+  digest = "1:8742e6e73627b2877c3f723bc1823d5667ec59011242480309dc90fa862512aa"
   name = "golang.org/x/sys"
   packages = [
     "unix",
     "windows",
   ]
   pruneopts = "UT"
-  revision = "e072cadbbdc8dd3d3ffa82b8b4b9304c261d9311"
+  revision = "bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -221,6 +232,7 @@
     "github.com/alecthomas/chroma/formatters/html",
     "github.com/alecthomas/chroma/lexers",
     "github.com/alecthomas/chroma/styles",
+    "github.com/alecthomas/template",
     "github.com/chilts/sid",
     "github.com/gomarkdown/markdown",
     "github.com/gomarkdown/markdown/ast",

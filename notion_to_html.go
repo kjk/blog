@@ -185,6 +185,12 @@ func propsValueToText(v interface{}) string {
 	return str
 }
 
+func (g *HTMLGenerator) genVideo(block *notionapi.Block) {
+	f := block.FormatVideo
+	s := fmt.Sprintf(`<iframe width="%d" height="%d" src="%s" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>`, f.BlockWidth, f.BlockHeight, f.DisplaySource)
+	g.writeString(s)
+}
+
 func (g *HTMLGenerator) genCollectionView(block *notionapi.Block) {
 	viewInfo := block.CollectionViews[0]
 	view := viewInfo.CollectionView
@@ -375,6 +381,8 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		g.genColumnList(block)
 	case notionapi.BlockCollectionView:
 		g.genCollectionView(block)
+	case notionapi.BlockVideo:
+		g.genVideo(block)
 	default:
 		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
 		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))
