@@ -76,13 +76,13 @@ func isValidNotionID(id string) bool {
 // https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2
 // returns "" if didn't detect
 func extractNotionIDFromURL(uri string) string {
-	if !strings.HasPrefix(uri, "https://www.notion.so/") {
+	trimmed := strings.TrimPrefix(uri, "https://www.notion.so/")
+	if uri == trimmed {
 		return ""
 	}
-	uri = strings.TrimPrefix(uri, "https://www.notion.so/")
 	// could be c674bebe8adf44d18c3a36cc18c131e2 from https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2
-	id := uri
-	parts := strings.Split(uri, "-")
+	id := trimmed
+	parts := strings.Split(trimmed, "-")
 	n := len(parts)
 	if n >= 2 {
 		// could be ea07db1b9bff415ab180b0525f3898f6 from Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
@@ -92,7 +92,7 @@ func extractNotionIDFromURL(uri string) string {
 	if !isValidNotionID(id) {
 		return ""
 	}
-	return ""
+	return id
 }
 
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
