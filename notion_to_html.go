@@ -74,7 +74,7 @@ func isValidNotionID(id string) bool {
 
 // https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2
-// returns "" if didn't detect
+// returns "" if didn't detect valid notion id in the url
 func extractNotionIDFromURL(uri string) string {
 	trimmed := strings.TrimPrefix(uri, "https://www.notion.so/")
 	if uri == trimmed {
