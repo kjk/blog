@@ -15,6 +15,7 @@ var (
 	analyticsCode = "UA-194516-1"
 
 	flgRedownloadNotion bool
+	flgRedownloadPage   string
 	flgDeploy           bool
 	flgPreview          bool
 	flgVerbose          bool
@@ -25,6 +26,7 @@ func parseCmdLineFlags() {
 	flag.BoolVar(&flgDeploy, "deploy", false, "if true, build for deployment")
 	flag.BoolVar(&flgPreview, "preview", false, "if true, runs caddy and opens a browser for preview")
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
+	flag.StringVar(&flgRedownloadPage, "redownload-page", "", "if given, redownloads content for one page")
 	flag.Parse()
 }
 
@@ -92,8 +94,8 @@ func main() {
 		return
 	}
 
-	if false {
-		notionRedownloadOne("88aee8f43620471aa9dbcad28368174c")
+	if flgRedownloadPage != "" {
+		notionRedownloadOne(flgRedownloadPage)
 		os.Exit(0)
 	}
 
