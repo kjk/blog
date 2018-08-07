@@ -38,7 +38,7 @@ update_from_notion()
     git add notion_cache/*
     echo "after git add"
     git status
-    now=`date +%Y-%m-%d %a`
+    now=`date "+%Y-%m-%d %a"`
 
     # "git commit" returns 1 if there's nothing to commit, so don't report this as failed build
     set +e
