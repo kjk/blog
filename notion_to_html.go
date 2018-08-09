@@ -420,6 +420,9 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		g.genCollectionView(block)
 	case notionapi.BlockVideo:
 		g.genVideo(block)
+	case "file":
+		// TODO: add support for this type in notionapi, render as a link
+		// block id: 8c5fd467-989b-4180-902c-9b5d30c6568d
 	default:
 		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
 		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))
