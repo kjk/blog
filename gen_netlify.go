@@ -33,7 +33,7 @@ func copyAndSortArticles(articles []*Article) []*Article {
 }
 
 func genAtomXML(store *Articles, excludeNotes bool) ([]byte, error) {
-	articles := store.blog
+	articles := store.getBlogNotHidden()
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
@@ -170,7 +170,7 @@ func buildTags(articles []*Article) []*TagInfo {
 
 func netlifyWriteArticlesArchiveForTag(store *Articles, tag string) {
 	path := "/archives.html"
-	articles := store.blog
+	articles := store.getBlogNotHidden()
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 		// must manually resolve conflict due to urlify
@@ -253,7 +253,7 @@ func netlifyBuild(store *Articles) {
 
 	{
 		// /
-		articles := store.blog
+		articles := store.getBlogNotHidden()
 		if len(articles) > 5 {
 			articles = articles[:5]
 		}
@@ -278,7 +278,7 @@ func netlifyBuild(store *Articles) {
 	// TODO: maybe just use /archive.html
 	{
 		// /blogindex.html
-		articles := store.blog
+		articles := store.getBlogNotHidden()
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -389,7 +389,7 @@ func netlifyBuild(store *Articles) {
 		// /archives.html
 		netlifyWriteArticlesArchiveForTag(store, "")
 		tags := map[string]struct{}{}
-		for _, article := range store.blog {
+		for _, article := range store.getBlogNotHidden() {
 			for _, tag := range article.Tags {
 				tags[tag] = struct{}{}
 			}

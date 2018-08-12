@@ -65,8 +65,38 @@ type Articles struct {
 	idToPage    map[string]*notionapi.Page
 	// all downloaded articles
 	articles []*Article
+	// articles that are not hidden
+	articlesNotHidden []*Article
 	// articles that belong to a blog
 	blog []*Article
+	// blog articles that are not hidden
+	blogNotHidden []*Article
+}
+
+func (a *Articles) getNotHidden() []*Article {
+	if a.articlesNotHidden == nil {
+		var arr []*Article
+		for _, article := range a.articles {
+			if !article.IsHidden() {
+				arr = append(arr, article)
+			}
+		}
+		a.articlesNotHidden = arr
+	}
+	return a.articlesNotHidden
+}
+
+func (a *Articles) getBlogNotHidden() []*Article {
+	if a.blogNotHidden == nil {
+		var arr []*Article
+		for _, article := range a.blog {
+			if !article.IsHidden() {
+				arr = append(arr, article)
+			}
+		}
+		a.blogNotHidden = arr
+	}
+	return a.blogNotHidden
 }
 
 // URL returns article's permalink
@@ -112,6 +142,11 @@ func (a *Article) IsBlog() bool {
 func (a *Article) UpdatedAge() int {
 	dur := time.Since(a.UpdatedOn)
 	return int(dur / (time.Hour * 24))
+}
+
+// IsHidden returns true if article should not be shown in the index
+func (a *Article) IsHidden() bool {
+	return a.Status == statusHidden || a.Status == statusDeleted || a.Status == statusNotImportant
 }
 
 func parseTags(s string) []string {
