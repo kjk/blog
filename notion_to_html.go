@@ -420,7 +420,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		g.genCollectionView(block)
 	case notionapi.BlockVideo:
 		g.genVideo(block)
-	case "file":
+	case notionapi.BlockFile:
 		// TODO: add support for this type in notionapi, render as a link
 		// block id: 8c5fd467-989b-4180-902c-9b5d30c6568d
 	default:
