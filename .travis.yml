@@ -11,5 +11,7 @@ before_install:
   - wget https://github.com/netlify/netlifyctl/releases/download/v0.4.0/netlifyctl-linux-amd64-0.4.0.tar.gz
   - tar -xvf netlifyctl-linux-amd64-0.4.0.tar.gz
 
+install: true
+
 script:
-  - ./s/travis_build.sh
+  - env GO111MODULE=on ./s/travis_build.sh
