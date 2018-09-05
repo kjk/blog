@@ -32,7 +32,6 @@ update_from_notion()
 
     echo "after build"
     git status
-    git checkout Gopkg.lock
     git checkout netlify.toml
     git status
     git add notion_cache/*
