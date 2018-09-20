@@ -8,18 +8,16 @@ require (
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc
 	github.com/chilts/sid v0.0.0-20170307210005-6cf658ffc40c
 	github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/dlclark/regexp2 v1.1.6 // indirect
 	github.com/gomarkdown/markdown v0.0.0-20180903204952-ce812a1f8db5
 	github.com/kjk/betterguid v0.0.0-20170621091430-c442874ba63a
-	github.com/kjk/notionapi v0.0.0-20180813032434-c83c6bd7332f
+	github.com/kjk/notionapi v0.0.0-20180920083932-ac6a64e41970
 	github.com/kjk/u v0.0.0-20170711051841-93181be023c9
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/mattn/go-isatty v0.0.4 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.1
 	github.com/oklog/ulid v1.0.0
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rs/xid v1.2.1
 	github.com/satori/go.uuid v1.2.0
 	github.com/segmentio/ksuid v1.0.1
