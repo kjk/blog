@@ -6,6 +6,8 @@ import (
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/kjk/notionapi"
 )
 
 var (
@@ -25,7 +27,8 @@ func createDestDir() {
 }
 
 // downloads and html
-func testNotionToHTMLOnePage(id string) {
+func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
+
 	//id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
 	//id := "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle, devlog 2018
 	//id := "484919a1647144c29234447ce408ff6b" // test toggle
@@ -36,7 +39,7 @@ func testNotionToHTMLOnePage(id string) {
 	useCacheForNotion = false
 
 	id = normalizeID(id)
-	article := loadPageAsArticle(id)
+	article := loadPageAsArticle(c, id)
 
 	canonicalURL := netlifyRequestGetFullHost() + article.URL()
 	model := struct {

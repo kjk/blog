@@ -9,6 +9,8 @@ import (
 	"os/exec"
 	"runtime"
 	"time"
+
+	"github.com/kjk/notionapi"
 )
 
 var (
@@ -37,10 +39,10 @@ func logVerbose(format string, args ...interface{}) {
 	fmt.Printf(format, args...)
 }
 
-func rebuildAll() {
+func rebuildAll(c *notionapi.Client) {
 	regenMd()
 	loadTemplates()
-	articles := loadArticles()
+	articles := loadArticles(c)
 	readRedirects(articles)
 	netlifyBuild(articles)
 }
@@ -87,29 +89,35 @@ func main() {
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
 
+	client := &notionapi.Client{}
+	authToken, ok := os.LookupEnv("NOTION_TOKEN")
+	if ok && authToken != "" {
+		client.AuthToken = authToken
+	}
+
 	// make sure this happens first so that building for deployment is not
 	// disrupted by the temporary testing code we might have below
 	if flgDeploy {
-		rebuildAll()
+		rebuildAll(client)
 		return
 	}
 
 	if flgRedownloadPage != "" {
-		notionRedownloadOne(flgRedownloadPage)
+		notionRedownloadOne(client, flgRedownloadPage)
 		os.Exit(0)
 	}
 
 	if false {
-		testNotionToHTMLOnePage("f3dfcf36fb46412980b8efa4336c0ea5")
+		testNotionToHTMLOnePage(client, "dfbefe6906a943d8b554699341e997b0")
 		os.Exit(0)
 	}
 
 	if flgRedownloadNotion {
-		notionRedownloadAll()
+		notionRedownloadAll(client)
 		os.Exit(0)
 	}
 
-	rebuildAll()
+	rebuildAll(client)
 	if flgPreview {
 		preview()
 	}
