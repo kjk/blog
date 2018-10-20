@@ -91,9 +91,10 @@ func main() {
 
 	client := &notionapi.Client{}
 	authToken, ok := os.LookupEnv("NOTION_TOKEN")
-	if ok && authToken != "" {
-		client.AuthToken = authToken
+	if !ok || authToken != "" {
+		fmt.Printf("Must set NOTION_TOKEN env variable!\n")
 	}
+	client.AuthToken = authToken
 
 	// make sure this happens first so that building for deployment is not
 	// disrupted by the temporary testing code we might have below
