@@ -100,6 +100,10 @@
             <div class="title">
                 <a href="/">Home</a> / {{range .Article.Paths}}
                 <a href="{{.URL}}">{{.Name}}</a> / {{end}} {{.Article.Title}}
+
+                {{if .NotionEditURL}}
+                <a class="edit-link" href="{{.NotionEditURL}}" target="_blank">edit</a>
+                {{end}}
             </div>
 
             {{if .Article.HeaderImageURL}}
@@ -168,11 +172,7 @@
 
     </div>
 
-    {{if .NotionEditURL}}
-    <div class="edit-link">
-        <a href="{{.NotionEditURL}}" target="_blank">Suggest an edit</a>
-    </div>
-    {{end}} {{ template "analytics.tmpl.html" . }}
+    {{ template "analytics.tmpl.html" . }}
 
 </body>
 
