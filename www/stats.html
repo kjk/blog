@@ -16,11 +16,32 @@
         }(window, document, 'script'));
     </script>
 
+    <style type="text/css">
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .char-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-left: 8px;
+        }
+
+        .chart-hdr {
+            font-size: 85%;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div id="embed-api-auth-container"></div>
+    <div id="embed-api-auth-container" style="padding-bottom: 12px;"></div>
 
     <script>
         // ids is View ID in View Settings
@@ -42,15 +63,44 @@
         };
         var accounts = [sumatra, blog, books, tools];
 
-        function appendDiv(text, id) {
+        function appendDiv(text, id, parent) {
             var el = document.createElement('div');
             el.textContent = text;
             if (id) {
                 el.id = id;
             }
-            document.body.appendChild(el);
+            if (!parent) {
+                parent = document.body;
+            }
+            parent.appendChild(el);
+            return el;
         }
 
+        /*
+        <div class="chart-wrapper">
+            <div class="chart-hdr">
+                chart one title
+            </div>
+            <div class="chart">
+                chart one
+            </div>
+        </div>
+        */
+        function appendOneChart(hdrTitle, chartId, parent) {
+            var wrapper = appendDiv("");
+            wrapper.className = "chart-wrapper";
+            var hdr = appendDiv(hdrTitle, undefined, wrapper);
+            hdr.className = "chart-hdr";
+            var chart = appendDiv("", chartId, wrapper);
+            chart.className = "chart";
+            return wrapper;
+        }
+
+        function appendChartsWrapper() {
+            var wrapper = appendDiv("");
+            wrapper.className = "flex-row";
+            return wrapper;
+        }
         gapi.analytics.ready(function () {
             /**
              * Authorize the user immediately if the user has already granted access.
@@ -64,13 +114,11 @@
 
             var n = accounts.length;
             var i, acc, el;
+            var sessionsDiv = appendChartsWrapper();
             for (i = 0; i < n; i++) {
                 acc = accounts[i];
                 acc.sessId = "sess-" + i;
-
-                appendDiv(acc.name);
-                appendDiv("", acc.sessId);
-
+                appendOneChart(acc.name, acc.sessId, sessionsDiv);
                 acc.sessionsChart = new gapi.analytics.googleCharts.DataChart({
                     query: {
                         metrics: 'ga:sessions',
@@ -83,7 +131,7 @@
                         container: acc.sessId,
                         type: 'LINE',
                         options: {
-                            width: 320
+                            width: 300
                         }
                     }
                 });
