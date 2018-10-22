@@ -123,14 +123,14 @@
             return chart;
         }
 
-        function addSessionsChart(acc, parentDiv) {
+        function addSessionsChart(i, acc, parentDiv) {
             acc.sessId = "sess-" + i;
             appendOneChart(acc.name, acc.sessId, parentDiv);
             acc.sessionsChart = makeChart(acc.ids, "ga:sessions", acc.sessId);
             acc.sessionsChart.execute();
         }
 
-        function addUsersChart(acc, parentDiv) {
+        function addUsersChart(i, acc, parentDiv) {
             acc.usersId = "users-" + i;
             appendOneChart(acc.name, acc.usersId, usersDiv);
             acc.usersChart = makeChart(acc.ids, "ga:users", acc.usersId);
@@ -154,8 +154,8 @@
             var usersDiv = appendChartsWrapper();
             for (i = 0; i < n; i++) {
                 acc = accounts[i];
-                addSessionsChart(acc, sessionsDiv);
-                addusersChart(acc, usersDiv);
+                addSessionsChart(i, acc, sessionsDiv);
+                addusersChart(i, acc, usersDiv);
             }
         });
     </script>
