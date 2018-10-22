@@ -132,7 +132,7 @@
 
         function addUsersChart(i, acc, parentDiv) {
             acc.usersId = "users-" + i;
-            appendOneChart(acc.name, acc.usersId, usersDiv);
+            appendOneChart(acc.name, acc.usersId, parentDiv);
             acc.usersChart = makeChart(acc.ids, "ga:users", acc.usersId);
             acc.usersChart.execute();
         }
