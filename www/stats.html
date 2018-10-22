@@ -27,7 +27,7 @@
             flex-direction: row;
         }
 
-        .char-wrapper {
+        .chart-wrapper {
             display: flex;
             flex-direction: column;
             margin-left: 8px;
@@ -102,6 +102,41 @@
             return wrapper;
         }
 
+        function makeChart(ids, metrics, containerId) {
+            var chart = new gapi.analytics.googleCharts.DataChart({
+                query: {
+                    metrics: metrics,
+                    ids: ids,
+                    dimensions: 'ga:date',
+                    'start-date': '30daysAgo',
+                    'end-date': 'yesterday'
+                },
+                chart: {
+                    container: containerId,
+                    type: 'LINE',
+                    options: {
+                        width: 300,
+                        height: 200
+                    }
+                }
+            });
+            return chart;
+        }
+
+        function addSessionsChart(acc, parentDiv) {
+            acc.sessId = "sess-" + i;
+            appendOneChart(acc.name, acc.sessId, parentDiv);
+            acc.sessionsChart = makeChart(acc.ids, "ga:sessions", acc.sessId);
+            acc.sessionsChart.execute();
+        }
+
+        function addUsersChart(acc, parentDiv) {
+            acc.usersId = "users-" + i;
+            appendOneChart(acc.name, acc.usersId, usersDiv);
+            acc.usersChart = makeChart(acc.ids, "ga:users", acc.usersId);
+            acc.usersChart.execute();
+        }
+
         gapi.analytics.ready(function () {
             /**
              * Authorize the user immediately if the user has already granted access.
@@ -116,28 +151,11 @@
             var n = accounts.length;
             var i, acc, el;
             var sessionsDiv = appendChartsWrapper();
+            var usersDiv = appendChartsWrapper();
             for (i = 0; i < n; i++) {
                 acc = accounts[i];
-                acc.sessId = "sess-" + i;
-                appendOneChart(acc.name, acc.sessId, sessionsDiv);
-                acc.sessionsChart = new gapi.analytics.googleCharts.DataChart({
-                    query: {
-                        metrics: 'ga:sessions',
-                        ids: acc.ids,
-                        dimensions: 'ga:date',
-                        'start-date': '30daysAgo',
-                        'end-date': 'yesterday'
-                    },
-                    chart: {
-                        container: acc.sessId,
-                        type: 'LINE',
-                        options: {
-                            width: 300,
-                            height: 200
-                        }
-                    }
-                });
-                acc.sessionsChart.execute();
+                addSessionsChart(acc, sessionsDiv);
+                addusersChart(acc, usersDiv);
             }
         });
     </script>
