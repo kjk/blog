@@ -87,7 +87,7 @@
         </div>
         */
         function appendOneChart(hdrTitle, chartId, parent) {
-            var wrapper = appendDiv("");
+            var wrapper = appendDiv("", null, parent);
             wrapper.className = "chart-wrapper";
             var hdr = appendDiv(hdrTitle, undefined, wrapper);
             hdr.className = "chart-hdr";
@@ -101,6 +101,7 @@
             wrapper.className = "flex-row";
             return wrapper;
         }
+
         gapi.analytics.ready(function () {
             /**
              * Authorize the user immediately if the user has already granted access.
@@ -131,7 +132,8 @@
                         container: acc.sessId,
                         type: 'LINE',
                         options: {
-                            width: 300
+                            width: 300,
+                            height: 200
                         }
                     }
                 });
