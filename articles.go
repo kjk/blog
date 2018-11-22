@@ -51,6 +51,7 @@ type Article struct {
 	urlOverride    string
 
 	UpdatedAgeStr string
+	Images        []ImageMapping
 
 	// if true, this belongs to blog i.e. will be present in atom.xml
 	// and listed in blog section
@@ -222,10 +223,11 @@ func setHeaderImageMust(article *Article, val string) {
 	path := filepath.Join("www", val)
 	panicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
 	//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
-	article.HeaderImageURL = netlifyRequestGetFullHost() + val
+	uri := netlifyRequestGetFullHost() + val
+	article.HeaderImageURL = uri
 }
 
-func notionPageToArticle(page *notionapi.Page) *Article {
+func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	blocks := page.Root.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
@@ -352,7 +354,15 @@ func notionPageToArticle(page *notionapi.Page) *Article {
 	format := root.FormatPage
 	// set image header from cover page
 	if article.HeaderImageURL == "" && format != nil && format.PageCoverURL != "" {
-		article.HeaderImageURL = format.PageCoverURL
+		path, err := downloadAndCacheImage(c, format.PageCoverURL)
+		panicIfErr(err)
+		relURL := "/img/" + filepath.Base(path)
+		im := ImageMapping{
+			path:        path,
+			relativeURL: relURL,
+		}
+		article.Images = append(article.Images, im)
+		article.HeaderImageURL = relURL
 	}
 	return article
 }
@@ -451,7 +461,7 @@ func loadArticles(c *notionapi.Client) *Articles {
 	res.idToArticle = map[string]*Article{}
 	for id, page := range res.idToPage {
 		panicIf(id != normalizeID(id), "bad id '%s' sneaked in", id)
-		article := notionPageToArticle(page)
+		article := notionPageToArticle(c, page)
 		if article.urlOverride != "" {
 			fmt.Printf("url override: %s => %s\n", article.urlOverride, article.ID)
 		}
@@ -466,9 +476,10 @@ func loadArticles(c *notionapi.Client) *Articles {
 	}
 
 	for _, article := range res.articles {
-		html := notionToHTML(article.page, res)
+		html, images := notionToHTML(c, article.page, res)
 		article.BodyHTML = string(html)
 		article.HTMLBody = template.HTML(article.BodyHTML)
+		article.Images = append(article.Images, images...)
 	}
 
 	buildArticlesNavigation(res)

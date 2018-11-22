@@ -12,6 +12,8 @@ require (
 	github.com/dlclark/regexp2 v1.1.6 // indirect
 	github.com/gomarkdown/markdown v0.0.0-20180903204952-ce812a1f8db5
 	github.com/kjk/betterguid v0.0.0-20170621091430-c442874ba63a
+	github.com/kjk/differ v0.0.0-20160219090336-b06035be5b30 // indirect
+	github.com/kjk/log v0.0.0-20170410032400-d87de8724067 // indirect
 	github.com/kjk/notionapi v0.0.0-20181019193520-6bcb1d8bb404
 	github.com/kjk/u v0.0.0-20170711051841-93181be023c9
 	github.com/kr/pretty v0.1.0 // indirect

@@ -1,10 +1,12 @@
 package main
 
 import (
+	"crypto/sha1"
 	"encoding/json"
 	"fmt"
 	"io"
 	"io/ioutil"
+	"net/http"
 	"os"
 	"path/filepath"
 	"sort"
@@ -104,6 +106,80 @@ func downloadPageRetry(c *notionapi.Client, pageID string) (*notionapi.Page, err
 	return nil, err
 }
 
+func sha1OfLink(link string) string {
+	link = strings.ToLower(link)
+	h := sha1.New()
+	h.Write([]byte(link))
+	return fmt.Sprintf("%x", h.Sum(nil))
+}
+
+// return path of cached image on disk
+func downloadAndCacheImage(c *notionapi.Client, link string) (string, error) {
+	sha := sha1OfLink(link)
+	ext := strings.ToLower(filepath.Ext(link))
+
+	dir := filepath.Join(cacheDir, "img")
+	err := os.MkdirAll(dir, 0755)
+	panicIfErr(err)
+
+	cachedPath := filepath.Join(dir, sha+ext)
+	st, err := os.Stat(cachedPath)
+	// file exists - was downloaded already
+	if err == nil {
+		if st.IsDir() {
+			return "", fmt.Errorf("%s exists but is a directory (should be a file)", cachedPath)
+		}
+		fmt.Printf("Image %s already downloaded as %s\n", link, cachedPath)
+		return cachedPath, nil
+	}
+
+	// if error other than "file not exists" then somethings very wrong
+	if !os.IsNotExist(err) {
+		panicIfErr(err)
+	}
+
+	timeStart := time.Now()
+	fmt.Printf("Downloading %s as %s... ", link, cachedPath)
+	req, err := http.NewRequest("GET", link, nil)
+	if err != nil {
+		fmt.Printf("failed with %s\n", err)
+		return "", err
+	}
+	if c.AuthToken != "" {
+		req.Header.Set("cookie", fmt.Sprintf("token_v2=%v", c.AuthToken))
+	}
+	client := http.DefaultClient
+	resp, err := client.Do(req)
+	if err != nil {
+		fmt.Printf("failed in %s with %s\n", time.Since(timeStart), err)
+		return "", err
+	}
+	fmt.Printf("finished in %s\n", time.Since(timeStart))
+	defer resp.Body.Close()
+	if resp.StatusCode >= 400 {
+		return "", fmt.Errorf("Download failed with status code %s", resp.Status)
+
+	}
+
+	f, err := os.Create(cachedPath)
+	if err != nil {
+		return "", err
+	}
+
+	_, err = io.Copy(f, resp.Body)
+	if err != nil {
+		f.Close()
+		os.Remove(cachedPath)
+		return "", err
+	}
+	err = f.Close()
+	if err != nil {
+		os.Remove(cachedPath)
+		return "", err
+	}
+	return cachedPath, nil
+}
+
 func downloadAndCachePage(c *notionapi.Client, pageID string) (*notionapi.Page, error) {
 	//fmt.Printf("downloading page with id %s\n", pageID)
 	lf, _ := openLogFileForPageID(pageID)
@@ -127,14 +203,14 @@ func downloadAndCachePage(c *notionapi.Client, pageID string) (*notionapi.Page, 
 	return page, nil
 }
 
-func notionToHTML(page *notionapi.Page, articles *Articles) []byte {
-	gen := NewHTMLGenerator(page)
+func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles) ([]byte, []ImageMapping) {
+	gen := NewHTMLGenerator(c, page)
 	if articles != nil {
 		gen.idToArticle = func(id string) *Article {
 			return articles.idToArticle[id]
 		}
 	}
-	return gen.Gen()
+	return gen.Gen(), gen.images
 }
 
 func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int) (*notionapi.Page, error) {
@@ -253,5 +329,5 @@ func loadPageAsArticle(c *notionapi.Client, pageID string) *Article {
 		panicIfErr(err)
 		fmt.Printf("Downloaded %s %s\n", pageID, page.Root.Title)
 	}
-	return notionPageToArticle(page)
+	return notionPageToArticle(c, page)
 }

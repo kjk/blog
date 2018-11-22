@@ -211,6 +211,26 @@ func skipTmplFiles(path string) bool {
 	return false
 }
 
+func copyImages(a *Article) {
+	for _, im := range a.Images {
+		path := im.path
+		relURL := im.relativeURL
+		relPath := filepath.FromSlash(relURL)
+		dstPath := filepath.Join("netlify_static", relPath)
+		mkdirForFile(dstPath)
+		st, err := os.Stat(dstPath)
+		if err == nil {
+			panicIf(st.IsDir(), "path %s already exists and is a directory", path)
+			// no error means file already exists
+			fmt.Printf("Image %s already copied to %s\n", path, dstPath)
+			continue
+		}
+		err = copyFile(dstPath, path)
+		panicIfErr(err)
+		fmt.Printf("Copied %s to %s\n", path, dstPath)
+	}
+}
+
 func netlifyBuild(store *Articles) {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -324,6 +344,13 @@ func netlifyBuild(store *Articles) {
 			Articles:      articles,
 		}
 		netlifyExecTemplate("/changelog.html", tmplChangelog, model)
+	}
+
+	{
+		articles := store.getBlogNotHidden()
+		for _, a := range articles {
+			copyImages(a)
+		}
 	}
 
 	{

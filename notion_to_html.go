@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"html"
 	"io"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -12,21 +13,32 @@ import (
 	"github.com/kjk/notionapi"
 )
 
-// HTMLGenerator is for notion -> HTML generation
+// ImageMapping keeps track of rewritten image urls (locally cached
+// images in notion)
+type ImageMapping struct {
+	path        string
+	relativeURL string
+}
+
+// HTMLGenerator generates an .html file for single notion page
 type HTMLGenerator struct {
-	f           *bytes.Buffer
-	page        *notionapi.Page
-	level       int
-	nToggle     int
-	err         error
-	idToArticle func(string) *Article
+	f            *bytes.Buffer
+	page         *notionapi.Page
+	notionClient *notionapi.Client
+	level        int
+	levelCls     string
+	nToggle      int
+	err          error
+	idToArticle  func(string) *Article
+	images       []ImageMapping
 }
 
 // NewHTMLGenerator returns new HTMLGenerator
-func NewHTMLGenerator(page *notionapi.Page) *HTMLGenerator {
+func NewHTMLGenerator(c *notionapi.Client, page *notionapi.Page) *HTMLGenerator {
 	return &HTMLGenerator{
-		f:    &bytes.Buffer{},
-		page: page,
+		notionClient: c,
+		f:            &bytes.Buffer{},
+		page:         page,
 	}
 }
 
@@ -354,9 +366,9 @@ func (g *HTMLGenerator) writeString(s string) {
 }
 
 func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
-	levelCls := ""
+	g.levelCls = ""
 	if g.level > 0 {
-		levelCls = fmt.Sprintf(" lvl%d", g.level)
+		g.levelCls = fmt.Sprintf(" lvl%d", g.level)
 	}
 
 	switch block.Type {
@@ -365,11 +377,11 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		close := `</p>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockHeader:
-		start := fmt.Sprintf(`<h1 class="hdr%s">`, levelCls)
+		start := fmt.Sprintf(`<h1 class="hdr%s">`, g.levelCls)
 		close := `</h1>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockSubHeader:
-		start := fmt.Sprintf(`<h2 class="hdr%s">`, levelCls)
+		start := fmt.Sprintf(`<h2 class="hdr%s">`, g.levelCls)
 		close := `</h2>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockTodo:
@@ -377,17 +389,17 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		if block.IsChecked {
 			clsChecked = " todo-checked"
 		}
-		start := fmt.Sprintf(`<div class="todo%s%s">`, levelCls, clsChecked)
+		start := fmt.Sprintf(`<div class="todo%s%s">`, g.levelCls, clsChecked)
 		close := `</div>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockToggle:
 		g.genToggle(block)
 	case notionapi.BlockQuote:
-		start := fmt.Sprintf(`<blockquote class="%s">`, levelCls)
+		start := fmt.Sprintf(`<blockquote class="%s">`, g.levelCls)
 		close := `</blockquote>`
 		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockDivider:
-		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", levelCls)
+		fmt.Fprintf(g.f, `<hr class="%s"/>`+"\n", g.levelCls)
 	case notionapi.BlockPage:
 		cls := "page"
 		if block.IsLinkToPage() {
@@ -395,7 +407,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		}
 		url, title := g.getURLAndTitleForBlock(block)
 		title = template.HTMLEscapeString(title)
-		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, levelCls, url, title)
+		html := fmt.Sprintf(`<div class="%s%s"><a href="%s">%s</a></div>`, cls, g.levelCls, url, title)
 		fmt.Fprintf(g.f, "%s\n", html)
 	case notionapi.BlockCode:
 		/*
@@ -407,13 +419,12 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		*/
 		htmlHighlight(g.f, string(block.Code), block.CodeLanguage, "")
 	case notionapi.BlockBookmark:
-		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", levelCls, block.Link)
+		fmt.Fprintf(g.f, `<div class="bookmark %s">Bookmark to %s</div>`+"\n", g.levelCls, block.Link)
 	case notionapi.BlockGist:
 		s := fmt.Sprintf(`<script src="%s.js"></script>`, block.Source)
 		g.writeString(s)
 	case notionapi.BlockImage:
-		link := block.ImageURL
-		fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", levelCls, link)
+		g.genImage(block)
 	case notionapi.BlockColumnList:
 		g.genColumnList(block)
 	case notionapi.BlockCollectionView:
@@ -427,6 +438,27 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
 		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))
 	}
+}
+
+func (g *HTMLGenerator) genImageOld(block *notionapi.Block) {
+	link := block.ImageURL
+	fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", g.levelCls, link)
+}
+
+func (g *HTMLGenerator) genImage(block *notionapi.Block) {
+	link := block.ImageURL
+	path, err := downloadAndCacheImage(g.notionClient, link)
+	if err != nil {
+		fmt.Printf("Downloading from page https://notion.so/%s\n", normalizeID(g.page.ID))
+		panicIfErr(err)
+	}
+	relURL := "/img/" + filepath.Base(path)
+	im := ImageMapping{
+		path:        path,
+		relativeURL: relURL,
+	}
+	g.images = append(g.images, im)
+	fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", g.levelCls, relURL)
 }
 
 func (g *HTMLGenerator) genBlocks(blocks []*notionapi.Block) {

@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
+	"strings"
 	"time"
 
 	"github.com/kjk/notionapi"
@@ -91,8 +92,9 @@ func main() {
 
 	client := &notionapi.Client{}
 	authToken, ok := os.LookupEnv("NOTION_TOKEN")
-	if !ok || authToken != "" {
+	if !ok || strings.TrimSpace(authToken) == "" {
 		fmt.Printf("Must set NOTION_TOKEN env variable!\n")
+		os.Exit(1)
 	}
 	client.AuthToken = authToken
 
