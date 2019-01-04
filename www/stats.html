@@ -96,6 +96,26 @@
             return wrapper;
         }
 
+        /*
+        <div class="pages-wrapper">
+            <div class="pages-chart-hdr">
+                title
+            </div>
+            <div class="pages-chart">
+                table one
+            </div>
+        </div>
+        */
+        function appendPagesChart(hdrTitle, chartId, parent) {
+            var wrapper = appendDiv("", null, parent);
+            wrapper.className = "pages-wrapper";
+            var hdr = appendDiv(hdrTitle, undefined, wrapper);
+            hdr.className = "pages-chart-hdr";
+            var chart = appendDiv("", chartId, wrapper);
+            chart.className = "pages-chart";
+            return wrapper;
+        }
+
         function appendChartsWrapper() {
             var wrapper = appendDiv("");
             wrapper.className = "flex-row";
@@ -104,7 +124,6 @@
 
         function appendPagesWrapper() {
             var wrapper = appendDiv("");
-            wrapper.className = "flex-col";
             return wrapper;
         }
 
@@ -166,7 +185,7 @@
 
         function addPagesChart(i, acc, parentDiv) {
             acc.pagesId = "pages-" + i;
-            appendOneChart(acc.name, acc.pagesId, parentDiv);
+            appendPagesChart(acc.name, acc.pagesId, parentDiv);
             acc.pagesChart = makePagesChart(acc.ids, acc.pagesId);
             acc.pagesChart.execute();
         }
