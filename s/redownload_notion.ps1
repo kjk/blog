@@ -7,6 +7,6 @@ $exe = "blog_app.exe"
 go build -o $exe
 exitIfFailed
 
-Start-Process -Wait -FilePath $exe -ArgumentList '-redownload-notion'
+Start-Process -Wait -NoNewWindow -FilePath $exe -ArgumentList '-redownload-notion'
 
 Remove-Item -Path $exe

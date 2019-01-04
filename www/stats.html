@@ -102,6 +102,33 @@
             return wrapper;
         }
 
+        function appendPagesWrapper() {
+            var wrapper = appendDiv("");
+            wrapper.className = "flex-col";
+            return wrapper;
+        }
+
+        function makePagesChart(ids, containerId) {
+            var chart = new gapi.analytics.googleCharts.DataChart({
+                query: {
+                    metrics: "ga:pageviews",
+                    ids: ids,
+                    dimensions: 'ga:pagePath',
+                    sort: "-ga:pageviews",
+                    'start-date': '30daysAgo',
+                    'end-date': 'yesterday'
+                },
+                chart: {
+                    container: containerId,
+                    type: 'TABLE',
+                    options: {
+                        width: '100%'
+                    }
+                }
+            });
+            return chart;
+        }
+
         function makeChart(ids, metrics, containerId) {
             var chart = new gapi.analytics.googleCharts.DataChart({
                 query: {
@@ -123,10 +150,10 @@
             return chart;
         }
 
-        function addSessionsChart(i, acc, parentDiv) {
+        function addPageViewsChart(i, acc, parentDiv) {
             acc.sessId = "sess-" + i;
             appendOneChart(acc.name, acc.sessId, parentDiv);
-            acc.sessionsChart = makeChart(acc.ids, "ga:sessions", acc.sessId);
+            acc.sessionsChart = makeChart(acc.ids, "ga:pageviews", acc.sessId);
             acc.sessionsChart.execute();
         }
 
@@ -135,6 +162,13 @@
             appendOneChart(acc.name, acc.usersId, parentDiv);
             acc.usersChart = makeChart(acc.ids, "ga:users", acc.usersId);
             acc.usersChart.execute();
+        }
+
+        function addPagesChart(i, acc, parentDiv) {
+            acc.pagesId = "pages-" + i;
+            appendOneChart(acc.name, acc.pagesId, parentDiv);
+            acc.pagesChart = makePagesChart(acc.ids, acc.pagesId);
+            acc.pagesChart.execute();
         }
 
         gapi.analytics.ready(function () {
@@ -154,8 +188,14 @@
             var usersDiv = appendChartsWrapper();
             for (i = 0; i < n; i++) {
                 acc = accounts[i];
-                addSessionsChart(i, acc, sessionsDiv);
+                addPageViewsChart(i, acc, sessionsDiv);
                 addUsersChart(i, acc, usersDiv);
+            }
+
+            var pagesDiv = appendPagesWrapper();
+            for (i = 0; i < n; i++) {
+                acc = accounts[i];
+                addPagesChart(i, acc, pagesDiv);
             }
         });
     </script>
