@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="http://kjkpub.s3.amazonaws.com/vack/relnotes.xml" />
+  <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="https://kjkpub.s3.amazonaws.com/vack/relnotes.xml" />
 
   <title>Search in files, quickly</title>
 
-  <script src="http://kjkpub.s3.amazonaws.com/vack/latestver.js" type="text/javascript"></script>
+  <script src="https://kjkpub.s3.amazonaws.com/vack/latestver.js" type="text/javascript"></script>
 
   <script>
     function $(id) {
@@ -25,13 +25,13 @@
 
     function selectMain() {
       var shot = $("currentscreenshot");
-      shot.src = "http://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png";
+      shot.src = "https://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png";
       return false;
     }
 
     function selectResult() {
       var shot = $("currentscreenshot");
-      shot.src = "http://kjkpub.s3.amazonaws.com/blog/vack/vack-results.png";
+      shot.src = "https://kjkpub.s3.amazonaws.com/blog/vack/vack-results.png";
       return false;
     }
 
@@ -46,8 +46,8 @@
     function myInit() {
       var html = "<a class=dl href='" + vackLatestUrl + "'>Download</a>";
       //$("url").innerHTML = html;
-      //$("ver").innerHTML = "(version " + vackLatestVer + ', <a href="http://kjkpub.s3.amazonaws.com/vack/relnotes.html">release notes</a>)';
-      html = '<a href="' + vackLatestUrl + '">' + '<img id="currentscreenshot" src="http://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png"></a>';
+      //$("ver").innerHTML = "(version " + vackLatestVer + ', <a href="https://kjkpub.s3.amazonaws.com/vack/relnotes.html">release notes</a>)';
+      html = '<a href="' + vackLatestUrl + '">' + '<img id="currentscreenshot" src="https://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png"></a>';
       $("shot2").innerHTML = html;
       $("btn-dl").innerHTML = build_dl_html();
       //$("buildtime").innerHTML = vackBuiltOn;
@@ -85,10 +85,10 @@
         <td></td>
         <td align="center">
           <a href="#" onclick="return selectMain();">
-            <img src="http://kjkpub.s3.amazonaws.com/blog/vack/vack-main-mini.png">
+            <img src="https://kjkpub.s3.amazonaws.com/blog/vack/vack-main-mini.png">
           </a>
           <a href="#" onclick="return selectResult();">
-            <img src="http://kjkpub.s3.amazonaws.com/blog/vack/vack-results-mini.png">
+            <img src="https://kjkpub.s3.amazonaws.com/blog/vack/vack-results-mini.png">
           </a>
         </td>
       </tr>

@@ -11,7 +11,7 @@
 <body>
 <h1>An optimization story</h1>
 
-<p><a href="http://flickr.com/photos/jurvetson/2446871523/"><img src="http://farm3.static.flickr.com/2295/2446871523_05af7baec8_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://flickr.com/photos/jurvetson/2446871523/"><img src="https://farm3.static.flickr.com/2295/2446871523_05af7baec8_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p>Here&#8217;s an example of optimizing a piece of code, starting from simple, unoptimized code to extremely optimized, yet still simple code.</p>
 
@@ -42,7 +42,7 @@ public:
 
 <p>A naive <span class="caps">STL</span> version will simply use a vector of strings for storing names and a vector of strings for storing values.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181086335/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/52/181086335_3390d27992_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181086335/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/52/181086335_3390d27992_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrStl.h.html'>ParsedStrStl.h</a> (<a href='src/ParsedStrStl.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -110,7 +110,7 @@ const char* ParsedStr::value(size_t idx)
 
 <p>It&#8217;s both simpler and faster.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181095786/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/68/181095786_ef9fc49edd_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181095786/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/68/181095786_ef9fc49edd_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrUnopt.h.html'>ParsedStrUnopt.h</a> (<a href='src/ParsedStrUnopt.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -182,7 +182,7 @@ ParsedStr::~ParsedStr()
 
 <p>When we&#8217;re done we only need to free the string copy.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181091710/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/57/181091710_9bb4dd4bcf_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181091710/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/57/181091710_9bb4dd4bcf_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrOptAlloc.h.html'>ParsedStrOptAlloc.h</a> (<a href='src/ParsedStrOptAlloc.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -248,7 +248,7 @@ ParsedStr::~ParsedStr()
 
 <p>This saves one <code>malloc()</code> and a little bit of memory due to less <code>malloc()</code> overhead.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181087250/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/62/181087250_c3d0fafd24_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181087250/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/62/181087250_c3d0fafd24_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrOptOneArray.h.html'>ParsedStrOptOneArray.h</a> (<a href='src/ParsedStrOptOneArray.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -319,7 +319,7 @@ const char* ParsedStr::value(size_t idx)
 
 <p>If we can guarantee that the string size is limited, which is often the case, we can represent the offset with a smaller number of bytes. For strings 3 bytes (24 bits) would be a safe value for most cases. In our case, let&#8217;s limit the string size to 64 kB and use 2 bytes for offset.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181087083/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/63/181087083_fcf7fe632d_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181087083/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/63/181087083_fcf7fe632d_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrOptOffsets.h.html'>ParsedStrOptOffsets.h</a> (<a href='src/ParsedStrOptOffsets.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -384,7 +384,7 @@ const char* ParsedStr::value(size_t idx)
 
 <p>Do we need the offsets at all? We know that strings are laid out in memory in a specific order and if we&#8217;re willing to sacrifice a little bit of speed, we don&#8217;t have to store the offsets. Let&#8217;s just find n-th string starting from the beginning.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181086162/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/58/181086162_1f3ed9359b_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181086162/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/58/181086162_1f3ed9359b_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrOptNoOffsets.h.html'>ParsedStrOptNoOffsets.h</a> (<a href='src/ParsedStrOptNoOffsets.h.txt'>raw</a>):
 <pre><code class="cpp">
@@ -471,7 +471,7 @@ bool ParsedStr::parse(const char *str)
 
 <p>How do we know if it&#8217;s worth it and how do we know what buffer size should we pick? It has to come from data based on real-life usage of the application. Instrument the app to gather statistics on the sizes of the string and pick a value that balances small size of the buffer and high hit ratio.</p>
 
-<p><a href="http://www.flickr.com/photos/jonhanson/181091396/in/set-72157594186301066/"><img src="http://farm1.static.flickr.com/65/181091396_26f1dc4d00_m.jpg" style="float:right;" alt="" class="right" /></a></p>
+<p><a href="http://www.flickr.com/photos/jonhanson/181091396/in/set-72157594186301066/"><img src="https://farm1.static.flickr.com/65/181091396_26f1dc4d00_m.jpg" style="float:right;" alt="" class="right" /></a></p>
 
 <p><a href='src/ParsedStrOptCommon.h.html'>ParsedStrOptCommon.h</a> (<a href='src/ParsedStrOptCommon.h.txt'>raw</a>):
 <pre><code class="cpp">

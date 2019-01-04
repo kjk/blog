@@ -40,7 +40,7 @@ theory you shouldn't need to change them.
 
 ### Download
 
-Download [scdiff.exe](http://kjkpub.s3.amazonaws.com/files/scdiff.exe).
+Download [scdiff.exe](https://kjkpub.s3.amazonaws.com/files/scdiff.exe).
 Requires .NET Framework 2.0.
 
 ### Source code

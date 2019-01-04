@@ -53,4 +53,4 @@ competition. It will delight them and that will give them something to
 talk about on their blogs =\> free advertising. Examples: Sumatra PDF,
 uTorrent (?)
 
-  []: >http://farm1.static.flickr.com/209/444308387_7a91248a59_m.jpg
+  []: >https://farm1.static.flickr.com/209/444308387_7a91248a59_m.jpg

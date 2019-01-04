@@ -2,7 +2,7 @@ Title: An optimization story
 
 h1. An optimization story
 
-!>http://farm3.static.flickr.com/2295/2446871523_05af7baec8_m.jpg!:http://flickr.com/photos/jurvetson/2446871523/
+!>https://farm3.static.flickr.com/2295/2446871523_05af7baec8_m.jpg!:http://flickr.com/photos/jurvetson/2446871523/
 
 Here's an example of optimizing a piece of code, starting from simple, unoptimized code to extremely optimized, yet still simple code.
 
@@ -22,7 +22,7 @@ h2. Naive STL version
 
 A naive STL version will simply use a vector of strings for storing names and a vector of strings for storing values.
 
-!>http://farm1.static.flickr.com/52/181086335_3390d27992_m.jpg!:http://www.flickr.com/photos/jonhanson/181086335/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/52/181086335_3390d27992_m.jpg!:http://www.flickr.com/photos/jonhanson/181086335/in/set-72157594186301066/
 
 @includesrc ParsedStrStl.h 7 11
 
@@ -41,7 +41,7 @@ STL's @std::vector@ takes care of resizing the array but we would have to code i
 
 It's both simpler and faster.
 
-!>http://farm1.static.flickr.com/68/181095786_ef9fc49edd_m.jpg!:http://www.flickr.com/photos/jonhanson/181095786/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/68/181095786_ef9fc49edd_m.jpg!:http://www.flickr.com/photos/jonhanson/181095786/in/set-72157594186301066/
 
 @includesrc ParsedStrUnopt.h 4 9
 
@@ -60,7 +60,7 @@ Our optimized version simply duplicates the original string, replaces @=@ and @&
 
 When we're done we only need to free the string copy.
 
-!>http://farm1.static.flickr.com/57/181091710_9bb4dd4bcf_m.jpg!:http://www.flickr.com/photos/jonhanson/181091710/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/57/181091710_9bb4dd4bcf_m.jpg!:http://www.flickr.com/photos/jonhanson/181091710/in/set-72157594186301066/
 
 @includesrc ParsedStrOptAlloc.h 4 10
 
@@ -76,7 +76,7 @@ We adopt a simple indexing convention for accessing elements. Element @i@ of @_n
 
 This saves one @malloc()@ and a little bit of memory due to less @malloc()@ overhead.
 
-!>http://farm1.static.flickr.com/62/181087250_c3d0fafd24_m.jpg!:http://www.flickr.com/photos/jonhanson/181087250/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/62/181087250_c3d0fafd24_m.jpg!:http://www.flickr.com/photos/jonhanson/181087250/in/set-72157594186301066/
 
 @includesrc ParsedStrOptOneArray.h 4 9
 
@@ -90,11 +90,11 @@ h2. Offsets instead of pointers
 
 A pointer uses 4 bytes on 32-bit machine and 8 bytes on (increasingly more common) 64-bit machines.
 
-All pointers point somewhere within a string so they could be represented as an offset from the beginning of the string. 
+All pointers point somewhere within a string so they could be represented as an offset from the beginning of the string.
 
 If we can guarantee that the string size is limited, which is often the case, we can represent the offset with a smaller number of bytes. For strings 3 bytes (24 bits) would be a safe value for most cases. In our case, let's limit the string size to 64 kB and use 2 bytes for offset.
 
-!>http://farm1.static.flickr.com/63/181087083_fcf7fe632d_m.jpg!:http://www.flickr.com/photos/jonhanson/181087083/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/63/181087083_fcf7fe632d_m.jpg!:http://www.flickr.com/photos/jonhanson/181087083/in/set-72157594186301066/
 
 @includesrc ParsedStrOptOffsets.h 4 9
 
@@ -106,7 +106,7 @@ h2. Getting rid of offsets
 
 Do we need the offsets at all? We know that strings are laid out in memory in a specific order and if we're willing to sacrifice a little bit of speed, we don't have to store the offsets. Let's just find n-th string starting from the beginning.
 
-!>http://farm1.static.flickr.com/58/181086162_1f3ed9359b_m.jpg!:http://www.flickr.com/photos/jonhanson/181086162/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/58/181086162_1f3ed9359b_m.jpg!:http://www.flickr.com/photos/jonhanson/181086162/in/set-72157594186301066/
 
 @includesrc ParsedStrOptNoOffsets.h 4 8
 
@@ -144,7 +144,7 @@ If the string doesn't fit in the buffer, we'll use more memory (the buffer is un
 
 How do we know if it's worth it and how do we know what buffer size should we pick? It has to come from data based on real-life usage of the application. Instrument the app to gather statistics on the sizes of the string and pick a value that balances small size of the buffer and high hit ratio.
 
-!>http://farm1.static.flickr.com/65/181091396_26f1dc4d00_m.jpg!:http://www.flickr.com/photos/jonhanson/181091396/in/set-72157594186301066/
+!>https://farm1.static.flickr.com/65/181091396_26f1dc4d00_m.jpg!:http://www.flickr.com/photos/jonhanson/181091396/in/set-72157594186301066/
 
 @includesrc ParsedStrOptCommon.h 4 12
 

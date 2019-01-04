@@ -36,7 +36,7 @@ Table of contents
 12. [Other misc ideas][]
 
   [Krzysztof Kowalczyk]: https://blog.kowalczyk.info
-  []: >http://farm1.static.flickr.com/206/512024537_3da49317eb_m.jpg
+  []: >https://farm1.static.flickr.com/206/512024537_3da49317eb_m.jpg
   [Why optimize?]: why_optimize.html
   [An optimization story]: optimization_story.html
   [Things you need to know]: things_to_know.html

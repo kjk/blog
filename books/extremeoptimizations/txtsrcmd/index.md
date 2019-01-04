@@ -36,6 +36,6 @@ Table of contents
 12. Other misc ideas
 
   [Krzysztof Kowalczyk]: https://blog.kowalczyk.info
-  []: >http://farm1.static.flickr.com/206/512024537_3da49317eb_m.jpg
+  []: >https://farm1.static.flickr.com/206/512024537_3da49317eb_m.jpg
   [An optimization story]: optimization_story.html
   [Case study: optimizing disassembler in v8]: optimizing_v8.html
