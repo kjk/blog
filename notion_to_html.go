@@ -440,11 +440,6 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 	}
 }
 
-func (g *HTMLGenerator) genImageOld(block *notionapi.Block) {
-	link := block.ImageURL
-	fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", g.levelCls, link)
-}
-
 func (g *HTMLGenerator) genImage(block *notionapi.Block) {
 	link := block.ImageURL
 	path, err := downloadAndCacheImage(g.notionClient, link)
@@ -458,7 +453,7 @@ func (g *HTMLGenerator) genImage(block *notionapi.Block) {
 		relativeURL: relURL,
 	}
 	g.images = append(g.images, im)
-	fmt.Fprintf(g.f, `<img class="%s" style="width: 100%%" src="%s" />`+"\n", g.levelCls, relURL)
+	fmt.Fprintf(g.f, `<img class="blog-img" src="%s" />`+"\n", relURL)
 }
 
 func (g *HTMLGenerator) genBlocks(blocks []*notionapi.Block) {
