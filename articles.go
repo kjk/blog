@@ -33,6 +33,11 @@ type URLPath struct {
 	Name string
 }
 
+type MetaValue struct {
+	key   string
+	value string
+}
+
 // Article describes a single article
 type Article struct {
 	ID             string
@@ -48,6 +53,7 @@ type Article struct {
 	Status         int
 	Description    string
 	Paths          []URLPath
+	Metadata       []*MetaValue
 	urlOverride    string
 
 	UpdatedAgeStr string
@@ -279,6 +285,29 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 			break
 		}
 		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
+
+		// parse generic metadata like "@foo: bar" or "@foo bar"
+		if s[0] == '@' {
+			s := s[1:]
+			idx := strings.Index(s, ":")
+			if idx == -1 {
+				idx = strings.Index(s, " ")
+			}
+			key := s
+			value := ""
+			if idx != -1 {
+				key = s[:idx]
+				value = s[idx+1:]
+			}
+			meta := &MetaValue{
+				key:   key,
+				value: value,
+			}
+			article.Metadata = append(article.Metadata, meta)
+			blocks = blocks[1:]
+			nBlock++
+			continue
+		}
 
 		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {

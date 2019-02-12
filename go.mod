@@ -14,6 +14,7 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/segmentio/ksuid v1.0.2
 	github.com/sony/sonyflake v0.0.0-20181109022403-6d5bd6181009
+	github.com/stretchr/testify v1.2.2
 	github.com/thomas11/atomgenerator v0.0.0-20140514140532-0b3b01da14a4
 	github.com/yosssi/gohtml v0.0.0-20190128141317-9b7db94d32d9
 )
