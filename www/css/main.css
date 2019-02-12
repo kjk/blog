@@ -2,20 +2,16 @@ body {
   margin: 0px 16px 0px 16px;
   background: white;
   color: #333;
-  /* same as github.com */
+  /* font as github.com */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12pt;
-  line-height: 1.4;
+  /* font size as in stack overflow */
+  font-size: 15px;
+  line-height: 1.35;
 }
 
 code {
   background-color: #f9f9f9;
-}
-
-div > p,
-li > p {
-  line-height: 1.5em;
 }
 
 h1,
