@@ -346,7 +346,7 @@ func dirCopyRecur(dst string, src string, shouldSkipFile func(string) bool) (int
 				dirsToVisit = append(dirsToVisit, path)
 				continue
 			}
-			if shouldSkipFile(path) {
+			if shouldSkipFile != nil && shouldSkipFile(path) {
 				continue
 			}
 			dstPath := dst + path[len(src):]
@@ -354,6 +354,7 @@ func dirCopyRecur(dst string, src string, shouldSkipFile func(string) bool) (int
 			if err != nil {
 				return nFilesCopied, err
 			}
+			fmt.Printf("Copied %s => %s\n", path, dstPath)
 			nFilesCopied++
 		}
 	}
