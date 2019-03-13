@@ -116,6 +116,10 @@ func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
 		return uri
 	}
 	article := g.idToArticle(id)
+	// this might happen when I link to some-one else's public notion pages
+	if article == nil {
+		return uri
+	}
 	return article.URL()
 }
 
