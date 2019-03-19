@@ -448,7 +448,7 @@ func (g *HTMLGenerator) genImage(block *notionapi.Block) {
 	link := block.Source
 	path, err := downloadAndCacheImage(g.notionClient, link)
 	if err != nil {
-		fmt.Printf("Downloading from page https://notion.so/%s\n", normalizeID(g.page.ID))
+		fmt.Printf("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(g.page.ID), err)
 		panicIfErr(err)
 	}
 	relURL := "/img/" + filepath.Base(path)
