@@ -1,0 +1,7 @@
+
+steps:
+- name: 'golang'
+  args: ['go', 'test', '.']
+  env: ['GO111MODULE=on']
+  dir: '.'
+  env: ['GOPATH=/tmp']
