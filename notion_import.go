@@ -27,7 +27,7 @@ var (
 
 // convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
 func normalizeID(s string) string {
-	return strings.Replace(s, "-", "", -1)
+	return notionapi.ToNoDashID(s)
 }
 
 func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
@@ -213,17 +213,38 @@ func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles)
 	return gen.Gen(), gen.images
 }
 
+func loadPageBlockInfo(c *notionapi.Client, pageID string) (*notionapi.Block, error) {
+	recVals, err := c.GetRecordValues([]string{pageID})
+	if err != nil {
+		return nil, err
+	}
+	res := recVals.Results[0]
+	// this might happen e.g. when a page is not publicly visible
+	if res.Value == nil {
+		return nil, fmt.Errorf("Couldn't retrieve page with id %s", pageID)
+	}
+	return res.Value, nil
+}
+
 func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int) (*notionapi.Page, error) {
-	if getFromCache {
-		page := loadPageFromCache(pageID)
-		if page != nil {
-			fmt.Printf("Got %d from cache %s %s\n", n, pageID, page.Root.Title)
+	page := loadPageFromCache(pageID)
+	if page != nil {
+		if getFromCache {
+			fmt.Printf("Page %d %s: got from cache. Title: %s\n", n, pageID, page.Root.Title)
 			return page, nil
 		}
+		pageBlock, err := loadPageBlockInfo(c, pageID)
+		if err == nil {
+			if pageBlock.Version == page.Root.Version {
+				fmt.Printf("Page %d %s: skipping re-download because version on server same as in cache. Title: %s\n", n, pageID, page.Root.Title)
+				return page, nil
+			}
+		}
 	}
+
 	page, err := downloadAndCachePage(c, pageID)
 	if err == nil {
-		fmt.Printf("Downloaded %d %s %s\n", n, page.ID, page.Root.Title)
+		fmt.Printf("Page %d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
 	}
 	return page, err
 }
@@ -304,7 +325,10 @@ func removeCachedNotion() {
 // this re-downloads pages from Notion by deleting cache locally
 func notionRedownloadAll(c *notionapi.Client) {
 	//notionapi.DebugLog = true
-	removeCachedNotion()
+	//removeCachedNotion()
+	err := os.RemoveAll(notionLogDir)
+	panicIfErr(err)
+	createNotionDirs()
 
 	timeStart := time.Now()
 	articles := loadArticles(c)
