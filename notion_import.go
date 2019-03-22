@@ -76,8 +76,8 @@ func findSubPageIDs(blocks []*notionapi.Block) []string {
 	return res
 }
 
-func loadPageFromCache(pageID string) *notionapi.Page {
-	cachedPath := filepath.Join(cacheDir, pageID+".json")
+func loadPageFromCache(dir, pageID string) *notionapi.Page {
+	cachedPath := filepath.Join(dir, pageID+".json")
 	d, err := ioutil.ReadFile(cachedPath)
 	if err != nil {
 		return nil
@@ -226,20 +226,69 @@ func loadPageBlockInfo(c *notionapi.Client, pageID string) (*notionapi.Block, er
 	return res.Value, nil
 }
 
-func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int) (*notionapi.Page, error) {
-	page := loadPageFromCache(pageID)
-	if page != nil {
-		if getFromCache {
-			fmt.Printf("Page %4d %s: got from cache. Title: %s\n", n, pageID, page.Root.Title)
-			return page, nil
+func pageIDFromFileName(name string) string {
+	parts := strings.Split(name, ".")
+	if len(parts) != 2 {
+		return ""
+	}
+	id := parts[0]
+	if len(id) == len("2b831bac5afc414493cff5e06e8e4460") {
+		return id
+	}
+	return ""
+}
+
+func loadPagesFromDisk(dir string) map[string]*notionapi.Page {
+	cachedPagesFromDisk := map[string]*notionapi.Page{}
+	files, err := ioutil.ReadDir(dir)
+	if err != nil {
+		fmt.Printf("loadPagesFromDisk: os.ReadDir('%s') failed with '%s'\n", dir, err)
+		return cachedPagesFromDisk
+	}
+	for _, f := range files {
+		pageID := pageIDFromFileName(f.Name())
+		if pageID == "" {
+			continue
 		}
-		pageBlock, err := loadPageBlockInfo(c, pageID)
-		panicIfErr(err)
-		if pageBlock.Version == page.Root.Version {
-			fmt.Printf("Page %4d %s: skipping re-download, same ver. Title: %s\n", n, pageID, page.Root.Title)
+		page := loadPageFromCache(dir, pageID)
+		cachedPagesFromDisk[pageID] = page
+	}
+	fmt.Printf("loadPagesFromDisk: loaded %d cached pages from %s\n", len(cachedPagesFromDisk), dir)
+	return cachedPagesFromDisk
+}
+
+func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int, isCachedPageNotOutdated map[string]bool, cachedPagesFromDisk map[string]*notionapi.Page) (*notionapi.Page, error) {
+	if isCachedPageNotOutdated[pageID] {
+		page := cachedPagesFromDisk[pageID]
+		//nTotalFromCache++
+		fmt.Printf("Page %4d %s: skipping (ver not changed), title: %s\n", n, page.ID, page.Root.Title)
+		return page, nil
+	}
+
+	if getFromCache {
+		page := loadPageFromCache(cacheDir, pageID)
+		if page != nil {
+			//nNotionPagesFromCache++
+			//fmt.Printf("Got %d from cache %s %s\n", n, pageID, page.Root.Title)
 			return page, nil
 		}
 	}
+
+	/*
+		page := loadPageFromCache(pageID)
+		if page != nil {
+			if getFromCache {
+				fmt.Printf("Page %4d %s: got from cache. Title: %s\n", n, pageID, page.Root.Title)
+				return page, nil
+			}
+			pageBlock, err := loadPageBlockInfo(c, pageID)
+			panicIfErr(err)
+			if pageBlock.Version == page.Root.Version {
+				fmt.Printf("Page %4d %s: skipping re-download, same ver. Title: %s\n", n, pageID, page.Root.Title)
+				return page, nil
+			}
+		}
+	*/
 
 	page, err := downloadAndCachePage(c, pageID)
 	if err == nil {
@@ -248,7 +297,75 @@ func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int
 	return page, err
 }
 
+func isIDEqual(id1, id2 string) bool {
+	return notionapi.ToNoDashID(id1) == notionapi.ToNoDashID(id2)
+}
+
+func getVersionsForPages(c *notionapi.Client, ids []string) ([]int64, error) {
+	// c.Logger = os.Stdout
+	recVals, err := c.GetRecordValues(ids)
+	if err != nil {
+		return nil, err
+	}
+	results := recVals.Results
+	if len(results) != len(ids) {
+		return nil, fmt.Errorf("getVersionssForPages(): got %d results, expected %d", len(results), len(ids))
+	}
+	var versions []int64
+	for i, res := range results {
+		// res.Value might be nil when a page is not publicly visible or was deleted
+		if res.Value == nil {
+			versions = append(versions, 0)
+			continue
+		}
+		id := res.Value.ID
+		panicIf(!isIDEqual(ids[i], id), "got result in the wrong order, ids[i]: %s, id: %s", ids[0], id)
+		versions = append(versions, res.Value.Version)
+	}
+	return versions, nil
+}
+
+func checkIfPagesAreOutdated(c *notionapi.Client, cachedPagesFromDisk map[string]*notionapi.Page) map[string]bool {
+	isCachedPageNotOutdated := map[string]bool{}
+	var ids []string
+	for id := range cachedPagesFromDisk {
+		ids = append(ids, id)
+	}
+	sort.Strings(ids)
+	var versions []int64
+	rest := ids
+	maxPerCall := 128
+	for len(rest) > 0 {
+		n := len(rest)
+		if n > maxPerCall {
+			n = maxPerCall
+		}
+		tmpIDs := rest[:n]
+		rest = rest[n:]
+		fmt.Printf("getting versions for %d pages\n", len(tmpIDs))
+		tmpVers, err := getVersionsForPages(c, tmpIDs)
+		panicIfErr(err)
+		versions = append(versions, tmpVers...)
+	}
+	panicIf(len(ids) != len(versions))
+	nOutdated := 0
+	for i, ver := range versions {
+		id := ids[i]
+		page := cachedPagesFromDisk[id]
+		isOutdated := ver > page.Root.Version
+		isCachedPageNotOutdated[id] = !isOutdated
+		if isOutdated {
+			nOutdated++
+		}
+	}
+	fmt.Printf("checkIfPagesAreOutdated: %d pages, %d outdated\n", len(ids), nOutdated)
+	return isCachedPageNotOutdated
+}
+
 func loadNotionPages(c *notionapi.Client, indexPageID string, idToPage map[string]*notionapi.Page, useCache bool) {
+	cachedPagesFromDisk := loadPagesFromDisk(cacheDir)
+	isCachedPageNotOutdated := checkIfPagesAreOutdated(c, cachedPagesFromDisk)
+
 	toVisit := []string{indexPageID}
 
 	n := 1
@@ -260,7 +377,7 @@ func loadNotionPages(c *notionapi.Client, indexPageID string, idToPage map[strin
 			continue
 		}
 
-		page, err := loadNotionPage(c, pageID, useCache, n)
+		page, err := loadNotionPage(c, pageID, useCache, n, isCachedPageNotOutdated, cachedPagesFromDisk)
 		panicIfErr(err)
 		n++
 
@@ -346,7 +463,7 @@ func loadPageAsArticle(c *notionapi.Client, pageID string) *Article {
 	var err error
 	var page *notionapi.Page
 	if useCacheForNotion {
-		page = loadPageFromCache(pageID)
+		page = loadPageFromCache(cacheDir, pageID)
 	}
 	if page == nil {
 		page, err = downloadAndCachePage(c, pageID)
