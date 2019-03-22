@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"sort"
@@ -113,70 +112,65 @@ func sha1OfLink(link string) string {
 	return fmt.Sprintf("%x", h.Sum(nil))
 }
 
-// return path of cached image on disk
-func downloadAndCacheImage(c *notionapi.Client, link string) (string, error) {
-	sha := sha1OfLink(link)
-	ext := strings.ToLower(filepath.Ext(link))
+var imgFiles []os.FileInfo
 
-	dir := filepath.Join(cacheDir, "img")
-	err := os.MkdirAll(dir, 0755)
+func findImageInDir(imgDir string, sha1 string) string {
+	if len(imgFiles) == 0 {
+		imgFiles, _ = ioutil.ReadDir(imgDir)
+	}
+	for _, fi := range imgFiles {
+		if strings.HasPrefix(fi.Name(), sha1) {
+			return filepath.Join(imgDir, fi.Name())
+		}
+	}
+	return ""
+}
+
+func guessExt(fileName string, contentType string) string {
+	ext := strings.ToLower(filepath.Ext(fileName))
+	switch ext {
+	case ".png", ".jpg", ".jpeg":
+		return ext
+	}
+	switch contentType {
+	case "image/png":
+		return ".png"
+	}
+	panic(fmt.Errorf("Didn't find ext for file '%s', content type '%s'\n", fileName, contentType))
+}
+
+// return path of cached image on disk
+func downloadAndCacheImage(c *notionapi.Client, uri string) (string, error) {
+	sha := sha1OfLink(uri)
+
+	//ext := strings.ToLower(filepath.Ext(uri))
+
+	imgDir := filepath.Join(cacheDir, "img")
+	err := os.MkdirAll(imgDir, 0755)
 	panicIfErr(err)
 
-	cachedPath := filepath.Join(dir, sha+ext)
-	st, err := os.Stat(cachedPath)
-	// file exists - was downloaded already
-	if err == nil {
-		if st.IsDir() {
-			return "", fmt.Errorf("%s exists but is a directory (should be a file)", cachedPath)
-		}
-		fmt.Printf("Image %s already downloaded as %s\n", link, cachedPath)
+	cachedPath := findImageInDir(imgDir, sha)
+	if cachedPath != "" {
+		fmt.Printf("Image %s already downloaded as %s\n", uri, cachedPath)
 		return cachedPath, nil
 	}
 
-	// if error other than "file not exists" then somethings very wrong
-	if !os.IsNotExist(err) {
-		panicIfErr(err)
-	}
-
 	timeStart := time.Now()
-	fmt.Printf("Downloading %s as '%s' ... ", link, cachedPath)
-	req, err := http.NewRequest("GET", link, nil)
+	fmt.Printf("Downloading %s ... ", uri)
+	img, err := c.DownloadFile(uri)
 	if err != nil {
 		fmt.Printf("failed with %s\n", err)
 		return "", err
 	}
-	if c.AuthToken != "" {
-		req.Header.Set("cookie", fmt.Sprintf("token_v2=%v", c.AuthToken))
-	}
-	client := http.DefaultClient
-	resp, err := client.Do(req)
-	if err != nil {
-		fmt.Printf("failed in %s with %s\n", time.Since(timeStart), err)
-		return "", err
-	}
-	fmt.Printf("finished in %s\n", time.Since(timeStart))
-	defer resp.Body.Close()
-	if resp.StatusCode >= 400 {
-		return "", fmt.Errorf("Download failed with status code %s", resp.Status)
+	ext := guessExt(uri, img.Header.Get("Content-Type"))
+	cachedPath = filepath.Join(imgDir, sha+ext)
 
+	err = ioutil.WriteFile(cachedPath, img.Data, 0644)
+	if err != nil {
+		return "", err
 	}
+	fmt.Printf("finished in %s. Wrote as '%s'\n", time.Since(timeStart), cachedPath)
 
-	f, err := os.Create(cachedPath)
-	if err != nil {
-		return "", err
-	}
-
-	_, err = io.Copy(f, resp.Body)
-	if err != nil {
-		f.Close()
-		os.Remove(cachedPath)
-		return "", err
-	}
-	err = f.Close()
-	if err != nil {
-		os.Remove(cachedPath)
-		return "", err
-	}
 	return cachedPath, nil
 }
 
