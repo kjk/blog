@@ -230,20 +230,20 @@ func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int
 	page := loadPageFromCache(pageID)
 	if page != nil {
 		if getFromCache {
-			fmt.Printf("Page %d %s: got from cache. Title: %s\n", n, pageID, page.Root.Title)
+			fmt.Printf("Page %4d %s: got from cache. Title: %s\n", n, pageID, page.Root.Title)
 			return page, nil
 		}
 		pageBlock, err := loadPageBlockInfo(c, pageID)
 		panicIfErr(err)
 		if pageBlock.Version == page.Root.Version {
-			fmt.Printf("Page %d %s: skipping re-download, same ver. Title: %s\n", n, pageID, page.Root.Title)
+			fmt.Printf("Page %4d %s: skipping re-download, same ver. Title: %s\n", n, pageID, page.Root.Title)
 			return page, nil
 		}
 	}
 
 	page, err := downloadAndCachePage(c, pageID)
 	if err == nil {
-		fmt.Printf("Page %d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
+		fmt.Printf("Page %4d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
 	}
 	return page, err
 }
