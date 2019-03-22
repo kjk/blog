@@ -139,7 +139,7 @@ func downloadAndCacheImage(c *notionapi.Client, link string) (string, error) {
 	}
 
 	timeStart := time.Now()
-	fmt.Printf("Downloading %s as %s... ", link, cachedPath)
+	fmt.Printf("Downloading %s as '%s' ... ", link, cachedPath)
 	req, err := http.NewRequest("GET", link, nil)
 	if err != nil {
 		fmt.Printf("failed with %s\n", err)
@@ -234,11 +234,10 @@ func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int
 			return page, nil
 		}
 		pageBlock, err := loadPageBlockInfo(c, pageID)
-		if err == nil {
-			if pageBlock.Version == page.Root.Version {
-				fmt.Printf("Page %d %s: skipping re-download because version on server same as in cache. Title: %s\n", n, pageID, page.Root.Title)
-				return page, nil
-			}
+		panicIfErr(err)
+		if pageBlock.Version == page.Root.Version {
+			fmt.Printf("Page %d %s: skipping re-download, same ver. Title: %s\n", n, pageID, page.Root.Title)
+			return page, nil
 		}
 	}
 
@@ -326,6 +325,7 @@ func removeCachedNotion() {
 func notionRedownloadAll(c *notionapi.Client) {
 	//notionapi.DebugLog = true
 	//removeCachedNotion()
+	useCacheForNotion = false
 	err := os.RemoveAll(notionLogDir)
 	panicIfErr(err)
 	createNotionDirs()
