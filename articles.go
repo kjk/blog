@@ -382,8 +382,8 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 
 	format := root.FormatPage
 	// set image header from cover page
-	if article.HeaderImageURL == "" && format != nil && format.PageCoverURL != "" {
-		path, err := downloadAndCacheImage(c, format.PageCoverURL)
+	if article.HeaderImageURL == "" && format != nil && format.PageCover != "" {
+		path, err := downloadAndCacheImage(c, format.PageCover)
 		panicIfErr(err)
 		relURL := "/img/" + filepath.Base(path)
 		im := ImageMapping{

@@ -139,6 +139,16 @@ func guessExt(fileName string, contentType string) string {
 	panic(fmt.Errorf("Didn't find ext for file '%s', content type '%s'\n", fileName, contentType))
 }
 
+func downloadImage(c *notionapi.Client, uri string) ([]byte, string, error) {
+	img, err := c.DownloadFile(uri)
+	if err != nil {
+		fmt.Printf("\n  failed with %s\n", err)
+		return nil, "", err
+	}
+	ext := guessExt(uri, img.Header.Get("Content-Type"))
+	return img.Data, ext, nil
+}
+
 // return path of cached image on disk
 func downloadAndCacheImage(c *notionapi.Client, uri string) (string, error) {
 	sha := sha1OfLink(uri)
@@ -157,15 +167,12 @@ func downloadAndCacheImage(c *notionapi.Client, uri string) (string, error) {
 
 	timeStart := time.Now()
 	fmt.Printf("Downloading %s ... ", uri)
-	img, err := c.DownloadFile(uri)
-	if err != nil {
-		fmt.Printf("failed with %s\n", err)
-		return "", err
-	}
-	ext := guessExt(uri, img.Header.Get("Content-Type"))
+
+	imgData, ext, err := downloadImage(c, uri)
+
 	cachedPath = filepath.Join(imgDir, sha+ext)
 
-	err = ioutil.WriteFile(cachedPath, img.Data, 0644)
+	err = ioutil.WriteFile(cachedPath, imgData, 0644)
 	if err != nil {
 		return "", err
 	}
@@ -328,7 +335,7 @@ func checkIfPagesAreOutdated(c *notionapi.Client, cachedPagesFromDisk map[string
 	sort.Strings(ids)
 	var versions []int64
 	rest := ids
-	maxPerCall := 128
+	maxPerCall := 256
 	for len(rest) > 0 {
 		n := len(rest)
 		if n > maxPerCall {
