@@ -11,6 +11,7 @@ import (
 
 	"github.com/alecthomas/template"
 	"github.com/kjk/notionapi"
+	"github.com/kylelemons/godebug/pretty"
 )
 
 // ImageMapping keeps track of rewritten image urls (locally cached
@@ -136,6 +137,21 @@ func (g *HTMLGenerator) getURLAndTitleForBlock(block *notionapi.Block) (string, 
 	return article.URL(), article.Title
 }
 
+/*
+	"date_format": "relative",
+	"start_date": "2019-03-26",
+	"type": "date"
+*/
+
+func formatDate(d *notionapi.Date) string {
+	if d.DateFormat == "relative" {
+		return d.StartDate
+	}
+	fmt.Printf("formatDate: unhandled date:\n")
+	pretty.Print(d)
+	return "@TODO: date"
+}
+
 func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 	var start, close string
 	if b.AttrFlags&notionapi.AttrBold != 0 {
@@ -165,8 +181,8 @@ func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
 		skipText = true
 	}
 	if b.Date != nil {
-		// TODO: serialize date properly
-		start += fmt.Sprintf(`<span class="date">@TODO: date</span>`)
+		s := formatDate(b.Date)
+		start += fmt.Sprintf(`<span class="date">%s</span>`, s)
 		skipText = true
 	}
 	if !skipText {
