@@ -1,7 +1,7 @@
 module github.com/kjk/blog
 
 require (
-	github.com/alecthomas/chroma v0.6.2
+	github.com/alecthomas/chroma v0.6.3
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc
 	github.com/chilts/sid v0.0.0-20180928232130-250d10e55bf4
 	github.com/gomarkdown/markdown v0.0.0-20181104084050-d1d0edeb5d85
