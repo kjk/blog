@@ -91,11 +91,15 @@ func main() {
 	os.MkdirAll("netlify_static", 0755)
 
 	client := &notionapi.Client{}
-	authToken, ok := os.LookupEnv("NOTION_TOKEN")
-	if !ok || strings.TrimSpace(authToken) == "" {
-		fmt.Printf("Must set NOTION_TOKEN env variable!\n")
-		os.Exit(1)
-	}
+	authToken, _ := os.LookupEnv("NOTION_TOKEN")
+	authToken = strings.TrimSpace(authToken)
+	// we no longer need NOTION_TOKEN
+	/*
+		if !ok || strings.TrimSpace(authToken) == "" {
+			fmt.Printf("Must set NOTION_TOKEN env variable!\n")
+			os.Exit(1)
+		}
+	*/
 	client.AuthToken = authToken
 
 	// make sure this happens first so that building for deployment is not
@@ -105,20 +109,12 @@ func main() {
 		return
 	}
 
-	if flgRedownloadPage != "" {
-		notionRedownloadOne(client, flgRedownloadPage)
-		os.Exit(0)
-	}
-
 	if false {
 		testNotionToHTMLOnePage(client, "dfbefe6906a943d8b554699341e997b0")
 		os.Exit(0)
 	}
 
-	if flgRedownloadNotion {
-		notionRedownloadAll(client)
-		os.Exit(0)
-	}
+	notionRedownloadAll(client)
 
 	rebuildAll(client)
 	if flgPreview {
