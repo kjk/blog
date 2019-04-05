@@ -129,7 +129,7 @@ func (g *HTMLGenerator) getURLAndTitleForBlock(block *notionapi.Block) (string, 
 	article := g.idToArticle(id)
 	if article == nil {
 		title := block.Title
-		fmt.Printf("No article for id %s %s\n", id, title)
+		lg("No article for id %s %s\n", id, title)
 		url := "/article/" + id + "/" + urlify(title)
 		return url, title
 	}
@@ -147,7 +147,7 @@ func formatDate(d *notionapi.Date) string {
 	if d.DateFormat == "relative" {
 		return d.StartDate
 	}
-	fmt.Printf("formatDate: unhandled date:\n")
+	lg("formatDate: unhandled date:\n")
 	pretty.Print(d)
 	return "@TODO: date"
 }
@@ -455,7 +455,7 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		// TODO: add support for this type in notionapi, render as a link
 		// block id: 8c5fd467-989b-4180-902c-9b5d30c6568d
 	default:
-		fmt.Printf("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
+		lg("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
 		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))
 	}
 }
@@ -464,7 +464,7 @@ func (g *HTMLGenerator) genImage(block *notionapi.Block) {
 	link := block.Source
 	path, err := downloadAndCacheImage(g.notionClient, link)
 	if err != nil {
-		fmt.Printf("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(g.page.ID), err)
+		lg("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(g.page.ID), err)
 		panicIfErr(err)
 	}
 	relURL := "/img/" + filepath.Base(path)
@@ -480,7 +480,7 @@ func (g *HTMLGenerator) genBlocks(blocks []*notionapi.Block) {
 	for len(blocks) > 0 {
 		block := blocks[0]
 		if block == nil {
-			fmt.Printf("Missing block\n")
+			lg("Missing block\n")
 			blocks = blocks[1:]
 			continue
 		}

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"io"
 
 	"github.com/alecthomas/chroma"
@@ -58,7 +57,7 @@ func makeRenderHookCodeBlock(defaultLang string) mdhtml.RenderNodeFunc {
 		}
 		lang := string(codeBlock.Info)
 		if false {
-			fmt.Printf("lang: '%s', code: %s\n", lang, string(codeBlock.Literal[:16]))
+			verbose("lang: '%s', code: %s\n", lang, string(codeBlock.Literal[:16]))
 			io.WriteString(w, "\n<pre class=\"chroma\"><code>")
 			mdhtml.EscapeHTML(w, codeBlock.Literal)
 			io.WriteString(w, "</code></pre>\n")

@@ -16,6 +16,21 @@ import (
 	"github.com/yosssi/gohtml"
 )
 
+func must(err error, args ...interface{}) {
+	if err == nil {
+		return
+	}
+	if len(args) == 0 {
+		panic(err)
+	}
+	s := args[0].(string)
+	if len(args) > 1 {
+		args = args[1:]
+		s = fmt.Sprintf(s, args)
+	}
+	panic(s + " err: " + err.Error())
+}
+
 func panicIfErr(err error) {
 	if err != nil {
 		panic(err.Error())
@@ -354,7 +369,7 @@ func dirCopyRecur(dst string, src string, shouldSkipFile func(string) bool) (int
 			if err != nil {
 				return nFilesCopied, err
 			}
-			fmt.Printf("Copied %s => %s\n", path, dstPath)
+			verbose("Copied %s => %s\n", path, dstPath)
 			nFilesCopied++
 		}
 	}

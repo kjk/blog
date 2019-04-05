@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"fmt"
 	"html/template"
 	"io/ioutil"
 	"os"
@@ -96,7 +95,7 @@ func mdToHTML(mdFile, templateFile, htmlFile string) {
 	panicIfErr(err)
 	err = ioutil.WriteFile(htmlFile, buf.Bytes(), 0644)
 	panicIfErr(err)
-	fmt.Printf("%s => %s\n", mdFile, htmlFile)
+	verbose("%s => %s\n", mdFile, htmlFile)
 }
 
 // template is a _md.tmpl.html file in the same directory
@@ -117,12 +116,12 @@ func regenMd() {
 		htmlFile := replaceExt(mdFile, ".html")
 		templateFile := findMdTemplate(mdFile)
 		if templateFile == "" {
-			fmt.Printf("%s : skipping because no template file\n", mdFile)
+			verbose("%s : skipping because no template file\n", mdFile)
 			continue
 		}
-		fmt.Printf("%s\n", mdFile)
+		verbose("%s\n", mdFile)
 		mdToHTML(mdFile, templateFile, htmlFile)
-		fmt.Printf("Whitelisted: %s\n", htmlFile)
+		verbose("Whitelisted: %s\n", htmlFile)
 		mdOutWhitelist[htmlFile] = true
 	}
 }

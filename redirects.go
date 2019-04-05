@@ -607,7 +607,7 @@ func readRedirects(store *Articles) {
 			articleRedirects[url] = id
 			continue
 		}
-		//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
+		//verbose("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
 	}
 }
 

@@ -492,7 +492,7 @@ func loadArticles(c *notionapi.Client) *Articles {
 		panicIf(id != normalizeID(id), "bad id '%s' sneaked in", id)
 		article := notionPageToArticle(c, page)
 		if article.urlOverride != "" {
-			fmt.Printf("url override: %s => %s\n", article.urlOverride, article.ID)
+			verbose("url override: %s => %s\n", article.urlOverride, article.ID)
 		}
 		res.idToArticle[id] = article
 		// this might be legacy, short id. If not, we just set the same value twice

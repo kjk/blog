@@ -8,7 +8,6 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
-	"strings"
 	"time"
 
 	"github.com/kjk/notionapi"
@@ -31,13 +30,6 @@ func parseCmdLineFlags() {
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
 	flag.StringVar(&flgRedownloadPage, "redownload-page", "", "if given, redownloads content for one page")
 	flag.Parse()
-}
-
-func logVerbose(format string, args ...interface{}) {
-	if !flgVerbose {
-		return
-	}
-	fmt.Printf(format, args...)
 }
 
 func rebuildAll(c *notionapi.Client) {
@@ -91,16 +83,6 @@ func main() {
 	os.MkdirAll("netlify_static", 0755)
 
 	client := &notionapi.Client{}
-	authToken, _ := os.LookupEnv("NOTION_TOKEN")
-	authToken = strings.TrimSpace(authToken)
-	// we no longer need NOTION_TOKEN
-	/*
-		if !ok || strings.TrimSpace(authToken) == "" {
-			fmt.Printf("Must set NOTION_TOKEN env variable!\n")
-			os.Exit(1)
-		}
-	*/
-	client.AuthToken = authToken
 
 	// make sure this happens first so that building for deployment is not
 	// disrupted by the temporary testing code we might have below

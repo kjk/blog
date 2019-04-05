@@ -84,7 +84,7 @@ func netlifyPath(fileName string) string {
 
 func netlifyWriteFile(fileName string, d []byte) {
 	path := netlifyPath(fileName)
-	//fmt.Printf("%s\n", path)
+	//lg("%s\n", path)
 	ioutil.WriteFile(path, d, 0644)
 }
 
@@ -228,7 +228,7 @@ func netlifyBuild(store *Articles) {
 	panicIfErr(err)
 	nCopied, err := dirCopyRecur(outDir, "www", skipTmplFiles)
 	panicIfErr(err)
-	fmt.Printf("Copied %d files\n", nCopied)
+	lg("Copied %d files\n", nCopied)
 
 	netlifyAddStaticRedirects()
 	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
@@ -387,7 +387,7 @@ func netlifyBuild(store *Articles) {
 			logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
 			if article.urlOverride != "" {
-				//fmt.Printf("url override: %s => %s\n", article.urlOverride, path)
+				//lg("url override: %s => %s\n", article.urlOverride, path)
 				netlifyAddRewrite(article.urlOverride, path)
 			}
 		}
