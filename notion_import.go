@@ -292,10 +292,11 @@ func loadNotionPage(c *notionapi.Client, pageID string, getFromCache bool, n int
 	*/
 
 	page, err := downloadAndCachePage(c, pageID)
-	if err == nil {
-		lg("Page %4d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
+	if err != nil {
+		return nil, err
 	}
-	return page, err
+	lg("Page %4d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
+	return page, nil
 }
 
 func isIDEqual(id1, id2 string) bool {

@@ -404,6 +404,10 @@ func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
 		start := fmt.Sprintf(`<h2 class="hdr%s">`, g.levelCls)
 		close := `</h2>`
 		g.genBlockSurrouded(block, start, close)
+	case notionapi.BlockSubSubHeader:
+		start := fmt.Sprintf(`<h3 class="hdr%s">`, g.levelCls)
+		close := `</h3>`
+		g.genBlockSurrouded(block, start, close)
 	case notionapi.BlockTodo:
 		clsChecked := ""
 		if block.IsChecked {
