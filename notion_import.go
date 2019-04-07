@@ -16,7 +16,8 @@ import (
 )
 
 var (
-	useCacheForNotion = true
+	// TODO: this is not needed anymore
+	useCacheForNotion = false
 	// if true, we'll log
 	logNotionRequests = true
 
@@ -438,20 +439,6 @@ func removeCachedNotion() {
 	err = os.RemoveAll(notionLogDir)
 	panicIfErr(err)
 	createNotionDirs()
-}
-
-// this re-downloads pages from Notion by deleting cache locally
-func notionRedownloadAll(c *notionapi.Client) {
-	//notionapi.DebugLog = true
-	//removeCachedNotion()
-	useCacheForNotion = false
-	err := os.RemoveAll(notionLogDir)
-	panicIfErr(err)
-	createNotionDirs()
-
-	timeStart := time.Now()
-	articles := loadArticles(c)
-	lg("Loaded %d articles in %s\n", len(articles.idToPage), time.Since(timeStart))
 }
 
 func notionRedownloadOne(c *notionapi.Client, id string) {

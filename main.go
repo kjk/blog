@@ -96,8 +96,6 @@ func main() {
 		os.Exit(0)
 	}
 
-	notionRedownloadAll(client)
-
 	rebuildAll(client)
 	if flgPreview {
 		preview()
