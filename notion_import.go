@@ -206,13 +206,13 @@ func downloadAndCachePage(c *notionapi.Client, pageID string) (*notionapi.Page, 
 }
 
 func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles) ([]byte, []ImageMapping) {
-	gen := NewHTMLGenerator(c, page)
+	r := NewHTMLRenderer(c, page)
 	if articles != nil {
-		gen.idToArticle = func(id string) *Article {
+		r.idToArticle = func(id string) *Article {
 			return articles.idToArticle[id]
 		}
 	}
-	return gen.Gen(), gen.images
+	return r.Gen(), r.images
 }
 
 func loadPageBlockInfo(c *notionapi.Client, pageID string) (*notionapi.Block, error) {

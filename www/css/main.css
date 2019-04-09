@@ -147,6 +147,18 @@ See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
   font-size: 80%;
 }
 
+div.notion-text {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+img.notion-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
 table.notion-table {
   background-color: white;
 }
