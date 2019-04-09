@@ -156,11 +156,30 @@ div.notion-text {
   margin-block-end: 1em;
 }
 
+.notion-video {
+  max-width: 100%;
+}
+
+hr.notion-divider {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
 img.notion-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+}
+
+div.notion-column-list {
+  display: flex;
+  width: 100%;
+}
+
+/* size all columns equally */
+div.notion-column {
+  flex: 1;
 }
 
 table.notion-table {

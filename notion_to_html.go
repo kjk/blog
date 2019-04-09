@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"html"
 	"html/template"
+	"path/filepath"
 	"strings"
 
 	"github.com/kjk/notionapi"
@@ -17,7 +18,16 @@ type ImageMapping struct {
 	relativeURL string
 }
 
-/*
+// HTMLRenderer keeps data
+type HTMLRenderer struct {
+	page         *notionapi.Page
+	notionClient *notionapi.Client
+	idToArticle  func(string) *Article
+	images       []ImageMapping
+
+	r *tohtml.HTMLRenderer
+}
+
 // only hex chars seem to be valid
 func isValidNotionIDChar(c byte) bool {
 	switch {
@@ -61,7 +71,7 @@ func extractNotionIDFromURL(uri string) string {
 		// could be ea07db1b9bff415ab180b0525f3898f6 from Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 		id = parts[n-1]
 	}
-	id = normalizeID(id)
+	id = notionapi.ToNoDashID(id)
 	if !isValidNotionID(id) {
 		return ""
 	}
@@ -71,12 +81,12 @@ func extractNotionIDFromURL(uri string) string {
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // =>
 // /article/${id}
-func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
+func (r *HTMLRenderer) maybeReplaceNotionLink(uri string) string {
 	id := extractNotionIDFromURL(uri)
 	if id == "" {
 		return uri
 	}
-	article := g.idToArticle(id)
+	article := r.idToArticle(id)
 	// this might happen when I link to some-one else's public notion pages
 	if article == nil {
 		return uri
@@ -84,55 +94,13 @@ func (g *HTMLGenerator) maybeReplaceNotionLink(uri string) string {
 	return article.URL()
 }
 
-func (g *HTMLGenerator) genInlineBlock(b *notionapi.InlineBlock) {
-	var start, close string
-	skipText := false
-	if b.Link != "" {
-		link := g.maybeReplaceNotionLink(b.Link)
-		start += fmt.Sprintf(`<a href="%s">%s</a>`, link, b.Text)
-		skipText = true
-	}
-	if b.UserID != "" {
-		start += fmt.Sprintf(`<span class="user">@%s</span>`, b.UserID)
-		skipText = true
-	}
-}
-
-func (g *HTMLGenerator) genBlock(block *notionapi.Block) {
-	switch block.Type {
-	case notionapi.BlockImage:
-		g.genImage(block)
-	default:
-		lg("Unsupported block type '%s', id: %s\n", block.Type, block.ID)
-		panic(fmt.Sprintf("Unsupported block type '%s'", block.Type))
-	}
-}
-
-func (g *HTMLGenerator) genImage(block *notionapi.Block) {
-	link := block.Source
-	path, err := downloadAndCacheImage(g.notionClient, link)
-	if err != nil {
-		lg("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(g.page.ID), err)
-		panicIfErr(err)
-	}
-	relURL := "/img/" + filepath.Base(path)
-	im := ImageMapping{
-		path:        path,
-		relativeURL: relURL,
-	}
-	g.images = append(g.images, im)
-	fmt.Fprintf(g.f, `<img class="blog-img" src="%s" />`+"\n", relURL)
-}
-*/
-
-// HTMLRenderer keeps data
-type HTMLRenderer struct {
-	page         *notionapi.Page
-	notionClient *notionapi.Client
-	idToArticle  func(string) *Article
-	images       []ImageMapping
-
-	r *tohtml.HTMLRenderer
+// renderInlineLink renders a link in inline block
+// we replace inter-notion urls to inter-blog urls
+func (r *HTMLRenderer) renderInlineLink(b *notionapi.InlineBlock) (string, bool) {
+	link := r.maybeReplaceNotionLink(b.Link)
+	text := html.EscapeString(b.Text)
+	s := fmt.Sprintf(`<a href="%s">%s</a>`, link, text)
+	return s, true
 }
 
 func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, string) {
@@ -146,6 +114,26 @@ func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, s
 	}
 
 	return article.URL(), article.Title
+}
+
+// RenderImage renders BlockImage
+func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
+	link := block.Source
+	path, err := downloadAndCacheImage(r.notionClient, link)
+	if err != nil {
+		lg("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(r.page.ID), err)
+		panicIfErr(err)
+		return false
+	}
+	relURL := "/img/" + filepath.Base(path)
+	im := ImageMapping{
+		path:        path,
+		relativeURL: relURL,
+	}
+	r.images = append(r.images, im)
+	attrs := []string{"class", "blog-img", "src", relURL}
+	r.r.WriteElement(block, "img", attrs, "", entering)
+	return true
 }
 
 // RenderPage renders BlockPage
@@ -259,6 +247,8 @@ func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool
 		return r.RenderCode(block, entering)
 	case notionapi.BlockToggle:
 		return r.RenderToggle(block, entering)
+	case notionapi.BlockImage:
+		return r.RenderImage(block, entering)
 	}
 	return false
 }
@@ -275,6 +265,7 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	r.AddIDAttribute = true
 	r.Data = res
 	r.RenderBlockOverride = res.blockRenderOverride
+	r.RenderInlineLinkOverride = res.renderInlineLink
 
 	res.r = r
 	return res
