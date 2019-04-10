@@ -208,7 +208,7 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	}
 
 	r := tohtml.NewHTMLRenderer(page)
-	r.PanicOnFailures = true
+	notionapi.PanicOnFailures = true
 	r.AddIDAttribute = true
 	r.Data = res
 	r.RenderBlockOverride = res.blockRenderOverride
