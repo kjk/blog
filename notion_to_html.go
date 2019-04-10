@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"html"
-	"html/template"
 	"path/filepath"
 	"strings"
 
@@ -31,7 +30,7 @@ type HTMLRenderer struct {
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // =>
 // /article/${id}
-func (r *HTMLRenderer) maybeReplaceNotionLink(uri string) string {
+func (r *HTMLRenderer) rewriteURL(uri string) string {
 	id := notionapi.ExtractNoDashIDFromNotionURL(uri)
 	if id == "" {
 		return uri
@@ -42,15 +41,6 @@ func (r *HTMLRenderer) maybeReplaceNotionLink(uri string) string {
 		return uri
 	}
 	return article.URL()
-}
-
-// renderInlineLink renders a link in inline block
-// we replace inter-notion urls to inter-blog urls
-func (r *HTMLRenderer) renderInlineLink(b *notionapi.InlineBlock) (string, bool) {
-	link := r.maybeReplaceNotionLink(b.Link)
-	text := html.EscapeString(b.Text)
-	s := fmt.Sprintf(`<a href="%s">%s</a>`, link, text)
-	return s, true
 }
 
 func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, string) {
@@ -90,7 +80,7 @@ func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
 func (r *HTMLRenderer) RenderPage(block *notionapi.Block, entering bool) bool {
 	tp := block.GetPageType()
 	if tp == notionapi.BlockPageTopLevel {
-		// title := template.HTMLEscapeString(block.Title)
+		// title := html.EscapeString(block.Title)
 		attrs := []string{"class", "notion-page"}
 		r.r.WriteElement(block, "div", attrs, "", entering)
 		return true
@@ -109,14 +99,14 @@ func (r *HTMLRenderer) RenderPage(block *notionapi.Block, entering bool) bool {
 	title = html.EscapeString(title)
 	content := fmt.Sprintf(`<a href="%s">%s</a>`, url, title)
 	attrs := []string{"class", cls}
-	title = template.HTMLEscapeString(title)
+	title = html.EscapeString(title)
 	r.r.WriteElement(block, "div", attrs, content, entering)
 	return true
 }
 
 // RenderCode renders BlockCode
 func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
-	// code := template.HTMLEscapeString(block.Code)
+	// code := html.EscapeString(block.Code)
 	// fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
 	// <pre class="%s">
 	// %s
@@ -212,7 +202,7 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	r.AddIDAttribute = true
 	r.Data = res
 	r.RenderBlockOverride = res.blockRenderOverride
-	r.RenderInlineLinkOverride = res.renderInlineLink
+	r.RewriteURL = res.rewriteURL
 
 	res.r = r
 	return res
