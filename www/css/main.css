@@ -7,7 +7,7 @@ body {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /* font size as in stack overflow */
   font-size: 15px;
-  line-height: 1.35;
+  line-height: 1.5;
 }
 
 code {
@@ -154,6 +154,10 @@ div.notion-wrap {
 div.notion-text {
   margin-block-start: 1em;
   margin-block-end: 1em;
+}
+
+.notion-date {
+  opacity: 0.5;
 }
 
 .notion-video {
