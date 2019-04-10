@@ -168,20 +168,12 @@ var (
 `
 )
 
-func (r *HTMLRenderer) getInlineContent(block *notionapi.Block) string {
-	r.r.PushNewBuffer()
-	r.r.RenderInlines(block.InlineContent)
-	return r.r.PopBuffer().String()
-}
-
 // RenderToggle renders BlockToggle blocks
 func (r *HTMLRenderer) RenderToggle(block *notionapi.Block, entering bool) bool {
 	panicIf(block.Type != notionapi.BlockToggle, "unexpected block type '%s'", block.Type)
 
 	if entering {
-		// TODO: with a bit more gymnastics could do it without
-		// using getInlineContent()
-		inline := r.getInlineContent(block)
+		inline := r.r.GetInlineContent(block.InlineContent)
 		id := notionapi.ToNoDashID(block.ID)
 		s := strings.Replace(toggleEntering, "{{id}}", id, -1)
 		s = strings.Replace(s, "{{inline}}", inline, -1)
