@@ -20,6 +20,7 @@ var (
 	flgRedownloadPage   string
 	flgDeploy           bool
 	flgPreview          bool
+	flgPreviewOnDemand  bool
 	flgVerbose          bool
 )
 
@@ -27,6 +28,7 @@ func parseCmdLineFlags() {
 	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
 	flag.BoolVar(&flgDeploy, "deploy", false, "if true, build for deployment")
 	flag.BoolVar(&flgPreview, "preview", false, "if true, runs caddy and opens a browser for preview")
+	flag.BoolVar(&flgPreviewOnDemand, "preview-on-demand", false, "if true runs the browser for local preview")
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
 	flag.StringVar(&flgRedownloadPage, "redownload-page", "", "if given, redownloads content for one page")
 	flag.Parse()
@@ -97,7 +99,14 @@ func main() {
 	}
 
 	rebuildAll(client)
+
 	if flgPreview {
 		preview()
+		return
+	}
+
+	if flgPreviewOnDemand {
+		startPreviewOnDemand()
+		return
 	}
 }
