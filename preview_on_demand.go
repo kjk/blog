@@ -12,6 +12,10 @@ import (
 	"time"
 )
 
+var (
+	gPreviewArticles *Articles
+)
+
 func serve404(w http.ResponseWriter, r *http.Request) {
 	uri := r.URL.Path
 	path := filepath.Join("www", "404.html")
@@ -46,7 +50,14 @@ func writeHTMLHeaders(w http.ResponseWriter) {
 
 func handleIndexOnDemand(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("uri: %s\n", r.URL.Path)
-	//uri := r.URL.Path
+	uri := r.URL.Path
+	if uri == "/" {
+		writeHTMLHeaders(w)
+		err := genIndex(gPreviewArticles, w)
+		logIfError(err)
+		return
+	}
+
 	serve404(w, r)
 }
 
@@ -65,7 +76,8 @@ func makeHTTPServerOnDemand() *http.Server {
 	return srv
 }
 
-func startPreviewOnDemand() {
+func startPreviewOnDemand(articles *Articles) {
+	gPreviewArticles = articles
 	httpSrv := makeHTTPServerOnDemand()
 	httpSrv.Addr = "127.0.0.1:8173"
 

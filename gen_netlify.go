@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"html/template"
+	"io"
 	"io/ioutil"
 	"math/rand"
 	"net/url"
@@ -217,6 +218,31 @@ func copyImages() {
 	dirCopyRecur(dstDir, srcDir, nil)
 }
 
+func genIndex(store *Articles, w io.Writer) error {
+	// /
+	articles := store.getBlogNotHidden()
+	if len(articles) > 5 {
+		articles = articles[:5]
+	}
+	articleCount := len(articles)
+	websiteIndexPage := store.idToArticle[notionWebsiteStartPage]
+	model := struct {
+		AnalyticsCode string
+		Article       *Article
+		Articles      []*Article
+		ArticleCount  int
+		WebsiteHTML   template.HTML
+	}{
+		AnalyticsCode: analyticsCode,
+		Article:       nil, // always nil
+		ArticleCount:  articleCount,
+		Articles:      articles,
+		WebsiteHTML:   websiteIndexPage.HTMLBody,
+	}
+	execTemplate("/index.html", tmplMainPage, model, w)
+	return nil
+}
+
 func netlifyBuild(store *Articles) {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -257,29 +283,7 @@ func netlifyBuild(store *Articles) {
 		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
 
-	{
-		// /
-		articles := store.getBlogNotHidden()
-		if len(articles) > 5 {
-			articles = articles[:5]
-		}
-		articleCount := len(articles)
-		websiteIndexPage := store.idToArticle[notionWebsiteStartPage]
-		model := struct {
-			AnalyticsCode string
-			Article       *Article
-			Articles      []*Article
-			ArticleCount  int
-			WebsiteHTML   template.HTML
-		}{
-			AnalyticsCode: analyticsCode,
-			Article:       nil, // always nil
-			ArticleCount:  articleCount,
-			Articles:      articles,
-			WebsiteHTML:   websiteIndexPage.HTMLBody,
-		}
-		netlifyExecTemplate("/index.html", tmplMainPage, model)
-	}
+	genIndex(store, nil)
 
 	// TODO: maybe just use /archive.html
 	{

@@ -34,12 +34,13 @@ func parseCmdLineFlags() {
 	flag.Parse()
 }
 
-func rebuildAll(c *notionapi.Client) {
+func rebuildAll(c *notionapi.Client) *Articles {
 	regenMd()
 	loadTemplates()
 	articles := loadArticles(c)
 	readRedirects(articles)
 	netlifyBuild(articles)
+	return articles
 }
 
 // caddy -log stdout
@@ -98,7 +99,7 @@ func main() {
 		os.Exit(0)
 	}
 
-	rebuildAll(client)
+	articles := rebuildAll(client)
 
 	if flgPreview {
 		preview()
@@ -106,7 +107,7 @@ func main() {
 	}
 
 	if flgPreviewOnDemand {
-		startPreviewOnDemand()
+		startPreviewOnDemand(articles)
 		return
 	}
 }

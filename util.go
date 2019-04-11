@@ -72,6 +72,12 @@ func panicIf(cond bool, args ...interface{}) {
 	panicWithMsg("PanicIf: condition failed", args...)
 }
 
+func logIfError(err error) {
+	if err != nil {
+		fmt.Printf("%s\n", err)
+	}
+}
+
 // whitelisted characters valid in url
 func validateRune(c rune) byte {
 	if c >= 'a' && c <= 'z' {

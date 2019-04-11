@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"html/template"
+	"io"
 	"io/ioutil"
 	"path/filepath"
 
@@ -61,15 +62,40 @@ func loadTemplates() {
 	templates = template.Must(template.ParseFiles(templatePaths...))
 }
 
-func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
+func netlifyExecTemplate(fileName string, templateName string, model interface{}) error {
 	path := netlifyPath(fileName)
-	execTemplate(path, templateName, model)
+	return execTemplateToFile(path, templateName, model)
 }
 
-func execTemplate(path string, templateName string, model interface{}) {
+func execTemplateToFile(path string, templateName string, model interface{}) error {
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, templateName, model)
 	panicIfErr(err)
 	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
+	return err
+}
+
+func loadTemplate(name string) (*template.Template, error) {
+	path := filepath.Join("www", name)
+	return template.New(name).ParseFiles(path)
+}
+
+func execTemplateToWriter(name string, data interface{}, w io.Writer) error {
+	tmpl, err := loadTemplate(name)
+	if err != nil {
+		return err
+	}
+	return tmpl.Execute(w, data)
+}
+
+func execTemplate(path string, tmplName string, d interface{}, w io.Writer) error {
+	// this code path is for the preview on demand server
+	if w != nil {
+		return execTemplateToWriter(tmplName, d, w)
+	}
+
+	// this code path is for generating static files
+	err := netlifyExecTemplate(path, tmplName, d)
 	panicIfErr(err)
+	return nil
 }
