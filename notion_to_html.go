@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"html"
 	"path/filepath"
-	"strings"
 
 	"github.com/kjk/notionapi"
 	"github.com/kjk/notionapi/tohtml"
@@ -117,73 +116,12 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
 	return true
 }
 
-var (
-	toggleEntering = `
-<div style="width: 100%%; margin-top: 2px; margin-bottom: 1px;">
-    <div style="display: flex; align-items: flex-start; width: 100%%; padding-left: 2px; color: rgb(66, 66, 65);">
-
-        <div style="margin-right: 4px; width: 24px; flex-grow: 0; flex-shrink: 0; display: flex; align-items: center; justify-content: center; min-height: calc((1.5em + 3px) + 3px); padding-right: 2px;">
-            <div id="toggle-toggle-{{id}}" onclick="javascript:onToggleClick(this)" class="toggler" style="align-items: center; user-select: none; display: flex; width: 1.25rem; height: 1.25rem; justify-content: center; flex-shrink: 0;">
-
-                <svg id="toggle-closer-{{id}}" width="100%%" height="100%%" viewBox="0 0 100 100" style="fill: currentcolor; display: none; width: 0.6875em; height: 0.6875em; transition: transform 300ms ease-in-out; transform: rotateZ(180deg);">
-                    <polygon points="5.9,88.2 50,11.8 94.1,88.2 "></polygon>
-                </svg>
-
-                <svg id="toggle-opener-{{id}}" width="100%%" height="100%%" viewBox="0 0 100 100" style="fill: currentcolor; display: block; width: 0.6875em; height: 0.6875em; transition: transform 300ms ease-in-out; transform: rotateZ(90deg);">
-                    <polygon points="5.9,88.2 50,11.8 94.1,88.2 "></polygon>
-                </svg>
-            </div>
-        </div>
-
-        <div style="flex: 1 1 0px; min-width: 1px;">
-            <div style="display: flex;">
-                <div style="padding-top: 3px; padding-bottom: 3px">{{inline}}</div>
-            </div>
-
-            <div style="margin-left: -2px; display: none" id="toggle-content-{{id}}">
-                <div style="display: flex; flex-direction: column;">
-                    <div style="width: 100%%; margin-top: 2px; margin-bottom: 0px;">
-                        <div style="color: rgb(66, 66, 65);">
-							<div style="">
-`
-	toggleClosing = `
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-`
-)
-
-// RenderToggle renders BlockToggle blocks
-func (r *HTMLRenderer) RenderToggle(block *notionapi.Block, entering bool) bool {
-	panicIf(block.Type != notionapi.BlockToggle, "unexpected block type '%s'", block.Type)
-
-	if entering {
-		inline := r.r.GetInlineContent(block.InlineContent)
-		id := notionapi.ToNoDashID(block.ID)
-		s := strings.Replace(toggleEntering, "{{id}}", id, -1)
-		s = strings.Replace(s, "{{inline}}", inline, -1)
-		r.r.WriteString(s)
-
-	} else {
-		r.r.WriteString(toggleClosing)
-	}
-	// we handled it
-	return true
-}
-
 func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool) bool {
 	switch block.Type {
 	case notionapi.BlockPage:
 		return r.RenderPage(block, entering)
 	case notionapi.BlockCode:
 		return r.RenderCode(block, entering)
-	case notionapi.BlockToggle:
-		return r.RenderToggle(block, entering)
 	case notionapi.BlockImage:
 		return r.RenderImage(block, entering)
 	}
@@ -200,7 +138,6 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	r := tohtml.NewHTMLRenderer(page)
 	notionapi.PanicOnFailures = true
 	r.AddIDAttribute = true
-	r.Data = res
 	r.RenderBlockOverride = res.blockRenderOverride
 	r.RewriteURL = res.rewriteURL
 
