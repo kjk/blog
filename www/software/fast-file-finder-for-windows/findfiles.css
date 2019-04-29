@@ -8,18 +8,17 @@ body {
 
 #feedback {
   position: absolute;
-  top: 16px;
+  top: 23px; /* eye-balled to be aligned with h1 center */
   right: 16px;
   font-size: 1.3em;
   text-decoration: none;
-  color: gray;
+  color: black;
   padding: 4px 8px;
+  border: 1px solid white;
 }
 
 #feedback:hover {
-  background-color: aliceblue;
-  background-color: lightgray;
-  color: white;
+  border: 1px solid lightgray;
 }
 
 /*
