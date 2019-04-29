@@ -26,6 +26,11 @@
         color: #5a5a5a;
       }
 
+      .optemail {
+        color: #bbb8b8;
+        margin-left: 8px;
+      }
+
       #top-head {
         margin-left: auto;
         margin-right: auto;
@@ -74,17 +79,11 @@
 
       <form name="contactme" netlify>
         <p>
-          <label
-            >Message:
-            <textarea name="message" id="msg-for-chris"></textarea>
-          </label>
+          <textarea name="message" id="msg-for-chris"></textarea>
         </p>
         <p>
-          <label
-            >Your Email: <input type="email" name="email" /><span class="light"
-              >(optional)</span
-            ></label
-          >
+          <input type="email" name="email" />
+          <span class="optemail">(optional email)</span>
         </p>
         <div data-netlify-recaptcha></div>
         <p>
