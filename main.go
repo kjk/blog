@@ -17,6 +17,7 @@ var (
 	analyticsCode = "UA-194516-1"
 
 	flgRedownloadNotion bool
+	flgNoDownload       bool
 	flgRedownloadPage   string
 	flgDeploy           bool
 	flgPreview          bool
@@ -27,6 +28,7 @@ var (
 func parseCmdLineFlags() {
 	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
 	flag.BoolVar(&flgDeploy, "deploy", false, "if true, build for deployment")
+	flag.BoolVar(&flgNoDownload, "no-download", false, "if true, skips downloading")
 	flag.BoolVar(&flgPreview, "preview", false, "if true, runs caddy and opens a browser for preview")
 	flag.BoolVar(&flgPreviewOnDemand, "preview-on-demand", false, "if true runs the browser for local preview")
 	flag.BoolVar(&flgRedownloadNotion, "redownload-notion", false, "if true, re-downloads content from notion")
