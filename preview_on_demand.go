@@ -79,7 +79,7 @@ func makeHTTPServerOnDemand() *http.Server {
 func startPreviewOnDemand(articles *Articles) {
 	gPreviewArticles = articles
 	httpSrv := makeHTTPServerOnDemand()
-	httpSrv.Addr = "127.0.0.1:8173"
+	httpSrv.Addr = "127.0.0.1:8183"
 
 	go func() {
 		err := httpSrv.ListenAndServe()

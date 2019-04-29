@@ -73,7 +73,19 @@
       </p>
 
       <form name="contactme" netlify>
-        <textarea name="message" id="msg-for-chris"></textarea>
+        <p>
+          <label
+            >Message:
+            <textarea name="message" id="msg-for-chris"></textarea>
+          </label>
+        </p>
+        <p>
+          <label
+            >Your Email: <input type="email" name="email" /><span class="light"
+              >(optional)</span
+            ></label
+          >
+        </p>
         <div data-netlify-recaptcha></div>
         <p>
           <button type="submit" class="btn g-recaptcha">Send feedback</button>
