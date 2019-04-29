@@ -46,12 +46,12 @@
         </div>
       </div>
 
-      <div class="books-list-wrapper">
+      <div class="soft-list-wrapper flex-col">
         <div>
           <b>I write software</b>
         </div>
-        <div id="soft-list">
-          <div style="display:flex; flex-direction: column;">
+        <div id="soft-list" class="flex-row">
+          <div class="flex-col">
             <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">
               <img
                 alt="SumatraPDF Reader"
@@ -61,7 +61,7 @@
             </a>
             <span class="soft-under">SumatraPDF</span>
           </div>
-          <div style="display:flex; flex-direction: column;">
+          <div class="flex-col">
             <a href="/software/fast-file-finder-for-windows/">
               <img
                 alt="Fast File Finder"
@@ -74,11 +74,11 @@
         </div>
       </div>
 
-      <div class="books-list-wrapper" style="margin-bottom: 8px;">
+      <div class="books-list-wrapper flex-col">
         <div>
           <b>I maintain books</b>
         </div>
-        <div id="books-list">
+        <div id="books-list" class="flex-row">
           <!--
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Python.png">
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Go.png">
@@ -87,7 +87,7 @@
         </div>
       </div>
 
-      <div class="articles-list-wrap">
+      <div class="articles-list-wrap flex-col">
         <div>
           <center>
             <b>Recently I wrote</b>
@@ -190,7 +190,7 @@
           var url =
             "https://www.programming-books.io/essential/" + books[i * 2] + "/";
           var coverURL =
-            "https://www.programming-books.io/covers/twitter/" +
+            "https://www.programming-books.io/covers/covers_small/" +
             books[i * 2 + 1];
           res.push([url, coverURL]);
         }
