@@ -75,17 +75,9 @@ func execTemplateToFile(path string, templateName string, model interface{}) err
 	return err
 }
 
-func loadTemplate(name string) (*template.Template, error) {
-	path := filepath.Join("www", name)
-	return template.New(name).ParseFiles(path)
-}
-
 func execTemplateToWriter(name string, data interface{}, w io.Writer) error {
-	tmpl, err := loadTemplate(name)
-	if err != nil {
-		return err
-	}
-	return tmpl.Execute(w, data)
+	loadTemplates()
+	return templates.ExecuteTemplate(w, name, data)
 }
 
 func execTemplate(path string, tmplName string, d interface{}, w io.Writer) error {

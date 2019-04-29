@@ -239,8 +239,7 @@ func genIndex(store *Articles, w io.Writer) error {
 		Articles:      articles,
 		WebsiteHTML:   websiteIndexPage.HTMLBody,
 	}
-	execTemplate("/index.html", tmplMainPage, model, w)
-	return nil
+	return execTemplate("/index.html", tmplMainPage, model, w)
 }
 
 func netlifyBuild(store *Articles) {

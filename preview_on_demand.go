@@ -58,7 +58,8 @@ func handleIndexOnDemand(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	serve404(w, r)
+	path := filepath.Join("www", uri[1:])
+	http.ServeFile(w, r, path)
 }
 
 // https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
