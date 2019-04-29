@@ -1,26 +1,54 @@
 html {
-	width: 100%;
+  width: 100%;
 }
 
 body {
-	width: 100%;
+  width: 100%;
+}
+
+#feedback {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: gray;
+  padding: 4px 8px;
+}
+
+#feedback:hover {
+  background-color: aliceblue;
+  background-color: lightgray;
+  color: white;
 }
 
 /*
 https://github.com/tachyons-css/tachyons-flexbox
 http://tachyons.io/docs/
 */
-.f7{font-size:.75rem}
-.mt1{margin-top:.25rem}
-.mt2{margin-top:.5rem}
-.mt3{margin-top: 1rem}
-
-.pa1{
-	padding: 4px;
+.f7 {
+  font-size: 0.75rem;
+}
+.mt1 {
+  margin-top: 0.25rem;
+}
+.mt2 {
+  margin-top: 0.5rem;
+}
+.mt3 {
+  margin-top: 1rem;
 }
 
-.mr2{margin-right:.5rem}
-.mr3{margin-right: 1rem}
+.pa1 {
+  padding: 4px;
+}
+
+.mr2 {
+  margin-right: 0.5rem;
+}
+.mr3 {
+  margin-right: 1rem;
+}
 
 .selected-img {
   border: 1px solid lightskyblue;
@@ -28,120 +56,120 @@ http://tachyons.io/docs/
 
 #image-next,
 #image-prev {
-	padding: 8px 16px;
-	cursor: pointer;
-	font-size: 24px;
-	border: solid 1px lightgray;
-	background-color: white;
-	position: absolute;
-	top: 50%;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 24px;
+  border: solid 1px lightgray;
+  background-color: white;
+  position: absolute;
+  top: 50%;
 }
 
 #image-next {
-	right: 32px;
+  right: 32px;
 }
 
 #image-prev {
-	left: 32px;
+  left: 32px;
 }
 
-
 .screenshot {
-	max-width: 85%;
-	object-fit: scale-down;
+  max-width: 85%;
+  object-fit: scale-down;
 }
 
 .center {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* https://codepen.io/nw/pen/udkIB */
 .buttonDownload {
-	display: inline-block;
-	position: relative;
-	padding: 10px 25px;
+  display: inline-block;
+  position: relative;
+  padding: 10px 25px;
 
-	background-color: #4CC713;
-	color: white;
+  background-color: #4cc713;
+  color: white;
 
-	font-family: sans-serif;
-	text-decoration: none;
-	font-size: 0.9em;
-	text-align: center;
-	text-indent: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  text-indent: 15px;
 }
 
 .buttonDownload:hover {
-	background-color: #358b0d ;
-	color: white;
+  background-color: #358b0d;
+  color: white;
 }
 
-.buttonDownload:before, .buttonDownload:after {
-	content: ' ';
-	display: block;
-	position: absolute;
-	left: 15px;
-	top: 52%;
+.buttonDownload:before,
+.buttonDownload:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 52%;
 }
 
 /* Download box shape  */
 .buttonDownload:before {
-	width: 10px;
-	height: 2px;
-	border-style: solid;
-	border-width: 0 2px 2px;
+  width: 10px;
+  height: 2px;
+  border-style: solid;
+  border-width: 0 2px 2px;
 }
 
 /* Download arrow shape */
 .buttonDownload:after {
-	width: 0;
-	height: 0;
-	margin-left: 3px;
-	margin-top: -7px;
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  margin-top: -7px;
 
-	border-style: solid;
-	border-width: 4px 4px 0 4px;
-	border-color: transparent;
-	border-top-color: inherit;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: transparent;
+  border-top-color: inherit;
 
-	animation: downloadArrow 2s linear infinite;
-	animation-play-state: paused;
+  animation: downloadArrow 2s linear infinite;
+  animation-play-state: paused;
 }
 
 .ib {
-	display: inline-block;
+  display: inline-block;
 }
 
 .buttonDownload:hover:before {
-	border-color: #4CC713;
+  border-color: #4cc713;
 }
 
 .buttonDownload:hover:after {
-	border-top-color: #4CC713;
-	animation-play-state: running;
+  border-top-color: #4cc713;
+  animation-play-state: running;
 }
 
 /* keyframes for the download icon anim */
 @keyframes downloadArrow {
-	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
-	0% {
-		margin-top: -7px;
-		opacity: 1;
-	}
+  /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
 
-	0.001% {
-		margin-top: -15px;
-		opacity: 0;
-	}
+  0.001% {
+    margin-top: -15px;
+    opacity: 0;
+  }
 
-	50% {
-		opacity: 1;
-	}
+  50% {
+    opacity: 1;
+  }
 
-	100% {
-		margin-top: 0;
-		opacity: 0;
-	}
+  100% {
+    margin-top: 0;
+    opacity: 0;
+  }
 }

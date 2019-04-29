@@ -78,24 +78,19 @@
       </p>
 
       <form name="contactme" netlify>
-        <p>
-          <textarea name="message" id="msg-for-chris"></textarea>
-        </p>
-        <p>
-          <input type="email" name="email" size="64" />
-          <span class="optemail">(optional email)</span>
-        </p>
+        <textarea name="message" id="msg-for-chris"></textarea>
+        <div
+          class="optemail"
+          style="font-size: 85%; color: gray; margin-left: 2px; margin-bottom: 4px;"
+        >
+          Optional: your email if you want me to get back to you:
+        </div>
+        <input type="email" name="email" style="width: 100%" />
         <div data-netlify-recaptcha></div>
         <p>
           <button type="submit" class="btn g-recaptcha">Send feedback</button>
         </p>
       </form>
-
-      <p>
-        <b>Note</b>: I can't get back to you unless you also include your e-mail
-        address in the message.
-      </p>
-      <hr />
     </div>
 
     <center><a href="index.html">Fast File Finder</a></center>

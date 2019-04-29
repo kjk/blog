@@ -581,6 +581,8 @@ var redirects = [][]string{
 	{"/software/fotofi", "/software/fotofi/free-stock-photos.html"},
 	{"/software/fotofi/", "/software/fotofi/free-stock-photos.html"},
 	{"/software/fotofi/index.html", "/software/fotofi/free-stock-photos.html"},
+	{"/software/fast-file-finder-for-windows", "/software/fast-file-finder-for-windows/"},
+	{"/software/fast-file-finder-for-windows/index.html", "/software/fast-file-finder-for-windows/"},
 	{"/static/software.html", "/software/index.html"},
 	{"/static/krzysztof.html", "/resume.html"},
 	{"/static/resume.html", "/resume.html"},
