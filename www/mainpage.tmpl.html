@@ -1,182 +1,245 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="always">
-    <meta name="description" content="Personal page of Krzysztof Kowalczyk. Programmer, creator of SumatraPDF.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta
+      name="description"
+      content="Personal page of Krzysztof Kowalczyk. Programmer, creator of SumatraPDF."
+    />
 
     <title>Krzysztof Kowalczyk</title>
-    <link href="/css/main.css" rel="stylesheet">
-</head>
+    <link href="/css/main.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     {{ template "page_navbar.tmpl.html" . }}
 
     <div id="content" style="clear:both; ">
-        <div class="mainpage-wrap">
-            <div style="display:flex; flex-direction: row">
-                <div>
-                    <img src="/gfx/head-bw-sq-120.png" width="80px">
-                </div>
-                <div style="display:flex; flex-direction: column; padding-left: 1em; margin-top: -4px">
-                    <div class="headline">
-                        Hello. I'm
-                        <a href="/resume.html">Chris</a>.
-                    </div>
-
-                    <div class="headline">
-                        I maintain free Go book
-                        <a href="https://www.programming-books.io/essential/go/">Essential Go</a> and
-                        <a href="/software/">few other things</a>.
-                    </div>
-
-                    <div class="headline">
-                        Here's how to
-                        <a href="/contactme.html">contact me</a>.
-                    </div>
-                </div>
+      <div class="mainpage-wrap">
+        <div style="display:flex; flex-direction: row">
+          <div>
+            <img src="/gfx/head-bw-sq-120.png" width="80px" />
+          </div>
+          <div
+            style="display:flex; flex-direction: column; padding-left: 1em; margin-top: -4px"
+          >
+            <div class="headline">
+              Hello. I'm
+              <a href="/resume.html">Chris</a>.
             </div>
+
+            <div class="headline">
+              I maintain free Go book
+              <a href="https://www.programming-books.io/essential/go/"
+                >Essential Go</a
+              >
+              and <a href="/software/">few other things</a>.
+            </div>
+
+            <div class="headline">
+              Here's how to
+              <a href="/contactme.html">contact me</a>.
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="books-list-wrapper" style="margin-bottom: 8px;">
-            <div>
-                <b>I maintain books</b>
-            </div>
-            <div id="books-list">
-                <!--
+      <div class="books-list-wrapper">
+        <div>
+          <b>I write software</b>
+        </div>
+        <div id="soft-list">
+          <div style="display:flex; flex-direction: column;">
+            <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">
+              <img
+                alt="SumatraPDF Reader"
+                class="book-cover"
+                src="/static/sumatra-shot-small.png"
+              />
+            </a>
+            <span class="soft-under">SumatraPDF</span>
+          </div>
+          <div style="display:flex; flex-direction: column;">
+            <a href="/software/fast-file-finder-for-windows/">
+              <img
+                alt="Fast File Finder"
+                class="book-cover"
+                src="/software/fast-file-finder-for-windows/fastfilefinder-small.png"
+              />
+            </a>
+            <span class="soft-under">Fast File Finder</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="books-list-wrapper" style="margin-bottom: 8px;">
+        <div>
+          <b>I maintain books</b>
+        </div>
+        <div id="books-list">
+          <!--
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Python.png">
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Go.png">
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Perl.png">
                 -->
-            </div>
         </div>
+      </div>
 
-        <div class="articles-list-wrap">
+      <div class="articles-list-wrap">
+        <div>
+          <center>
+            <b>Recently I wrote</b>
+          </center>
+          {{ range.Articles }}
+          <div style="margin-left: 1em;">
+            <a href="{{.URL}}">{{.Title}}</a>
+            {{if .TagsDisplay}}
+            <span style="font-size:80%">
+              <span class="taglink">in:</span> {{.TagsDisplay}}
+            </span>
+            {{ end }}
+          </div>
+          {{ end }}
+          <div
+            style="display:flex; flex-direction: row; justify-content: space-between; align-items: center;"
+          >
             <div>
-                <center>
-                    <b>Recently I wrote</b>
-                </center>
-                {{range .Articles}}
-                <div style="margin-left: 1em;">
-                    <a href="{{.URL}}">{{.Title}}</a>
-                    {{if .TagsDisplay}}
-                    <span style="font-size:80%">
-                        <span class="taglink">in:</span> {{.TagsDisplay}}
-                    </span>
-                    {{end}}
-                </div>
-                {{end}}
-                <div style="display:flex; flex-direction: row; justify-content: space-between; align-items: center;">
-                    <div>
-                        <a href="/archives.html">See all...</a>
-                    </div>
-                    <div class="headline" style="font-size:80%">
-                        <a href="/atom.xml">RSS/Atom feed</a>
-                    </div>
-                </div>
-
-                <hr>
-
-                <center>
-                    <b>My external brain</b>
-                </center>
-                <center>
-                    <a style="font-size: 85%; margin-top: -6px" href="/changelog.html">changelog</a>
-                </center>
-                <div>
-                    {{.WebsiteHTML}}
-                </div>
+              <a href="/archives.html">See all...</a>
             </div>
+            <div class="headline" style="font-size:80%">
+              <a href="/atom.xml">RSS/Atom feed</a>
+            </div>
+          </div>
+
+          <hr />
+
+          <center>
+            <b>My external brain</b>
+          </center>
+          <center>
+            <a style="font-size: 85%; margin-top: -6px" href="/changelog.html"
+              >changelog</a
+            >
+          </center>
+          <div>
+            {{.WebsiteHTML}}
+          </div>
         </div>
+      </div>
     </div>
 
-    <hr> {{ template "analytics.tmpl.html" . }}
+    <hr />
+    {{ template "analytics.tmpl.html" . }}
 
     <script>
-        // url: https://www.programming-books.io/essential/go/
-        // cover: https://www.programming-books.io/covers/twitter/Go.png
-        var allBooks = [
-            "go", "Go.png",
-            "cpp", "Cpp.png",
-            "javascript", "JavaScript.png",
-            "css", "CSS.png",
-            "html", "HTML.png",
-            "htmlcanvas", "HTMLCanvas.png",
-            "java", "Java.png",
-            //"kotlin", "Kotlin.png",
-            "csharp", "CSharp.png",
-            "python", "Python.png",
-            "postgresql", "PostgreSQL.png",
-            "mysql", "MySQL.png",
-            "ios", "iOS.png",
-            "android", "Android.png",
-            "bash", "Bash.png",
-            "powershell", "PowerShell.png",
-            //"batch", "Batch.png",
-            "git", "Git.png",
-            "php", "PHP.png",
-            "ruby", "Ruby.png",
-            "nodejs", "Node.js.png",
-            //"dart", "Dart.png",
-            "typescript", "TypeScript.png",
-            "swift", "Swift.png",
-        ];
-        function groupBooks(books) {
-            var res = [];
-            var n = books.length / 2;
-            for (var i = 0; i < n; i++) {
-                var url = "https://www.programming-books.io/essential/" + books[i*2] + "/";
-                var coverURL = "https://www.programming-books.io/covers/twitter/" + books[i*2+1];
-                res.push([url, coverURL]);
-            }
-            return res;
+      // url: https://www.programming-books.io/essential/go/
+      // cover: https://www.programming-books.io/covers/twitter/Go.png
+      var allBooks = [
+        "go",
+        "Go.png",
+        "cpp",
+        "Cpp.png",
+        "javascript",
+        "JavaScript.png",
+        "css",
+        "CSS.png",
+        "html",
+        "HTML.png",
+        "htmlcanvas",
+        "HTMLCanvas.png",
+        "java",
+        "Java.png",
+        //"kotlin", "Kotlin.png",
+        "csharp",
+        "CSharp.png",
+        "python",
+        "Python.png",
+        "postgresql",
+        "PostgreSQL.png",
+        "mysql",
+        "MySQL.png",
+        "ios",
+        "iOS.png",
+        "android",
+        "Android.png",
+        "bash",
+        "Bash.png",
+        "powershell",
+        "PowerShell.png",
+        //"batch", "Batch.png",
+        "git",
+        "Git.png",
+        "php",
+        "PHP.png",
+        "ruby",
+        "Ruby.png",
+        "nodejs",
+        "Node.js.png",
+        //"dart", "Dart.png",
+        "typescript",
+        "TypeScript.png",
+        "swift",
+        "Swift.png"
+      ];
+      function groupBooks(books) {
+        var res = [];
+        var n = books.length / 2;
+        for (var i = 0; i < n; i++) {
+          var url =
+            "https://www.programming-books.io/essential/" + books[i * 2] + "/";
+          var coverURL =
+            "https://www.programming-books.io/covers/twitter/" +
+            books[i * 2 + 1];
+          res.push([url, coverURL]);
         }
-        function shuffle(array) {
-            var currentIndex = array.length, temporaryValue, randomIndex;
+        return res;
+      }
+      function shuffle(array) {
+        var currentIndex = array.length,
+          temporaryValue,
+          randomIndex;
 
-            // While there remain elements to shuffle...
-            while (0 !== currentIndex) {
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+          // Pick a remaining element...
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
 
-                // Pick a remaining element...
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex -= 1;
-
-                // And swap it with the current element.
-                temporaryValue = array[currentIndex];
-                array[currentIndex] = array[randomIndex];
-                array[randomIndex] = temporaryValue;
-            }
-
-            return array;
-        }
-        function genBookHTML(book) {
-            var url = book[0];
-            var coverURL = book[1];
-            var img = '<img class="book-cover" src="' + coverURL + '">';
-            var html = '<a href="' + url + '">' + img + '</a>';
-            return html;
+          // And swap it with the current element.
+          temporaryValue = array[currentIndex];
+          array[currentIndex] = array[randomIndex];
+          array[randomIndex] = temporaryValue;
         }
 
-        function genBooksHTML(books) {
-            var s = "";
-            for (var i = 0; i < 3; i++) {
-                var book = books[i];
-                s += genBookHTML(book) + "\n";
-            }
-            return s;
+        return array;
+      }
+      function genBookHTML(book) {
+        var url = book[0];
+        var coverURL = book[1];
+        var img = '<img class="book-cover" src="' + coverURL + '">';
+        var html = '<a href="' + url + '">' + img + "</a>";
+        return html;
+      }
+
+      function genBooksHTML(books) {
+        var s = "";
+        for (var i = 0; i < 3; i++) {
+          var book = books[i];
+          s += genBookHTML(book) + "\n";
         }
-        function onLoaded() {
-            var books = groupBooks(allBooks);
-            books = shuffle(books);
-            console.log("books:", books);
-            var el = document.getElementById("books-list");
-            var html = genBooksHTML(books);
-            el.innerHTML = html;
-        }
-        document.addEventListener('DOMContentLoaded', onLoaded);
+        return s;
+      }
+      function onLoaded() {
+        var books = groupBooks(allBooks);
+        books = shuffle(books);
+        console.log("books:", books);
+        var el = document.getElementById("books-list");
+        var html = genBooksHTML(books);
+        el.innerHTML = html;
+      }
+      document.addEventListener("DOMContentLoaded", onLoaded);
     </script>
-</body>
-
+  </body>
 </html>

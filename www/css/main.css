@@ -374,6 +374,11 @@ table.notion-table td {
   margin-right: 4px;
 }
 
+.soft-under {
+  font-size: 90%;
+  align-self: center;
+}
+
 .books-list-wrapper {
   display: flex;
   flex-direction: column;
@@ -382,6 +387,12 @@ table.notion-table td {
 }
 
 #books-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#soft-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
