@@ -246,6 +246,16 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		page:  page,
 		Title: title,
 	}
+
+	// allow debugging for specific pages
+	if false && id == "39a15945117440d99a9ef0f7de1b618a" {
+		doTempLog = true
+		defer func() {
+			doTempLog = false
+		}()
+		logTemp("Temp logging article %s %s\n", id, title)
+	}
+
 	nBlock := 0
 	var err error
 	endLoop := false
@@ -256,36 +266,36 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 
 	for len(blocks) > 0 {
 		block := blocks[0]
-		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, block.Title)
+		logTemp("  %d %s '%s'\n", nBlock, block.Type, block.Title)
 
 		if block.Type != notionapi.BlockText {
-			//fmt.Printf("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+			logTemp("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
 			break
 		}
 
 		if len(block.InlineContent) == 0 {
-			//fmt.Printf("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+			logTemp("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
 			blocks = blocks[1:]
 			break
 		} else {
-			//fmt.Printf("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
+			logTemp("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
 		}
 
 		inline := block.InlineContent[0]
 		// must be plain text
 		if !inline.IsPlain() {
-			//fmt.Printf("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
+			logTemp("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
 			break
 		}
 
 		// remove empty lines at the top
 		s := strings.TrimSpace(inline.Text)
 		if s == "" {
-			//fmt.Printf("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+			logTemp("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
 			blocks = blocks[2:]
 			break
 		}
-		//fmt.Printf("  %d %s '%s'\n", nBlock, block.Type, s)
+		logTemp("  %d %s '%s'\n", nBlock, block.Type, s)
 
 		// parse generic metadata like "@foo: bar" or "@foo bar"
 		if s[0] == '@' {
@@ -312,7 +322,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 
 		parts := strings.SplitN(s, ":", 2)
 		if len(parts) != 2 {
-			//fmt.Printf("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
+			logTemp("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
 			break
 		}
 		key := strings.ToLower(strings.TrimSpace(parts[0]))
@@ -320,19 +330,21 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		switch key {
 		case "tags":
 			article.Tags = parseTags(val)
-			//fmt.Printf("Tags: %v\n", res.Tags)
+			logTemp("Tags: %v\n", article.Tags)
 		case "id":
 			articleSetID(article, val)
-			//fmt.Printf("ID: %s\n", res.ID)
+			logTemp("ID: %s\n", article.ID)
 		case "publishedon":
 			// PublishedOn over-writes Date and CreatedAt
 			publishedOnOverwrite, err = parseDate(val)
 			panicIfErr(err)
 			article.inBlog = true
+			logTemp("got publishedon")
 		case "date", "createdat":
 			article.PublishedOn, err = parseDate(val)
 			panicIfErr(err)
 			article.inBlog = true
+			logTemp("got date or createdat")
 		case "updatedat":
 			article.UpdatedOn, err = parseDate(val)
 			panicIfErr(err)
@@ -340,7 +352,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 			setStatusMust(article, val)
 		case "description":
 			article.Description = val
-			//fmt.Printf("Description: %s\n", res.Description)
+			logTemp("Description: %s\n", article.Description)
 		case "headerimage":
 			setHeaderImageMust(article, val)
 		case "collection":

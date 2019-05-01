@@ -50,3 +50,14 @@ func verbose(format string, args ...interface{}) {
 		fmt.Fprint(logFile, s)
 	}
 }
+
+var (
+	doTempLog = false
+)
+
+func logTemp(format string, args ...interface{}) {
+	if !doTempLog {
+		return
+	}
+	lg(format, args...)
+}
