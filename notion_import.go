@@ -137,7 +137,7 @@ func guessExt(fileName string, contentType string) string {
 	case "image/png":
 		return ".png"
 	}
-	panic(fmt.Errorf("Didn't find ext for file '%s', content type '%s'\n", fileName, contentType))
+	panic(fmt.Errorf("Didn't find ext for file '%s', content type '%s'", fileName, contentType))
 }
 
 func downloadImage(c *notionapi.Client, uri string) ([]byte, string, error) {

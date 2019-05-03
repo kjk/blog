@@ -33,6 +33,7 @@ type URLPath struct {
 	Name string
 }
 
+// MetaValue represents a key/value metadata
 type MetaValue struct {
 	key   string
 	value string

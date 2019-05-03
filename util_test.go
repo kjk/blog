@@ -115,23 +115,3 @@ func TestCapitalize(t *testing.T) {
 		assert.Equal(t, test.exp, got)
 	}
 }
-
-func TestExtractNotionIDFromURL(t *testing.T) {
-	tests := []struct {
-		uri string
-		exp string
-	}{
-		{
-			"https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6",
-			"ea07db1b9bff415ab180b0525f3898f6",
-		},
-		{
-			"https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2",
-			"c674bebe8adf44d18c3a36cc18c131e2",
-		},
-	}
-	for _, test := range tests {
-		got := extractNotionIDFromURL(test.uri)
-		assert.Equal(t, test.exp, got)
-	}
-}
