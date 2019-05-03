@@ -365,8 +365,30 @@ func checkIfPagesAreOutdated(c *notionapi.Client, cachedPagesFromDisk map[string
 	return isCachedPageNotOutdated
 }
 
+// returns true if did build
+func maybeBuildIDToPageMap(cachedPagesFromDisk map[string]*notionapi.Page, idToPage map[string]*notionapi.Page) bool {
+	if !flgNoDownload {
+		return false
+	}
+	if len(cachedPagesFromDisk) == 0 {
+		fmt.Printf("ignoring flgNoDownload=%v because no cached pages\n", flgNoDownload)
+		return false
+	}
+	for _, page := range cachedPagesFromDisk {
+		id := page.ID
+		id = normalizeID(id)
+		idToPage[id] = page
+	}
+	return true
+}
+
 func loadNotionPages(c *notionapi.Client, indexPageID string, idToPage map[string]*notionapi.Page, useCache bool) {
 	cachedPagesFromDisk := loadPagesFromDisk(cacheDir)
+
+	if maybeBuildIDToPageMap(cachedPagesFromDisk, idToPage) {
+		return
+	}
+
 	isCachedPageNotOutdated := checkIfPagesAreOutdated(c, cachedPagesFromDisk)
 
 	toVisit := []string{indexPageID}
