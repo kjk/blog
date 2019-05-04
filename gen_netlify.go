@@ -23,6 +23,31 @@ import (
 	atom "github.com/thomas11/atomgenerator"
 )
 
+func addAllRedirects(store *Articles) {
+	netlifyAddStaticRedirects()
+	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
+	//netlifyAddRewrite("/book/", "/static/documents.html")
+	//netflifyAddTempRedirect("/book/*", "/article/:splat")
+	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org/:splat")
+
+	netflifyAddTempRedirect("/articles/", "/documents.html")
+	netflifyAddTempRedirect("/articles/index.html", "/documents.html")
+	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
+	netflifyAddTempRedirect("/software/index.html", "/software/")
+
+	netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
+	netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
+
+	for _, article := range store.articles {
+		if article.urlOverride != "" {
+			path := fmt.Sprintf("/article/%s.html", article.ID)
+			netlifyAddRewrite(article.urlOverride, path)
+		}
+	}
+
+	netlifyAddArticleRedirects(store)
+}
+
 func copyAndSortArticles(articles []*Article) []*Article {
 	n := len(articles)
 	res := make([]*Article, n, n)
@@ -169,7 +194,7 @@ func buildTags(articles []*Article) []*TagInfo {
 	return res
 }
 
-func netlifyWriteArticlesArchiveForTag(store *Articles, tag string) {
+func netlifyWriteArticlesArchiveForTag(store *Articles, tag string, w io.Writer) error {
 	path := "/archives.html"
 	articles := store.getBlogNotHidden()
 	if tag != "" {
@@ -202,7 +227,7 @@ func netlifyWriteArticlesArchiveForTag(store *Articles, tag string) {
 		Tags:          buildTags(articles),
 	}
 
-	netlifyExecTemplate(path, tmplArchive, model)
+	return execTemplate(path, tmplArchive, model, w)
 }
 
 func skipTmplFiles(path string) bool {
@@ -242,6 +267,142 @@ func genIndex(store *Articles, w io.Writer) error {
 	return execTemplate("/index.html", tmplMainPage, model, w)
 }
 
+func genChangelog(store *Articles, w io.Writer) error {
+	// /changelog.html
+	articles := append([]*Article{}, store.articles...)
+	sort.Slice(articles, func(i, j int) bool {
+		a1 := articles[i]
+		a2 := articles[j]
+		return a1.UpdatedOn.After(a2.UpdatedOn)
+	})
+	if len(articles) > 64 {
+		articles = articles[:64]
+	}
+	prevAge := -1
+	for _, a := range articles {
+		age := a.UpdatedAge()
+		if prevAge != age {
+			a.UpdatedAgeStr = fmt.Sprintf("%d d", a.UpdatedAge())
+		}
+		prevAge = age
+	}
+
+	model := struct {
+		AnalyticsCode string
+		Article       *Article
+		Articles      []*Article
+	}{
+		AnalyticsCode: analyticsCode,
+		Article:       nil, // always nil
+		Articles:      articles,
+	}
+	return execTemplate("/changelog.html", tmplChangelog, model, w)
+}
+
+func genBlogIndex(store *Articles, w io.Writer) error {
+	// TODO: maybe just use /archive.html
+	// /blogindex.html
+	articles := store.getBlogNotHidden()
+	articleCount := len(articles)
+	model := struct {
+		AnalyticsCode string
+		Article       *Article
+		Articles      []*Article
+		ArticleCount  int
+	}{
+		AnalyticsCode: analyticsCode,
+		Article:       nil, // always nil
+		ArticleCount:  articleCount,
+		Articles:      articles,
+	}
+	return execTemplate("/blogindex.html", tmplBlogIndex, model, w)
+}
+
+func genPerTagArchives(store *Articles) {
+	// tag/<tagname>
+	tags := map[string]struct{}{}
+	for _, article := range store.getBlogNotHidden() {
+		for _, tag := range article.Tags {
+			tags[tag] = struct{}{}
+		}
+	}
+	for tag := range tags {
+		netlifyWriteArticlesArchiveForTag(store, tag, nil)
+	}
+}
+
+func genArchives(store *Articles, w io.Writer) error {
+	// /archives.html
+	return netlifyWriteArticlesArchiveForTag(store, "", w)
+}
+
+func writeFileOrWriter(path string, data []byte, w io.Writer) error {
+	if w != nil {
+		_, err := w.Write(data)
+		return err
+	}
+	netlifyWriteFile(path, data)
+	return nil
+}
+
+func genSitemap(store *Articles, w io.Writer) error {
+	// /sitemap.xml
+	data, err := genSiteMap(store, "https://blog.kowalczyk.info")
+	panicIfErr(err)
+	return writeFileOrWriter("/sitemap.xml", data, w)
+}
+
+func genAtom(store *Articles, w io.Writer) error {
+	// /atom.xml
+	d, err := genAtomXML(store, true)
+	panicIfErr(err)
+	return writeFileOrWriter("/atom.xml", d, w)
+}
+
+func genAtomAll(store *Articles, w io.Writer) error {
+	// /atom-all.xml
+	d, err := genAtomXML(store, false)
+	panicIfErr(err)
+	return writeFileOrWriter("/atom-all.xml", d, w)
+}
+
+func genArticle(article *Article, w io.Writer) error {
+	canonicalURL := netlifyRequestGetFullHost() + article.URL()
+	model := struct {
+		AnalyticsCode      string
+		Article            *Article
+		CanonicalURL       string
+		CoverImage         string
+		PageTitle          string
+		TagsDisplay        string
+		HeaderImageURL     string
+		NotionEditURL      string
+		Description        string
+		TwitterShareURL    string
+		FacebookShareURL   string
+		LinkedInShareURL   string
+		GooglePlusShareURL string
+	}{
+		AnalyticsCode:      analyticsCode,
+		Article:            article,
+		CanonicalURL:       canonicalURL,
+		CoverImage:         article.HeaderImageURL,
+		PageTitle:          article.Title,
+		Description:        article.Description,
+		TwitterShareURL:    makeTwitterShareURL(article),
+		FacebookShareURL:   makeFacebookShareURL(article),
+		LinkedInShareURL:   makeLinkedinShareURL(article),
+		GooglePlusShareURL: makeGooglePlusShareURL(article),
+	}
+	if article.page != nil {
+		id := normalizeID(article.page.ID)
+		model.NotionEditURL = "https://notion.so/" + id
+	}
+	path := fmt.Sprintf("/article/%s.html", article.ID)
+	logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
+	return execTemplate(path, tmplArticle, model, w)
+}
+
 func netlifyBuild(store *Articles) {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -255,23 +416,13 @@ func netlifyBuild(store *Articles) {
 	panicIfErr(err)
 	lg("Copied %d files\n", nCopied)
 
-	netlifyAddStaticRedirects()
-	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
-	//netlifyAddRewrite("/book/", "/static/documents.html")
-	//netflifyAddTempRedirect("/book/*", "/article/:splat")
-	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org/:splat")
-
-	netflifyAddTempRedirect("/articles/", "/documents.html")
-	netflifyAddTempRedirect("/articles/index.html", "/documents.html")
-	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
-	netflifyAddTempRedirect("/software/index.html", "/software/")
+	addAllRedirects(store)
 
 	{
 		// url: /book/go-cookbook.html
 		model := struct {
 		}{}
 		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
-		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
 
 	{
@@ -279,143 +430,30 @@ func netlifyBuild(store *Articles) {
 		model := struct {
 		}{}
 		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
-		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
 
 	genIndex(store, nil)
 
-	// TODO: maybe just use /archive.html
-	{
-		// /blogindex.html
-		articles := store.getBlogNotHidden()
-		articleCount := len(articles)
-		model := struct {
-			AnalyticsCode string
-			Article       *Article
-			Articles      []*Article
-			ArticleCount  int
-		}{
-			AnalyticsCode: analyticsCode,
-			Article:       nil, // always nil
-			ArticleCount:  articleCount,
-			Articles:      articles,
-		}
-		netlifyExecTemplate("/blogindex.html", tmplBlogIndex, model)
-	}
+	genBlogIndex(store, nil)
 
-	{
-		// /changelog.html
-		articles := append([]*Article{}, store.articles...)
-		sort.Slice(articles, func(i, j int) bool {
-			a1 := articles[i]
-			a2 := articles[j]
-			return a1.UpdatedOn.After(a2.UpdatedOn)
-		})
-		if len(articles) > 64 {
-			articles = articles[:64]
-		}
-		prevAge := -1
-		for _, a := range articles {
-			age := a.UpdatedAge()
-			if prevAge != age {
-				a.UpdatedAgeStr = fmt.Sprintf("%d d", a.UpdatedAge())
-			}
-			prevAge = age
-		}
-
-		model := struct {
-			AnalyticsCode string
-			Article       *Article
-			Articles      []*Article
-		}{
-			AnalyticsCode: analyticsCode,
-			Article:       nil, // always nil
-			Articles:      articles,
-		}
-		netlifyExecTemplate("/changelog.html", tmplChangelog, model)
-	}
-
+	genChangelog(store, nil)
 	copyImages()
 
-	{
-		// /atom.xml
-		d, err := genAtomXML(store, true)
-		panicIfErr(err)
-		netlifyWriteFile("/atom.xml", d)
-	}
-
-	{
-		// /atom-all.xml
-		d, err := genAtomXML(store, false)
-		panicIfErr(err)
-		netlifyWriteFile("/atom-all.xml", d)
-	}
+	genAtom(store, nil)
+	genAtomAll(store, nil)
 
 	{
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 		logVerbose("%d articles\n", len(store.idToPage))
 		for _, article := range store.articles {
-			canonicalURL := netlifyRequestGetFullHost() + article.URL()
-			model := struct {
-				AnalyticsCode      string
-				Article            *Article
-				CanonicalURL       string
-				CoverImage         string
-				PageTitle          string
-				TagsDisplay        string
-				HeaderImageURL     string
-				NotionEditURL      string
-				Description        string
-				TwitterShareURL    string
-				FacebookShareURL   string
-				LinkedInShareURL   string
-				GooglePlusShareURL string
-			}{
-				AnalyticsCode:      analyticsCode,
-				Article:            article,
-				CanonicalURL:       canonicalURL,
-				CoverImage:         article.HeaderImageURL,
-				PageTitle:          article.Title,
-				Description:        article.Description,
-				TwitterShareURL:    makeTwitterShareURL(article),
-				FacebookShareURL:   makeFacebookShareURL(article),
-				LinkedInShareURL:   makeLinkedinShareURL(article),
-				GooglePlusShareURL: makeGooglePlusShareURL(article),
-			}
-			if article.page != nil {
-				id := normalizeID(article.page.ID)
-				model.NotionEditURL = "https://notion.so/" + id
-			}
-			path := fmt.Sprintf("/article/%s.html", article.ID)
-			logVerbose("%s => %s, %s, %s\n", article.ID, path, article.URL(), article.Title)
-			netlifyExecTemplate(path, tmplArticle, model)
-			if article.urlOverride != "" {
-				//lg("url override: %s => %s\n", article.urlOverride, path)
-				netlifyAddRewrite(article.urlOverride, path)
-			}
+			genArticle(article, nil)
 		}
 	}
 
-	{
-		// /archives.html
-		netlifyWriteArticlesArchiveForTag(store, "")
-		tags := map[string]struct{}{}
-		for _, article := range store.getBlogNotHidden() {
-			for _, tag := range article.Tags {
-				tags[tag] = struct{}{}
-			}
-		}
-		for tag := range tags {
-			netlifyWriteArticlesArchiveForTag(store, tag)
-		}
-	}
+	genArchives(store, nil)
+	genPerTagArchives(store)
 
-	{
-		// /sitemap.xml
-		data, err := genSiteMap(store, "https://blog.kowalczyk.info")
-		panicIfErr(err)
-		netlifyWriteFile("/sitemap.xml", data)
-	}
+	genSitemap(store, nil)
 
 	{
 		// /tools/generate-unique-id
@@ -466,7 +504,6 @@ func netlifyBuild(store *Articles) {
 
 	// no longer care about /worklog
 
-	netlifyAddArticleRedirects(store)
 	netlifyWriteRedirects()
 	writeCaddyConfig()
 }
