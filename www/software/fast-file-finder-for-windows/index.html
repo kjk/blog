@@ -1,133 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="referrer" content="always" />
-    <meta
-      name="description"
-      content="Fast File Finder for Windows is a tool to find files quickly."
-    />
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary" />
-    <meta name="twitter:site" content="@kjk" />
-    <meta
-      name="twitter:title"
-      content="Fast File Finder is for quickly finding files on Windows"
-    />
-    <meta
-      name="twitter:description"
-      content="Fast File Finder is a tool to find files quickly on Window"
-    />
-    <meta name="twitter:creator" content="@kjk" />
-    <meta name="twitter:image" content="shot-00.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="always" />
+  <meta name="description" content="Fast File Finder for Windows is a tool to find files quickly." />
 
-    <!-- Open Graph i.e. Facebook data -->
-    <meta
-      property="og:title"
-      content="Find Files is for finding files quickly on Window"
-    />
-    <meta property="og:type" content="article" />
-    <meta
-      property="og:url"
-      content="https://blog.kowalczyk/software/fast-file-finder-for-windows/"
-    />
-    <meta
-      property="og:description"
-      content="Find Files is for finding files quickly on Window"
-    />
-    <meta property="og:image" content=shot-00.png">
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" value="summary" />
+  <meta name="twitter:site" content="@kjk" />
+  <meta name="twitter:title" content="Fast File Finder is for quickly finding files on Windows" />
+  <meta name="twitter:description" content="Fast File Finder is a tool to find files quickly on Window" />
+  <meta name="twitter:creator" content="@kjk" />
+  <meta name="twitter:image" content="shot-00.png" />
 
-    <title>
-      Fast File Finder for Windows is a tool for quickly finding files by name.
-    </title>
+  <!-- Open Graph i.e. Facebook data -->
+  <meta property="og:title" content="Find Files is for finding files quickly on Window" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://blog.kowalczyk/software/fast-file-finder-for-windows/" />
+  <meta property="og:description" content="Find Files is for finding files quickly on Window" />
+  <meta property="og:image" content=shot-00.png">
 
-    <link href="findfiles.css" rel="stylesheet" />
+  <title>
+    Fast File Finder for Windows is a tool for quickly finding files by name.
+  </title>
 
-    <script src="//kjkpubsf.sfo2.digitaloceanspaces.com/software/fastfilefinder/rel/latestver.js"></script>
+  <link href="findfiles.css" rel="stylesheet" />
 
-    <script src="findfiles.js"></script>
-    <script>
-      function onload() {
-        changeShot("shot-00.png");
-        updateDlUrl();
-      }
+  <script src="//kjkpubsf.sfo2.digitaloceanspaces.com/software/fastfilefinder/rel/latestver.js"></script>
 
-      document.addEventListener("DOMContentLoaded", onload);
-    </script>
-  </head>
+  <script src="findfiles.js"></script>
+  <script>
+    function onload() {
+      changeShot("shot-00.png");
+      updateDlUrl();
+    }
 
-  <body>
-    <a id="feedback" href="feedback.html">Feedback</a>
+    document.addEventListener("DOMContentLoaded", onload);
+  </script>
+</head>
 
-    <h1 class="center">Fast File Finder</h1>
-    <div class="center" style="margin-top: -8px;">
-      Quickly find files, on Windows
+<body>
+  <a id="feedback" href="feedback.html">Feedback</a>
+
+  <h1 class="center">Fast File Finder</h1>
+  <div class="center" style="margin-top: -8px;">
+    Quickly find files, on Windows
+  </div>
+
+  <div class="center mt3">
+    <a id="dlurl" href="https://kjkpubsf.sfo2.digitaloceanspaces.com/software/fastfilefinder/rel/fastfilefinder-0.2.exe"
+      class="buttonDownload">Free Download</a>
+    <div class="f7 mt1">Requires Windows 7, 8 or 10</div>
+  </div>
+
+  <p>&nbsp;</p>
+
+  <div class="img-wrapper">
+    <img id="main-shot" src="shot-00.png" />
+
+    <a class="for-nav-icon nav-icon-left" href="#" onclick="imgPrev(); return false;">
+
+      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="nav-icon">
+        <g>
+          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" class="style-scope yt-icon">
+          </path>
+        </g>
+      </svg>
+    </a>
+
+    <a class="for-nav-icon nav-icon-right" href="#" onclick="imgNext(); return false;">
+      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="nav-icon" style="">
+        <g>
+          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" class="yt-icon"></path>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+  <div class="center mt3">
+    <div id="shot-00.png" class="pa1 ib">
+      <a href="#" onclick="changeShot('shot-00.png'); return false;">
+        <img src="shot-00.png" width="80" height="60" />
+      </a>
     </div>
 
-    <div class="center mt3">
-      <a
-        id="dlurl"
-        href="https://kjkpubsf.sfo2.digitaloceanspaces.com/software/fastfilefinder/rel/fastfilefinder-0.2.exe"
-        class="buttonDownload"
-        >Free Download</a
-      >
-      <div class="f7 mt1">Requires Windows 7, 8 or 10</div>
+    <div id="shot-01.png" class="pa1 ib">
+      <a href="#" onclick="changeShot('shot-01.png'); return false;">
+        <img src="shot-01.png" width="80" height="60" />
+      </a>
     </div>
+  </div>
+  <p>&nbsp;</p>
 
-    <p>&nbsp;</p>
+  <center>Made by <a href="/">Krzysztof Kowalczyk</a></center>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
 
-    <div class="center" style="position: relative">
-      <img id="main-shot" class="screenshot" src="shot-00.png" />
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "//www.google-analytics.com/analytics.js",
+      "ga"
+    );
 
-      <button id="image-next" onclick="imgNext(); return false;">&gt;</button>
-      <button id="image-prev" onclick="imgPrev(); return false;">&lt;</button>
-    </div>
+    ga("create", "UA-194516-1", "auto");
+    ga("send", "pageview");
+  </script>
+</body>
 
-    <div class="center mt3">
-      <div id="shot-00.png" class="pa1 ib">
-        <a href="#" onclick="changeShot('shot-00.png'); return false;">
-          <img src="shot-00.png" width="80" height="60" />
-        </a>
-      </div>
-
-      <div id="shot-01.png" class="pa1 ib">
-        <a href="#" onclick="changeShot('shot-01.png'); return false;">
-          <img src="shot-01.png" width="80" height="60" />
-        </a>
-      </div>
-    </div>
-    <p>&nbsp;</p>
-
-    <hr />
-    <center>Made by <a href="/">Krzysztof Kowalczyk</a></center>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-
-    <script>
-      (function(i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
-
-      ga("create", "UA-194516-1", "auto");
-      ga("send", "pageview");
-    </script>
-  </body>
 </html>

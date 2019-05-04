@@ -49,38 +49,67 @@ http://tachyons.io/docs/
   margin-right: 1rem;
 }
 
-.selected-img {
-  border: 1px solid lightskyblue;
-}
-
-#image-next,
-#image-prev {
-  padding: 8px 16px;
-  cursor: pointer;
-  font-size: 24px;
-  border: solid 1px lightgray;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-}
-
-#image-next {
-  right: 32px;
-}
-
-#image-prev {
-  left: 32px;
-}
-
-.screenshot {
-  max-width: 85%;
-  object-fit: scale-down;
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.selected-img {
+  border: 1px solid lightskyblue;
+}
+
+.img-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  max-width: 85%;
+}
+
+.img-wrapper > img {
+  object-fit: scale-down;
+}
+
+.nav-icon-left {
+  position: absolute;
+  left: -16px;
+  top: calc(50% - 24px);
+}
+
+.nav-icon-right {
+  position: absolute;
+  right: -16px;
+  top: calc(50% - 24px);
+}
+
+a.for-nav-icon {
+  display: flex;
+
+  text-decoration: none;
+  font-size: 0px;
+  justify-content: center;
+  align-items: center;
+
+  fill: gray;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 24px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+a.for-nav-icon:hover {
+  fill: #555;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  display: block;
 }
 
 /* https://codepen.io/nw/pen/udkIB */

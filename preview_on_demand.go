@@ -102,9 +102,14 @@ again:
 		}
 	}
 
-	path := filepath.Join("www", uri[1:])
+	isDir := strings.HasSuffix(uri, "/")
+	fileName := filepath.FromSlash(uri[1:])
+	if isDir {
+		fileName = filepath.Join(fileName, "index.html")
+	}
+	path := filepath.Join("www", fileName)
 	if !fileExists(path) {
-		fmt.Printf("path '%s' doesn't exist\n", path)
+		fmt.Printf("path '%s' for url '%s' doesn't exist\n", path, uri)
 		serve404(w, r)
 		return
 	}
