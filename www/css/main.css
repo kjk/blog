@@ -152,7 +152,7 @@ div.notion-wrap {
 }
 
 div.notion-text {
-  margin-block-start: 1em;
+  margin-block-start: 0em;
   margin-block-end: 1em;
 }
 
@@ -203,6 +203,7 @@ div.notion-column-list {
 /* size all columns equally */
 div.notion-column {
   flex: 1;
+  padding-right: 8px;
 }
 
 table.notion-table {
