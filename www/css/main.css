@@ -786,6 +786,52 @@ li.L9 {
   text-decoration: none;
 }
 
+#msg-for-chris {
+  width: 100%;
+  height: 8em;
+}
+
+textarea {
+  font-size: 12pt;
+}
+
+#contact-form {
+  /* background-color: lightsteelblue; */
+  padding: 1em 2em;
+  width: 75vw;
+  position: fixed;
+  right: 8px;
+  bottom: 2em;
+  background-color: white;
+  z-index: 99;
+  border: 1px solid lightgray;
+
+  /* initially hidden */
+  display: none;
+}
+
+.contact-hidden {
+  display: none;
+}
+
+#contact-page-url {
+  font-size: 85%;
+  border: 0;
+  color: grey;
+  margin-left: 2px;
+}
+
+form > input {
+  width: 100%;
+}
+
+.contact-light {
+  font-size: 85%;
+  color: gray;
+  margin-left: 2px;
+  margin-bottom: 4px;
+}
+
 pre.chroma {
   display: block;
   overflow-x: auto;
