@@ -103,11 +103,8 @@
                     </div>
                 </div>
 
-                <form id="contact-form" name="article" method="POST" netlify-honeypot="give-email"
-                    data-netlify-recaptcha="true" data-netlify="true">
-                    <p class="contact-hidden">
-                        <label>Don’t fill this out if you're human: <input name="give-email" /></label>
-                    </p>
+                <form name="blog-article-feedback" method="POST" netlify id="contact-form"
+                    data-netlify-recaptcha="true">
                     <p>
                         <div class="contact-light">Feedback about page:</div>
                         <input type="text" name="page-url" id="contact-page-url" readonly />
