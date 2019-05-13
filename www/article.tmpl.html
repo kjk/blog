@@ -103,8 +103,7 @@
                     </div>
                 </div>
 
-                <form name="blog-article-feedback" method="POST" netlify id="contact-form"
-                    data-netlify-recaptcha="true">
+                <form name="blog-article-feedback" netlify id="contact-form">
                     <p>
                         <div class="contact-light">Feedback about page:</div>
                         <input type="text" name="page-url" id="contact-page-url" readonly />
@@ -116,7 +115,7 @@
                         <input type="email" name="email" />
                     </p>
                     <p>
-                        <button type="submit" class="contact-btn g-recaptcha">
+                        <button type="submit" class="contact-btn">
                             Send Feedback
                         </button>
                         <button class="contact-btn" style="float: right;" onclick="hidecontact(); return false;">
@@ -124,7 +123,7 @@
                         </button>
                     </p>
                     <p>
-                        <div data-netlify-recaptcha="true"></div>
+                        <div data-netlify-recaptcha></div>
                     </p>
                 </form>
 
