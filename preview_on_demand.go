@@ -5,11 +5,8 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	"os"
-	"os/signal"
 	"path/filepath"
 	"strings"
-	"syscall"
 	"time"
 )
 
@@ -224,8 +221,5 @@ func startPreviewOnDemand(articles *Articles) {
 	fmt.Printf("Started listening on %s\n", httpSrv.Addr)
 	openBrowser("http://" + httpSrv.Addr)
 
-	c := make(chan os.Signal, 2)
-	signal.Notify(c, os.Interrupt /* SIGINT */, syscall.SIGTERM)
-	sig := <-c
-	fmt.Printf("Got signal %s\n", sig)
+	waitForCtrlC()
 }
