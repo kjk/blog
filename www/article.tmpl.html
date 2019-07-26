@@ -43,6 +43,22 @@
             var el = document.getElementById("contact-form");
             el.style.display = "none";
         }
+        function isWindows() {
+            return window.navigator &&
+                window.navigator.platform &&
+                window.navigator.platform.indexOf('Win') >= 0
+        }
+        function maybeShowAd() {
+            if (!isWindows()) {
+                return;
+            }
+            var el = document.getElementById("ad-software");
+            el.style.display = "block";
+        }
+        function onLoaded() {
+            maybeShowAd();
+        }
+        document.addEventListener("DOMContentLoaded", onLoaded);
     </script>
 </head>
 
@@ -155,6 +171,10 @@
 
     </div>
 
+    <div id="ad-software">
+        Need fast, offline access to over 190 programmer API docs? Try <a
+            href="https://www.documentalist.io/like-dash-for-windows.html" target="_blank">Documentalist for Windows</a>
+    </div>
     {{ template "analytics.tmpl.html" . }}
 
 </body>

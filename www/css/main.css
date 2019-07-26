@@ -8,6 +8,7 @@ body {
   /* font size as in stack overflow */
   font-size: 15px;
   line-height: 1.5;
+  padding-bottom: 2em; /* account for ad at the bottom */
 }
 
 code {
@@ -446,6 +447,26 @@ table.notion-table td {
 .soft-card-img {
   width: 320px;
   object-fit: contain;
+}
+
+#ad-software {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px 8px;
+
+  border-top: 1px solid #e6a004;
+  background-color: #fdff78;
+
+  /* alternative look */
+  /*
+  border: 3px solid yellow;
+  background-color: lightyellow;
+  */
+
+  /* initially hidden, shown via javascript */
+  display: none;
 }
 
 /*
