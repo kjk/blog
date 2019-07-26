@@ -369,16 +369,11 @@ table.notion-table td {
 }
 
 .book-cover {
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
   margin-left: 4px;
   margin-right: 4px;
   object-fit: contain;
-}
-
-.soft-under {
-  font-size: 90%;
-  align-self: center;
 }
 
 .flex-row {
@@ -391,23 +386,13 @@ table.notion-table td {
   flex-direction: column;
 }
 
-.soft-list-wrapper {
-  align-items: center;
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
-
-.books-list-wrapper {
-  align-items: center;
-  line-height: 1.8;
-  margin-bottom: 16px;
+.book-list-headline {
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: bold;
 }
 
 #books-list {
-  justify-content: center;
-}
-
-#soft-list {
   justify-content: center;
 }
 
@@ -432,83 +417,35 @@ table.notion-table td {
   border-bottom: 1px solid #666;
 }
 
-.notes-note-body {
-  display: block;
-  padding: 0px;
-  margin: 0px;
-  font-size: 12pt;
-  white-space: pre-wrap;
-}
-
-.notes-tag-list {
-  font-size: 8pt;
-  margin-top: -12px;
-  margin-bottom: 8px;
-  opacity: 0.6;
-}
-
-.notes-tag:after {
-  content: " \00b7 "; /* middot */
-}
-
-.notes-tag:last-child:after {
-  content: "";
-}
-
-.notes-tag-count {
-  color: #080;
-}
-
-.notes-tag-list a {
-  padding: 0px;
-  color: #080;
-  text-decoration: none;
-}
-
-.notes-tag-list a:hover {
-  text-decoration: underline;
-}
-
-.notes-meta {
-  font-size: 8pt;
-  display: inline-block;
-  color: white;
-  color: #080;
-}
-
-.notes-meta a {
-  padding: 0px;
-  color: #080;
-  text-decoration: none;
-}
-
-.notes-meta a:hover {
-  text-decoration: underline;
-}
-
-.notes-tags a {
-  margin-left: 8px;
-}
-
-.notes-day {
-  font-weight: bold;
-  font-size: 8pt;
-  padding: 0px;
-  padding-right: 1em;
-}
-
-.note-code {
-  background-color: #fdfdfd;
-  border: 1px solid #e5e5e5;
-  overflow-x: visible;
-  padding: 0.5em;
-  tab-size: 4;
-}
-
-.nav-prev-next {
+#soft-list {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.soft-title {
+  align-self: center;
+  font-weight: bold;
+}
+
+.soft-desc {
+  font-size: 90%;
+  max-width: 320px; /* same as soft-card-img */
+}
+
+.soft-card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-left: 16px;
+  box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.soft-card-img {
+  width: 320px;
+  object-fit: contain;
 }
 
 /*
@@ -776,14 +713,10 @@ li.L9 {
 
 .edit-link {
   color: white;
-  padding-right: 8px;
-  padding-left: 8px;
-  padding-bottom: 2px;
 }
 
 .edit-link:hover {
-  background-color: #aeaeae;
-  text-decoration: none;
+  color: #0894f1;
 }
 
 #msg-for-chris {
@@ -810,7 +743,7 @@ textarea {
   display: none;
 }
 
-.contact-hidden {
+.hidden {
   display: none;
 }
 

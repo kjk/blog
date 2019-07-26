@@ -40,45 +40,59 @@
       </div>
     </div>
 
-    <div class="soft-list-wrapper flex-col">
-      <div>
-        <b>I write software</b>
-      </div>
-      <div id="soft-list" class="flex-row">
-        <div class="flex-col">
-          <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">
-            <img alt="SumatraPDF Reader" class="book-cover" src="/static/sumatra-shot-small.png" />
-          </a>
-          <span class="soft-under">SumatraPDF</span>
-        </div>
-        <div class="flex-col">
-          <a href="/software/fast-file-finder-for-windows/">
-            <img alt="Fast File Finder" class="book-cover"
-              src="/software/fast-file-finder-for-windows/fastfilefinder-small.png" />
-          </a>
-          <span class="soft-under">Fast File Finder</span>
-        </div>
-      </div>
+    <div class="book-list-headline">
+      I write software
     </div>
 
-    <div class="books-list-wrapper flex-col">
-      <div>
-        <b>I maintain books</b>
+    <div id="soft-list">
+
+      <div class="soft-card">
+        <a href="https://www.documentalist.io/like-dash-for-windows.html">
+          <img alt="Documentalist" class="soft-card-img" src="/static/documentalist-shot-320px.png" />
+        </a>
+        <a class="soft-title" href="https://www.documentalist.io/like-dash-for-windows.html">Documentalist</a>
+        <div class="soft-desc">Fast, offline access to developer API documentation. Over 190 API docs.</div>
       </div>
-      <div id="books-list" class="flex-row">
-        <!--
+
+      <div class="soft-card">
+        <a href="/software/fast-file-finder-for-windows/">
+          <img alt="Fast File Finder" class="soft-card-img" src="/static/fast-file-finder-shot-320px.png" />
+        </a>
+        <a class="soft-title" href="/software/fast-file-finder-for-windows/">Fast File Finder</a>
+        <div class="soft-desc">
+          Quickly find files by name.
+        </div>
+      </div>
+
+      <div class="soft-card hidden">
+        <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">
+          <img alt="SumatraPDF Reader" class="soft-card-img" src="/static/sumatra-shot-320px.png" />
+        </a>
+        <a class="soft-title" href="https://www.sumatrapdfreader.org/free-pdf-reader.html">SumatraPDF</a>
+        <div class="soft-desc">Free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for
+          Windows.</div>
+      </div>
+
+    </div>
+
+    <div class="book-list-headline" style="margin-top: 2em;">
+      I maintain books
+    </div>
+
+    <div id="books-list" class="flex-row">
+      <!--
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Python.png">
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Go.png">
                 <img class="book-cover" src="https://www.programming-books.io/covers/twitter/Perl.png">
                 -->
-      </div>
+    </div>
+
+    <div class="book-list-headline" style="margin-top: 2em;">
+      Recently I wrote
     </div>
 
     <div class="articles-list-wrap flex-col">
       <div>
-        <center>
-          <b>Recently I wrote</b>
-        </center>
         {{ range.Articles }}
         <div style="margin-left: 1em;">
           <a href="{{.URL}}">{{.Title}}</a>
@@ -208,7 +222,7 @@
 
     function genBooksHTML(books) {
       var s = "";
-      for (var i = 0; i < 3; i++) {
+      for (var i = 0; i <= 3; i++) {
         var book = books[i];
         s += genBookHTML(book) + "\n";
       }
