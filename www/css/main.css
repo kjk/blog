@@ -454,11 +454,12 @@ table.notion-table td {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 8px 8px;
+  padding: 8px 2em;
 
-  border-top: 1px solid #e6a004;
+  border-top: 1px solid #e6e00c;
   background-color: #fdff78;
 
+  color: brown;
   /* alternative look */
   /*
   border: 3px solid yellow;
@@ -469,10 +470,28 @@ table.notion-table td {
   display: none;
 }
 
+#ad-software a {
+  color: brown;
+  text-decoration: underline;
+  position: relative;
+}
+
+#ad-software a:hover {
+  position: relative;
+}
+
+#ad-software a:hover:after {
+  content: url("/static/documentalist-shot-320px.png");
+  display: block;
+  position: absolute;
+  left: -74px;
+  bottom: 1.5em;
+  background-color: #fdff78;
+  padding: 1em 1em;
+}
+
 /*
-
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
-
 */
 
 .hljs {
