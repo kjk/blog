@@ -729,18 +729,22 @@ textarea {
 }
 
 #contact-form {
-  /* background-color: lightsteelblue; */
   padding: 1em 2em;
   width: 75vw;
   position: fixed;
   right: 8px;
   bottom: 2em;
-  background-color: white;
   z-index: 99;
+  background-color: #f3f3f3;
   border: 1px solid lightgray;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
 
   /* initially hidden */
   display: none;
+}
+
+#contact-form button {
+  padding: 8px 8px;
 }
 
 .hidden {
@@ -752,6 +756,7 @@ textarea {
   border: 0;
   color: grey;
   margin-left: 2px;
+  background-color: inherit;
 }
 
 form > input {
