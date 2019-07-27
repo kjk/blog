@@ -115,20 +115,16 @@ again:
 }
 
 var knownURLs = map[string]func(*Articles, io.Writer) error{
-	"/":               genIndex,
-	"/changelog.html": genChangelog,
-	"/blogindex.html": genBlogIndex,
-	"/archives.html":  genArchives,
-	"/sitemap.xml":    genSitemap,
-	"/atom.xml":       genAtom,
-	"/atom-all.xml":   genAtomAll,
+	"/":                              genIndex,
+	"/changelog.html":                genChangelog,
+	"/archives.html":                 genArchives,
+	"/sitemap.xml":                   genSitemap,
+	"/atom.xml":                      genAtom,
+	"/atom-all.xml":                  genAtomAll,
+	"/book/go-cookbook.html":         genGoCookbook,
+	"/tools/generate-unique-id.html": genToolGenerateUniqueID,
+	"/tools/generate-unique-id":      genToolGenerateUniqueID,
 }
-
-/*
-var rewrites = map[string]string{
-	"/book/go-cookbook.html": "/articles/go-cookbook.tmpl.html",
-}
-*/
 
 func tryServeKnown(w http.ResponseWriter, r *http.Request) bool {
 	uri := r.URL.Path

@@ -101,12 +101,11 @@ hr {
 
 a {
   color: #0894f1;
-  text-decoration: none;
   background: transparent;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #044978;
 }
 
 .taglink {
@@ -116,14 +115,6 @@ a:hover {
 
 a.taglink:hover {
   text-decoration: underline;
-}
-
-.onHoverVisible a {
-  color: white;
-}
-
-.onHoverVisible a:hover {
-  color: gray;
 }
 
 .article-header {
@@ -264,34 +255,8 @@ table.notion-table td {
   color: #999999;
 }
 
-.invisible {
-  color: #fcfcfa;
-}
-
-.visible {
-  color: #000;
-}
-
-.toggler {
-  cursor: pointer;
-}
-
-.toggler:hover {
-  background: rgba(58, 56, 52, 0.08);
-}
-
 .nowrap {
   white-space: nowrap;
-}
-
-.inactiveSearch {
-  color: gray;
-  font-style: italic;
-}
-
-.activeSearch {
-  color: black;
-  font-style: normal;
 }
 
 .blog-img {
@@ -299,73 +264,6 @@ table.notion-table td {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-}
-
-/* drop-down menu based on http://csswizardry.com/2011/02/creating-a-pure-css-dropdown-menu/ */
-
-#nav {
-  list-style: none;
-  font-weight: bold;
-  float: right;
-  margin-top: 0px;
-  position: relative;
-  z-index: 5;
-}
-
-#nav li {
-  float: left;
-  margin-right: 4pt;
-  position: relative;
-}
-
-#nav a {
-  display: block;
-  color: #aaa;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-
-#nav a:hover {
-  color: #666;
-  text-decoration: none;
-  border-bottom: 1px solid #666;
-}
-
-/* drop-down */
-
-#nav ul {
-  background: #4d5456;
-  list-style: none;
-  position: absolute;
-  left: -9999px;
-}
-
-#nav ul li {
-  padding-top: 1px;
-  float: none;
-}
-
-#nav ul a {
-  white-space: nowrap;
-}
-
-#nav li:hover ul {
-  padding: 8pt;
-  left: -8pt;
-}
-
-#nav li:hover a {
-  text-decoration: none;
-}
-
-#nav li:hover ul a {
-  color: white;
-  border-bottom: 3px solid transparent;
-  text-decoration: none;
-}
-
-#nav li:hover ul li a:hover {
-  border-bottom: 3px solid;
 }
 
 #container {
@@ -379,7 +277,7 @@ table.notion-table td {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #777;
+  color: #444;
   padding-right: 8px;
   padding-left: 8px;
 }
@@ -409,8 +307,10 @@ table.notion-table td {
 }
 
 .book-list-headline {
-  text-align: center;
   margin-bottom: 1em;
+  margin-top: 0.5em;
+
+  text-align: center;
   font-weight: bold;
 }
 
@@ -425,18 +325,6 @@ table.notion-table td {
 
 .headline {
   line-height: 1.4em;
-}
-
-.headline a {
-  color: #aaa;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-
-.headline a:hover {
-  color: #666;
-  text-decoration: none;
-  border-bottom: 1px solid #666;
 }
 
 #soft-list {

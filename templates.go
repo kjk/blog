@@ -12,7 +12,6 @@ import (
 
 var (
 	tmplMainPage         = "mainpage.tmpl.html"
-	tmplBlogIndex        = "blog_index.tmpl.html"
 	tmplArticle          = "article.tmpl.html"
 	tmplArchive          = "archive.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
@@ -21,7 +20,6 @@ var (
 	tmpl404              = "404.tmpl.html"
 	templateNames        = []string{
 		tmplMainPage,
-		tmplBlogIndex,
 		tmplArticle,
 		tmplArchive,
 		tmplGenerateUniqueID,
@@ -29,7 +27,6 @@ var (
 		tmplChangelog,
 		tmpl404,
 		"analytics.tmpl.html",
-		"page_navbar.tmpl.html",
 	}
 	templatePaths []string
 	templates     *template.Template
@@ -62,11 +59,6 @@ func loadTemplates() {
 	templates = template.Must(template.ParseFiles(templatePaths...))
 }
 
-func netlifyExecTemplate(fileName string, templateName string, model interface{}) error {
-	path := netlifyPath(fileName)
-	return execTemplateToFile(path, templateName, model)
-}
-
 func execTemplateToFile(path string, templateName string, model interface{}) error {
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, templateName, model)
@@ -87,7 +79,8 @@ func execTemplate(path string, tmplName string, d interface{}, w io.Writer) erro
 	}
 
 	// this code path is for generating static files
-	err := netlifyExecTemplate(path, tmplName, d)
+	netPath := netlifyPath(path)
+	err := execTemplateToFile(netPath, tmplName, d)
 	panicIfErr(err)
 	return nil
 }

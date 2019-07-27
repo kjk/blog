@@ -299,25 +299,6 @@ func genChangelog(store *Articles, w io.Writer) error {
 	return execTemplate("/changelog.html", tmplChangelog, model, w)
 }
 
-func genBlogIndex(store *Articles, w io.Writer) error {
-	// TODO: maybe just use /archive.html
-	// /blogindex.html
-	articles := store.getBlogNotHidden()
-	articleCount := len(articles)
-	model := struct {
-		AnalyticsCode string
-		Article       *Article
-		Articles      []*Article
-		ArticleCount  int
-	}{
-		AnalyticsCode: analyticsCode,
-		Article:       nil, // always nil
-		ArticleCount:  articleCount,
-		Articles:      articles,
-	}
-	return execTemplate("/blogindex.html", tmplBlogIndex, model, w)
-}
-
 func genPerTagArchives(store *Articles) {
 	// tag/<tagname>
 	tags := map[string]struct{}{}
@@ -403,6 +384,66 @@ func genArticle(article *Article, w io.Writer) error {
 	return execTemplate(path, tmplArticle, model, w)
 }
 
+func genGoCookbook(store *Articles, w io.Writer) error {
+	// url: /book/go-cookbook.html
+	model := struct {
+	}{}
+	return execTemplate("/book/go-cookbook.html", tmplGoCookBook, model, w)
+}
+
+/*
+func genWindowsProgramming(store *Articles, w io.Writer) error {
+	// url: /book/windows-programming-in-go.html
+	model := struct {
+	}{}
+	return execTemplate("/book/go-cookbook.html", tmplGoCookBook, model, w)
+}
+*/
+
+func genToolGenerateUniqueID(store *Articles, w io.Writer) error {
+	// /tools/generate-unique-id
+	idXid := xid.New()
+	idKsuid := ksuid.New()
+
+	t := time.Now().UTC()
+	entropy := rand.New(rand.NewSource(t.UnixNano()))
+	idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
+	betterGUID := betterguid.New()
+	uuid := uuid.NewV4()
+
+	flake := sonyflake.NewSonyflake(sonyflake.Settings{})
+	sfid, err := flake.NextID()
+	sfidstr := fmt.Sprintf("%x", sfid)
+	if err != nil {
+		sfidstr = err.Error()
+	}
+
+	model := struct {
+		Xid           string
+		Ksuid         string
+		Ulid          string
+		BetterGUID    string
+		Sonyflake     string
+		Sid           string
+		UUIDv4        string
+		AnalyticsCode string
+	}{
+		Xid:           idXid.String(),
+		Ksuid:         idKsuid.String(),
+		Ulid:          idUlid.String(),
+		BetterGUID:    betterGUID,
+		Sonyflake:     sfidstr,
+		Sid:           sid.Id(),
+		UUIDv4:        uuid.String(),
+		AnalyticsCode: analyticsCode,
+	}
+
+	// make sure /tools/generate-unique-id is served as html
+	path := "/tools/generate-unique-id.html"
+	netlifyAddRewrite("/tools/generate-unique-id", path)
+	return execTemplate(path, tmplGenerateUniqueID, model, w)
+}
+
 func netlifyBuild(store *Articles) {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -418,26 +459,14 @@ func netlifyBuild(store *Articles) {
 
 	addAllRedirects(store)
 
-	{
-		// url: /book/go-cookbook.html
-		model := struct {
-		}{}
-		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
-	}
-
-	{
-		// url: /book/windows-programming-in-go.html
-		model := struct {
-		}{}
-		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
-	}
+	copyImages()
 
 	genIndex(store, nil)
 
-	genBlogIndex(store, nil)
+	genGoCookbook(store, nil)
+	// genWindowsProgramming(store, nil)
 
 	genChangelog(store, nil)
-	copyImages()
 
 	genAtom(store, nil)
 	genAtomAll(store, nil)
@@ -455,49 +484,7 @@ func netlifyBuild(store *Articles) {
 
 	genSitemap(store, nil)
 
-	{
-		// /tools/generate-unique-id
-		idXid := xid.New()
-		idKsuid := ksuid.New()
-
-		t := time.Now().UTC()
-		entropy := rand.New(rand.NewSource(t.UnixNano()))
-		idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
-		betterGUID := betterguid.New()
-		uuid := uuid.NewV4()
-
-		flake := sonyflake.NewSonyflake(sonyflake.Settings{})
-		sfid, err := flake.NextID()
-		sfidstr := fmt.Sprintf("%x", sfid)
-		if err != nil {
-			sfidstr = err.Error()
-		}
-
-		model := struct {
-			Xid           string
-			Ksuid         string
-			Ulid          string
-			BetterGUID    string
-			Sonyflake     string
-			Sid           string
-			UUIDv4        string
-			AnalyticsCode string
-		}{
-			Xid:           idXid.String(),
-			Ksuid:         idKsuid.String(),
-			Ulid:          idUlid.String(),
-			BetterGUID:    betterGUID,
-			Sonyflake:     sfidstr,
-			Sid:           sid.Id(),
-			UUIDv4:        uuid.String(),
-			AnalyticsCode: analyticsCode,
-		}
-
-		// make sure /tools/generate-unique-id is served as html
-		path := "/tools/generate-unique-id.html"
-		netlifyExecTemplate(path, tmplGenerateUniqueID, model)
-		netlifyAddRewrite("/tools/generate-unique-id", path)
-	}
+	genToolGenerateUniqueID(store, nil)
 
 	// /ping
 	netlifyWriteFile("/ping", []byte("pong"))
