@@ -500,7 +500,7 @@ func buildArticlesNavigation(articles *Articles) {
 func loadArticles(c *notionapi.Client) *Articles {
 	res := &Articles{}
 	startIDs := []string{notionWebsiteStartPage}
-	res.idToPage = loadAllPages(c, startIDs, useCacheForNotion)
+	res.idToPage = loadAllPages(c, startIDs)
 
 	res.idToArticle = map[string]*Article{}
 	for id, page := range res.idToPage {

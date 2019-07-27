@@ -36,7 +36,6 @@ func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
 	loadTemplates()
 	createNotionDirs()
 	createDestDir()
-	useCacheForNotion = false
 
 	id = normalizeID(id)
 	article := loadPageAsArticle(c, id)
