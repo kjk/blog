@@ -47,21 +47,22 @@ type BlockInfo struct {
 type Article struct {
 	page *notionapi.Page
 
-	ID             string
-	PublishedOn    time.Time
-	UpdatedOn      time.Time
-	Title          string
-	Tags           []string
-	BodyHTML       string
-	HTMLBody       template.HTML
-	HeaderImageURL string
-	Collection     string
-	CollectionURL  string
-	Status         int
-	Description    string
-	Paths          []URLPath
-	Metadata       []*MetaValue
-	urlOverride    string
+	ID                   string
+	PublishedOn          time.Time
+	UpdatedOn            time.Time
+	Title                string
+	Tags                 []string
+	BodyHTML             string
+	HTMLBody             template.HTML
+	HeaderImageURL       string
+	Collection           string
+	CollectionURL        string
+	Status               int
+	Description          string
+	Paths                []URLPath
+	Metadata             []*MetaValue
+	urlOverride          string
+	publishedOnOverwrite time.Time
 
 	// if true, this belongs to blog i.e. will be present in atom.xml
 	// and listed in blog section
@@ -257,6 +258,109 @@ func (a *Article) setHeaderImageMust(val string) {
 	a.HeaderImageURL = uri
 }
 
+func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
+	var err error
+
+	if block.Type != notionapi.BlockText {
+		logTemp("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
+		return false
+	}
+
+	if len(block.InlineContent) == 0 {
+		logTemp("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
+		return false
+	} else {
+		logTemp("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
+	}
+
+	inline := block.InlineContent[0]
+	// must be plain text
+	if !inline.IsPlain() {
+		logTemp("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
+		return false
+	}
+
+	// remove empty lines at the top
+	s := strings.TrimSpace(inline.Text)
+	if s == "" {
+		logTemp("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
+		return true
+	}
+	logTemp("  %d %s '%s'\n", nBlock, block.Type, s)
+
+	// parse generic metadata like "@foo: bar" or "@foo bar"
+	if s[0] == '@' {
+		s := s[1:]
+		idx := strings.Index(s, ":")
+		if idx == -1 {
+			idx = strings.Index(s, " ")
+		}
+		key := s
+		value := ""
+		if idx != -1 {
+			key = s[:idx]
+			value = s[idx+1:]
+		}
+		meta := &MetaValue{
+			key:   key,
+			value: value,
+		}
+		a.Metadata = append(a.Metadata, meta)
+		return true
+	}
+
+	parts := strings.SplitN(s, ":", 2)
+	if len(parts) != 2 {
+		logTemp("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
+		return false
+	}
+	key := strings.ToLower(strings.TrimSpace(parts[0]))
+	val := strings.TrimSpace(parts[1])
+	switch key {
+	case "tags":
+		a.Tags = parseTags(val)
+		logTemp("Tags: %v\n", a.Tags)
+	case "id":
+		a.SetID(val)
+		logTemp("ID: %s\n", a.ID)
+	case "publishedon":
+		// PublishedOn over-writes Date and CreatedAt
+		a.publishedOnOverwrite, err = parseDate(val)
+		panicIfErr(err)
+		a.inBlog = true
+		logTemp("got publishedon")
+	case "date", "createdat":
+		a.PublishedOn, err = parseDate(val)
+		panicIfErr(err)
+		a.inBlog = true
+		logTemp("got date or createdat")
+	case "updatedat":
+		a.UpdatedOn, err = parseDate(val)
+		panicIfErr(err)
+	case "status":
+		a.setStatusMust(val)
+	case "description":
+		a.Description = val
+		logTemp("Description: %s\n", a.Description)
+	case "headerimage":
+		a.setHeaderImageMust(val)
+	case "collection":
+		a.setCollectionMust(val)
+	case "url":
+		a.urlOverride = val
+	default:
+		// assume that unrecognized meta means this article doesn't have
+		// proper meta tags. It might miss meta-tags that are badly named
+		return false
+		/*
+			rmCached(page.ID)
+			title := page.Page.Title
+			panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(page.ID), title)
+		*/
+	}
+	return true
+}
+
 func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	blocks := page.Root.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
@@ -280,129 +384,23 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		logTemp("Temp logging article %s %s\n", id, title)
 	}
 
-	nBlock := 0
-	var err error
-	endLoop := false
-
 	a.PublishedOn = root.CreatedOn()
 	a.UpdatedOn = root.UpdatedOn()
-	var publishedOnOverwrite time.Time
 
-	for len(blocks) > 0 {
-		block := blocks[0]
+	parsingMeta := true
+	for nBlock, block := range blocks {
 		logTemp("  %d %s '%s'\n", nBlock, block.Type, block.Title)
 
-		if block.Type != notionapi.BlockText {
-			logTemp("extractMetadata: ending look because block %d is of type %s\n", nBlock, block.Type)
-			break
-		}
-
-		if len(block.InlineContent) == 0 {
-			logTemp("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
-			blocks = blocks[1:]
-			break
-		} else {
-			logTemp("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
-		}
-
-		inline := block.InlineContent[0]
-		// must be plain text
-		if !inline.IsPlain() {
-			logTemp("block: %d of type %s: inline has attributes\n", nBlock, block.Type)
-			break
-		}
-
-		// remove empty lines at the top
-		s := strings.TrimSpace(inline.Text)
-		if s == "" {
-			logTemp("block: %d of type %s: inline.Text is empty\n", nBlock, block.Type)
-			blocks = blocks[2:]
-			break
-		}
-		logTemp("  %d %s '%s'\n", nBlock, block.Type, s)
-
-		// parse generic metadata like "@foo: bar" or "@foo bar"
-		if s[0] == '@' {
-			s := s[1:]
-			idx := strings.Index(s, ":")
-			if idx == -1 {
-				idx = strings.Index(s, " ")
+		if parsingMeta {
+			parsingMeta = a.maybeParseMeta(nBlock, block)
+			if parsingMeta {
+				a.markBlockToSkip(block)
 			}
-			key := s
-			value := ""
-			if idx != -1 {
-				key = s[:idx]
-				value = s[idx+1:]
-			}
-			meta := &MetaValue{
-				key:   key,
-				value: value,
-			}
-			a.Metadata = append(a.Metadata, meta)
-			blocks = blocks[1:]
-			nBlock++
-			continue
 		}
-
-		parts := strings.SplitN(s, ":", 2)
-		if len(parts) != 2 {
-			logTemp("block: %d of type %s: inline.Text is not key/value. s='%s'\n", nBlock, block.Type, s)
-			break
-		}
-		key := strings.ToLower(strings.TrimSpace(parts[0]))
-		val := strings.TrimSpace(parts[1])
-		switch key {
-		case "tags":
-			a.Tags = parseTags(val)
-			logTemp("Tags: %v\n", a.Tags)
-		case "id":
-			a.SetID(val)
-			logTemp("ID: %s\n", a.ID)
-		case "publishedon":
-			// PublishedOn over-writes Date and CreatedAt
-			publishedOnOverwrite, err = parseDate(val)
-			panicIfErr(err)
-			a.inBlog = true
-			logTemp("got publishedon")
-		case "date", "createdat":
-			a.PublishedOn, err = parseDate(val)
-			panicIfErr(err)
-			a.inBlog = true
-			logTemp("got date or createdat")
-		case "updatedat":
-			a.UpdatedOn, err = parseDate(val)
-			panicIfErr(err)
-		case "status":
-			a.setStatusMust(val)
-		case "description":
-			a.Description = val
-			logTemp("Description: %s\n", a.Description)
-		case "headerimage":
-			a.setHeaderImageMust(val)
-		case "collection":
-			a.setCollectionMust(val)
-		case "url":
-			a.urlOverride = val
-		default:
-			// assume that unrecognized meta means this article doesn't have
-			// proper meta tags. It might miss meta-tags that are badly named
-			endLoop = true
-			/*
-				rmCached(page.ID)
-				title := page.Page.Title
-				panicMsg("Unsupported meta '%s' in notion page with id '%s', '%s'", key, normalizeID(page.ID), title)
-			*/
-		}
-		if endLoop {
-			break
-		}
-		blocks = blocks[1:]
-		nBlock++
 	}
-	root.Content = blocks
 
-	if !publishedOnOverwrite.IsZero() {
-		a.PublishedOn = publishedOnOverwrite
+	if !a.publishedOnOverwrite.IsZero() {
+		a.PublishedOn = a.publishedOnOverwrite
 	}
 
 	if a.ID == "" {
