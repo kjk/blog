@@ -26,6 +26,31 @@ type HTMLRenderer struct {
 	r *tohtml.HTMLRenderer
 }
 
+func isEmptyTextBlock(b *notionapi.Block) bool {
+	if b.Type != notionapi.BlockText {
+		return false
+	}
+	if len(b.InlineContent) > 0 {
+		return false
+	}
+	return true
+}
+
+func removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
+	n := len(root.Content)
+	blocks := root.Content
+	for i := 0; i < n; i++ {
+		idx := n - 1 - i
+		b := blocks[idx]
+		if !isEmptyTextBlock(b) {
+			if i > 0 {
+				root.Content = blocks[:idx+1]
+				return
+			}
+		}
+	}
+}
+
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // =>
 // /article/${id}
@@ -147,6 +172,8 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 
 // Gen returns generated HTML
 func (r *HTMLRenderer) Gen() []byte {
+	removeEmptyTextBlocksAtEnd(r.page.Root)
+
 	inner := string(r.r.ToHTML())
 	page := r.page.Root
 	f := page.FormatPage
