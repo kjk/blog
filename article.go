@@ -424,7 +424,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	}
 
 	// allow debugging for specific pages
-	if true && id == "39a15945117440d99a9ef0f7de1b618a" {
+	if false && id == "39a15945117440d99a9ef0f7de1b618a" {
 		doTempLog = true
 		defer func() {
 			doTempLog = false
