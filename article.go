@@ -282,16 +282,8 @@ func getInlineBlocksText(blocks []*notionapi.InlineBlock) string {
 // parse:
 // #url ${url}
 // followed by an image block
-func (a *Article) maybeParseImageURL(nBlock int, block *notionapi.Block) bool {
+func (a *Article) maybeParseImageURL(block *notionapi.Block, nBlock int, blocks []*notionapi.Block) bool {
 	if block.Type != notionapi.BlockText {
-		return false
-	}
-	blocks := a.page.Root.Content
-	if nBlock == len(blocks)-1 {
-		return false
-	}
-	nextBlock := blocks[nBlock+1]
-	if nextBlock.Type != notionapi.BlockImage {
 		return false
 	}
 	s := getInlineBlocksText(block.InlineContent)
@@ -301,6 +293,14 @@ func (a *Article) maybeParseImageURL(nBlock int, block *notionapi.Block) bool {
 		return false
 	}
 	uri = strings.TrimSpace(uri)
+	nNextBlock := nBlock + 1
+	if nNextBlock > len(blocks)-1 {
+		return false
+	}
+	nextBlock := blocks[nNextBlock]
+	if nextBlock.Type != notionapi.BlockImage {
+		return false
+	}
 	a.markBlockToSkip(block)
 	a.setImageBlockURL(nextBlock, uri)
 	return false
@@ -409,8 +409,27 @@ func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
 	return true
 }
 
+func (a *Article) parseMetaBlocks(blocks []*notionapi.Block) {
+	parsingMeta := true
+	for nBlock, block := range blocks {
+		logTemp("  %d %s '%s'\n", nBlock, block.Type, block.Title)
+
+		if parsingMeta {
+			parsingMeta = a.maybeParseMeta(nBlock, block)
+			if parsingMeta {
+				a.markBlockToSkip(block)
+			}
+		}
+		if !parsingMeta {
+			a.maybeParseImageURL(block, nBlock, blocks)
+		}
+		if len(block.Content) > 0 {
+			a.parseMetaBlocks(block.Content)
+		}
+	}
+}
+
 func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
-	blocks := page.Root.Content
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
@@ -424,7 +443,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	}
 
 	// allow debugging for specific pages
-	if false && id == "39a15945117440d99a9ef0f7de1b618a" {
+	if false && id == "623523b67e1548a0b525749d6921465c" {
 		doTempLog = true
 		defer func() {
 			doTempLog = false
@@ -435,20 +454,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	a.PublishedOn = root.CreatedOn()
 	a.UpdatedOn = root.UpdatedOn()
 
-	parsingMeta := true
-	for nBlock, block := range blocks {
-		logTemp("  %d %s '%s'\n", nBlock, block.Type, block.Title)
-
-		if parsingMeta {
-			parsingMeta = a.maybeParseMeta(nBlock, block)
-			if parsingMeta {
-				a.markBlockToSkip(block)
-			}
-		}
-		if !parsingMeta {
-			a.maybeParseImageURL(nBlock, block)
-		}
-	}
+	a.parseMetaBlocks(page.Root.Content)
 
 	if !a.publishedOnOverwrite.IsZero() {
 		a.PublishedOn = a.publishedOnOverwrite
