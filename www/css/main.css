@@ -336,12 +336,9 @@ table.notion-table td {
 
 .soft-title {
   align-self: center;
-  font-weight: bold;
-}
+  margin-top: 8px;
 
-.soft-desc {
-  font-size: 90%;
-  max-width: 320px; /* same as soft-card-img */
+  font-weight: bold;
 }
 
 .soft-card {
@@ -353,9 +350,16 @@ table.notion-table td {
     0 3px 6px 0 rgba(0, 0, 0, 0.07);
 }
 
+.soft-desc {
+  font-size: 90%;
+  max-width: 240px; /* same as soft-card-img */
+  margin-top: 8px;
+}
+
 .soft-card-img {
-  width: 320px;
-  object-fit: contain;
+  width: 240px;
+  height: 240px;
+  /* object-fit: contain; */
 }
 
 #ad-software {
