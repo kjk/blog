@@ -53,6 +53,55 @@ func (a *Articles) getBlogNotHidden() []*Article {
 	return a.blogNotHidden
 }
 
+func buildArticleNavigation(article *Article, isRootPage func(string) bool, idToBlock map[string]*notionapi.Block) {
+	// some already have path (e.g. those that belong to a collection)
+	if len(article.Paths) > 0 {
+		return
+	}
+
+	page := article.page.Root
+	currID := normalizeID(page.ParentID)
+
+	var paths []URLPath
+	for !isRootPage(currID) {
+		block := idToBlock[currID]
+		if block == nil {
+			break
+		}
+		// parent could be a column
+		if block.Type != notionapi.BlockPage {
+			currID = normalizeID(block.ParentID)
+			continue
+		}
+		title := block.Title
+		uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
+		path := URLPath{
+			Name: title,
+			URL:  uri,
+		}
+		paths = append(paths, path)
+		currID = normalizeID(block.ParentID)
+	}
+
+	// set in reverse order
+	n := len(paths)
+	for i := 1; i <= n; i++ {
+		path := paths[n-i]
+		article.Paths = append(article.Paths, path)
+	}
+}
+
+func addIDToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block) {
+	id := normalizeID(block.ID)
+	idToBlock[id] = block
+	for _, block := range block.Content {
+		if block == nil {
+			continue
+		}
+		addIDToBlock(block, idToBlock)
+	}
+}
+
 // build navigation bread-crumbs for articles
 func buildArticlesNavigation(articles *Articles) {
 	idToBlock := map[string]*notionapi.Block{}
@@ -101,7 +150,7 @@ func loadArticles(c *notionapi.Client) *Articles {
 	}
 
 	for _, article := range res.articles {
-		html, images := notionToHTML(c, article.page, res)
+		html, images := notionToHTML(c, article, res)
 		article.BodyHTML = string(html)
 		article.HTMLBody = template.HTML(article.BodyHTML)
 		article.Images = append(article.Images, images...)

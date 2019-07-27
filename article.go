@@ -32,8 +32,21 @@ type MetaValue struct {
 	value string
 }
 
+// ImageMapping keeps track of rewritten image urls (locally cached
+// images in notion)
+type ImageMapping struct {
+	path        string
+	relativeURL string
+}
+
+type BlockInfo struct {
+	shouldSkip bool
+}
+
 // Article describes a single article
 type Article struct {
+	page *notionapi.Page
+
 	ID             string
 	PublishedOn    time.Time
 	UpdatedOn      time.Time
@@ -50,14 +63,14 @@ type Article struct {
 	Metadata       []*MetaValue
 	urlOverride    string
 
-	UpdatedAgeStr string
-	Images        []ImageMapping
-
 	// if true, this belongs to blog i.e. will be present in atom.xml
 	// and listed in blog section
 	inBlog bool
 
-	page *notionapi.Page
+	UpdatedAgeStr string
+	Images        []ImageMapping
+
+	blockInfos map[*notionapi.Block]*BlockInfo
 }
 
 // URL returns article's permalink
@@ -110,6 +123,40 @@ func (a *Article) IsHidden() bool {
 	return a.Status == statusHidden || a.Status == statusDeleted || a.Status == statusNotImportant
 }
 
+func (a *Article) getBlockInfo(block *notionapi.Block) *BlockInfo {
+	bi := a.blockInfos[block]
+	if bi == nil {
+		bi = &BlockInfo{}
+		a.blockInfos[block] = bi
+	}
+	return bi
+}
+
+func (a *Article) markBlockToSkip(block *notionapi.Block) {
+	a.getBlockInfo(block).shouldSkip = true
+}
+
+func (a *Article) shouldSkipBlock(block *notionapi.Block) bool {
+	bi := a.blockInfos[block]
+	if bi == nil {
+		return false
+	}
+	return bi.shouldSkip
+}
+
+func (a *Article) removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
+	n := len(root.Content)
+	blocks := root.Content
+	for i := 0; i < n; i++ {
+		idx := n - 1 - i
+		block := blocks[idx]
+		if !isEmptyTextBlock(block) {
+			return
+		}
+		a.markBlockToSkip(block)
+	}
+}
+
 func parseTags(s string) []string {
 	tags := strings.Split(s, ",")
 	var res []string
@@ -155,13 +202,35 @@ func parseStatus(status string) (int, error) {
 	}
 }
 
-func setStatusMust(article *Article, val string) {
+func isEmptyTextBlock(b *notionapi.Block) bool {
+	if b.Type != notionapi.BlockText {
+		return false
+	}
+	if len(b.InlineContent) > 0 {
+		return false
+	}
+	return true
+}
+
+func (a *Article) SetID(v string) {
+	// we handle 3 types of ids:
+	// - blog posts from articles/ directory have integer id
+	// - blog posts imported from quicknotes have id that are strings
+	// - articles written in notion, have notion string id
+	a.ID = strings.TrimSpace(v)
+	id, err := strconv.Atoi(a.ID)
+	if err == nil {
+		a.ID = u.EncodeBase64(id)
+	}
+}
+
+func (a *Article) setStatusMust(val string) {
 	var err error
-	article.Status, err = parseStatus(val)
+	a.Status, err = parseStatus(val)
 	panicIfErr(err)
 }
 
-func setCollectionMust(article *Article, val string) {
+func (a *Article) setCollectionMust(val string) {
 	collectionURL := ""
 	switch val {
 	case "go-cookbook":
@@ -172,12 +241,12 @@ func setCollectionMust(article *Article, val string) {
 		return
 	}
 	panicIf(collectionURL == "", "'%s' is not a known collection", val)
-	article.Collection = val
-	article.CollectionURL = collectionURL
+	a.Collection = val
+	a.CollectionURL = collectionURL
 
 }
 
-func setHeaderImageMust(article *Article, val string) {
+func (a *Article) setHeaderImageMust(val string) {
 	if val[0] != '/' {
 		val = "/" + val
 	}
@@ -185,7 +254,7 @@ func setHeaderImageMust(article *Article, val string) {
 	panicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
 	uri := netlifyRequestGetFullHost() + val
 	// fmt.Printf("Found HeaderImageURL: %s\n", uri)
-	article.HeaderImageURL = uri
+	a.HeaderImageURL = uri
 }
 
 func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
@@ -196,9 +265,10 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	root := page.Root
 	title := root.Title
 	id := normalizeID(root.ID)
-	article := &Article{
-		page:  page,
-		Title: title,
+	a := &Article{
+		page:       page,
+		Title:      title,
+		blockInfos: map[*notionapi.Block]*BlockInfo{},
 	}
 
 	// allow debugging for specific pages
@@ -214,8 +284,8 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	var err error
 	endLoop := false
 
-	article.PublishedOn = root.CreatedOn()
-	article.UpdatedOn = root.UpdatedOn()
+	a.PublishedOn = root.CreatedOn()
+	a.UpdatedOn = root.UpdatedOn()
 	var publishedOnOverwrite time.Time
 
 	for len(blocks) > 0 {
@@ -268,7 +338,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 				key:   key,
 				value: value,
 			}
-			article.Metadata = append(article.Metadata, meta)
+			a.Metadata = append(a.Metadata, meta)
 			blocks = blocks[1:]
 			nBlock++
 			continue
@@ -283,36 +353,36 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		val := strings.TrimSpace(parts[1])
 		switch key {
 		case "tags":
-			article.Tags = parseTags(val)
-			logTemp("Tags: %v\n", article.Tags)
+			a.Tags = parseTags(val)
+			logTemp("Tags: %v\n", a.Tags)
 		case "id":
-			articleSetID(article, val)
-			logTemp("ID: %s\n", article.ID)
+			a.SetID(val)
+			logTemp("ID: %s\n", a.ID)
 		case "publishedon":
 			// PublishedOn over-writes Date and CreatedAt
 			publishedOnOverwrite, err = parseDate(val)
 			panicIfErr(err)
-			article.inBlog = true
+			a.inBlog = true
 			logTemp("got publishedon")
 		case "date", "createdat":
-			article.PublishedOn, err = parseDate(val)
+			a.PublishedOn, err = parseDate(val)
 			panicIfErr(err)
-			article.inBlog = true
+			a.inBlog = true
 			logTemp("got date or createdat")
 		case "updatedat":
-			article.UpdatedOn, err = parseDate(val)
+			a.UpdatedOn, err = parseDate(val)
 			panicIfErr(err)
 		case "status":
-			setStatusMust(article, val)
+			a.setStatusMust(val)
 		case "description":
-			article.Description = val
-			logTemp("Description: %s\n", article.Description)
+			a.Description = val
+			logTemp("Description: %s\n", a.Description)
 		case "headerimage":
-			setHeaderImageMust(article, val)
+			a.setHeaderImageMust(val)
 		case "collection":
-			setCollectionMust(article, val)
+			a.setCollectionMust(val)
 		case "url":
-			article.urlOverride = val
+			a.urlOverride = val
 		default:
 			// assume that unrecognized meta means this article doesn't have
 			// proper meta tags. It might miss meta-tags that are badly named
@@ -332,24 +402,24 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	root.Content = blocks
 
 	if !publishedOnOverwrite.IsZero() {
-		article.PublishedOn = publishedOnOverwrite
+		a.PublishedOn = publishedOnOverwrite
 	}
 
-	if article.ID == "" {
-		article.ID = id
+	if a.ID == "" {
+		a.ID = id
 	}
 
-	if article.Collection != "" {
+	if a.Collection != "" {
 		path := URLPath{
-			Name: article.Collection,
-			URL:  article.CollectionURL,
+			Name: a.Collection,
+			URL:  a.CollectionURL,
 		}
-		article.Paths = append(article.Paths, path)
+		a.Paths = append(a.Paths, path)
 	}
 
 	format := root.FormatPage
 	// set image header from cover page
-	if article.HeaderImageURL == "" && format != nil && format.PageCover != "" {
+	if a.HeaderImageURL == "" && format != nil && format.PageCover != "" {
 		path, err := downloadAndCacheImage(c, format.PageCover)
 		panicIfErr(err)
 		relURL := "/img/" + filepath.Base(path)
@@ -357,70 +427,11 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 			path:        path,
 			relativeURL: relURL,
 		}
-		article.Images = append(article.Images, im)
+		a.Images = append(a.Images, im)
 		uri := netlifyRequestGetFullHost() + relURL
-		article.HeaderImageURL = uri
-	}
-	return article
-}
-
-func articleSetID(a *Article, v string) {
-	// we handle 3 types of ids:
-	// - blog posts from articles/ directory have integer id
-	// - blog posts imported from quicknotes have id that are strings
-	// - articles written in notion, have notion string id
-	a.ID = strings.TrimSpace(v)
-	id, err := strconv.Atoi(a.ID)
-	if err == nil {
-		a.ID = u.EncodeBase64(id)
-	}
-}
-
-func addIDToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block) {
-	id := normalizeID(block.ID)
-	idToBlock[id] = block
-	for _, block := range block.Content {
-		if block == nil {
-			continue
-		}
-		addIDToBlock(block, idToBlock)
-	}
-}
-
-func buildArticleNavigation(article *Article, isRootPage func(string) bool, idToBlock map[string]*notionapi.Block) {
-	// some already have path (e.g. those that belong to a collection)
-	if len(article.Paths) > 0 {
-		return
+		a.HeaderImageURL = uri
 	}
 
-	page := article.page.Root
-	currID := normalizeID(page.ParentID)
-
-	var paths []URLPath
-	for !isRootPage(currID) {
-		block := idToBlock[currID]
-		if block == nil {
-			break
-		}
-		// parent could be a column
-		if block.Type != notionapi.BlockPage {
-			currID = normalizeID(block.ParentID)
-			continue
-		}
-		title := block.Title
-		uri := "/article/" + normalizeID(block.ID) + "/" + urlify(title)
-		path := URLPath{
-			Name: title,
-			URL:  uri,
-		}
-		paths = append(paths, path)
-		currID = normalizeID(block.ParentID)
-	}
-
-	// set in reverse order
-	n := len(paths)
-	for i := 1; i <= n; i++ {
-		path := paths[n-i]
-		article.Paths = append(article.Paths, path)
-	}
+	a.removeEmptyTextBlocksAtEnd(page.Root)
+	return a
 }

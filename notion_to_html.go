@@ -9,50 +9,15 @@ import (
 	"github.com/kjk/notionapi/tohtml"
 )
 
-// ImageMapping keeps track of rewritten image urls (locally cached
-// images in notion)
-type ImageMapping struct {
-	path        string
-	relativeURL string
-}
-
-type BlockInfo struct {
-	shouldSkip bool
-}
-
 // HTMLRenderer renders article as html
 type HTMLRenderer struct {
+	article      *Article
 	page         *notionapi.Page
 	notionClient *notionapi.Client
 	idToArticle  func(string) *Article
 	images       []ImageMapping
 
-	blockInfos map[*notionapi.Block]*BlockInfo
-
 	r *tohtml.HTMLRenderer
-}
-
-func isEmptyTextBlock(b *notionapi.Block) bool {
-	if b.Type != notionapi.BlockText {
-		return false
-	}
-	if len(b.InlineContent) > 0 {
-		return false
-	}
-	return true
-}
-
-func (r *HTMLRenderer) removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
-	n := len(root.Content)
-	blocks := root.Content
-	for i := 0; i < n; i++ {
-		idx := n - 1 - i
-		block := blocks[idx]
-		if !isEmptyTextBlock(block) {
-			return
-		}
-		r.markBlockToSkip(block)
-	}
 }
 
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
@@ -147,7 +112,7 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
 
 // if returns false, the block will be rendered with default
 func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool) bool {
-	if r.shouldSkipBlock(block) {
+	if r.article.shouldSkipBlock(block) {
 		return true
 	}
 	switch block.Type {
@@ -162,44 +127,21 @@ func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool
 }
 
 // NewHTMLRenderer returns new HTMLGenerator
-func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
+func NewHTMLRenderer(c *notionapi.Client, article *Article) *HTMLRenderer {
 	res := &HTMLRenderer{
 		notionClient: c,
-		page:         page,
-		blockInfos:   map[*notionapi.Block]*BlockInfo{},
+		article:      article,
+		page:         article.page,
 	}
 
-	r := tohtml.NewHTMLRenderer(page)
+	r := tohtml.NewHTMLRenderer(article.page)
 	notionapi.PanicOnFailures = true
 	r.AddIDAttribute = true
 	r.RenderBlockOverride = res.blockRenderOverride
 	r.RewriteURL = res.rewriteURL
 	res.r = r
 
-	res.removeEmptyTextBlocksAtEnd(page.Root)
-
 	return res
-}
-
-func (r *HTMLRenderer) getBlockInfo(block *notionapi.Block) *BlockInfo {
-	bi := r.blockInfos[block]
-	if bi == nil {
-		bi = &BlockInfo{}
-		r.blockInfos[block] = bi
-	}
-	return bi
-}
-
-func (r *HTMLRenderer) markBlockToSkip(block *notionapi.Block) {
-	r.getBlockInfo(block).shouldSkip = true
-}
-
-func (r *HTMLRenderer) shouldSkipBlock(block *notionapi.Block) bool {
-	bi := r.blockInfos[block]
-	if bi == nil {
-		return false
-	}
-	return bi.shouldSkip
 }
 
 // Gen returns generated HTML
@@ -220,8 +162,8 @@ func (r *HTMLRenderer) Gen() []byte {
 	return []byte(s)
 }
 
-func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles) ([]byte, []ImageMapping) {
-	r := NewHTMLRenderer(c, page)
+func notionToHTML(c *notionapi.Client, article *Article, articles *Articles) ([]byte, []ImageMapping) {
+	r := NewHTMLRenderer(c, article)
 	if articles != nil {
 		r.idToArticle = func(id string) *Article {
 			return articles.idToArticle[id]
