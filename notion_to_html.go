@@ -51,6 +51,10 @@ func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, s
 
 // RenderImage renders BlockImage
 func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
+	if !entering {
+		return true
+	}
+
 	link := block.Source
 	path, err := downloadAndCacheImage(r.notionClient, link)
 	if err != nil {
@@ -64,8 +68,22 @@ func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
 		relativeURL: relURL,
 	}
 	r.images = append(r.images, im)
-	attrs := []string{"class", "blog-img", "src", relURL}
-	r.r.WriteElement(block, "img", attrs, "", entering)
+
+	imgURL := r.article.getImageBlockURL(block)
+	if imgURL != "" {
+		attrs := []string{"href", imgURL, "target", "_blank"}
+		r.r.WriteElement(block, "a", attrs, "", true)
+		{
+			attrs2 := []string{"class", "blog-img", "src", relURL}
+			r.r.WriteElement(block, "img", attrs2, "", true)
+			r.r.WriteElement(block, "img", attrs2, "", false)
+		}
+		r.r.WriteElement(block, "a", attrs, "", false)
+	} else {
+		attrs := []string{"class", "blog-img", "src", relURL}
+		r.r.WriteElement(block, "img", attrs, "", false)
+		r.r.WriteElement(block, "img", attrs, "", true)
+	}
 	return true
 }
 

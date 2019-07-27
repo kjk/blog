@@ -41,6 +41,7 @@ type ImageMapping struct {
 
 type BlockInfo struct {
 	shouldSkip bool
+	imageURL   string
 }
 
 // Article describes a single article
@@ -143,6 +144,18 @@ func (a *Article) shouldSkipBlock(block *notionapi.Block) bool {
 		return false
 	}
 	return bi.shouldSkip
+}
+
+func (a *Article) setImageBlockURL(block *notionapi.Block, uri string) {
+	a.getBlockInfo(block).imageURL = uri
+}
+
+func (a *Article) getImageBlockURL(block *notionapi.Block) string {
+	bi := a.blockInfos[block]
+	if bi == nil {
+		return ""
+	}
+	return bi.imageURL
 }
 
 func (a *Article) removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
@@ -258,6 +271,41 @@ func (a *Article) setHeaderImageMust(val string) {
 	a.HeaderImageURL = uri
 }
 
+func getInlineBlocksText(blocks []*notionapi.InlineBlock) string {
+	s := ""
+	for _, b := range blocks {
+		s += b.Text
+	}
+	return s
+}
+
+// parse:
+// #url ${url}
+// followed by an image block
+func (a *Article) maybeParseImageURL(nBlock int, block *notionapi.Block) bool {
+	if block.Type != notionapi.BlockText {
+		return false
+	}
+	blocks := a.page.Root.Content
+	if nBlock == len(blocks)-1 {
+		return false
+	}
+	nextBlock := blocks[nBlock+1]
+	if nextBlock.Type != notionapi.BlockImage {
+		return false
+	}
+	s := getInlineBlocksText(block.InlineContent)
+	s = strings.TrimSpace(s)
+	uri := strings.TrimPrefix(s, "#url")
+	if uri == s {
+		return false
+	}
+	uri = strings.TrimSpace(uri)
+	a.markBlockToSkip(block)
+	a.setImageBlockURL(nextBlock, uri)
+	return false
+}
+
 func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
 	var err error
 
@@ -268,7 +316,7 @@ func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
 
 	if len(block.InlineContent) == 0 {
 		logTemp("block %d of type %s and has no InlineContent\n", nBlock, block.Type)
-		return false
+		return true
 	} else {
 		logTemp("block %d has %d InlineContent\n", nBlock, len(block.InlineContent))
 	}
@@ -376,7 +424,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	}
 
 	// allow debugging for specific pages
-	if false && id == "39a15945117440d99a9ef0f7de1b618a" {
+	if true && id == "39a15945117440d99a9ef0f7de1b618a" {
 		doTempLog = true
 		defer func() {
 			doTempLog = false
@@ -396,6 +444,9 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 			if parsingMeta {
 				a.markBlockToSkip(block)
 			}
+		}
+		if !parsingMeta {
+			a.maybeParseImageURL(nBlock, block)
 		}
 	}
 
