@@ -16,12 +16,18 @@ type ImageMapping struct {
 	relativeURL string
 }
 
+type BlockInfo struct {
+	shouldSkip bool
+}
+
 // HTMLRenderer keeps data
 type HTMLRenderer struct {
 	page         *notionapi.Page
 	notionClient *notionapi.Client
 	idToArticle  func(string) *Article
 	images       []ImageMapping
+
+	blockInfos map[*notionapi.Block]*BlockInfo
 
 	r *tohtml.HTMLRenderer
 }
@@ -36,18 +42,16 @@ func isEmptyTextBlock(b *notionapi.Block) bool {
 	return true
 }
 
-func removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
+func (r *HTMLRenderer) removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
 	n := len(root.Content)
 	blocks := root.Content
 	for i := 0; i < n; i++ {
 		idx := n - 1 - i
-		b := blocks[idx]
-		if !isEmptyTextBlock(b) {
-			if i > 0 {
-				root.Content = blocks[:idx+1]
-				return
-			}
+		block := blocks[idx]
+		if !isEmptyTextBlock(block) {
+			return
 		}
+		r.markBlockToSkip(block)
 	}
 }
 
@@ -141,7 +145,11 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
 	return true
 }
 
+// if returns false, the block will be rendered with default
 func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool) bool {
+	if r.shouldSkipBlock(block) {
+		return true
+	}
 	switch block.Type {
 	case notionapi.BlockPage:
 		return r.RenderPage(block, entering)
@@ -158,6 +166,7 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	res := &HTMLRenderer{
 		notionClient: c,
 		page:         page,
+		blockInfos:   map[*notionapi.Block]*BlockInfo{},
 	}
 
 	r := tohtml.NewHTMLRenderer(page)
@@ -165,15 +174,36 @@ func NewHTMLRenderer(c *notionapi.Client, page *notionapi.Page) *HTMLRenderer {
 	r.AddIDAttribute = true
 	r.RenderBlockOverride = res.blockRenderOverride
 	r.RewriteURL = res.rewriteURL
-
 	res.r = r
+
+	res.removeEmptyTextBlocksAtEnd(page.Root)
+
 	return res
+}
+
+func (r *HTMLRenderer) getBlockInfo(block *notionapi.Block) *BlockInfo {
+	bi := r.blockInfos[block]
+	if bi == nil {
+		bi = &BlockInfo{}
+		r.blockInfos[block] = bi
+	}
+	return bi
+}
+
+func (r *HTMLRenderer) markBlockToSkip(block *notionapi.Block) {
+	r.getBlockInfo(block).shouldSkip = true
+}
+
+func (r *HTMLRenderer) shouldSkipBlock(block *notionapi.Block) bool {
+	bi := r.blockInfos[block]
+	if bi == nil {
+		return false
+	}
+	return bi.shouldSkip
 }
 
 // Gen returns generated HTML
 func (r *HTMLRenderer) Gen() []byte {
-	removeEmptyTextBlocksAtEnd(r.page.Root)
-
 	inner := string(r.r.ToHTML())
 	page := r.page.Root
 	f := page.FormatPage

@@ -63,12 +63,8 @@
 </head>
 
 <body>
-
-    {{ template "page_navbar.tmpl.html" . }}
-
     <div id="content">
-
-        <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+        <div id="post">
             <div class="title">
                 <a href="/">Home</a> / {{range .Article.Paths}}
                 <a href="{{.URL}}">{{.Name}}</a> / {{end}} {{.Article.Title}}
