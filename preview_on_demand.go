@@ -124,6 +124,12 @@ var knownURLs = map[string]func(*Articles, io.Writer) error{
 	"/atom-all.xml":   genAtomAll,
 }
 
+/*
+var rewrites = map[string]string{
+	"/book/go-cookbook.html": "/articles/go-cookbook.tmpl.html",
+}
+*/
+
 func tryServeKnown(w http.ResponseWriter, r *http.Request) bool {
 	uri := r.URL.Path
 	if fn := knownURLs[uri]; fn != nil {

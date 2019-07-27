@@ -144,8 +144,26 @@ See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
 
 .article-meta {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 1em;
+
   color: gray;
-  font-size: 80%;
+  font-size: 0.9em;
+}
+
+.article-meta > div {
+  flex: 1 0 0;
+}
+
+.article-meta > div:nth-child(2) {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.article-meta > div:nth-child(3) {
+  text-align: right;
 }
 
 div.notion-wrap {
@@ -460,11 +478,6 @@ table.notion-table td {
   background-color: #fdff78;
 
   color: #541515;
-  /* alternative look */
-  /*
-  border: 3px solid yellow;
-  background-color: lightyellow;
-  */
 
   /* initially hidden, shown via javascript */
   display: none;

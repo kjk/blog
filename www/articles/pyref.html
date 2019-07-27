@@ -1,155 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Python 2.5 Quicker Reference</title>
-  <meta name="description" content="Python 2.5 language Quick Reference, freely available in HTML (several styles) and PDF versions." />
-  <meta name="keywords" content="Python, language, langage, 2.5, quick, quickref, fast, reference, guide, Richard, Gruet" />
-<style type="text/css">
-body {
- background-color: #fff;
- margin-left: 30px;
- margin-right: 30px;
- font-family: Lucida Grande, Verdana, Sans-serif;
- font-size: 85%;
- /* color: #4F5155; */
-}
+	<title>Python 2.5 Quicker Reference</title>
+	<meta name="description"
+		content="Python 2.5 language Quick Reference, freely available in HTML (several styles) and PDF versions." />
+	<meta name="keywords"
+		content="Python, language, langage, 2.5, quick, quickref, fast, reference, guide, Richard, Gruet" />
+	<style type="text/css">
+		body {
+			background-color: #fff;
+			margin-left: 30px;
+			margin-right: 30px;
+			font-family: Lucida Grande, Verdana, Sans-serif;
+			font-size: 85%;
+			/* color: #4F5155; */
+		}
 
-h1 {
- color: #444;
- border-bottom: 1px solid #D0D0D0;
- font-size: 110%;
- font-weight: bold;
- /* margin: 24px 0 2px 0;
+		h1 {
+			color: #444;
+			border-bottom: 1px solid #D0D0D0;
+			font-size: 110%;
+			font-weight: bold;
+			/* margin: 24px 0 2px 0;
  padding: 5px 0 6px 0; */
-}
+		}
 
-ct {
-    color: #666;
-    font-weight: bold;
-}
+		ct {
+			color: #666;
+			font-weight: bold;
+		}
 
-.light { color: #666; }
-.bold { font-weight: bold;}
-.reSpecialSeqName { font-weight: bold; }
-.reSpecialSeqDesc { }
+		.light {
+			color: #666;
+		}
 
-</style>
-<script>
-var sep = " <font color=#ccc>&bull;</font> ";
-function dw(s) { document.write(s); }
-function dwjoined(arr) { document.write(arr.join(sep)); }
+		.bold {
+			font-weight: bold;
+		}
 
-var kw = ["raise", "assert", "elif", "from", "lambda", "return", "break", "else",
-	"global", "not", "try", "class", "except", "if", "or", "while", "continue",
-	"exec", "import", "pass", "with", "def", "finally", "in", "print", "yield"].sort();
+		.reSpecialSeqName {
+			font-weight: bold;
+		}
+	</style>
+	<script>
+		var sep = " <font color=#ccc>&bull;</font> ";
+		function dw(s) { document.write(s); }
+		function dwjoined(arr) { document.write(arr.join(sep)); }
 
-var envVars = ["PYTHONHOME", "PYTHONPATH", "PYTHONSTARTUP", "PYTHONDEBUG", "PYTHONINSPECT"];
-/* var strs = ['"str"', "'str'", "'''str'''", '"""str"""', "u'unicode str'",
-'U"unicode str"', "r'raw str'", 'R"raw st"', "ur'unicode raw str'", 'UR"unicode raw str"']; */
-var strs = ['"str"', "'str'", "'''str'''", '"""str"""', "u'unicode str'", "r'raw str'", "ur'unicode raw str'"];
-var strEscapes = ["\\newline", "\\\\", "\\e", "\\v", "\\'", "\\f", "\\ooo", '\\"',
-	"\\n", "\\a", "\\r", "\\xhh", "\\b", "\\t", "\\uxxxx", "\Uxxxxxxxx"];
+		var kw = ["raise", "assert", "elif", "from", "lambda", "return", "break", "else",
+			"global", "not", "try", "class", "except", "if", "or", "while", "continue",
+			"exec", "import", "pass", "with", "def", "finally", "in", "print", "yield"].sort();
 
-var nums = ["<b>Int:</b> 1234, 123L", "<b>Hex:</b> 0xff, 0xFFL",
-	"<b>Float (double precision):</b> 3.14e-10, .001, 10., 1E3", "<b>Octal:</b> 0177",
-	"<b>Complex:</b> 1J, 2+3J, 4+5j", "(since 2.2 int and long are unified)"];
-var seqs = ["<b>Strings</b>", "<b>Tuples</b> (), (1,), (1,2)", "<b>Lists</b> [], [1], [1,2]"];
+		var envVars = ["PYTHONHOME", "PYTHONPATH", "PYTHONSTARTUP", "PYTHONDEBUG", "PYTHONINSPECT"];
+		/* var strs = ['"str"', "'str'", "'''str'''", '"""str"""', "u'unicode str'",
+		'U"unicode str"', "r'raw str'", 'R"raw st"', "ur'unicode raw str'", 'UR"unicode raw str"']; */
+		var strs = ['"str"', "'str'", "'''str'''", '"""str"""', "u'unicode str'", "r'raw str'", "ur'unicode raw str'"];
+		var strEscapes = ["\\newline", "\\\\", "\\e", "\\v", "\\'", "\\f", "\\ooo", '\\"',
+			"\\n", "\\a", "\\r", "\\xhh", "\\b", "\\t", "\\uxxxx", "\Uxxxxxxxx"];
 
-var seqOps = ["x in s", "x not in s", "s1 + s2", "s * n", "n * s", "s[i]", "s[i:j]",
-	"s[i:j:step]", "len(s)", "min(s)"," max(s)", "reversed(s) [2.4]"];
-var mutSeqOps = ["s[i] = x", "s[i:j [:step]] = t", "del s[i:j[:step]]",
-	"s.append(x)","s.extend(x)", "s.count(x)", "s.index(x[, start[, stop]])",
-	"s.insert(i, x)", "s.remove(x)", "s.pop([i])", "s.reverse()", "s.sort([cmp])"];
-var numOps = ["abs(x)", "int(x)", "long(x)", "float(x)", "-x", "+x", "x + y",
-	"x - y", "x * y", "x / y", "x // y", "x % y", "divmod(x,y)", "x**y"];
-var bitOps = ["~x", "x ^ y", "x & y", "x | y", "x << n", "x >> n"];
+		var nums = ["<b>Int:</b> 1234, 123L", "<b>Hex:</b> 0xff, 0xFFL",
+			"<b>Float (double precision):</b> 3.14e-10, .001, 10., 1E3", "<b>Octal:</b> 0177",
+			"<b>Complex:</b> 1J, 2+3J, 4+5j", "(since 2.2 int and long are unified)"];
+		var seqs = ["<b>Strings</b>", "<b>Tuples</b> (), (1,), (1,2)", "<b>Lists</b> [], [1], [1,2]"];
 
-var sysModule = ["argv", "stdin", "stdout", "stderr", "version"];
+		var seqOps = ["x in s", "x not in s", "s1 + s2", "s * n", "n * s", "s[i]", "s[i:j]",
+			"s[i:j:step]", "len(s)", "min(s)", " max(s)", "reversed(s) [2.4]"];
+		var mutSeqOps = ["s[i] = x", "s[i:j [:step]] = t", "del s[i:j[:step]]",
+			"s.append(x)", "s.extend(x)", "s.count(x)", "s.index(x[, start[, stop]])",
+			"s.insert(i, x)", "s.remove(x)", "s.pop([i])", "s.reverse()", "s.sort([cmp])"];
+		var numOps = ["abs(x)", "int(x)", "long(x)", "float(x)", "-x", "+x", "x + y",
+			"x - y", "x * y", "x / y", "x // y", "x % y", "divmod(x,y)", "x**y"];
+		var bitOps = ["~x", "x ^ y", "x & y", "x | y", "x << n", "x >> n"];
 
-var osModule = ["listdir(dir)", "makedirs(path)", "system(cmd)", "environ",
-	"stat(path)", "fstat(path)", "lstat(path)"].sort();
+		var sysModule = ["argv", "stdin", "stdout", "stderr", "version"];
 
-var osPathModule = ["join(x,y,..)", "exists(path)", "isdir(path)", "isfile(path)",
-	"basename(path)", "dirpath(path)", "realpath(path)", "expanduser(path)"].sort();
+		var osModule = ["listdir(dir)", "makedirs(path)", "system(cmd)", "environ",
+			"stat(path)", "fstat(path)", "lstat(path)"].sort();
 
-var statModule = ["ST_MODE", "ST_INO", "ST_DEV", "ST_NLINK", "ST_UID", "ST_GID",
-	"ST_SIZE", "ST_ATIME", "ST_ATIME", "ST_MTIME", "ST_CTIME"].sort()
+		var osPathModule = ["join(x,y,..)", "exists(path)", "isdir(path)", "isfile(path)",
+			"basename(path)", "dirpath(path)", "realpath(path)", "expanduser(path)"].sort();
 
-var reModule = ["compile(regex[, flags]) <span class=light>(returns RegExp object)</span>", "match(regexp, str) <span class=light>(returns RegExp object)</span>"].sort()
-var regExpObj = ["search(str) <span class=light>(returns Match object)</span>", "match(str) <span class=light>(returns Match object)</span>", "find(str)", "findall(str)", "split(str)", "sub(replacement, string[, count=0])", "subn(replacement, string[, count=0])"].sort()
-var regexpMatchObj = ["group()", "start()", "end()", "span()"].sort()
-var reSpecialSeqs = [
-	".&nbsp;", "any character",
-	"?&nbsp;", "zero or one",
-	"*&nbsp;", "zero or more",
-	"+&nbsp;", "one or more",
-	"|&nbsp;", "alternative e.g. 'foo|Bar' matches either 'foo' or 'Bar'",
-	"^&nbsp;", "beginning of string or beginning of string and any place after newline in MULTILINE mode",
-	"$&nbsp;", "end of string",
-	"[]", "character class e.g. [a-z] (any character between 'a' and 'z')",
-	"\\d", "decimal digit (equivalent to [0-9])",
-	"\\D", "non-digit character (equivalent to [^0-9])",
-	"\\s", "whitespace character (equivalent to [ \\t\\n\\r\\f\\v])",
-	"\\S", "non-whitespace character (equivalent to [^ \\t\\n\\r\\f\\v])",
-	"\\w", "alphanumeric character (equivalent to [a-zA-Z0-9_])",
-	"\\W", "any non-alphanumeric character (equivalent to [^a-zA-Z0-9_])"]
+		var statModule = ["ST_MODE", "ST_INO", "ST_DEV", "ST_NLINK", "ST_UID", "ST_GID",
+			"ST_SIZE", "ST_ATIME", "ST_ATIME", "ST_MTIME", "ST_CTIME"].sort()
 
-</script>
+		var reModule = ["compile(regex[, flags]) <span class=light>(returns RegExp object)</span>", "match(regexp, str) <span class=light>(returns RegExp object)</span>"].sort()
+		var regExpObj = ["search(str) <span class=light>(returns Match object)</span>", "match(str) <span class=light>(returns Match object)</span>", "find(str)", "findall(str)", "split(str)", "sub(replacement, string[, count=0])", "subn(replacement, string[, count=0])"].sort()
+		var regexpMatchObj = ["group()", "start()", "end()", "span()"].sort()
+		var reSpecialSeqs = [
+			".&nbsp;", "any character",
+			"?&nbsp;", "zero or one",
+			"*&nbsp;", "zero or more",
+			"+&nbsp;", "one or more",
+			"|&nbsp;", "alternative e.g. 'foo|Bar' matches either 'foo' or 'Bar'",
+			"^&nbsp;", "beginning of string or beginning of string and any place after newline in MULTILINE mode",
+			"$&nbsp;", "end of string",
+			"[]", "character class e.g. [a-z] (any character between 'a' and 'z')",
+			"\\d", "decimal digit (equivalent to [0-9])",
+			"\\D", "non-digit character (equivalent to [^0-9])",
+			"\\s", "whitespace character (equivalent to [ \\t\\n\\r\\f\\v])",
+			"\\S", "non-whitespace character (equivalent to [^ \\t\\n\\r\\f\\v])",
+			"\\w", "alphanumeric character (equivalent to [a-zA-Z0-9_])",
+			"\\W", "any non-alphanumeric character (equivalent to [^a-zA-Z0-9_])"]
+
+	</script>
 </head>
+
 <body>
-<h1><a href="/index.html">home</a> &#8227; Python quick(er) reference (<a href="http://rgruet.free.fr/PQR25/PQR2.5.html">a bigger one</a>)</h1>
-<p><code><ct>Quick links: </ct><a href="#regexps">regexps</a></code></p>
-<p><code><ct>Invocation: </ct>python[w] [-dEhimOQStuUvVWxX?] [-c command | scriptFile | - ] [args]</code></p>
-<p><code><ct>Keywords: </ct><script>dwjoined(kw)</script></code></p>
-<p><code><ct>Env variables: </ct><script>dwjoined(envVars)</script></code></p>
-<p><code><ct>Strings: </ct><script>dwjoined(strs)</script></code></p>
-<!-- <p><code><ct>String escapes:</ct> <script>dw(strEscapes.join(sep))</script></code></p> -->
-<p><code><ct>Boolean: </ct> True, False (since 2.2.1)</code></p>
-<p><code><ct>Numbers: </ct><script>dwjoined(nums)</script></code></p>
-<p><code><ct>Sequences: </ct><script>dwjoined(seqs)</script></code></p>
-<p><code><ct>Dictionaries: </ct>{}, {1 : "first"}, {"foo" : "bar", 2 : "ah"} </code></p>
-<!--<p><code><ct>Operators: </ct>, [...] {...} `` s[i] s[i:j] s.attr f(...)
+	<h1><a href="/index.html">home</a> &#8227; Python quick(er) reference (<a
+			href="http://rgruet.free.fr/PQR25/PQR2.5.html">a bigger one</a>)</h1>
+	<p><code><ct>Quick links: </ct><a href="#regexps">regexps</a></code></p>
+	<p><code><ct>Invocation: </ct>python[w] [-dEhimOQStuUvVWxX?] [-c command | scriptFile | - ] [args]</code></p>
+	<p><code><ct>Keywords: </ct><script>dwjoined(kw)</script></code></p>
+	<p><code><ct>Env variables: </ct><script>dwjoined(envVars)</script></code></p>
+	<p><code><ct>Strings: </ct><script>dwjoined(strs)</script></code></p>
+	<!-- <p><code><ct>String escapes:</ct> <script>dw(strEscapes.join(sep))</script></code></p> -->
+	<p><code><ct>Boolean: </ct> True, False (since 2.2.1)</code></p>
+	<p><code><ct>Numbers: </ct><script>dwjoined(nums)</script></code></p>
+	<p><code><ct>Sequences: </ct><script>dwjoined(seqs)</script></code></p>
+	<p><code><ct>Dictionaries: </ct>{}, {1 : "first"}, {"foo" : "bar", 2 : "ah"} </code></p>
+	<!--<p><code><ct>Operators: </ct>, [...] {...} `` s[i] s[i:j] s.attr f(...)
 +x -x ~x x**y x*y x/y x%y x+y x-y x&lt;&lt;y x&gt;&gt;y x&and;y x^y x|y </code></p>-->
-<p><code><ct>Ops on all numeric types: </ct><script>dwjoined(numOps)</script></code></p>
-<p><code><ct>Bit operations: </ct><script>dwjoined(bitOps)</script></code></p>
-<p><code><ct>Ops on sequences: </ct><script>dwjoined(seqOps)</script></code></p>
-<p><code><ct>Ops on mutable sequences: </ct><script>dwjoined(mutSeqOps)</script></code></p>
-<p><code><ct>sys module: </ct><script>dwjoined(sysModule)</script></code></p>
-<p><code><ct>os module: </ct><script>dwjoined(osModule)</script></code></p>
-<p><code><ct>os.path module: </ct><script>dwjoined(osPathModule)</script></code></p>
-<p><code><ct>stat module: </ct><script>dwjoined(statModule)</script></code></p>
-<p><code>
+	<p><code><ct>Ops on all numeric types: </ct><script>dwjoined(numOps)</script></code></p>
+	<p><code><ct>Bit operations: </ct><script>dwjoined(bitOps)</script></code></p>
+	<p><code><ct>Ops on sequences: </ct><script>dwjoined(seqOps)</script></code></p>
+	<p><code><ct>Ops on mutable sequences: </ct><script>dwjoined(mutSeqOps)</script></code></p>
+	<p><code><ct>sys module: </ct><script>dwjoined(sysModule)</script></code></p>
+	<p><code><ct>os module: </ct><script>dwjoined(osModule)</script></code></p>
+	<p><code><ct>os.path module: </ct><script>dwjoined(osPathModule)</script></code></p>
+	<p><code><ct>stat module: </ct><script>dwjoined(statModule)</script></code></p>
+	<p><code>
 	<ct>re module: </ct><script>dwjoined(reModule)</script> <br>
 	<ct>RegExp object: </ct><script>dwjoined(regExpObj)</script> <br>
 	<ct>Match object: </ct><script>dwjoined(regexpMatchObj)</script>
 </code></p>
-<p id="regexps"><code>
+	<p id="regexps"><code>
 	<ct>Regular expressions: (<a href="http://www.amk.ca/python/howto/regex/">more detailed info</a>)</ct><br>
 	<span class=bold>re.match(regexp, string)</span> returns None or Match object if a regular expression matches the beginning of the string. <span class=bold>re.search(regexp, string)</span> returns None or Match object if regular expression matches anywhere in  the string.<br>
 	Alternatively you can compile regular expression with: <span class=bold>regexpObj = re.compile(regexp[,flags])</span> and use <span class=bold>regexpObj.search(string)</span> and <span class=bold>regexpObj.match(string)</span>.<br><br>
 	Match object <span class=bold>group()</span> returns part of the string that matched. <span class=bold>start()</span> and <span class=bold>end()</span> return start/end position of a match within string. <span class=bold>span()</span> returns a tuple (start, end) position of a match.
 
 </code>
-</p>
-<p id="regExpSpecialSeqs"><code>
+	</p>
+	<p id="regExpSpecialSeqs"><code>
 	<ct>Regular expressions special sequences:</ct><br>
-	<script>for(var i=0; i < reSpecialSeqs.length / 2; i++) {
-		var ss = reSpecialSeqs[i*2];
-		var desc = reSpecialSeqs[i*2+1];
-		dw('<span class=reSpecialSeqName>' + ss + '</span> <span class=reSpecialSeqDesc>' + desc + "</span><br>");
-	}</script>
+	<script>for (var i = 0; i < reSpecialSeqs.length / 2; i++) {
+			var ss = reSpecialSeqs[i * 2];
+			var desc = reSpecialSeqs[i * 2 + 1];
+			dw('<span class=reSpecialSeqName>' + ss + '</span> <span class=reSpecialSeqDesc>' + desc + "</span><br>");
+		}</script>
 </code>
-</p>
+	</p>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-194516-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-194516-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-194516-1');
-</script>
+		gtag('config', 'UA-194516-1');
+	</script>
 
 </body>
+
 </html>
