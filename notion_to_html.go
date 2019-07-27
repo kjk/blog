@@ -20,7 +20,7 @@ type BlockInfo struct {
 	shouldSkip bool
 }
 
-// HTMLRenderer keeps data
+// HTMLRenderer renders article as html
 type HTMLRenderer struct {
 	page         *notionapi.Page
 	notionClient *notionapi.Client
@@ -218,4 +218,14 @@ func (r *HTMLRenderer) Gen() []byte {
 		s += `</div>`
 	}
 	return []byte(s)
+}
+
+func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles) ([]byte, []ImageMapping) {
+	r := NewHTMLRenderer(c, page)
+	if articles != nil {
+		r.idToArticle = func(id string) *Article {
+			return articles.idToArticle[id]
+		}
+	}
+	return r.Gen(), r.images
 }

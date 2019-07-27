@@ -203,29 +203,6 @@ func downloadAndCachePage(c *notionapi.Client, pageID string) (*notionapi.Page, 
 	return page, nil
 }
 
-func notionToHTML(c *notionapi.Client, page *notionapi.Page, articles *Articles) ([]byte, []ImageMapping) {
-	r := NewHTMLRenderer(c, page)
-	if articles != nil {
-		r.idToArticle = func(id string) *Article {
-			return articles.idToArticle[id]
-		}
-	}
-	return r.Gen(), r.images
-}
-
-func loadPageBlockInfo(c *notionapi.Client, pageID string) (*notionapi.Block, error) {
-	recVals, err := c.GetRecordValues([]string{pageID})
-	if err != nil {
-		return nil, err
-	}
-	res := recVals.Results[0]
-	// this might happen e.g. when a page is not publicly visible
-	if res.Value == nil {
-		return nil, fmt.Errorf("Couldn't retrieve page with id %s", pageID)
-	}
-	return res.Value, nil
-}
-
 func pageIDFromFileName(name string) string {
 	parts := strings.Split(name, ".")
 	if len(parts) != 2 {
@@ -409,38 +386,6 @@ func rmCached(pageID string) {
 	id := normalizeID(pageID)
 	rmFile(filepath.Join(notionLogDir, id+".go.log.txt"))
 	rmFile(filepath.Join(cacheDir, id+".json"))
-}
-
-func createNotionCacheDir() {
-	err := os.MkdirAll(cacheDir, 0755)
-	panicIfErr(err)
-}
-
-func createNotionLogDir() {
-	if logNotionRequests {
-		err := os.MkdirAll(notionLogDir, 0755)
-		panicIfErr(err)
-	}
-}
-
-func createNotionDirs() {
-	createNotionLogDir()
-	createNotionCacheDir()
-}
-
-func removeCachedNotion() {
-	err := os.RemoveAll(cacheDir)
-	panicIfErr(err)
-	err = os.RemoveAll(notionLogDir)
-	panicIfErr(err)
-	createNotionDirs()
-}
-
-func notionRedownloadOne(c *notionapi.Client, id string) {
-	id = normalizeID(id)
-	page, err := downloadAndCachePage(c, id)
-	panicIfErr(err)
-	lg("Downloaded %s %s\n", id, page.Root.Title)
 }
 
 func loadPageAsArticle(c *notionapi.Client, pageID string) *Article {

@@ -26,6 +26,23 @@ func createDestDir() {
 	panicIfErr(err)
 }
 
+func createNotionLogDir() {
+	if logNotionRequests {
+		err := os.MkdirAll(notionLogDir, 0755)
+		panicIfErr(err)
+	}
+}
+
+func createNotionCacheDir() {
+	err := os.MkdirAll(cacheDir, 0755)
+	panicIfErr(err)
+}
+
+func createNotionDirs() {
+	createNotionLogDir()
+	createNotionCacheDir()
+}
+
 // downloads and html
 func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
 
