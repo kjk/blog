@@ -52,8 +52,8 @@
             if (!isWindows()) {
                 return;
             }
-            var el = document.getElementById("ad-software");
-            el.style.display = "block";
+            var el = document.getElementById("ad-software-2");
+            el.style.display = "flex";
         }
         function onLoaded() {
             maybeShowAd();
@@ -140,6 +140,13 @@
                 {{if .NotionEditURL}}
                 <a class="edit-link" href="{{.NotionEditURL}}" rel="nofollow" target="_blank">edit</a>
                 {{end}}
+            </div>
+
+            <div id="ad-software-2">
+                <div>
+                    Try <a
+                            href="https://www.documentalist.io/like-dash-for-windows.html" target="_blank">Documentalist</a>, my app that offers fast, offline access to 190+ programmer API docs.
+                </div>
             </div>
 
             {{if .Article.HeaderImageURL}}
@@ -236,6 +243,7 @@
         Need fast, offline access to 190+ programmer API docs? Try my app <a
             href="https://www.documentalist.io/like-dash-for-windows.html" target="_blank">Documentalist for Windows</a>
     </div>
+
     {{ template "analytics.tmpl.html" . }}
 
 </body>
