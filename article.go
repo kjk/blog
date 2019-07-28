@@ -35,18 +35,31 @@ type MetaValue struct {
 // ImageMapping keeps track of rewritten image urls (locally cached
 // images in notion)
 type ImageMapping struct {
-	path        string
+	// this is Block.Source from image block
+	link string
+	// this is path on the disk
+	path string
+	// this is relative url of the image on disk
 	relativeURL string
 }
 
 type BlockInfo struct {
+	// if true, this block should be skipped when generating html
 	shouldSkip bool
-	imageURL   string
+
+	// for #url metadata, if image is supposed to be inside <a> tag
+	// this is href for it
+	imageURL string
+
+	// for #gallery meta-data, this is a list of image urls
+	// this is a path that needs to be looked up in Images to get relative URL
+	galleryImages []string
 }
 
 // Article describes a single article
 type Article struct {
-	page *notionapi.Page
+	page         *notionapi.Page
+	notionClient *notionapi.Client
 
 	ID                   string
 	PublishedOn          time.Time
@@ -70,7 +83,7 @@ type Article struct {
 	inBlog bool
 
 	UpdatedAgeStr string
-	Images        []ImageMapping
+	Images        []*ImageMapping
 
 	blockInfos map[*notionapi.Block]*BlockInfo
 }
@@ -156,6 +169,18 @@ func (a *Article) getImageBlockURL(block *notionapi.Block) string {
 		return ""
 	}
 	return bi.imageURL
+}
+
+func (a *Article) setGalleryImages(block *notionapi.Block, imageURLS []string) {
+	a.getBlockInfo(block).galleryImages = imageURLS
+}
+
+func (a *Article) getGalleryImages(block *notionapi.Block) []string {
+	bi := a.blockInfos[block]
+	if bi == nil {
+		return nil
+	}
+	return bi.galleryImages
 }
 
 func (a *Article) removeEmptyTextBlocksAtEnd(root *notionapi.Block) {
@@ -279,9 +304,42 @@ func getInlineBlocksText(blocks []*notionapi.InlineBlock) string {
 	return s
 }
 
-// parse:
-// #url ${url}
-// followed by an image block
+// parse: `#gallery` followed by an image blocks
+// returns true if block was this kind of block
+func (a *Article) maybeParseGallery(block *notionapi.Block, nBlock int, blocks []*notionapi.Block) bool {
+	if block.Type != notionapi.BlockText {
+		return false
+	}
+	s := getInlineBlocksText(block.InlineContent)
+	s = strings.TrimSpace(s)
+	if !strings.HasPrefix(s, "#gallery") {
+		return false
+	}
+
+	var imageBlocks []*notionapi.Block
+	for i := nBlock + 1; i < len(blocks); i++ {
+		im := blocks[i]
+		if im.Type != notionapi.BlockImage {
+			break
+		}
+		imageBlocks = append(imageBlocks, im)
+	}
+
+	if len(imageBlocks) < 2 {
+		lg("Found #gallery followed by %d image blocks (should be at least 2). Page id: %s, #gallery block id: %s\n", len(imageBlocks), a.page.ID, block.ID)
+		return false
+	}
+	var urls []string
+	for _, b := range imageBlocks {
+		a.markBlockToSkip(b)
+		urls = append(urls, b.Source)
+	}
+	a.setGalleryImages(block, urls)
+	return true
+}
+
+// parse: `#url ${url}`` followed by an image block
+// returns true if block was this kind of block
 func (a *Article) maybeParseImageURL(block *notionapi.Block, nBlock int, blocks []*notionapi.Block) bool {
 	if block.Type != notionapi.BlockText {
 		return false
@@ -303,7 +361,7 @@ func (a *Article) maybeParseImageURL(block *notionapi.Block, nBlock int, blocks 
 	}
 	a.markBlockToSkip(block)
 	a.setImageBlockURL(nextBlock, uri)
-	return false
+	return true
 }
 
 func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
@@ -409,7 +467,13 @@ func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
 	return true
 }
 
-func (a *Article) parseMetaBlocks(blocks []*notionapi.Block) {
+/*
+func (a *Article) processBlock(blcok *notionapi.Block, nBlock int, blocks []*notionapi.Block) {
+
+}
+ */
+
+func (a *Article) processBlocks(blocks []*notionapi.Block) {
 	parsingMeta := true
 	for nBlock, block := range blocks {
 		logTemp("  %d %s '%s'\n", nBlock, block.Type, block.Title)
@@ -418,15 +482,54 @@ func (a *Article) parseMetaBlocks(blocks []*notionapi.Block) {
 			parsingMeta = a.maybeParseMeta(nBlock, block)
 			if parsingMeta {
 				a.markBlockToSkip(block)
+				continue
 			}
 		}
-		if !parsingMeta {
-			a.maybeParseImageURL(block, nBlock, blocks)
+
+		parsed := a.maybeParseImageURL(block, nBlock, blocks)
+		if parsed {
+			continue
 		}
+		parsed = a.maybeParseGallery(block, nBlock, blocks)
+		if parsed {
+			continue
+		}
+
+		if block.Type == notionapi.BlockImage {
+			link := block.Source
+			path, err := downloadAndCacheImage(a.notionClient, link)
+			if err != nil {
+				lg("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(a.page.ID), err)
+				panicIfErr(err)
+			}
+			relURL := "/img/" + filepath.Base(path)
+			im := &ImageMapping{
+				link:        link,
+				path:        path,
+				relativeURL: relURL,
+			}
+			a.Images = append(a.Images, im)
+			continue
+		}
+
 		if len(block.Content) > 0 {
-			a.parseMetaBlocks(block.Content)
+			a.processBlocks(block.Content)
 		}
 	}
+}
+
+func (a *Article) findImageMappingBySource(link string) *ImageMapping {
+	for _, im := range a.Images {
+		if im.link == link {
+			return im
+		}
+	}
+	lg("Didn't find image with link '%s'\n", link)
+	lg("Available images:\n")
+	for _, im := range a.Images {
+		lg("  link: %s, relativeURL: %s, path: %s\n", im.link, im.relativeURL, im.path)
+	}
+	return nil
 }
 
 func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
@@ -437,9 +540,10 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	title := root.Title
 	id := normalizeID(root.ID)
 	a := &Article{
-		page:       page,
-		Title:      title,
-		blockInfos: map[*notionapi.Block]*BlockInfo{},
+		page:         page,
+		Title:        title,
+		blockInfos:   map[*notionapi.Block]*BlockInfo{},
+		notionClient: c,
 	}
 
 	// allow debugging for specific pages
@@ -454,7 +558,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	a.PublishedOn = root.CreatedOn()
 	a.UpdatedOn = root.UpdatedOn()
 
-	a.parseMetaBlocks(page.Root.Content)
+	a.processBlocks(page.Root.Content)
 
 	if !a.publishedOnOverwrite.IsZero() {
 		a.PublishedOn = a.publishedOnOverwrite
@@ -478,7 +582,8 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		path, err := downloadAndCacheImage(c, format.PageCover)
 		panicIfErr(err)
 		relURL := "/img/" + filepath.Base(path)
-		im := ImageMapping{
+		im := &ImageMapping{
+			link:        a.HeaderImageURL,
 			path:        path,
 			relativeURL: relURL,
 		}

@@ -60,6 +60,74 @@
         }
         document.addEventListener("DOMContentLoaded", onLoaded);
     </script>
+    <script type="text/javascript">
+        var galleries = {}; // maps galleryID to map[string]string of image no => image url for images
+        function buildGalleriesInfo() {
+            var els = document.getElementsByTagName("img");
+            var n = els.length;
+            for (var i = 0; i < n; i++) {
+                var el = els[i];
+                var id = el.id;
+                if (!id.startsWith("id-thumb-img-")) {
+                    continue
+                }
+                id = id.replace("id-thumb-img-", "")
+                // now it looks like: 0-0
+                var parts = id.split("-");
+                var galleryID = parseInt(parts[0]);
+                var imageNo = parseInt(parts[1]);
+                var galleryInfo = galleries[galleryID] || {};
+                galleryInfo[imageNo] = el.src;
+                galleries[galleryID] = galleryInfo;
+            }
+            var ids = Object.keys(galleries);
+            for (var gid of ids) {
+                var galleryInfo = galleries[gid];
+                galleryInfo.nImages = Object.keys(galleryInfo).length;
+                galleryInfo.currImageNo = 0;
+                changeShot(gid, 0);
+            }
+        }
+
+        function changeShot(galleryID, imgNo) {
+            var gi = galleries[galleryID];
+            gi.currImageNo = imgNo;
+            var url = gi[imgNo];
+            var id = "id-gallery-" + galleryID;
+            var el = document.getElementById(id);
+            el.src = url;
+            // set selected class on thumbnail dif
+            for (var i = 0; i < gi.nImages; i++) {
+                id = "id-thumb-" + galleryID + "-" + i;
+                el = document.getElementById(id);
+                if (i == imgNo) {
+                    el.classList.add("selected-img");
+                } else {
+                    el.classList.remove("selected-img");
+                }
+            }
+            var els = document.getElementsByTagName("div");
+            var nEls = els.length;
+        }
+
+        function imgNext(galleryID) {
+            var gi = galleries[galleryID];
+            var nImages = gi.nImages;
+            var imgNo = gi.currImageNo;
+            imgNo = (imgNo + 1) % nImages;
+            changeShot(galleryID, imgNo);
+        }
+        function imgPrev(galleryID) {
+            var gi = galleries[galleryID];
+            var imgNo = gi.currImageNo - 1;
+            if (imgNo < 0) {
+                imgNo = gi.nImages - 1;
+            }
+            changeShot(galleryID, imgNo);
+        }
+        document.addEventListener("DOMContentLoaded", buildGalleriesInfo);
+    </script>
+
 </head>
 
 <body>

@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"html"
-	"path/filepath"
-
 	"github.com/kjk/notionapi"
 	"github.com/kjk/notionapi/tohtml"
+	"html"
+	"strconv"
+	"strings"
 )
 
 // HTMLRenderer renders article as html
@@ -15,7 +15,7 @@ type HTMLRenderer struct {
 	page         *notionapi.Page
 	notionClient *notionapi.Client
 	idToArticle  func(string) *Article
-	images       []ImageMapping
+	galleries [][]string
 
 	r *tohtml.HTMLRenderer
 }
@@ -49,6 +49,80 @@ func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, s
 	return article.URL(), article.Title
 }
 
+func genGalleryMainHTML(galleryID int, imageURL string) string {
+	s := `
+  <div class="img-wrapper-wrapper">
+    <div class="img-wrapper">
+      <img id="id-gallery-{galleryID}" src="{imageURL}" />
+      <a class="for-nav-icon nav-icon-left" href="#" onclick="imgPrev("{galleryID}"); return false;">
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="nav-icon">
+          <g>
+            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" class="style-scope yt-icon">
+            </path>
+          </g>
+        </svg>
+      </a>
+
+      <a class="for-nav-icon nav-icon-right" href="#" onclick="imgNext({galleryID}); return false;">
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="nav-icon" style="">
+          <g>
+            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" class="yt-icon"></path>
+          </g>
+        </svg>
+      </a>
+    </div>
+  </div>
+`
+	s = strings.Replace(s, "{galleryID}", strconv.Itoa(galleryID), -1)
+	s = strings.Replace(s, "{imageURL}", imageURL, -1)
+	return s
+}
+
+func genGalleryThumbHTML(galleryID int, n int, im *ImageMapping) string {
+	s := `
+    <div id="id-thumb-{galleryID}-{imageNo}" class="pa1 ib">
+      <a href="#" onclick="changeShot({galleryID}, {imageNo}); return false;">
+        <img id="id-thumb-img-{galleryID}-{imageNo}" src="{imageURL}" width="80" height="60" />
+      </a>
+	</div>
+`
+	s = strings.Replace(s, "{galleryID}", strconv.Itoa(galleryID), -1)
+	ns := strconv.Itoa(n)
+	s = strings.Replace(s, "{imageNo}", ns, -1)
+	s = strings.Replace(s, "{imageURL}", im.relativeURL, -1)
+	return s
+}
+
+func (r *HTMLRenderer) renderGallery(block *notionapi.Block, entering bool) bool {
+	imageURLS := r.article.getGalleryImages(block)
+	if len(imageURLS) == 0 {
+		return false
+	}
+	if !entering {
+		return true
+	}
+	panicIf(len(imageURLS) < 2, "expected gallery to have at least 2 images, got %d", len(imageURLS))
+	galleryID := len(r.galleries)
+	r.galleries = append(r.galleries, imageURLS)
+	var images []*ImageMapping
+	for _, link := range imageURLS {
+		im := r.article.findImageMappingBySource(link)
+		panicIf(im == nil, "didn't find ImageMapping for %s", link)
+		images = append(images, im)
+	}
+	firstImage := images[0]
+	s := genGalleryMainHTML(galleryID, firstImage.relativeURL)
+	r.r.WriteString(s)
+
+	r.r.WriteString(`<div class="center mt3 mb6">`)
+	for i, im := range images {
+		s := genGalleryThumbHTML(galleryID, i, im)
+		r.r.WriteString(s)
+	}
+	r.r.WriteString(`</div>`)
+	return true
+}
+
 // RenderImage renders BlockImage
 func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
 	if !entering {
@@ -56,19 +130,8 @@ func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
 	}
 
 	link := block.Source
-	path, err := downloadAndCacheImage(r.notionClient, link)
-	if err != nil {
-		lg("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(r.page.ID), err)
-		panicIfErr(err)
-		return false
-	}
-	relURL := "/img/" + filepath.Base(path)
-	im := ImageMapping{
-		path:        path,
-		relativeURL: relURL,
-	}
-	r.images = append(r.images, im)
-
+	im := r.article.findImageMappingBySource(link)
+	relURL := im.relativeURL
 	imgURL := r.article.getImageBlockURL(block)
 	if imgURL != "" {
 		attrs := []string{"href", imgURL, "target", "_blank"}
@@ -123,7 +186,8 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
 	// %s
 	// </pre>`, levelCls, block.CodeLanguage, levelCls, code)
 	if entering {
-		htmlHighlight(r.r.Buf, string(block.Code), block.CodeLanguage, "")
+		err := htmlHighlight(r.r.Buf, string(block.Code), block.CodeLanguage, "")
+		panicIfErr(err)
 	}
 	return true
 }
@@ -131,6 +195,9 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
 // if returns false, the block will be rendered with default
 func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool) bool {
 	if r.article.shouldSkipBlock(block) {
+		return true
+	}
+	if r.renderGallery(block, entering) {
 		return true
 	}
 	switch block.Type {
@@ -180,12 +247,12 @@ func (r *HTMLRenderer) Gen() []byte {
 	return []byte(s)
 }
 
-func notionToHTML(c *notionapi.Client, article *Article, articles *Articles) ([]byte, []ImageMapping) {
+func notionToHTML(c *notionapi.Client, article *Article, articles *Articles) ([]byte, []*ImageMapping) {
 	r := NewHTMLRenderer(c, article)
 	if articles != nil {
 		r.idToArticle = func(id string) *Article {
 			return articles.idToArticle[id]
 		}
 	}
-	return r.Gen(), r.images
+	return r.Gen(), r.article.Images
 }

@@ -125,6 +125,108 @@ a.taglink:hover {
   filter: grayscale(100%);
 }
 
+/*
+https://github.com/tachyons-css/tachyons-flexbox
+http://tachyons.io/docs/
+*/
+.f7 {
+  font-size: 0.75rem;
+}
+.mt1 {
+  margin-top: 0.25rem;
+}
+.mt2 {
+  margin-top: 0.5rem;
+}
+.mt3 {
+  margin-top: 1rem;
+}
+.mb6 {
+  margin-bottom: 2rem;
+}
+
+.pa1 {
+  padding: 4px;
+}
+
+.mr2 {
+  margin-right: 0.5rem;
+}
+.mr3 {
+  margin-right: 1rem;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.selected-img {
+  border: 1px solid lightskyblue;
+}
+
+.img-wrapper-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-wrapper > img {
+  object-fit: scale-down;
+  max-width: 95vw;
+  max-height: 480px;
+}
+
+.nav-icon-left {
+  position: absolute;
+  left: -16px;
+  top: calc(50% - 24px);
+}
+
+.nav-icon-right {
+  position: absolute;
+  right: -16px;
+  top: calc(50% - 24px);
+}
+
+a.for-nav-icon {
+  display: flex;
+
+  text-decoration: none;
+  font-size: 0px;
+  justify-content: center;
+  align-items: center;
+
+  fill: gray;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 24px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+a.for-nav-icon:hover {
+  fill: #555;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  display: block;
+}
+
+.ib {
+  display: inline-block;
+}
+
 /* https://stackoverflow.com/questions/19390690/css-media-queries-to-hide-and-show-page-elements
 TODO: it still loads the image if it's inside div hidden with this trick, at least in Chrome's device simulator
 See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
