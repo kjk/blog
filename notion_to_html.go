@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/kjk/notionapi"
-	"github.com/kjk/notionapi/tohtml"
 	"html"
 	"strconv"
 	"strings"
+
+	"github.com/kjk/notionapi"
+	"github.com/kjk/notionapi/tohtml"
 )
 
 // HTMLRenderer renders article as html
@@ -15,7 +16,7 @@ type HTMLRenderer struct {
 	page         *notionapi.Page
 	notionClient *notionapi.Client
 	idToArticle  func(string) *Article
-	galleries [][]string
+	galleries    [][]string
 
 	r *tohtml.HTMLRenderer
 }
@@ -93,13 +94,10 @@ func genGalleryThumbHTML(galleryID int, n int, im *ImageMapping) string {
 	return s
 }
 
-func (r *HTMLRenderer) renderGallery(block *notionapi.Block, entering bool) bool {
+func (r *HTMLRenderer) renderGallery(block *notionapi.Block) bool {
 	imageURLS := r.article.getGalleryImages(block)
 	if len(imageURLS) == 0 {
 		return false
-	}
-	if !entering {
-		return true
 	}
 	panicIf(len(imageURLS) < 2, "expected gallery to have at least 2 images, got %d", len(imageURLS))
 	galleryID := len(r.galleries)
@@ -124,11 +122,7 @@ func (r *HTMLRenderer) renderGallery(block *notionapi.Block, entering bool) bool
 }
 
 // RenderImage renders BlockImage
-func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
-	if !entering {
-		return true
-	}
-
+func (r *HTMLRenderer) RenderImage(block *notionapi.Block) bool {
 	link := block.Source
 	im := r.article.findImageMappingBySource(link)
 	relURL := im.relativeURL
@@ -151,12 +145,14 @@ func (r *HTMLRenderer) RenderImage(block *notionapi.Block, entering bool) bool {
 }
 
 // RenderPage renders BlockPage
-func (r *HTMLRenderer) RenderPage(block *notionapi.Block, entering bool) bool {
+func (r *HTMLRenderer) RenderPage(block *notionapi.Block) bool {
 	tp := block.GetPageType()
 	if tp == notionapi.BlockPageTopLevel {
 		// title := html.EscapeString(block.Title)
 		attrs := []string{"class", "notion-page"}
-		r.r.WriteElement(block, "div", attrs, "", entering)
+		r.r.WriteElement(block, "div", attrs, "", true)
+		r.r.RenderChildren(block)
+		r.r.WriteElement(block, "div", attrs, "", false)
 		return true
 	}
 
@@ -174,39 +170,38 @@ func (r *HTMLRenderer) RenderPage(block *notionapi.Block, entering bool) bool {
 	content := fmt.Sprintf(`<a href="%s">%s</a>`, url, title)
 	attrs := []string{"class", cls}
 	title = html.EscapeString(title)
-	r.r.WriteElement(block, "div", attrs, content, entering)
+	r.r.WriteElement(block, "div", attrs, content, true)
+	r.r.WriteElement(block, "div", attrs, content, false)
 	return true
 }
 
 // RenderCode renders BlockCode
-func (r *HTMLRenderer) RenderCode(block *notionapi.Block, entering bool) bool {
+func (r *HTMLRenderer) RenderCode(block *notionapi.Block) bool {
 	// code := html.EscapeString(block.Code)
 	// fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
 	// <pre class="%s">
 	// %s
 	// </pre>`, levelCls, block.CodeLanguage, levelCls, code)
-	if entering {
-		err := htmlHighlight(r.r.Buf, string(block.Code), block.CodeLanguage, "")
-		panicIfErr(err)
-	}
+	err := htmlHighlight(r.r.Buf, string(block.Code), block.CodeLanguage, "")
+	panicIfErr(err)
 	return true
 }
 
 // if returns false, the block will be rendered with default
-func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block, entering bool) bool {
+func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block) bool {
 	if r.article.shouldSkipBlock(block) {
 		return true
 	}
-	if r.renderGallery(block, entering) {
+	if r.renderGallery(block) {
 		return true
 	}
 	switch block.Type {
 	case notionapi.BlockPage:
-		return r.RenderPage(block, entering)
+		return r.RenderPage(block)
 	case notionapi.BlockCode:
-		return r.RenderCode(block, entering)
+		return r.RenderCode(block)
 	case notionapi.BlockImage:
-		return r.RenderImage(block, entering)
+		return r.RenderImage(block)
 	}
 	return false
 }

@@ -43,37 +43,6 @@ func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
 	return f, nil
 }
 
-func findSubPageIDs(blocks []*notionapi.Block) []string {
-	pageIDs := map[string]struct{}{}
-	seen := map[string]struct{}{}
-	toVisit := blocks
-	for len(toVisit) > 0 {
-		block := toVisit[0]
-		toVisit = toVisit[1:]
-		id := normalizeID(block.ID)
-		if block.Type == notionapi.BlockPage {
-			pageIDs[id] = struct{}{}
-			seen[id] = struct{}{}
-		}
-		for _, b := range block.Content {
-			if b == nil {
-				continue
-			}
-			id := normalizeID(block.ID)
-			if _, ok := seen[id]; ok {
-				continue
-			}
-			toVisit = append(toVisit, b)
-		}
-	}
-	res := []string{}
-	for id := range pageIDs {
-		res = append(res, id)
-	}
-	sort.Strings(res)
-	return res
-}
-
 func loadPageFromCache(dir, pageID string) *notionapi.Page {
 	cachedPath := filepath.Join(dir, pageID+".json")
 	d, err := ioutil.ReadFile(cachedPath)
@@ -358,7 +327,7 @@ func loadNotionPages(c *notionapi.Client, indexPageID string, idToPage map[strin
 
 		idToPage[pageID] = page
 
-		subPages := findSubPageIDs(page.Root.Content)
+		subPages := notionapi.GetSubPages(page.Root.Content)
 		toVisit = append(toVisit, subPages...)
 	}
 }

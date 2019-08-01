@@ -10,7 +10,7 @@ require (
 	github.com/gomarkdown/markdown v0.0.0-20190222000725-ee6a7931a1e4
 	github.com/gorilla/handlers v1.4.2 // indirect
 	github.com/kjk/betterguid v0.0.0-20170621091430-c442874ba63a
-	github.com/kjk/notionapi v0.0.0-20190727083811-c8b209e40761
+	github.com/kjk/notionapi v0.0.0-20190801061857-91379efc609d
 	github.com/kjk/u v0.0.0-20170711051841-93181be023c9
 	github.com/kylelemons/godebug v1.1.0
 	github.com/mattn/go-colorable v0.1.2 // indirect
@@ -27,7 +27,7 @@ require (
 	github.com/yosssi/gohtml v0.0.0-20190128141317-9b7db94d32d9
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
 	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 // indirect
-	golang.org/x/sys v0.0.0-20190726091711-fc99dfbffb4e // indirect
+	golang.org/x/sys v0.0.0-20190801041406-cbf593c0f2f3 // indirect
 	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/tools v0.0.0-20190726230722-1bd56024c620 // indirect
+	golang.org/x/tools v0.0.0-20190731214159-1e85ed8060aa // indirect
 )
