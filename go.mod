@@ -6,11 +6,11 @@ require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/chilts/sid v0.0.0-20190607042430-660e94789ec9
 	github.com/daaku/go.zipexe v1.0.1 // indirect
-	github.com/dlclark/regexp2 v1.1.8 // indirect
-	github.com/gomarkdown/markdown v0.0.0-20190222000725-ee6a7931a1e4
+	github.com/dlclark/regexp2 v1.2.0 // indirect
+	github.com/gomarkdown/markdown v0.0.0-20190802011031-b3dd8ce84a34
 	github.com/gorilla/handlers v1.4.2 // indirect
 	github.com/kjk/betterguid v0.0.0-20170621091430-c442874ba63a
-	github.com/kjk/notionapi v0.0.0-20190801061857-91379efc609d
+	github.com/kjk/notionapi v0.0.0-20190808072438-e0b5eb863b99
 	github.com/kjk/u v0.0.0-20170711051841-93181be023c9
 	github.com/kylelemons/godebug v1.1.0
 	github.com/mattn/go-colorable v0.1.2 // indirect
@@ -27,7 +27,7 @@ require (
 	github.com/yosssi/gohtml v0.0.0-20190128141317-9b7db94d32d9
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
 	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 // indirect
-	golang.org/x/sys v0.0.0-20190801041406-cbf593c0f2f3 // indirect
+	golang.org/x/sys v0.0.0-20190804053845-51ab0e2deafa // indirect
 	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/tools v0.0.0-20190731214159-1e85ed8060aa // indirect
+	golang.org/x/tools v0.0.0-20190807223507-b346f7fd45de // indirect
 )

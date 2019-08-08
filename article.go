@@ -296,7 +296,7 @@ func (a *Article) setHeaderImageMust(val string) {
 	a.HeaderImageURL = uri
 }
 
-func getInlineBlocksText(blocks []*notionapi.InlineBlock) string {
+func getInlineBlocksText(blocks []*notionapi.TextSpan) string {
 	s := ""
 	for _, b := range blocks {
 		s += b.Text
@@ -471,7 +471,7 @@ func (a *Article) maybeParseMeta(nBlock int, block *notionapi.Block) bool {
 func (a *Article) processBlock(blcok *notionapi.Block, nBlock int, blocks []*notionapi.Block) {
 
 }
- */
+*/
 
 func (a *Article) processBlocks(blocks []*notionapi.Block) {
 	parsingMeta := true
@@ -536,7 +536,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	//fmt.Printf("extractMetadata: %s-%s, %d blocks\n", title, id, len(blocks))
 	// metadata blocks are always at the beginning. They are TypeText blocks and
 	// have only one plain string as content
-	root := page.Root
+	root := page.Root()
 	title := root.Title
 	id := normalizeID(root.ID)
 	a := &Article{
@@ -558,7 +558,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 	a.PublishedOn = root.CreatedOn()
 	a.UpdatedOn = root.UpdatedOn()
 
-	a.processBlocks(page.Root.Content)
+	a.processBlocks(page.Root().Content)
 
 	if !a.publishedOnOverwrite.IsZero() {
 		a.PublishedOn = a.publishedOnOverwrite
@@ -576,7 +576,7 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		a.Paths = append(a.Paths, path)
 	}
 
-	format := root.FormatPage
+	format := root.FormatPage()
 	// set image header from cover page
 	if a.HeaderImageURL == "" && format != nil && format.PageCover != "" {
 		path, err := downloadAndCacheImage(c, format.PageCover)
@@ -592,6 +592,6 @@ func notionPageToArticle(c *notionapi.Client, page *notionapi.Page) *Article {
 		a.HeaderImageURL = uri
 	}
 
-	a.removeEmptyTextBlocksAtEnd(page.Root)
+	a.removeEmptyTextBlocksAtEnd(page.Root())
 	return a
 }

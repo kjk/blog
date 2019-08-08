@@ -59,7 +59,7 @@ func buildArticleNavigation(article *Article, isRootPage func(string) bool, idTo
 		return
 	}
 
-	page := article.page.Root
+	page := article.page.Root()
 	currID := normalizeID(page.ParentID)
 
 	var paths []URLPath
@@ -110,7 +110,7 @@ func buildArticlesNavigation(articles *Articles) {
 		if page == nil {
 			continue
 		}
-		addIDToBlock(page.Root, idToBlock)
+		addIDToBlock(page.Root(), idToBlock)
 	}
 
 	isRoot := func(id string) bool {

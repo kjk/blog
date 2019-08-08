@@ -207,7 +207,8 @@ func loadNotionPage(c *notionapi.Client, pageID string, n int, isCachedPageNotOu
 	if isCachedPageNotOutdated[pageID] {
 		page := cachedPagesFromDisk[pageID]
 		//nTotalFromCache++
-		verbose("Page %4d %s: skipping (ver not changed), title: %s\n", n, page.ID, page.Root.Title)
+		title := page.Root().Title
+		verbose("Page %4d %s: skipping (ver not changed), title: %s\n", n, page.ID, title)
 		return page, nil
 	}
 
@@ -215,7 +216,7 @@ func loadNotionPage(c *notionapi.Client, pageID string, n int, isCachedPageNotOu
 	if err != nil {
 		return nil, err
 	}
-	lg("Page %4d %s: downloaded. Title: %s\n", n, page.ID, page.Root.Title)
+	lg("Page %4d %s: downloaded. Title: %s\n", n, page.ID, page.Root().Title)
 	return page, nil
 }
 
@@ -274,7 +275,7 @@ func checkIfPagesAreOutdated(c *notionapi.Client, cachedPagesFromDisk map[string
 	for i, ver := range versions {
 		id := ids[i]
 		page := cachedPagesFromDisk[id]
-		isOutdated := ver > page.Root.Version
+		isOutdated := ver > page.Root().Version
 		isCachedPageNotOutdated[id] = !isOutdated
 		if isOutdated {
 			nOutdated++
@@ -327,7 +328,7 @@ func loadNotionPages(c *notionapi.Client, indexPageID string, idToPage map[strin
 
 		idToPage[pageID] = page
 
-		subPages := notionapi.GetSubPages(page.Root.Content)
+		subPages := notionapi.GetSubPages(page.Root().Content)
 		toVisit = append(toVisit, subPages...)
 	}
 }
@@ -360,6 +361,6 @@ func rmCached(pageID string) {
 func loadPageAsArticle(c *notionapi.Client, pageID string) *Article {
 	page, err := downloadAndCachePage(c, pageID)
 	panicIfErr(err)
-	lg("Downloaded %s %s\n", pageID, page.Root.Title)
+	lg("Downloaded %s %s\n", pageID, page.Root().Title)
 	return notionPageToArticle(c, page)
 }

@@ -18,7 +18,7 @@ type HTMLRenderer struct {
 	idToArticle  func(string) *Article
 	galleries    [][]string
 
-	r *tohtml.HTMLRenderer
+	r *tohtml.Converter
 }
 
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
@@ -214,7 +214,7 @@ func NewHTMLRenderer(c *notionapi.Client, article *Article) *HTMLRenderer {
 		page:         article.page,
 	}
 
-	r := tohtml.NewHTMLRenderer(article.page)
+	r := tohtml.NewConverter(article.page)
 	notionapi.PanicOnFailures = true
 	r.AddIDAttribute = true
 	r.RenderBlockOverride = res.blockRenderOverride
@@ -227,8 +227,8 @@ func NewHTMLRenderer(c *notionapi.Client, article *Article) *HTMLRenderer {
 // Gen returns generated HTML
 func (r *HTMLRenderer) Gen() []byte {
 	inner := string(r.r.ToHTML())
-	page := r.page.Root
-	f := page.FormatPage
+	page := r.page.Root()
+	f := page.FormatPage()
 	isMono := f != nil && f.PageFont == "mono"
 
 	s := `<p></p>`
