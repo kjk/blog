@@ -10,8 +10,8 @@ import (
 	"github.com/kjk/notionapi/tohtml"
 )
 
-// HTMLRenderer renders article as html
-type HTMLRenderer struct {
+// Converter renders article as html
+type Converter struct {
 	article      *Article
 	page         *notionapi.Page
 	notionClient *notionapi.Client
@@ -24,7 +24,7 @@ type HTMLRenderer struct {
 // change https://www.notion.so/Advanced-web-spidering-with-Puppeteer-ea07db1b9bff415ab180b0525f3898f6
 // =>
 // /article/${id}
-func (r *HTMLRenderer) rewriteURL(uri string) string {
+func (r *Converter) rewriteURL(uri string) string {
 	id := notionapi.ExtractNoDashIDFromNotionURL(uri)
 	if id == "" {
 		return uri
@@ -37,7 +37,7 @@ func (r *HTMLRenderer) rewriteURL(uri string) string {
 	return article.URL()
 }
 
-func (r *HTMLRenderer) getURLAndTitleForBlock(block *notionapi.Block) (string, string) {
+func (r *Converter) getURLAndTitleForBlock(block *notionapi.Block) (string, string) {
 	id := notionapi.ToNoDashID(block.ID)
 	article := r.idToArticle(id)
 	if article == nil {
@@ -94,7 +94,7 @@ func genGalleryThumbHTML(galleryID int, n int, im *ImageMapping) string {
 	return s
 }
 
-func (r *HTMLRenderer) renderGallery(block *notionapi.Block) bool {
+func (r *Converter) renderGallery(block *notionapi.Block) bool {
 	imageURLS := r.article.getGalleryImages(block)
 	if len(imageURLS) == 0 {
 		return false
@@ -122,7 +122,7 @@ func (r *HTMLRenderer) renderGallery(block *notionapi.Block) bool {
 }
 
 // RenderImage renders BlockImage
-func (r *HTMLRenderer) RenderImage(block *notionapi.Block) bool {
+func (r *Converter) RenderImage(block *notionapi.Block) bool {
 	link := block.Source
 	im := r.article.findImageMappingBySource(link)
 	relURL := im.relativeURL
@@ -145,7 +145,7 @@ func (r *HTMLRenderer) RenderImage(block *notionapi.Block) bool {
 }
 
 // RenderPage renders BlockPage
-func (r *HTMLRenderer) RenderPage(block *notionapi.Block) bool {
+func (r *Converter) RenderPage(block *notionapi.Block) bool {
 	tp := block.GetPageType()
 	if tp == notionapi.BlockPageTopLevel {
 		// title := html.EscapeString(block.Title)
@@ -176,7 +176,7 @@ func (r *HTMLRenderer) RenderPage(block *notionapi.Block) bool {
 }
 
 // RenderCode renders BlockCode
-func (r *HTMLRenderer) RenderCode(block *notionapi.Block) bool {
+func (r *Converter) RenderCode(block *notionapi.Block) bool {
 	// code := html.EscapeString(block.Code)
 	// fmt.Fprintf(g.f, `<div class="%s">Lang for code: %s</div>
 	// <pre class="%s">
@@ -188,7 +188,7 @@ func (r *HTMLRenderer) RenderCode(block *notionapi.Block) bool {
 }
 
 // if returns false, the block will be rendered with default
-func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block) bool {
+func (r *Converter) blockRenderOverride(block *notionapi.Block) bool {
 	if r.article.shouldSkipBlock(block) {
 		return true
 	}
@@ -206,9 +206,9 @@ func (r *HTMLRenderer) blockRenderOverride(block *notionapi.Block) bool {
 	return false
 }
 
-// NewHTMLRenderer returns new HTMLGenerator
-func NewHTMLRenderer(c *notionapi.Client, article *Article) *HTMLRenderer {
-	res := &HTMLRenderer{
+// NewHTMLConverter returns new HTMLGenerator
+func NewHTMLConverter(c *notionapi.Client, article *Article) *Converter {
+	res := &Converter{
 		notionClient: c,
 		article:      article,
 		page:         article.page,
@@ -225,7 +225,7 @@ func NewHTMLRenderer(c *notionapi.Client, article *Article) *HTMLRenderer {
 }
 
 // Gen returns generated HTML
-func (r *HTMLRenderer) Gen() []byte {
+func (r *Converter) GenereateHTML() []byte {
 	inner := string(r.r.ToHTML())
 	page := r.page.Root()
 	f := page.FormatPage()
@@ -243,11 +243,12 @@ func (r *HTMLRenderer) Gen() []byte {
 }
 
 func notionToHTML(c *notionapi.Client, article *Article, articles *Articles) ([]byte, []*ImageMapping) {
-	r := NewHTMLRenderer(c, article)
+	//fmt.Printf("notionToHTML: %s\n", notionapi.ToNoDashID(article.ID))
+	r := NewHTMLConverter(c, article)
 	if articles != nil {
 		r.idToArticle = func(id string) *Article {
 			return articles.idToArticle[id]
 		}
 	}
-	return r.Gen(), r.article.Images
+	return r.GenereateHTML(), r.article.Images
 }
