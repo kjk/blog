@@ -40,12 +40,15 @@ func loadHTTPCacheForPage(path string) *notionapi.HTTPCache {
 func loadPageFromCache(dir, pageID string) *notionapi.Page {
 	path := filepath.Join(dir, pageID+".txt")
 	httpCache := loadHTTPCacheForPage(path)
-	if httpCache != nil {
+	if httpCache == nil {
 		return nil
 	}
-	client := &notionapi.Client{}
 	httpClient := notionapi.NewCachingHTTPClient(httpCache)
-	client.HTTPClient = httpClient
+	client := &notionapi.Client{
+		//DebugLog:   true,
+		//Logger:     os.Stdout,
+		HTTPClient: httpClient,
+	}
 	page, err := client.DownloadPage(pageID)
 	must(err)
 	panicIf(httpCache.RequestsNotFromCache != 0, "unexpectedly made %d server connections for page %s", httpCache.RequestsNotFromCache, pageID)
@@ -192,6 +195,7 @@ func loadPagesFromDisk(dir string) map[string]*notionapi.Page {
 			continue
 		}
 		page := loadPageFromCache(dir, pageID)
+		panicIf(page == nil)
 		cachedPagesFromDisk[pageID] = page
 	}
 	lg("loadPagesFromDisk: loaded %d cached pages from %s\n", len(cachedPagesFromDisk), dir)
