@@ -6,8 +6,6 @@ import (
 	"os"
 	"path/filepath"
 	"time"
-
-	"github.com/kjk/notionapi"
 )
 
 var (
@@ -32,7 +30,7 @@ func createNotionDirs() {
 }
 
 // downloads and html
-func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
+func testNotionToHTMLOnePage(d *CachingDownloader, id string) {
 
 	//id := "c9bef0f1c8fe40a2bc8b06ace2bd7d8f" // tools page, columns
 	//id := "0a66e6c0c36f4de49417a47e2c40a87e" // mono-spaced page with toggle, devlog 2018
@@ -43,7 +41,7 @@ func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
 	createDestDir()
 
 	id = normalizeID(id)
-	article := loadPageAsArticle(c, id)
+	article := loadPageAsArticle(d, id)
 
 	canonicalURL := netlifyRequestGetFullHost() + article.URL()
 	model := struct {
@@ -80,11 +78,11 @@ func testNotionToHTMLOnePage(c *notionapi.Client, id string) {
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, tmplArticle, model)
 	panicIfErr(err)
-	d := buf.Bytes()
-	d = bytes.Replace(d, []byte("/css/main.css"), []byte("/main.css"), -1)
+	data := buf.Bytes()
+	data = bytes.Replace(data, []byte("/css/main.css"), []byte("/main.css"), -1)
 
 	path := filepath.Join(destDir, "index.html")
-	err = ioutil.WriteFile(path, d, 0644)
+	err = ioutil.WriteFile(path, data, 0644)
 	panicIfErr(err)
 	copyCSS()
 

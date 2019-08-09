@@ -9,8 +9,6 @@ import (
 	"os/exec"
 	"runtime"
 	"time"
-
-	"github.com/kjk/notionapi"
 )
 
 var (
@@ -36,10 +34,10 @@ func parseCmdLineFlags() {
 	flag.Parse()
 }
 
-func rebuildAll(c *notionapi.Client) *Articles {
+func rebuildAll(d *CachingDownloader) *Articles {
 	regenMd()
 	loadTemplates()
-	articles := loadArticles(c)
+	articles := loadArticles(d)
 	readRedirects(articles)
 	netlifyBuild(articles)
 	return articles
@@ -87,21 +85,21 @@ func main() {
 	parseCmdLineFlags()
 	os.MkdirAll("netlify_static", 0755)
 
-	client := &notionapi.Client{}
+	d := NewCachingDownloader(cacheDir)
 
 	// make sure this happens first so that building for deployment is not
 	// disrupted by the temporary testing code we might have below
 	if flgDeploy {
-		rebuildAll(client)
+		rebuildAll(d)
 		return
 	}
 
 	if false {
-		testNotionToHTMLOnePage(client, "dfbefe6906a943d8b554699341e997b0")
+		testNotionToHTMLOnePage(d, "dfbefe6906a943d8b554699341e997b0")
 		os.Exit(0)
 	}
 
-	articles := rebuildAll(client)
+	articles := rebuildAll(d)
 
 	if flgPreview {
 		preview()

@@ -91,6 +91,10 @@ func buildArticleNavigation(article *Article, isRootPage func(string) bool, idTo
 	}
 }
 
+func normalizeID(id string) string {
+	return notionapi.ToNoDashID(id)
+}
+
 func addIDToBlock(block *notionapi.Block, idToBlock map[string]*notionapi.Block) {
 	id := normalizeID(block.ID)
 	idToBlock[id] = block
@@ -114,7 +118,7 @@ func buildArticlesNavigation(articles *Articles) {
 	}
 
 	isRoot := func(id string) bool {
-		id = normalizeID(id)
+		id = notionapi.ToNoDashID(id)
 		switch id {
 		case notionBlogsStartPage, notionWebsiteStartPage, notionGoCookbookStartPage:
 			return true
@@ -127,14 +131,15 @@ func buildArticlesNavigation(articles *Articles) {
 	}
 }
 
-func loadArticles(c *notionapi.Client) *Articles {
+func loadArticles(d *CachingDownloader) *Articles {
+	c := &notionapi.Client{}
 	res := &Articles{}
 	startIDs := []string{notionWebsiteStartPage}
-	res.idToPage = loadAllPages(c, startIDs)
+	res.idToPage = d.loadAllPages(startIDs)
 
 	res.idToArticle = map[string]*Article{}
 	for id, page := range res.idToPage {
-		panicIf(id != normalizeID(id), "bad id '%s' sneaked in", id)
+		panicIf(id != notionapi.ToNoDashID(id), "bad id '%s' sneaked in", id)
 		article := notionPageToArticle(c, page)
 		if article.urlOverride != "" {
 			verbose("url override: %s => %s\n", article.urlOverride, article.ID)
