@@ -2,9 +2,7 @@ package main
 
 import (
 	"crypto/sha1"
-	"encoding/json"
 	"fmt"
-	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -16,11 +14,7 @@ import (
 )
 
 var (
-	// if true, we'll log
-	logNotionRequests = true
-
-	cacheDir     = "notion_cache"
-	notionLogDir = "log"
+	cacheDir = "notion_cache"
 )
 
 // convert 2131b10c-ebf6-4938-a127-7089ff02dbe4 to 2131b10cebf64938a1277089ff02dbe4
@@ -28,49 +22,53 @@ func normalizeID(s string) string {
 	return notionapi.ToNoDashID(s)
 }
 
-func openLogFileForPageID(pageID string) (io.WriteCloser, error) {
-	if !logNotionRequests {
-		return nil, nil
-	}
-
-	name := fmt.Sprintf("%s.go.log.txt", pageID)
-	path := filepath.Join(notionLogDir, name)
-	f, err := os.Create(path)
+func loadHTTPCacheForPage(path string) *notionapi.HTTPCache {
+	d, err := ioutil.ReadFile(path)
 	if err != nil {
-		lg("os.Create('%s') failed with %s\n", path, err)
-		return nil, err
+		// it's ok if file doesn't exit
+		return nil
 	}
-	return f, nil
+	httpCache, err := deserializeHTTPCache(d)
+	if err != nil {
+		err = os.Remove(path)
+		must(err)
+		fmt.Printf("Deleted file %s\n", path)
+	}
+	return httpCache
 }
 
 func loadPageFromCache(dir, pageID string) *notionapi.Page {
-	cachedPath := filepath.Join(dir, pageID+".json")
-	d, err := ioutil.ReadFile(cachedPath)
-	if err != nil {
+	path := filepath.Join(dir, pageID+".txt")
+	httpCache := loadHTTPCacheForPage(path)
+	if httpCache != nil {
 		return nil
 	}
-
-	var page notionapi.Page
-	err = json.Unmarshal(d, &page)
-	panicIfErr(err)
-	return &page
+	client := &notionapi.Client{}
+	httpClient := notionapi.NewCachingHTTPClient(httpCache)
+	client.HTTPClient = httpClient
+	page, err := client.DownloadPage(pageID)
+	must(err)
+	panicIf(httpCache.RequestsNotFromCache != 0, "unexpectedly made %d server connections for page %s", httpCache.RequestsNotFromCache, pageID)
+	return page
 }
 
 // I got "connection reset by peer" error once so retry download 3 times, with a short sleep in-between
-func downloadPageRetry(c *notionapi.Client, pageID string) (*notionapi.Page, error) {
+func downloadPageRetry(c *notionapi.Client, pageID string) (*notionapi.Page, *notionapi.HTTPCache, error) {
 	var res *notionapi.Page
 	var err error
 	for i := 0; i < 3; i++ {
 		if i > 0 {
 			lg("Download %s failed with '%s'\n", pageID, err)
-			time.Sleep(3 * time.Second) // not sure if it matters
+			time.Sleep(5 * time.Second) // not sure if it matters
 		}
+		httpCache := notionapi.NewHTTPCache()
+		c.HTTPClient = notionapi.NewCachingHTTPClient(httpCache)
 		res, err = c.DownloadPage(pageID)
 		if err == nil {
-			return res, nil
+			return res, httpCache, nil
 		}
 	}
-	return nil, err
+	return nil, nil, err
 }
 
 func sha1OfLink(link string) string {
@@ -151,24 +149,21 @@ func downloadAndCacheImage(c *notionapi.Client, uri string) (string, error) {
 
 func downloadAndCachePage(c *notionapi.Client, pageID string) (*notionapi.Page, error) {
 	//verbose("downloading page with id %s\n", pageID)
-	lf, _ := openLogFileForPageID(pageID)
-	if lf != nil {
-		c.Logger = lf
-		defer lf.Close()
-	}
-	cachedPath := filepath.Join(cacheDir, pageID+".json")
-	page, err := downloadPageRetry(c, pageID)
+	prevClient := c.HTTPClient
+	defer func() {
+		c.HTTPClient = prevClient
+	}()
+
+	page, httpCache, err := downloadPageRetry(c, pageID)
 	if err != nil {
 		return nil, err
 	}
-	d, err := json.MarshalIndent(page, "", "  ")
-	if err == nil {
-		err = ioutil.WriteFile(cachedPath, d, 0644)
-		panicIfErr(err)
-	} else {
-		// not a fatal error, just a warning
-		lg("json.Marshal() on pageID '%s' failed with %s\n", pageID, err)
-	}
+
+	path := filepath.Join(cacheDir, pageID+".txt")
+	d, err := serializeHTTPCache(httpCache)
+	must(err)
+	err = ioutil.WriteFile(path, d, 0644)
+	panicIfErr(err)
 	return page, nil
 }
 
@@ -178,7 +173,7 @@ func pageIDFromFileName(name string) string {
 		return ""
 	}
 	id := parts[0]
-	if len(id) == len("2b831bac5afc414493cff5e06e8e4460") {
+	if notionapi.IsValidNoDashID(id) {
 		return id
 	}
 	return ""
@@ -354,8 +349,7 @@ func rmFile(path string) {
 
 func rmCached(pageID string) {
 	id := normalizeID(pageID)
-	rmFile(filepath.Join(notionLogDir, id+".go.log.txt"))
-	rmFile(filepath.Join(cacheDir, id+".json"))
+	rmFile(filepath.Join(cacheDir, id+".txt"))
 }
 
 func loadPageAsArticle(c *notionapi.Client, pageID string) *Article {
