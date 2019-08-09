@@ -1,0 +1,993 @@
+3290 1565326155207 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+      "table": "block"
+    }
+  ]
+}
+Response:+2141
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "3b14700b-f965-4939-b2ea-0e9fce9f4b14",
+          "61543f04-bb91-4e6f-96c8-8320ff71f800",
+          "09f70af2-0fdf-4ca7-b940-4d5fd62f0618",
+          "81a53d3d-b3d8-4919-bf66-cb96c435dc29",
+          "079bd614-a77a-4826-9eaa-a565f943085f",
+          "88c4a0d1-223d-4f71-b152-f77bfe3acda0",
+          "65f0ee8e-75a8-4bf5-9747-f5b1702f3f0e",
+          "2b7979d6-6062-4af3-93e3-86613cbc8793",
+          "7931384b-d43f-4037-bb21-31423d9cd9b8",
+          "27356384-c272-4436-be48-463bf725f242",
+          "10b3a8f2-380c-4374-9c81-836376eef58e",
+          "340099e4-ee4e-4076-953a-b77bd51b6ea7",
+          "3c38ff7f-ffff-4f24-92d9-8501021e2098",
+          "c3bbbe46-4ab3-4d8b-b9c6-b8e27feecb4d",
+          "a9aedd68-c27e-40d4-832f-36ff17932724",
+          "6d4aaf3f-a3a9-4d53-be36-0f78f83d1222",
+          "fa150f31-ac63-4794-8f96-8157a00c5574",
+          "5ebc0882-bc47-40f1-a3e6-4963ee722250",
+          "88086084-c3e1-4e9b-a092-0aab165bbb17",
+          "d6193407-27ae-42f5-85ac-61c8daef770a",
+          "eab47b44-82cb-4e9b-bc6e-e5984245e6bf",
+          "4ac911e7-fec7-4c3a-b625-1330feca8743",
+          "b4ab84b4-170f-45f1-98fd-f89dbf302824",
+          "62bdc692-d72a-42ad-a4ee-85950a6424e0",
+          "2c1e2995-8d13-40bb-bf13-0c603f3af6e7",
+          "312a41a4-a52a-4985-a813-9a647d2990fd"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532669669706,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532669696510,
+        "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Things I Learned the Hard Way: Engineering and Computer Science in the Real World"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 43
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a30cf527fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"621-EbaaQ37OdK8KwOoS+umVvsFFmRY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+29644 1565326155211 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+  "verticalColumns": false
+}
+Response:+28453
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "079bd614-a77a-4826-9eaa-a565f943085f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "079bd614-a77a-4826-9eaa-a565f943085f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of what does David says"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 2
+        }
+      },
+      "09f70af2-0fdf-4ca7-b940-4d5fd62f0618": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "09f70af2-0fdf-4ca7-b940-4d5fd62f0618",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Introduction"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 2
+        }
+      },
+      "10b3a8f2-380c-4374-9c81-836376eef58e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "10b3a8f2-380c-4374-9c81-836376eef58e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Keep it simple and work in small chunks."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "27356384-c272-4436-be48-463bf725f242": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "27356384-c272-4436-be48-463bf725f242",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Build the debugging into the system - otherwise it'll be hell to figure out why it doesn't work. Instrument the code. Use the google to find for solutions to problems (compiler warnings etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "2b7979d6-6062-4af3-93e3-86613cbc8793": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "2b7979d6-6062-4af3-93e3-86613cbc8793",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ask questions, you might learn something. Network with your peers. Don't work for or with bozos. Interview is a both-way: they evaluate you, you evaluate them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "2c1e2995-8d13-40bb-bf13-0c603f3af6e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "2c1e2995-8d13-40bb-bf13-0c603f3af6e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Installation script for your software is important - this is the first thing that a custmore sees. Make it good."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "312a41a4-a52a-4985-a813-9a647d2990fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "312a41a4-a52a-4985-a813-9a647d2990fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Don't work with primadonnas."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "340099e4-ee4e-4076-953a-b77bd51b6ea7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "340099e4-ee4e-4076-953a-b77bd51b6ea7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Get into the habit of writing programs from scratch."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "3b14700b-f965-4939-b2ea-0e9fce9f4b14": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669679657,
+          "id": "3b14700b-f965-4939-b2ea-0e9fce9f4b14",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669685988,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2001-08-29"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 38
+        }
+      },
+      "3c38ff7f-ffff-4f24-92d9-8501021e2098": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "3c38ff7f-ffff-4f24-92d9-8501021e2098",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Don't put things off. When asked to do something, just do it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "4ac911e7-fec7-4c3a-b625-1330feca8743": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "4ac911e7-fec7-4c3a-b625-1330feca8743",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Quality analyzer (purify) and code coverage tools. Profilers. Expensive."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5ebc0882-bc47-40f1-a3e6-4963ee722250": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "5ebc0882-bc47-40f1-a3e6-4963ee722250",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use regexps to grep through the source in Emacs. ("
+              ],
+              [
+                "I would add: use "
+              ],
+              [
+                "SourceInsight instead",
+                [
+                  [
+                    "a",
+                    "http://www.sourceinsight.com/"
+                  ]
+                ]
+              ],
+              [
+                ", much more powerful (especially for C/C++ code)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "61543f04-bb91-4e6f-96c8-8320ff71f800": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669686338,
+          "id": "61543f04-bb91-4e6f-96c8-8320ff71f800",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669706720,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /articles/software-engineering.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 20
+        }
+      },
+      "62bdc692-d72a-42ad-a4ee-85950a6424e0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "62bdc692-d72a-42ad-a4ee-85950a6424e0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Business people matter. Business stuff matters. Technology is secondary."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "65f0ee8e-75a8-4bf5-9747-f5b1702f3f0e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "65f0ee8e-75a8-4bf5-9747-f5b1702f3f0e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Talk to the costumer, even if you're just a programmer. Be costumer focused."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "6d4aaf3f-a3a9-4d53-be36-0f78f83d1222": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "6d4aaf3f-a3a9-4d53-be36-0f78f83d1222",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Don't program by experimentation."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "7931384b-d43f-4037-bb21-31423d9cd9b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "7931384b-d43f-4037-bb21-31423d9cd9b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Make use out of down-time. Don't play solitaire, go grab the source code you haven't seen and start reading it. Learn new stuff. Read open-source stuff."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "81a53d3d-b3d8-4919-bf66-cb96c435dc29": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "81a53d3d-b3d8-4919-bf66-cb96c435dc29",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This essay is a summary of points made by David Parmenter during a "
+              ],
+              [
+                "talk",
+                [
+                  [
+                    "a",
+                    "http://www.aduni.org/colloquia/parmenter/"
+                  ]
+                ]
+              ],
+              [
+                " given at ArsDigita University. The university lost its funding and no longer exists but wonderful lectures and colloquia are still on-line. I've you're learning Computer Sciences, I highly recommend to watch them. You can watch them on-line ("
+              ],
+              [
+                "part 1",
+                [
+                  [
+                    "a",
+                    "https://www.youtube.com/watch?v=vj_06ZDN6vY"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "part 2",
+                [
+                  [
+                    "a",
+                    "https://www.youtube.com/watch?v=44iUKKtBuw8"
+                  ]
+                ]
+              ],
+              [
+                ") or "
+              ],
+              [
+                "download",
+                [
+                  [
+                    "a",
+                    "http://www.aduni.org/colloquia/parmenter/"
+                  ]
+                ]
+              ],
+              [
+                " for offline viewing."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "88086084-c3e1-4e9b-a092-0aab165bbb17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "88086084-c3e1-4e9b-a092-0aab165bbb17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Refactor the code - take the code apart and put it together again. It's scary to refactor - fear that change will break the stuff. Another reason to have automated tests."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "88c4a0d1-223d-4f71-b152-f77bfe3acda0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "88c4a0d1-223d-4f71-b152-f77bfe3acda0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Software is complex and hard. The big issue is trying to get the complexity under control. \"Code like hell\" is not a good way to do it. No process is necessarily better than other, but a process is much better than no process. Extreme Programming: especially the testing perspective (develop tests first)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "a9aedd68-c27e-40d4-832f-36ff17932724": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "a9aedd68-c27e-40d4-832f-36ff17932724",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Be grateful to people finding bugs in your software (i.e., don't let your hurt ego interfere)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "b4ab84b4-170f-45f1-98fd-f89dbf302824": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "b4ab84b4-170f-45f1-98fd-f89dbf302824",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Learn to estimate. Be pessimistic. Make trade-offs, prioritize."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "c3bbbe46-4ab3-4d8b-b9c6-b8e27feecb4d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671834,
+          "id": "c3bbbe46-4ab3-4d8b-b9c6-b8e27feecb4d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Read the manual (for tools, for library functions)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "d6193407-27ae-42f5-85ac-61c8daef770a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "d6193407-27ae-42f5-85ac-61c8daef770a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Learn the tools - they are productivity gains."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "da7f7cb5-0008-4dd3-8635-2d7bc4151788": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3b14700b-f965-4939-b2ea-0e9fce9f4b14",
+            "61543f04-bb91-4e6f-96c8-8320ff71f800",
+            "09f70af2-0fdf-4ca7-b940-4d5fd62f0618",
+            "81a53d3d-b3d8-4919-bf66-cb96c435dc29",
+            "079bd614-a77a-4826-9eaa-a565f943085f",
+            "88c4a0d1-223d-4f71-b152-f77bfe3acda0",
+            "65f0ee8e-75a8-4bf5-9747-f5b1702f3f0e",
+            "2b7979d6-6062-4af3-93e3-86613cbc8793",
+            "7931384b-d43f-4037-bb21-31423d9cd9b8",
+            "27356384-c272-4436-be48-463bf725f242",
+            "10b3a8f2-380c-4374-9c81-836376eef58e",
+            "340099e4-ee4e-4076-953a-b77bd51b6ea7",
+            "3c38ff7f-ffff-4f24-92d9-8501021e2098",
+            "c3bbbe46-4ab3-4d8b-b9c6-b8e27feecb4d",
+            "a9aedd68-c27e-40d4-832f-36ff17932724",
+            "6d4aaf3f-a3a9-4d53-be36-0f78f83d1222",
+            "fa150f31-ac63-4794-8f96-8157a00c5574",
+            "5ebc0882-bc47-40f1-a3e6-4963ee722250",
+            "88086084-c3e1-4e9b-a092-0aab165bbb17",
+            "d6193407-27ae-42f5-85ac-61c8daef770a",
+            "eab47b44-82cb-4e9b-bc6e-e5984245e6bf",
+            "4ac911e7-fec7-4c3a-b625-1330feca8743",
+            "b4ab84b4-170f-45f1-98fd-f89dbf302824",
+            "62bdc692-d72a-42ad-a4ee-85950a6424e0",
+            "2c1e2995-8d13-40bb-bf13-0c603f3af6e7",
+            "312a41a4-a52a-4985-a813-9a647d2990fd"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669669706,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669696510,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Things I Learned the Hard Way: Engineering and Computer Science in the Real World"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 43
+        }
+      },
+      "eab47b44-82cb-4e9b-bc6e-e5984245e6bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "eab47b44-82cb-4e9b-bc6e-e5984245e6bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use version control. Use bug database (defect tracking)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+            "19602cce-611b-4e7e-a79a-533dca66b8a1",
+            "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+            "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+            "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+            "be2da96b-1802-4cf1-995e-11794d303358",
+            "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+            "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+            "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+            "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+            "1005c633-46e7-48ab-a225-b2cff0274aed",
+            "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+            "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669517099,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Documents"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 226
+        }
+      },
+      "fa150f31-ac63-4794-8f96-8157a00c5574": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669671835,
+          "id": "fa150f31-ac63-4794-8f96-8157a00c5574",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669671857,
+          "parent_id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Automate the workflow (always when you repeat the same keystrokes). You can use Python, Ruby, Perl, Lisp."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a313f907fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"4835-mMmj4w0P4ZO7vJFJFn2lkGHm7uQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

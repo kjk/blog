@@ -1,0 +1,1316 @@
+3686 1565326182703 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+      "table": "block"
+    }
+  ]
+}
+Response:+2537
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "7546c5e6-293d-45fb-bf3b-0cdcb48bbd0f",
+          "46516ff3-a5d0-48c1-a84f-6bf6473c2bfb",
+          "17e9bdc3-9496-45b2-9c0b-436532cfe039",
+          "3e69c67a-5a39-48d0-978a-c8a2e08c4886",
+          "2a644ec8-3aba-4973-a865-082bbb02bdc8",
+          "e272d4f0-c781-4b7b-ab38-2a1657356e6e",
+          "76c0b063-f68a-467e-b28b-993e1853b503",
+          "f8157cfd-d917-4cd0-a760-948d3f28bc7d",
+          "72e7b32c-2206-4184-9ac0-0f43cab42303",
+          "69d0d903-00ca-4179-ac95-fd2b11cab872",
+          "30e6abe9-3125-4d63-b8fc-a7807ea91960",
+          "083c291d-7648-440f-92d1-327566083970",
+          "dfe4a304-9b0f-440d-9111-f4f8ef8d2152",
+          "bf898e43-0aa1-495d-af75-039d8bad46f5",
+          "21b7b46f-5041-4bd9-bafd-8b59d0899281",
+          "96143408-ccfd-498c-ab92-0514b394163e",
+          "2edfdcaa-87c4-46fe-a744-68fd6bcf0474",
+          "de23b07c-26b8-4cfd-a5d0-b4615c7359c9",
+          "ed2b8dbe-d163-426e-afd3-4ec5beb51c1e",
+          "78548427-59f3-4100-ab1f-0082c227f1ba",
+          "67024585-0a63-47c8-ba03-2a1c0ef41c6b",
+          "d66f2171-bbb9-477f-8c59-1c4c478897dd",
+          "5281498b-8545-4c3d-a0dc-a05e9dfd27c7",
+          "c0b4f678-8643-46e6-8ea0-a1d92e43a451",
+          "da558e9c-9e67-4b10-a5a8-07b530da6b95",
+          "2e19c357-50a0-4e2a-9527-d1e967a9f75a",
+          "09f7f22d-fc4c-47f5-a3b7-f360b260eba8",
+          "7ac70dde-10ad-405d-b220-d2f93cc0bb63",
+          "8d8f36e4-f373-4cfa-bc9f-c18878d17b24",
+          "6e3c23ec-ba6c-4312-a958-5a228fa19b79",
+          "34acd1c4-3c21-494d-9d48-2e61f701490b",
+          "ca123803-3ad5-46cc-bdbc-18be7b708371",
+          "2fb41372-052c-4116-b92d-61c93dce4cf2"
+        ],
+        "copied_from": "8168e6a0-23cd-46c7-bb8c-b6dbebca1445",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200907677,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996395570,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tools that find bugs in c and c++ code via static code analysis "
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 12
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371adc9d2a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:41 GMT"
+  ],
+  "Etag": [
+    "W/\"756-ONbeF1gWoFoIy3gAyuBlXPCOI7s\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d64da217f55230a483ef921d938e405031565326181; expires=Sat, 08-Aug-20 04:49:41 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+42182 1565326182704 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+  "verticalColumns": false
+}
+Response:+40991
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "083c291d-7648-440f-92d1-327566083970": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "083c291d-7648-440f-92d1-327566083970",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Since it’s (also) a cmd-line tool, it could be integrated with a build system."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "09f7f22d-fc4c-47f5-a3b7-f360b260eba8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "09f7f22d-fc4c-47f5-a3b7-f360b260eba8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Coverity"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "17e9bdc3-9496-45b2-9c0b-436532cfe039": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "17e9bdc3-9496-45b2-9c0b-436532cfe039",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623064669,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-07-07T21:18:43-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "21b7b46f-5041-4bd9-bafd-8b59d0899281": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "21b7b46f-5041-4bd9-bafd-8b59d0899281",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Clang Static Analyzer"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2a644ec8-3aba-4973-a865-082bbb02bdc8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "2a644ec8-3aba-4973-a865-082bbb02bdc8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907677,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                " I love tools that help me write better code. C and C++ are especially hard on humans and provide the biggest amount of rope to hang yourself with so tools that can point problems in C/C++ code are especially useful. Static code analysis tools can analyze C/C++ code without running it (hence the “static” part) and find a multitude of issues, like memory leaks, using uninitialized variables, freeing memory twice etc."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2e19c357-50a0-4e2a-9527-d1e967a9f75a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "2e19c357-50a0-4e2a-9527-d1e967a9f75a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here’s a "
+              ],
+              [
+                "more extensive report",
+                [
+                  [
+                    "a",
+                    "http://www.cs.auckland.ac.nz/~pgut001/pubs/sal.html"
+                  ]
+                ]
+              ],
+              [
+                " on using Visual Studio’s static analyzer."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2edfdcaa-87c4-46fe-a744-68fd6bcf0474": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "2edfdcaa-87c4-46fe-a744-68fd6bcf0474",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Latest builds of Xcode (3.2 and later) have some version of CSA integrated so running it from inside XCode is super easy. After the run it annotates the source code with issues found."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2fb41372-052c-4116-b92d-61c93dce4cf2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907679,
+          "id": "2fb41372-052c-4116-b92d-61c93dce4cf2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907679,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Given that cppcheck and Clang Static Analyzer are free and easy to use, they should be used by all C/C++ programmers, ideally integrated into the build process so that they’re easy to run. Preferably they should be run automatically after each checkin."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "30e6abe9-3125-4d63-b8fc-a7807ea91960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "30e6abe9-3125-4d63-b8fc-a7807ea91960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I found error messages to be clear. Cppcheck complains about things that I don’t always consider problematic enough to fix, but it’s easy to just ignore them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "34acd1c4-3c21-494d-9d48-2e61f701490b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "34acd1c4-3c21-494d-9d48-2e61f701490b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I don’t know because I haven’t run a comparative analysis."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3e69c67a-5a39-48d0-978a-c8a2e08c4886": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "3e69c67a-5a39-48d0-978a-c8a2e08c4886",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623063259,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "46516ff3-a5d0-48c1-a84f-6bf6473c2bfb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "46516ff3-a5d0-48c1-a84f-6bf6473c2bfb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623065906,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming, c, c++"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "5281498b-8545-4c3d-a0dc-a05e9dfd27c7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "5281498b-8545-4c3d-a0dc-a05e9dfd27c7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Premium and Ultimate (i.e. expensive) versions of Visual Studio come with static code analysis built in. The technology comes from previously stand-alone tool called "
+              ],
+              [
+                "PREfast",
+                [
+                  [
+                    "a",
+                    "http://blogs.msdn.com/b/oldnewthing/archive/2010/06/15/10024931.aspx"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5b52b4a3-ce91-4794-995d-3a364ea1f443": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7546c5e6-293d-45fb-bf3b-0cdcb48bbd0f",
+            "46516ff3-a5d0-48c1-a84f-6bf6473c2bfb",
+            "17e9bdc3-9496-45b2-9c0b-436532cfe039",
+            "3e69c67a-5a39-48d0-978a-c8a2e08c4886",
+            "2a644ec8-3aba-4973-a865-082bbb02bdc8",
+            "e272d4f0-c781-4b7b-ab38-2a1657356e6e",
+            "76c0b063-f68a-467e-b28b-993e1853b503",
+            "f8157cfd-d917-4cd0-a760-948d3f28bc7d",
+            "72e7b32c-2206-4184-9ac0-0f43cab42303",
+            "69d0d903-00ca-4179-ac95-fd2b11cab872",
+            "30e6abe9-3125-4d63-b8fc-a7807ea91960",
+            "083c291d-7648-440f-92d1-327566083970",
+            "dfe4a304-9b0f-440d-9111-f4f8ef8d2152",
+            "bf898e43-0aa1-495d-af75-039d8bad46f5",
+            "21b7b46f-5041-4bd9-bafd-8b59d0899281",
+            "96143408-ccfd-498c-ab92-0514b394163e",
+            "2edfdcaa-87c4-46fe-a744-68fd6bcf0474",
+            "de23b07c-26b8-4cfd-a5d0-b4615c7359c9",
+            "ed2b8dbe-d163-426e-afd3-4ec5beb51c1e",
+            "78548427-59f3-4100-ab1f-0082c227f1ba",
+            "67024585-0a63-47c8-ba03-2a1c0ef41c6b",
+            "d66f2171-bbb9-477f-8c59-1c4c478897dd",
+            "5281498b-8545-4c3d-a0dc-a05e9dfd27c7",
+            "c0b4f678-8643-46e6-8ea0-a1d92e43a451",
+            "da558e9c-9e67-4b10-a5a8-07b530da6b95",
+            "2e19c357-50a0-4e2a-9527-d1e967a9f75a",
+            "09f7f22d-fc4c-47f5-a3b7-f360b260eba8",
+            "7ac70dde-10ad-405d-b220-d2f93cc0bb63",
+            "8d8f36e4-f373-4cfa-bc9f-c18878d17b24",
+            "6e3c23ec-ba6c-4312-a958-5a228fa19b79",
+            "34acd1c4-3c21-494d-9d48-2e61f701490b",
+            "ca123803-3ad5-46cc-bdbc-18be7b708371",
+            "2fb41372-052c-4116-b92d-61c93dce4cf2"
+          ],
+          "copied_from": "8168e6a0-23cd-46c7-bb8c-b6dbebca1445",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996395570,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tools that find bugs in c and c++ code via static code analysis "
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 12
+        }
+      },
+      "67024585-0a63-47c8-ba03-2a1c0ef41c6b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "67024585-0a63-47c8-ba03-2a1c0ef41c6b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For mac os pre-build binary of stand-alone tool is available from "
+              ],
+              [
+                "the main page",
+                [
+                  [
+                    "a",
+                    "http://clang-analyzer.llvm.org/scan-build.html"
+                  ]
+                ]
+              ],
+              [
+                " (and is most likely newer than the copy that comes with Xcode). For other platforms it can be built from source."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "69d0d903-00ca-4179-ac95-fd2b11cab872": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "69d0d903-00ca-4179-ac95-fd2b11cab872",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It tells you not only about incorrect code (like memory leaks or using uninitialized variables) but also about style issues (e.g. it will suggest making a C++ class member a const function if it can be const etc.)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6e3c23ec-ba6c-4312-a958-5a228fa19b79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "6e3c23ec-ba6c-4312-a958-5a228fa19b79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How do they compare"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "72e7b32c-2206-4184-9ac0-0f43cab42303": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "72e7b32c-2206-4184-9ac0-0f43cab42303",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907677,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s very easy to use: you just give it a file name or a directory, it runs its magic on the C/C++ files and tells you what the problem is and file name/line number where it happens."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7546c5e6-293d-45fb-bf3b-0cdcb48bbd0f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "7546c5e6-293d-45fb-bf3b-0cdcb48bbd0f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623068380,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 266001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "76c0b063-f68a-467e-b28b-993e1853b503": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "76c0b063-f68a-467e-b28b-993e1853b503",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907677,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "cppcheck"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "78548427-59f3-4100-ab1f-0082c227f1ba": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "78548427-59f3-4100-ab1f-0082c227f1ba",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Stand alone tool produces html file which shows source code annotated with information about found issues."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7ac70dde-10ad-405d-b220-d2f93cc0bb63": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "7ac70dde-10ad-405d-b220-d2f93cc0bb63",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Coverity",
+                [
+                  [
+                    "a",
+                    "http://www.coverity.com/products/static-analysis.html"
+                  ]
+                ]
+              ],
+              [
+                " is one of the first static analyzers for C/C++ code. I used it at Palm and it works well. The problem is that it’s probably expensive (Coverity doesn’t even publish the prices on the website, you have to go through a sales person, which is never a good sign)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8d8f36e4-f373-4cfa-bc9f-c18878d17b24": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "8d8f36e4-f373-4cfa-bc9f-c18878d17b24",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Also, I don’t know how easy it is to use. At Palm the integration with build system was done by the build team and I only interacted with the tool through (quite nice) web based ui."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "96143408-ccfd-498c-ab92-0514b394163e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "96143408-ccfd-498c-ab92-0514b394163e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Clang Static Analyzer",
+                [
+                  [
+                    "a",
+                    "http://clang-analyzer.llvm.org/"
+                  ]
+                ]
+              ],
+              [
+                " is also free and open-source. It’s part of Apple’s "
+              ],
+              [
+                "clang",
+                [
+                  [
+                    "a",
+                    "http://clang.llvm.org/"
+                  ]
+                ]
+              ],
+              [
+                " project."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "bf898e43-0aa1-495d-af75-039d8bad46f5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "bf898e43-0aa1-495d-af75-039d8bad46f5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Given the price (free) and how easy it is to use, there’s no excuse for a C/C++ programmer to not run it from time to time over their code bases."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c0b4f678-8643-46e6-8ea0-a1d92e43a451": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "c0b4f678-8643-46e6-8ea0-a1d92e43a451",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To use it you you need to provide "
+              ],
+              [
+                "/analyze",
+                [
+                  [
+                    "a",
+                    "http://msdn.microsoft.com/en-us/library/ms173498.aspx"
+                  ]
+                ]
+              ],
+              [
+                " option to the compiler or configure it in UI via target settings properties (under Code Analysis)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ca123803-3ad5-46cc-bdbc-18be7b708371": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "ca123803-3ad5-46cc-bdbc-18be7b708371",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What I do know is that they all found issues with the code I was working on so they’re valuable."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d66f2171-bbb9-477f-8c59-1c4c478897dd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "d66f2171-bbb9-477f-8c59-1c4c478897dd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Visual Studio"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "da558e9c-9e67-4b10-a5a8-07b530da6b95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "da558e9c-9e67-4b10-a5a8-07b530da6b95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Then you perform a build and Visual Studio tells you about problems it found."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "de23b07c-26b8-4cfd-a5d0-b4615c7359c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "de23b07c-26b8-4cfd-a5d0-b4615c7359c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It can be also run as a "
+              ],
+              [
+                "stand-alone tool",
+                [
+                  [
+                    "a",
+                    "http://clang-analyzer.llvm.org/scan-build.html"
+                  ]
+                ]
+              ],
+              [
+                " which “hijacks” compiler invokations from a make or xcodebuild tools. This mode of operations has an advantage of being easy to use if your project is using makefiles (or Xcode) and that it compiles exactly the same code with the same flags as real compiler."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dfe4a304-9b0f-440d-9111-f4f8ef8d2152": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "dfe4a304-9b0f-440d-9111-f4f8ef8d2152",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A unique property of cppcheck is that it can be run on stand-alone files. The advantage is that it’s really easy to use (you can, for example, check unix or mac source code on windows (and vice-versa)). The disadvantage is that unlike other tools described here it probably can’t do as good of a job analyzing things since it has less information to use."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e272d4f0-c781-4b7b-ab38-2a1657356e6e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "e272d4f0-c781-4b7b-ab38-2a1657356e6e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907677,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here are the tools that I recommend because I’ve used them and they worked."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ed2b8dbe-d163-426e-afd3-4ec5beb51c1e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907678,
+          "id": "ed2b8dbe-d163-426e-afd3-4ec5beb51c1e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907678,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The disadvantage is that if you have a different build system, you can’t use it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f8157cfd-d917-4cd0-a760-948d3f28bc7d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907677,
+          "id": "f8157cfd-d917-4cd0-a760-948d3f28bc7d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907677,
+          "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’ve learned about "
+              ],
+              [
+                "cppcheck",
+                [
+                  [
+                    "a",
+                    "http://cppcheck.sourceforge.net/"
+                  ]
+                ]
+              ],
+              [
+                " just recently because someone "
+              ],
+              [
+                "opened a bug",
+                [
+                  [
+                    "a",
+                    "http://code.google.com/p/sumatrapdf/issues/detail?id=984"
+                  ]
+                ]
+              ],
+              [
+                " against Sumatra with a result of running a cppcheck scan. It’s free, open source and even has a GUI for Windows (it could be improved, though)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371add0d6d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:41 GMT"
+  ],
+  "Etag": [
+    "W/\"692d-UW/6GiniK7Ov7B9C2zhYeVXxaUA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d64da217f55230a483ef921d938e405031565326181; expires=Sat, 08-Aug-20 04:49:41 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,981 @@
+3278 1565326096427 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+      "table": "block"
+    }
+  ]
+}
+Response:+2129
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ec663606-17c9-4fe9-8829-454a1f4ee8f8",
+          "fd82cc5f-45fb-41a9-8ef8-d66b9bc8e6d2",
+          "e323cff6-d9d6-4bea-8ed7-7916d26b8a8f",
+          "b6fe868f-e4ba-4080-9ea7-e40dc6a31047",
+          "ce0d9e46-17d0-4028-bee4-674f518f0de0",
+          "04551265-598c-4348-b21e-ce85cb803960",
+          "ed908079-b611-43f2-a7aa-e4626a6767d0",
+          "df1afa5a-9be8-444f-a09e-993f18823d4a",
+          "51a04c62-17cb-4536-88c2-677e2892eb5c",
+          "50a3e40e-ead7-4114-ae00-5d8eca42ec88",
+          "33b9847b-d41a-4945-89c8-ca334fe5563a",
+          "199bf525-99ce-4683-9e96-8c2597f4cce2",
+          "80da188c-50ef-454a-92ff-ed2fed0d0193",
+          "db26ff4c-30e1-4ebc-8e4a-968f0e5a9eaf",
+          "088d6bb1-f8d7-4514-a868-7d88bfadb512",
+          "dcfd3298-c707-4ac3-a0f0-18bdba57f50a",
+          "2f1f807c-71da-4f9a-9ab9-b2d656de9c9f",
+          "49ea1737-2970-40f7-abf5-1d33228033ea",
+          "4d4aa75f-25d2-464e-bd19-4a2260b6cbdc",
+          "c9bd55a5-21d7-464f-a714-8c4477557070",
+          "10e58cdf-844c-400d-ad01-c6f6ad2a9244",
+          "4ce21190-e5d0-4542-9817-38a8f810d854",
+          "237eb5f6-98e5-475d-8425-e0d809247f8f",
+          "45eef215-6288-4bdb-b9e2-312729c62ea5",
+          "ebcf53e6-5ae7-4c35-a54e-9da2135d564a",
+          "901a562a-05d4-4316-a531-a5b0d7b88d7c",
+          "92d2248b-7727-4bd3-99ac-cd4b8e051bbb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528608991758,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533011972311,
+        "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Why Tesla will win"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 136
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718c0fdad7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:15 GMT"
+  ],
+  "Etag": [
+    "W/\"60a-7uorMptNehmsKFfBRaSlPJPogpo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d21f263a7dd44132152dcfcffb0eb731f1565326095; expires=Sat, 08-Aug-20 04:48:15 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+30024 1565326096428 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "4d625835-41be-43c9-b94b-a87da9feeee7",
+  "verticalColumns": false
+}
+Response:+28833
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "04551265-598c-4348-b21e-ce85cb803960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528612977842,
+          "id": "04551265-598c-4348-b21e-ce85cb803960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533012202800,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In normal circumstances starting a car company would be foolish. The last successful US car company was Chrysler, started in 1925. There were over 100 car companies in early days that "
+              ],
+              [
+                "failed",
+                [
+                  [
+                    "a",
+                    "https://en.wikipedia.org/wiki/List_of_defunct_automobile_manufacturers_of_the_United_States"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 454
+        }
+      },
+      "088d6bb1-f8d7-4514-a868-7d88bfadb512": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528617756542,
+          "id": "088d6bb1-f8d7-4514-a868-7d88bfadb512",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528617928756,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "replacing dealership system with Tesla owned showrooms inspired by Apple Store strategy"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 306
+        }
+      },
+      "10e58cdf-844c-400d-ad01-c6f6ad2a9244": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623015530,
+          "id": "10e58cdf-844c-400d-ad01-c6f6ad2a9244",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048637797,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They don't have the stomach for risky, multi-billion dollar investments in battery technology."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 202
+        }
+      },
+      "199bf525-99ce-4683-9e96-8c2597f4cce2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528617491895,
+          "id": "199bf525-99ce-4683-9e96-8c2597f4cce2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528617660064,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They are not just making a car, they are re-making every aspect of car business:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 186
+        }
+      },
+      "237eb5f6-98e5-475d-8425-e0d809247f8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623082085,
+          "id": "237eb5f6-98e5-475d-8425-e0d809247f8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623161691,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They can't break up with dealerships and start selling directly to users because the law doesn't allow for that."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 344
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2f1f807c-71da-4f9a-9ab9-b2d656de9c9f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528618084409,
+          "id": "2f1f807c-71da-4f9a-9ab9-b2d656de9c9f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048573806,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "taking design bets on controversial features like spartan interior without physical knobs and controlling a car via a screen"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 626
+        }
+      },
+      "33b9847b-d41a-4945-89c8-ca334fe5563a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528616783472,
+          "id": "33b9847b-d41a-4945-89c8-ca334fe5563a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528617491481,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Making an EV car is not enough to create a lasting advantage which is why Tesla also had to bet big."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 310
+        }
+      },
+      "45eef215-6288-4bdb-b9e2-312729c62ea5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623162003,
+          "id": "45eef215-6288-4bdb-b9e2-312729c62ea5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623298100,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They could build their own repair network but that would piss off dealerships and they don't seem to think it's a big advantage."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 402
+        }
+      },
+      "49ea1737-2970-40f7-abf5-1d33228033ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528618303300,
+          "id": "49ea1737-2970-40f7-abf5-1d33228033ea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048624424,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "writing all their software (including infotainment, web browser, mapping, directions) in house"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 288
+        }
+      },
+      "4ce21190-e5d0-4542-9817-38a8f810d854": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623045360,
+          "id": "4ce21190-e5d0-4542-9817-38a8f810d854",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623081274,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They don't have the stomach to spend lots of money on ambitious car charging network.."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 194
+        }
+      },
+      "4d4aa75f-25d2-464e-bd19-4a2260b6cbdc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528618895840,
+          "id": "4d4aa75f-25d2-464e-bd19-4a2260b6cbdc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048581012,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "writing self-driving software"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 112
+        }
+      },
+      "4d625835-41be-43c9-b94b-a87da9feeee7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ec663606-17c9-4fe9-8829-454a1f4ee8f8",
+            "fd82cc5f-45fb-41a9-8ef8-d66b9bc8e6d2",
+            "e323cff6-d9d6-4bea-8ed7-7916d26b8a8f",
+            "b6fe868f-e4ba-4080-9ea7-e40dc6a31047",
+            "ce0d9e46-17d0-4028-bee4-674f518f0de0",
+            "04551265-598c-4348-b21e-ce85cb803960",
+            "ed908079-b611-43f2-a7aa-e4626a6767d0",
+            "df1afa5a-9be8-444f-a09e-993f18823d4a",
+            "51a04c62-17cb-4536-88c2-677e2892eb5c",
+            "50a3e40e-ead7-4114-ae00-5d8eca42ec88",
+            "33b9847b-d41a-4945-89c8-ca334fe5563a",
+            "199bf525-99ce-4683-9e96-8c2597f4cce2",
+            "80da188c-50ef-454a-92ff-ed2fed0d0193",
+            "db26ff4c-30e1-4ebc-8e4a-968f0e5a9eaf",
+            "088d6bb1-f8d7-4514-a868-7d88bfadb512",
+            "dcfd3298-c707-4ac3-a0f0-18bdba57f50a",
+            "2f1f807c-71da-4f9a-9ab9-b2d656de9c9f",
+            "49ea1737-2970-40f7-abf5-1d33228033ea",
+            "4d4aa75f-25d2-464e-bd19-4a2260b6cbdc",
+            "c9bd55a5-21d7-464f-a714-8c4477557070",
+            "10e58cdf-844c-400d-ad01-c6f6ad2a9244",
+            "4ce21190-e5d0-4542-9817-38a8f810d854",
+            "237eb5f6-98e5-475d-8425-e0d809247f8f",
+            "45eef215-6288-4bdb-b9e2-312729c62ea5",
+            "ebcf53e6-5ae7-4c35-a54e-9da2135d564a",
+            "901a562a-05d4-4316-a531-a5b0d7b88d7c",
+            "92d2248b-7727-4bd3-99ac-cd4b8e051bbb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528608991758,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533011972311,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Why Tesla will win"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 136
+        }
+      },
+      "50a3e40e-ead7-4114-ae00-5d8eca42ec88": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528616710610,
+          "id": "50a3e40e-ead7-4114-ae00-5d8eca42ec88",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528617481417,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Elon Musk took that opening and made it into a perfect hand."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 230
+        }
+      },
+      "51a04c62-17cb-4536-88c2-677e2892eb5c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528614575187,
+          "id": "51a04c62-17cb-4536-88c2-677e2892eb5c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528616684832,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Electrification is a once-in-a-century technological change that creates an opening for a new company."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 270
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "80da188c-50ef-454a-92ff-ed2fed0d0193": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528617660420,
+          "id": "80da188c-50ef-454a-92ff-ed2fed0d0193",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528617755528,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "investing into battery production"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 79
+        }
+      },
+      "901a562a-05d4-4316-a531-a5b0d7b88d7c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623452558,
+          "id": "901a562a-05d4-4316-a531-a5b0d7b88d7c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623632337,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Traditionally car companies would outsource the user facing software. There's no indication that it changed. But even if they did decide to write their own infotainment software and their own mapping and routing software, it would take a couple of years, at least as much time it took Tesla to do the same."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 862
+        }
+      },
+      "92d2248b-7727-4bd3-99ac-cd4b8e051bbb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623633206,
+          "id": "92d2248b-7727-4bd3-99ac-cd4b8e051bbb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530063092345,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "type": "text",
+          "version": 8
+        }
+      },
+      "b6fe868f-e4ba-4080-9ea7-e40dc6a31047": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c7c1a868-e129-4a4c-9879-55cc92908d26"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528610238255,
+          "id": "b6fe868f-e4ba-4080-9ea7-e40dc6a31047",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533011970864,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In Ocean's 11 Brad Pitt asks George Clooney: \"why do it\"? Why try to rob the casino? Clooney responds:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 450
+        }
+      },
+      "c7c1a868-e129-4a4c-9879-55cc92908d26": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528610263769,
+          "id": "c7c1a868-e129-4a4c-9879-55cc92908d26",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533011972311,
+          "parent_id": "b6fe868f-e4ba-4080-9ea7-e40dc6a31047",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Because the house always wins. Play long enough, you never change the stakes, the house takes you. Unless, when that perfect hand comes along, you bet big, and then you take the house."
+              ]
+            ]
+          },
+          "type": "quote",
+          "version": 25
+        }
+      },
+      "c9bd55a5-21d7-464f-a714-8c4477557070": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528619183513,
+          "id": "c9bd55a5-21d7-464f-a714-8c4477557070",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623015294,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Traditional car industry has a hard time responding to those strategic moves."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 230
+        }
+      },
+      "ce0d9e46-17d0-4028-bee4-674f518f0de0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528610326746,
+          "id": "ce0d9e46-17d0-4028-bee4-674f518f0de0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528612976778,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "So what is Tesla's perfect hand?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 241
+        }
+      },
+      "db26ff4c-30e1-4ebc-8e4a-968f0e5a9eaf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528617938241,
+          "id": "db26ff4c-30e1-4ebc-8e4a-968f0e5a9eaf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048527407,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "investing in a world-wide network of chargers"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 116
+        }
+      },
+      "dcfd3298-c707-4ac3-a0f0-18bdba57f50a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528617919123,
+          "id": "dcfd3298-c707-4ac3-a0f0-18bdba57f50a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528618084058,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "reinventing repair and maintenance support in form of mobile network"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 180
+        }
+      },
+      "df1afa5a-9be8-444f-a09e-993f18823d4a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528613171815,
+          "id": "df1afa5a-9be8-444f-a09e-993f18823d4a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533012238925,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Established car companies had too many insurmountable advantages: established brands that sell millions of cars per year, factories that would take decades and billions to replicate, dealership network for distribution, marketing budget measured in billions."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 818
+        }
+      },
+      "e323cff6-d9d6-4bea-8ed7-7916d26b8a8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528610228568,
+          "id": "e323cff6-d9d6-4bea-8ed7-7916d26b8a8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528610238009,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "And yet, the Tesla will win."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 66
+        }
+      },
+      "ebcf53e6-5ae7-4c35-a54e-9da2135d564a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528623298372,
+          "id": "ebcf53e6-5ae7-4c35-a54e-9da2135d564a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528623451961,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Their electric cars are worse than their ICE cars. So far no attempts at radical reinvention."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 256
+        }
+      },
+      "ec663606-17c9-4fe9-8829-454a1f4ee8f8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528608997430,
+          "id": "ec663606-17c9-4fe9-8829-454a1f4ee8f8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533011750333,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It's June 2018 and things are not looking good for Tesla."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 188
+        }
+      },
+      "ed908079-b611-43f2-a7aa-e4626a6767d0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528613132965,
+          "id": "ed908079-b611-43f2-a7aa-e4626a6767d0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528613171408,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you never change the stakes, the house takes you."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 114
+        }
+      },
+      "fd82cc5f-45fb-41a9-8ef8-d66b9bc8e6d2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528609184127,
+          "id": "fd82cc5f-45fb-41a9-8ef8-d66b9bc8e6d2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528610228341,
+          "parent_id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "High expenses, not enough revenues to make a profit, not able to meet production goals."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 229
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718c1ee0c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:15 GMT"
+  ],
+  "Etag": [
+    "W/\"4b6d-fhghuDyoOmvDbQMLrTX6xQDWi0E\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d21f263a7dd44132152dcfcffb0eb731f1565326095; expires=Sat, 08-Aug-20 04:48:15 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

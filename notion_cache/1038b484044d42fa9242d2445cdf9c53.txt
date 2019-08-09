@@ -1,0 +1,357 @@
+1976 1565326225944 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "1038b484-044d-42fa-9242-d2445cdf9c53",
+      "table": "block"
+    }
+  ]
+}
+Response:+828
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "0f434fa6-58dd-4f31-9dd5-779dd6fa6bd3"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528258558430,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "1038b484-044d-42fa-9242-d2445cdf9c53",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531986845812,
+        "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Oscar Health facts"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 50
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371beb08f07fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"213-aH85atq2X/EeyoNsEhnMVZRSoHs\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+7883 1565326225945 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "1038b484-044d-42fa-9242-d2445cdf9c53",
+  "verticalColumns": false
+}
+Response:+6693
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0f434fa6-58dd-4f31-9dd5-779dd6fa6bd3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258562239,
+          "id": "0f434fa6-58dd-4f31-9dd5-779dd6fa6bd3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531986845812,
+          "parent_id": "1038b484-044d-42fa-9242-d2445cdf9c53",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Started in 2013"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 53
+        }
+      },
+      "1038b484-044d-42fa-9242-d2445cdf9c53": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0f434fa6-58dd-4f31-9dd5-779dd6fa6bd3"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258558430,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1038b484-044d-42fa-9242-d2445cdf9c53",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531986845812,
+          "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Oscar Health facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 50
+        }
+      },
+      "2ba0b2e0-deae-4c77-b31e-4481777b70a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+            "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+            "1038b484-044d-42fa-9242-d2445cdf9c53",
+            "87b42ff4-81ca-4ea3-bf4d-11ae306831b2",
+            "07d8cbcf-3f47-4724-b539-3753a588a64c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233350473,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532409014482,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research for investing"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 138
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371beb79137fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"10f4-WpvUTzVZr+XV/rzHyu4I7cbnFsg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

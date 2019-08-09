@@ -1,0 +1,1193 @@
+3291 1565326174049 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+      "table": "block"
+    }
+  ]
+}
+Response:+2142
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "1372c008-49e3-4d29-bdd2-3d038e6f8acf",
+          "b47b4fc7-04f8-4d29-9dab-61265105cec1",
+          "7fc12bef-b189-4f5c-826e-0ac11dd33ffe",
+          "1ca85333-e746-4d17-8cc1-07c244e5c797",
+          "6dad8926-a849-4a9c-b7ba-a2c901cf3a56",
+          "81d871ae-c1fd-41d2-97a1-cc96192ee18a",
+          "abe6ad8b-8776-4c46-8962-31ae518b1c6a",
+          "2e011e53-556c-44cc-bba7-469b9e9e0690",
+          "c79ce4d4-4abd-44b2-afc2-8bd32ef9d3d3",
+          "20824dda-20ae-40bf-b2ad-a30c12b7bbce",
+          "e34dbddb-414d-47c8-baf5-8d4670617eab",
+          "83e305bc-61b0-49ab-b233-7ae0c8997dbf",
+          "51b5eea8-5b14-489d-a1c5-12fe1aedba6e",
+          "c5a7fa33-02cd-4533-845e-62e0af20f4c7",
+          "30c65e04-d768-4115-82bd-5c1899f81656",
+          "21e085d0-07a6-4e55-ae20-3cd0a21e6a3c",
+          "b56279a2-5ab3-4cd8-9749-d6feb916b6da",
+          "b700d15f-8c04-41f1-9291-57fa9f9d9246",
+          "b955ac26-cf4f-43de-b88c-06bffcf5b102",
+          "b039ff5f-a4d8-4d8d-b324-99c449e6a89a",
+          "9917a511-6bce-4fe3-9508-65aa106e3c60",
+          "ae2af116-07b8-45ca-99bb-fbfdef6d6812",
+          "1fa70ab8-6e6b-4747-9391-aed9379a00aa",
+          "8c00e165-efdb-49a7-809b-41d156ef083b",
+          "97f25af2-2a8d-460e-a651-f1f51c1e7dac",
+          "af0355a5-d8cf-41a2-a156-6bf5cc3a9362"
+        ],
+        "copied_from": "fa8f8a50-afac-4e0a-bc1d-3865cc267d26",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195848731,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996329202,
+        "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Debugging adventure"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371aa69b4d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:33 GMT"
+  ],
+  "Etag": [
+    "W/\"618-Zfm4M8zV6Ifp2NUOv6kiOGAkCJ4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc9c4ed247aa7b9496c86d4f2874c78ee1565326173; expires=Sat, 08-Aug-20 04:49:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+35409 1565326174052 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+  "verticalColumns": false
+}
+Response:+34218
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1372c008-49e3-4d29-bdd2-3d038e6f8acf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848731,
+          "id": "1372c008-49e3-4d29-bdd2-3d038e6f8acf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531624177544,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 928"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "1ca85333-e746-4d17-8cc1-07c244e5c797": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "1ca85333-e746-4d17-8cc1-07c244e5c797",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1fa70ab8-6e6b-4747-9391-aed9379a00aa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "1fa70ab8-6e6b-4747-9391-aed9379a00aa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "dumpbin.exe is your friend"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "20824dda-20ae-40bf-b2ad-a30c12b7bbce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "20824dda-20ae-40bf-b2ad-a30c12b7bbce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Visual Studio 2005 refused to link the app, claiming that:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "21e085d0-07a6-4e55-ae20-3cd0a21e6a3c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "21e085d0-07a6-4e55-ae20-3cd0a21e6a3c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Howerver, if you look closely, you’ll see that signatures don’t match: expected type for the first parameter is "
+              ],
+              [
+                "unsigned short *",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " while I’m calling it as "
+              ],
+              [
+                "wchar_t const *",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". Now, "
+              ],
+              [
+                "unsigned short",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " is the WCHAR Windows UNICODE type. C++ also defines "
+              ],
+              [
+                "wchar_t",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " which is also UNICODE char."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2e011e53-556c-44cc-bba7-469b9e9e0690": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "2e011e53-556c-44cc-bba7-469b9e9e0690",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That’s how I called it:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "30c65e04-d768-4115-82bd-5c1899f81656": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "30c65e04-d768-4115-82bd-5c1899f81656",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "?MailSwitchToAccount@@YAJPBGK@Z (long __cdecl\nMailSwitchToAccount(unsigned short const *,unsigned long))"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "35c1b26d-b48c-4de1-884d-b5f963a4bd93": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1372c008-49e3-4d29-bdd2-3d038e6f8acf",
+            "b47b4fc7-04f8-4d29-9dab-61265105cec1",
+            "7fc12bef-b189-4f5c-826e-0ac11dd33ffe",
+            "1ca85333-e746-4d17-8cc1-07c244e5c797",
+            "6dad8926-a849-4a9c-b7ba-a2c901cf3a56",
+            "81d871ae-c1fd-41d2-97a1-cc96192ee18a",
+            "abe6ad8b-8776-4c46-8962-31ae518b1c6a",
+            "2e011e53-556c-44cc-bba7-469b9e9e0690",
+            "c79ce4d4-4abd-44b2-afc2-8bd32ef9d3d3",
+            "20824dda-20ae-40bf-b2ad-a30c12b7bbce",
+            "e34dbddb-414d-47c8-baf5-8d4670617eab",
+            "83e305bc-61b0-49ab-b233-7ae0c8997dbf",
+            "51b5eea8-5b14-489d-a1c5-12fe1aedba6e",
+            "c5a7fa33-02cd-4533-845e-62e0af20f4c7",
+            "30c65e04-d768-4115-82bd-5c1899f81656",
+            "21e085d0-07a6-4e55-ae20-3cd0a21e6a3c",
+            "b56279a2-5ab3-4cd8-9749-d6feb916b6da",
+            "b700d15f-8c04-41f1-9291-57fa9f9d9246",
+            "b955ac26-cf4f-43de-b88c-06bffcf5b102",
+            "b039ff5f-a4d8-4d8d-b324-99c449e6a89a",
+            "9917a511-6bce-4fe3-9508-65aa106e3c60",
+            "ae2af116-07b8-45ca-99bb-fbfdef6d6812",
+            "1fa70ab8-6e6b-4747-9391-aed9379a00aa",
+            "8c00e165-efdb-49a7-809b-41d156ef083b",
+            "97f25af2-2a8d-460e-a651-f1f51c1e7dac",
+            "af0355a5-d8cf-41a2-a156-6bf5cc3a9362"
+          ],
+          "copied_from": "fa8f8a50-afac-4e0a-bc1d-3865cc267d26",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848731,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996329202,
+          "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Debugging adventure"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "51b5eea8-5b14-489d-a1c5-12fe1aedba6e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "51b5eea8-5b14-489d-a1c5-12fe1aedba6e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "dumpbin -exports cemapi.lib"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6dad8926-a849-4a9c-b7ba-a2c901cf3a56": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "6dad8926-a849-4a9c-b7ba-a2c901cf3a56",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531624175936,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "7fc12bef-b189-4f5c-826e-0ac11dd33ffe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "7fc12bef-b189-4f5c-826e-0ac11dd33ffe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2006-01-13T15:42:02-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "81d871ae-c1fd-41d2-97a1-cc96192ee18a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "81d871ae-c1fd-41d2-97a1-cc96192ee18a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is a debugging story and the lessons learned."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c17c9bfe-9b64-48f3-a3ca-a4080de8527d",
+            "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+            "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+            "171030c0-8630-4399-8806-6407967f8a76",
+            "5d89b199-892a-4dcb-a6de-f754b28e347a",
+            "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+            "5094f3ac-18ed-4d98-8e2f-716bb4d74e66",
+            "52e46e84-edb5-47ae-9c99-2b00f9fb117f",
+            "828c5dfe-b184-42a3-bf07-70cb2f430979",
+            "42795644-40b2-4758-9b8b-edb7ed4f20ad",
+            "e83f12b0-4e79-481d-82ce-142d61fdf7ab",
+            "e3f3de70-632c-426e-8c48-2d7aca3bdf62",
+            "f8aa7527-bd9a-42d6-aa33-399daa4bd612",
+            "430e8f23-1fc8-454b-9089-158b2fba45d4",
+            "e7eb256f-bcbb-4034-a685-c46149832cd3",
+            "da1f1944-ed04-426b-a103-db27afc77e2f",
+            "f830f945-8e01-415c-9e8d-d3a243504647",
+            "f3fd52ee-cad8-4862-a054-54fcdeb7c6df",
+            "2ac56de1-d067-4464-bee8-eff2a5768ca5",
+            "c598349d-9349-4937-94d8-9041f694a5cb",
+            "68d1dadd-39e2-4588-a0dd-bc34b75990a2",
+            "6ca7ef8d-216c-428c-9248-3ecd1b144377",
+            "44db41a4-3b22-4eba-b59d-c3fe00cef4dc",
+            "b6e07724-a143-4aff-a26a-69cf18186e0b",
+            "d9eef152-f793-4ff8-96c0-d78744527a3e",
+            "03fc93fd-c0f4-4092-9350-41113b2fe75e",
+            "3def6f60-a5a0-4560-a402-55e40754acd8",
+            "a6d438b1-00d7-458e-b82d-2303aedb1487",
+            "87034445-4be2-4df3-bcea-14f1394ae191",
+            "90c97050-d91a-46d9-989b-73c2652303f8",
+            "281d8b5e-dce2-403b-802f-91c2b2700bf5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195819922,
+          "id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268380000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2006 (31)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "83e305bc-61b0-49ab-b233-7ae0c8997dbf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "83e305bc-61b0-49ab-b233-7ae0c8997dbf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My first thought was that this symbol is simply missing from cemapi.lib. So I used dumpbin.exe (part of Visual Studio tools) to dump all symbols exported from cemapi.lib:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8c00e165-efdb-49a7-809b-41d156ef083b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "8c00e165-efdb-49a7-809b-41d156ef083b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Visual Studio’s code browsing is your friend (it’s easy to find out what a given typedef or #define really is)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "97f25af2-2a8d-460e-a651-f1f51c1e7dac": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "97f25af2-2a8d-460e-a651-f1f51c1e7dac",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "be aware of “wchar_t as built-in type or not” issue"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "9917a511-6bce-4fe3-9508-65aa106e3c60": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "9917a511-6bce-4fe3-9508-65aa106e3c60",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Lessons learned:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "abe6ad8b-8776-4c46-8962-31ae518b1c6a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "abe6ad8b-8776-4c46-8962-31ae518b1c6a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I was writing an application using a "
+              ],
+              [
+                "MailSwitchToAccount",
+                [
+                  [
+                    "a",
+                    "http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mobilesdk5/html/wce51lrfmailswitchtoaccount.asp"
+                  ]
+                ]
+              ],
+              [
+                " API new in WIndows Mobile 5.0. According to docs it’s defined in cemapi.h and an app needs to link with "
+              ],
+              [
+                "cemapi.lib",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ae2af116-07b8-45ca-99bb-fbfdef6d6812": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "ae2af116-07b8-45ca-99bb-fbfdef6d6812",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "C++ is evil"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "af0355a5-d8cf-41a2-a156-6bf5cc3a9362": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "af0355a5-d8cf-41a2-a156-6bf5cc3a9362",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Update:",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                " turns out it’s a known problem and has been blogged about on "
+              ],
+              [
+                "official Visual Studio blog",
+                [
+                  [
+                    "a",
+                    "http://blogs.msdn.com/vsdteam/archive/2005/11/16/linker_error_lnk2019_lnk2001.aspx"
+                  ]
+                ]
+              ],
+              [
+                ". Good news is that it will probably be fixed in future versions of Visual Studio."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b039ff5f-a4d8-4d8d-b324-99c449e6a89a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "b039ff5f-a4d8-4d8d-b324-99c449e6a89a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It seems wrong that you have to do that. It seems like "
+              ],
+              [
+                "cemapi.dll/cemapi.lib",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " were compiled with "
+              ],
+              [
+                "/Zc:wchar_t-",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " which forces everyone who links to them also be compiled like that."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b47b4fc7-04f8-4d29-9dab-61265105cec1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "b47b4fc7-04f8-4d29-9dab-61265105cec1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b56279a2-5ab3-4cd8-9749-d6feb916b6da": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "b56279a2-5ab3-4cd8-9749-d6feb916b6da",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I vaguely remembered that some C++ compilers have an option to treat "
+              ],
+              [
+                "wchar_t",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " as a native language type (as opposed to just a typedef for existing type, "
+              ],
+              [
+                "unsigned short",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " in Windows’ case)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b700d15f-8c04-41f1-9291-57fa9f9d9246": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "b700d15f-8c04-41f1-9291-57fa9f9d9246",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "And indeed, there it was, in project properties, C/C++/Language there’s an option “Treat wchar_t as Built-in Type”, set by default to Yes."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b955ac26-cf4f-43de-b88c-06bffcf5b102": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "b955ac26-cf4f-43de-b88c-06bffcf5b102",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can set it to “No”, which corresponds to passing "
+              ],
+              [
+                "/Zc:wchar_t-",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " to cl.exe."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c5a7fa33-02cd-4533-845e-62e0af20f4c7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848734,
+          "id": "c5a7fa33-02cd-4533-845e-62e0af20f4c7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848734,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I found that it does have MailSwitchToAccount:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c79ce4d4-4abd-44b2-afc2-8bd32ef9d3d3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "c79ce4d4-4abd-44b2-afc2-8bd32ef9d3d3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "hr = MailSwitchToAccount(_T(\"SMS\"));"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "e34dbddb-414d-47c8-baf5-8d4670617eab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848732,
+          "id": "e34dbddb-414d-47c8-baf5-8d4670617eab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848732,
+          "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "TestDevice.obj : error LNK2019: unresolved external symbol\n\"long __cdecl MailSwitchToAccount(wchar_t const *,unsigned long)\"\n(?MailSwitchToAccount@@YAJPB_WK@Z) referenced in function \"void\n__cdecl OnMailSwitchToAccount(void)\" (?OnMailSwitchToAccount@@YAXXZ)"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371aa6fb7c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:33 GMT"
+  ],
+  "Etag": [
+    "W/\"537d-mHCl9QcJLM25ksod5Ya+trKLByg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc9c4ed247aa7b9496c86d4f2874c78ee1565326173; expires=Sat, 08-Aug-20 04:49:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,2010 @@
+3219 1565326116001 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "184e6d93-e489-4448-b837-9241accf6bda",
+      "table": "block"
+    }
+  ]
+}
+Response:+2070
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "2d8c3352-6977-42a9-b14c-5aa6d847af5b",
+          "92d53d50-211c-42e3-bc76-6b1599caa898",
+          "83310600-ba6c-4a86-9838-f5861645e55b",
+          "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+          "57ca43cb-02e1-4adf-9865-471662021f9d",
+          "478e697c-fd27-4565-8c82-5fdb83349853",
+          "cddc87e0-af31-4712-8a2b-1cdd7cea34d1",
+          "6db33da8-ea24-4449-bc96-bd34b430bd12",
+          "c10c78ed-5f5b-4470-9e87-5da114d06753",
+          "80a15633-6ea9-4254-8749-faf263bda954",
+          "3f3c6506-36bd-45fc-bad3-07072b6b3fc1",
+          "84e243b4-9529-40ee-931e-7b00b9a44d77",
+          "be2ab636-589a-4027-a6c0-ef5563392f25",
+          "5812dbe6-8988-4bb8-88c6-24200f32a3bd",
+          "0094238a-6d52-4d09-923a-b82d1974db7e",
+          "aada46f3-7c95-4fca-bd92-0da79d6d20f2",
+          "3d66ee4e-0890-4bdf-aa6c-781149227bb9",
+          "8a7bff56-5ebc-4c11-84cc-9dae11f39e62",
+          "e0932eb6-a70e-4b0e-94ca-05beb2b44ed5",
+          "4f07bf80-3a1b-4194-a1c1-41b515087458",
+          "87cdeed5-0f0b-4359-8a81-c05bc9d7b586",
+          "1b891bca-af44-4c78-93d6-8cd6932a9cd3",
+          "3b1c84ed-13ea-4584-bf27-45fef05538a4",
+          "0773ca17-1fa3-49cb-8e3f-418cf626adad",
+          "388dea10-65d2-434a-aaea-f6c921250284",
+          "59c2be0b-3cf4-4020-8a14-03a48432c070"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492316308114,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "184e6d93-e489-4448-b837-9241accf6bda",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529120456638,
+        "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "PowerShell"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 15
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037193b4da27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:35 GMT"
+  ],
+  "Etag": [
+    "W/\"5da-1SKxAZpOxAI87sBTReOVdUNAuPw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d51b96e12215372f2bf11c06b0961b7931565326115; expires=Sat, 08-Aug-20 04:48:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+34837 1565326116003 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "184e6d93-e489-4448-b837-9241accf6bda",
+  "verticalColumns": false
+}
+Response:+33646
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0094238a-6d52-4d09-923a-b82d1974db7e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511592873560,
+          "id": "0094238a-6d52-4d09-923a-b82d1974db7e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511592873560,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/add-member?view=powershell-5.1",
+                [
+                  [
+                    "a",
+                    "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/add-member?view=powershell-5.1"
+                  ]
+                ]
+              ],
+              [
+                " : list of functions"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "0773ca17-1fa3-49cb-8e3f-418cf626adad": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494820253673,
+          "id": "0773ca17-1fa3-49cb-8e3f-418cf626adad",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513985074487,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://gist.github.com/MichaelPote/92fa6e65eacf26219022",
+                [
+                  [
+                    "a",
+                    "https://gist.github.com/MichaelPote/92fa6e65eacf26219022"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "https://www.reddit.com/r/programming/comments/441do9/i_made_a_windows_powershell_script_that_puts_a/",
+                [
+                  [
+                    "a",
+                    "https://www.reddit.com/r/programming/comments/441do9/i_made_a_windows_powershell_script_that_puts_a/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 5
+        }
+      },
+      "1772a9b1-84de-439e-b85a-dee32dc75148": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819718644,
+          "id": "1772a9b1-84de-439e-b85a-dee32dc75148",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819718644,
+          "parent_id": "aada46f3-7c95-4fca-bd92-0da79d6d20f2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PowerShell before v5: install PackageManagement PowerShell Modules from "
+              ],
+              [
+                "https://www.microsoft.com/en-us/download/details.aspx?id=49186",
+                [
+                  [
+                    "a",
+                    "https://www.microsoft.com/en-us/download/details.aspx?id=49186"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "184e6d93-e489-4448-b837-9241accf6bda": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2d8c3352-6977-42a9-b14c-5aa6d847af5b",
+            "92d53d50-211c-42e3-bc76-6b1599caa898",
+            "83310600-ba6c-4a86-9838-f5861645e55b",
+            "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+            "57ca43cb-02e1-4adf-9865-471662021f9d",
+            "478e697c-fd27-4565-8c82-5fdb83349853",
+            "cddc87e0-af31-4712-8a2b-1cdd7cea34d1",
+            "6db33da8-ea24-4449-bc96-bd34b430bd12",
+            "c10c78ed-5f5b-4470-9e87-5da114d06753",
+            "80a15633-6ea9-4254-8749-faf263bda954",
+            "3f3c6506-36bd-45fc-bad3-07072b6b3fc1",
+            "84e243b4-9529-40ee-931e-7b00b9a44d77",
+            "be2ab636-589a-4027-a6c0-ef5563392f25",
+            "5812dbe6-8988-4bb8-88c6-24200f32a3bd",
+            "0094238a-6d52-4d09-923a-b82d1974db7e",
+            "aada46f3-7c95-4fca-bd92-0da79d6d20f2",
+            "3d66ee4e-0890-4bdf-aa6c-781149227bb9",
+            "8a7bff56-5ebc-4c11-84cc-9dae11f39e62",
+            "e0932eb6-a70e-4b0e-94ca-05beb2b44ed5",
+            "4f07bf80-3a1b-4194-a1c1-41b515087458",
+            "87cdeed5-0f0b-4359-8a81-c05bc9d7b586",
+            "1b891bca-af44-4c78-93d6-8cd6932a9cd3",
+            "3b1c84ed-13ea-4584-bf27-45fef05538a4",
+            "0773ca17-1fa3-49cb-8e3f-418cf626adad",
+            "388dea10-65d2-434a-aaea-f6c921250284",
+            "59c2be0b-3cf4-4020-8a14-03a48432c070"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492316308114,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1529120456638,
+          "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PowerShell"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 15
+        }
+      },
+      "1b891bca-af44-4c78-93d6-8cd6932a9cd3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511736712991,
+          "id": "1b891bca-af44-4c78-93d6-8cd6932a9cd3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511736712991,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/golang/build/blob/master/env/windows/startup.ps1",
+                [
+                  [
+                    "a",
+                    "https://github.com/golang/build/blob/master/env/windows/startup.ps1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "2d8c3352-6977-42a9-b14c-5aa6d847af5b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f8314d5c-b125-4525-9d17-0d53a11dd461"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1499901627515,
+          "id": "2d8c3352-6977-42a9-b14c-5aa6d847af5b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1499901627515,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "variables"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "388dea10-65d2-434a-aaea-f6c921250284": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513985077027,
+          "id": "388dea10-65d2-434a-aaea-f6c921250284",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513985077395,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/ljw1004/pdb2github/blob/master/github-sourceindexer.ps1",
+                [
+                  [
+                    "a",
+                    "https://github.com/ljw1004/pdb2github/blob/master/github-sourceindexer.ps1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "3b1c84ed-13ea-4584-bf27-45fef05538a4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494820252240,
+          "id": "3b1c84ed-13ea-4584-bf27-45fef05538a4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494820252240,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.hanselman.com/blog/PromptsAndDirectoriesEvenBetterGitAndMercurialWithPowerShell.aspx",
+                [
+                  [
+                    "a",
+                    "http://www.hanselman.com/blog/PromptsAndDirectoriesEvenBetterGitAndMercurialWithPowerShell.aspx"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "3d66ee4e-0890-4bdf-aa6c-781149227bb9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494820003170,
+          "id": "3d66ee4e-0890-4bdf-aa6c-781149227bb9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494820003170,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "3f3c6506-36bd-45fc-bad3-07072b6b3fc1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "29fc0775-5803-4bc9-b4ba-3b4005d3ba7b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511589504613,
+          "id": "3f3c6506-36bd-45fc-bad3-07072b6b3fc1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511589504613,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "dates"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "478e697c-fd27-4565-8c82-5fdb83349853": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511589284070,
+          "id": "478e697c-fd27-4565-8c82-5fdb83349853",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511589284070,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "booleans: $true/$false"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "4f07bf80-3a1b-4194-a1c1-41b515087458": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492316322852,
+          "id": "4f07bf80-3a1b-4194-a1c1-41b515087458",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492316322852,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "57ca43cb-02e1-4adf-9865-471662021f9d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9b14dea7-2f74-445a-a131-74e90f4d7b0c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511294980467,
+          "id": "57ca43cb-02e1-4adf-9865-471662021f9d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516318329827,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "functions, defining and calling"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 58
+        }
+      },
+      "5812dbe6-8988-4bb8-88c6-24200f32a3bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819689332,
+          "id": "5812dbe6-8988-4bb8-88c6-24200f32a3bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819689332,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "initial setup: "
+              ],
+              [
+                "Set-ExecutionPolicy Unrestricted",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " (as admin)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "59c2be0b-3cf4-4020-8a14-03a48432c070": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819631817,
+          "id": "59c2be0b-3cf4-4020-8a14-03a48432c070",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819631817,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa2b4490-ffaf-434b-8ffa-2fcfad811863",
+            "3d571ea8-500e-4059-a083-afb36b3ba154",
+            "0aebbab0-65bb-4cf2-95b5-12cf749520f0",
+            "b3936ea6-b8f7-482d-b938-46dbe60036e8"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511589074260,
+          "id": "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511589074260,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "strings"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "6db33da8-ea24-4449-bc96-bd34b430bd12": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d35cac5e-572e-4338-b065-9db274257cbb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511589337343,
+          "id": "6db33da8-ea24-4449-bc96-bd34b430bd12",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511589337343,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "call external programs"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "80a15633-6ea9-4254-8749-faf263bda954": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d0aecb9d-505d-40ba-ad31-7ecf8ec2a844"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512244727520,
+          "id": "80a15633-6ea9-4254-8749-faf263bda954",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512244727520,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "stop script on errors"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "83310600-ba6c-4a86-9838-f5861645e55b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6efe2d22-8ce7-4a53-abc1-7cbb9429bc9e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492316313576,
+          "id": "83310600-ba6c-4a86-9838-f5861645e55b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492316313576,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "path"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "84e243b4-9529-40ee-931e-7b00b9a44d77": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "346da842-9bcc-4d67-a53b-b4bf85ce3a24",
+            "44b3222b-f159-46cb-94bf-1579cec5a10e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819538499,
+          "id": "84e243b4-9529-40ee-931e-7b00b9a44d77",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819538499,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Configure startup script "
+              ],
+              [
+                "$profile",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "87cdeed5-0f0b-4359-8a81-c05bc9d7b586": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492316317944,
+          "id": "87cdeed5-0f0b-4359-8a81-c05bc9d7b586",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492316317944,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/StackExchange/dnscontrol/blob/master/build.ps1",
+                [
+                  [
+                    "a",
+                    "https://github.com/StackExchange/dnscontrol/blob/master/build.ps1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "8a7bff56-5ebc-4c11-84cc-9dae11f39e62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1499744595983,
+          "id": "8a7bff56-5ebc-4c11-84cc-9dae11f39e62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1499744595983,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Execute .exe with spaces in path: "
+              ],
+              [
+                "\u0026 \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\editbin.exe\" /stack:1048576 FindFilesGo.exe",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "92d53d50-211c-42e3-bc76-6b1599caa898": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0a3486af-0fe3-4312-905a-6ab51ad767d6",
+            "5f93a014-9465-4d45-a620-d431d3d36169",
+            "45003ee3-b668-41d5-8baf-6f2022d5d48c",
+            "1eb5bbe2-1c7c-441e-8190-ebc1ca06b997",
+            "b9258718-e307-4204-b6cc-05012bdbc1e8",
+            "e3000a9d-a8e2-4160-a825-6958c02b6b11",
+            "c2ca9e11-330c-490e-ac57-347652ffa14f",
+            "b67d5548-d0e6-43fb-981c-5eaaa1d02e59",
+            "34d5e9b8-f408-469c-a928-40e727d63109"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511294948220,
+          "id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511294948220,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "useful functions"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "aada46f3-7c95-4fca-bd92-0da79d6d20f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1772a9b1-84de-439e-b85a-dee32dc75148",
+            "f3762414-0ae9-4251-a9c7-0e4fe12a9474"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819713575,
+          "id": "aada46f3-7c95-4fca-bd92-0da79d6d20f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819713575,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before Windows 10:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "be2ab636-589a-4027-a6c0-ef5563392f25": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493946672246,
+          "id": "be2ab636-589a-4027-a6c0-ef5563392f25",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1493946672246,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Notes:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "c10c78ed-5f5b-4470-9e87-5da114d06753": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "47975067-bac8-4511-baf3-c1a1f8ead40a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512245961550,
+          "id": "c10c78ed-5f5b-4470-9e87-5da114d06753",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512245961550,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "comments"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "cddc87e0-af31-4712-8a2b-1cdd7cea34d1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "184a5ebd-0865-4a5a-8a97-c1197910e856"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511589462739,
+          "id": "cddc87e0-af31-4712-8a2b-1cdd7cea34d1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511589462739,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sorting"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "e0932eb6-a70e-4b0e-94ca-05beb2b44ed5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1499744612899,
+          "id": "e0932eb6-a70e-4b0e-94ca-05beb2b44ed5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1499744612899,
+          "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+            "f511e438-4d54-4bf4-9b99-deee90438992",
+            "79f8d68c-67a7-47fb-93bf-88a868e85c36",
+            "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+            "7097d0b0-6616-4177-9ea3-5929049be1c4",
+            "c35e671a-9211-44dd-97e7-71325c4f8c61",
+            "bf1261dd-c29f-49de-9a9b-49611911a6da",
+            "a518f0ec-d095-42b1-9aea-4034849fa37e",
+            "184e6d93-e489-4448-b837-9241accf6bda",
+            "16159d4a-d712-4326-8165-c72f4cfe4eec",
+            "4653fe6a-59f2-4002-bac1-2abba014e77e",
+            "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+            "5749be0d-4e27-4e61-99a5-d9de82cb57f8",
+            "c174875e-f8e4-4d6f-b149-4ae10bd5a33c",
+            "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+            "ed889e66-a03b-4980-afe1-e1578ab522e5",
+            "de6b4f3a-a858-466f-9771-6be86ae0a9d4",
+            "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+            "9d802f54-65d3-4881-8445-c46ba6c7202c",
+            "a6bfde90-c3d5-479b-9c38-85dcb126dea0",
+            "ef11ef21-0f07-45d9-b473-2de7b8563a2a",
+            "896a9d12-f40c-44da-924b-b4979993cef3",
+            "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+            "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
+            "e7b071b3-6bfc-4eaa-aa7c-897f19153802",
+            "e9c202dd-9c5a-4e46-b2da-9c492c12ce9d",
+            "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+            "61ad39c0-e049-4818-92ff-7420fa27a390",
+            "ae389859-fcfe-4b73-9187-6decbe1aab54",
+            "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
+            "1b61c073-c94e-46ed-b1f6-e3cb1b4bad4e",
+            "1154caf2-d6b8-430a-83a6-80be9d0a340c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 143
+        }
+      },
+      "f3762414-0ae9-4251-a9c7-0e4fe12a9474": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1494819735135,
+          "id": "f3762414-0ae9-4251-a9c7-0e4fe12a9474",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1494819735135,
+          "parent_id": "aada46f3-7c95-4fca-bd92-0da79d6d20f2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Install-Module PSReadline",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " to install PSReadLine"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037193badcd7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:35 GMT"
+  ],
+  "Etag": [
+    "W/\"53a6-taxZ5WXvwu8QhPwR4jvXcpzjDOQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d51b96e12215372f2bf11c06b0961b7931565326115; expires=Sat, 08-Aug-20 04:48:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+22647 1565326116006 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+2046
+{
+  "requests": [
+    {
+      "id": "f8314d5c-b125-4525-9d17-0d53a11dd461",
+      "table": "block"
+    },
+    {
+      "id": "0a3486af-0fe3-4312-905a-6ab51ad767d6",
+      "table": "block"
+    },
+    {
+      "id": "5f93a014-9465-4d45-a620-d431d3d36169",
+      "table": "block"
+    },
+    {
+      "id": "45003ee3-b668-41d5-8baf-6f2022d5d48c",
+      "table": "block"
+    },
+    {
+      "id": "1eb5bbe2-1c7c-441e-8190-ebc1ca06b997",
+      "table": "block"
+    },
+    {
+      "id": "b9258718-e307-4204-b6cc-05012bdbc1e8",
+      "table": "block"
+    },
+    {
+      "id": "e3000a9d-a8e2-4160-a825-6958c02b6b11",
+      "table": "block"
+    },
+    {
+      "id": "c2ca9e11-330c-490e-ac57-347652ffa14f",
+      "table": "block"
+    },
+    {
+      "id": "b67d5548-d0e6-43fb-981c-5eaaa1d02e59",
+      "table": "block"
+    },
+    {
+      "id": "34d5e9b8-f408-469c-a928-40e727d63109",
+      "table": "block"
+    },
+    {
+      "id": "6efe2d22-8ce7-4a53-abc1-7cbb9429bc9e",
+      "table": "block"
+    },
+    {
+      "id": "fa2b4490-ffaf-434b-8ffa-2fcfad811863",
+      "table": "block"
+    },
+    {
+      "id": "3d571ea8-500e-4059-a083-afb36b3ba154",
+      "table": "block"
+    },
+    {
+      "id": "0aebbab0-65bb-4cf2-95b5-12cf749520f0",
+      "table": "block"
+    },
+    {
+      "id": "b3936ea6-b8f7-482d-b938-46dbe60036e8",
+      "table": "block"
+    },
+    {
+      "id": "9b14dea7-2f74-445a-a131-74e90f4d7b0c",
+      "table": "block"
+    },
+    {
+      "id": "184a5ebd-0865-4a5a-8a97-c1197910e856",
+      "table": "block"
+    },
+    {
+      "id": "d35cac5e-572e-4338-b065-9db274257cbb",
+      "table": "block"
+    },
+    {
+      "id": "47975067-bac8-4511-baf3-c1a1f8ead40a",
+      "table": "block"
+    },
+    {
+      "id": "d0aecb9d-505d-40ba-ad31-7ecf8ec2a844",
+      "table": "block"
+    },
+    {
+      "id": "29fc0775-5803-4bc9-b4ba-3b4005d3ba7b",
+      "table": "block"
+    },
+    {
+      "id": "346da842-9bcc-4d67-a53b-b4bf85ce3a24",
+      "table": "block"
+    },
+    {
+      "id": "44b3222b-f159-46cb-94bf-1579cec5a10e",
+      "table": "block"
+    }
+  ]
+}
+Response:+19559
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492316359314,
+        "id": "f8314d5c-b125-4525-9d17-0d53a11dd461",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492316359314,
+        "parent_id": "2d8c3352-6977-42a9-b14c-5aa6d847af5b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "# Variables\n# param defines -sha script argument and sets \"\" as default value\n\n$args, $args[0] : args passed to script, by position\n\nif ($sha -eq \"\") {\n\t$sha = (git rev-parse HEAD) | Out-String\n\t$sha = $sha.Trim()\n}\n\n# Variable expansion\nWrite-Host \"sha: $sha\" # writes the value of $sha\nWrite-Host 'sha: $sha is not expanded' # $sha is literal, not expanded inside ''"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589538051,
+        "id": "0a3486af-0fe3-4312-905a-6ab51ad767d6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589538051,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Write-Host",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589542559,
+        "id": "5f93a014-9465-4d45-a620-d431d3d36169",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589542559,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Out-String",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589608336,
+        "id": "45003ee3-b668-41d5-8baf-6f2022d5d48c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589608336,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Get-Variable",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : list all PowerShell variables"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589628357,
+        "id": "1eb5bbe2-1c7c-441e-8190-ebc1ca06b997",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589628357,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Get-ChildItem env:",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : list all env variables"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589671999,
+        "id": "b9258718-e307-4204-b6cc-05012bdbc1e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589671999,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gci env:PATH",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : get $PATH"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589857453,
+        "id": "e3000a9d-a8e2-4160-a825-6958c02b6b11",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589857453,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Get-ChildItem -Recurse -Filter \"*.chm\" -EA SilentlyContinue | Select Length,Name",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : find all *.chm files"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589926292,
+        "id": "c2ca9e11-330c-490e-ac57-347652ffa14f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589926292,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "wget \"http://blog.kowalczyk.info\" -OutFile \"index.html\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : download url to index.html. "
+            ],
+            [
+              "wget",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  is alias for "
+            ],
+            [
+              "Invoke-WebRequest",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511590020641,
+        "id": "b67d5548-d0e6-43fb-981c-5eaaa1d02e59",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511590020641,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "get-command code",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : equivalent of "
+            ],
+            [
+              "which",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  in unix, find full path of vscode executable"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492316387783,
+        "id": "34d5e9b8-f408-469c-a928-40e727d63109",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492316387783,
+        "parent_id": "92d53d50-211c-42e3-bc76-6b1599caa898",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "# get PowerShell to inherit changes from .bat file:\ncmd.exe /k \"scripts\\vc.bat \u0026 powershell\""
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508390732570,
+        "id": "6efe2d22-8ce7-4a53-abc1-7cbb9429bc9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508390732570,
+        "parent_id": "83310600-ba6c-4a86-9838-f5861645e55b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "# $path is dict Name/Value, where Name is \"Path\" and Value is value of PATH environment variable\n$path = gci env:PATH\n$dirs = $path.Value.Split(\";\")\n(gci env:Path).Value.Split(\";\")"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589080461,
+        "id": "fa2b4490-ffaf-434b-8ffa-2fcfad811863",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589080461,
+        "parent_id": "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$line.Split(\"{.}\")[1]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : split $line by \".\" and get the second part"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589766028,
+        "id": "3d571ea8-500e-4059-a083-afb36b3ba154",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589766028,
+        "parent_id": "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$env:PATH -split ';'",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : show components of $PATH"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589200096,
+        "id": "0aebbab0-65bb-4cf2-95b5-12cf749520f0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589200096,
+        "parent_id": "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$line -Like \"*.xml\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : return true if matches regular expression"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589252849,
+        "id": "b3936ea6-b8f7-482d-b938-46dbe60036e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589252849,
+        "parent_id": "66f2ebbc-9b76-4bbb-9a8e-9f888ee3eeea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "[IO.Path]::GetExtension($line)",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : call a function on $line "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511294996855,
+        "id": "9b14dea7-2f74-445a-a131-74e90f4d7b0c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511294996855,
+        "parent_id": "57ca43cb-02e1-4adf-9865-471662021f9d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "function isFileOnList($list, $file) {\n\tforeach ($item in $list) {\n\t\t$inList = $item.ToLower().EndsWith($file)\n\t\tif ($inList) {\n\t\t\treturn $inList\n\t\t}\n\t}\n\treturn False\n}\n\n$list = @(\"foo\\bar.cpp\", \"foo.txt\")\n$in = isFileOnList($list, \".txt\")"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511592051569,
+        "id": "184a5ebd-0865-4a5a-8a97-c1197910e856",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511592051569,
+        "parent_id": "cddc87e0-af31-4712-8a2b-1cdd7cea34d1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gci | Sort-Object Name -Descending",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  : sort list of files by "
+            ],
+            [
+              "Name",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  in descending order"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512243758259,
+        "id": "d35cac5e-572e-4338-b065-9db274257cbb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512243758259,
+        "parent_id": "6db33da8-ea24-4449-bc96-bd34b430bd12",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "# execute 'git rev-parse HEAD' and assign to a variable\n$sha1 = (git rev-parse HEAD) | Out-String\n$sha1 = $sha1.Replace([System.Environment]::NewLine,\"\")"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512245967586,
+        "id": "47975067-bac8-4511-baf3-c1a1f8ead40a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512245967586,
+        "parent_id": "c10c78ed-5f5b-4470-9e87-5da114d06753",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "# single-line comment\n\u003c#\nmulti-line\ncomment\n#\u003e"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512244758007,
+        "id": "d0aecb9d-505d-40ba-ad31-7ecf8ec2a844",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512244758007,
+        "parent_id": "80a15633-6ea9-4254-8749-faf263bda954",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "Set-StrictMode -Version Latest\n$ErrorActionPreference = \"Stop\"\n# call exitIfFailed after executing a command\nfunction exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511589585031,
+        "id": "29fc0775-5803-4bc9-b4ba-3b4005d3ba7b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511589585031,
+        "parent_id": "3f3c6506-36bd-45fc-bad3-07072b6b3fc1",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "$DATE = [int][double]::Parse((Get-Date -UFormat %s))"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512078154198,
+        "id": "346da842-9bcc-4d67-a53b-b4bf85ce3a24",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512078154198,
+        "parent_id": "84e243b4-9529-40ee-931e-7b00b9a44d77",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "See "
+            ],
+            [
+              "https://github.com/kjk/exp/blob/master/winstrap.ps1",
+              [
+                [
+                  "a",
+                  "https://github.com/kjk/exp/blob/master/winstrap.ps1"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1494819585259,
+        "id": "44b3222b-f159-46cb-94bf-1579cec5a10e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1494819585259,
+        "parent_id": "84e243b4-9529-40ee-931e-7b00b9a44d77",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037193c2e0c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:35 GMT"
+  ],
+  "Etag": [
+    "W/\"2df5-HipB5pwcD83i0Wo5TlIXolD4zTk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d51b96e12215372f2bf11c06b0961b7931565326115; expires=Sat, 08-Aug-20 04:48:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

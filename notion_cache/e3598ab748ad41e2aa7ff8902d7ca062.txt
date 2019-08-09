@@ -1,0 +1,504 @@
+2165 1565326149315 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+      "table": "block"
+    }
+  ]
+}
+Response:+1016
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "763ca5ed-06de-49f2-8fb1-d3985f98ff04",
+          "c817c2a0-29b3-4c74-8c4b-012802b60c85",
+          "fecc7596-73c7-4e82-9a7a-d78fd43cb99d",
+          "eb95b3e0-11ce-4a80-9e77-d38bddda449e",
+          "0e0d6c43-6ee1-43c8-920c-9ea52f1fc570"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368265498,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545819336044,
+        "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "chakra"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 13
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a0bfd187fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:08 GMT"
+  ],
+  "Etag": [
+    "W/\"2a3-Wu1l2PANl9Vk+jQhrJebP/YX70c\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc1fe6380d75cafa7968a87153ab9ef791565326148; expires=Sat, 08-Aug-20 04:49:08 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+13522 1565326149315 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+  "verticalColumns": false
+}
+Response:+12331
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0e0d6c43-6ee1-43c8-920c-9ea52f1fc570": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368276259,
+          "id": "0e0d6c43-6ee1-43c8-920c-9ea52f1fc570",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512368276259,
+          "parent_id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "1c88e826-c6ef-4432-bd0e-188560b1a34f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77419d0c-c357-47de-b617-b16ddf354df2",
+            "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+            "4cb16d35-5069-46e7-a2c9-be86e5bc1f80",
+            "595294dc-8be6-41ee-8aec-14a9b5d21ac7",
+            "44be8df9-6823-49e9-bb8c-a7077124b674",
+            "80a4483d-b747-4706-9898-363d53f16bf0",
+            "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+            "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+            "26a2d6ae-61d5-4350-824b-3aa9f7e131e7",
+            "51b70cc4-6af0-4d6e-8f7c-272387e8a356",
+            "dfcaa0f4-b1c3-4163-932e-4f0378e8d82f",
+            "0dc31cc7-8d09-4258-8f92-f44cbb61d180",
+            "7b7ead5f-c9a0-4a9c-840a-d1eaba74c2a1",
+            "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+            "1013e1bd-10bd-49ac-b02f-79a7ada7e060",
+            "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+            "53485f8e-b0c1-4c49-b174-8995a9e38d4c",
+            "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+            "d61cd2f8-8e60-42d4-bb4d-3b782df87518",
+            "5122bd29-ef09-436b-a66f-8c3321a70e5c",
+            "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+            "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
+            "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+            "040630a7-5e9f-4aae-83d0-1538bdc8f702"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.4375
+          },
+          "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 199
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "763ca5ed-06de-49f2-8fb1-d3985f98ff04": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530086795202,
+          "id": "763ca5ed-06de-49f2-8fb1-d3985f98ff04",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1545819333176,
+          "parent_id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://iobservable.net/blog/2013/11/12/introduction-to-jsrt/",
+                [
+                  [
+                    "a",
+                    "https://iobservable.net/blog/2013/11/12/introduction-to-jsrt/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 21
+        }
+      },
+      "c817c2a0-29b3-4c74-8c4b-012802b60c85": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1545819336044,
+          "id": "c817c2a0-29b3-4c74-8c4b-012802b60c85",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1545819409091,
+          "parent_id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.msdn.microsoft.com/windowsdesktop/JavaScript-Runtime-Hosting-d3a13880/sourcecode?fileId=91890\u0026pathId=662509458",
+                [
+                  [
+                    "a",
+                    "https://code.msdn.microsoft.com/windowsdesktop/JavaScript-Runtime-Hosting-d3a13880/sourcecode?fileId=91890\u0026pathId=662509458"
+                  ]
+                ]
+              ],
+              [
+                " : example of using IE11 JavaScript engine in C++ app (says needs 8.1+ but should work on 7 if IE11 is installed)."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 319
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "e3598ab7-48ad-41e2-aa7f-f8902d7ca062": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "763ca5ed-06de-49f2-8fb1-d3985f98ff04",
+            "c817c2a0-29b3-4c74-8c4b-012802b60c85",
+            "fecc7596-73c7-4e82-9a7a-d78fd43cb99d",
+            "eb95b3e0-11ce-4a80-9e77-d38bddda449e",
+            "0e0d6c43-6ee1-43c8-920c-9ea52f1fc570"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368265498,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1545819336044,
+          "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "chakra"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 13
+        }
+      },
+      "eb95b3e0-11ce-4a80-9e77-d38bddda449e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530086806303,
+          "id": "eb95b3e0-11ce-4a80-9e77-d38bddda449e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086812982,
+          "parent_id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.panopticoncentral.net/2014/03/20/jsrt-wrappers-for-c/",
+                [
+                  [
+                    "a",
+                    "http://www.panopticoncentral.net/2014/03/20/jsrt-wrappers-for-c/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "fecc7596-73c7-4e82-9a7a-d78fd43cb99d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530086798912,
+          "id": "fecc7596-73c7-4e82-9a7a-d78fd43cb99d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086806055,
+          "parent_id": "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://blogs.windows.com/msedgedev/2015/05/18/using-chakra-for-scripting-applications-across-windows-10/",
+                [
+                  [
+                    "a",
+                    "https://blogs.windows.com/msedgedev/2015/05/18/using-chakra-for-scripting-applications-across-windows-10/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a0c6d327fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:08 GMT"
+  ],
+  "Etag": [
+    "W/\"1fa2-KIZtD8iPjflESnSeHRS0OaPRgRc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc1fe6380d75cafa7968a87153ab9ef791565326148; expires=Sat, 08-Aug-20 04:49:08 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,435 @@
+2127 1565326113727 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "d16023a9-b711-42af-84f9-297c523d57d2",
+      "table": "block"
+    }
+  ]
+}
+Response:+979
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "a4c82556-1ca9-49b7-8fee-41af9fc25fa2",
+          "2a37b3cd-3d10-491f-8612-19a8f1e1f55c",
+          "c223d124-59f3-43ee-8506-04098afca1a0",
+          "6d686b41-47e8-4467-a4ec-cbff7d7576db"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520656786931,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "d16023a9-b711-42af-84f9-297c523d57d2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520656834005,
+        "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Finding freelancers"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 62
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037192d9f0d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:32 GMT"
+  ],
+  "Etag": [
+    "W/\"289-8WJbTv/aONM6tIBTfjHzpC9QS8A\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+10506 1565326113728 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "d16023a9-b711-42af-84f9-297c523d57d2",
+  "verticalColumns": false
+}
+Response:+9316
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2a37b3cd-3d10-491f-8612-19a8f1e1f55c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656799792,
+          "id": "2a37b3cd-3d10-491f-8612-19a8f1e1f55c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656810951,
+          "parent_id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.onlinejobs.ph/",
+                [
+                  [
+                    "a",
+                    "https://www.onlinejobs.ph/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6d686b41-47e8-4467-a4ec-cbff7d7576db": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656834005,
+          "id": "6d686b41-47e8-4467-a4ec-cbff7d7576db",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656834526,
+          "parent_id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.fiverr.com/",
+                [
+                  [
+                    "a",
+                    "https://www.fiverr.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "9a07ca64-c0c1-4dc0-9e8b-d134b348678d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+            "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+            "c178e777-fe48-4711-961a-607dbe4b5a9b",
+            "82b644c3-535e-4ce8-86cc-5b586242bbee",
+            "db692f2c-0d5e-4379-9e80-98482910010d",
+            "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+            "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+            "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+            "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+            "21569f94-24a7-4763-86fc-02e698612653",
+            "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+            "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+            "b725097a-bd79-48df-b36e-ad5f89e18654",
+            "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+            "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "81714acf-995e-4968-bb22-0684d95c9495",
+            "1e4d6af9-2729-45a8-87f3-740805b8c583",
+            "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+            "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+            "d16023a9-b711-42af-84f9-297c523d57d2",
+            "0251008d-b4dd-43e3-85ab-4839a7bd6f3b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492419698870,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564296540000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Business (of software and other)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 90
+        }
+      },
+      "a4c82556-1ca9-49b7-8fee-41af9fc25fa2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656792824,
+          "id": "a4c82556-1ca9-49b7-8fee-41af9fc25fa2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656799576,
+          "parent_id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sites where to find freelancers:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 78
+        }
+      },
+      "c223d124-59f3-43ee-8506-04098afca1a0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656822566,
+          "id": "c223d124-59f3-43ee-8506-04098afca1a0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656822942,
+          "parent_id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.upwork.com/",
+                [
+                  [
+                    "a",
+                    "https://www.upwork.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "d16023a9-b711-42af-84f9-297c523d57d2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a4c82556-1ca9-49b7-8fee-41af9fc25fa2",
+            "2a37b3cd-3d10-491f-8612-19a8f1e1f55c",
+            "c223d124-59f3-43ee-8506-04098afca1a0",
+            "6d686b41-47e8-4467-a4ec-cbff7d7576db"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656786931,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656834005,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Finding freelancers"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 62
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037192e0f6a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"1720-aod48LGXOdb9rHvoc9rBP96Zbgs\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

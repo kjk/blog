@@ -1,0 +1,714 @@
+2275 1565326147133 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+      "table": "block"
+    }
+  ]
+}
+Response:+1126
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "d7b0aa1f-35f7-4ffe-8a88-989d892db5ea",
+          "c6a04749-2d71-45ac-b9cf-e8b29fc65047",
+          "e4563e36-98ea-41c1-b2e1-84537b86b7b4",
+          "0357ddb2-41c1-492c-88c1-9028c01652ee",
+          "b23b44fa-a0f8-4dca-93c2-15391bbaccec",
+          "ca7b5981-cbf6-4215-9813-62dde0336a03",
+          "71dfe8e4-6308-48d6-b710-8fd90f031e6d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516338795598,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546486396277,
+        "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Google Analytics"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 76
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719fded207fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:06 GMT"
+  ],
+  "Etag": [
+    "W/\"2fb-XpMrOh+DNcnzPUb7ok/jx8+dqHw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d339ac600f61c327cb6da7fc3ecfe3e361565326146; expires=Sat, 08-Aug-20 04:49:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+14956 1565326147134 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+  "verticalColumns": false
+}
+Response:+13765
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0357ddb2-41c1-492c-88c1-9028c01652ee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338883418,
+          "id": "0357ddb2-41c1-492c-88c1-9028c01652ee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516338883785,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/rickt/analyticsdumper",
+                [
+                  [
+                    "a",
+                    "https://github.com/rickt/analyticsdumper"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "1c88e826-c6ef-4432-bd0e-188560b1a34f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77419d0c-c357-47de-b617-b16ddf354df2",
+            "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+            "4cb16d35-5069-46e7-a2c9-be86e5bc1f80",
+            "595294dc-8be6-41ee-8aec-14a9b5d21ac7",
+            "44be8df9-6823-49e9-bb8c-a7077124b674",
+            "80a4483d-b747-4706-9898-363d53f16bf0",
+            "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+            "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+            "26a2d6ae-61d5-4350-824b-3aa9f7e131e7",
+            "51b70cc4-6af0-4d6e-8f7c-272387e8a356",
+            "dfcaa0f4-b1c3-4163-932e-4f0378e8d82f",
+            "0dc31cc7-8d09-4258-8f92-f44cbb61d180",
+            "7b7ead5f-c9a0-4a9c-840a-d1eaba74c2a1",
+            "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+            "1013e1bd-10bd-49ac-b02f-79a7ada7e060",
+            "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+            "53485f8e-b0c1-4c49-b174-8995a9e38d4c",
+            "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+            "d61cd2f8-8e60-42d4-bb4d-3b782df87518",
+            "5122bd29-ef09-436b-a66f-8c3321a70e5c",
+            "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+            "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
+            "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+            "040630a7-5e9f-4aae-83d0-1538bdc8f702"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.4375
+          },
+          "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 199
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "71dfe8e4-6308-48d6-b710-8fd90f031e6d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338815225,
+          "id": "71dfe8e4-6308-48d6-b710-8fd90f031e6d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516338815225,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d7b0aa1f-35f7-4ffe-8a88-989d892db5ea",
+            "c6a04749-2d71-45ac-b9cf-e8b29fc65047",
+            "e4563e36-98ea-41c1-b2e1-84537b86b7b4",
+            "0357ddb2-41c1-492c-88c1-9028c01652ee",
+            "b23b44fa-a0f8-4dca-93c2-15391bbaccec",
+            "ca7b5981-cbf6-4215-9813-62dde0336a03",
+            "71dfe8e4-6308-48d6-b710-8fd90f031e6d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338795598,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546486396277,
+          "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Google Analytics"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 76
+        }
+      },
+      "b23b44fa-a0f8-4dca-93c2-15391bbaccec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1522203981730,
+          "id": "b23b44fa-a0f8-4dca-93c2-15391bbaccec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1522203994640,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/jessfraz/tdash",
+                [
+                  [
+                    "a",
+                    "https://github.com/jessfraz/tdash"
+                  ]
+                ]
+              ],
+              [
+                " : shows how to access Google Analytics API from Go"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 130
+        }
+      },
+      "c6a04749-2d71-45ac-b9cf-e8b29fc65047": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338802129,
+          "id": "c6a04749-2d71-45ac-b9cf-e8b29fc65047",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516338803009,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/web-js",
+                [
+                  [
+                    "a",
+                    "https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/web-js"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "ca7b5981-cbf6-4215-9813-62dde0336a03": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "41bcf7d5-f0e0-4198-88d4-a24764d38645",
+            "43c4c0bb-40f1-4a3d-957d-b791eb4456f4",
+            "b553d927-eacf-4d51-b7c1-0e517ca022f3"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546486386174,
+          "id": "ca7b5981-cbf6-4215-9813-62dde0336a03",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546486414501,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "self hosted alternatives"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 77
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "d7b0aa1f-35f7-4ffe-8a88-989d892db5ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338800417,
+          "id": "d7b0aa1f-35f7-4ffe-8a88-989d892db5ea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546486377508,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 20
+        }
+      },
+      "e4563e36-98ea-41c1-b2e1-84537b86b7b4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516338816276,
+          "id": "e4563e36-98ea-41c1-b2e1-84537b86b7b4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516338816599,
+          "parent_id": "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://code.rickt.org/post/142452087425/how-to-download-google-analytics-data-with-golang",
+                [
+                  [
+                    "a",
+                    "http://code.rickt.org/post/142452087425/how-to-download-google-analytics-data-with-golang"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719fe4d4d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:06 GMT"
+  ],
+  "Etag": [
+    "W/\"22e4-FRCTfK1XqcLEeO0dJq8QBgig16Y\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d339ac600f61c327cb6da7fc3ecfe3e361565326146; expires=Sat, 08-Aug-20 04:49:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+3876 1565326147134 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+286
+{
+  "requests": [
+    {
+      "id": "41bcf7d5-f0e0-4198-88d4-a24764d38645",
+      "table": "block"
+    },
+    {
+      "id": "43c4c0bb-40f1-4a3d-957d-b791eb4456f4",
+      "table": "block"
+    },
+    {
+      "id": "b553d927-eacf-4d51-b7c1-0e517ca022f3",
+      "table": "block"
+    }
+  ]
+}
+Response:+2551
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546486395822,
+        "id": "41bcf7d5-f0e0-4198-88d4-a24764d38645",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546486406826,
+        "parent_id": "ca7b5981-cbf6-4215-9813-62dde0336a03",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://thomashunter.name/posts/2018-12-28-migrating-from-google-analytics",
+              [
+                [
+                  "a",
+                  "https://thomashunter.name/posts/2018-12-28-migrating-from-google-analytics"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546486408099,
+        "id": "43c4c0bb-40f1-4a3d-957d-b791eb4456f4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546486413712,
+        "parent_id": "ca7b5981-cbf6-4215-9813-62dde0336a03",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=18810035",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=18810035"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 7
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546486414501,
+        "id": "b553d927-eacf-4d51-b7c1-0e517ca022f3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546486418626,
+        "parent_id": "ca7b5981-cbf6-4215-9813-62dde0336a03",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/fivetran/self-hosted-analytics-js",
+              [
+                [
+                  "a",
+                  "https://github.com/fivetran/self-hosted-analytics-js"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 7
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719fead817fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:06 GMT"
+  ],
+  "Etag": [
+    "W/\"635-BKehXJIgG4rCas3y3kJLXX3w2Fw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d339ac600f61c327cb6da7fc3ecfe3e361565326146; expires=Sat, 08-Aug-20 04:49:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

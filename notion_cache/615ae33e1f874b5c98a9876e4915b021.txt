@@ -1,0 +1,474 @@
+2277 1565326114008 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+      "table": "block"
+    }
+  ]
+}
+Response:+1128
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "e45ccf24-8c82-4fbf-96db-31102922b68e",
+          "12cc89ed-86bb-453b-bd90-58bec0f2ca49",
+          "09b2c19d-d6cd-4478-9df5-80a4b109c775",
+          "4edb6306-f250-4642-94a9-86cca78a1749",
+          "3b7d686e-5372-4a10-be00-0824b82fe41e",
+          "df8fb4ac-4f7e-453e-b50c-407f41451194",
+          "e7db2b30-6853-48ae-be55-a18a617c7a1b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528827180687,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531342769647,
+        "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Solar energy facts"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 65
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037192f684d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"2fd-wVvbF4zAc9UGxPaDS26Mbh8GTV0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+12255 1565326114009 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+  "verticalColumns": false
+}
+Response:+11064
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "09b2c19d-d6cd-4478-9df5-80a4b109c775": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531342769647,
+          "id": "09b2c19d-d6cd-4478-9df5-80a4b109c775",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342769659,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "12cc89ed-86bb-453b-bd90-58bec0f2ca49": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531342767503,
+          "id": "12cc89ed-86bb-453b-bd90-58bec0f2ca49",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342768233,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://earther.com/solar-just-hit-a-record-low-price-in-the-u-s-1826830592",
+                [
+                  [
+                    "a",
+                    "https://earther.com/solar-just-hit-a-record-low-price-in-the-u-s-1826830592"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "3b7d686e-5372-4a10-be00-0824b82fe41e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528827276437,
+          "id": "3b7d686e-5372-4a10-be00-0824b82fe41e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528827276437,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "4edb6306-f250-4642-94a9-86cca78a1749": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528827184453,
+          "id": "4edb6306-f250-4642-94a9-86cca78a1749",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528827274745,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "June 2018: Arizona signs 20 year deal with AZ Solar for 30 MW solar power plant at 2.49 cent/kWh. Lowest price in US to date. Source: "
+              ],
+              [
+                "https://cleantechnica.com/2018/06/11/new-ppa-in-arizona-locks-in-lowest-solar-prices-in-us-as-demise-of-navajo-station-looms/",
+                [
+                  [
+                    "a",
+                    "https://cleantechnica.com/2018/06/11/new-ppa-in-arizona-locks-in-lowest-solar-prices-in-us-as-demise-of-navajo-station-looms/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 364
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "615ae33e-1f87-4b5c-98a9-876e4915b021": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e45ccf24-8c82-4fbf-96db-31102922b68e",
+            "12cc89ed-86bb-453b-bd90-58bec0f2ca49",
+            "09b2c19d-d6cd-4478-9df5-80a4b109c775",
+            "4edb6306-f250-4642-94a9-86cca78a1749",
+            "3b7d686e-5372-4a10-be00-0824b82fe41e",
+            "df8fb4ac-4f7e-453e-b50c-407f41451194",
+            "e7db2b30-6853-48ae-be55-a18a617c7a1b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528827180687,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342769647,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Solar energy facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 65
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "df8fb4ac-4f7e-453e-b50c-407f41451194": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528827275745,
+          "id": "df8fb4ac-4f7e-453e-b50c-407f41451194",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528917490051,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "June 2018: 55% of energy added in 2018 so far is solar. "
+              ],
+              [
+                "http://www.businessinsider.com/more-solar-power-than-any-type-of-electricity-2018-6",
+                [
+                  [
+                    "a",
+                    "http://www.businessinsider.com/more-solar-power-than-any-type-of-electricity-2018-6"
+                  ]
+                ]
+              ],
+              [
+                ". 2.5 GW of solar energy in Q1 2018."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 420
+        }
+      },
+      "e45ccf24-8c82-4fbf-96db-31102922b68e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531342761527,
+          "id": "e45ccf24-8c82-4fbf-96db-31102922b68e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342833311,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "July 2018 2.376 cent/kWh, starts in 2021, 300 MWh (210 thousand homes), 25-year purchasing agreement, Nevada"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 264
+        }
+      },
+      "e7db2b30-6853-48ae-be55-a18a617c7a1b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531342755536,
+          "id": "e7db2b30-6853-48ae-be55-a18a617c7a1b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342757336,
+          "parent_id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037192fc8747fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"1c6b-OcXiPRRbX8SL/tGvLYKvtarKBjY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

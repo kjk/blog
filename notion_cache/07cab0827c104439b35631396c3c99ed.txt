@@ -1,0 +1,1066 @@
+3349 1565326159775 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "07cab082-7c10-4439-b356-31396c3c99ed",
+      "table": "block"
+    }
+  ]
+}
+Response:+2200
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "7a4f1889-21a6-48c9-aeda-7cb6c3f095df",
+          "bc03c92e-05cf-4225-8b75-d7f7a381dcef",
+          "36bc09c5-cfa2-4d80-aa5f-919497bac21f",
+          "2fb8d42a-855f-4cf6-ae5d-8f64665c6a71",
+          "1b4d6525-5465-4a70-8c9d-24eca5226ffa",
+          "0ebbd575-3a9b-4ae1-af39-1540b1d225ff",
+          "d9ba7f59-821b-4a74-a702-5f2e5e61cc34",
+          "92bdd14a-32b3-4ddd-bf53-e30df1e3dec8",
+          "134dbac6-2e66-4178-81a7-ebfecd33979c",
+          "4fa0da3c-d03b-45bf-939b-50fff89bf1d7",
+          "3be1f4a5-a636-40e3-adb5-161ff80b5c87",
+          "9342f0de-2ce7-45f2-b4be-9ec18a33ab16",
+          "5c70419b-95f2-4726-81f3-0c8c756b66a7",
+          "9f5aa46a-09d5-490d-9a65-8224e309443c",
+          "a603a875-6831-4497-956a-5caf672e5926",
+          "4dda9fae-ebe3-42a1-af2d-aacf5d938681",
+          "9072ba78-6208-4b49-a0c0-4463ef34cd42",
+          "9ad3c474-85aa-4b6a-8715-d579e2ac3cb5",
+          "5017c1dd-23d0-4404-8a2d-3fb85ab09c71",
+          "fbfeb952-dbc9-47ba-81a6-0d9cfff305bc",
+          "5d2f9129-18bf-49a0-829a-7c06eb558d0b",
+          "8e959597-0dd0-4dc0-9ea9-11d94917149e",
+          "544e75d8-9819-4406-a9ed-7f61e7e2d9a7",
+          "61d6d78a-528e-4a5c-b105-534ab7ed856d",
+          "ab90fe29-c824-4095-918c-7870dd17339a",
+          "3f9d652b-39c6-4b1c-be6b-d430ec664c67",
+          "125f371a-9337-4f9d-9672-27468cfe8b51"
+        ],
+        "copied_from": "40c8ae53-aff7-467d-a4be-910aec1881a0",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736996035,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "07cab082-7c10-4439-b356-31396c3c99ed",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1542860761086,
+        "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "My social marketing failure"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 12
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a4d69257fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:18 GMT"
+  ],
+  "Etag": [
+    "W/\"647-R2NuT9f2oVOo23hFGaOSMO5iOBI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=db404fc957f963201cf06f0bb8d56e9471565326158; expires=Sat, 08-Aug-20 04:49:18 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+33801 1565326159778 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "07cab082-7c10-4439-b356-31396c3c99ed",
+  "verticalColumns": false
+}
+Response:+32610
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "07cab082-7c10-4439-b356-31396c3c99ed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7a4f1889-21a6-48c9-aeda-7cb6c3f095df",
+            "bc03c92e-05cf-4225-8b75-d7f7a381dcef",
+            "36bc09c5-cfa2-4d80-aa5f-919497bac21f",
+            "2fb8d42a-855f-4cf6-ae5d-8f64665c6a71",
+            "1b4d6525-5465-4a70-8c9d-24eca5226ffa",
+            "0ebbd575-3a9b-4ae1-af39-1540b1d225ff",
+            "d9ba7f59-821b-4a74-a702-5f2e5e61cc34",
+            "92bdd14a-32b3-4ddd-bf53-e30df1e3dec8",
+            "134dbac6-2e66-4178-81a7-ebfecd33979c",
+            "4fa0da3c-d03b-45bf-939b-50fff89bf1d7",
+            "3be1f4a5-a636-40e3-adb5-161ff80b5c87",
+            "9342f0de-2ce7-45f2-b4be-9ec18a33ab16",
+            "5c70419b-95f2-4726-81f3-0c8c756b66a7",
+            "9f5aa46a-09d5-490d-9a65-8224e309443c",
+            "a603a875-6831-4497-956a-5caf672e5926",
+            "4dda9fae-ebe3-42a1-af2d-aacf5d938681",
+            "9072ba78-6208-4b49-a0c0-4463ef34cd42",
+            "9ad3c474-85aa-4b6a-8715-d579e2ac3cb5",
+            "5017c1dd-23d0-4404-8a2d-3fb85ab09c71",
+            "fbfeb952-dbc9-47ba-81a6-0d9cfff305bc",
+            "5d2f9129-18bf-49a0-829a-7c06eb558d0b",
+            "8e959597-0dd0-4dc0-9ea9-11d94917149e",
+            "544e75d8-9819-4406-a9ed-7f61e7e2d9a7",
+            "61d6d78a-528e-4a5c-b105-534ab7ed856d",
+            "ab90fe29-c824-4095-918c-7870dd17339a",
+            "3f9d652b-39c6-4b1c-be6b-d430ec664c67",
+            "125f371a-9337-4f9d-9672-27468cfe8b51"
+          ],
+          "copied_from": "40c8ae53-aff7-467d-a4be-910aec1881a0",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996035,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1542860761086,
+          "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My social marketing failure"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 12
+        }
+      },
+      "0ebbd575-3a9b-4ae1-af39-1540b1d225ff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "0ebbd575-3a9b-4ae1-af39-1540b1d225ff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Four months ago I started an experiment in social marketing of "
+              ],
+              [
+                "SumatraPDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ],
+              [
+                ", my free PDF viewer for Windows."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "125f371a-9337-4f9d-9672-27468cfe8b51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "125f371a-9337-4f9d-9672-27468cfe8b51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On the other hand, I’ve seen web pages for software that I’m pretty sure is less popular than Sumatra and had way more than my measly 44 tweets."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "134dbac6-2e66-4178-81a7-ebfecd33979c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "134dbac6-2e66-4178-81a7-ebfecd33979c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is a reflection on changing habits of how people share what they find on the web. Blogs used to be the medium to write about products and services people found useful. Blogs are still going strong but tweeting/buzzing/liking is much easier than writing a blog post so it became a dominant way of sharing cool finds."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1b4d6525-5465-4a70-8c9d-24eca5226ffa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "1b4d6525-5465-4a70-8c9d-24eca5226ffa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Me, a social marketer"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2fb8d42a-855f-4cf6-ae5d-8f64665c6a71": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "2fb8d42a-855f-4cf6-ae5d-8f64665c6a71",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "36bc09c5-cfa2-4d80-aa5f-919497bac21f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996035,
+          "id": "36bc09c5-cfa2-4d80-aa5f-919497bac21f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996035,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2011-02-08T15:00:09-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3be1f4a5-a636-40e3-adb5-161ff80b5c87": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "3be1f4a5-a636-40e3-adb5-161ff80b5c87",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A button promotes a given page (as identified by a url). In case of Sumatra, they promote the main (landing) page."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3f9d652b-39c6-4b1c-be6b-d430ec664c67": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "3f9d652b-39c6-4b1c-be6b-d430ec664c67",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Another possibility is that those things don’t work well for software. Unlike a cute picture or a blog post, software cannot be evaluated by just looking at the website. You need to use it for a while to decide if it’s good or not so it doesn’t lend itself to impulsive tweets of admiration."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4dda9fae-ebe3-42a1-af2d-aacf5d938681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "4dda9fae-ebe3-42a1-af2d-aacf5d938681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can track the effectiveness of such marketing by counting how many people come to your website from twitter.com or Facebook.com (I do it with Google Analytics)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4fa0da3c-d03b-45bf-939b-50fff89bf1d7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "4fa0da3c-d03b-45bf-939b-50fff89bf1d7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It took me about an hour to add the 3 most popular buttons, so there was no reason not to try it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5017c1dd-23d0-4404-8a2d-3fb85ab09c71": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "5017c1dd-23d0-4404-8a2d-3fb85ab09c71",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To give some perspective: before installing those buttons Sumatra averaged around 4.000 downloads a day and getting more than 300.000 page views a month."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "544e75d8-9819-4406-a9ed-7f61e7e2d9a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "544e75d8-9819-4406-a9ed-7f61e7e2d9a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Why so failure?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c70419b-95f2-4726-81f3-0c8c756b66a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "5c70419b-95f2-4726-81f3-0c8c756b66a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Me, a failed social marketer"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "5d2f9129-18bf-49a0-829a-7c06eb558d0b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "5d2f9129-18bf-49a0-829a-7c06eb558d0b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I also know from monitoring twitter for mentions of Sumatra that people tweet about it on their own."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "61d6d78a-528e-4a5c-b105-534ab7ed856d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "61d6d78a-528e-4a5c-b105-534ab7ed856d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I didn’t expect miracles but I also didn’t expect such a massive failure."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7a4f1889-21a6-48c9-aeda-7cb6c3f095df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996035,
+          "id": "7a4f1889-21a6-48c9-aeda-7cb6c3f095df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996035,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 404006"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8e959597-0dd0-4dc0-9ea9-11d94917149e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "8e959597-0dd0-4dc0-9ea9-11d94917149e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Incremental traffic from Twitter or Facebook to my website is negligible."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9072ba78-6208-4b49-a0c0-4463ef34cd42": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "9072ba78-6208-4b49-a0c0-4463ef34cd42",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The results are terrible. In the last month, I got 82 visits from facebook.com (out of 350.000 pageviews), which makes it 116th referal source. Inexplicably twitter.com doesn’t even show up in the list of first 500 referal sources."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "92bdd14a-32b3-4ddd-bf53-e30df1e3dec8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1542860759312,
+          "file_ids": [
+            "59f96e8a-566a-4d01-8993-b0ca7efa6877"
+          ],
+          "format": {
+            "block_aspect_ratio": 0.22388059701492538,
+            "block_full_width": false,
+            "block_height": 45,
+            "block_page_width": false,
+            "block_preserve_scale": true,
+            "block_width": 201,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59f96e8a-566a-4d01-8993-b0ca7efa6877/sum-tweet-like.png"
+          },
+          "id": "92bdd14a-32b3-4ddd-bf53-e30df1e3dec8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1542860759744,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59f96e8a-566a-4d01-8993-b0ca7efa6877/sum-tweet-like.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 11
+        }
+      },
+      "9342f0de-2ce7-45f2-b4be-9ec18a33ab16": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "9342f0de-2ce7-45f2-b4be-9ec18a33ab16",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "When I installed the buttons on 9-19-2010, I already had 529 Buzz posts (a suspiciously large number), 44 tweets and 16 Facebook likes (those services track number of mentions for a given page even if they originate from other places which gave me a jump start)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9ad3c474-85aa-4b6a-8715-d579e2ac3cb5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "9ad3c474-85aa-4b6a-8715-d579e2ac3cb5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In those four months I got 314 facebook likes (78 per month) and 29 tweets (7 per month)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9f5aa46a-09d5-490d-9a65-8224e309443c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "9f5aa46a-09d5-490d-9a65-8224e309443c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As far as I can tell, it was a dismal failure."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a603a875-6831-4497-956a-5caf672e5926": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "a603a875-6831-4497-956a-5caf672e5926",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The purpose of marketing is to make people more aware of your software. The theory is that a tweet or a like shows up on people’s twitter or facebook streams whcih leads them to click on the link and visit your website."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ab90fe29-c824-4095-918c-7870dd17339a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "ab90fe29-c824-4095-918c-7870dd17339a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One possibility is that I horribly botched interpretation of the results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bc03c92e-05cf-4225-8b75-d7f7a381dcef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996035,
+          "id": "bc03c92e-05cf-4225-8b75-d7f7a381dcef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996035,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: software, business, sumatra"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d9ba7f59-821b-4a74-a702-5f2e5e61cc34": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996036,
+          "id": "d9ba7f59-821b-4a74-a702-5f2e5e61cc34",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996036,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let me rephrase that without the buzzwords: four months ago I added Google buzz, tweet and Facebook like buttons to Sumatra’s web pages:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86f1e3f8-c08c-4554-98f2-8cfb464398a4",
+            "f1fcdd01-b2dd-4794-a7af-3b00eebda21e",
+            "4b52129c-080e-4159-aebe-3e510d4b81d2",
+            "f5652f25-3b4d-4dc0-bb99-c673ca61b977",
+            "be153e27-1136-4bf0-a5d3-c65c2085db09",
+            "a8d20cf4-69be-48fd-b305-44e34a281704",
+            "0aaab80b-35fb-473e-af08-3c5c3f13b829",
+            "d0c12a9a-f1c5-4726-bfa4-502c41161763",
+            "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+            "c1ce4215-5b65-4edd-afa0-63e314119f75",
+            "1e14f055-b2ea-4ec9-b451-ed64f38732ac",
+            "99d0b424-dc31-47da-86f3-4388e6b933e1",
+            "1287e403-5c29-436b-9f4a-249a433ceff5",
+            "faff1f91-88e2-4351-8839-7fb0edb524b6",
+            "d3c4a006-1407-4f16-a096-fa084233dfdd",
+            "171e0029-5b7c-4f69-aedc-8dfbb1082f63",
+            "07cab082-7c10-4439-b356-31396c3c99ed",
+            "465ee96a-4544-410f-9c87-9338e179890b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736995601,
+          "id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2011 (17)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      },
+      "fbfeb952-dbc9-47ba-81a6-0d9cfff305bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996037,
+          "id": "fbfeb952-dbc9-47ba-81a6-0d9cfff305bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996037,
+          "parent_id": "07cab082-7c10-4439-b356-31396c3c99ed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That means that insignificant number of the people downloading the software or visiting SumatraPDF website use the tweet or like buttons."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a4dc9557fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:19 GMT"
+  ],
+  "Etag": [
+    "W/\"5601-qtnSylFJhL0LnEJ7o7J2pt559FI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=deb9eb2da319c8d96855338f6a63159401565326159; expires=Sat, 08-Aug-20 04:49:19 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

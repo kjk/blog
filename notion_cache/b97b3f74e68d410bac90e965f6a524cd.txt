@@ -1,0 +1,880 @@
+2488 1565326113575 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+      "table": "block"
+    }
+  ]
+}
+Response:+1339
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "b4ee0ed1-a9c7-44f6-aed8-83e7b12061e6",
+          "c600b6c4-e211-47cc-af7b-650d079766ab",
+          "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+          "ac4abf70-7cd5-4cf5-bee0-163450efaf0a",
+          "ecb1f362-c016-40eb-9b87-ac6a184be779",
+          "b6960205-1c2f-44b1-adf6-b4de3e313d62",
+          "37288fce-2a6a-45ce-817c-4566678b9b0d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859387026,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516341223869,
+        "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+        "parent_table": "block",
+        "permissions": [
+          {
+            "role": "editor",
+            "type": "user_permission",
+            "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+          }
+        ],
+        "properties": {
+          "title": [
+            [
+              "Essentials of Starting Indie Business"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 198
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037192bbdcd7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:32 GMT"
+  ],
+  "Etag": [
+    "W/\"37d-lk+bQapAf6CZlVnnMBaxAalq4J4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+12802 1565326113578 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+  "verticalColumns": false
+}
+Response:+11611
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1a5729b2-30e0-45e5-94cf-f14403db6c79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+            "443a066b-9ace-485e-8270-5bb674d75517"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859471919,
+          "id": "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514859936657,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "marketing / promoting your product"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 110
+        }
+      },
+      "37288fce-2a6a-45ce-817c-4566678b9b0d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514860185504,
+          "id": "37288fce-2a6a-45ce-817c-4566678b9b0d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514860185504,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "9a07ca64-c0c1-4dc0-9e8b-d134b348678d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+            "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+            "c178e777-fe48-4711-961a-607dbe4b5a9b",
+            "82b644c3-535e-4ce8-86cc-5b586242bbee",
+            "db692f2c-0d5e-4379-9e80-98482910010d",
+            "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+            "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+            "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+            "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+            "21569f94-24a7-4763-86fc-02e698612653",
+            "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+            "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+            "b725097a-bd79-48df-b36e-ad5f89e18654",
+            "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+            "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "81714acf-995e-4968-bb22-0684d95c9495",
+            "1e4d6af9-2729-45a8-87f3-740805b8c583",
+            "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+            "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+            "d16023a9-b711-42af-84f9-297c523d57d2",
+            "0251008d-b4dd-43e3-85ab-4839a7bd6f3b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492419698870,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564296540000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Business (of software and other)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 90
+        }
+      },
+      "ac4abf70-7cd5-4cf5-bee0-163450efaf0a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "60ea51b0-df36-4789-9e13-3bfdc920255d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859858605,
+          "id": "ac4abf70-7cd5-4cf5-bee0-163450efaf0a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514859866015,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "hiring developers"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 54
+        }
+      },
+      "b4ee0ed1-a9c7-44f6-aed8-83e7b12061e6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859405345,
+          "id": "b4ee0ed1-a9c7-44f6-aed8-83e7b12061e6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514859470408,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "learning how to program"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 122
+        }
+      },
+      "b6960205-1c2f-44b1-adf6-b4de3e313d62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "be4038d5-dde0-4c6d-a00d-c20e2e6a321f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859522053,
+          "id": "b6960205-1c2f-44b1-adf6-b4de3e313d62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514859534065,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "other people's articles"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 70
+        }
+      },
+      "b97b3f74-e68d-410b-ac90-e965f6a524cd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b4ee0ed1-a9c7-44f6-aed8-83e7b12061e6",
+            "c600b6c4-e211-47cc-af7b-650d079766ab",
+            "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+            "ac4abf70-7cd5-4cf5-bee0-163450efaf0a",
+            "ecb1f362-c016-40eb-9b87-ac6a184be779",
+            "b6960205-1c2f-44b1-adf6-b4de3e313d62",
+            "37288fce-2a6a-45ce-817c-4566678b9b0d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859387026,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516341223869,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Essentials of Starting Indie Business"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 198
+        }
+      },
+      "c600b6c4-e211-47cc-af7b-650d079766ab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859425283,
+          "id": "c600b6c4-e211-47cc-af7b-650d079766ab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514859466557,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "finding programmer partner"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 74
+        }
+      },
+      "ecb1f362-c016-40eb-9b87-ac6a184be779": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "aab3bfb4-534b-469a-90b8-ace70896fa4e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514860188015,
+          "id": "ecb1f362-c016-40eb-9b87-ac6a184be779",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514860195311,
+          "parent_id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "design"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 22
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037192c3df47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:32 GMT"
+  ],
+  "Etag": [
+    "W/\"1d9a-SZWAkmJhhZl/LW4EOPmVSqUpSjo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+5653 1565326113579 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+462
+{
+  "requests": [
+    {
+      "id": "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+      "table": "block"
+    },
+    {
+      "id": "443a066b-9ace-485e-8270-5bb674d75517",
+      "table": "block"
+    },
+    {
+      "id": "60ea51b0-df36-4789-9e13-3bfdc920255d",
+      "table": "block"
+    },
+    {
+      "id": "aab3bfb4-534b-469a-90b8-ace70896fa4e",
+      "table": "block"
+    },
+    {
+      "id": "be4038d5-dde0-4c6d-a00d-c20e2e6a321f",
+      "table": "block"
+    }
+  ]
+}
+Response:+4152
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ac9ca876-4df6-4e93-9435-2164d2346758",
+          "9e95fd56-0978-435f-b08a-38e9c9cdca3b",
+          "3eb06e5e-0a35-4071-b92d-873df06d6d28"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859936657,
+        "id": "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514860165031,
+        "parent_id": "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "content marketing"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 52
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859498299,
+        "id": "443a066b-9ace-485e-8270-5bb674d75517",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514859500029,
+        "parent_id": "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.indiehackers.com/forum/7-places-to-submit-your-startup-that-actually-work-90025945a0",
+              [
+                [
+                  "a",
+                  "https://www.indiehackers.com/forum/7-places-to-submit-your-startup-that-actually-work-90025945a0"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859866015,
+        "id": "60ea51b0-df36-4789-9e13-3bfdc920255d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514859872357,
+        "parent_id": "ac4abf70-7cd5-4cf5-bee0-163450efaf0a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "will someone steal my idea?"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 64
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514860195311,
+        "id": "aab3bfb4-534b-469a-90b8-ace70896fa4e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514860196709,
+        "parent_id": "ecb1f362-c016-40eb-9b87-ac6a184be779",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://uxdesign.cc/design-better-forms-96fadca0f49c",
+              [
+                [
+                  "a",
+                  "https://uxdesign.cc/design-better-forms-96fadca0f49c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859534065,
+        "id": "be4038d5-dde0-4c6d-a00d-c20e2e6a321f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514859536205,
+        "parent_id": "b6960205-1c2f-44b1-adf6-b4de3e313d62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.indiehackers.com/@ivm/what-you-should-know-as-a-founder-of-a-software-company-461ef9ccc5",
+              [
+                [
+                  "a",
+                  "https://www.indiehackers.com/@ivm/what-you-should-know-as-a-founder-of-a-software-company-461ef9ccc5"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037192c9e437fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:32 GMT"
+  ],
+  "Etag": [
+    "W/\"a92-fzT0pB4ZWfVNhIAIGrvsnzsilsk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+3810 1565326113579 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+286
+{
+  "requests": [
+    {
+      "id": "ac9ca876-4df6-4e93-9435-2164d2346758",
+      "table": "block"
+    },
+    {
+      "id": "9e95fd56-0978-435f-b08a-38e9c9cdca3b",
+      "table": "block"
+    },
+    {
+      "id": "3eb06e5e-0a35-4071-b92d-873df06d6d28",
+      "table": "block"
+    }
+  ]
+}
+Response:+2485
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514859943101,
+        "id": "ac9ca876-4df6-4e93-9435-2164d2346758",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514859947873,
+        "parent_id": "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.copyblogger.com/persuasive-content-marketing/",
+              [
+                [
+                  "a",
+                  "https://www.copyblogger.com/persuasive-content-marketing/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514860096467,
+        "id": "9e95fd56-0978-435f-b08a-38e9c9cdca3b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514860096777,
+        "parent_id": "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.copyblogger.com/evergreen-content/",
+              [
+                [
+                  "a",
+                  "https://www.copyblogger.com/evergreen-content/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514860165031,
+        "id": "3eb06e5e-0a35-4071-b92d-873df06d6d28",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514860165299,
+        "parent_id": "f9cabc14-a9a3-4540-9b95-6b314abfa146",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://cmichel.io/on-writing-well/",
+              [
+                [
+                  "a",
+                  "https://cmichel.io/on-writing-well/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037192d0e717fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:32 GMT"
+  ],
+  "Etag": [
+    "W/\"5f3-5WjjuyoBCgycEu7dA6LXQGp0jPQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d73bb952f63c15bed71e2e2a903d8542b1565326112; expires=Sat, 08-Aug-20 04:48:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,1186 @@
+3187 1565326233913 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+      "table": "block"
+    }
+  ]
+}
+Response:+2038
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
+          "672eb5a7-7e9e-404d-8643-eef6e523613b",
+          "bdf99463-fde7-436a-aca2-028b44df4551",
+          "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
+          "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
+          "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
+          "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
+          "fe8c33eb-802f-4767-b292-9adfd0b82f43",
+          "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
+          "22339a09-aef8-471e-a539-f0edca562e92",
+          "db11b198-59e5-4a33-aba7-0d5f90d8d744",
+          "c17f9047-78e9-4119-aed0-f56652524b6c",
+          "f7370581-6ab2-4308-aadd-f4a9a7b4774c",
+          "49569045-1684-4639-be30-7fa0dd625dec",
+          "f92d50ff-ac50-41a5-9bfb-755c3188173f",
+          "9bf0acff-beb0-4549-8a49-ad534956b8ff",
+          "5a16e527-af6c-49b2-88a6-c181969677e1",
+          "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
+          "9fffd054-7df9-4986-9987-401214a4b4f0",
+          "e2eff078-216b-4c93-8884-1fe619849bb3",
+          "6d40670e-8709-4bc3-9a53-68ed367bc05c",
+          "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
+          "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
+          "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
+          "286fee2a-24bb-46ac-95ac-32469bb5abb6"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541575775060,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555557960000,
+        "parent_id": "4a09dc7a-9da2-425e-bcc2-e43081144575",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How Photopea can make money"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 155
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c1c7b5c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:33 GMT"
+  ],
+  "Etag": [
+    "W/\"5c5-NMFenW9nQvJAzLZhW4K66p+DB0s\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dedac27010ed01c3834d5c0867b4538661565326233; expires=Sat, 08-Aug-20 04:50:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+39727 1565326233917 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+  "verticalColumns": false
+}
+Response:+38536
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2174731b-1cc3-49d9-a9f7-3a88af9b7508": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575784234,
+          "id": "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555557960000,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those are my ideas on how Photopea can make (more) money."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 174
+        }
+      },
+      "22339a09-aef8-471e-a539-f0edca562e92": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576299102,
+          "id": "22339a09-aef8-471e-a539-f0edca562e92",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576336840,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A service similar to "
+              ],
+              [
+                "https://www.fiverr.com/",
+                [
+                  [
+                    "a",
+                    "https://www.fiverr.com/"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "https://99designs.com/",
+                [
+                  [
+                    "a",
+                    "https://99designs.com/"
+                  ]
+                ]
+              ],
+              [
+                " but limited to graphic works that can be done inside Photopea."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 149
+        }
+      },
+      "286fee2a-24bb-46ac-95ac-32469bb5abb6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575918451,
+          "id": "286fee2a-24bb-46ac-95ac-32469bb5abb6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541575918465,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "49569045-1684-4639-be30-7fa0dd625dec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541577113640,
+          "id": "49569045-1684-4639-be30-7fa0dd625dec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541578264021,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "a menu item \"post to your gallery\" (by default work is private, posting makes it public. it posts to \"gallery stream\" as well as adds to a gallery for that specific artist"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 612
+        }
+      },
+      "4a09dc7a-9da2-425e-bcc2-e43081144575": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a26d4a89-f956-4480-9981-25f20baceb3c",
+            "65eb95b6-cf04-4936-996d-ead474a9ad68",
+            "1a904518-99f8-4a7a-a31c-f18685d810ae",
+            "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+            "081dcf97-15be-454a-819c-ad2a82a8e3ae",
+            "35eaf7ac-4cf5-471d-9148-ffe54bf49e0a",
+            "81fb1195-6d9a-47d1-abb6-ac90d06c2ba1",
+            "55251b05-bc14-4ef2-a068-075faa27d7fb",
+            "a1efea24-ccde-4c3a-bc45-5229d0440e6c",
+            "9f93cef4-4c34-45e3-b3e4-8b3da1979668",
+            "14becea9-7b61-4f70-bd38-9842dc10f186",
+            "e8e931f7-3a15-4ba3-b42d-77d835b93c1b",
+            "c96d527a-6c1a-42e6-b2c8-8fddfe60ce2c",
+            "10cbf324-749b-4106-bd81-e29a72f7a842",
+            "fa1f0f7f-4edc-40d8-a872-6b6190c87494",
+            "705be0ed-8bc5-48a4-8f90-d6759e152f5b",
+            "70aae5de-181c-4b72-9f6e-83b83b4e3129",
+            "8338d0a4-e666-4bd6-8e94-8aee6bd314dd",
+            "e1ae948b-4d6a-4e0b-9fae-09cd2436c7f9",
+            "fe46c3fe-17fa-4abb-b984-0ed0aa51d478",
+            "cf5fc021-60d2-4bee-a47e-5b530de5ae18",
+            "4a79786a-8d22-4123-a481-308aa8e755f5",
+            "7ada8852-3288-4ff1-968b-498e74e48bd0",
+            "30b3deeb-9ce5-4692-b961-6a49eea0cace",
+            "956bef80-1e5b-4ae0-af39-dfa45002ab1d",
+            "4d7bfde0-e22b-40c9-bb7f-cbf9bbc53c3a",
+            "b4cf6b7d-8421-4b34-a4ad-9e430eaf6497",
+            "3ef4a028-1a98-4518-a361-cbb6ba3dc854",
+            "d20412f9-51bf-4f35-afd7-ea9b3a8ff67c",
+            "238edf47-d5c8-4cf0-9efd-efbad8c00423",
+            "3871fc53-09e3-48c9-af4f-0d02123b8072",
+            "6b8219e7-55ba-42f2-9926-536b68a6b781",
+            "affaedb9-08e7-4169-af40-7710cf0bc809",
+            "d75e783e-f6f6-4e4e-8f83-0a41fbaa973d",
+            "95ab1b92-b55e-4e72-8a93-3a8d0b73f024",
+            "82a112c8-f82b-4a14-b3eb-65d659a194a2",
+            "988df410-123c-496c-a4a0-e5c06522f0e8",
+            "12686eb1-93da-41fd-a393-41941791ad53",
+            "479fbfa7-72be-4c63-adac-cf22506f4a64",
+            "4216f453-57e0-49ee-b2c0-d89cea28f696",
+            "258256e6-659f-45e4-90ea-25934e375c78",
+            "4e5da5af-bee9-47c8-9719-65096ecd5596",
+            "a3bd13fb-d685-4173-b95f-557d7a35e230",
+            "8f443903-ce8b-4cb0-9a34-3906742950e4",
+            "45981704-58bf-4613-be02-8fc3c9b15583",
+            "b908cfbe-01a1-481f-a824-1495871c133c",
+            "79bae163-ed8c-450b-87c6-04419b87395f",
+            "454100ba-fa25-4b65-aaae-f7fa5f59f0b5",
+            "b5a8389d-def7-4887-a510-e13f5ac4eae6",
+            "2a16f2f2-0071-4f18-a113-0afb34c2b446",
+            "98273fcb-cc25-45c8-a32b-bab7716ed8c3",
+            "8fa50b55-f599-4c35-b36a-1d53714b6cb5",
+            "4374de76-01d8-4187-98b2-dd3706679a4e",
+            "49f8141f-ee48-4c88-a80c-b505038adff5",
+            "558348c7-1dd8-4b15-ae5b-e83de0853ba5",
+            "27d09dfc-c440-481b-ba4c-476ee311a391",
+            "2f6c83ce-4bf1-43cc-824c-f2ced4c9d351",
+            "16d3a441-a0be-4d1f-9ad9-c02ba27b9574",
+            "9b2e1ba6-83cf-42bd-92c6-70c685dd2d20",
+            "a971d7c2-4148-49df-a550-fadde062b199",
+            "96fd9a68-3cb3-471b-b81f-6814e296d031",
+            "e6d432a8-02cd-4c53-aed9-fdad25a52ac2",
+            "9b996dbb-b8cf-4fa4-bec8-2f32a7e817fd",
+            "0cebe4d4-e913-46a7-99f9-cc0eae2af843",
+            "2f509415-641c-40a8-aaed-88a2ced0599a",
+            "c470e679-2f55-4589-b9ec-14dbca32f07e",
+            "16fb2676-1138-4fe4-80d9-43ddf925ee30",
+            "bd92faa6-89c5-4e04-9c24-1db27e129706",
+            "1f8551cc-deab-41fe-a582-372df6809a49",
+            "5082e8d9-d4fb-4e3a-a2e9-79eb416ba175",
+            "18f2c599-04ac-4457-a219-8996ba4ae946",
+            "fc794a86-d81d-44c6-be5b-bb26914eb915",
+            "2ecb15f2-3017-40fc-9b83-3f3250e96d7b",
+            "647e8dba-e8ca-40cf-8ca8-d4ee18187e76",
+            "4adcc8d6-42bb-4729-8a3e-43049e63d412",
+            "29790c64-18ae-4e18-9034-d9255cb5c6cb",
+            "ae480bb1-5ab8-4f6b-88fc-825c2e30649d",
+            "b19b6ad8-9e1e-40fa-9976-2122072b33d1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1553635815528,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4a09dc7a-9da2-425e-bcc2-e43081144575",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555557960000,
+          "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My ideas for other companies / products"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 244
+        }
+      },
+      "4a98a6e2-a5c3-4fc3-803d-54d56704a411": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578848015,
+          "id": "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541578874858,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is not strictly about making money but about promoting Photopea."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 236
+        }
+      },
+      "50fb1472-0dc5-4b20-8565-f3131b71dfda": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
+            "672eb5a7-7e9e-404d-8643-eef6e523613b",
+            "bdf99463-fde7-436a-aca2-028b44df4551",
+            "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
+            "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
+            "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
+            "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
+            "fe8c33eb-802f-4767-b292-9adfd0b82f43",
+            "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
+            "22339a09-aef8-471e-a539-f0edca562e92",
+            "db11b198-59e5-4a33-aba7-0d5f90d8d744",
+            "c17f9047-78e9-4119-aed0-f56652524b6c",
+            "f7370581-6ab2-4308-aadd-f4a9a7b4774c",
+            "49569045-1684-4639-be30-7fa0dd625dec",
+            "f92d50ff-ac50-41a5-9bfb-755c3188173f",
+            "9bf0acff-beb0-4549-8a49-ad534956b8ff",
+            "5a16e527-af6c-49b2-88a6-c181969677e1",
+            "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
+            "9fffd054-7df9-4986-9987-401214a4b4f0",
+            "e2eff078-216b-4c93-8884-1fe619849bb3",
+            "6d40670e-8709-4bc3-9a53-68ed367bc05c",
+            "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
+            "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
+            "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
+            "286fee2a-24bb-46ac-95ac-32469bb5abb6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575775060,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555557960000,
+          "parent_id": "4a09dc7a-9da2-425e-bcc2-e43081144575",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How Photopea can make money"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 155
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5a16e527-af6c-49b2-88a6-c181969677e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541577269007,
+          "id": "5a16e527-af6c-49b2-88a6-c181969677e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541577571317,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "allow artists to easily opt-in into being providers. If artist opts-in, the client can initiate work request directly from gallery page (\"commission a project from this artist\")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 496
+        }
+      },
+      "5fe4eafd-8123-4918-9f16-829d535c3203": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4a09dc7a-9da2-425e-bcc2-e43081144575",
+            "a4afbbc6-05d9-48c4-af26-cbc42559073b",
+            "a9dcef4f-0652-458d-94d5-c166e7a3b8ce",
+            "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
+            "dd297ee6-37f2-414a-b6da-fdb487275767",
+            "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
+            "4a15357f-c05d-4200-b11d-bef0b9609327",
+            "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+            "b5857b3d-7732-4e00-ac35-9b12fb98321c",
+            "c58702ca-74f1-48b2-bcb3-255574fa9a3c",
+            "3dd87853-4908-437b-9d01-73c24f7870bb",
+            "bb905ae2-bc8c-4576-b8cc-dc938f49c78a",
+            "9c86928e-3f60-47cb-b696-7c0acf41aa1a",
+            "e571d4a0-2ca7-4d1c-a287-69493745fc2f",
+            "15a96813-c3cb-4086-8936-f52186e5eb9d",
+            "dbad9925-6e0f-4e8e-8626-3b74c5da27de",
+            "9d5947d4-3524-426f-bbee-394953e2c08b",
+            "0a831536-2716-4fac-97ed-0e1e9cc6b3c1",
+            "eb8bcc93-ae5b-4a47-afab-c43c99d76c34",
+            "30f368e7-5e79-4ced-a43c-46fcfb3d2dfe",
+            "d8688e97-9bf2-4ffe-bd12-e6f03abaf9da",
+            "ceb4a476-8671-4901-bc16-ec876931f571",
+            "c65ada5c-ddbb-4517-8632-dd942753233a",
+            "5edecbd7-7d7f-4a56-84b6-1272edcca6c9",
+            "0eb807b7-8452-4fb0-8c6b-33fa36234831",
+            "6b660fdb-9ac4-4a36-adb5-2490de79d038",
+            "37f6974a-4440-416a-a3e6-f55af114dda1",
+            "38eb5611-867f-435e-9ad3-a4c2622d3a65",
+            "23544543-3509-47d2-9d00-deef27dc6cbb",
+            "65fd9edf-e5bc-4b65-b054-d7fc09a28720",
+            "aecfc6d5-0492-42d4-8eb8-85e400364b66",
+            "aa0adfa1-43e9-4c7e-8e43-2c998626310b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "5fe4eafd-8123-4918-9f16-829d535c3203",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1562950200000,
+          "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "parent_table": "block",
+          "type": "column",
+          "version": 247
+        }
+      },
+      "672eb5a7-7e9e-404d-8643-eef6e523613b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575813734,
+          "id": "672eb5a7-7e9e-404d-8643-eef6e523613b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541575822282,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Desktop version"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 45
+        }
+      },
+      "6d40670e-8709-4bc3-9a53-68ed367bc05c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578838227,
+          "id": "6d40670e-8709-4bc3-9a53-68ed367bc05c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541578847525,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Photopea promotion idea"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 65
+        }
+      },
+      "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576115528,
+          "id": "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541577599335,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Be a marketplace that connects people who look for artists to commission graphics (logos, covers etc.) with artists who can do such work, using Photopea as a tool to do it. "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 641
+        }
+      },
+      "9bf0acff-beb0-4549-8a49-ad534956b8ff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541577040041,
+          "id": "9bf0acff-beb0-4549-8a49-ad534956b8ff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541577657002,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "gallery is essential for potential buyers. It's much easier to buy e.g. a logo design from an artist if you can see good looking logos that this person designed in the past"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 610
+        }
+      },
+      "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576077609,
+          "id": "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576094217,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Be a marketplace"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 167
+        }
+      },
+      "9fffd054-7df9-4986-9987-401214a4b4f0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578392746,
+          "id": "9fffd054-7df9-4986-9987-401214a4b4f0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541578695360,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "a very important thing would be to build a smooth job management i.e. a tool for client to communicate with the artist before, during and after commissioning the art (copy fiverr)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 484
+        }
+      },
+      "b6a05a0f-2507-4b58-bdfc-1289f501f51d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578935506,
+          "id": "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541579348514,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As a bonus feature, create additional twitter account \"photopea gallery\" and every day search for recent tweets tagged with #photopea and re-tweet the ones that you like. Potentially use some tool to schedule those re-tweets so that e.g. every day you can spend 10 mins finding a couple of nice images made with photopea recently and schedule re-tweets so that you don't re-tweet them all at once but every couple of hours."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1088
+        }
+      },
+      "bcd693d9-7303-4efb-b6f0-2f37fdef15ab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541581461015,
+          "id": "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555557960000,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You mentioned ("
+              ],
+              [
+                "https://www.reddit.com/r/IAmA/comments/9urjmg/i_made_a_free_alternative_to_photoshop_that_is/e9776o6/",
+                [
+                  [
+                    "a",
+                    "https://www.reddit.com/r/IAmA/comments/9urjmg/i_made_a_free_alternative_to_photoshop_that_is/e9776o6/"
+                  ]
+                ]
+              ],
+              [
+                ") that you're afraid uses wouldn't update but it's simple to add auto-update system that checks version on startups, downloads the update in the background and updates itself on next launch (I do something similar in my open-source Sumatra reader "
+              ],
+              [
+                "https://github.com/sumatrapdfreader/sumatrapdf/",
+                [
+                  [
+                    "a",
+                    "https://github.com/sumatrapdfreader/sumatrapdf/"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 735
+        }
+      },
+      "bdf99463-fde7-436a-aca2-028b44df4551": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575822551,
+          "id": "bdf99463-fde7-436a-aca2-028b44df4551",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576015225,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Make a desktop version for Mac and Windows and sell it for one-time fee of $19 to $39. Or make it an additional feature of pro account."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 442
+        }
+      },
+      "c17f9047-78e9-4119-aed0-f56652524b6c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576379346,
+          "id": "c17f9047-78e9-4119-aed0-f56652524b6c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576836650,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The hard part of building a marketplace is building a critical mass of service providers. Photopea gives you a huge jumpstart here because people who use Photopea are potential providers. But you would need to build some more things:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 592
+        }
+      },
+      "c6690fbf-02f6-442d-8648-7873539cec5b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "370e30ac-05b6-46ea-b211-f01791b6c740",
+            "5fe4eafd-8123-4918-9f16-829d535c3203"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533799287746,
+          "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "db11b198-59e5-4a33-aba7-0d5f90d8d744": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576337270,
+          "id": "db11b198-59e5-4a33-aba7-0d5f90d8d744",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541577617188,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You'll connect a client with an artist and take a cut (e.g. fiverr takes 20%) of the price client pays to an artist. You can probably handle payments using Stripe."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 402
+        }
+      },
+      "e2eff078-216b-4c93-8884-1fe619849bb3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578696158,
+          "id": "e2eff078-216b-4c93-8884-1fe619849bb3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555557960000,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The beauty of this business model is that if it takes off, you can get rid of ads and pro accounts. You could even open-source the editor because the value is would be not in the editor but in network of artists that can do the work. Such network effects are almost impossible to overcome (if someone was thinking about competing with you)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 941
+        }
+      },
+      "e4132d5a-4401-4b2a-ad81-d8158c803ad1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c6690fbf-02f6-442d-8648-7873539cec5b",
+            "e1cea37a-0533-4bf3-b148-badc4c486d32",
+            "7b61f255-a1d2-499b-a820-d0961c476c37"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531717846007,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1563561780000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ideas"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 552
+        }
+      },
+      "e8668e30-7d70-4f2f-9606-ff2ffbca8df0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541578875391,
+          "id": "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541579119031,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You already have \"Post to imgur\" option. Add \"Post to twitter\" which would post to user's twitter account and tag it with #photopea "
+              ],
+              [
+                "https://www.photopea.com/",
+                [
+                  [
+                    "a",
+                    "https://www.photopea.com/"
+                  ]
+                ]
+              ],
+              [
+                " (or #madewithphotopea) . People like to promote their own work, their twitter is a good place to do it and by posting their work in their twitter they also promote Photopea."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1267
+        }
+      },
+      "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541575927144,
+          "id": "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576077361,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Implementation wise, Mac version could be a very simple Objective-C wrapper of wkwebview. On Windows you "
+              ],
+              [
+                "https://github.com/mattkol/Chromely",
+                [
+                  [
+                    "a",
+                    "https://github.com/mattkol/Chromely"
+                  ]
+                ]
+              ],
+              [
+                ". Or you can use Electron (but it creates much bigger executable)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 582
+        }
+      },
+      "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576521085,
+          "id": "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576549112,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Promote desktop app on the main screen. Handle payments with Stripe and/or Paypal."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 226
+        }
+      },
+      "f7370581-6ab2-4308-aadd-f4a9a7b4774c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576836887,
+          "id": "f7370581-6ab2-4308-aadd-f4a9a7b4774c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576996492,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "gallery for people to post their drawings made with Photopea, something like "
+              ],
+              [
+                "https://www.behance.net/",
+                [
+                  [
+                    "a",
+                    "https://www.behance.net/"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "https://www.deviantart.com/",
+                [
+                  [
+                    "a",
+                    "https://www.deviantart.com/"
+                  ]
+                ]
+              ],
+              [
+                ". It could run e.g. as a "
+              ],
+              [
+                "gallery.photopea.com",
+                [
+                  [
+                    "a",
+                    "http://gallery.photopea.com"
+                  ]
+                ]
+              ],
+              [
+                ". "
+              ],
+              [
+                "Photopea.com",
+                [
+                  [
+                    "a",
+                    "http://photopea.com"
+                  ]
+                ]
+              ],
+              [
+                " should prominently link to gallery.photopea.com and vice-versa"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 625
+        }
+      },
+      "f92d50ff-ac50-41a5-9bfb-755c3188173f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576997182,
+          "id": "f92d50ff-ac50-41a5-9bfb-755c3188173f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541577039375,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "implement the basic of community like voting on images so that you can show \"popular today\", \"popular this week\" etc."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 308
+        }
+      },
+      "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541577572624,
+          "id": "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541578392306,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "define some standard categories of work (logo, book cover, a cartoon drawing etc.), allow artists to narrow down what kind of work they want to provide (some artists might only be interested in doing logos but not book covers). Allow clients to filter out artists by that i.e. if I want to commission a book cover, I should be able to narrow down the gallery view to only see work from artists who opted-in as providers and provided \"book cover\" as type of work they do. Possibly this would also only show work of that type that the artist tagged (when posting to gallery the artist can indicate that this is \"book cover\" and client can filter by that type). This is to allow potential clients easily find the artist whose past work best matches the style they're looking for"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2281
+        }
+      },
+      "fe8c33eb-802f-4767-b292-9adfd0b82f43": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541576094549,
+          "id": "fe8c33eb-802f-4767-b292-9adfd0b82f43",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541576115315,
+          "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is a bigger project but potentially much more profitable."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 194
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c1d1b9d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:33 GMT"
+  ],
+  "Etag": [
+    "W/\"6512-V67U9k643xav7Mv1Y5VPvl80weY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dedac27010ed01c3834d5c0867b4538661565326233; expires=Sat, 08-Aug-20 04:50:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

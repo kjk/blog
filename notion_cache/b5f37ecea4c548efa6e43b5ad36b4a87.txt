@@ -1,0 +1,794 @@
+2798 1565326205322 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+      "table": "block"
+    }
+  ]
+}
+Response:+1649
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "3343ec01-5052-4f1b-9484-4800622eeac1",
+          "4819d3e3-298d-46a9-a886-5258b7eb2957",
+          "2311d8c1-4bed-4a57-a2f2-4c93e73ccb73",
+          "74a27651-7d0a-4e26-ba94-91d5d80a644a",
+          "fceb05dd-0cbc-4501-953e-fd1b4f46cf1a",
+          "d18b82ba-bb76-4b70-a2ff-42e09f15226d",
+          "972b41b0-adaf-44bc-b751-755d83656bbc",
+          "57fc72c4-d7ad-49f3-af0b-8af29c37d1ab",
+          "4dfc4426-da4b-4802-8c73-78d257ce70d9",
+          "ddb0ccc7-ee6c-4322-bb68-1c189d2d74d0",
+          "f615f2b8-8efd-4800-8aa1-92b177598078",
+          "1b8d2a59-247e-4c2d-acd2-e1dec2f1347d",
+          "9dca517c-fcac-43e5-8bbb-e3c03e05bfdd",
+          "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd",
+          "b0d3af17-7c3f-4034-9ac9-a3f937d116fe"
+        ],
+        "copied_from": "0e8edfd2-2646-4f07-be53-8eee06429a43",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200907050,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996395570,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Simple duplicate post detection for your blog, forum or commenting software "
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b69fa8d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:04 GMT"
+  ],
+  "Etag": [
+    "W/\"4a4-g8eZCJnp+VGS39pUaQJTdhD0Yc0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dfc71ed87d7740d7bfc367e3c9ff360101565326204; expires=Sat, 08-Aug-20 04:50:04 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+24113 1565326205323 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+  "verticalColumns": false
+}
+Response:+22922
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1b8d2a59-247e-4c2d-acd2-e1dec2f1347d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "1b8d2a59-247e-4c2d-acd2-e1dec2f1347d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SHA1 keys are short. They are a perfect match for key-value stores. With a proper index they’re also very fast to check for in a SQL database."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2311d8c1-4bed-4a57-a2f2-4c93e73ccb73": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907050,
+          "id": "2311d8c1-4bed-4a57-a2f2-4c93e73ccb73",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623053497,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-10-26T21:25:39-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3343ec01-5052-4f1b-9484-4800622eeac1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907050,
+          "id": "3343ec01-5052-4f1b-9484-4800622eeac1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623051587,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 336001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "4819d3e3-298d-46a9-a886-5258b7eb2957": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907050,
+          "id": "4819d3e3-298d-46a9-a886-5258b7eb2957",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623052433,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "4dfc4426-da4b-4802-8c73-78d257ce70d9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "4dfc4426-da4b-4802-8c73-78d257ce70d9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I know it’s easy because I’ve implemented it in a few lines of python in software running this blog and in my "
+              ],
+              [
+                "forum software",
+                [
+                  [
+                    "a",
+                    "/software/fofou/index.html"
+                  ]
+                ]
+              ],
+              [
+                ". They run on App Engine but the technique applies to any web development platform."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "57fc72c4-d7ad-49f3-af0b-8af29c37d1ab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "57fc72c4-d7ad-49f3-af0b-8af29c37d1ab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What is less obvious, at least to the authors of that commenting system, is that such mistakes can be easily prevented with a bit of programming."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "74a27651-7d0a-4e26-ba94-91d5d80a644a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907050,
+          "id": "74a27651-7d0a-4e26-ba94-91d5d80a644a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623049709,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "972b41b0-adaf-44bc-b751-755d83656bbc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "972b41b0-adaf-44bc-b751-755d83656bbc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A mistake, obviously."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9dca517c-fcac-43e5-8bbb-e3c03e05bfdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "9dca517c-fcac-43e5-8bbb-e3c03e05bfdd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For added robustness you can trim whitespace from the beginning and end of text before calculating the hash."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "b0d3af17-7c3f-4034-9ac9-a3f937d116fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "b0d3af17-7c3f-4034-9ac9-a3f937d116fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Using other hash function, like MD5, will work too. SHA1 has better properties but if your programming language provides MD5 but not SHA1, use MD5."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3343ec01-5052-4f1b-9484-4800622eeac1",
+            "4819d3e3-298d-46a9-a886-5258b7eb2957",
+            "2311d8c1-4bed-4a57-a2f2-4c93e73ccb73",
+            "74a27651-7d0a-4e26-ba94-91d5d80a644a",
+            "fceb05dd-0cbc-4501-953e-fd1b4f46cf1a",
+            "d18b82ba-bb76-4b70-a2ff-42e09f15226d",
+            "972b41b0-adaf-44bc-b751-755d83656bbc",
+            "57fc72c4-d7ad-49f3-af0b-8af29c37d1ab",
+            "4dfc4426-da4b-4802-8c73-78d257ce70d9",
+            "ddb0ccc7-ee6c-4322-bb68-1c189d2d74d0",
+            "f615f2b8-8efd-4800-8aa1-92b177598078",
+            "1b8d2a59-247e-4c2d-acd2-e1dec2f1347d",
+            "9dca517c-fcac-43e5-8bbb-e3c03e05bfdd",
+            "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd",
+            "b0d3af17-7c3f-4034-9ac9-a3f937d116fe"
+          ],
+          "copied_from": "0e8edfd2-2646-4f07-be53-8eee06429a43",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907050,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996395570,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Simple duplicate post detection for your blog, forum or commenting software "
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "d18b82ba-bb76-4b70-a2ff-42e09f15226d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "d18b82ba-bb76-4b70-a2ff-42e09f15226d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I was reading "
+              ],
+              [
+                "scripting.com(scripting.com)",
+                [
+                  [
+                    "a",
+                    "http://scripting.com/"
+                  ]
+                ]
+              ],
+              [
+                " the other day and some article had 3 identical comments from the same person."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ddb0ccc7-ee6c-4322-bb68-1c189d2d74d0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "ddb0ccc7-ee6c-4322-bb68-1c189d2d74d0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Duplication detection, the easy way"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This method doesn’t prevent malicious people (it only takes changing one character to change the hash) but it does fix the common problem of people submitting the same content twice because due to network connection problems they were not properly notified that the post has been successfully submitted. It happens more often that you might think."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f615f2b8-8efd-4800-8aa1-92b177598078": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "f615f2b8-8efd-4800-8aa1-92b177598078",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The idea is simple: before inserting an article/post/comment into a database, check if an entry with exactly the same content already exists. In most storage systems (like SQL database) doing this against large text column is difficult and slow. To make it easy and fast we can calculate SHA1 hash of the text, store it as part of the data describing the post and check for duplicate hash."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fceb05dd-0cbc-4501-953e-fd1b4f46cf1a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907051,
+          "id": "fceb05dd-0cbc-4501-953e-fd1b4f46cf1a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907051,
+          "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Mistakes happen"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b6a6ac27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:04 GMT"
+  ],
+  "Etag": [
+    "W/\"3bfe-7YTC8rBfNzGQpO4B961b1Us72RY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dfc71ed87d7740d7bfc367e3c9ff360101565326204; expires=Sat, 08-Aug-20 04:50:04 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

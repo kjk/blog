@@ -1,0 +1,523 @@
+2345 1565326094023 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+      "table": "block"
+    }
+  ]
+}
+Response:+1196
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "4bdd8e05-c217-46b5-9df4-e8427e818734",
+          "515bf862-010d-44d5-9d85-abb63fb4a85c",
+          "c3ea59e3-da53-422b-a8d6-e1e97df1f658",
+          "dd95e2c3-b047-4f80-b59a-7b08e5930f02",
+          "9852bda7-5dec-4eb2-b7de-007eabae987d",
+          "96a95c44-8fd7-43d4-80c5-23cb2df61ecf",
+          "66b10369-50b3-477f-a3d9-79b77cebc63c",
+          "2856d43f-f253-4187-906b-bb0d399b6760"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555315375795,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555355220000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/14/2019, fitt's law UI exploration"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 74
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718b28e2a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:13 GMT"
+  ],
+  "Etag": [
+    "W/\"336-Rc72Zb5EAqOcc/lhO3r7Iwg5Plw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b01df5337691415f574d6ce569802931565326093; expires=Sat, 08-Aug-20 04:48:13 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+13470 1565326094024 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+  "verticalColumns": false
+}
+Response:+12279
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "03ece883-f7df-4ce7-8596-73d04811479e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "da8bb0eb-517b-42f6-bd47-243c353a26cf",
+            "63609728-3d1a-45c8-b748-4a99ac4b5d97",
+            "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+            "44bdc500-e50b-486f-99c1-3003541e1af8",
+            "1d09647e-c501-43b4-8639-f98c0fd50902",
+            "410977d4-4b00-4415-b475-b02a09c78c8f",
+            "76631d76-ce90-41b8-ba26-0c5ca553e421",
+            "40bd5f71-6199-4c1c-b7a6-776cee491720",
+            "13ddfc52-fc77-4262-abb3-2a43217a0344",
+            "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+            "3de112a3-49e1-4294-b694-8a3e0220092e",
+            "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+            "270d8956-01be-4446-a3d6-ab7d3cd691d0",
+            "e29face0-6696-4709-96a6-fb8ea750ccc2",
+            "b7c27f52-4ad1-4a5e-9dbc-5c1b6db0ee4a",
+            "751d064a-76bf-46fa-9b29-3da1a88cd033",
+            "8846aafe-b5a9-4389-8f35-b870628ad218"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554244717057,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "03ece883-f7df-4ce7-8596-73d04811479e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564560060000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This developer's life"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 144
+        }
+      },
+      "2856d43f-f253-4187-906b-bb0d399b6760": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315560000,
+          "id": "2856d43f-f253-4187-906b-bb0d399b6760",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315560000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "type": "text",
+          "version": 5
+        }
+      },
+      "4bdd8e05-c217-46b5-9df4-e8427e818734": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315320000,
+          "id": "4bdd8e05-c217-46b5-9df4-e8427e818734",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315380000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Fitt's law states an obvious thing: the bigger the target, the easier it is to hit."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 91
+        }
+      },
+      "515bf862-010d-44d5-9d85-abb63fb4a85c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315380000,
+          "id": "515bf862-010d-44d5-9d85-abb63fb4a85c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315440000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I did an exploration of that theme: what if an element becomes bigger when the mouse pointer gets closer to it?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 174
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "66b10369-50b3-477f-a3d9-79b77cebc63c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315500000,
+          "id": "66b10369-50b3-477f-a3d9-79b77cebc63c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315560000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "set the font of the element: the smaller the distance, the bigger the font"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 141
+        }
+      },
+      "76631d76-ce90-41b8-ba26-0c5ca553e421": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4bdd8e05-c217-46b5-9df4-e8427e818734",
+            "515bf862-010d-44d5-9d85-abb63fb4a85c",
+            "c3ea59e3-da53-422b-a8d6-e1e97df1f658",
+            "dd95e2c3-b047-4f80-b59a-7b08e5930f02",
+            "9852bda7-5dec-4eb2-b7de-007eabae987d",
+            "96a95c44-8fd7-43d4-80c5-23cb2df61ecf",
+            "66b10369-50b3-477f-a3d9-79b77cebc63c",
+            "2856d43f-f253-4187-906b-bb0d399b6760"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315375795,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555355220000,
+          "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "4/14/2019, fitt's law UI exploration"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 74
+        }
+      },
+      "96a95c44-8fd7-43d4-80c5-23cb2df61ecf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315500000,
+          "id": "96a95c44-8fd7-43d4-80c5-23cb2df61ecf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315500000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in mouse move handler calculate a distance to the center of the element"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 75
+        }
+      },
+      "9852bda7-5dec-4eb2-b7de-007eabae987d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315440000,
+          "id": "9852bda7-5dec-4eb2-b7de-007eabae987d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315500000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "hook "
+              ],
+              [
+                "mousemove",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " event on "
+              ],
+              [
+                "document",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 59
+        }
+      },
+      "c3ea59e3-da53-422b-a8d6-e1e97df1f658": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315440000,
+          "id": "c3ea59e3-da53-422b-a8d6-e1e97df1f658",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315440000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I've prototyped this idea in "
+              ],
+              [
+                "https://codepan.net/gist/fb3ade46482fb29a42702bb213dcf8f3",
+                [
+                  [
+                    "a",
+                    "https://codepan.net/gist/fb3ade46482fb29a42702bb213dcf8f3"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 34
+        }
+      },
+      "dd95e2c3-b047-4f80-b59a-7b08e5930f02": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1555315440000,
+          "id": "dd95e2c3-b047-4f80-b59a-7b08e5930f02",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555315440000,
+          "parent_id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It's rather simple:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 83
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718b2ee497fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:13 GMT"
+  ],
+  "Etag": [
+    "W/\"1ecf-QNaUm2kAVS2TVecQX7RJAWk49J8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b01df5337691415f574d6ce569802931565326093; expires=Sat, 08-Aug-20 04:48:13 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

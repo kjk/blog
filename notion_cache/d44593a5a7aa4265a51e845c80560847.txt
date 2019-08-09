@@ -1,0 +1,966 @@
+2929 1565326153582 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "d44593a5-a7aa-4265-a51e-845c80560847",
+      "table": "block"
+    }
+  ]
+}
+Response:+1780
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "9f0a67d3-1669-43b7-8a7f-19a232044477",
+          "72e74f3c-fd36-438d-8995-aee26817185a",
+          "0b55ec92-c0a9-4459-9ca0-4a960614db6d",
+          "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1",
+          "f3639543-02d3-4d7b-b70d-d90642f1fead",
+          "19ca4200-8d42-4998-b777-720f9622ac58",
+          "13f48cff-d8b8-4acc-8ef9-791e56ff88fd",
+          "6c8e2c1e-9329-4cdd-b441-d6325375de19",
+          "94d21614-ac25-468a-afc2-3cb9b5ed47f9",
+          "6f477889-789e-4384-a83c-ae518b5d5d6f",
+          "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
+          "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
+          "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
+          "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
+          "bc2518c0-28ce-4173-a53a-fc7d0fc1135d",
+          "87699445-b4b5-4afb-8f0d-4608011e394e",
+          "a7cf24ce-7eac-4514-8fc4-c3e4c8e9cf9b",
+          "5011296c-594e-4a9e-8fee-61174fa31622",
+          "f2e81999-9c83-40bc-874c-9e66067e29c1",
+          "e3353bda-1677-475b-bf00-73df39dd84fc"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552941952177,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "d44593a5-a7aa-4265-a51e-845c80560847",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556047560000,
+        "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Sumatra online notes"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 62
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a2699a77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:12 GMT"
+  ],
+  "Etag": [
+    "W/\"4fa-HRBnaBzwiH9fEL79r08WliEIGUs\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddb1377a71d08c9030459b0ccd2e0bb451565326152; expires=Sat, 08-Aug-20 04:49:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28412 1565326153585 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "d44593a5-a7aa-4265-a51e-845c80560847",
+  "verticalColumns": false
+}
+Response:+27221
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0b55ec92-c0a9-4459-9ca0-4a960614db6d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430200712,
+          "id": "0b55ec92-c0a9-4459-9ca0-4a960614db6d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Could have a pro version that "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "0bc09c93-f2f2-46ae-9221-6c011b2bae79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d44593a5-a7aa-4265-a51e-845c80560847"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430101413,
+          "id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sumatra on-line + electron desktop app",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 36
+        }
+      },
+      "13f48cff-d8b8-4acc-8ef9-791e56ff88fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1556047560000,
+          "id": "13f48cff-d8b8-4acc-8ef9-791e56ff88fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556047560000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.windy.com/?35.764,-115.356,5",
+                [
+                  [
+                    "a",
+                    "https://www.windy.com/?35.764,-115.356,5"
+                  ]
+                ]
+              ],
+              [
+                "  : nice overlay UI"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 28
+        }
+      },
+      "19ca4200-8d42-4998-b777-720f9622ac58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430113970,
+          "id": "19ca4200-8d42-4998-b777-720f9622ac58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "259c302d-f1fa-46ee-89d8-6e06aeab2a64": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512788814713,
+          "id": "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/LibreRead/server",
+                [
+                  [
+                    "a",
+                    "https://github.com/LibreRead/server"
+                  ]
+                ]
+              ],
+              [
+                " : epub reader"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 3
+        }
+      },
+      "5011296c-594e-4a9e-8fee-61174fa31622": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552941960000,
+          "file_ids": [
+            "6077c30b-6aba-4805-a64c-c78514f87823"
+          ],
+          "format": {
+            "block_aspect_ratio": 0.6088050314465409,
+            "block_full_width": false,
+            "block_page_width": true,
+            "block_preserve_scale": true,
+            "block_width": 795,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6077c30b-6aba-4805-a64c-c78514f87823/untitled"
+          },
+          "id": "5011296c-594e-4a9e-8fee-61174fa31622",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552942020000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6077c30b-6aba-4805-a64c-c78514f87823/untitled"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 13
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5fe4eafd-8123-4918-9f16-829d535c3203": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4a09dc7a-9da2-425e-bcc2-e43081144575",
+            "a4afbbc6-05d9-48c4-af26-cbc42559073b",
+            "a9dcef4f-0652-458d-94d5-c166e7a3b8ce",
+            "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
+            "dd297ee6-37f2-414a-b6da-fdb487275767",
+            "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
+            "4a15357f-c05d-4200-b11d-bef0b9609327",
+            "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+            "b5857b3d-7732-4e00-ac35-9b12fb98321c",
+            "c58702ca-74f1-48b2-bcb3-255574fa9a3c",
+            "3dd87853-4908-437b-9d01-73c24f7870bb",
+            "bb905ae2-bc8c-4576-b8cc-dc938f49c78a",
+            "9c86928e-3f60-47cb-b696-7c0acf41aa1a",
+            "e571d4a0-2ca7-4d1c-a287-69493745fc2f",
+            "15a96813-c3cb-4086-8936-f52186e5eb9d",
+            "dbad9925-6e0f-4e8e-8626-3b74c5da27de",
+            "9d5947d4-3524-426f-bbee-394953e2c08b",
+            "0a831536-2716-4fac-97ed-0e1e9cc6b3c1",
+            "eb8bcc93-ae5b-4a47-afab-c43c99d76c34",
+            "30f368e7-5e79-4ced-a43c-46fcfb3d2dfe",
+            "d8688e97-9bf2-4ffe-bd12-e6f03abaf9da",
+            "ceb4a476-8671-4901-bc16-ec876931f571",
+            "c65ada5c-ddbb-4517-8632-dd942753233a",
+            "5edecbd7-7d7f-4a56-84b6-1272edcca6c9",
+            "0eb807b7-8452-4fb0-8c6b-33fa36234831",
+            "6b660fdb-9ac4-4a36-adb5-2490de79d038",
+            "37f6974a-4440-416a-a3e6-f55af114dda1",
+            "38eb5611-867f-435e-9ad3-a4c2622d3a65",
+            "23544543-3509-47d2-9d00-deef27dc6cbb",
+            "65fd9edf-e5bc-4b65-b054-d7fc09a28720",
+            "aecfc6d5-0492-42d4-8eb8-85e400364b66",
+            "aa0adfa1-43e9-4c7e-8e43-2c998626310b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "5fe4eafd-8123-4918-9f16-829d535c3203",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1562950200000,
+          "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "parent_table": "block",
+          "type": "column",
+          "version": 247
+        }
+      },
+      "6c8e2c1e-9329-4cdd-b441-d6325375de19": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430113970,
+          "id": "6c8e2c1e-9329-4cdd-b441-d6325375de19",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/workhorsy/comic_book_reader",
+                [
+                  [
+                    "a",
+                    "https://github.com/workhorsy/comic_book_reader"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 3
+        }
+      },
+      "6f477889-789e-4384-a83c-ae518b5d5d6f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430113970,
+          "id": "6f477889-789e-4384-a83c-ae518b5d5d6f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/comicweb/kthoom",
+                [
+                  [
+                    "a",
+                    "https://github.com/comicweb/kthoom"
+                  ]
+                ]
+              ],
+              [
+                " : comic book reader"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 3
+        }
+      },
+      "72e74f3c-fd36-438d-8995-aee26817185a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430164857,
+          "id": "72e74f3c-fd36-438d-8995-aee26817185a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Could be serverless for most functionality (store things in indexedb)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "7491f5db-419c-46a3-b3b9-8ebd3c15981a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1536000863680,
+          "id": "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://onedrive.live.com/?authkey=!ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2!17238\u0026cid=DC1D63D0C3D0B4A2",
+                [
+                  [
+                    "a",
+                    "https://onedrive.live.com/?authkey=%21ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2%2117238\u0026cid=DC1D63D0C3D0B4A2"
+                  ]
+                ]
+              ],
+              [
+                " : decent UI for seeing multiple images"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 89
+        }
+      },
+      "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430147522,
+          "id": "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Could have electron-based desktop app. "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "87699445-b4b5-4afb-8f0d-4608011e394e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552942020000,
+          "id": "87699445-b4b5-4afb-8f0d-4608011e394e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552942020000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "type": "text",
+          "version": 5
+        }
+      },
+      "8ec6d683-ffa0-4c74-9be0-fc45bfe20108": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513037616394,
+          "id": "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/janeczku/calibre-web",
+                [
+                  [
+                    "a",
+                    "https://github.com/janeczku/calibre-web"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 3
+        }
+      },
+      "94d21614-ac25-468a-afc2-3cb9b5ed47f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430113970,
+          "id": "94d21614-ac25-468a-afc2-3cb9b5ed47f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/louischatriot/reader",
+                [
+                  [
+                    "a",
+                    "https://github.com/louischatriot/reader"
+                  ]
+                ]
+              ],
+              [
+                " : a simple image reader"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 3
+        }
+      },
+      "9f0a67d3-1669-43b7-8a7f-19a232044477": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430113970,
+          "id": "9f0a67d3-1669-43b7-8a7f-19a232044477",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Like Sumatra but for the web. Uses wasm for decoding images."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "a7cf24ce-7eac-4514-8fc4-c3e4c8e9cf9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552941960000,
+          "id": "a7cf24ce-7eac-4514-8fc4-c3e4c8e9cf9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552942020000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Nice layout for home page, from "
+              ],
+              [
+                "https://discoverquickly.com/",
+                [
+                  [
+                    "a",
+                    "https://discoverquickly.com/"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 52
+        }
+      },
+      "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531349201654,
+          "id": "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://medium.com/google-design/google-photos-45b714dfbed1",
+                [
+                  [
+                    "a",
+                    "https://medium.com/google-design/google-photos-45b714dfbed1"
+                  ]
+                ]
+              ],
+              [
+                " : description of Google Photo layout and other implemenation details. Relevant for comic book viewer"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 297
+        }
+      },
+      "bc2518c0-28ce-4173-a53a-fc7d0fc1135d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1540000140496,
+          "id": "bc2518c0-28ce-4173-a53a-fc7d0fc1135d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/kyicy/readimension",
+                [
+                  [
+                    "a",
+                    "https://github.com/kyicy/readimension"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "https://github.com/satorumurmur/bibi",
+                [
+                  [
+                    "a",
+                    "https://github.com/satorumurmur/bibi"
+                  ]
+                ]
+              ],
+              [
+                " : epub reader on web"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 59
+        }
+      },
+      "c6690fbf-02f6-442d-8648-7873539cec5b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "370e30ac-05b6-46ea-b211-f01791b6c740",
+            "5fe4eafd-8123-4918-9f16-829d535c3203"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533799287746,
+          "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "d44593a5-a7aa-4265-a51e-845c80560847": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9f0a67d3-1669-43b7-8a7f-19a232044477",
+            "72e74f3c-fd36-438d-8995-aee26817185a",
+            "0b55ec92-c0a9-4459-9ca0-4a960614db6d",
+            "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1",
+            "f3639543-02d3-4d7b-b70d-d90642f1fead",
+            "19ca4200-8d42-4998-b777-720f9622ac58",
+            "13f48cff-d8b8-4acc-8ef9-791e56ff88fd",
+            "6c8e2c1e-9329-4cdd-b441-d6325375de19",
+            "94d21614-ac25-468a-afc2-3cb9b5ed47f9",
+            "6f477889-789e-4384-a83c-ae518b5d5d6f",
+            "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
+            "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
+            "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
+            "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
+            "bc2518c0-28ce-4173-a53a-fc7d0fc1135d",
+            "87699445-b4b5-4afb-8f0d-4608011e394e",
+            "a7cf24ce-7eac-4514-8fc4-c3e4c8e9cf9b",
+            "5011296c-594e-4a9e-8fee-61174fa31622",
+            "f2e81999-9c83-40bc-874c-9e66067e29c1",
+            "e3353bda-1677-475b-bf00-73df39dd84fc"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552941952177,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556047560000,
+          "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sumatra online notes"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 62
+        }
+      },
+      "e3353bda-1677-475b-bf00-73df39dd84fc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552942020000,
+          "id": "e3353bda-1677-475b-bf00-73df39dd84fc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552942020000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "type": "text",
+          "version": 2
+        }
+      },
+      "e4132d5a-4401-4b2a-ad81-d8158c803ad1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c6690fbf-02f6-442d-8648-7873539cec5b",
+            "e1cea37a-0533-4bf3-b148-badc4c486d32",
+            "7b61f255-a1d2-499b-a820-d0961c476c37"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531717846007,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1563561780000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ideas"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 552
+        }
+      },
+      "f2e81999-9c83-40bc-874c-9e66067e29c1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552942020000,
+          "id": "f2e81999-9c83-40bc-874c-9e66067e29c1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552942020000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "f3639543-02d3-4d7b-b70d-d90642f1fead": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512430163354,
+          "id": "f3639543-02d3-4d7b-b70d-d90642f1fead",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552941960000,
+          "parent_id": "d44593a5-a7aa-4265-a51e-845c80560847",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Start with comic book reader, because that's the simplest."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a2719ca7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:12 GMT"
+  ],
+  "Etag": [
+    "W/\"4342-aiHnT5+TR9+3XbJi53h2ohxErvg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddb1377a71d08c9030459b0ccd2e0bb451565326152; expires=Sat, 08-Aug-20 04:49:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

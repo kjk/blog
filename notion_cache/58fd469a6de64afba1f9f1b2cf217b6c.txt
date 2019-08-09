@@ -1,0 +1,1005 @@
+3140 1565326152383 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+      "table": "block"
+    }
+  ]
+}
+Response:+1991
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ce8f03d1-ae70-4850-bd49-000cec4ac9fa",
+          "9f1f6fa3-5350-40a4-a802-5067b1ca09b6",
+          "d611f2f5-8131-43cd-912c-bd3297966320",
+          "bb658299-7af5-4ceb-a731-217c23bb33b8",
+          "49e0e1d4-b15a-416b-b673-6ddb0918e3c4",
+          "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8",
+          "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff",
+          "25f23b2a-cd03-4b95-926e-92efdbe87355",
+          "3ebaf124-6100-4341-9b5f-974869d4f998",
+          "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28",
+          "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d",
+          "dc699324-b677-48e7-be2c-7881f5adeefb",
+          "c4000097-a2f1-4935-8824-a1db4b3a2bd0",
+          "9e9d066e-1992-4452-85fb-f9e2673b06e3",
+          "7fd4d427-6581-48c5-bb23-f82b2e83d1bf",
+          "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5",
+          "0a340c34-3097-4862-a3c8-a3fba3d18d4c",
+          "db70ed34-02ca-4acc-b165-8f975e63218e",
+          "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f",
+          "6e3ae4e0-7c11-48ab-987f-bf175d27c08c",
+          "9d572cda-c656-4487-9ee7-7f206623a7e5",
+          "c7947da8-d748-49cc-951e-5f6b30be5dde",
+          "4b73908e-2e66-4b27-ae48-f71a2ab46123",
+          "969751d4-5862-458c-9863-8d5b4128c63d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687769598,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688818029,
+        "parent_id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "selog - logging for serverless"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 132
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a1f1dd87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:11 GMT"
+  ],
+  "Etag": [
+    "W/\"5a1-47Es/Bnf50DmPOYppHezNOmV0+8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddee41a8b3641bbb874562e9464fae7b61565326151; expires=Sat, 08-Aug-20 04:49:11 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+30061 1565326152385 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+  "verticalColumns": false
+}
+Response:+28870
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0a340c34-3097-4862-a3c8-a3fba3d18d4c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688336799,
+          "id": "0a340c34-3097-4862-a3c8-a3fba3d18d4c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688427876,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "daily archives as .zip (or something more efficient) in backblaze, can be downloaded via UI"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 275
+        }
+      },
+      "25f23b2a-cd03-4b95-926e-92efdbe87355": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687827917,
+          "id": "25f23b2a-cd03-4b95-926e-92efdbe87355",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687865851,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "AWS lambda, google cloud functions, Azure Functions etc."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 124
+        }
+      },
+      "370e30ac-05b6-46ea-b211-f01791b6c740": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86727062-3797-48ca-854a-ba0e328260a9",
+            "be23f1ed-3146-4701-a5d5-ad9a85066864",
+            "9a12a5a3-7c5a-4f6e-857b-5eed19bcdcf9",
+            "46c83e72-9b12-4494-b694-badf0d064a66",
+            "c6d3c1b8-ca23-4dcf-a7e9-433deb3d385e",
+            "15489033-5623-4c36-a413-c85cf9882405",
+            "ca127836-5e3e-435e-bd42-429948c1aedd",
+            "b74973d6-b599-42bb-8193-130248021742",
+            "cc8262a4-e888-4847-834d-57c2a3937c8b",
+            "e175107d-92e1-47fc-9227-7f5681da7215",
+            "7c8c5d13-428f-48ac-beb5-6baf6e67e091",
+            "e21e3a7b-dc86-40a4-9a91-fe0bdf34c070",
+            "c1c50358-e0ce-4e24-9281-6b4ccc45d593",
+            "3d20051c-d6c8-437d-ac4b-2bc51e1d69f8",
+            "247eac0c-0865-4666-8525-79baeabf1406",
+            "9386b6b9-31fa-4d0c-b7ef-b9b5037f6cc5",
+            "44e35fda-2e3d-4e28-b233-269138eec78e",
+            "7fcc8692-803f-4a64-96c5-165ff3fee398",
+            "b4422eb3-bca7-4482-87b2-a029ad9a3667",
+            "c106423d-5877-4d3c-b254-0d036c39540a",
+            "994d7609-ebdc-4785-9b2c-35f6cc332043",
+            "b28fbd18-564d-4d55-b736-602b4435c2af",
+            "88624379-fc60-477e-b4f1-d001dd3cc5e7",
+            "84923208-e23b-442f-89af-a1542d99c221",
+            "056cf732-a069-472d-961b-2effb9f5db23",
+            "01cf1ba9-49da-44ba-a475-a2dcc9655856",
+            "060a4743-9322-4d94-ac60-bba8121581e3",
+            "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+            "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+            "92c58b71-a056-4755-beb3-da1a196b10ca",
+            "54bd6fe9-0283-427a-8c65-e99d769ce545",
+            "b5b9d976-4007-47d6-92c7-4f56df564124"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1562950320000,
+          "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "parent_table": "block",
+          "type": "column",
+          "version": 240
+        }
+      },
+      "3ebaf124-6100-4341-9b5f-974869d4f998": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687837712,
+          "id": "3ebaf124-6100-4341-9b5f-974869d4f998",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687971428,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "logging from CI services"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 61
+        }
+      },
+      "49e0e1d4-b15a-416b-b673-6ddb0918e3c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687958876,
+          "id": "49e0e1d4-b15a-416b-b673-6ddb0918e3c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688102693,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "fast browsing and searching of logs. In general, UI optimized for efficiency"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 249
+        }
+      },
+      "4b73908e-2e66-4b27-ae48-f71a2ab46123": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688785846,
+          "id": "4b73908e-2e66-4b27-ae48-f71a2ab46123",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688925451,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sharing of individual log entries or live search results. Generate expiring, unique id for sharing. Expiration for: 1 hour, 1 day, 1 week. When a given share expired, show error message \"This share has expired. Ask for a refreshed share\"."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 665
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ce8f03d1-ae70-4850-bd49-000cec4ac9fa",
+            "9f1f6fa3-5350-40a4-a802-5067b1ca09b6",
+            "d611f2f5-8131-43cd-912c-bd3297966320",
+            "bb658299-7af5-4ceb-a731-217c23bb33b8",
+            "49e0e1d4-b15a-416b-b673-6ddb0918e3c4",
+            "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8",
+            "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff",
+            "25f23b2a-cd03-4b95-926e-92efdbe87355",
+            "3ebaf124-6100-4341-9b5f-974869d4f998",
+            "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28",
+            "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d",
+            "dc699324-b677-48e7-be2c-7881f5adeefb",
+            "c4000097-a2f1-4935-8824-a1db4b3a2bd0",
+            "9e9d066e-1992-4452-85fb-f9e2673b06e3",
+            "7fd4d427-6581-48c5-bb23-f82b2e83d1bf",
+            "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5",
+            "0a340c34-3097-4862-a3c8-a3fba3d18d4c",
+            "db70ed34-02ca-4acc-b165-8f975e63218e",
+            "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f",
+            "6e3ae4e0-7c11-48ab-987f-bf175d27c08c",
+            "9d572cda-c656-4487-9ee7-7f206623a7e5",
+            "c7947da8-d748-49cc-951e-5f6b30be5dde",
+            "4b73908e-2e66-4b27-ae48-f71a2ab46123",
+            "969751d4-5862-458c-9863-8d5b4128c63d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687769598,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688818029,
+          "parent_id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "selog - logging for serverless"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 132
+        }
+      },
+      "6e3ae4e0-7c11-48ab-987f-bf175d27c08c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688492434,
+          "id": "6e3ae4e0-7c11-48ab-987f-bf175d27c08c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688501374,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "disk for storing logs + archiving to backblaze daily"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 109
+        }
+      },
+      "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687966237,
+          "id": "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688114624,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Pricing:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 20
+        }
+      },
+      "7fd4d427-6581-48c5-bb23-f82b2e83d1bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688260102,
+          "id": "7fd4d427-6581-48c5-bb23-f82b2e83d1bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688275558,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Non-obvious features:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 117
+        }
+      },
+      "969751d4-5862-458c-9863-8d5b4128c63d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688573123,
+          "id": "969751d4-5862-458c-9863-8d5b4128c63d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688587137,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "type": "text",
+          "version": 59
+        }
+      },
+      "9d572cda-c656-4487-9ee7-7f206623a7e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688673394,
+          "id": "9d572cda-c656-4487-9ee7-7f206623a7e5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688812649,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "tagging for log entries e.g. /log?app=foo\u0026ver=1.3.3 would tag a given log entry with tag "
+              ],
+              [
+                "app",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " with value "
+              ],
+              [
+                "foo",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and tag "
+              ],
+              [
+                "ver",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " with value "
+              ],
+              [
+                "1.3.3",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". This is an easy way to partition logs by e.g. application etc."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 629
+        }
+      },
+      "9e9d066e-1992-4452-85fb-f9e2673b06e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688527281,
+          "id": "9e9d066e-1992-4452-85fb-f9e2673b06e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688535597,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "maybe $49/month for really heavy users"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 81
+        }
+      },
+      "9f1f6fa3-5350-40a4-a802-5067b1ca09b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687867564,
+          "id": "9f1f6fa3-5350-40a4-a802-5067b1ca09b6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687883501,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Competitive advantages:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 107
+        }
+      },
+      "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687977200,
+          "id": "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688028325,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "easy logging during development phase"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 303
+        }
+      },
+      "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688473919,
+          "id": "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688491875,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "uses firestore for storing long-term info"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 103
+        }
+      },
+      "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687739164,
+          "id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687769598,
+          "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "logging for serverless"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 76
+        }
+      },
+      "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688553164,
+          "id": "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688569999,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "meant for low to medium sized logging, not really heavy logging"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 180
+        }
+      },
+      "bb658299-7af5-4ceb-a731-217c23bb33b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688041515,
+          "id": "bb658299-7af5-4ceb-a731-217c23bb33b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688053942,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "relatively cheap (because it's a one person band)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 139
+        }
+      },
+      "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688275751,
+          "id": "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688335843,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "command-line tool logwatch $token which allows watching logs from console. Written in Go, uses websocket to talk to the server"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 328
+        }
+      },
+      "c4000097-a2f1-4935-8824-a1db4b3a2bd0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688164297,
+          "id": "c4000097-a2f1-4935-8824-a1db4b3a2bd0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688258202,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$10/month for yearly subscription or $15/month for month-to-month. 1 month retention for browsing, unlimited for storing archived, size limit of 10 MB, "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 485
+        }
+      },
+      "c6690fbf-02f6-442d-8648-7873539cec5b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "370e30ac-05b6-46ea-b211-f01791b6c740",
+            "5fe4eafd-8123-4918-9f16-829d535c3203"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533799287746,
+          "id": "c6690fbf-02f6-442d-8648-7873539cec5b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533799287746,
+          "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "c7947da8-d748-49cc-951e-5f6b30be5dde": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688818029,
+          "id": "c7947da8-d748-49cc-951e-5f6b30be5dde",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688823682,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "browsing and searching of logs"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 65
+        }
+      },
+      "ce8f03d1-ae70-4850-bd49-000cec4ac9fa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687784040,
+          "id": "ce8f03d1-ae70-4850-bd49-000cec4ac9fa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687820324,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A service for easy logging for serverless scenarios."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 121
+        }
+      },
+      "d611f2f5-8131-43cd-912c-bd3297966320": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687883712,
+          "id": "d611f2f5-8131-43cd-912c-bd3297966320",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688040440,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "really easy to start logging (login with Google/GitHub/email, generate api token, POST to /log, see log in UI)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 412
+        }
+      },
+      "db70ed34-02ca-4acc-b165-8f975e63218e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688432331,
+          "id": "db70ed34-02ca-4acc-b165-8f975e63218e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688460248,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "websocket that does real-time updates so that user can see activity"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 179
+        }
+      },
+      "dc699324-b677-48e7-be2c-7881f5adeefb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547688115318,
+          "id": "dc699324-b677-48e7-be2c-7881f5adeefb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547688160228,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "a free tier with some limitations (e.g. only 7 day retention of logs, limit max size of uploaded data to e.g. 10k)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 284
+        }
+      },
+      "e4132d5a-4401-4b2a-ad81-d8158c803ad1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c6690fbf-02f6-442d-8648-7873539cec5b",
+            "e1cea37a-0533-4bf3-b148-badc4c486d32",
+            "7b61f255-a1d2-499b-a820-d0961c476c37"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531717846007,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1563561780000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ideas"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 552
+        }
+      },
+      "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1547687820597,
+          "id": "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1547687827601,
+          "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use cases:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 29
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a1f8e067fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:11 GMT"
+  ],
+  "Etag": [
+    "W/\"49ad-rMhN31OKqQbjl3AXPt70YQhnGpc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddee41a8b3641bbb874562e9464fae7b61565326151; expires=Sat, 08-Aug-20 04:49:11 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

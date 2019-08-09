@@ -1,0 +1,2590 @@
+2216 1565326101617 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+      "table": "block"
+    }
+  ]
+}
+Response:+1067
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "d1da8427-f2ae-47a7-8546-3d71e987727c",
+          "27d8334f-839f-416b-9532-d3de9d545127",
+          "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+          "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+          "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+          "278fea6f-69f8-40df-925b-ab3d411f52eb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496356257852,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552098300000,
+        "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "vue.js"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 125
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718e0fdd87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:20 GMT"
+  ],
+  "Etag": [
+    "W/\"2cb-nty/EvVPr0eZfzqhOY/OaOn78k4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2525c2e12528a5da56092bd4308453be1565326100; expires=Sat, 08-Aug-20 04:48:20 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+15543 1565326101618 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "7b96a8df-df45-418a-b397-1c0a1a467314",
+  "verticalColumns": false
+}
+Response:+14352
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1e29b059-0b87-4eed-a7df-1330d63de1b4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2d4bafe2-396b-44c0-8361-5dabbc26ed6b",
+            "c1a94434-31fe-40c6-be88-5264ae55aaa1",
+            "f503bd63-5a11-4ee0-91f8-ea713e9812e7",
+            "61d28662-611a-4ab7-a8bc-5aa486066083",
+            "aae4fba4-b39c-4035-bc5c-533540965849",
+            "5c31b3b9-7ac0-4bba-adcd-7ba0d8864f12",
+            "4a4fd133-2f16-4bfe-8734-175a4f3cdc12",
+            "fbc06697-428f-449f-a88d-2e24b40f623c",
+            "7658ac52-6dec-4c95-a874-de7f572d191d",
+            "a3b58496-c7f2-4487-a9f6-246aea83e7ee",
+            "d70c4a19-4912-44c9-b126-de25025d8123",
+            "ebbc93d4-e194-4e57-9ccb-7356531c47ac",
+            "0f93615c-1734-40b3-84d2-4e4150d8dddc",
+            "6b3a6859-b322-482c-8c00-22575a5a0813",
+            "be07fd8f-d2ae-4116-b95a-a9f8f8a7f7f0",
+            "031598fe-f670-4959-984e-3872e00a1d4e",
+            "8e1af62c-be0b-441c-b2d8-9a65975bc893",
+            "7b04d7c2-4af5-443d-8eca-5487405c2ae0",
+            "87b5b955-abea-4f2d-a631-d4be5d8094ec",
+            "f0ca586f-f7b4-4286-8432-7aab557d8fb5",
+            "61945ab9-f19b-40f9-ab6b-2ecac19b4857",
+            "f0e23fac-5603-4a13-84c3-0d2bcde48314",
+            "8044f342-d09b-44de-8785-7b3f3270a37c",
+            "df0d6815-a3fd-4988-8d1e-9e298df5d2ce",
+            "ef438c99-08f4-44bf-a1e4-de69ea15e638",
+            "93d860b4-a508-4028-b18a-3c026c79254d",
+            "67dc47c6-97c8-4a08-8a7c-c007d0048570",
+            "7a756600-60e6-42a1-9bf2-0273a90a9b9e",
+            "e41d38d7-cea2-4911-9c53-dd060f09e631",
+            "adeece87-cfec-42e4-9f29-b5f87b1b1a0f",
+            "c9ac4a8d-8844-4af2-8bde-3e787077592f",
+            "cb3e0a9e-358f-42e1-92a1-e0c2eba7aad7",
+            "713f3e74-67b3-4604-b9c3-8b46222895af",
+            "a049e5d8-4fe9-41a3-948c-2fa76c0d27ee",
+            "11298b39-d8fc-434a-bbd1-842259681df6",
+            "72ea5b44-f0fc-4c8d-b81b-08313064c033"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496356260879,
+          "id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552098300000,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 47
+        }
+      },
+      "278fea6f-69f8-40df-925b-ab3d411f52eb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512434556900,
+          "id": "278fea6f-69f8-40df-925b-ab3d411f52eb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512434556900,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "27d8334f-839f-416b-9532-d3de9d545127": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a6136014-6216-456e-91fd-2e9f482b7b65",
+            "cca0b40e-f746-4641-8975-5c7437cbfc8d",
+            "dd476c7f-b483-4d9d-955e-0b5e90690390",
+            "2f95aa95-37e9-41ab-bc45-8d6cae8fdfb7",
+            "a4aa838f-2108-49be-93bf-2aba5cb32b36",
+            "37842e90-c124-4a23-b075-3ae36d484feb",
+            "969a0cf6-4353-4b03-bbbb-806a938c42cc",
+            "6cbac326-00da-4827-acb1-fda98dee0ec9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531885785567,
+          "id": "27d8334f-839f-416b-9532-d3de9d545127",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924204410,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Vue.js notes."
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 37
+        }
+      },
+      "46f490e6-aa3d-4c12-9177-6cfec3949db2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "68520915-8cc1-4158-b00e-f50d0ba96ab6",
+            "a9d7c623-9479-46cf-a04e-8c92de0760d7",
+            "30aaad6c-2140-4eb4-9f27-cac109b1e032",
+            "2bd93764-ab74-4c34-991f-5c4ad83f975a",
+            "583c35e5-1c60-4dba-bc0f-72d9e8874054",
+            "5337a0bc-33f1-48d8-9246-4a107bf943aa",
+            "5fa970b5-38d7-4009-bf0c-dc045bf8366f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514110559964,
+          "id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1536876542598,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Libraries"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 59
+        }
+      },
+      "4da97980-9fb6-45cb-886a-51c656751d35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c708a15-fad2-4e38-bbd3-513320386063",
+            "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+            "6eb26b91-5c85-46e4-a0bc-f8f2a4c89701"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493148639391,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web programming, webdev"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "7b96a8df-df45-418a-b397-1c0a1a467314": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d1da8427-f2ae-47a7-8546-3d71e987727c",
+            "27d8334f-839f-416b-9532-d3de9d545127",
+            "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+            "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+            "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+            "278fea6f-69f8-40df-925b-ab3d411f52eb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496356257852,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552098300000,
+          "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "vue.js"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 125
+        }
+      },
+      "95c6dde5-ddb2-4f1e-9e27-8f16911d429b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "452726c2-ffe5-4be6-ac6d-4ee728ab48c5",
+            "2d1bfccb-2990-4186-99f9-024402d8c7ce",
+            "9b88d063-681f-4c5e-9d82-c255759cb72b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1498020766196,
+          "id": "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924173390,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Full apps in Vue"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 13
+        }
+      },
+      "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+            "c47b7a17-6b4e-440c-a17d-a97af441c43a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513208401787,
+          "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "c47b7a17-6b4e-440c-a17d-a97af441c43a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+            "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+            "96f13c56-22d9-4629-b828-11bd27c57bad",
+            "90eb791a-9db9-4934-b823-3cda5b1adcfa",
+            "b3be4adb-1ace-49dd-a3a0-57cf3888ff86",
+            "f6a44c22-0fbe-47ed-83a9-6299d32d6617",
+            "0c6cd619-f3f4-448f-940e-b85317aa34d0",
+            "737fa2b5-07b6-4215-a893-e3451a275d43",
+            "29416d8f-74a1-4b94-a128-fbb638277ae5",
+            "0bf7d482-d612-4b90-b02c-a82e410d017b",
+            "7b96a8df-df45-418a-b397-1c0a1a467314",
+            "2a75c15d-68f7-4745-ace3-d4b52319affd",
+            "549b8840-1eb1-4bf8-a0fc-5adad64960cc",
+            "e2baf309-cea7-4284-9627-4547085bd681",
+            "51e263b9-e569-4456-8b0f-881b050a1f07",
+            "65830ea1-3638-41fe-9f7f-a14f75a8056b",
+            "d5ef6e3d-e215-45d7-9c25-418f1ba2a51d",
+            "78416031-074a-4ffd-aea0-5cb899b68b20"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532382006532,
+          "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "parent_table": "block",
+          "type": "column",
+          "version": 109
+        }
+      },
+      "d1da8427-f2ae-47a7-8546-3d71e987727c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514117841812,
+          "id": "d1da8427-f2ae-47a7-8546-3d71e987727c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924271619,
+          "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Vue object"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 50
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718e16e047fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:20 GMT"
+  ],
+  "Etag": [
+    "W/\"25cd-kDfs8PHKRv+SfpownNAI6SeNayU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2525c2e12528a5da56092bd4308453be1565326100; expires=Sat, 08-Aug-20 04:48:20 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+54127 1565326101619 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+4862
+{
+  "requests": [
+    {
+      "id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+      "table": "block"
+    },
+    {
+      "id": "a6136014-6216-456e-91fd-2e9f482b7b65",
+      "table": "block"
+    },
+    {
+      "id": "cca0b40e-f746-4641-8975-5c7437cbfc8d",
+      "table": "block"
+    },
+    {
+      "id": "dd476c7f-b483-4d9d-955e-0b5e90690390",
+      "table": "block"
+    },
+    {
+      "id": "2f95aa95-37e9-41ab-bc45-8d6cae8fdfb7",
+      "table": "block"
+    },
+    {
+      "id": "a4aa838f-2108-49be-93bf-2aba5cb32b36",
+      "table": "block"
+    },
+    {
+      "id": "37842e90-c124-4a23-b075-3ae36d484feb",
+      "table": "block"
+    },
+    {
+      "id": "969a0cf6-4353-4b03-bbbb-806a938c42cc",
+      "table": "block"
+    },
+    {
+      "id": "6cbac326-00da-4827-acb1-fda98dee0ec9",
+      "table": "block"
+    },
+    {
+      "id": "2d4bafe2-396b-44c0-8361-5dabbc26ed6b",
+      "table": "block"
+    },
+    {
+      "id": "c1a94434-31fe-40c6-be88-5264ae55aaa1",
+      "table": "block"
+    },
+    {
+      "id": "f503bd63-5a11-4ee0-91f8-ea713e9812e7",
+      "table": "block"
+    },
+    {
+      "id": "61d28662-611a-4ab7-a8bc-5aa486066083",
+      "table": "block"
+    },
+    {
+      "id": "aae4fba4-b39c-4035-bc5c-533540965849",
+      "table": "block"
+    },
+    {
+      "id": "5c31b3b9-7ac0-4bba-adcd-7ba0d8864f12",
+      "table": "block"
+    },
+    {
+      "id": "4a4fd133-2f16-4bfe-8734-175a4f3cdc12",
+      "table": "block"
+    },
+    {
+      "id": "fbc06697-428f-449f-a88d-2e24b40f623c",
+      "table": "block"
+    },
+    {
+      "id": "7658ac52-6dec-4c95-a874-de7f572d191d",
+      "table": "block"
+    },
+    {
+      "id": "a3b58496-c7f2-4487-a9f6-246aea83e7ee",
+      "table": "block"
+    },
+    {
+      "id": "d70c4a19-4912-44c9-b126-de25025d8123",
+      "table": "block"
+    },
+    {
+      "id": "ebbc93d4-e194-4e57-9ccb-7356531c47ac",
+      "table": "block"
+    },
+    {
+      "id": "0f93615c-1734-40b3-84d2-4e4150d8dddc",
+      "table": "block"
+    },
+    {
+      "id": "6b3a6859-b322-482c-8c00-22575a5a0813",
+      "table": "block"
+    },
+    {
+      "id": "be07fd8f-d2ae-4116-b95a-a9f8f8a7f7f0",
+      "table": "block"
+    },
+    {
+      "id": "031598fe-f670-4959-984e-3872e00a1d4e",
+      "table": "block"
+    },
+    {
+      "id": "8e1af62c-be0b-441c-b2d8-9a65975bc893",
+      "table": "block"
+    },
+    {
+      "id": "7b04d7c2-4af5-443d-8eca-5487405c2ae0",
+      "table": "block"
+    },
+    {
+      "id": "87b5b955-abea-4f2d-a631-d4be5d8094ec",
+      "table": "block"
+    },
+    {
+      "id": "f0ca586f-f7b4-4286-8432-7aab557d8fb5",
+      "table": "block"
+    },
+    {
+      "id": "61945ab9-f19b-40f9-ab6b-2ecac19b4857",
+      "table": "block"
+    },
+    {
+      "id": "f0e23fac-5603-4a13-84c3-0d2bcde48314",
+      "table": "block"
+    },
+    {
+      "id": "8044f342-d09b-44de-8785-7b3f3270a37c",
+      "table": "block"
+    },
+    {
+      "id": "df0d6815-a3fd-4988-8d1e-9e298df5d2ce",
+      "table": "block"
+    },
+    {
+      "id": "ef438c99-08f4-44bf-a1e4-de69ea15e638",
+      "table": "block"
+    },
+    {
+      "id": "93d860b4-a508-4028-b18a-3c026c79254d",
+      "table": "block"
+    },
+    {
+      "id": "67dc47c6-97c8-4a08-8a7c-c007d0048570",
+      "table": "block"
+    },
+    {
+      "id": "7a756600-60e6-42a1-9bf2-0273a90a9b9e",
+      "table": "block"
+    },
+    {
+      "id": "e41d38d7-cea2-4911-9c53-dd060f09e631",
+      "table": "block"
+    },
+    {
+      "id": "adeece87-cfec-42e4-9f29-b5f87b1b1a0f",
+      "table": "block"
+    },
+    {
+      "id": "c9ac4a8d-8844-4af2-8bde-3e787077592f",
+      "table": "block"
+    },
+    {
+      "id": "cb3e0a9e-358f-42e1-92a1-e0c2eba7aad7",
+      "table": "block"
+    },
+    {
+      "id": "713f3e74-67b3-4604-b9c3-8b46222895af",
+      "table": "block"
+    },
+    {
+      "id": "a049e5d8-4fe9-41a3-948c-2fa76c0d27ee",
+      "table": "block"
+    },
+    {
+      "id": "11298b39-d8fc-434a-bbd1-842259681df6",
+      "table": "block"
+    },
+    {
+      "id": "72ea5b44-f0fc-4c8d-b81b-08313064c033",
+      "table": "block"
+    },
+    {
+      "id": "68520915-8cc1-4158-b00e-f50d0ba96ab6",
+      "table": "block"
+    },
+    {
+      "id": "a9d7c623-9479-46cf-a04e-8c92de0760d7",
+      "table": "block"
+    },
+    {
+      "id": "30aaad6c-2140-4eb4-9f27-cac109b1e032",
+      "table": "block"
+    },
+    {
+      "id": "2bd93764-ab74-4c34-991f-5c4ad83f975a",
+      "table": "block"
+    },
+    {
+      "id": "583c35e5-1c60-4dba-bc0f-72d9e8874054",
+      "table": "block"
+    },
+    {
+      "id": "5337a0bc-33f1-48d8-9246-4a107bf943aa",
+      "table": "block"
+    },
+    {
+      "id": "5fa970b5-38d7-4009-bf0c-dc045bf8366f",
+      "table": "block"
+    },
+    {
+      "id": "452726c2-ffe5-4be6-ac6d-4ee728ab48c5",
+      "table": "block"
+    },
+    {
+      "id": "2d1bfccb-2990-4186-99f9-024402d8c7ce",
+      "table": "block"
+    },
+    {
+      "id": "9b88d063-681f-4c5e-9d82-c255759cb72b",
+      "table": "block"
+    }
+  ]
+}
+Response:+48223
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5c699922-7d3f-47cb-9917-7e7336727e0c",
+          "8f50787c-5d82-44e7-a078-b4173c73024a",
+          "56fbc694-de6f-48f6-922a-da726983faf5",
+          "62c64ff0-7005-41e8-a2fb-0da8aed657c0"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514117943981,
+        "id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516047347843,
+        "parent_id": "d1da8427-f2ae-47a7-8546-3d71e987727c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "life cycle hooks"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 61
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194245,
+        "id": "a6136014-6216-456e-91fd-2e9f482b7b65",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531885793849,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "div#app\n  p v-if=\"seen\"\n    {{ message | capitalize }}\n  p v-else\n    shown if not seen\n  span v-bind:title=\"message\"\n  span :title=\"message\"\n  ol\n    li v-for=\"todo in todos\"\n      {{ todo.text }}\n  button v-on:click=\"reverseMessage\"\n  button @click=\"reverseMessage\"\n  input v-model=\"message\"\n  div v-html=\"rawHtml\"\n  div v-for=\"(value, key, index) in object\""
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 7
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194245,
+        "id": "cca0b40e-f746-4641-8975-5c7437cbfc8d",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924257798,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "new Vue({\n  el: \"#app\",\n  data: {\n    seen: true,\n    message: \"my messge\",\n    todos: [\n      { text: \"todo 1\" },\n      { text: \"todo 2\" },\n    ],\n    rawHtml: \"\u003cp\u003eis html\u003c/p\u003e\",\n  },\n  methods: {\n    reverseMessage: function() {\n      this.message = reverse(this.message);\n    },\n  filters: {\n    capitalize: function (value) {\n      if (!value) return '';\n      value = value.toString();\n      return value.charAt(0).toUpperCase() + value.slice(1);\n    }\n  },\n  computed: {\n    reversedMessageComputed: function() {\n      return reverse(this.message);\n    }\n  },\n})"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194245,
+        "id": "dd476c7f-b483-4d9d-955e-0b5e90690390",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924249804,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejs.org/v2/api/#v-on event",
+              [
+                [
+                  "a",
+                  "https://vuejs.org/v2/api/#v-on"
+                ]
+              ]
+            ],
+            [
+              " bindings modifiers (e.g. "
+            ],
+            [
+              "@onclick.stop",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "):"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 38
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924185634,
+        "id": "2f95aa95-37e9-41ab-bc45-8d6cae8fdfb7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924188636,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "stop, prevent, capture, self, native, once"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194246,
+        "id": "a4aa838f-2108-49be-93bf-2aba5cb32b36",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924195232,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924195232,
+        "id": "37842e90-c124-4a23-b075-3ae36d484feb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924210888,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/",
+              [
+                [
+                  "a",
+                  "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 27
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924200162,
+        "id": "969a0cf6-4353-4b03-bbbb-806a938c42cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924208946,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://alligator.io/vuejs/vue-placeholders/",
+              [
+                [
+                  "a",
+                  "https://alligator.io/vuejs/vue-placeholders/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 20
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924204410,
+        "id": "6cbac326-00da-4827-acb1-fda98dee0ec9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924212244,
+        "parent_id": "27d8334f-839f-416b-9532-d3de9d545127",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77",
+              [
+                [
+                  "a",
+                  "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552098300000,
+        "id": "2d4bafe2-396b-44c0-8361-5dabbc26ed6b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552098300000,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/ffxsam/vue-typescript-cookbook/blob/master/README.md",
+              [
+                [
+                  "a",
+                  "https://github.com/ffxsam/vue-typescript-cookbook/blob/master/README.md"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530769636607,
+        "id": "c1a94434-31fe-40c6-be88-5264ae55aaa1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/learn-vuejs/vue-patterns",
+              [
+                [
+                  "a",
+                  "https://github.com/learn-vuejs/vue-patterns"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530406034021,
+        "id": "f503bd63-5a11-4ee0-91f8-ea713e9812e7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.logrocket.com/submitting-html-forms-using-javascript-frameworks-vue-react-hyperapp-44664dba1218",
+              [
+                [
+                  "a",
+                  "https://blog.logrocket.com/submitting-html-forms-using-javascript-frameworks-vue-react-hyperapp-44664dba1218"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530213144310,
+        "id": "61d28662-611a-4ab7-a8bc-5aa486066083",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://alligator.io/vuejs/implementing-infinite-scroll/",
+              [
+                [
+                  "a",
+                  "https://alligator.io/vuejs/implementing-infinite-scroll/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 38
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530213148467,
+        "id": "aae4fba4-b39c-4035-bc5c-533540965849",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/",
+              [
+                [
+                  "a",
+                  "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514428569788,
+        "id": "5c31b3b9-7ac0-4bba-adcd-7ba0d8864f12",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejs-tips.github.io/cheatsheet/",
+              [
+                [
+                  "a",
+                  "https://vuejs-tips.github.io/cheatsheet/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514428578870,
+        "id": "4a4fd133-2f16-4bfe-8734-175a4f3cdc12",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejs-tips.github.io/vuex-cheatsheet/",
+              [
+                [
+                  "a",
+                  "https://vuejs-tips.github.io/vuex-cheatsheet/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514428588640,
+        "id": "fbc06697-428f-449f-a88d-2e24b40f623c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://devhints.io/vue",
+              [
+                [
+                  "a",
+                  "https://devhints.io/vue"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514460539784,
+        "id": "7658ac52-6dec-4c95-a874-de7f572d191d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.getrevue.co/profile/vuenewsletter",
+              [
+                [
+                  "a",
+                  "https://www.getrevue.co/profile/vuenewsletter"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514775412916,
+        "id": "a3b58496-c7f2-4487-a9f6-246aea83e7ee",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejsdevelopers.com/",
+              [
+                [
+                  "a",
+                  "https://vuejsdevelopers.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514460780757,
+        "id": "d70c4a19-4912-44c9-b126-de25025d8123",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/vuejs/awesome-vue",
+              [
+                [
+                  "a",
+                  "https://github.com/vuejs/awesome-vue"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514460731105,
+        "id": "ebbc93d4-e194-4e57-9ccb-7356531c47ac",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.vuejsradar.com/",
+              [
+                [
+                  "a",
+                  "https://www.vuejsradar.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516047335786,
+        "id": "0f93615c-1734-40b3-84d2-4e4150d8dddc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/TypeScript-Vue-Starter",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/TypeScript-Vue-Starter"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515330522762,
+        "id": "6b3a6859-b322-482c-8c00-22575a5a0813",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejs-templates.github.io/webpack/",
+              [
+                [
+                  "a",
+                  "https://vuejs-templates.github.io/webpack/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514634097284,
+        "id": "be07fd8f-d2ae-4116-b95a-a9f8f8a7f7f0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/",
+              [
+                [
+                  "a",
+                  "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514634116147,
+        "id": "031598fe-f670-4959-984e-3872e00a1d4e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://designhammer.com/blog/reusable-vuejs-components-part-2-basic-drop-down-and-v-model",
+              [
+                [
+                  "a",
+                  "https://designhammer.com/blog/reusable-vuejs-components-part-2-basic-drop-down-and-v-model"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514632794027,
+        "id": "8e1af62c-be0b-441c-b2d8-9a65975bc893",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://alligator.io/vuejs/",
+              [
+                [
+                  "a",
+                  "https://alligator.io/vuejs/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496356262877,
+        "id": "7b04d7c2-4af5-443d-8eca-5487405c2ae0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://laracasts.com/series/learn-vue-2-step-by-step",
+              [
+                [
+                  "a",
+                  "https://laracasts.com/series/learn-vue-2-step-by-step"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514634180198,
+        "id": "87b5b955-abea-4f2d-a631-d4be5d8094ec",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejsdevelopers.com/2017/03/24/vue-js-component-templates/",
+              [
+                [
+                  "a",
+                  "https://vuejsdevelopers.com/2017/03/24/vue-js-component-templates/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514366031683,
+        "id": "f0ca586f-f7b4-4286-8432-7aab557d8fb5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/wdstack/vue-vuex-getting-started-f78c03d9f65",
+              [
+                [
+                  "a",
+                  "https://medium.com/wdstack/vue-vuex-getting-started-f78c03d9f65"
+                ]
+              ]
+            ],
+            [
+              " : vue + vuex"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 38
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498020902811,
+        "id": "61945ab9-f19b-40f9-ab6b-2ecac19b4857",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77",
+              [
+                [
+                  "a",
+                  "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1497859399492,
+        "id": "f0e23fac-5603-4a13-84c3-0d2bcde48314",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://element.eleme.io/#/en-US",
+              [
+                [
+                  "a",
+                  "http://element.eleme.io/#/en-US"
+                ]
+              ]
+            ],
+            [
+              " : UI library"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499039438983,
+        "id": "8044f342-d09b-44de-8785-7b3f3270a37c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.safaribooksonline.com/library/view/vuejs-2-cookbook/9781786468093/04700eab-d6ac-4805-8704-ca4a113fee4a.xhtml",
+              [
+                [
+                  "a",
+                  "https://www.safaribooksonline.com/library/view/vuejs-2-cookbook/9781786468093/04700eab-d6ac-4805-8704-ca4a113fee4a.xhtml"
+                ]
+              ]
+            ],
+            [
+              " : vue.js cookbook"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499207041485,
+        "id": "df0d6815-a3fd-4988-8d1e-9e298df5d2ce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/TypeScript-Vue-Starter",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/TypeScript-Vue-Starter"
+                ]
+              ]
+            ],
+            [
+              " : vue + typescript template"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499213255474,
+        "id": "ef438c99-08f4-44bf-a1e4-de69ea15e638",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/vuejs/vetur",
+              [
+                [
+                  "a",
+                  "https://github.com/vuejs/vetur"
+                ]
+              ]
+            ],
+            [
+              " : VSCode tooling"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1500757876178,
+        "id": "93d860b4-a508-4028-b18a-3c026c79254d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://mubaidr.github.io/blog/Vuejs-VsCode/",
+              [
+                [
+                  "a",
+                  "https://mubaidr.github.io/blog/Vuejs-VsCode/"
+                ]
+              ]
+            ],
+            [
+              " : setting up VS code for vue"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499215887462,
+        "id": "67dc47c6-97c8-4a08-8a7c-c007d0048570",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.iviewui.com/",
+              [
+                [
+                  "a",
+                  "https://www.iviewui.com/"
+                ]
+              ]
+            ],
+            [
+              " : nice UI toolkit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1500766306880,
+        "id": "7a756600-60e6-42a1-9bf2-0273a90a9b9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/",
+              [
+                [
+                  "a",
+                  "https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509966535327,
+        "id": "e41d38d7-cea2-4911-9c53-dd060f09e631",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://meetupfeed.com/recorded-vuejs-talks-last-three-months-vuejs-talks-digest-q3-2017/",
+              [
+                [
+                  "a",
+                  "http://meetupfeed.com/recorded-vuejs-talks-last-three-months-vuejs-talks-digest-q3-2017/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1510364015179,
+        "id": "adeece87-cfec-42e4-9f29-b5f87b1b1a0f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://docs.gitlab.com/ee/development/fe_guide/vue.html",
+              [
+                [
+                  "a",
+                  "https://docs.gitlab.com/ee/development/fe_guide/vue.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434557313,
+        "id": "c9ac4a8d-8844-4af2-8bde-3e787077592f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/joshsaintjacque/awesome-vue-js",
+              [
+                [
+                  "a",
+                  "https://github.com/joshsaintjacque/awesome-vue-js"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434557313,
+        "id": "cb3e0a9e-358f-42e1-92a1-e0c2eba7aad7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/vuejs/awesome-vue",
+              [
+                [
+                  "a",
+                  "https://github.com/vuejs/awesome-vue"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513578516769,
+        "id": "713f3e74-67b3-4604-b9c3-8b46222895af",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.smashingmagazine.com/2017/08/creating-custom-inputs-vue-js/",
+              [
+                [
+                  "a",
+                  "https://www.smashingmagazine.com/2017/08/creating-custom-inputs-vue-js/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514366041857,
+        "id": "a049e5d8-4fe9-41a3-948c-2fa76c0d27ee",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.bitsrc.io/11-vue-js-component-libraries-you-should-know-in-2018-3d35ad0ae37f",
+              [
+                [
+                  "a",
+                  "https://blog.bitsrc.io/11-vue-js-component-libraries-you-should-know-in-2018-3d35ad0ae37f"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514594978396,
+        "id": "11298b39-d8fc-434a-bbd1-842259681df6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.thepolyglotdeveloper.com/2017/10/consume-api-data-http-vuejs-web-application/",
+              [
+                [
+                  "a",
+                  "https://www.thepolyglotdeveloper.com/2017/10/consume-api-data-http-vuejs-web-application/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514595848717,
+        "id": "72ea5b44-f0fc-4c8d-b81b-08313064c033",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924158405,
+        "parent_id": "1e29b059-0b87-4eed-a7df-1330d63de1b4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://vuejsdevelopers.com/2017/10/23/vue-js-tree-menu-recursive-components/",
+              [
+                [
+                  "a",
+                  "https://vuejsdevelopers.com/2017/10/23/vue-js-tree-menu-recursive-components/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1536785019477,
+        "id": "68520915-8cc1-4158-b00e-f50d0ba96ab6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1536785027731,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://element.eleme.io/#/en-US",
+              [
+                [
+                  "a",
+                  "https://element.eleme.io/#/en-US"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=17968510",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=17968510"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1536876542598,
+        "id": "a9d7c623-9479-46cf-a04e-8c92de0760d7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1536876549648,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/designrevision/shards-vue",
+              [
+                [
+                  "a",
+                  "https://github.com/designrevision/shards-vue"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514110594701,
+        "id": "30aaad6c-2140-4eb4-9f27-cac109b1e032",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924166753,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/vuejs/awesome-vue",
+              [
+                [
+                  "a",
+                  "https://github.com/vuejs/awesome-vue"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528939388572,
+        "id": "2bd93764-ab74-4c34-991f-5c4ad83f975a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924166753,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/lusaxweb/vuesax",
+              [
+                [
+                  "a",
+                  "https://github.com/lusaxweb/vuesax"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514110564742,
+        "id": "583c35e5-1c60-4dba-bc0f-72d9e8874054",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924166753,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://sagalbot.github.io/vue-select/",
+              [
+                [
+                  "a",
+                  "http://sagalbot.github.io/vue-select/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514699138005,
+        "id": "5337a0bc-33f1-48d8-9246-4a107bf943aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924166753,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.iviewui.com/",
+              [
+                [
+                  "a",
+                  "https://www.iviewui.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514710121331,
+        "id": "5fa970b5-38d7-4009-bf0c-dc045bf8366f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924166753,
+        "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/alexsasharegan/vue-transmit",
+              [
+                [
+                  "a",
+                  "https://github.com/alexsasharegan/vue-transmit?utm_campaign=Revue%20newsletter\u0026utm_medium=Newsletter\u0026utm_source=Vue.js%20Newsletter"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498020773359,
+        "id": "452726c2-ffe5-4be6-ac6d-4ee728ab48c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924173390,
+        "parent_id": "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/elialbert/bangerFM/tree/master/src/components",
+              [
+                [
+                  "a",
+                  "https://github.com/elialbert/bangerFM/tree/master/src/components"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434557313,
+        "id": "2d1bfccb-2990-4186-99f9-024402d8c7ce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924173390,
+        "parent_id": "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/hparton/terminal.reddit",
+              [
+                [
+                  "a",
+                  "https://github.com/hparton/terminal.reddit"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434557313,
+        "id": "9b88d063-681f-4c5e-9d82-c255759cb72b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924173390,
+        "parent_id": "95c6dde5-ddb2-4f1e-9e27-8f16911d429b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gitlab.com/gitlab-org/gitlab-ce/tree/master",
+              [
+                [
+                  "a",
+                  "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718e1ce357fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:20 GMT"
+  ],
+  "Etag": [
+    "W/\"75a1-25HD1Dt/ImkQk6qB180AKjI2h00\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2525c2e12528a5da56092bd4308453be1565326100; expires=Sat, 08-Aug-20 04:48:20 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+3904 1565326101620 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+374
+{
+  "requests": [
+    {
+      "id": "5c699922-7d3f-47cb-9917-7e7336727e0c",
+      "table": "block"
+    },
+    {
+      "id": "8f50787c-5d82-44e7-a078-b4173c73024a",
+      "table": "block"
+    },
+    {
+      "id": "56fbc694-de6f-48f6-922a-da726983faf5",
+      "table": "block"
+    },
+    {
+      "id": "62c64ff0-7005-41e8-a2fb-0da8aed657c0",
+      "table": "block"
+    }
+  ]
+}
+Response:+2491
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514117910627,
+        "id": "5c699922-7d3f-47cb-9917-7e7336727e0c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514117963897,
+        "parent_id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "created"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514117940661,
+        "id": "8f50787c-5d82-44e7-a078-b4173c73024a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514117963897,
+        "parent_id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "mounted"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514117968277,
+        "id": "56fbc694-de6f-48f6-922a-da726983faf5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514117972190,
+        "parent_id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "updated"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 20
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514117972699,
+        "id": "62c64ff0-7005-41e8-a2fb-0da8aed657c0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516047349826,
+        "parent_id": "3ba85ca6-4af8-4c84-9dc2-4e2c97f984b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "destoryed"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 26
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718e24e9f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:20 GMT"
+  ],
+  "Etag": [
+    "W/\"653-qmK8Fk9ZsYI7lZQJ6T/wO/w/sAI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2525c2e12528a5da56092bd4308453be1565326100; expires=Sat, 08-Aug-20 04:48:20 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

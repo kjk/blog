@@ -1,0 +1,879 @@
+2711 1565326140028 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+      "table": "block"
+    }
+  ]
+}
+Response:+1562
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "dd8b6a3f-0932-4d2a-864a-4fee6fa1ea6e",
+          "7e437870-e544-492b-853c-693a1d271caf",
+          "a1b05754-f9eb-4d08-843b-69cb579589b3",
+          "4b204fa7-a2be-4957-a6e2-43bdaa5b43f1",
+          "51343f0d-9d18-446b-9f12-12f049226522",
+          "98e9af55-4ffd-4004-a09e-ab0b3caa612f",
+          "2ed67fbd-97d5-49a0-8b74-9f2092771864",
+          "58654d7b-df69-460e-829a-3fdecab9dc07",
+          "4d279a8e-f4f5-4c3b-be7b-85e718b34cb6",
+          "1470242f-3a77-4ca3-943d-179aaabd84cf",
+          "1b83b6f5-e781-4972-ad88-c61e4ac6d36e",
+          "99c9cf65-9790-4294-a962-21d580664cf5",
+          "c338427b-4bfb-4906-b00f-af305d20b726",
+          "53cc0565-1594-41b3-95fc-5bf533d9e3b0",
+          "ec97d1aa-9e09-4164-b494-a1ceb1b86c18",
+          "0e9c1375-dc41-4574-8a5c-9abb74274201"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512460943374,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530048781126,
+        "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "agg"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 3
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719d18e8a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:59 GMT"
+  ],
+  "Etag": [
+    "W/\"44c-RAAZ3LVO/72GXFlGNJGSjl9oqx4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3f693c7eba91f9d4d98d4ec26dd2dccf1565326139; expires=Sat, 08-Aug-20 04:48:59 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+24657 1565326140029 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+  "verticalColumns": false
+}
+Response:+23466
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "dd8b6a3f-0932-4d2a-864a-4fee6fa1ea6e",
+            "7e437870-e544-492b-853c-693a1d271caf",
+            "a1b05754-f9eb-4d08-843b-69cb579589b3",
+            "4b204fa7-a2be-4957-a6e2-43bdaa5b43f1",
+            "51343f0d-9d18-446b-9f12-12f049226522",
+            "98e9af55-4ffd-4004-a09e-ab0b3caa612f",
+            "2ed67fbd-97d5-49a0-8b74-9f2092771864",
+            "58654d7b-df69-460e-829a-3fdecab9dc07",
+            "4d279a8e-f4f5-4c3b-be7b-85e718b34cb6",
+            "1470242f-3a77-4ca3-943d-179aaabd84cf",
+            "1b83b6f5-e781-4972-ad88-c61e4ac6d36e",
+            "99c9cf65-9790-4294-a962-21d580664cf5",
+            "c338427b-4bfb-4906-b00f-af305d20b726",
+            "53cc0565-1594-41b3-95fc-5bf533d9e3b0",
+            "ec97d1aa-9e09-4164-b494-a1ceb1b86c18",
+            "0e9c1375-dc41-4574-8a5c-9abb74274201"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512460943374,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530048781126,
+          "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "agg"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 3
+        }
+      },
+      "0e9c1375-dc41-4574-8a5c-9abb74274201": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461018768,
+          "id": "0e9c1375-dc41-4574-8a5c-9abb74274201",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512461018768,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "1470242f-3a77-4ca3-943d-179aaabd84cf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "1470242f-3a77-4ca3-943d-179aaabd84cf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086620154,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/MatterHackers/agg-sharp",
+                [
+                  [
+                    "a",
+                    "https://github.com/MatterHackers/agg-sharp"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 10
+        }
+      },
+      "1b83b6f5-e781-4972-ad88-c61e4ac6d36e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "1b83b6f5-e781-4972-ad88-c61e4ac6d36e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086622594,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/pelson/antigrain",
+                [
+                  [
+                    "a",
+                    "https://github.com/pelson/antigrain"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "1c88e826-c6ef-4432-bd0e-188560b1a34f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77419d0c-c357-47de-b617-b16ddf354df2",
+            "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+            "4cb16d35-5069-46e7-a2c9-be86e5bc1f80",
+            "595294dc-8be6-41ee-8aec-14a9b5d21ac7",
+            "44be8df9-6823-49e9-bb8c-a7077124b674",
+            "80a4483d-b747-4706-9898-363d53f16bf0",
+            "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+            "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+            "26a2d6ae-61d5-4350-824b-3aa9f7e131e7",
+            "51b70cc4-6af0-4d6e-8f7c-272387e8a356",
+            "dfcaa0f4-b1c3-4163-932e-4f0378e8d82f",
+            "0dc31cc7-8d09-4258-8f92-f44cbb61d180",
+            "7b7ead5f-c9a0-4a9c-840a-d1eaba74c2a1",
+            "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+            "1013e1bd-10bd-49ac-b02f-79a7ada7e060",
+            "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+            "53485f8e-b0c1-4c49-b174-8995a9e38d4c",
+            "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+            "d61cd2f8-8e60-42d4-bb4d-3b782df87518",
+            "5122bd29-ef09-436b-a66f-8c3321a70e5c",
+            "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+            "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
+            "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+            "040630a7-5e9f-4aae-83d0-1538bdc8f702"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.4375
+          },
+          "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 199
+        }
+      },
+      "2ed67fbd-97d5-49a0-8b74-9f2092771864": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "2ed67fbd-97d5-49a0-8b74-9f2092771864",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086610203,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/ihalip/libsvgtiny",
+                [
+                  [
+                    "a",
+                    "https://github.com/ihalip/libsvgtiny"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "4b204fa7-a2be-4957-a6e2-43bdaa5b43f1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "4b204fa7-a2be-4957-a6e2-43bdaa5b43f1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086595910,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/dov/agg-svg",
+                [
+                  [
+                    "a",
+                    "https://github.com/dov/agg-svg"
+                  ]
+                ]
+              ],
+              [
+                "  - improved svn parser for agg"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "4d279a8e-f4f5-4c3b-be7b-85e718b34cb6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "4d279a8e-f4f5-4c3b-be7b-85e718b34cb6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086616226,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/franko/agg-intro",
+                [
+                  [
+                    "a",
+                    "https://github.com/franko/agg-intro"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "51343f0d-9d18-446b-9f12-12f049226522": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "51343f0d-9d18-446b-9f12-12f049226522",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086598601,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/dov/lib2geom",
+                [
+                  [
+                    "a",
+                    "https://github.com/dov/lib2geom"
+                  ]
+                ]
+              ],
+              [
+                "  - lib2geom"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "53cc0565-1594-41b3-95fc-5bf533d9e3b0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "53cc0565-1594-41b3-95fc-5bf533d9e3b0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086630401,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/pixellib/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/pixellib/"
+                  ]
+                ]
+              ],
+              [
+                " - a different 2d library, in C"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "58654d7b-df69-460e-829a-3fdecab9dc07": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "58654d7b-df69-460e-829a-3fdecab9dc07",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086613226,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/TimothyGu/agg",
+                [
+                  [
+                    "a",
+                    "https://github.com/TimothyGu/agg"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 10
+        }
+      },
+      "7e437870-e544-492b-853c-693a1d271caf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "7e437870-e544-492b-853c-693a1d271caf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086592290,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/rougier/gl-agg",
+                [
+                  [
+                    "a",
+                    "https://github.com/rougier/gl-agg"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "98e9af55-4ffd-4004-a09e-ab0b3caa612f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "98e9af55-4ffd-4004-a09e-ab0b3caa612f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086603381,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/oncaphillis/agg/commits/master",
+                [
+                  [
+                    "a",
+                    "https://github.com/oncaphillis/agg/commits/master"
+                  ]
+                ]
+              ],
+              [
+                " - another somewhat active fork, has cmake build"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "99c9cf65-9790-4294-a962-21d580664cf5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "99c9cf65-9790-4294-a962-21d580664cf5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086625058,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://franko.github.io/agg-intro/",
+                [
+                  [
+                    "a",
+                    "http://franko.github.io/agg-intro/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "a1b05754-f9eb-4d08-843b-69cb579589b3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "a1b05754-f9eb-4d08-843b-69cb579589b3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086594087,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/svn2github/agg",
+                [
+                  [
+                    "a",
+                    "https://github.com/svn2github/agg"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "c338427b-4bfb-4906-b00f-af305d20b726": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "c338427b-4bfb-4906-b00f-af305d20b726",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086627147,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/svn2github/agg2",
+                [
+                  [
+                    "a",
+                    "https://github.com/svn2github/agg2"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "dd8b6a3f-0932-4d2a-864a-4fee6fa1ea6e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "dd8b6a3f-0932-4d2a-864a-4fee6fa1ea6e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086649818,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://sourceforge.net/p/agg/svn/HEAD/tree/agg-2.4/",
+                [
+                  [
+                    "a",
+                    "http://sourceforge.net/p/agg/svn/HEAD/tree/agg-2.4/"
+                  ]
+                ]
+              ],
+              [
+                " - more or less active fork of agg 2.4, its slightly out-dated git mirror is "
+              ],
+              [
+                "https://github.com/svn2github/agg",
+                [
+                  [
+                    "a",
+                    "https://github.com/svn2github/agg"
+                  ]
+                ]
+              ],
+              [
+                " and its fork "
+              ],
+              [
+                "https://github.com/Bashakov/agg/commits/master",
+                [
+                  [
+                    "a",
+                    "https://github.com/Bashakov/agg/commits/master"
+                  ]
+                ]
+              ],
+              [
+                " has some svg improvements"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "ec97d1aa-9e09-4164-b494-a1ceb1b86c18": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461000860,
+          "id": "ec97d1aa-9e09-4164-b494-a1ceb1b86c18",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530086633497,
+          "parent_id": "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/fog/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/fog/"
+                  ]
+                ]
+              ],
+              [
+                " - yet another library"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719d20eae7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:59 GMT"
+  ],
+  "Etag": [
+    "W/\"3796-BnT9I8MZQmCarWB3366q64tLfnw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3f693c7eba91f9d4d98d4ec26dd2dccf1565326139; expires=Sat, 08-Aug-20 04:48:59 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,1182 @@
+3161 1565326179849 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+      "table": "block"
+    }
+  ]
+}
+Response:+2012
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "7192397a-02a7-48f4-96c4-6be7043b8f93",
+          "abccc002-29cd-4d74-b2db-d0012feffe8e",
+          "28dc0d40-6f31-4788-b724-76f85d202dd3",
+          "473f9064-e234-4405-936d-9229484a6728",
+          "079bad65-b077-4769-8676-8615cb190447",
+          "2ff75f6b-f7ea-4905-bcec-c0ae163d6c28",
+          "8be179b5-3afb-404d-b88e-ac6d2a9804a1",
+          "942a3ffa-8f50-4f14-b07d-bc2a231df383",
+          "3ec0ddfe-7a1a-437a-93e8-81ed2591e1bd",
+          "2c04966c-19a7-49c8-803f-f146e9cd5a9e",
+          "b2b60238-e150-49ab-9bdf-475791aa991e",
+          "08897eaf-0969-4963-a317-fa8f66e953bb",
+          "63c85c37-d187-4663-8118-9add6ee4b22e",
+          "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+          "492ed2d9-3da7-4e2f-a5a7-1ebd4d77a4f1",
+          "ee2171a6-ab94-455f-9e7c-d88e86440dc3",
+          "17eb3880-8fee-465d-b67b-bb36c0b80dd0",
+          "e8529e03-2367-4282-b872-a0223b780ea6",
+          "7bdfa3d0-8e31-42de-b815-fdbc85b3b53e",
+          "1837c212-59dd-4ea4-8d3f-a2971eb7dbc5",
+          "1142e0e9-db1d-41e8-aa1c-1c4a81b39749",
+          "652f7178-dd46-41a6-9842-5c99e86bc025",
+          "39c41a4e-25cb-418e-8454-944a573fa366"
+        ],
+        "copied_from": "782c2ae1-eda3-4b7b-84a1-b805e6e8cd19",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736778231,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996130087,
+        "parent_id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Extracting files from .7z archives in Go"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 6
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371acadc7d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:39 GMT"
+  ],
+  "Etag": [
+    "W/\"5b7-C9kLOZxVzyeJHsxf2pvD1PcnFjo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d949505763244943bde070ed25550e2b31565326179; expires=Sat, 08-Aug-20 04:49:39 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+34458 1565326179850 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+  "verticalColumns": false
+}
+Response:+33267
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "079bad65-b077-4769-8676-8615cb190447": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778233,
+          "id": "079bad65-b077-4769-8676-8615cb190447",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "type": "text",
+          "version": 2
+        }
+      },
+      "08897eaf-0969-4963-a317-fa8f66e953bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778234,
+          "id": "08897eaf-0969-4963-a317-fa8f66e953bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Pre-requisites:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "1142e0e9-db1d-41e8-aa1c-1c4a81b39749": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "1142e0e9-db1d-41e8-aa1c-1c4a81b39749",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816895939,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To see a more complete example: "
+              ],
+              [
+                "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "17eb3880-8fee-465d-b67b-bb36c0b80dd0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "17eb3880-8fee-465d-b67b-bb36c0b80dd0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "get "
+              ],
+              [
+                "io.ReadCloser",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " for a given file"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "1837c212-59dd-4ea4-8d3f-a2971eb7dbc5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "1837c212-59dd-4ea4-8d3f-a2971eb7dbc5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "var archive *lzmadec.Archive\narchive, _ := lzmadec.NewArchive(\"foo.7z\")\n\n// list all files inside archive\nfor _, e := range archive.Entries {\n    fmt.Printf(\"name: %s, size: %d\\n\", e.Path, e.Size)\n}\nfirstFile := archive.Entries[0].Path\n\n// extract to a file\narchive.ExtractToFile(firstFile + \".extracted\", firstFile)\n\n// decompress to in-memory buffer\nr, _ := archive.GetFileReader(firstFile)\nvar buf bytes.Buffer\n_, _ = io.Copy(\u0026buf, r)\n// if not fully read, calling Close() ensures that sub-launched 7z executable\n// is terminated\nr.Close()\nfmt.Printf(\"size of file %s after decompression: %d\\n\", firstFile, len(buf.Bytes()))"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 2
+        }
+      },
+      "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+            "1a427ccf-a37e-4d5e-b52c-fa69e4f14eee",
+            "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+            "9070283f-b1a5-43b5-8af1-c4e5003a1891"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778229,
+          "id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268200000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2015 (4)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 22
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "28dc0d40-6f31-4788-b724-76f85d202dd3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778232,
+          "id": "28dc0d40-6f31-4788-b724-76f85d202dd3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: go, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "2c04966c-19a7-49c8-803f-f146e9cd5a9e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778234,
+          "id": "2c04966c-19a7-49c8-803f-f146e9cd5a9e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It still uses "
+              ],
+              [
+                "7z",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " executable for the functionality but it doesn’t create temporary file. Instead it streams decompressed data so it’s more efficient."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "2ff75f6b-f7ea-4905-bcec-c0ae163d6c28": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778233,
+          "id": "2ff75f6b-f7ea-4905-bcec-c0ae163d6c28",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For a project written in Go I needed to access files inside .7z archive."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "39c41a4e-25cb-418e-8454-944a573fa366": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778237,
+          "id": "39c41a4e-25cb-418e-8454-944a573fa366",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816901434,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Hopefully some day there will be pure Go library for accessing .7z files and this hack will obsolete. "
+              ],
+              [
+                "https://github.com/uli-go/xz",
+                [
+                  [
+                    "a",
+                    "https://github.com/uli-go/xz"
+                  ]
+                ]
+              ],
+              [
+                " is quite advanced but not there yet."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "3ec0ddfe-7a1a-437a-93e8-81ed2591e1bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778234,
+          "id": "3ec0ddfe-7a1a-437a-93e8-81ed2591e1bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I spent a little more effort and created a way to get an "
+              ],
+              [
+                "io.ReadCloser",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " stream for a file inside .7z archive."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "473f9064-e234-4405-936d-9229484a6728": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778232,
+          "id": "473f9064-e234-4405-936d-9229484a6728",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Collection: go-cookbook"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "492ed2d9-3da7-4e2f-a5a7-1ebd4d77a4f1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "492ed2d9-3da7-4e2f-a5a7-1ebd4d77a4f1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The library offers essentially 2 functions:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "4bc843dc-3ad2-4750-9203-e81ff4432bd6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7192397a-02a7-48f4-96c4-6be7043b8f93",
+            "abccc002-29cd-4d74-b2db-d0012feffe8e",
+            "28dc0d40-6f31-4788-b724-76f85d202dd3",
+            "473f9064-e234-4405-936d-9229484a6728",
+            "079bad65-b077-4769-8676-8615cb190447",
+            "2ff75f6b-f7ea-4905-bcec-c0ae163d6c28",
+            "8be179b5-3afb-404d-b88e-ac6d2a9804a1",
+            "942a3ffa-8f50-4f14-b07d-bc2a231df383",
+            "3ec0ddfe-7a1a-437a-93e8-81ed2591e1bd",
+            "2c04966c-19a7-49c8-803f-f146e9cd5a9e",
+            "b2b60238-e150-49ab-9bdf-475791aa991e",
+            "08897eaf-0969-4963-a317-fa8f66e953bb",
+            "63c85c37-d187-4663-8118-9add6ee4b22e",
+            "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+            "492ed2d9-3da7-4e2f-a5a7-1ebd4d77a4f1",
+            "ee2171a6-ab94-455f-9e7c-d88e86440dc3",
+            "17eb3880-8fee-465d-b67b-bb36c0b80dd0",
+            "e8529e03-2367-4282-b872-a0223b780ea6",
+            "7bdfa3d0-8e31-42de-b815-fdbc85b3b53e",
+            "1837c212-59dd-4ea4-8d3f-a2971eb7dbc5",
+            "1142e0e9-db1d-41e8-aa1c-1c4a81b39749",
+            "652f7178-dd46-41a6-9842-5c99e86bc025",
+            "39c41a4e-25cb-418e-8454-944a573fa366"
+          ],
+          "copied_from": "782c2ae1-eda3-4b7b-84a1-b805e6e8cd19",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778231,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996130087,
+          "parent_id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Extracting files from .7z archives in Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 6
+        }
+      },
+      "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6dbbcae2-0432-4658-be89-59f792f4f428",
+            "9e73ae8c-09da-468c-8082-2982f7031397",
+            "e45b5b3c-9faa-4254-8d20-1a6c1be74fa5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778235,
+          "id": "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "install "
+              ],
+              [
+                "7z",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " binary:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "63c85c37-d187-4663-8118-9add6ee4b22e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778235,
+          "id": "63c85c37-d187-4663-8118-9add6ee4b22e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "install the library: "
+              ],
+              [
+                "go get -u github.com/kjk/lzmadec",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "652f7178-dd46-41a6-9842-5c99e86bc025": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778237,
+          "id": "652f7178-dd46-41a6-9842-5c99e86bc025",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816898523,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you’re a Go programmer, you can use it as an example of using "
+              ],
+              [
+                "os.Cmd",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " to capture stdout of a program for progressive reading. "
+              ],
+              [
+                "7z",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " has "
+              ],
+              [
+                "-so",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " options which tells it to send decompressed data to stdout. This is how to capture that as an "
+              ],
+              [
+                "io.Reader",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "6dbbcae2-0432-4658-be89-59f792f4f428": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778235,
+          "id": "6dbbcae2-0432-4658-be89-59f792f4f428",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "on mac: "
+              ],
+              [
+                "brew install p7zip",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "7192397a-02a7-48f4-96c4-6be7043b8f93": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778232,
+          "id": "7192397a-02a7-48f4-96c4-6be7043b8f93",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 16"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "7bdfa3d0-8e31-42de-b815-fdbc85b3b53e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "7bdfa3d0-8e31-42de-b815-fdbc85b3b53e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here’s a skeleton of the code, error handling skipped for clarity:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "8be179b5-3afb-404d-b88e-ac6d2a9804a1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778233,
+          "id": "8be179b5-3afb-404d-b88e-ac6d2a9804a1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Unfortunately at this time there is no pure Go implementation for that."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "942a3ffa-8f50-4f14-b07d-bc2a231df383": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778234,
+          "id": "942a3ffa-8f50-4f14-b07d-bc2a231df383",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "An easy way to achieve this is to sub-launch "
+              ],
+              [
+                "7z",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " executable to extract the file to disk and then proceed as usual."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "9e73ae8c-09da-468c-8082-2982f7031397": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778235,
+          "id": "9e73ae8c-09da-468c-8082-2982f7031397",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "on ubuntu: "
+              ],
+              [
+                "apt-get install p7zip",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "abccc002-29cd-4d74-b2db-d0012feffe8e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778232,
+          "id": "abccc002-29cd-4d74-b2db-d0012feffe8e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2015-06-03T17:45:57-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "b2b60238-e150-49ab-9bdf-475791aa991e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778234,
+          "id": "b2b60238-e150-49ab-9bdf-475791aa991e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’ve packaged this as "
+              ],
+              [
+                "lzmadec",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/lzmadec"
+                  ]
+                ]
+              ],
+              [
+                " library and this article describes how to use it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "e45b5b3c-9faa-4254-8d20-1a6c1be74fa5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778235,
+          "id": "e45b5b3c-9faa-4254-8d20-1a6c1be74fa5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816909858,
+          "parent_id": "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "on windows: "
+              ],
+              [
+                "http://www.7-zip.org/",
+                [
+                  [
+                    "a",
+                    "http://www.7-zip.org/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "e8529e03-2367-4282-b872-a0223b780ea6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "e8529e03-2367-4282-b872-a0223b780ea6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "and as a convenience a function to extract a file to disk"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "ee2171a6-ab94-455f-9e7c-d88e86440dc3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778236,
+          "id": "ee2171a6-ab94-455f-9e7c-d88e86440dc3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736778249,
+          "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "get a list of all files and their metadata inside .7z archive"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371acb4ca67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:39 GMT"
+  ],
+  "Etag": [
+    "W/\"4fa7-a79+6j9ZQwoAVQKmGmcUM6405I4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d949505763244943bde070ed25550e2b31565326179; expires=Sat, 08-Aug-20 04:49:39 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

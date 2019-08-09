@@ -1,0 +1,1752 @@
+2213 1565326135269 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+      "table": "block"
+    }
+  ]
+}
+Response:+1064
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+          "97b14779-764a-48ea-bdb2-cbe286951501",
+          "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+          "1e84213a-b725-4b19-9999-f0403b149d84",
+          "6fb7aad4-876a-46d5-9b29-233c0a6f4320",
+          "d4e5355a-83e4-41cf-b78c-bcb45d3ee8ec"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501802798124,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520966080593,
+        "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "clang"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 2
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719b2af5e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:54 GMT"
+  ],
+  "Etag": [
+    "W/\"2c8-5SDrsky+mKvlsFnPh3WKyn76nNo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d42256c25d816577adbca5c17c6dbe7a61565326134; expires=Sat, 08-Aug-20 04:48:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+14764 1565326135271 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+  "verticalColumns": false
+}
+Response:+13573
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1e84213a-b725-4b19-9999-f0403b149d84": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "bcfc52fd-880c-4ce1-96bc-254aa87abc55",
+            "62da9faf-1684-404d-bc01-8709e4f46a76",
+            "84066e3b-cabb-4cdb-ba30-dfa41fbf1d39",
+            "8947b074-06ed-43f2-88ec-b0dd049a1c59",
+            "1e0d58b0-8350-46fd-9630-4c6fd8444605",
+            "4fff2749-e6cf-45e8-b045-4a769ef2eacb",
+            "f9d60eb1-3506-46e7-b0ea-81a789577772",
+            "b93d6c38-e5e3-4e24-ac6c-4f3230cf7053",
+            "936e1687-dd31-4c7b-aca9-28913808c14b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1501802807561,
+          "id": "1e84213a-b725-4b19-9999-f0403b149d84",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1501802807561,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "4730a509-4fc9-4282-a7b4-a87bccd20c1e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "566d32cc-c5c3-4d16-81af-1ea8dc9d3021",
+            "e8f00f23-18c1-45c6-9bfb-752bdbf0399d",
+            "b20bdf15-036b-4535-8d71-f63e9c1f2d17"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1509228300684,
+          "id": "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1509228300684,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "cmd-line options"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "66c160f5-e60e-4aa2-8683-c9dce71188bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9733706b-8f79-42bd-9f80-c02690d40285",
+            "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+            "ffc69e47-0694-46f6-8f81-227e30e04d33",
+            "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+            "ee81607f-5650-4a86-acd6-b16b82fb1982",
+            "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+            "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
+            "46231b41-455b-457b-8305-d189add1004b",
+            "24f3e1d0-9d10-48b6-9e66-b47de19abac4",
+            "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+            "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
+            "f676ae9b-cd87-48cb-a757-821ea1f0a264",
+            "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+            "840474db-f4cb-4f62-9792-d854e9108155",
+            "7b012643-f530-458c-9ff2-d36203f7aeae",
+            "c7a9a476-031a-4c7c-9fc5-59bcc9f84433",
+            "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+            "c45ea742-c768-4df4-90ff-81e015598690",
+            "53b6fc6e-1f19-4550-885e-3a0717e706cc",
+            "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+            "5be79f93-59c2-454e-8181-e841e607c33e",
+            "854d9940-a0f1-4b54-981f-6d25d2c064c5",
+            "1912e300-19b2-480f-acc4-47baae12b454",
+            "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+            "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
+            "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+            "d94e10ca-0a08-419e-8b02-79c832275207",
+            "db5ebfcd-5966-401f-8ba5-bd2f7c088730",
+            "afb51309-3534-4530-93b1-f4a56d95c294",
+            "d596823b-59e2-41b0-ac3c-983228bf492d",
+            "56216027-c0e3-43b2-985d-35648b9c0891",
+            "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+            "a9969fdc-d396-4544-91f8-980bc5517d13"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553024280000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 217
+        }
+      },
+      "6fb7aad4-876a-46d5-9b29-233c0a6f4320": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "607fad02-afa2-4ee4-8db0-b48c9e0f56a0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368083298,
+          "id": "6fb7aad4-876a-46d5-9b29-233c0a6f4320",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512368083298,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "misc"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "97b14779-764a-48ea-bdb2-cbe286951501": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+            "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1509943274243,
+          "id": "97b14779-764a-48ea-bdb2-cbe286951501",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1509943274243,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sanitizers"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "c843f1e0-eea9-43ed-b394-009b7a9f1b56": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+            "97b14779-764a-48ea-bdb2-cbe286951501",
+            "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+            "1e84213a-b725-4b19-9999-f0403b149d84",
+            "6fb7aad4-876a-46d5-9b29-233c0a6f4320",
+            "d4e5355a-83e4-41cf-b78c-bcb45d3ee8ec"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1501802798124,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520966080593,
+          "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "clang"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 2
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "d4e5355a-83e4-41cf-b78c-bcb45d3ee8ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7c246a2c-337d-4fe6-9b62-9623d82ac6b9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520966080593,
+          "id": "d4e5355a-83e4-41cf-b78c-bcb45d3ee8ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520966091073,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "clang-cl for windows"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 65
+        }
+      },
+      "e87d8255-ed5f-4aa1-920b-22f40ae0c382": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6e23df40-0a4e-47e1-9336-7b636ee61410",
+            "08b8d321-a609-4ca8-a105-6df9330d65a3",
+            "8c6549cd-d578-403e-a208-afe6bacb76d4"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511325970363,
+          "id": "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511325970363,
+          "parent_id": "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "on mac"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719b33f897fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:54 GMT"
+  ],
+  "Etag": [
+    "W/\"2307-/sdBLmI/cj2dD3fhOOrRelQOP2U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d42256c25d816577adbca5c17c6dbe7a61565326134; expires=Sat, 08-Aug-20 04:48:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+22204 1565326135274 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1694
+{
+  "requests": [
+    {
+      "id": "566d32cc-c5c3-4d16-81af-1ea8dc9d3021",
+      "table": "block"
+    },
+    {
+      "id": "e8f00f23-18c1-45c6-9bfb-752bdbf0399d",
+      "table": "block"
+    },
+    {
+      "id": "b20bdf15-036b-4535-8d71-f63e9c1f2d17",
+      "table": "block"
+    },
+    {
+      "id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+      "table": "block"
+    },
+    {
+      "id": "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e",
+      "table": "block"
+    },
+    {
+      "id": "6e23df40-0a4e-47e1-9336-7b636ee61410",
+      "table": "block"
+    },
+    {
+      "id": "08b8d321-a609-4ca8-a105-6df9330d65a3",
+      "table": "block"
+    },
+    {
+      "id": "8c6549cd-d578-403e-a208-afe6bacb76d4",
+      "table": "block"
+    },
+    {
+      "id": "bcfc52fd-880c-4ce1-96bc-254aa87abc55",
+      "table": "block"
+    },
+    {
+      "id": "62da9faf-1684-404d-bc01-8709e4f46a76",
+      "table": "block"
+    },
+    {
+      "id": "84066e3b-cabb-4cdb-ba30-dfa41fbf1d39",
+      "table": "block"
+    },
+    {
+      "id": "8947b074-06ed-43f2-88ec-b0dd049a1c59",
+      "table": "block"
+    },
+    {
+      "id": "1e0d58b0-8350-46fd-9630-4c6fd8444605",
+      "table": "block"
+    },
+    {
+      "id": "4fff2749-e6cf-45e8-b045-4a769ef2eacb",
+      "table": "block"
+    },
+    {
+      "id": "f9d60eb1-3506-46e7-b0ea-81a789577772",
+      "table": "block"
+    },
+    {
+      "id": "b93d6c38-e5e3-4e24-ac6c-4f3230cf7053",
+      "table": "block"
+    },
+    {
+      "id": "936e1687-dd31-4c7b-aca9-28913808c14b",
+      "table": "block"
+    },
+    {
+      "id": "607fad02-afa2-4ee4-8db0-b48c9e0f56a0",
+      "table": "block"
+    },
+    {
+      "id": "7c246a2c-337d-4fe6-9b62-9623d82ac6b9",
+      "table": "block"
+    }
+  ]
+}
+Response:+19468
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509229969353,
+        "id": "566d32cc-c5c3-4d16-81af-1ea8dc9d3021",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509229969353,
+        "parent_id": "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Reference: "
+            ],
+            [
+              "https://clang.llvm.org/docs/ClangCommandLineReference.html",
+              [
+                [
+                  "a",
+                  "https://clang.llvm.org/docs/ClangCommandLineReference.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509228310017,
+        "id": "e8f00f23-18c1-45c6-9bfb-752bdbf0399d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509228310017,
+        "parent_id": "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "-std=",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : "
+            ],
+            [
+              "c++98",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              " c++11",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "c++14",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  , "
+            ],
+            [
+              "c++1z",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509229603283,
+        "id": "b20bdf15-036b-4535-8d71-f63e9c1f2d17",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509229603283,
+        "parent_id": "4730a509-4fc9-4282-a7b4-a87bccd20c1e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "-stdlib=",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : "
+            ],
+            [
+              "libc++",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " (preferable on Mac OS X), "
+            ],
+            [
+              "libstdc++",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  (preferable on Linux). "
+            ],
+            [
+              "https://stackoverflow.com/questions/14972425/should-i-use-libc-or-libstdc",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/14972425/should-i-use-libc-or-libstdc"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "07d02c8e-52e8-485d-8d18-3d4845320be0",
+          "5e5905ea-4635-4e13-829d-d2439f815bb0",
+          "c864d415-6ff8-497d-96b5-4110587382bf",
+          "5bf6a265-b2ae-4655-9faf-11676788116c",
+          "c66bd230-210f-47b1-ac55-55fdc7a21367"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943285904,
+        "id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943285904,
+        "parent_id": "97b14779-764a-48ea-bdb2-cbe286951501",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "address sanitizer (memory corruptions), 2x slowdown"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "1e614258-1875-4d72-a519-cc9f56d27170",
+          "518d6f5e-66ea-4095-8e52-fbbd70be9d4e",
+          "fb74a562-b58d-4a13-8aa3-90b6f16d95c6"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943488803,
+        "id": "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943488803,
+        "parent_id": "97b14779-764a-48ea-bdb2-cbe286951501",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "memory sanitizer (uninitialized reads), 3x slowdown"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511325976883,
+        "id": "6e23df40-0a4e-47e1-9336-7b636ee61410",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511325976883,
+        "parent_id": "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "brew install llvm",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  installs latest version (currently 5.0)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511326011855,
+        "id": "08b8d321-a609-4ca8-a105-6df9330d65a3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511326011855,
+        "parent_id": "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "To not conflict with XCode, binaries are in "
+            ],
+            [
+              "/usr/local/Cellar/llvm/5.0.0/bin/",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "` e..g. "
+            ],
+            [
+              "/usr/local/Cellar/llvm/5.0.0/bin/clang",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511326047638,
+        "id": "8c6549cd-d578-403e-a208-afe6bacb76d4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511326047638,
+        "parent_id": "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501802811525,
+        "id": "bcfc52fd-880c-4ce1-96bc-254aa87abc55",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501802811525,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://arvid.io/2017/08/04/using-clang-on-windows/",
+              [
+                [
+                  "a",
+                  "https://arvid.io/2017/08/04/using-clang-on-windows/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508384888480,
+        "id": "62da9faf-1684-404d-bc01-8709e4f46a76",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508384888480,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://metricpanda.com/rival-fortress-update-27-compiling-with-clang-on-windows",
+              [
+                [
+                  "a",
+                  "https://metricpanda.com/rival-fortress-update-27-compiling-with-clang-on-windows"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508386562347,
+        "id": "84066e3b-cabb-4cdb-ba30-dfa41fbf1d39",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508386562347,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508386617878,
+        "id": "8947b074-06ed-43f2-88ec-b0dd049a1c59",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508386617878,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.youtube.com/watch?v=TLh—v8OxHE",
+              [
+                [
+                  "a",
+                  "https://www.youtube.com/watch?v=TLh—v8OxHE"
+                ]
+              ]
+            ],
+            [
+              " : gcc \u0026 clang \u0026 VSCode"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508386756422,
+        "id": "1e0d58b0-8350-46fd-9630-4c6fd8444605",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508386756422,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://blog.johannesmp.com/2015/09/01/installing-clang-on-windows-pt2/",
+              [
+                [
+                  "a",
+                  "http://blog.johannesmp.com/2015/09/01/installing-clang-on-windows-pt2/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508386903448,
+        "id": "4fff2749-e6cf-45e8-b045-4a769ef2eacb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508386903448,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://bitsmaker.gitlab.io/post/clang-tidy-from-vs2015/",
+              [
+                [
+                  "a",
+                  "https://bitsmaker.gitlab.io/post/clang-tidy-from-vs2015/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508387002064,
+        "id": "f9d60eb1-3506-46e7-b0ea-81a789577772",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508387002064,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508387003985,
+        "id": "b93d6c38-e5e3-4e24-ac6c-4f3230cf7053",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508387003985,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508386615687,
+        "id": "936e1687-dd31-4c7b-aca9-28913808c14b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508386615687,
+        "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368090618,
+        "id": "607fad02-afa2-4ee4-8db0-b48c9e0f56a0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368090618,
+        "parent_id": "6fb7aad4-876a-46d5-9b29-233c0a6f4320",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "http://stackoverflow.com/questions/28203937/installing-llvm-libraries-along-with-xcode\nhttp://llvm.org/releases/3.8.0/tools/clang/docs/\nhttps://github.com/tpoechtrager/wclang - allows cross-compiling Windows code on Linux using clang wrapper\nhttp://eli.thegreenplace.net/2014/05/01/modern-source-to-source-transformation-with-clang-and-libtooling/\nhttp://eli.thegreenplace.net/2011/07/03/parsing-c-in-python-with-clang/\nhttp://www.seethroughskin.com/blog/clang-ast-parsing-for-automated-code-generation/\nhttp://www.seethroughskin.com/blog/simplified-clang-python-bindings/\nhttp://seanhn.wordpress.com/2012/07/10/better-interpreter-fuzzing-with-clang/\nhttp://eli.thegreenplace.net/2014/07/29/ast-matchers-and-clang-refactoring-tools\n\nhttps://github.com/jeaye/color_coded\nhttps://github.com/Neopallium/lua-clang-cindex - luajit bindings\nhttps://github.com/llvm-mirror/clang/tree/master/bindings/python\nhttps://github.com/indygreg/clanalyze/\nhttps://github.com/sbinet/go-clang\n\nhttps://github.com/mjsabby/ClangSharp, http://www.clangsharp.org/\nhttps://github.com/SimonRichards/clang-sharp, https://github.com/SimonRichards/ClassMirror\n\nhttp://blog.quarkslab.com/clang-hardening-cheat-sheet.html\n\nASAN:\nhttps://gist.github.com/kwk/4171e37f4bcdf7705329\nhttp://btorpey.github.io/blog/2014/03/27/using-clangs-address-sanitizer/\n\n\nhttps://alastairs-place.net/blog/2016/05/20/code-coverage-from-the-command-line-with-clang/\n\nOn mac:\n\nbrew install llvm --with-clang --with-clang-extra-tool --with-compiler-rt --with-libcxx --with-lld --with-lld --with-python --with-rtti --with-utils --HEAD\n\n\n/usr/local/opt/llvm/bin/clang\n\nmkdir -p ~/Library/Python/2.7/lib/python/site-packages\necho '/usr/local/opt/llvm/lib/python2.7/site-packages' \u003e ~/Library/Python/2.7/lib/python/site-packages/homebrew.pth\n\nLD_LIBRARY_PATH=/usr/local/opt/llvm/lib ~/src/pyclang/cindex-dump.py draw_flood.c\n\nIn each *.py tool:\n    from clang.cindex import Config\n    Config.set_library_path(LLVM_LIB_DIR)\n\n-std=c++11\n-std=gnu++11\n-Weverything\n-Wall\n\n-stdlib=libc++  : use clang's C++ library (as opposed to OS's libstdc++)"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520966091073,
+        "id": "7c246a2c-337d-4fe6-9b62-9623d82ac6b9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520966093591,
+        "parent_id": "d4e5355a-83e4-41cf-b78c-bcb45d3ee8ec",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_Firefox_on_Windows_with_clang-cl",
+              [
+                [
+                  "a",
+                  "https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_Firefox_on_Windows_with_clang-cl"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719b39fa47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:54 GMT"
+  ],
+  "Etag": [
+    "W/\"305c-MrJGr21o7dtRl4Rg62LVCADFHmA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d42256c25d816577adbca5c17c6dbe7a61565326134; expires=Sat, 08-Aug-20 04:48:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+8383 1565326135275 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+726
+{
+  "requests": [
+    {
+      "id": "07d02c8e-52e8-485d-8d18-3d4845320be0",
+      "table": "block"
+    },
+    {
+      "id": "5e5905ea-4635-4e13-829d-d2439f815bb0",
+      "table": "block"
+    },
+    {
+      "id": "c864d415-6ff8-497d-96b5-4110587382bf",
+      "table": "block"
+    },
+    {
+      "id": "5bf6a265-b2ae-4655-9faf-11676788116c",
+      "table": "block"
+    },
+    {
+      "id": "c66bd230-210f-47b1-ac55-55fdc7a21367",
+      "table": "block"
+    },
+    {
+      "id": "1e614258-1875-4d72-a519-cc9f56d27170",
+      "table": "block"
+    },
+    {
+      "id": "518d6f5e-66ea-4095-8e52-fbbd70be9d4e",
+      "table": "block"
+    },
+    {
+      "id": "fb74a562-b58d-4a13-8aa3-90b6f16d95c6",
+      "table": "block"
+    }
+  ]
+}
+Response:+6618
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943278993,
+        "id": "07d02c8e-52e8-485d-8d18-3d4845320be0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943278993,
+        "parent_id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://clang.llvm.org/docs/AddressSanitizer.html",
+              [
+                [
+                  "a",
+                  "https://clang.llvm.org/docs/AddressSanitizer.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943296703,
+        "id": "5e5905ea-4635-4e13-829d-d2439f815bb0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943296703,
+        "parent_id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Compile with: "
+            ],
+            [
+              "-O1 -g -fsanitize=address -fno-omit-frame-pointer",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943410562,
+        "id": "c864d415-6ff8-497d-96b5-4110587382bf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943410562,
+        "parent_id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Add "
+            ],
+            [
+              "-fno-optimize-sibling-calls",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  for better callstacks"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943326218,
+        "id": "5bf6a265-b2ae-4655-9faf-11676788116c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943326218,
+        "parent_id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Link with: "
+            ],
+            [
+              "-g -fsanitize=address",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "921e518d-b230-4330-80e3-467b53bfcabc",
+          "fc8fbaee-528b-457a-b52b-fe87f05db4cc"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509944340777,
+        "id": "c66bd230-210f-47b1-ac55-55fdc7a21367",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509944340777,
+        "parent_id": "ccea5e4d-fe43-4557-ab9b-01b17561200f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "testing sanitizer is enabled"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943561930,
+        "id": "1e614258-1875-4d72-a519-cc9f56d27170",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943561930,
+        "parent_id": "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://clang.llvm.org/docs/MemorySanitizer.html",
+              [
+                [
+                  "a",
+                  "https://clang.llvm.org/docs/MemorySanitizer.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943522021,
+        "id": "518d6f5e-66ea-4095-8e52-fbbd70be9d4e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943522021,
+        "parent_id": "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Compile with "
+            ],
+            [
+              "-fsanitize=memory -fno-omit-frame-pointer -g -O2",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509943527938,
+        "id": "fb74a562-b58d-4a13-8aa3-90b6f16d95c6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509943527938,
+        "parent_id": "a2276f2d-e7b6-41f6-89dc-9bd7fc1ee07e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Link with "
+            ],
+            [
+              "-fsanitize=memory -g",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719b41fe27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:54 GMT"
+  ],
+  "Etag": [
+    "W/\"ee4-6c36ZzxCQ9mI6VMMRauhgZ+qu4s\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d42256c25d816577adbca5c17c6dbe7a61565326134; expires=Sat, 08-Aug-20 04:48:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+2885 1565326135275 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+198
+{
+  "requests": [
+    {
+      "id": "921e518d-b230-4330-80e3-467b53bfcabc",
+      "table": "block"
+    },
+    {
+      "id": "fc8fbaee-528b-457a-b52b-fe87f05db4cc",
+      "table": "block"
+    }
+  ]
+}
+Response:+1648
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509944357770,
+        "id": "921e518d-b230-4330-80e3-467b53bfcabc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509944357770,
+        "parent_id": "c66bd230-210f-47b1-ac55-55fdc7a21367",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It's good to verify that sanitizer is enabled and working. Add this snippet of code and call it from your code. It should trigger sanitizer"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509944404781,
+        "id": "fc8fbaee-528b-457a-b52b-fe87f05db4cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509944404781,
+        "parent_id": "c66bd230-210f-47b1-ac55-55fdc7a21367",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Java/C/C++/C#"
+            ]
+          ],
+          "title": [
+            [
+              "void trigger_address_sanitizer() {\n  char *a = (char*)malloc(4);\n  char c = a[5]; /* this line should trigger sanitizer */\n  printf(\"c: %d\\n\", (int)c);\n  free((void*)a);\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719b4981e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:54 GMT"
+  ],
+  "Etag": [
+    "W/\"478-zLvV7PbWTNxcv2FVBhUKhcc3vwU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d42256c25d816577adbca5c17c6dbe7a61565326134; expires=Sat, 08-Aug-20 04:48:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

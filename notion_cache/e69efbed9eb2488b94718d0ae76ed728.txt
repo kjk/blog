@@ -1,0 +1,1785 @@
+2412 1565326105519 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+      "table": "block"
+    }
+  ]
+}
+Response:+1263
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "8c2fca3e-16aa-4221-9124-2c3bee907133",
+          "50b80b35-fd43-40de-9023-f0d6f324f540",
+          "787003c8-d17d-4122-8104-c30c7ed21601",
+          "8c63609c-679f-4a5a-929e-731d891c172f",
+          "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
+          "b581742e-9f43-4912-9ada-9bdb27328398",
+          "383485cc-2a56-49e4-8141-4f236cf51a68",
+          "89eef919-7135-4045-b6b3-2b0519388748",
+          "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+          "3af433aa-634b-417c-9242-3446f488f442"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496213351894,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552553340000,
+        "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "css"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 19
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718f8b9727fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:24 GMT"
+  ],
+  "Etag": [
+    "W/\"363-cXTkd7u13zSprx5dHF02kIzpkaQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=deea9004706ca25499c751e2931bbcfc01565326104; expires=Sat, 08-Aug-20 04:48:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+19802 1565326105523 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+  "verticalColumns": false
+}
+Response:+18611
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "383485cc-2a56-49e4-8141-4f236cf51a68": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ff977c91-ecdb-4b23-b930-f1846a6ced81",
+            "a9624f86-f337-40af-96c9-e431facd8cda"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1551164640000,
+          "id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1551164700000,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "tables"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 13
+        }
+      },
+      "3af433aa-634b-417c-9242-3446f488f442": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1498883053178,
+          "id": "3af433aa-634b-417c-9242-3446f488f442",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1498883053178,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "d2041e3f-9d1d-4fc6-8d12-422e630f4bb3",
+            "4d108857-fb1a-4b9b-9356-142240971e11",
+            "3042b36d-f723-491a-b9f9-25bbeb1060c5",
+            "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
+            "3882748a-9435-4b80-9420-801989b22df3",
+            "5a89bd2b-d956-4a3a-8de0-46bd23c8e579",
+            "6bfcc167-4317-4190-8df8-84b2d3150a8b",
+            "6f55e003-10ac-4d36-96eb-3900d2d1558d",
+            "6eb15d58-1256-40ea-a181-3beaf6bbb429",
+            "4ea5c448-16bc-42d6-883a-fb47bc48ddfd",
+            "d5c0b6fb-58c1-4c64-9808-2259f22a84e5",
+            "6f785169-526b-41d0-a606-0b577d710d24",
+            "3e68750a-6df5-4066-b75c-b145de0f65ef",
+            "3073960e-8c92-45c3-bdd4-b1e2d2124835"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496211517560,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532923379407,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css flexbox"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 60
+        }
+      },
+      "4da97980-9fb6-45cb-886a-51c656751d35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c708a15-fad2-4e38-bbd3-513320386063",
+            "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+            "6eb26b91-5c85-46e4-a0bc-f8f2a4c89701"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493148639391,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web programming, webdev"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "50b80b35-fd43-40de-9023-f0d6f324f540": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7f809809-8ca2-48ba-947a-df78788518fe",
+            "cbbee0a3-1896-4d6c-af4e-32efa73d8072",
+            "925642f4-0591-4f32-ac93-6abdae3d9ee7",
+            "d0f032ad-e3d4-4547-a3b6-00291d9a57a4",
+            "46dfeed4-8f3d-4404-aaa1-6972c7409974",
+            "768f322f-b766-4c8a-8859-f51b8d32aca4"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496213366299,
+          "id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496213366299,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css in js"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "787003c8-d17d-4122-8104-c30c7ed21601": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8127a827-4a85-4a2a-af25-3d3606b0e6a6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512296128755,
+          "id": "787003c8-d17d-4122-8104-c30c7ed21601",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512296128755,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "visibility"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "89eef919-7135-4045-b6b3-2b0519388748": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "891240b5-4512-4294-b9de-54203f40f983",
+            "9251c754-4286-440e-9d87-01d91492240e",
+            "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+            "66168900-29a4-4b49-98d6-a9af85807d8a",
+            "222676a7-9844-4d5d-a627-0cc98ff04bd4",
+            "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
+            "354e935f-c591-4c8b-8d4d-20d70e081818",
+            "77f72963-3316-4dce-8aeb-cb59958cac1d",
+            "ea906f83-89a8-45c8-8b36-644b2e2769f9",
+            "dc19b5e0-1eb4-4dc8-9116-4d53e83b4f50",
+            "f3f1e7b2-b346-4c5c-b7ea-fd8f7adb048f",
+            "012e7762-ee66-4eb0-8b51-6982f331d410",
+            "60b77322-f3ae-4129-95aa-155b873efcd4",
+            "cd2da4ca-ce83-4aaf-8d01-3fd370c66788",
+            "a2262455-e64d-4c36-b9ba-302a591427ad",
+            "b3745fe1-c4ae-4c7c-ae15-a0bb5cd97741",
+            "9c272765-aa8d-4452-956a-c502d884f60f",
+            "6a2af4b3-9ea5-414a-ac28-2444f321eb4f",
+            "87040025-3d72-43a2-894e-f0bfba852933",
+            "a9f5732a-1a98-4d7c-b9b8-d0e2021b8487",
+            "9d1d2c84-3049-4e71-a83e-ae69361748c1",
+            "b4187419-fef0-4500-bb40-bd05401f540d",
+            "64e5a3b2-fbd9-4c78-8e03-d519534ac5fd",
+            "5f3ff862-f2e3-4163-94ba-4003a1e59c87",
+            "70ae7f8a-c5ad-4811-8147-b7ea734d4220",
+            "70cfde46-1579-4038-b5c0-6297f6e62a94",
+            "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9",
+            "e3fc70d4-fc14-417c-a708-e8b51c4ffcf9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261938105,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1550085600000,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css grid layout"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 79
+        }
+      },
+      "8c2fca3e-16aa-4221-9124-2c3bee907133": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4df774cd-9301-42e3-9481-36ff3d7b2e6a",
+            "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
+            "66886b4b-d6a5-46ae-bef3-587474b1ea51",
+            "c03736be-4cde-40b3-ba4f-4f14e0535cd1",
+            "f659e9a8-53ca-4f17-8186-2084b1e19854",
+            "4b938ca1-dcba-4628-bd9e-a23401fd85ce",
+            "d07476a7-a3c0-4da2-b9ae-66a1d74cc1b3",
+            "41be8a39-3e0d-40d2-854d-e3b18fabcf6e",
+            "cd17edd8-adfa-4474-87d1-af2c360de1fb",
+            "0fc385e9-1a75-45b7-a8e3-185b02f140ff",
+            "f92d072a-eba9-4045-bddc-34ecd62bb0c5",
+            "1851cbdc-4283-4e8b-8e96-cfe49fad9ecf",
+            "67164d4d-fd34-46b4-b357-fbfbf42e6007"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496213356044,
+          "id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552553340000,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 20
+        }
+      },
+      "8c63609c-679f-4a5a-929e-731d891c172f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "217f2dd9-6dda-4c39-b462-49b3846177e0",
+            "05f57c06-6969-4e76-983e-e8c1b51ce5ed",
+            "c0938f6c-dff8-4271-80a6-bde73cf75df9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512434352974,
+          "id": "8c63609c-679f-4a5a-929e-731d891c172f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512434352974,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "modals"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "cdb311fb-9a98-46db-a66f-65f38863d247"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516317611239,
+          "id": "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516317622625,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sizing of elements in css"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 66
+        }
+      },
+      "b581742e-9f43-4912-9ada-9bdb27328398": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "731a7cd4-5a46-4ad5-9508-8a84839e890c",
+            "2b18abb4-0a83-4818-bfdf-7e8edeca56d2"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530044164504,
+          "id": "b581742e-9f43-4912-9ada-9bdb27328398",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530044418999,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "menus in css"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 42
+        }
+      },
+      "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+            "c47b7a17-6b4e-440c-a17d-a97af441c43a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513208401787,
+          "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "e69efbed-9eb2-488b-9471-8d0ae76ed728": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "50b80b35-fd43-40de-9023-f0d6f324f540",
+            "787003c8-d17d-4122-8104-c30c7ed21601",
+            "8c63609c-679f-4a5a-929e-731d891c172f",
+            "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
+            "b581742e-9f43-4912-9ada-9bdb27328398",
+            "383485cc-2a56-49e4-8141-4f236cf51a68",
+            "89eef919-7135-4045-b6b3-2b0519388748",
+            "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+            "3af433aa-634b-417c-9242-3446f488f442"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496213351894,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552553340000,
+          "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 19
+        }
+      },
+      "fa41cc44-c715-40f3-aafe-fdaff617ef7a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d3935805-7603-4673-95a6-565d6a27b702",
+            "d8f255ad-bbdd-4000-9956-8f8f22a385ce",
+            "0e53211b-84da-49c2-880f-fcea30915a3c",
+            "2f318861-97f0-40dc-945e-7984f3d9d79e",
+            "e5012c2e-2a98-4082-9243-4de9d482f3ea",
+            "90b32ed5-e082-4cfd-8add-b045b12cec93",
+            "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
+            "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+            "f5895d7f-c2fc-45e0-9ea1-bb4b11721af7",
+            "ca91dc08-8066-4240-a75b-ba010250e6e3",
+            "a2b0cda3-f76c-484b-a405-d80c412265d6",
+            "00d91491-80e8-429e-9579-436281717fa7",
+            "08758c1a-198b-4a85-8fd0-83a7e218d314",
+            "9a738391-5f77-4fe0-ae54-21a2e21d0fcd",
+            "4ff077ea-55d4-4db2-bea7-ad70751133f9",
+            "99074a86-31df-4401-b42c-90eed46c48b1",
+            "26c135f6-77cc-4486-bcae-68f7eb3190d5",
+            "09fcd255-8bc4-45aa-8dc4-80b402e08468",
+            "956e8e7b-ef54-4c23-9199-811c087ec1ae"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "parent_table": "block",
+          "type": "column",
+          "version": 144
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718f9ba217fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:24 GMT"
+  ],
+  "Etag": [
+    "W/\"3089-wY2u3OBZCAGUG5SP60EAFIziDwg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=deea9004706ca25499c751e2931bbcfc01565326104; expires=Sat, 08-Aug-20 04:48:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28332 1565326105526 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+2486
+{
+  "requests": [
+    {
+      "id": "4df774cd-9301-42e3-9481-36ff3d7b2e6a",
+      "table": "block"
+    },
+    {
+      "id": "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
+      "table": "block"
+    },
+    {
+      "id": "66886b4b-d6a5-46ae-bef3-587474b1ea51",
+      "table": "block"
+    },
+    {
+      "id": "c03736be-4cde-40b3-ba4f-4f14e0535cd1",
+      "table": "block"
+    },
+    {
+      "id": "f659e9a8-53ca-4f17-8186-2084b1e19854",
+      "table": "block"
+    },
+    {
+      "id": "4b938ca1-dcba-4628-bd9e-a23401fd85ce",
+      "table": "block"
+    },
+    {
+      "id": "d07476a7-a3c0-4da2-b9ae-66a1d74cc1b3",
+      "table": "block"
+    },
+    {
+      "id": "41be8a39-3e0d-40d2-854d-e3b18fabcf6e",
+      "table": "block"
+    },
+    {
+      "id": "cd17edd8-adfa-4474-87d1-af2c360de1fb",
+      "table": "block"
+    },
+    {
+      "id": "0fc385e9-1a75-45b7-a8e3-185b02f140ff",
+      "table": "block"
+    },
+    {
+      "id": "f92d072a-eba9-4045-bddc-34ecd62bb0c5",
+      "table": "block"
+    },
+    {
+      "id": "1851cbdc-4283-4e8b-8e96-cfe49fad9ecf",
+      "table": "block"
+    },
+    {
+      "id": "67164d4d-fd34-46b4-b357-fbfbf42e6007",
+      "table": "block"
+    },
+    {
+      "id": "7f809809-8ca2-48ba-947a-df78788518fe",
+      "table": "block"
+    },
+    {
+      "id": "cbbee0a3-1896-4d6c-af4e-32efa73d8072",
+      "table": "block"
+    },
+    {
+      "id": "925642f4-0591-4f32-ac93-6abdae3d9ee7",
+      "table": "block"
+    },
+    {
+      "id": "d0f032ad-e3d4-4547-a3b6-00291d9a57a4",
+      "table": "block"
+    },
+    {
+      "id": "46dfeed4-8f3d-4404-aaa1-6972c7409974",
+      "table": "block"
+    },
+    {
+      "id": "768f322f-b766-4c8a-8859-f51b8d32aca4",
+      "table": "block"
+    },
+    {
+      "id": "8127a827-4a85-4a2a-af25-3d3606b0e6a6",
+      "table": "block"
+    },
+    {
+      "id": "217f2dd9-6dda-4c39-b462-49b3846177e0",
+      "table": "block"
+    },
+    {
+      "id": "05f57c06-6969-4e76-983e-e8c1b51ce5ed",
+      "table": "block"
+    },
+    {
+      "id": "c0938f6c-dff8-4271-80a6-bde73cf75df9",
+      "table": "block"
+    },
+    {
+      "id": "cdb311fb-9a98-46db-a66f-65f38863d247",
+      "table": "block"
+    },
+    {
+      "id": "731a7cd4-5a46-4ad5-9508-8a84839e890c",
+      "table": "block"
+    },
+    {
+      "id": "2b18abb4-0a83-4818-bfdf-7e8edeca56d2",
+      "table": "block"
+    },
+    {
+      "id": "ff977c91-ecdb-4b23-b930-f1846a6ced81",
+      "table": "block"
+    },
+    {
+      "id": "a9624f86-f337-40af-96c9-e431facd8cda",
+      "table": "block"
+    }
+  ]
+}
+Response:+24804
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552553340000,
+        "id": "4df774cd-9301-42e3-9481-36ff3d7b2e6a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552553340000,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425",
+              [
+                [
+                  "a",
+                  "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425"
+                ]
+              ]
+            ],
+            [
+              " : how to create dark mode"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 35
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552427580000,
+        "id": "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552427580000,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e",
+              [
+                [
+                  "a",
+                  "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=19367149",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=19367149"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1548917760000,
+        "id": "66886b4b-d6a5-46ae-bef3-587474b1ea51",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1548917760000,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://adam-marsden.co.uk/css-cheat-sheet",
+              [
+                [
+                  "a",
+                  "https://adam-marsden.co.uk/css-cheat-sheet"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530406064826,
+        "id": "c03736be-4cde-40b3-ba4f-4f14e0535cd1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530406066825,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://alligator.io/css/media-queries/",
+              [
+                [
+                  "a",
+                  "https://alligator.io/css/media-queries/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530258216490,
+        "id": "f659e9a8-53ca-4f17-8186-2084b1e19854",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530258234080,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/n0ruSh/the-art-of-reading/issues/11",
+              [
+                [
+                  "a",
+                  "https://github.com/n0ruSh/the-art-of-reading/issues/11"
+                ]
+              ]
+            ],
+            [
+              " : positioning in css, Fixed with absolute"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 63
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517109446337,
+        "id": "4b938ca1-dcba-4628-bd9e-a23401fd85ce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517109448131,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://adadevacademy.tumblr.com/post/170121818942/debugging-css-performance-with-chromes-profiling",
+              [
+                [
+                  "a",
+                  "http://adadevacademy.tumblr.com/post/170121818942/debugging-css-performance-with-chromes-profiling"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499402144828,
+        "id": "d07476a7-a3c0-4da2-b9ae-66a1d74cc1b3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1499402144828,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://tympanus.net/codrops/css_reference/line-height/",
+              [
+                [
+                  "a",
+                  "https://tympanus.net/codrops/css_reference/line-height/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496213359736,
+        "id": "41be8a39-3e0d-40d2-854d-e3b18fabcf6e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496213359736,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://hackernoon.com/you-know-a-site-has-its-shit-together-when-8ee21040d0bc",
+              [
+                [
+                  "a",
+                  "https://hackernoon.com/you-know-a-site-has-its-shit-together-when-8ee21040d0bc"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509848701330,
+        "id": "cd17edd8-adfa-4474-87d1-af2c360de1fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509848701330,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://book.mixu.net/css/single-page.html",
+              [
+                [
+                  "a",
+                  "http://book.mixu.net/css/single-page.html"
+                ]
+              ]
+            ],
+            [
+              " : css layout"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509932514891,
+        "id": "0fc385e9-1a75-45b7-a8e3-185b02f140ff",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509932514891,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.freecodecamp.org/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346",
+              [
+                [
+                  "a",
+                  "https://medium.freecodecamp.org/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540403945470,
+        "id": "f92d072a-eba9-4045-bddc-34ecd62bb0c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540403945907,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://30-seconds.github.io/30-seconds-of-css/",
+              [
+                [
+                  "a",
+                  "https://30-seconds.github.io/30-seconds-of-css/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1550085600000,
+        "id": "1851cbdc-4283-4e8b-8e96-cfe49fad9ecf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550085600000,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46",
+              [
+                [
+                  "a",
+                  "https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540403943243,
+        "id": "67164d4d-fd34-46b4-b357-fbfbf42e6007",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540403943243,
+        "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498248132946,
+        "id": "7f809809-8ca2-48ba-947a-df78788518fe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498248132946,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/markerikson/react-redux-links",
+              [
+                [
+                  "a",
+                  "https://github.com/markerikson/react-redux-links"
+                ]
+              ]
+            ],
+            [
+              ", uses "
+            ],
+            [
+              "aphrodite",
+              [
+                [
+                  "a",
+                  "https://github.com/Khan/aphrodite"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498248144305,
+        "id": "cbbee0a3-1896-4d6c-af4e-32efa73d8072",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498248144305,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/MicheleBertoli/css-in-js",
+              [
+                [
+                  "a",
+                  "https://github.com/MicheleBertoli/css-in-js"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498248203427,
+        "id": "925642f4-0591-4f32-ac93-6abdae3d9ee7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498248203427,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.ludovf.net/blog/comparing-css-in-js-solutions/",
+              [
+                [
+                  "a",
+                  "https://www.ludovf.net/blog/comparing-css-in-js-solutions/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498248604351,
+        "id": "d0f032ad-e3d4-4547-a3b6-00291d9a57a4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498248604351,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55",
+              [
+                [
+                  "a",
+                  "https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498248610353,
+        "id": "46dfeed4-8f3d-4404-aaa1-6972c7409974",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498248610353,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/front-end-hacking/scalable-styles-in-production-js-cde88016f357",
+              [
+                [
+                  "a",
+                  "https://medium.com/front-end-hacking/scalable-styles-in-production-js-cde88016f357"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1498622930071,
+        "id": "768f322f-b766-4c8a-8859-f51b8d32aca4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1498622930071,
+        "parent_id": "50b80b35-fd43-40de-9023-f0d6f324f540",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://styletron.js.org/",
+              [
+                [
+                  "a",
+                  "http://styletron.js.org/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512296143715,
+        "id": "8127a827-4a85-4a2a-af25-3d3606b0e6a6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512296143715,
+        "parent_id": "787003c8-d17d-4122-8104-c30c7ed21601",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "visibility:\n  visible\n  hidden   : doesn't show the content but it does takes up space\n  collapse : DON'T USE, if used on tr, tbody, col, colgroup, it acts as display:none. Otherwise, like visibility:hidden. But browsers implement it differently.\n  inherit\n\ndisplay:\n  inline\n  inline-block\n  block\n  none : doesn't show and doesn't take up space"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434381375,
+        "id": "217f2dd9-6dda-4c39-b462-49b3846177e0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530091982493,
+        "parent_id": "8c63609c-679f-4a5a-929e-731d891c172f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://codepen.io/maccadb7/pen/nbHEg",
+              [
+                [
+                  "a",
+                  "http://codepen.io/maccadb7/pen/nbHEg"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434390823,
+        "id": "05f57c06-6969-4e76-983e-e8c1b51ce5ed",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530091984130,
+        "parent_id": "8c63609c-679f-4a5a-929e-731d891c172f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://jsfiddle.net/kumarmuthaliar/GG9Sa/1/",
+              [
+                [
+                  "a",
+                  "http://jsfiddle.net/kumarmuthaliar/GG9Sa/1/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512434393007,
+        "id": "c0938f6c-dff8-4271-80a6-bde73cf75df9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530091986067,
+        "parent_id": "8c63609c-679f-4a5a-929e-731d891c172f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://getbootstrap.com/javascript/#modals",
+              [
+                [
+                  "a",
+                  "http://getbootstrap.com/javascript/#modals"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516317622625,
+        "id": "cdb311fb-9a98-46db-a66f-65f38863d247",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516317623362,
+        "parent_id": "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.smashingmagazine.com/2018/01/understanding-sizing-css-layout/?utm_source=frontendfocus\u0026utm_medium=email",
+              [
+                [
+                  "a",
+                  "https://www.smashingmagazine.com/2018/01/understanding-sizing-css-layout/?utm_source=frontendfocus\u0026utm_medium=email"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "20b0244e-5675-4bb0-9e36-0c73638afa1f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530044180245,
+        "id": "731a7cd4-5a46-4ad5-9508-8a84839e890c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530044416136,
+        "parent_id": "b581742e-9f43-4912-9ada-9bdb27328398",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/dosyago-coder-0/mimic-bloomberg-menu-no-js",
+              [
+                [
+                  "a",
+                  "https://github.com/dosyago-coder-0/mimic-bloomberg-menu-no-js"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=17400164",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=17400164"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://jsfiddle.net/kkowalczyk/m4u3qvg5/1/",
+              [
+                [
+                  "a",
+                  "https://jsfiddle.net/kkowalczyk/m4u3qvg5/1/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 127
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "acf60dc1-52ed-44b7-a06d-f306868dce50"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530044415765,
+        "id": "2b18abb4-0a83-4818-bfdf-7e8edeca56d2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530044418999,
+        "parent_id": "b581742e-9f43-4912-9ada-9bdb27328398",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown",
+              [
+                [
+                  "a",
+                  "http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1551164700000,
+        "id": "ff977c91-ecdb-4b23-b930-f1846a6ced81",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1551164700000,
+        "parent_id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/",
+              [
+                [
+                  "a",
+                  "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1551164700000,
+        "id": "a9624f86-f337-40af-96c9-e431facd8cda",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1551164700000,
+        "parent_id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+        "parent_table": "block",
+        "type": "bulleted_list",
+        "version": 4
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718fa2a6c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:24 GMT"
+  ],
+  "Etag": [
+    "W/\"3c4b-O4SXq75iP15Gd+g5xshYFpi5ikg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=deea9004706ca25499c751e2931bbcfc01565326104; expires=Sat, 08-Aug-20 04:48:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+2589 1565326105526 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+198
+{
+  "requests": [
+    {
+      "id": "20b0244e-5675-4bb0-9e36-0c73638afa1f",
+      "table": "block"
+    },
+    {
+      "id": "acf60dc1-52ed-44b7-a06d-f306868dce50",
+      "table": "block"
+    }
+  ]
+}
+Response:+1352
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530044200411,
+        "id": "20b0244e-5675-4bb0-9e36-0c73638afa1f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530044240671,
+        "parent_id": "731a7cd4-5a46-4ad5-9508-8a84839e890c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Replicating bloomberg drop-down menu without JS. This is a mega-menue"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 73
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530044418627,
+        "id": "acf60dc1-52ed-44b7-a06d-f306868dce50",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530044424792,
+        "parent_id": "2b18abb4-0a83-4818-bfdf-7e8edeca56d2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "replicating Amazon mega menu"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 65
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718faaab87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:24 GMT"
+  ],
+  "Etag": [
+    "W/\"390-RmNG2xIm4kkZNZ0d/io5a1UrCuw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=deea9004706ca25499c751e2931bbcfc01565326104; expires=Sat, 08-Aug-20 04:48:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

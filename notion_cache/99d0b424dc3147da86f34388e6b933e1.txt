@@ -1,0 +1,970 @@
+3114 1565326198012 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+      "table": "block"
+    }
+  ]
+}
+Response:+1965
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "58d44f20-41a7-4572-80d7-7d27ce399b82",
+          "424a3898-a6a6-433e-ac75-0c09d1f135d4",
+          "02745d62-28c4-41b4-8d74-6eaa331085a7",
+          "64c13790-0bed-4f75-8c94-a3a400e056df",
+          "70534475-42ab-4092-8b0a-f56a89f24fb9",
+          "c18c29fd-2cde-4265-a278-6cd3d39d9825",
+          "99eee519-9928-46af-b6e6-0f25d5aaaa35",
+          "8106c7e8-c4ce-4042-963b-00ec8301b66f",
+          "fbb22dcd-3e63-4874-86d2-7c1fa4172a44",
+          "5b29551c-e877-4083-ad27-7f0c8d24c6c0",
+          "5b07ec03-eac7-4745-bc6f-c3ba47b577ed",
+          "1d369150-25cd-4f6f-8b56-039b976d69b9",
+          "372586a7-bcc2-4486-894d-ac4793aaff4c",
+          "b543e9e9-4b43-4988-aad6-b96f6663e180",
+          "c7cc778a-b6c9-4572-9fa8-ab9e6d8309ca",
+          "451bec90-54f1-4225-ba4c-e3910ffa9376",
+          "10bee6c6-43bd-4e7b-a294-7499059542eb",
+          "c2a030fa-3ec4-4668-a712-de6fafeac13d",
+          "68a9ecd1-23f1-4c99-92d9-574d2b308ae4",
+          "eb298b74-7557-452e-981b-755d40969de7",
+          "53f08e90-2433-47c4-827f-49d7eb58cd52",
+          "7aa6a51c-1d27-48f6-bf91-5e5d7f7c61e9"
+        ],
+        "copied_from": "7d4b97ab-084e-4ff5-914e-5e9569456db4",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736997285,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996226297,
+        "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Experience porting 4k lines of C code to go"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b3c6c637fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"593-IIFgpljm9w/14vYXRC7GRvHc714\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+30058 1565326198013 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+  "verticalColumns": false
+}
+Response:+28867
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "02745d62-28c4-41b4-8d74-6eaa331085a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997286,
+          "id": "02745d62-28c4-41b4-8d74-6eaa331085a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997286,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2011-06-01T23:40:38-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "10bee6c6-43bd-4e7b-a294-7499059542eb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "10bee6c6-43bd-4e7b-a294-7499059542eb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The core parsing/html generating logic didn’t shrink much. The big savings came from the fact that Go has a built-in growable array type and upskirt C code had to spend 924 lines re-implementing that in C."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1d369150-25cd-4f6f-8b56-039b976d69b9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "1d369150-25cd-4f6f-8b56-039b976d69b9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "while keyword is missing, replaced by a more versatile for syntax"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "372586a7-bcc2-4486-894d-ac4793aaff4c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "372586a7-bcc2-4486-894d-ac4793aaff4c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "function declaration syntax is different"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "424a3898-a6a6-433e-ac75-0c09d1f135d4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997286,
+          "id": "424a3898-a6a6-433e-ac75-0c09d1f135d4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997286,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: go, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "451bec90-54f1-4225-ba4c-e3910ffa9376": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "451bec90-54f1-4225-ba4c-e3910ffa9376",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Saving ~800 lines of code (20%) is good, but the interesting part is: where do the savings come from?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "53f08e90-2433-47c4-827f-49d7eb58cd52": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "53f08e90-2433-47c4-827f-49d7eb58cd52",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "All things considered, Go is quickly becoming my new preferred language (taking the crown away from Python). It combines the good attributes of Python (lightweight syntax, garbage collection) with good attributes of C (fast execution thanks to compilation to native code and programmer’s control over memory layout) and adds some unique capabilities of its own (concurrency via gorutines and channels)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "58d44f20-41a7-4572-80d7-7d27ce399b82": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997285,
+          "id": "58d44f20-41a7-4572-80d7-7d27ce399b82",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997285,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 486053 "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5b07ec03-eac7-4745-bc6f-c3ba47b577ed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "5b07ec03-eac7-4745-bc6f-c3ba47b577ed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "syntax for declaring variables is different (and better)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "5b29551c-e877-4083-ad27-7f0c8d24c6c0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "5b29551c-e877-4083-ad27-7f0c8d24c6c0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Go’s syntax is heavily inspired by C. The differences that I’ve encountered most frequently:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "64c13790-0bed-4f75-8c94-a3a400e056df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997286,
+          "id": "64c13790-0bed-4f75-8c94-a3a400e056df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997286,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "68a9ecd1-23f1-4c99-92d9-574d2b308ae4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "68a9ecd1-23f1-4c99-92d9-574d2b308ae4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Slices provide out-of-bounds checks. Just by recoding in Go I found out-of-bounds access bug in the "
+              ],
+              [
+                "original C code",
+                [
+                  [
+                    "a",
+                    "https://github.com/tanoku/upskirt/issues/24"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "70534475-42ab-4092-8b0a-f56a89f24fb9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997286,
+          "id": "70534475-42ab-4092-8b0a-f56a89f24fb9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997286,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’ve been recently interested in "
+              ],
+              [
+                "Go",
+                [
+                  [
+                    "a",
+                    "https://golang.org/"
+                  ]
+                ]
+              ],
+              [
+                ", a new programming language."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7aa6a51c-1d27-48f6-bf91-5e5d7f7c61e9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997288,
+          "id": "7aa6a51c-1d27-48f6-bf91-5e5d7f7c61e9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997288,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "BTW: if you want markdown implementation for Go, use "
+              ],
+              [
+                "blackfriday",
+                [
+                  [
+                    "a",
+                    "https://github.com/russross/blackfriday"
+                  ]
+                ]
+              ],
+              [
+                ". It’s also direct port of upskirt and I abandoned my port in favor of contributing to blackfriday, since it was slightly ahead and there’s no need for two nearly identical projects."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8106c7e8-c4ce-4042-963b-00ec8301b66f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "8106c7e8-c4ce-4042-963b-00ec8301b66f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The biggest part of the problem was the textile to HTML conversion. There is no existing Go code for that so I decided to port "
+              ],
+              [
+                "upskirt",
+                [
+                  [
+                    "a",
+                    "https://github.com/tanoku/upskirt"
+                  ]
+                ]
+              ],
+              [
+                " C library, as it does the job in the most performant way (it has a hand-written, disciplined parser as opposed to most other solutions that just throw cryptic regular expression at the problem)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "99d0b424-dc31-47da-86f3-4388e6b933e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "58d44f20-41a7-4572-80d7-7d27ce399b82",
+            "424a3898-a6a6-433e-ac75-0c09d1f135d4",
+            "02745d62-28c4-41b4-8d74-6eaa331085a7",
+            "64c13790-0bed-4f75-8c94-a3a400e056df",
+            "70534475-42ab-4092-8b0a-f56a89f24fb9",
+            "c18c29fd-2cde-4265-a278-6cd3d39d9825",
+            "99eee519-9928-46af-b6e6-0f25d5aaaa35",
+            "8106c7e8-c4ce-4042-963b-00ec8301b66f",
+            "fbb22dcd-3e63-4874-86d2-7c1fa4172a44",
+            "5b29551c-e877-4083-ad27-7f0c8d24c6c0",
+            "5b07ec03-eac7-4745-bc6f-c3ba47b577ed",
+            "1d369150-25cd-4f6f-8b56-039b976d69b9",
+            "372586a7-bcc2-4486-894d-ac4793aaff4c",
+            "b543e9e9-4b43-4988-aad6-b96f6663e180",
+            "c7cc778a-b6c9-4572-9fa8-ab9e6d8309ca",
+            "451bec90-54f1-4225-ba4c-e3910ffa9376",
+            "10bee6c6-43bd-4e7b-a294-7499059542eb",
+            "c2a030fa-3ec4-4668-a712-de6fafeac13d",
+            "68a9ecd1-23f1-4c99-92d9-574d2b308ae4",
+            "eb298b74-7557-452e-981b-755d40969de7",
+            "53f08e90-2433-47c4-827f-49d7eb58cd52",
+            "7aa6a51c-1d27-48f6-bf91-5e5d7f7c61e9"
+          ],
+          "copied_from": "7d4b97ab-084e-4ff5-914e-5e9569456db4",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997285,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996226297,
+          "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Experience porting 4k lines of C code to go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      },
+      "99eee519-9928-46af-b6e6-0f25d5aaaa35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "99eee519-9928-46af-b6e6-0f25d5aaaa35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I needed a program that generates HTML from textile format. The way of least resistance would be to implement it in Python, as I’ve coded a similar thing in the past. Instead I decided to use this as an opportunity to get more familiar with Go."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b543e9e9-4b43-4988-aad6-b96f6663e180": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "b543e9e9-4b43-4988-aad6-b96f6663e180",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Fortunately, the transformations were simple and mostly mechanical."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c18c29fd-2cde-4265-a278-6cd3d39d9825": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "c18c29fd-2cde-4265-a278-6cd3d39d9825",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The best way to learn a language is to use it in a small but real project."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c2a030fa-3ec4-4668-a712-de6fafeac13d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "c2a030fa-3ec4-4668-a712-de6fafeac13d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "An unexpected advantage of Go was its safety. The C code implements parsing by partying on char * pointers. Such code is notorious for causing lots of subtle, hard to test for bugs. Go doesn’t allow this kind of pointer arithmetic and instead provides slices, which are a view into an underlaying array."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c7cc778a-b6c9-4572-9fa8-ab9e6d8309ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "c7cc778a-b6c9-4572-9fa8-ab9e6d8309ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It took me just few days to manually translate around 4000 lines of C code into ~3200 lines of Go code."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86f1e3f8-c08c-4554-98f2-8cfb464398a4",
+            "f1fcdd01-b2dd-4794-a7af-3b00eebda21e",
+            "4b52129c-080e-4159-aebe-3e510d4b81d2",
+            "f5652f25-3b4d-4dc0-bb99-c673ca61b977",
+            "be153e27-1136-4bf0-a5d3-c65c2085db09",
+            "a8d20cf4-69be-48fd-b305-44e34a281704",
+            "0aaab80b-35fb-473e-af08-3c5c3f13b829",
+            "d0c12a9a-f1c5-4726-bfa4-502c41161763",
+            "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+            "c1ce4215-5b65-4edd-afa0-63e314119f75",
+            "1e14f055-b2ea-4ec9-b451-ed64f38732ac",
+            "99d0b424-dc31-47da-86f3-4388e6b933e1",
+            "1287e403-5c29-436b-9f4a-249a433ceff5",
+            "faff1f91-88e2-4351-8839-7fb0edb524b6",
+            "d3c4a006-1407-4f16-a096-fa084233dfdd",
+            "171e0029-5b7c-4f69-aedc-8dfbb1082f63",
+            "07cab082-7c10-4439-b356-31396c3c99ed",
+            "465ee96a-4544-410f-9c87-9338e179890b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736995601,
+          "id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2011 (17)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      },
+      "eb298b74-7557-452e-981b-755d40969de7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "eb298b74-7557-452e-981b-755d40969de7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Thanks to similarity of Go and C syntax, porting algorithmic code from C is simple."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fbb22dcd-3e63-4874-86d2-7c1fa4172a44": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736997287,
+          "id": "fbb22dcd-3e63-4874-86d2-7c1fa4172a44",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736997287,
+          "parent_id": "99d0b424-dc31-47da-86f3-4388e6b933e1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The bottom line is: porting C code, at least in this case, was fast, boring, mechanical process (and that is a good thing)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b3ccc8c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"4ae9-WpmQ6TNpRHE2XER8p39wCHwh+sU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

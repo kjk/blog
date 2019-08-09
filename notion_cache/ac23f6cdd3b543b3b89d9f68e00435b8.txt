@@ -1,0 +1,870 @@
+3088 1565326096705 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+      "table": "block"
+    }
+  ]
+}
+Response:+1939
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5c553d9c-9265-4f4e-b4f9-23225abdd3ca",
+          "163cd0e2-4328-4872-b17e-b97bfdac6c70",
+          "29e493fc-8c1b-4cc0-b4f5-b9dfdcd4a23f",
+          "0a16b177-a9e5-430e-9232-c3d8c576e31b",
+          "b3d0693f-8b36-489e-a0a7-4b1704b853cc",
+          "7c4b985f-5750-4f76-9e6a-334f7506465f",
+          "20a0e77c-bc19-4baa-b612-9d5a27186c41",
+          "bbbf1fe4-ce5e-4228-87c2-43a64c4abf3f",
+          "83c9516b-c803-4a93-94e8-1a7e86a6fefe",
+          "4a3ed62b-ebf2-4abb-8ca5-59329139a965",
+          "3eb4c04e-f7c9-4a8f-8b48-83f5b2a62388",
+          "9649cb46-8110-44da-8774-51ef3728e186",
+          "63e3168f-50cc-48b4-91e2-c4fdbe9bb76e",
+          "0ff3a44a-e48d-4a36-b239-98312d11c33c",
+          "683cd557-4f48-45a8-a3a5-5c20b6aaffcd",
+          "c8a98b44-e444-417d-8d3e-3b08c7d08dac",
+          "fb2d5e25-95cf-4b20-adba-8341087606a6",
+          "fb2d4b6f-3a9f-4d2a-928b-0e8b2427fe2c",
+          "cbcc7102-f7f6-4d73-a176-8a108e2b664e",
+          "d949d814-29fd-4173-aef1-88f73cd40200",
+          "ba05825b-7a5b-4ecc-8576-67d8752d8eae",
+          "16b01853-369a-49d2-ae8f-55d35c8ba72c",
+          "32ce2839-7a87-4012-b27c-d96b2e7ca363"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513559416599,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532322375471,
+        "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Predicted cost of robo taxis"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 132
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718c33eae7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:15 GMT"
+  ],
+  "Etag": [
+    "W/\"578-rXWphx0y/C7+IvjY5RYxf1KQcUw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d21f263a7dd44132152dcfcffb0eb731f1565326095; expires=Sat, 08-Aug-20 04:48:15 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28539 1565326096707 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+  "verticalColumns": false
+}
+Response:+27348
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0a16b177-a9e5-430e-9232-c3d8c576e31b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559672550,
+          "id": "0a16b177-a9e5-430e-9232-c3d8c576e31b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513559750813,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Guess: robo taxis will cost $10 or less per 1hr of driving. This is ~3x cheaper than a regular taxi, close to bus ticket for most city rides (bus costs $2.5 which pays for a 15 min ride)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 456
+        }
+      },
+      "0ff3a44a-e48d-4a36-b239-98312d11c33c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560529314,
+          "id": "0ff3a44a-e48d-4a36-b239-98312d11c33c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560629394,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The  profit depends on the numbers we use for different costs. I used a bunch of numbers, how realistic are they?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 420
+        }
+      },
+      "163cd0e2-4328-4872-b17e-b97bfdac6c70": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559533306,
+          "id": "163cd0e2-4328-4872-b17e-b97bfdac6c70",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513559547162,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The question is: how much will robo taxis cost."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 104
+        }
+      },
+      "16b01853-369a-49d2-ae8f-55d35c8ba72c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513561770062,
+          "id": "16b01853-369a-49d2-ae8f-55d35c8ba72c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513561772099,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "20a0e77c-bc19-4baa-b612-9d5a27186c41": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560089109,
+          "id": "20a0e77c-bc19-4baa-b612-9d5a27186c41",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562088866,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Insurance: $7.5k, leaving $24.62k."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 114
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "29e493fc-8c1b-4cc0-b4f5-b9dfdcd4a23f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559547673,
+          "id": "29e493fc-8c1b-4cc0-b4f5-b9dfdcd4a23f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513559676644,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This analysis starts with a guess-estimate of the cost and analyses the cost to check if the guess looks correct."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 279
+        }
+      },
+      "32ce2839-7a87-4012-b27c-d96b2e7ca363": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513561128160,
+          "id": "32ce2839-7a87-4012-b27c-d96b2e7ca363",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513561128160,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "3eb4c04e-f7c9-4a8f-8b48-83f5b2a62388": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560368670,
+          "id": "3eb4c04e-f7c9-4a8f-8b48-83f5b2a62388",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560489079,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$10 per hour is almost competitive with public transport (bus) fares. It completely destroys taxis on price."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 370
+        }
+      },
+      "4a3ed62b-ebf2-4abb-8ca5-59329139a965": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560265150,
+          "id": "4a3ed62b-ebf2-4abb-8ca5-59329139a965",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562235251,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If car costs $30k and is used for 6 years, it pays for itself in less than 2 years and makes $78k of total profit, i.e. on average $13k of profit per year."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 516
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c553d9c-9265-4f4e-b4f9-23225abdd3ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559435536,
+          "id": "5c553d9c-9265-4f4e-b4f9-23225abdd3ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513559532916,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Self-driving cars are almost here. We expect that the first real life deployment will be in the form of robo taxis i.e. a fleet of cars providing rides within city limits, replacing most uses of taxis."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 564
+        }
+      },
+      "63e3168f-50cc-48b4-91e2-c4fdbe9bb76e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560520489,
+          "id": "63e3168f-50cc-48b4-91e2-c4fdbe9bb76e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560528945,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Double-checking the figures."
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 72
+        }
+      },
+      "683cd557-4f48-45a8-a3a5-5c20b6aaffcd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560629693,
+          "id": "683cd557-4f48-45a8-a3a5-5c20b6aaffcd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560842935,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "average speed of 30 mph in the city. Per "
+              ],
+              [
+                "https://blogs.scientificamerican.com/plugged-in/cities-where-it-s-faster-to-walk-than-drive/",
+                [
+                  [
+                    "a",
+                    "https://blogs.scientificamerican.com/plugged-in/cities-where-it-s-faster-to-walk-than-drive/"
+                  ]
+                ]
+              ],
+              [
+                " it's more like 15 mph due to traffic so even if we assume that occasional trips to airport bump the average, 30 mph seems like a conservative number"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 447
+        }
+      },
+      "7c4b985f-5750-4f76-9e6a-334f7506465f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559825919,
+          "id": "7c4b985f-5750-4f76-9e6a-334f7506465f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562067635,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Assuming electric cars and average speed of 30mph, it's 300 miles per day. Per https://www.tesla.com/models, using price of $0.12 for kwh, 300 miles cost $12 so it's $12 a day for \"gas\", leaving $88 per day, $32.12k per year."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 605
+        }
+      },
+      "83c9516b-c803-4a93-94e8-1a7e86a6fefe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560223292,
+          "id": "83c9516b-c803-4a93-94e8-1a7e86a6fefe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562199585,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The remaining cost is repairs. Let's say it's $4.79k per year per car, leaving $18k profit per car."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 236
+        }
+      },
+      "9649cb46-8110-44da-8774-51ef3728e186": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560489079,
+          "id": "9649cb46-8110-44da-8774-51ef3728e186",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560519708,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Even at that low price, there's a lot of profit to create a very profitable business."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 256
+        }
+      },
+      "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5c553d9c-9265-4f4e-b4f9-23225abdd3ca",
+            "163cd0e2-4328-4872-b17e-b97bfdac6c70",
+            "29e493fc-8c1b-4cc0-b4f5-b9dfdcd4a23f",
+            "0a16b177-a9e5-430e-9232-c3d8c576e31b",
+            "b3d0693f-8b36-489e-a0a7-4b1704b853cc",
+            "7c4b985f-5750-4f76-9e6a-334f7506465f",
+            "20a0e77c-bc19-4baa-b612-9d5a27186c41",
+            "bbbf1fe4-ce5e-4228-87c2-43a64c4abf3f",
+            "83c9516b-c803-4a93-94e8-1a7e86a6fefe",
+            "4a3ed62b-ebf2-4abb-8ca5-59329139a965",
+            "3eb4c04e-f7c9-4a8f-8b48-83f5b2a62388",
+            "9649cb46-8110-44da-8774-51ef3728e186",
+            "63e3168f-50cc-48b4-91e2-c4fdbe9bb76e",
+            "0ff3a44a-e48d-4a36-b239-98312d11c33c",
+            "683cd557-4f48-45a8-a3a5-5c20b6aaffcd",
+            "c8a98b44-e444-417d-8d3e-3b08c7d08dac",
+            "fb2d5e25-95cf-4b20-adba-8341087606a6",
+            "fb2d4b6f-3a9f-4d2a-928b-0e8b2427fe2c",
+            "cbcc7102-f7f6-4d73-a176-8a108e2b664e",
+            "d949d814-29fd-4173-aef1-88f73cd40200",
+            "ba05825b-7a5b-4ecc-8576-67d8752d8eae",
+            "16b01853-369a-49d2-ae8f-55d35c8ba72c",
+            "32ce2839-7a87-4012-b27c-d96b2e7ca363"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559416599,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532322375471,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Predicted cost of robo taxis"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 132
+        }
+      },
+      "b3d0693f-8b36-489e-a0a7-4b1704b853cc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513559752201,
+          "id": "b3d0693f-8b36-489e-a0a7-4b1704b853cc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513559824699,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If a car is in use 10 hours a day it'll make $100 a day i.e. $36.5 k a year."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 262
+        }
+      },
+      "ba05825b-7a5b-4ecc-8576-67d8752d8eae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513562879343,
+          "id": "ba05825b-7a5b-4ecc-8576-67d8752d8eae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562882544,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "type": "text",
+          "version": 8
+        }
+      },
+      "bbbf1fe4-ce5e-4228-87c2-43a64c4abf3f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560119429,
+          "id": "bbbf1fe4-ce5e-4228-87c2-43a64c4abf3f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562144199,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Cars need to be cleaned. Let's say each car requires 15 minutes a day for cleaning, at $20/hr for a cleaner, it's $5 per day per car, i.e. $1825 per year, leaving $22.79k."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 504
+        }
+      },
+      "c8a98b44-e444-417d-8d3e-3b08c7d08dac": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560843210,
+          "id": "c8a98b44-e444-417d-8d3e-3b08c7d08dac",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513560923699,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Insurance: my research shows that commercial taxi license is $5k-$10k. I split the difference at $7.5k. That being said, I expect that eventually insurance cost will be close to 0 because self-driving cars will not be getting in accidents where self-driving car is at fault"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 628
+        }
+      },
+      "cbcc7102-f7f6-4d73-a176-8a108e2b664e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513561052569,
+          "id": "cbcc7102-f7f6-4d73-a176-8a108e2b664e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513561767500,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "car cost: $30k. I expect initial price of the car to be $50-$60k, reach $30k after few years and be closer to $20k after, say, 10 years. Initially low volume and high cost of specialized hardware (lidar, compute power (cpu+gpu+storage), car batteries) will drive the cost well above average. Those costs will go down rapidly due to mass production (for lidar) and moore's law (for cpu+gpu hardware). The cars will cost less that the same car at retail (buying directly from car company so no dealer fees; buying in really large volumes (guaranteed orders of hundreds of thousands of cars); co-designing the cars for reliability over fanciness). Even at $60k per car the business is break even. Companies can either increase the price ($12/hr is still much less than a taxi and brings additional $7.3k of revenue per year) or run at break even for first few years, knowing that unit economics improve drastically"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2392
+        }
+      },
+      "d949d814-29fd-4173-aef1-88f73cd40200": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513562278456,
+          "id": "d949d814-29fd-4173-aef1-88f73cd40200",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513562875723,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "6 years of a lifetime. At 300 miles per day it's 110k per year, 660k miles. This is a really high number, especially for the battery. Tesla offers 8 year, unlimited miles battery/drive train warranty (https://www.tesla.com/support/vehicle-warranty). Their cost model probably didn't include such a heavy use but it does show that at least Tesla is willing to stand behind the quality of their cars for a long time. Existance of the warranty doesn't mean that no car will have problems before the warranty experies but it does mean that the car manufacturer priced the cost of everage repairs into cost of the car. Per "
+              ],
+              [
+                "https://forums.tesla.com/forum/forums/what-highest-mileage-tesla-road-today",
+                [
+                  [
+                    "a",
+                    "https://forums.tesla.com/forum/forums/what-highest-mileage-tesla-road-today"
+                  ]
+                ]
+              ],
+              [
+                " cars used by Teslaloop rental services passed 200miles. So my assumptions might be optimistic but we don't have data on longevitiy of well designed electric car and its battery."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2591
+        }
+      },
+      "fb2d4b6f-3a9f-4d2a-928b-0e8b2427fe2c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513560924361,
+          "id": "fb2d4b6f-3a9f-4d2a-928b-0e8b2427fe2c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513561051526,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "repairs at $4k per year. I assume it's a safe, high number (i.e. that a real average cost will be less) but I don't have external reference. Also, current data would at best be for diesel cars. Electric cars are said to be much simpler and therefore more reliable and therefore repairs would cost less"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 760
+        }
+      },
+      "fb2d5e25-95cf-4b20-adba-8341087606a6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513561328703,
+          "id": "fb2d5e25-95cf-4b20-adba-8341087606a6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513561491315,
+          "parent_id": "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Electricty at $0.12 kwh is US national average per small print in "
+              ],
+              [
+                "https://www.tesla.com/models",
+                [
+                  [
+                    "a",
+                    "https://www.tesla.com/models"
+                  ]
+                ]
+              ],
+              [
+                ". Tesla gurantees that in 2019 Tesla trucks will be able to get energy from superchargers for $0.07 kwh. Commercial electricity rates in CA are between $0.06 and $0.11 with average of $0.09 kwh (https://www.electricitylocal.com/states/california/san-francisco/). $0.12 per kwh seems conservative."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 765
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718c3aef57fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:15 GMT"
+  ],
+  "Etag": [
+    "W/\"4a33-qC5NYRK/VcTrXqbkjWJ2hVI8bpc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d21f263a7dd44132152dcfcffb0eb731f1565326095; expires=Sat, 08-Aug-20 04:48:15 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

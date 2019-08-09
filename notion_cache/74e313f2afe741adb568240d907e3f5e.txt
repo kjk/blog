@@ -1,0 +1,863 @@
+2895 1565326187826 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+      "table": "block"
+    }
+  ]
+}
+Response:+1746
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "057d6f1d-d218-4e14-92f3-afadf6b26d1c",
+          "447344b0-41a0-44a2-b8b8-83d844160b95",
+          "13a29ece-48c0-454d-bf3e-66aab0becdc5",
+          "ddb2d850-34ca-45bf-80a6-53ffb1ba04bb",
+          "e5e5ebf8-e86a-4e1e-ac9b-5d468ae18464",
+          "5c6cb127-b0ea-4f79-a46a-c5518aee0c9b",
+          "ea59d216-4df7-4c55-b0fd-6409d573a6c1",
+          "ccbee09b-9ff3-4b57-92f3-6f14397f6f53",
+          "e2b02bae-7f54-4bcf-a1a2-184a0b3a0a1e",
+          "2aed39c1-c8a4-42b7-be60-21075a0b81eb",
+          "74e217f1-bc62-4cdf-b904-5d72bd2a9672",
+          "8950d105-1971-4354-8518-668de976d377",
+          "124a93c7-e519-4d3f-a856-22d2fdd44772",
+          "bcb31c4d-946b-47c7-8396-a959f1f4bc8b",
+          "bbdb8c4d-9b23-4095-b671-ea1e25457940",
+          "2bdc6228-946d-4d76-a71b-3418985f4d68",
+          "bcd1011a-3527-4a4d-b2da-043bb06f772e",
+          "fc95ee1b-144f-4aa1-907d-fe5188e5b16b"
+        ],
+        "copied_from": "59eebfd4-8f3a-4b0c-8435-4dde019a61aa",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200907527,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996395570,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SumatraPDF 1.2 released"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371afcbc347fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:47 GMT"
+  ],
+  "Etag": [
+    "W/\"4e4-a6G2pHZqveFM1hGxwHYEOU874Eo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dd606be26777767adcc20d479045924261565326186; expires=Sat, 08-Aug-20 04:49:46 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+25135 1565326187827 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+  "verticalColumns": false
+}
+Response:+23944
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "057d6f1d-d218-4e14-92f3-afadf6b26d1c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "057d6f1d-d218-4e14-92f3-afadf6b26d1c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623019791,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 342001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "124a93c7-e519-4d3f-a856-22d2fdd44772": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "124a93c7-e519-4d3f-a856-22d2fdd44772",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "latest fixes and improvements to PDF rendering from "
+              ],
+              [
+                "mupdf",
+                [
+                  [
+                    "a",
+                    "http://mupdf.com/"
+                  ]
+                ]
+              ],
+              [
+                " project"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "13a29ece-48c0-454d-bf3e-66aab0becdc5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "13a29ece-48c0-454d-bf3e-66aab0becdc5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623022084,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-12-03T23:04:17-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2aed39c1-c8a4-42b7-be60-21075a0b81eb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "2aed39c1-c8a4-42b7-be60-21075a0b81eb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "improved full screen mode"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "2bdc6228-946d-4d76-a71b-3418985f4d68": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "2bdc6228-946d-4d76-a71b-3418985f4d68",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "William Blum"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "447344b0-41a0-44a2-b8b8-83d844160b95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "447344b0-41a0-44a2-b8b8-83d844160b95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623020769,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: sumatra"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c6cb127-b0ea-4f79-a46a-c5518aee0c9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "5c6cb127-b0ea-4f79-a46a-c5518aee0c9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907527,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Changes in this relase:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "74e217f1-bc62-4cdf-b904-5d72bd2a9672": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "74e217f1-bc62-4cdf-b904-5d72bd2a9672",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "open embedded PDF documents"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "74e313f2-afe7-41ad-b568-240d907e3f5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "057d6f1d-d218-4e14-92f3-afadf6b26d1c",
+            "447344b0-41a0-44a2-b8b8-83d844160b95",
+            "13a29ece-48c0-454d-bf3e-66aab0becdc5",
+            "ddb2d850-34ca-45bf-80a6-53ffb1ba04bb",
+            "e5e5ebf8-e86a-4e1e-ac9b-5d468ae18464",
+            "5c6cb127-b0ea-4f79-a46a-c5518aee0c9b",
+            "ea59d216-4df7-4c55-b0fd-6409d573a6c1",
+            "ccbee09b-9ff3-4b57-92f3-6f14397f6f53",
+            "e2b02bae-7f54-4bcf-a1a2-184a0b3a0a1e",
+            "2aed39c1-c8a4-42b7-be60-21075a0b81eb",
+            "74e217f1-bc62-4cdf-b904-5d72bd2a9672",
+            "8950d105-1971-4354-8518-668de976d377",
+            "124a93c7-e519-4d3f-a856-22d2fdd44772",
+            "bcb31c4d-946b-47c7-8396-a959f1f4bc8b",
+            "bbdb8c4d-9b23-4095-b671-ea1e25457940",
+            "2bdc6228-946d-4d76-a71b-3418985f4d68",
+            "bcd1011a-3527-4a4d-b2da-043bb06f772e",
+            "fc95ee1b-144f-4aa1-907d-fe5188e5b16b"
+          ],
+          "copied_from": "59eebfd4-8f3a-4b0c-8435-4dde019a61aa",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996395570,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SumatraPDF 1.2 released"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "8950d105-1971-4354-8518-668de976d377": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "8950d105-1971-4354-8518-668de976d377",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "allow saving PDF document attachements to disk"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "bbdb8c4d-9b23-4095-b671-ea1e25457940": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "bbdb8c4d-9b23-4095-b671-ea1e25457940",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Simon Bünzli (zeniko)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "bcb31c4d-946b-47c7-8396-a959f1f4bc8b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "bcb31c4d-946b-47c7-8396-a959f1f4bc8b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Contributors to this release:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bcd1011a-3527-4a4d-b2da-043bb06f772e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "bcd1011a-3527-4a4d-b2da-043bb06f772e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Krzysztof Kowalczyk"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "ccbee09b-9ff3-4b57-92f3-6f14397f6f53": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "ccbee09b-9ff3-4b57-92f3-6f14397f6f53",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "add Ctrl-Y as a shortcut for Custom Zoom"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "ddb2d850-34ca-45bf-80a6-53ffb1ba04bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "ddb2d850-34ca-45bf-80a6-53ffb1ba04bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623017656,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "e2b02bae-7f54-4bcf-a1a2-184a0b3a0a1e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "e2b02bae-7f54-4bcf-a1a2-184a0b3a0a1e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "add Ctrl-A as a shortcut for Select All Text"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "e5e5ebf8-e86a-4e1e-ac9b-5d468ae18464": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907527,
+          "id": "e5e5ebf8-e86a-4e1e-ac9b-5d468ae18464",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907527,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SumatraPDF team is happy to announce 1.2 release."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ea59d216-4df7-4c55-b0fd-6409d573a6c1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "ea59d216-4df7-4c55-b0fd-6409d573a6c1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "improved printing: faster and uses less resources"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "fc95ee1b-144f-4aa1-907d-fe5188e5b16b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200907528,
+          "id": "fc95ee1b-144f-4aa1-907d-fe5188e5b16b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200907528,
+          "parent_id": "74e313f2-afe7-41ad-b568-240d907e3f5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As always, it’s available "
+              ],
+              [
+                "from here",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371afd2c857fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:47 GMT"
+  ],
+  "Etag": [
+    "W/\"3cf5-nMCo6+GglUnG7kLqe4OSf758WrQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2597b74a77e8881f029df62c9d621891565326187; expires=Sat, 08-Aug-20 04:49:47 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

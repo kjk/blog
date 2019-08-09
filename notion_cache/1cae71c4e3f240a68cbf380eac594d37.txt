@@ -1,0 +1,777 @@
+2715 1565326107449 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+      "table": "block"
+    }
+  ]
+}
+Response:+1566
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "b1bd6ab7-4afe-4eb3-998d-a0f0978fbaec",
+          "6f888714-dd8a-43c9-b292-f40620bb53f9",
+          "573f1dc7-e265-4385-a106-c9f8e4e2fd05",
+          "c2e55e3d-a4ac-4da4-8919-b04c15084ec2",
+          "074f774f-6189-44e2-a602-8a81b51cb9dc",
+          "48924878-7631-4abb-b5dd-6875c51b20bb",
+          "e74098e0-bd81-4799-a29e-5325bb8046ec",
+          "c1960ff8-da12-4b90-9dc5-4057e9e7f091",
+          "58f48737-a7af-490c-b0ea-d953cbadb3d4",
+          "fe9b976c-626f-4166-8cbb-30fa318d4d93",
+          "d92029d5-d3e4-436f-834b-2fa2633ead2d",
+          "aeea3208-400f-4570-880c-47f59f7e26c9",
+          "1f2b86f5-d0f7-40da-a647-4afff128d966",
+          "0d40ddb0-d8b0-43f2-901d-61f562f3ab6e",
+          "450734f1-363e-451b-821d-ea2dc1c4a442",
+          "08cb40d2-7bfd-4969-890b-f39902834e03"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1474753825196,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1474753825196,
+        "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Context"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037190658ec7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:26 GMT"
+  ],
+  "Etag": [
+    "W/\"450-XF3FLkPMJa9YCmNW1LYBJxCeczE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d08966dc399c0fd40b3f321d89d1e3bed1565326106; expires=Sat, 08-Aug-20 04:48:26 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+25480 1565326107453 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+  "verticalColumns": false
+}
+Response:+24289
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "074f774f-6189-44e2-a602-8a81b51cb9dc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754136132,
+          "id": "074f774f-6189-44e2-a602-8a81b51cb9dc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754136132,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "// pattern for setting/getting value in a context\ntype contextKey string\n\n// making it un-exported package variable avoid naming conflics between\n// packages\nvar userContextKey contextKey = \"user\"\n\nfunc NewUserContext(ctx context.Context, user *User) context.Context {\n    return context.WithValue(ctx, userContextKey, user)\n}\n\nfunc UserFromContext(ctx context.Context) (*User, bool) {\n    u, ok := ctx.Value(userContextKey).(*User)\n    return u, ok\n}\n\nfunc UserMustFromContext(ctx context.Context) *User {\n    u, ok := ctx.Value(userContextKey).(*User)\n    if !ok {\n        panic(\"user not found in context\")\n    }\n    return u\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "08cb40d2-7bfd-4969-890b-f39902834e03": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754785564,
+          "id": "08cb40d2-7bfd-4969-890b-f39902834e03",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754785564,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "0d40ddb0-d8b0-43f2-901d-61f562f3ab6e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754729604,
+          "id": "0d40ddb0-d8b0-43f2-901d-61f562f3ab6e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754729604,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "select {\ncase \u003c-ctx.Done():\n    log.Print(ctx.Err())\n    return\ncase result := \u003c-longRunningCalculation():\n    io.WriteString(w, result)\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "1cae71c4-e3f2-40a6-8cbf-380eac594d37": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b1bd6ab7-4afe-4eb3-998d-a0f0978fbaec",
+            "6f888714-dd8a-43c9-b292-f40620bb53f9",
+            "573f1dc7-e265-4385-a106-c9f8e4e2fd05",
+            "c2e55e3d-a4ac-4da4-8919-b04c15084ec2",
+            "074f774f-6189-44e2-a602-8a81b51cb9dc",
+            "48924878-7631-4abb-b5dd-6875c51b20bb",
+            "e74098e0-bd81-4799-a29e-5325bb8046ec",
+            "c1960ff8-da12-4b90-9dc5-4057e9e7f091",
+            "58f48737-a7af-490c-b0ea-d953cbadb3d4",
+            "fe9b976c-626f-4166-8cbb-30fa318d4d93",
+            "d92029d5-d3e4-436f-834b-2fa2633ead2d",
+            "aeea3208-400f-4570-880c-47f59f7e26c9",
+            "1f2b86f5-d0f7-40da-a647-4afff128d966",
+            "0d40ddb0-d8b0-43f2-901d-61f562f3ab6e",
+            "450734f1-363e-451b-821d-ea2dc1c4a442",
+            "08cb40d2-7bfd-4969-890b-f39902834e03"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753825196,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474753825196,
+          "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Context"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 0
+        }
+      },
+      "1f2b86f5-d0f7-40da-a647-4afff128d966": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754692227,
+          "id": "1f2b86f5-d0f7-40da-a647-4afff128d966",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754692227,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Pattern here is the same, you have to wait for signal from ctx.Done"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "450734f1-363e-451b-821d-ea2dc1c4a442": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754783082,
+          "id": "450734f1-363e-451b-821d-ea2dc1c4a442",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754783082,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "func handlerSearchTimeout(w http.ResponseWriter, r *http.Request) {\n    var ctx context.Context\n    var cancel context.CancelFunc\n\n    ctx, cancel = context.WithTimeout(r.Context(), time.Duration(2*time.Second))\n    defer cancel()\n\n    request, err := http.NewRequest(http.MethodGet, \"http://localhost:8181/timeout\", nil)\n    if err != nil {\n        log.Println(err.Error())\n        return\n    }\n    // You can context separately for each request\n    request = request.WithContext(ctx)\n\n    client := \u0026http.Client{}\n    response, err := client.Do(request)\n    // You will get an error \"net/http: request canceled\" when request timeout exceeds limits\n    if err != nil {\n        log.Println(err.Error())\n        return\n    }\n    // ......"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "48924878-7631-4abb-b5dd-6875c51b20bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1475806392406,
+          "id": "48924878-7631-4abb-b5dd-6875c51b20bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1475806392406,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Javascript"
+              ]
+            ],
+            "title": [
+              [
+                "func handlerRequestWithCancelation(w http.ResponseWriter, r *http.Request) {\n    longRunningCalculation := func(ctx context.Context) {\n        for i := 0; ; i++ {\n            select {\n            case \u003c-ctx.Done():\n                return\n            default:\n                time.Sleep(1 * time.Second)\n                fmt.Printf(\"Worker %d \\n\", i)\n            }\n        }\n    }\n\n    // the context is canceled when the ServeHTTP method returns\n    go longRunningCalculation(r.Context())\n\n    // give some time for longRunningCalculation to do some work\n    time.Sleep(5 * time.Second)\n\n    io.WriteString(w, \"bazinga!\")\n    return\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "573f1dc7-e265-4385-a106-c9f8e4e2fd05": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754011593,
+          "id": "573f1dc7-e265-4385-a106-c9f8e4e2fd05",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754011593,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "func Background() Context\nfunc TODO() Context\nfunc WithCancel(parent Context) (ctx Context, cancel CancelFunc)\nfunc WithDeadline(parent Context, deadline time.Time) (Context, CancelFunc)\nfunc WithTimeout(parent Context, timeout time.Duration) (Context, CancelFunc)\nfunc WithValue(parent Context, key, val interface{}) Context"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "58f48737-a7af-490c-b0ea-d953cbadb3d4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754644790,
+          "id": "58f48737-a7af-490c-b0ea-d953cbadb3d4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754644790,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Context with timeout"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "6f70163e-a5b8-4ba9-928a-faa2e45d1f51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1b338041-238f-4b08-83a8-9e23a3989c88",
+            "25c1809f-e05f-43c0-8b3d-af1cce2d5945",
+            "56c7102b-120f-42a3-81ff-d4673507a0d3",
+            "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+            "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+            "fe3aac0b-2171-4dd8-8a69-f6889f05a8ac",
+            "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+            "e0c915d3-04e0-4da7-b455-6aa03929dfca",
+            "b1cff481-c77e-43e4-a604-6b5582c12fdf",
+            "74400c4f-5c50-4d60-9893-22638b9e5037",
+            "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+            "08e41706-8555-46c3-a074-dae41cf910d8",
+            "ed2347d7-29bd-4c41-9b2b-52fed11e4ec7",
+            "591cfada-b10d-443a-bd75-1a3365cbeef9",
+            "d19571fb-1515-49bf-b875-c26c46f75837",
+            "e3aa0199-ee36-492a-90fb-92aa3fe8ba25",
+            "bc5ada73-f538-449e-91d3-61f6857e2ebc",
+            "6435bf2e-2453-4c41-94bf-08cb397eeda3",
+            "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+            "9d54f7ea-1a6e-4b3c-b788-efc3cfcf9e92"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753820011,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1537164927987,
+          "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 27
+        }
+      },
+      "6f888714-dd8a-43c9-b292-f40620bb53f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753964456,
+          "id": "6f888714-dd8a-43c9-b292-f40620bb53f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474753964456,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "type Context interface {\n    // Deadline returns the time when work done\n    // on behalf of this context should be canceled.\n    Deadline() (deadline time.Time, ok bool)\n    // Done returns a channel that's closed when work done \n    // on behalf of this context should be canceled.\n    Done() \u003c-chan struct{}\n    // Err returns a non-nil error value after Done is closed.\n    Err() error\n    // Value returns the value associated with this context for key\n    Value(key interface{}) interface{}\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "aea20e01-890c-4874-ae08-4557d7789195": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+            "ed055f63-753e-42ef-9025-e11ac9062c35"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530068313902,
+          "id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554270960000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Programming:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 48
+        }
+      },
+      "aeea3208-400f-4570-880c-47f59f7e26c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754707028,
+          "id": "aeea3208-400f-4570-880c-47f59f7e26c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754707028,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "deadline := time.Now().Add(time.Duration(30 * time.Second))\ndctx, cancel := context.WithDeadline(ctx, deadline)\ndefer cancel()"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "b1bd6ab7-4afe-4eb3-998d-a0f0978fbaec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753831082,
+          "id": "b1bd6ab7-4afe-4eb3-998d-a0f0978fbaec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474753831082,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://go-talks.appspot.com/github.com/dkondratovych/golang-ua-meetup/go-context/ctx.slide#35",
+                [
+                  [
+                    "a",
+                    "http://go-talks.appspot.com/github.com/dkondratovych/golang-ua-meetup/go-context/ctx.slide#35"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "c1960ff8-da12-4b90-9dc5-4057e9e7f091": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754644226,
+          "id": "c1960ff8-da12-4b90-9dc5-4057e9e7f091",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754644226,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How can I use WithTimeout and WithDeadline ?",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "c2e55e3d-a4ac-4da4-8919-b04c15084ec2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1475121847282,
+          "id": "c2e55e3d-a4ac-4da4-8919-b04c15084ec2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1475121847282,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Javascript"
+              ]
+            ],
+            "title": [
+              [
+                "// modify context of http.Request\nfunc middleware(h http.HandlerFunc) http.HandlerFunc {\n    return func(w http.ResponseWriter, r *http.Request) {\n        // Use request method context, which returns context, if ctx is nil\n        // then creates new background context - context.Background()\n        ctx = r.Context()\n        // Build context variations on top of background context\n        ctx = context.WithValue(ctx, \"some_key\", \"some_value\")\n        // tctx, cancelFunc := context.WithTimeout(ctx, time.Duration(5 * time.Second))\n        // deadline := time.Now().Add(time.Duration(30 * time.Second))\n        // dctx, cancelFunc := context.WithDeadline(ctx, deadline)\n        // WithContext returns a shallow copy of r with its context changed to ctx.\n        r = r.WithContext(ctx)\n        h(w, r)\n    }\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "d92029d5-d3e4-436f-834b-2fa2633ead2d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754644790,
+          "id": "d92029d5-d3e4-436f-834b-2fa2633ead2d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754644790,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Context with deadline"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "e74098e0-bd81-4799-a29e-5325bb8046ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754576909,
+          "id": "e74098e0-bd81-4799-a29e-5325bb8046ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754576909,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "// explicitly cancelling context\nfunc handlerSearchCancel(w http.ResponseWriter, r *http.Request) {\n    var ctx context.Context\n    var cancel context.CancelFunc\n\n    ctx, cancel = context.WithCancel(r.Context())\n    defer cancel()\n\n    // Close context.Done channel in 4 seconds\n    go func() {\n        time.Sleep(4 * time.Second)\n        cancel()\n    }()\n\n    select {\n    case \u003c-ctx.Done():\n        log.Print(ctx.Err())\n        return\n    case result := \u003c-longRunningCalculation():\n        io.WriteString(w, result)\n    }\n\n    return\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "fe9b976c-626f-4166-8cbb-30fa318d4d93": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474754644790,
+          "id": "fe9b976c-626f-4166-8cbb-30fa318d4d93",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1474754644790,
+          "parent_id": "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "ctx, cancel = context.WithTimeout(ctx, time.Duration(7 * time.Second))\ndefer cancel()"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371906b9197fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:26 GMT"
+  ],
+  "Etag": [
+    "W/\"41de-0QLtlCnmP5cFgKb6POqIinL3ZCs\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d08966dc399c0fd40b3f321d89d1e3bed1565326106; expires=Sat, 08-Aug-20 04:48:26 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

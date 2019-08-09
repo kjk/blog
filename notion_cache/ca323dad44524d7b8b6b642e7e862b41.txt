@@ -1,0 +1,624 @@
+2460 1565326209079 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+      "table": "block"
+    }
+  ]
+}
+Response:+1311
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "546b33b3-b118-474c-b2ef-810a48ce39c8",
+          "fbf105cf-624f-4be4-ac64-4b5072f064ee",
+          "f82635b8-a34c-4052-8e0d-280fef37d308",
+          "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
+          "42731c70-db54-4db9-bff7-d0389fe4ac8c",
+          "641cb6c4-0f7d-43e3-b975-066be86eb3c8",
+          "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2",
+          "3e48ff78-2261-4ef0-9c96-3d8eb34bba58",
+          "a1b29e17-b1f2-4492-b871-5a5058c1a959"
+        ],
+        "copied_from": "dfd3a3c7-1670-40f9-a036-6f87490d8cb0",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736828315,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996148329,
+        "parent_id": "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tip for per-test verbose logging in Go"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 28
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b819ecd7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:08 GMT"
+  ],
+  "Etag": [
+    "W/\"394-MaBd7ieUchvteLFzrembJUR67Ok\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dfb73fbde1cbe878b5e6e338689556e311565326208; expires=Sat, 08-Aug-20 04:50:08 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+17324 1565326209080 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+  "verticalColumns": false
+}
+Response:+16133
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531971630599,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3e48ff78-2261-4ef0-9c96-3d8eb34bba58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "3e48ff78-2261-4ef0-9c96-3d8eb34bba58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Something like this:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "42731c70-db54-4db9-bff7-d0389fe4ac8c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "42731c70-db54-4db9-bff7-d0389fe4ac8c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531971725532,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One way to narrow down a problem when debugging a test is to add logging with e.g. "
+              ],
+              [
+                "fmt.Printf()",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 733
+        }
+      },
+      "4c862145-0d29-4c9f-9c1c-cc1568f9169c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6678b848-0d05-42be-9ec8-6c0af09aad54",
+            "acd27c24-15d6-412f-bfc5-ebebb8ced3b9",
+            "d7277fb9-ef4c-4ad4-9858-d30c8c901fa7",
+            "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+            "0da2fc25-817d-44b1-bd3d-79308d32c7f6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736826220,
+          "id": "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268200000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2014 (5)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 23
+        }
+      },
+      "546b33b3-b118-474c-b2ef-810a48ce39c8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "546b33b3-b118-474c-b2ef-810a48ce39c8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 12"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "641cb6c4-0f7d-43e3-b975-066be86eb3c8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "641cb6c4-0f7d-43e3-b975-066be86eb3c8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem with this approach is lack of selectivity: imagine you have 100 tests and only 1 test fails. For debugging the issue you only need to see logs when executing that 1 test but you’ll drown in log output from all 100 tests."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a1b29e17-b1f2-4492-b871-5a5058c1a959": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "a1b29e17-b1f2-4492-b871-5a5058c1a959",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "var (\n    verboseLog = false\n)\n\nfunc myCodeWithBugs(s string) {\n    if verboseLog {\n        fmt.Printf(\"s: %s\\n\", s)\n    }\n    ...\n}\n\nfunc TestMyCode(t *testing.T) {\n    var tests = []struct {\n        ... test fields\n        debug bool\n    }{\n        { ..., false }, // without verbose logging\n        { ..., true },  // with verbose logging\n    }\n    for _, test := range tests {\n        verboseLog = test.debug\n        ...\n    }\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My solution: control logging state with global variable "
+              ],
+              [
+                "verboseLog",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and allow toggling this flag per test."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ca323dad-4452-4d7b-8b6b-642e7e862b41": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "546b33b3-b118-474c-b2ef-810a48ce39c8",
+            "fbf105cf-624f-4be4-ac64-4b5072f064ee",
+            "f82635b8-a34c-4052-8e0d-280fef37d308",
+            "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
+            "42731c70-db54-4db9-bff7-d0389fe4ac8c",
+            "641cb6c4-0f7d-43e3-b975-066be86eb3c8",
+            "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2",
+            "3e48ff78-2261-4ef0-9c96-3d8eb34bba58",
+            "a1b29e17-b1f2-4492-b871-5a5058c1a959"
+          ],
+          "copied_from": "dfd3a3c7-1670-40f9-a036-6f87490d8cb0",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996148329,
+          "parent_id": "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tip for per-test verbose logging in Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 28
+        }
+      },
+      "f82635b8-a34c-4052-8e0d-280fef37d308": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "f82635b8-a34c-4052-8e0d-280fef37d308",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming, go"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fbf105cf-624f-4be4-ac64-4b5072f064ee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736828315,
+          "id": "fbf105cf-624f-4be4-ac64-4b5072f064ee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736828315,
+          "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2014-12-03T18:21:29-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b820f0a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:08 GMT"
+  ],
+  "Etag": [
+    "W/\"293e-8UBtCF3pmjEnFacL9L3CfxDfKhw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dfb73fbde1cbe878b5e6e338689556e311565326208; expires=Sat, 08-Aug-20 04:50:08 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

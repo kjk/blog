@@ -1,0 +1,1314 @@
+3563 1565326157947 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+      "table": "block"
+    }
+  ]
+}
+Response:+2414
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ba18c784-4833-4b7a-8dd6-abe1546bc017",
+          "c8129f69-2115-48e9-9c0b-c6374db3ae21",
+          "7a377767-859b-4032-9e91-8ea9857a63e0",
+          "5a28d744-b137-4dec-aa35-5c0675fe16a2",
+          "22b9f045-0701-4a3c-bbc5-fbde0228064b",
+          "8d83d340-46f1-43ed-978e-ed94942e3809",
+          "8052525a-4329-4dae-8d42-86783d22ee2e",
+          "fce6601b-d4b8-4c1e-9f33-551be13c772a",
+          "9998d22b-567f-4865-8adc-18c2448dbfbb",
+          "fd95c02e-7ba0-40da-9d06-7dd79d72dc92",
+          "64f40e24-7546-43e7-a717-8cbefa76bc31",
+          "80a4974f-db94-436e-ad5b-eb2a784e86f4",
+          "37224321-730f-43e6-976d-4fd31f1db7c7",
+          "a3966c94-b559-4319-8838-7406755607b9",
+          "62aae448-f3b0-413c-8396-25e96f5c072d",
+          "dffffe1f-e31d-4336-9ce0-d38201227353",
+          "66519430-dab5-4ddf-bfec-f7eb06b5c8e2",
+          "57175961-04af-411a-9f16-bc040765557a",
+          "8df8b0df-5b87-419b-b045-3a33c8316815",
+          "4b6d19a3-3ae5-4d4d-b220-4c0a90864f77",
+          "e9258701-eaf7-47fb-a392-a9a9a2ddf540",
+          "7576606e-d2d6-4946-b176-c0a11e7eed10",
+          "93d1a6dc-ff83-4071-a01b-ad921eafd9a4",
+          "df4195f1-d358-4c79-9bfb-ad0659dd8ac6",
+          "f9007d7f-cdd7-4f56-92b4-01978c4d90f8",
+          "9e46225d-262d-43a2-a433-eb131101d53d",
+          "8a803a80-118c-4e4e-8348-7b2f0a6bae2e",
+          "f7b73d86-2f46-405f-8144-d3091aa1fb6f",
+          "4f649c26-53e7-4a67-a8c4-18aec6418990",
+          "27eeeb15-4ab2-4caf-a66f-9aef899f9063",
+          "459045e8-2094-47e2-9181-69da89a9d173",
+          "05af5423-bcc6-4edf-a65c-1b65bfd52c33",
+          "deac4c0e-25a4-4829-94ac-d01779901a3b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512370474355,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094679878,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "jpeg"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 71
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a41fa517fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:17 GMT"
+  ],
+  "Etag": [
+    "W/\"6e5-ubLRrDKa7dWoZ8qgseKK4irBACI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d65c42933d2376615d3a04cfe538fb63a1565326157; expires=Sat, 08-Aug-20 04:49:17 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+39211 1565326157949 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+  "verticalColumns": false
+}
+Response:+38020
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "05af5423-bcc6-4edf-a65c-1b65bfd52c33": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094661536,
+          "id": "05af5423-bcc6-4edf-a65c-1b65bfd52c33",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094677055,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://sourceforge.net/p/jpegsnoop/code/HEAD/tree/trunk/JfifDecode.cpp",
+                [
+                  [
+                    "a",
+                    "http://sourceforge.net/p/jpegsnoop/code/HEAD/tree/trunk/JfifDecode.cpp"
+                  ]
+                ]
+              ],
+              [
+                " - a detailed jpeg info util"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "22b9f045-0701-4a3c-bbc5-fbde0228064b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094500188,
+          "id": "22b9f045-0701-4a3c-bbc5-fbde0228064b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094504347,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.jpeg.org/public/jfif.pdf",
+                [
+                  [
+                    "a",
+                    "http://www.jpeg.org/public/jfif.pdf"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "27eeeb15-4ab2-4caf-a66f-9aef899f9063": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094649362,
+          "id": "27eeeb15-4ab2-4caf-a66f-9aef899f9063",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094656178,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://keyj.emphy.de/nanojpeg/",
+                [
+                  [
+                    "a",
+                    "http://keyj.emphy.de/nanojpeg/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "37224321-730f-43e6-976d-4fd31f1db7c7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094545276,
+          "id": "37224321-730f-43e6-976d-4fd31f1db7c7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094552066,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.impulseadventure.com/photo/jpeg-decoder.html",
+                [
+                  [
+                    "a",
+                    "http://www.impulseadventure.com/photo/jpeg-decoder.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "459045e8-2094-47e2-9181-69da89a9d173": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094656914,
+          "id": "459045e8-2094-47e2-9181-69da89a9d173",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094661240,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/thorfdbg/libjpeg",
+                [
+                  [
+                    "a",
+                    "https://github.com/thorfdbg/libjpeg"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "4b6d19a3-3ae5-4d4d-b220-4c0a90864f77": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094583635,
+          "id": "4b6d19a3-3ae5-4d4d-b220-4c0a90864f77",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094588842,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://svn.xiph.org/experimental/giles/jpegdump.c",
+                [
+                  [
+                    "a",
+                    "https://svn.xiph.org/experimental/giles/jpegdump.c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "4f649c26-53e7-4a67-a8c4-18aec6418990": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094644153,
+          "id": "4f649c26-53e7-4a67-a8c4-18aec6418990",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094652520,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/fjcore",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/fjcore"
+                  ]
+                ]
+              ],
+              [
+                "/ - jpeg decoder in c#"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "57175961-04af-411a-9f16-bc040765557a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094570426,
+          "id": "57175961-04af-411a-9f16-bc040765557a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094575401,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.impulseadventure.com/photo/jpeg-decoder.html",
+                [
+                  [
+                    "a",
+                    "http://www.impulseadventure.com/photo/jpeg-decoder.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "5a28d744-b137-4dec-aa35-5c0675fe16a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094496276,
+          "id": "5a28d744-b137-4dec-aa35-5c0675fe16a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094499653,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.ecma-international.org/publications/files/ECMA-TR/TR-098.pdf",
+                [
+                  [
+                    "a",
+                    "http://www.ecma-international.org/publications/files/ECMA-TR/TR-098.pdf"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "62aae448-f3b0-413c-8396-25e96f5c072d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094556835,
+          "id": "62aae448-f3b0-413c-8396-25e96f5c072d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094561513,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://search.cpan.org/dist/Image-MetaData-JPEG/lib/Image/MetaData/JPEG/Structures.pod",
+                [
+                  [
+                    "a",
+                    "http://search.cpan.org/dist/Image-MetaData-JPEG/lib/Image/MetaData/JPEG/Structures.pod"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "64f40e24-7546-43e7-a717-8cbefa76bc31": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094534202,
+          "id": "64f40e24-7546-43e7-a717-8cbefa76bc31",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094539554,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://docs.oracle.com/javase/7/docs/api/javax/imageio/metadata/doc-files/jpeg_metadata.html",
+                [
+                  [
+                    "a",
+                    "http://docs.oracle.com/javase/7/docs/api/javax/imageio/metadata/doc-files/jpeg_metadata.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "66519430-dab5-4ddf-bfec-f7eb06b5c8e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094566331,
+          "id": "66519430-dab5-4ddf-bfec-f7eb06b5c8e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094570185,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.xbdev.net/image_formats/jpeg/tut_jpg/jpeg_prt_1.php",
+                [
+                  [
+                    "a",
+                    "http://www.xbdev.net/image_formats/jpeg/tut_jpg/jpeg_prt_1.php"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "7576606e-d2d6-4946-b176-c0a11e7eed10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094593578,
+          "id": "7576606e-d2d6-4946-b176-c0a11e7eed10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094603935,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.cb1.com/~john/computing/emacs/lisp/graphics/jpeg-mode.el",
+                [
+                  [
+                    "a",
+                    "http://www.cb1.com/~john/computing/emacs/lisp/graphics/jpeg-mode.el"
+                  ]
+                ]
+              ],
+              [
+                " - jpeg parsing as emacs elisp mode"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "7a377767-859b-4032-9e91-8ea9857a63e0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094489796,
+          "id": "7a377767-859b-4032-9e91-8ea9857a63e0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094496044,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.w3.org/Graphics/JPEG/jfif3.pdf",
+                [
+                  [
+                    "a",
+                    "http://www.w3.org/Graphics/JPEG/jfif3.pdf"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "8052525a-4329-4dae-8d42-86783d22ee2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094510022,
+          "id": "8052525a-4329-4dae-8d42-86783d22ee2e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094514410,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://en.wikipedia.org/wiki/JPEG_File_Interchange_Format",
+                [
+                  [
+                    "a",
+                    "http://en.wikipedia.org/wiki/JPEG_File_Interchange_Format"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "80a4974f-db94-436e-ad5b-eb2a784e86f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094539908,
+          "id": "80a4974f-db94-436e-ad5b-eb2a784e86f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094544650,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://en.wikibooks.org/wiki/JPEG_-_Idea_and_Practice/The_header_part",
+                [
+                  [
+                    "a",
+                    "http://en.wikibooks.org/wiki/JPEG_-_Idea_and_Practice/The_header_part"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "8a803a80-118c-4e4e-8348-7b2f0a6bae2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094628408,
+          "id": "8a803a80-118c-4e4e-8348-7b2f0a6bae2e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094639417,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/jpegant/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/jpegant/"
+                  ]
+                ]
+              ],
+              [
+                " - with SSE2"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "8d83d340-46f1-43ed-978e-ed94942e3809": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094504628,
+          "id": "8d83d340-46f1-43ed-978e-ed94942e3809",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094509763,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://en.wikipedia.org/wiki/JPEG",
+                [
+                  [
+                    "a",
+                    "http://en.wikipedia.org/wiki/JPEG"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "8df8b0df-5b87-419b-b045-3a33c8316815": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094575714,
+          "id": "8df8b0df-5b87-419b-b045-3a33c8316815",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094583392,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.csee.umbc.edu/portal/help/sound/jpeg-6b/rdjpgcom.c",
+                [
+                  [
+                    "a",
+                    "http://www.csee.umbc.edu/portal/help/sound/jpeg-6b/rdjpgcom.c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "93d1a6dc-ff83-4071-a01b-ad921eafd9a4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094601105,
+          "id": "93d1a6dc-ff83-4071-a01b-ad921eafd9a4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094615064,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/jpeg-opencl/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/jpeg-opencl/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "9998d22b-567f-4865-8adc-18c2448dbfbb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094521932,
+          "id": "9998d22b-567f-4865-8adc-18c2448dbfbb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094528651,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.imperialviolet.org/binary/jpeg/",
+                [
+                  [
+                    "a",
+                    "https://www.imperialviolet.org/binary/jpeg/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "9e46225d-262d-43a2-a433-eb131101d53d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094623121,
+          "id": "9e46225d-262d-43a2-a433-eb131101d53d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094628184,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/ttjpg/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/ttjpg/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "a3966c94-b559-4319-8838-7406755607b9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094552308,
+          "id": "a3966c94-b559-4319-8838-7406755607b9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094556545,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.fileformat.info/format/jpeg/egff.htm",
+                [
+                  [
+                    "a",
+                    "http://www.fileformat.info/format/jpeg/egff.htm"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "ba18c784-4833-4b7a-8dd6-abe1546bc017": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094483629,
+          "id": "ba18c784-4833-4b7a-8dd6-abe1546bc017",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094485372,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.xbdev.net/image_formats/jpeg/tut_jpg/jpeg_file_layout.php",
+                [
+                  [
+                    "a",
+                    "http://www.xbdev.net/image_formats/jpeg/tut_jpg/jpeg_file_layout.php"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 21
+        }
+      },
+      "c8129f69-2115-48e9-9c0b-c6374db3ae21": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094485621,
+          "id": "c8129f69-2115-48e9-9c0b-c6374db3ae21",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094489563,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://netghost.narod.ru/gff/graphics/summary/jfif.htm",
+                [
+                  [
+                    "a",
+                    "http://netghost.narod.ru/gff/graphics/summary/jfif.htm"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "deac4c0e-25a4-4829-94ac-d01779901a3b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094668410,
+          "id": "deac4c0e-25a4-4829-94ac-d01779901a3b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094675207,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://sourceforge.net/p/jpegsnoop/code/HEAD/tree/trunk/JfifDecode.h",
+                [
+                  [
+                    "a",
+                    "http://sourceforge.net/p/jpegsnoop/code/HEAD/tree/trunk/JfifDecode.h"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "df4195f1-d358-4c79-9bfb-ad0659dd8ac6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094615322,
+          "id": "df4195f1-d358-4c79-9bfb-ad0659dd8ac6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094618816,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/jpeg-codec/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/jpeg-codec/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "dffffe1f-e31d-4336-9ce0-d38201227353": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094561763,
+          "id": "dffffe1f-e31d-4336-9ce0-d38201227353",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094566001,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.sersc.org/journals/IJSIA/vol5_no4_2011/3.pdf",
+                [
+                  [
+                    "a",
+                    "http://www.sersc.org/journals/IJSIA/vol5_no4_2011/3.pdf"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "e9258701-eaf7-47fb-a392-a9a9a2ddf540": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094589090,
+          "id": "e9258701-eaf7-47fb-a392-a9a9a2ddf540",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094596385,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://gist.github.com/mirakui/3735311",
+                [
+                  [
+                    "a",
+                    "https://gist.github.com/mirakui/3735311"
+                  ]
+                ]
+              ],
+              [
+                " - dumps basic structure of jpeg files, in ruby"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "ee0eee35-e706-4e75-9b2f-69d1d03125b2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "88a03a0a-bb8e-489b-aa82-797f15b78c54",
+            "0ed634dd-4821-4ad1-8ba8-ff2bb262e35e",
+            "f2f31f05-558f-4784-87f5-1cefe972d151",
+            "e55eb827-b092-4933-8c83-2c4892ef5108",
+            "eb2fc10d-5893-41f9-82b2-ec8e1978acf5",
+            "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
+            "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+            "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
+            "4ac18b52-d1c4-4261-85d0-d69058ff9a62",
+            "298a5bdd-313d-46ba-947b-3c4197796b2c",
+            "65db085c-d90f-45d2-a271-8f19a7566e1b",
+            "2bcf1198-2d49-48a6-9185-82b06f66eee1",
+            "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
+            "9ffa1c9a-b885-4860-8767-9318db3affdd",
+            "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
+            "202ba373-0e91-4068-a6fc-18b602b1a955"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530068688255,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1538219617432,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "File formats"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 95
+        }
+      },
+      "f45444d1-e56f-4fb4-a2d8-c85c645a3cce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ba18c784-4833-4b7a-8dd6-abe1546bc017",
+            "c8129f69-2115-48e9-9c0b-c6374db3ae21",
+            "7a377767-859b-4032-9e91-8ea9857a63e0",
+            "5a28d744-b137-4dec-aa35-5c0675fe16a2",
+            "22b9f045-0701-4a3c-bbc5-fbde0228064b",
+            "8d83d340-46f1-43ed-978e-ed94942e3809",
+            "8052525a-4329-4dae-8d42-86783d22ee2e",
+            "fce6601b-d4b8-4c1e-9f33-551be13c772a",
+            "9998d22b-567f-4865-8adc-18c2448dbfbb",
+            "fd95c02e-7ba0-40da-9d06-7dd79d72dc92",
+            "64f40e24-7546-43e7-a717-8cbefa76bc31",
+            "80a4974f-db94-436e-ad5b-eb2a784e86f4",
+            "37224321-730f-43e6-976d-4fd31f1db7c7",
+            "a3966c94-b559-4319-8838-7406755607b9",
+            "62aae448-f3b0-413c-8396-25e96f5c072d",
+            "dffffe1f-e31d-4336-9ce0-d38201227353",
+            "66519430-dab5-4ddf-bfec-f7eb06b5c8e2",
+            "57175961-04af-411a-9f16-bc040765557a",
+            "8df8b0df-5b87-419b-b045-3a33c8316815",
+            "4b6d19a3-3ae5-4d4d-b220-4c0a90864f77",
+            "e9258701-eaf7-47fb-a392-a9a9a2ddf540",
+            "7576606e-d2d6-4946-b176-c0a11e7eed10",
+            "93d1a6dc-ff83-4071-a01b-ad921eafd9a4",
+            "df4195f1-d358-4c79-9bfb-ad0659dd8ac6",
+            "f9007d7f-cdd7-4f56-92b4-01978c4d90f8",
+            "9e46225d-262d-43a2-a433-eb131101d53d",
+            "8a803a80-118c-4e4e-8348-7b2f0a6bae2e",
+            "f7b73d86-2f46-405f-8144-d3091aa1fb6f",
+            "4f649c26-53e7-4a67-a8c4-18aec6418990",
+            "27eeeb15-4ab2-4caf-a66f-9aef899f9063",
+            "459045e8-2094-47e2-9181-69da89a9d173",
+            "05af5423-bcc6-4edf-a65c-1b65bfd52c33",
+            "deac4c0e-25a4-4829-94ac-d01779901a3b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512370474355,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094679878,
+          "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "jpeg"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 71
+        }
+      },
+      "f7b73d86-2f46-405f-8144-d3091aa1fb6f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094633243,
+          "id": "f7b73d86-2f46-405f-8144-d3091aa1fb6f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094643920,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/picojpeg/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/picojpeg/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "f9007d7f-cdd7-4f56-92b4-01978c4d90f8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094619066,
+          "id": "f9007d7f-cdd7-4f56-92b4-01978c4d90f8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094622889,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://code.google.com/p/jpeg-compressor/",
+                [
+                  [
+                    "a",
+                    "https://code.google.com/p/jpeg-compressor/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "fce6601b-d4b8-4c1e-9f33-551be13c772a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094514638,
+          "id": "fce6601b-d4b8-4c1e-9f33-551be13c772a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094521659,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.fastgraph.com/help/jpeg_header_format.html",
+                [
+                  [
+                    "a",
+                    "http://www.fastgraph.com/help/jpeg_header_format.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "fd95c02e-7ba0-40da-9d06-7dd79d72dc92": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530094528916,
+          "id": "fd95c02e-7ba0-40da-9d06-7dd79d72dc92",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530094533186,
+          "parent_id": "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.opennet.ru/docs/formats/jpeg.txt",
+                [
+                  [
+                    "a",
+                    "http://www.opennet.ru/docs/formats/jpeg.txt"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a426a807fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:17 GMT"
+  ],
+  "Etag": [
+    "W/\"5a91-0WWFMQCPeCjcNPNrKupwEb1PXTU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d65c42933d2376615d3a04cfe538fb63a1565326157; expires=Sat, 08-Aug-20 04:49:17 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

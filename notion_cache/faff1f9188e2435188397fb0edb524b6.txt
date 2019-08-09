@@ -1,0 +1,1090 @@
+3397 1565326220719 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+      "table": "block"
+    }
+  ]
+}
+Response:+2248
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "cfda10d5-ed70-43b7-a431-d5aeb7483636",
+          "913ff37c-6133-457c-9ed6-4d9f753df36e",
+          "c75f1fd9-5d98-48f7-83dc-96207d764488",
+          "b8b658a7-8390-4f48-883b-6d7fe3f31688",
+          "6bb340b8-43ad-4902-8733-cf0f019ac3bf",
+          "9a24cdc9-3e7a-43dc-8da5-0a04e9cc259d",
+          "40cc7b93-fa45-453b-afd5-2ca9b2bd7543",
+          "6ae6727d-53e7-43ec-98d6-41543c560af3",
+          "1d987144-47c8-4a5a-b6b6-e7ef8e87e475",
+          "b747a24c-fd6b-432d-9bd9-26dabdfea736",
+          "67ccc78e-2fe0-4a8e-8c7f-792de1cfe18c",
+          "cccf3e9d-313d-4fa6-b60a-6850480a94e1",
+          "692480b3-6ff4-48ca-9561-70673be5e36e",
+          "e8c81b0b-504f-44b4-b259-31b4bb86f6f4",
+          "e0ab4e21-54d7-4bf1-b4f1-bdf34660d8de",
+          "f2e6e184-f8ff-4551-9779-a4d221befc2e",
+          "bf18c794-e5ae-4650-8313-4a82cdda7b95",
+          "7adc8830-9169-4579-8ca5-728ff1da6980",
+          "0ffd1ef6-4055-4c32-aa8b-c61b6f4533e1",
+          "2362733c-8dcc-4407-b496-c4346f396620",
+          "90cb57e1-a6c0-40d1-9947-6e93f582d1c4",
+          "c795164d-537c-4250-98e2-b25557493d36",
+          "eb6e635a-1de9-4fa0-8eed-e5245da1eb08",
+          "989b647c-cff0-4080-b5ef-f220c3be063d",
+          "e6e7f727-915c-4d7f-8137-96c457f85fb2",
+          "4af4debe-7ab3-4bb7-bbcc-4e63e008ccab",
+          "1b4cc887-8105-4311-95e4-50c076bff687",
+          "5380b583-04e4-4dd9-838c-44d34bb2dab3"
+        ],
+        "copied_from": "05bba1d2-6366-423e-bd64-fc040e70faee",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736996117,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996226297,
+        "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "XML is really, really slow"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371bca2b4c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:19 GMT"
+  ],
+  "Etag": [
+    "W/\"66c-LW10+ngRW9hylCBnHEgNHYUEb0k\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0a09127df6dd6d75fc5976d800ffe5541565326219; expires=Sat, 08-Aug-20 04:50:19 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+34881 1565326220726 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+  "verticalColumns": false
+}
+Response:+33690
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0ffd1ef6-4055-4c32-aa8b-c61b6f4533e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "0ffd1ef6-4055-4c32-aa8b-c61b6f4533e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Binary XML (EXI) is too little too late"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "1b4cc887-8105-4311-95e4-50c076bff687": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996120,
+          "id": "1b4cc887-8105-4311-95e4-50c076bff687",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996120,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "But solving this problem today is almost comically late. It has no chance of adoption."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1d987144-47c8-4a5a-b6b6-e7ef8e87e475": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "1d987144-47c8-4a5a-b6b6-e7ef8e87e475",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There is much simpler explanation: XML is really, really slow."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2362733c-8dcc-4407-b496-c4346f396620": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "2362733c-8dcc-4407-b496-c4346f396620",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As to the standard itself: don’t pay attention to it. It’s too little, way too late."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "40cc7b93-fa45-453b-afd5-2ca9b2bd7543": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "40cc7b93-fa45-453b-afd5-2ca9b2bd7543",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They’ve achieved over 100-fold performance improvements…"
+              ]
+            ]
+          },
+          "type": "quote",
+          "version": 1
+        }
+      },
+      "4af4debe-7ab3-4bb7-bbcc-4e63e008ccab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996120,
+          "id": "4af4debe-7ab3-4bb7-bbcc-4e63e008ccab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996120,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If W3C came up with EXI 8 years ago, maybe people wouldn’t feel the need to invent Protocol Buffers or Thrift and it would have won."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5380b583-04e4-4dd9-838c-44d34bb2dab3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996120,
+          "id": "5380b583-04e4-4dd9-838c-44d34bb2dab3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996120,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you’re planning to use a custom, binary way of storing XML, using EXI is probably better but there’s no way EXI will become so universally supported as XML and universal support (in software libraries, books etc.) is really the main thing XML has going for it (speed or human-readable syntax, on the other hand, are not XML’s strengths)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "67ccc78e-2fe0-4a8e-8c7f-792de1cfe18c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "67ccc78e-2fe0-4a8e-8c7f-792de1cfe18c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’m somewhat performance oriented in my programming work. One of the reasons I disliked the popularity of XML was that I saw how often it blinded people to engineering realities. Choosing XML was often a reason for dramatic performance issues that then had to be heroically recovered."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "692480b3-6ff4-48ca-9561-70673be5e36e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996118,
+          "id": "692480b3-6ff4-48ca-9561-70673be5e36e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996118,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You cannot get 100x speed up over technology that wasn’t incredibly inefficient to begin with."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6ae6727d-53e7-43ec-98d6-41543c560af3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "6ae6727d-53e7-43ec-98d6-41543c560af3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One way to interpret this is: wow, those guys are really smart."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6bb340b8-43ad-4902-8733-cf0f019ac3bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "6bb340b8-43ad-4902-8733-cf0f019ac3bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s about 8 years late but W3C finally produced a standard for "
+              ],
+              [
+                "efficient XML representation",
+                [
+                  [
+                    "a",
+                    "http://www.readwriteweb.com/archives/new_xml_standard_for_super-fast_lightweight_applic.php"
+                  ]
+                ]
+              ],
+              [
+                ". They call it "
+              ],
+              [
+                "Efficient XML Interchange",
+                [
+                  [
+                    "a",
+                    "http://www.w3.org/TR/2011/REC-exi-20110310/"
+                  ]
+                ]
+              ],
+              [
+                " (EXI). Back in the day we called it simply binary XML."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7adc8830-9169-4579-8ca5-728ff1da6980": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "7adc8830-9169-4579-8ca5-728ff1da6980",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Choosing XML over more efficient ways of storing data is just one, but particularly frequent, example of that rule."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "90cb57e1-a6c0-40d1-9947-6e93f582d1c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "90cb57e1-a6c0-40d1-9947-6e93f582d1c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "About 8 years ago I did my small part in expanding XML capabilities of SQL Server. At the time XML was hot so Oracle, Microsoft, IBM raced to add native XML handling to their databases. It was going to be the next big thing. Possibly even bigger than big."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "913ff37c-6133-457c-9ed6-4d9f753df36e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "913ff37c-6133-457c-9ed6-4d9f753df36e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "989b647c-cff0-4080-b5ef-f220c3be063d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "989b647c-cff0-4080-b5ef-f220c3be063d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There was an eruption of creating standards based on XML (SOAP, XML Schema, XQuery). If you don’t know what those terms mean it’s because they all failed (despite the fact that everyone was convinced they’re going to be the next big thing)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9a24cdc9-3e7a-43dc-8da5-0a04e9cc259d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "9a24cdc9-3e7a-43dc-8da5-0a04e9cc259d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The money quote from the announcement:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b747a24c-fd6b-432d-9bd9-26dabdfea736": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "b747a24c-fd6b-432d-9bd9-26dabdfea736",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Speed comes from architecture"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "b8b658a7-8390-4f48-883b-6d7fe3f31688": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "b8b658a7-8390-4f48-883b-6d7fe3f31688",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bf18c794-e5ae-4650-8313-4a82cdda7b95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "bf18c794-e5ae-4650-8313-4a82cdda7b95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A bigger point is: speed comes from architecture. It’s not that choosing the right architecture will make you dramatically better but choosing the wrong architecture will make you dramatically worse."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c75f1fd9-5d98-48f7-83dc-96207d764488": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "c75f1fd9-5d98-48f7-83dc-96207d764488",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2011-03-10T18:25:56-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c795164d-537c-4250-98e2-b25557493d36": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "c795164d-537c-4250-98e2-b25557493d36",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Trust me, the ridiculous inefficiency of XML wasn’t lost on developers working on XML technologies 8 years ago. Coming up with a more efficient binary XML format is easy. Microsoft had its version (if not several of them) and other companies had theirs."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cccf3e9d-313d-4fa6-b60a-6850480a94e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "cccf3e9d-313d-4fa6-b60a-6850480a94e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those performance problems were, however, mostly self inflicted. XML is only one of the possible ways to store or exchange data but it certainly is one of the slowest."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cfda10d5-ed70-43b7-a431-d5aeb7483636": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "id": "cfda10d5-ed70-43b7-a431-d5aeb7483636",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996117,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 424001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86f1e3f8-c08c-4554-98f2-8cfb464398a4",
+            "f1fcdd01-b2dd-4794-a7af-3b00eebda21e",
+            "4b52129c-080e-4159-aebe-3e510d4b81d2",
+            "f5652f25-3b4d-4dc0-bb99-c673ca61b977",
+            "be153e27-1136-4bf0-a5d3-c65c2085db09",
+            "a8d20cf4-69be-48fd-b305-44e34a281704",
+            "0aaab80b-35fb-473e-af08-3c5c3f13b829",
+            "d0c12a9a-f1c5-4726-bfa4-502c41161763",
+            "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+            "c1ce4215-5b65-4edd-afa0-63e314119f75",
+            "1e14f055-b2ea-4ec9-b451-ed64f38732ac",
+            "99d0b424-dc31-47da-86f3-4388e6b933e1",
+            "1287e403-5c29-436b-9f4a-249a433ceff5",
+            "faff1f91-88e2-4351-8839-7fb0edb524b6",
+            "d3c4a006-1407-4f16-a096-fa084233dfdd",
+            "171e0029-5b7c-4f69-aedc-8dfbb1082f63",
+            "07cab082-7c10-4439-b356-31396c3c99ed",
+            "465ee96a-4544-410f-9c87-9338e179890b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736995601,
+          "id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2011 (17)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      },
+      "e0ab4e21-54d7-4bf1-b4f1-bdf34660d8de": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "e0ab4e21-54d7-4bf1-b4f1-bdf34660d8de",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "XML isn’t such a hot buzzword anymore so I don’t see that problem as often but I still do see it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e6e7f727-915c-4d7f-8137-96c457f85fb2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "e6e7f727-915c-4d7f-8137-96c457f85fb2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In hindsight it was a terrible mistake to work on those big standards of speculative value but not solve a real problem people already had: an efficient, binary, standard format for storing XML."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e8c81b0b-504f-44b4-b259-31b4bb86f6f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "e8c81b0b-504f-44b4-b259-31b4bb86f6f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sometimes you don’t have the choice (when you have to inter-operate with systems that only offer XML) but I’ve seen many cases where people did have the choice and made the wrong one."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "eb6e635a-1de9-4fa0-8eed-e5245da1eb08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "eb6e635a-1de9-4fa0-8eed-e5245da1eb08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The real problem was: politics prevented people agreeing on a standard so no standard emerged."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f2e6e184-f8ff-4551-9779-a4d221befc2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996119,
+          "id": "f2e6e184-f8ff-4551-9779-a4d221befc2e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736996119,
+          "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For example, more than one text editor decided to store the syntax highlighter definitions as XML while it can be trivially stored in simple text format that can be parsed much faster, using less memory and, as a bonus, can actually be edited by human beings."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "faff1f91-88e2-4351-8839-7fb0edb524b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "cfda10d5-ed70-43b7-a431-d5aeb7483636",
+            "913ff37c-6133-457c-9ed6-4d9f753df36e",
+            "c75f1fd9-5d98-48f7-83dc-96207d764488",
+            "b8b658a7-8390-4f48-883b-6d7fe3f31688",
+            "6bb340b8-43ad-4902-8733-cf0f019ac3bf",
+            "9a24cdc9-3e7a-43dc-8da5-0a04e9cc259d",
+            "40cc7b93-fa45-453b-afd5-2ca9b2bd7543",
+            "6ae6727d-53e7-43ec-98d6-41543c560af3",
+            "1d987144-47c8-4a5a-b6b6-e7ef8e87e475",
+            "b747a24c-fd6b-432d-9bd9-26dabdfea736",
+            "67ccc78e-2fe0-4a8e-8c7f-792de1cfe18c",
+            "cccf3e9d-313d-4fa6-b60a-6850480a94e1",
+            "692480b3-6ff4-48ca-9561-70673be5e36e",
+            "e8c81b0b-504f-44b4-b259-31b4bb86f6f4",
+            "e0ab4e21-54d7-4bf1-b4f1-bdf34660d8de",
+            "f2e6e184-f8ff-4551-9779-a4d221befc2e",
+            "bf18c794-e5ae-4650-8313-4a82cdda7b95",
+            "7adc8830-9169-4579-8ca5-728ff1da6980",
+            "0ffd1ef6-4055-4c32-aa8b-c61b6f4533e1",
+            "2362733c-8dcc-4407-b496-c4346f396620",
+            "90cb57e1-a6c0-40d1-9947-6e93f582d1c4",
+            "c795164d-537c-4250-98e2-b25557493d36",
+            "eb6e635a-1de9-4fa0-8eed-e5245da1eb08",
+            "989b647c-cff0-4080-b5ef-f220c3be063d",
+            "e6e7f727-915c-4d7f-8137-96c457f85fb2",
+            "4af4debe-7ab3-4bb7-bbcc-4e63e008ccab",
+            "1b4cc887-8105-4311-95e4-50c076bff687",
+            "5380b583-04e4-4dd9-838c-44d34bb2dab3"
+          ],
+          "copied_from": "05bba1d2-6366-423e-bd64-fc040e70faee",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736996117,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996226297,
+          "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "XML is really, really slow"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bca9bcb7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:19 GMT"
+  ],
+  "Etag": [
+    "W/\"58f4-24TCT34k7v8mUi3/7JRmZ/XSh5k\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0a09127df6dd6d75fc5976d800ffe5541565326219; expires=Sat, 08-Aug-20 04:50:19 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

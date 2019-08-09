@@ -1,0 +1,881 @@
+2719 1565326133295 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+      "table": "block"
+    }
+  ]
+}
+Response:+1570
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "62b208f3-e1b4-47ac-9b7d-cee3cc769792",
+          "3355dc8f-e445-43f3-b1f8-e4987ec21ea3",
+          "9ce19161-5a61-408b-be05-b42b9755331d",
+          "14084e6d-e362-4d29-9b85-72bde078df88",
+          "bdd1c218-2222-4ec8-babc-24f5f8c5252b",
+          "70096f01-7911-49c4-b2dd-4fcfd8930632",
+          "644c729b-5463-4de7-8cae-58721d0eb4f4",
+          "e2b021b2-493b-417c-b720-7790a8aa5a4d",
+          "e5d8536c-df8c-4836-82c3-3bdeba35b08e",
+          "02ebfa89-5dea-4227-8dee-03d45ff77f5e",
+          "ede21da9-ba06-4e6d-9c16-b5a3c0775966",
+          "1902f65b-bb3a-4b09-aa1c-5af5984817e5",
+          "2577a859-1701-4992-a2be-1522e923f305",
+          "b0d48b3f-df0d-4297-8c27-9397ccf842af",
+          "19c5bc63-e96f-4a00-8550-ddf3ab368184",
+          "1bccc84a-14ed-4947-90df-18096f1adc32"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511055631497,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529120456638,
+        "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "wine on mac"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 6
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719a7ba627fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:52 GMT"
+  ],
+  "Etag": [
+    "W/\"454-gN/EZyZyIvfWh81Utb4wE2GQaiA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d50531b711a78b119d573b2f353acdc521565326132; expires=Sat, 08-Aug-20 04:48:52 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+30157 1565326133296 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+  "verticalColumns": false
+}
+Response:+28966
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "02ebfa89-5dea-4227-8dee-03d45ff77f5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055895038,
+          "id": "02ebfa89-5dea-4227-8dee-03d45ff77f5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055895038,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I also tried latest CrossOver, but it has infuriating UI."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "14084e6d-e362-4d29-9b85-72bde078df88": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055771659,
+          "id": "14084e6d-e362-4d29-9b85-72bde078df88",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055771659,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "brew install winetricks",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "1902f65b-bb3a-4b09-aa1c-5af5984817e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511056061420,
+          "id": "1902f65b-bb3a-4b09-aa1c-5af5984817e5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511056061420,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Wine on mac has 2 display drivers: native and using x11."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "19c5bc63-e96f-4a00-8550-ddf3ab368184": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511057624067,
+          "id": "19c5bc63-e96f-4a00-8550-ddf3ab368184",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511057624067,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you install xquartz you can switch the driver with "
+              ],
+              [
+                "winetricks macdriver=x11",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  (and switch back with "
+              ],
+              [
+                "winetrics macdriver=mac",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "1bccc84a-14ed-4947-90df-18096f1adc32": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511060381893,
+          "id": "1bccc84a-14ed-4947-90df-18096f1adc32",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511060381893,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Javascript"
+              ]
+            ],
+            "title": [
+              [
+                "alldlls=builtin          Override most common DLLs to builtin\nalldlls=default          Remove all DLL overrides\nao=disabled              Disable AlwaysOffscreen (default)\nao=enabled               Enable AlwaysOffscreen\nbad                      Fake verb that always returns false\ncfc=disable              Disable CheckFloatConstants (default)\ncfc=enabled              Enable CheckFloatConstants\ncsmt=off                 Disable Command Stream Multithreading (default)\ncsmt=on                  Enable Command Stream Multithreading\nddr=gdi                  Set DirectDrawRenderer to gdi\nddr=opengl               Set DirectDrawRenderer to opengl\nfontfix                  Check for broken fonts\nfontsmooth=bgr           Enable subpixel font smoothing for BGR LCDs\nfontsmooth=disable       Disable font smoothing\nfontsmooth=gray          Enable subpixel font smoothing\nfontsmooth=rgb           Enable subpixel font smoothing for RGB LCDs\nforcemono                Force using Mono instead of .NET (for debugging)\nglsl=disabled            Disable GLSL shaders, use ARB shaders (faster, but sometimes breaks)\nglsl=enabled             Enable GLSL shaders (default)\ngood                     Fake verb that always returns true\ngrabfullscreen=n         Disable cursor clipping for full-screen windows (default)\ngrabfullscreen=y         Force cursor clipping for full-screen windows (needed by some games)\ngsm=0                    Set MaxShaderModelGS to 0\ngsm=1                    Set MaxShaderModelGS to 1\ngsm=2                    Set MaxShaderModelGS to 2\ngsm=3                    Set MaxShaderModelGS to 3\nheapcheck                Enable heap checking with GlobalFlag\nhidewineexports=disable  Disable hiding Wine exports from applications (wine-staging)\nhidewineexports=enable   Enable hiding Wine exports from applications (wine-staging)\nhosts                    Add empty C:\\windows\\system32\\drivers\\etc\\{hosts,services} files\nmacdriver=mac            Enable the Mac native Quartz driver (default)\nmacdriver=x11            Disable the Mac native Quartz driver, use X11 instead\nmultisampling=disabled   Disable Direct3D multisampling\nmultisampling=enabled    Enable Direct3D multisampling\nmwo=disable              Set DirectInput MouseWarpOverride to disable\nmwo=enabled              Set DirectInput MouseWarpOverride to enabled (default)\nmwo=force                Set DirectInput MouseWarpOverride to force (needed by some games)\nnative_mdac              Override odbc32, odbccp32 and oledb32\nnative_oleaut32          Override oleaut32\nnocrashdialog            Disable crash dialog\nnpm=repack               Set NonPower2Mode to repack\nnt40                     Set windows version to Windows NT 4.0\norm=backbuffer           Set OffscreenRenderingMode=backbuffer\norm=fbo                  Set OffscreenRenderingMode=fbo (default)\npsm=0                    Set MaxShaderModelPS to 0\npsm=1                    Set MaxShaderModelPS to 1\npsm=2                    Set MaxShaderModelPS to 2\npsm=3                    Set MaxShaderModelPS to 3\nremove_mono              Remove builtin wine-mono\nrtlm=auto                Set RenderTargetLockMode to auto (default)\nrtlm=disabled            Set RenderTargetLockMode to disabled\nrtlm=readdraw            Set RenderTargetLockMode to readdraw\nrtlm=readtex             Set RenderTargetLockMode to readtex\nrtlm=texdraw             Set RenderTargetLockMode to texdraw\nrtlm=textex              Set RenderTargetLockMode to textex\nsandbox                  Sandbox the wineprefix - remove links to /Users/kjk\nsound=alsa               Set sound driver to ALSA\nsound=coreaudio          Set sound driver to Mac CoreAudio\nsound=disabled           Set sound driver to disabled\nsound=oss                Set sound driver to OSS\nsound=pulse              Set sound driver to PulseAudio\nstrictdrawordering=disabled Disable StrictDrawOrdering (default)\nstrictdrawordering=enabled Enable StrictDrawOrdering\nvd=1024x768              Enable virtual desktop, set size to 1024x768\nvd=1280x1024             Enable virtual desktop, set size to 1280x1024\nvd=1440x900              Enable virtual desktop, set size to 1440x900\nvd=640x480               Enable virtual desktop, set size to 640x480\nvd=800x600               Enable virtual desktop, set size to 800x600\nvd=off                   Disable virtual desktop\nvideomemorysize=1024     Tell Wine your video card has 1024MB RAM\nvideomemorysize=2048     Tell Wine your video card has 2048MB RAM\nvideomemorysize=512      Tell Wine your video card has 512MB RAM\nvideomemorysize=default  Let Wine detect amount of video card memory\nvista                    Set Windows version to Windows Vista\nvsm=0                    Set MaxShaderModelVS to 0\nvsm=1                    Set MaxShaderModelVS to 1\nvsm=2                    Set MaxShaderModelVS to 2\nvsm=3                    Set MaxShaderModelVS to 3\nwin10                    Set Windows version to Windows 10\nwin2k                    Set Windows version to Windows 2000\nwin2k3                   Set Windows version to Windows 2003\nwin2k8                   Set Windows version to Windows 2008 R2\nwin31                    Set Windows version to Windows 3.1\nwin7                     Set Windows version to Windows 7\nwin8                     Set Windows version to Windows 8\nwin81                    Set Windows version to Windows 8.1\nwin95                    Set Windows version to Windows 95\nwin98                    Set Windows version to Windows 98\nwindowmanagerdecorated=n Prevent the window manager from decorating windows\nwindowmanagerdecorated=y Allow the window manager to decorate windows (default)\nwindowmanagermanaged=n   Prevent the window manager from controlling windows\nwindowmanagermanaged=y   Allow the window manager to control windows (default)\nwinver=                  Set Windows version to default (win7)\nwinxp                    Set Windows version to Windows XP"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "2577a859-1701-4992-a2be-1522e923f305": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511057201086,
+          "id": "2577a859-1701-4992-a2be-1522e923f305",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511057201086,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Native is used by default. We installed wine with "
+              ],
+              [
+                "--without-x11",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  flag to disable x11 display driver completely. Without that wine will insist on installing x11 server (either via "
+              ],
+              [
+                "brew cask install xquartz",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  or from "
+              ],
+              [
+                "https://www.xquartz.org/",
+                [
+                  [
+                    "a",
+                    "https://www.xquartz.org/"
+                  ]
+                ]
+              ],
+              [
+                ")."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "3355dc8f-e445-43f3-b1f8-e4987ec21ea3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511070780578,
+          "id": "3355dc8f-e445-43f3-b1f8-e4987ec21ea3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511070780578,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "brew cask install xquartz",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "62b208f3-e1b4-47ac-9b7d-cee3cc769792": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055646154,
+          "id": "62b208f3-e1b4-47ac-9b7d-cee3cc769792",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055646154,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To install: "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "644c729b-5463-4de7-8cae-58721d0eb4f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511057677894,
+          "id": "644c729b-5463-4de7-8cae-58721d0eb4f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511057677894,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "to get all config options, run "
+              ],
+              [
+                "winetricks settings list",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "70096f01-7911-49c4-b2dd-4fcfd8930632": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511056930757,
+          "id": "70096f01-7911-49c4-b2dd-4fcfd8930632",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511056930757,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "winetricks fontsmooth=bgr",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  ("
+              ],
+              [
+                "winetricks fontsmooth=rgb",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  worked just as well). This part is essential. Without it, the font display is truly awful."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "9ce19161-5a61-408b-be05-b42b9755331d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055702032,
+          "id": "9ce19161-5a61-408b-be05-b42b9755331d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055702032,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "brew install wine",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "ae389859-fcfe-4b73-9187-6decbe1aab54": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "62b208f3-e1b4-47ac-9b7d-cee3cc769792",
+            "3355dc8f-e445-43f3-b1f8-e4987ec21ea3",
+            "9ce19161-5a61-408b-be05-b42b9755331d",
+            "14084e6d-e362-4d29-9b85-72bde078df88",
+            "bdd1c218-2222-4ec8-babc-24f5f8c5252b",
+            "70096f01-7911-49c4-b2dd-4fcfd8930632",
+            "644c729b-5463-4de7-8cae-58721d0eb4f4",
+            "e2b021b2-493b-417c-b720-7790a8aa5a4d",
+            "e5d8536c-df8c-4836-82c3-3bdeba35b08e",
+            "02ebfa89-5dea-4227-8dee-03d45ff77f5e",
+            "ede21da9-ba06-4e6d-9c16-b5a3c0775966",
+            "1902f65b-bb3a-4b09-aa1c-5af5984817e5",
+            "2577a859-1701-4992-a2be-1522e923f305",
+            "b0d48b3f-df0d-4297-8c27-9397ccf842af",
+            "19c5bc63-e96f-4a00-8550-ddf3ab368184",
+            "1bccc84a-14ed-4947-90df-18096f1adc32"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055631497,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1529120456638,
+          "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "wine on mac"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 6
+        }
+      },
+      "b0d48b3f-df0d-4297-8c27-9397ccf842af": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511057518900,
+          "id": "b0d48b3f-df0d-4297-8c27-9397ccf842af",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511057518900,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I don't know which driver is better."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "bdd1c218-2222-4ec8-babc-24f5f8c5252b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511056927523,
+          "id": "bdd1c218-2222-4ec8-babc-24f5f8c5252b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511056927523,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Configure wine:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "e2b021b2-493b-417c-b720-7790a8aa5a4d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055863829,
+          "id": "e2b021b2-493b-417c-b720-7790a8aa5a4d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055863829,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To run an executable: "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+            "f511e438-4d54-4bf4-9b99-deee90438992",
+            "79f8d68c-67a7-47fb-93bf-88a868e85c36",
+            "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+            "7097d0b0-6616-4177-9ea3-5929049be1c4",
+            "c35e671a-9211-44dd-97e7-71325c4f8c61",
+            "bf1261dd-c29f-49de-9a9b-49611911a6da",
+            "a518f0ec-d095-42b1-9aea-4034849fa37e",
+            "184e6d93-e489-4448-b837-9241accf6bda",
+            "16159d4a-d712-4326-8165-c72f4cfe4eec",
+            "4653fe6a-59f2-4002-bac1-2abba014e77e",
+            "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+            "5749be0d-4e27-4e61-99a5-d9de82cb57f8",
+            "c174875e-f8e4-4d6f-b149-4ae10bd5a33c",
+            "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+            "ed889e66-a03b-4980-afe1-e1578ab522e5",
+            "de6b4f3a-a858-466f-9771-6be86ae0a9d4",
+            "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+            "9d802f54-65d3-4881-8445-c46ba6c7202c",
+            "a6bfde90-c3d5-479b-9c38-85dcb126dea0",
+            "ef11ef21-0f07-45d9-b473-2de7b8563a2a",
+            "896a9d12-f40c-44da-924b-b4979993cef3",
+            "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+            "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
+            "e7b071b3-6bfc-4eaa-aa7c-897f19153802",
+            "e9c202dd-9c5a-4e46-b2da-9c492c12ce9d",
+            "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+            "61ad39c0-e049-4818-92ff-7420fa27a390",
+            "ae389859-fcfe-4b73-9187-6decbe1aab54",
+            "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
+            "1b61c073-c94e-46ed-b1f6-e3cb1b4bad4e",
+            "1154caf2-d6b8-430a-83a6-80be9d0a340c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 143
+        }
+      },
+      "e5d8536c-df8c-4836-82c3-3bdeba35b08e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511055876633,
+          "id": "e5d8536c-df8c-4836-82c3-3bdeba35b08e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511055876633,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "wine regedit",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "  or "
+              ],
+              [
+                "wine ~/Downloads/SumatraPDF.exe",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "ede21da9-ba06-4e6d-9c16-b5a3c0775966": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1511057051684,
+          "id": "ede21da9-ba06-4e6d-9c16-b5a3c0775966",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1511057051684,
+          "parent_id": "ae389859-fcfe-4b73-9187-6decbe1aab54",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719a85ac07fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:52 GMT"
+  ],
+  "Etag": [
+    "W/\"4d9f-3KO9BmovlY0j379CpGGia7reWoo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d50531b711a78b119d573b2f353acdc521565326132; expires=Sat, 08-Aug-20 04:48:52 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

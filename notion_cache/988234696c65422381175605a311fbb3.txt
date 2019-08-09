@@ -1,0 +1,1110 @@
+3477 1565326197728 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "98823469-6c65-4223-8117-5605a311fbb3",
+      "table": "block"
+    }
+  ]
+}
+Response:+2328
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "e1c0df88-5243-4995-83a3-3603badcd79d",
+          "c2062e80-763f-4f6f-8064-af694f193a3b",
+          "09d82cbb-c176-480c-a2eb-c4663958cd96",
+          "1b3bfd7f-be19-49a8-8f73-ec3420b378ef",
+          "bd21f7d1-9e57-412c-a4e7-cf367453003c",
+          "38bf2868-31e9-4071-93fc-686444848b0d",
+          "e1f6c2f4-4d70-4834-8873-319b76743ebe",
+          "531d2ed5-0b10-4b73-8304-b8712f368daa",
+          "020eeb38-a2ea-43aa-b693-dd274cb1f3a3",
+          "0c6b5775-72de-4239-ba86-21815b247dd6",
+          "b62dc4c2-d643-44b5-ad3d-17473b7968ca",
+          "711c894e-69fd-4862-9e5d-66d1bd56496c",
+          "4619c81c-6134-4fcd-b4c6-08edcd80ef48",
+          "4d5a38e4-e4c8-4fa7-9c14-ba882e52db65",
+          "ee1ccc30-0650-4143-99a2-6a1f6930182c",
+          "3b3a5f86-4fd4-4836-8fec-daf4d9a98b57",
+          "ccc7872f-af98-48bc-9f45-7bb87312d6e2",
+          "ba49af77-ddaa-4659-985e-d98ad9a770c9",
+          "3f924eb3-cb87-4828-9f70-e24523070602",
+          "92683277-6ce2-46e8-bbff-7459a73fa1cd",
+          "f4ed3edb-27d6-4dd6-815c-05a3095ba673",
+          "b29eb86a-04a2-4714-b97c-4649fe62d7a2",
+          "f3e6810c-e8aa-4e9a-8b2e-1c19ddcd7247",
+          "78f0c33e-7113-4bd8-95d2-5dcdc7f81bb7",
+          "d219c963-81a3-4c63-8fe8-e91f98bc2991",
+          "a820dbae-c5c0-49a5-bc24-15c9173c52d6",
+          "88e74dbc-c636-48af-9265-425a929248ce",
+          "24611bf2-c5f7-4a9e-89b7-0f82ec9bf119",
+          "23fca1e2-be09-47ba-87b4-68279e304fee"
+        ],
+        "copied_from": "4e84b793-d4a9-4aa2-85d7-daf668c1788a",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923170,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "98823469-6c65-4223-8117-5605a311fbb3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996353736,
+        "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Google App Engine - the first Internet operating system"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b3a9b6f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:56 GMT"
+  ],
+  "Etag": [
+    "W/\"6b1-iH52/vjzZuDRuPovus7Fg5lQpMk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d45b43692d8ad970c3e2e3ea41e1cddca1565326196; expires=Sat, 08-Aug-20 04:49:56 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+38896 1565326197730 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "98823469-6c65-4223-8117-5605a311fbb3",
+  "verticalColumns": false
+}
+Response:+37705
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "020eeb38-a2ea-43aa-b693-dd274cb1f3a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "020eeb38-a2ea-43aa-b693-dd274cb1f3a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "But now I have another choice: I could move my blog to Google’s data center. Hard to beat reliability, no overselling tricks that Dreamhost (and many others) use and their free plan is more than generous to host a website (on a good day I have 3 thousand visitors, which adds up to 90 thousand per month - plenty of room to grow until I reach Google’s estimated 5 million cap)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "09d82cbb-c176-480c-a2eb-c4663958cd96": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "09d82cbb-c176-480c-a2eb-c4663958cd96",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2008-04-08T01:59:26-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0c6b5775-72de-4239-ba86-21815b247dd6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "0c6b5775-72de-4239-ba86-21815b247dd6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The free plan is more than generous for many, many people. Need a website for your small company? Host it on GAE for free. Need a blog? Host it on GAE for free (and you don’t even need to show ads). Need a website for your free software project? Host it on GAE for free."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1b3bfd7f-be19-49a8-8f73-ec3420b378ef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "1b3bfd7f-be19-49a8-8f73-ec3420b378ef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "23fca1e2-be09-47ba-87b4-68279e304fee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "23fca1e2-be09-47ba-87b4-68279e304fee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those are indeed exciting times and I almost wish I lived in the future, when I can get my hands on non-beta version of GAE."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "24611bf2-c5f7-4a9e-89b7-0f82ec9bf119": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "24611bf2-c5f7-4a9e-89b7-0f82ec9bf119",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’m sure that Microsoft works on a similar platform - they used to be the kings of the platform so they should understand what the right model is, but Google not only is first to market but their willingness to be a loss leader might throw a wrench into Microsoft’s plans. I doubt they factored hosting small fish for free into their plans."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "38bf2868-31e9-4071-93fc-686444848b0d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "38bf2868-31e9-4071-93fc-686444848b0d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’ve read "
+              ],
+              [
+                "all of the commentary",
+                [
+                  [
+                    "a",
+                    "http://www.techmeme.com/080407/p133#a080407p133"
+                  ]
+                ]
+              ],
+              [
+                " on Google App Engine and most people agree: it’s a competition for Amazon’s AWS. Or a copy-cat."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3b3a5f86-4fd4-4836-8fec-daf4d9a98b57": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "3b3a5f86-4fd4-4836-8fec-daf4d9a98b57",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They have a very comfortable business: those days hosting a blog, a wiki, a chatroom costs pennies per user per month and they charge several dollars. Sign up few thousands paying customers and you have steady revenue flow and plenty of money to subsidize basic free accounts and work only 4 days a week. But why would I pay 37signals $12/month for Campfire if I could install a Campfire-like application on GAE OS, for free and with full control over my data (as opposed to believing that 37signals will not abuse my data)?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3f924eb3-cb87-4828-9f70-e24523070602": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "3f924eb3-cb87-4828-9f70-e24523070602",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Since GAE is really an operating system, how can people make money? Shrink-wrapped software. I could, for example, write MBE (the Mother of all Blog Engines) and sell it for a fixed price to people so that they can run their own copy on Google’s machines.\nGranted, this probably won’t happen because open source is the norm in web apps and the norm has a way of perpetuating itself."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4619c81c-6134-4fcd-b4c6-08edcd80ef48": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "4619c81c-6134-4fcd-b4c6-08edcd80ef48",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That’s why it is the first, true Internet operating system. It provides a set of services for running an application just as Windows provides set of services for running applications."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4d5a38e4-e4c8-4fa7-9c14-ba882e52db65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "4d5a38e4-e4c8-4fa7-9c14-ba882e52db65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "An application written to GAE is like a software package and individuals can run their own copies of those software packages on Google’s machines."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "531d2ed5-0b10-4b73-8304-b8712f368daa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "531d2ed5-0b10-4b73-8304-b8712f368daa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Currently I pay The Planet $150/month to lease a decent server. It’s all mine but all I really use it for is my WordPress-based blog and 2 minor websites. Yes, I overpay, I could move to a low-end web host for tens of dollars per month."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "711c894e-69fd-4862-9e5d-66d1bd56496c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "711c894e-69fd-4862-9e5d-66d1bd56496c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Pretty much anything you can do on a low-end webhost you can also do on Google App Engine. I’m pretty sure we’ll quickly see a number of applications like blogs, wikis etc. written to GAE and people will be able to run their own copy of the app in Google’s cloud."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "78f0c33e-7113-4bd8-95d2-5dcdc7f81bb7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "78f0c33e-7113-4bd8-95d2-5dcdc7f81bb7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can expect renewed interest in improving on old ideas. There will be multiple blog engines competing for your attention, all with the same ease of installation. Today there’s little point in writing a new blog engine becuase it’s a lot of work and few big aggregators took the market."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "88e74dbc-c636-48af-9265-425a929248ce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "88e74dbc-c636-48af-9265-425a929248ce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GAE will create a market for deployable apps and where’s the demand, there’ll be supply.\nEverybody is focused on the startup angle of GAE - how it will enable easy scalability for new web services but I think they’re all missing the point (and therefore I’m smarter than everybody else). I say that GAE will be much bigger as a service for running personal applications like blogs, websites, wikis etc. (assuming that Google will remain as generous as they are now with their free plan)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "92683277-6ce2-46e8-bbff-7459a73fa1cd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "92683277-6ce2-46e8-bbff-7459a73fa1cd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In a way it’s all possible today: I can download a copy of WordPress and run it on a host of my choice, but, coming back to PC analogy, it is as if I had to assemble my own computer from parts and install an OS customized to that application in order to run.\nWith current approach the language of the application is given (e.g. PHP + MySQL or Python + SQLite or Ruby + PostgreSQL) and I have to assemble environment to run the app. That is a major pain in the ass."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "98823469-6c65-4223-8117-5605a311fbb3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e1c0df88-5243-4995-83a3-3603badcd79d",
+            "c2062e80-763f-4f6f-8064-af694f193a3b",
+            "09d82cbb-c176-480c-a2eb-c4663958cd96",
+            "1b3bfd7f-be19-49a8-8f73-ec3420b378ef",
+            "bd21f7d1-9e57-412c-a4e7-cf367453003c",
+            "38bf2868-31e9-4071-93fc-686444848b0d",
+            "e1f6c2f4-4d70-4834-8873-319b76743ebe",
+            "531d2ed5-0b10-4b73-8304-b8712f368daa",
+            "020eeb38-a2ea-43aa-b693-dd274cb1f3a3",
+            "0c6b5775-72de-4239-ba86-21815b247dd6",
+            "b62dc4c2-d643-44b5-ad3d-17473b7968ca",
+            "711c894e-69fd-4862-9e5d-66d1bd56496c",
+            "4619c81c-6134-4fcd-b4c6-08edcd80ef48",
+            "4d5a38e4-e4c8-4fa7-9c14-ba882e52db65",
+            "ee1ccc30-0650-4143-99a2-6a1f6930182c",
+            "3b3a5f86-4fd4-4836-8fec-daf4d9a98b57",
+            "ccc7872f-af98-48bc-9f45-7bb87312d6e2",
+            "ba49af77-ddaa-4659-985e-d98ad9a770c9",
+            "3f924eb3-cb87-4828-9f70-e24523070602",
+            "92683277-6ce2-46e8-bbff-7459a73fa1cd",
+            "f4ed3edb-27d6-4dd6-815c-05a3095ba673",
+            "b29eb86a-04a2-4714-b97c-4649fe62d7a2",
+            "f3e6810c-e8aa-4e9a-8b2e-1c19ddcd7247",
+            "78f0c33e-7113-4bd8-95d2-5dcdc7f81bb7",
+            "d219c963-81a3-4c63-8fe8-e91f98bc2991",
+            "a820dbae-c5c0-49a5-bc24-15c9173c52d6",
+            "88e74dbc-c636-48af-9265-425a929248ce",
+            "24611bf2-c5f7-4a9e-89b7-0f82ec9bf119",
+            "23fca1e2-be09-47ba-87b4-68279e304fee"
+          ],
+          "copied_from": "4e84b793-d4a9-4aa2-85d7-daf668c1788a",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996353736,
+          "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Google App Engine - the first Internet operating system"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "a820dbae-c5c0-49a5-bc24-15c9173c52d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "a820dbae-c5c0-49a5-bc24-15c9173c52d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "When each app will be incredibly easy to install, more people will do it and apps will be competing on their looks. Barrier to experimentation and creating new variations will be dramatically lowered."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b29eb86a-04a2-4714-b97c-4649fe62d7a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "b29eb86a-04a2-4714-b97c-4649fe62d7a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GAE is revolutionary because it provides a standardized environment for running applications and standardized OS leads to explosion of available applications. Compare number of apps on Windows with number of apps on fragmented Unix variants."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b62dc4c2-d643-44b5-ad3d-17473b7968ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "b62dc4c2-d643-44b5-ad3d-17473b7968ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I don’t think that’s exactly what Google had in mind but after skimming terms of service I don’t see anything that says “you shall not host your personal websites”."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba2e39ae-fb47-4fc7-9d89-54d8f734476f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6304b86f-fe53-42a2-bed0-07f2563a4230",
+            "197b2814-2034-48cb-933f-f05432e01d81",
+            "5fb4c6fe-33ef-4f43-9223-22abe598d008",
+            "8224bdb4-0545-4a86-ad7a-8659a8d50b50",
+            "16a651dd-4b01-4b73-8974-befd23ffe539",
+            "71497e6c-49d5-4fcc-889e-1b39fdd453da",
+            "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
+            "6568863d-9f85-4eca-ae74-28d2d86e9d34",
+            "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+            "e06c81e6-7666-490c-989b-7e7aeab8225c",
+            "1cf51fe5-cc69-42e8-b43b-31049aebe333",
+            "b15f453e-1878-4f56-8b35-0944b082dc5e",
+            "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
+            "98823469-6c65-4223-8117-5605a311fbb3",
+            "2c61a22c-b459-4d43-8cb0-9f81dd8584ff",
+            "c822c83a-86b9-4e23-b9ff-8ddb89aa6e33",
+            "2457a729-f4b0-482e-b2ea-6b2cd4de7cf9",
+            "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+            "f2b15335-f9b7-4eab-a7b5-b084ff1b1bbb",
+            "b62ca976-a51d-4708-a65f-c676b1d55058",
+            "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
+            "e61f8b9a-55ee-4bde-8f9f-c6e86105a422",
+            "c26d8fef-5360-4830-8f6b-af20da67cbe2",
+            "cce783d8-887e-48e6-abeb-aee06b0a074a",
+            "24ce1b6e-ffe0-43d1-8493-61ba8524642b",
+            "723d09e3-6e85-4ba0-a706-1a36452a2b34"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195890466,
+          "id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2008 (26)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 59
+        }
+      },
+      "ba49af77-ddaa-4659-985e-d98ad9a770c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "ba49af77-ddaa-4659-985e-d98ad9a770c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Google even competes with their own ad-supported businesses like Blogspot or even Gmail. If someone writes Blogspot or Gmail clone that could be run on GAE, there’s nothing stopping people to ditch Blogspot (along with forced ads) and run blogspot-like app on GAE. Yay for unintended consequences."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bd21f7d1-9e57-412c-a4e7-cf367453003c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "bd21f7d1-9e57-412c-a4e7-cf367453003c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623721823,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "c2062e80-763f-4f6f-8064-af694f193a3b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "c2062e80-763f-4f6f-8064-af694f193a3b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: appengine"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ccc7872f-af98-48bc-9f45-7bb87312d6e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "ccc7872f-af98-48bc-9f45-7bb87312d6e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Yes, those companies also benefit from GAE if they use it for hosting, but at their scale it won’t be free and they can only stay competitive if they improve their apps faster than people writing apps for GAE. Or if their apps have built-in network effects (Facebook does, MySpace does, but a blog engine or a wiki doesn’t)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d219c963-81a3-4c63-8fe8-e91f98bc2991": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "d219c963-81a3-4c63-8fe8-e91f98bc2991",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GAE levels the playing field. Once people learn GAE some aspects of developement will be much easier e.g. you’ll no longer need to be accomplished DBA, unix admin, Apache and MySQL deployment master combined into one. Being a Python programmer will be enough."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e1c0df88-5243-4995-83a3-3603badcd79d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "e1c0df88-5243-4995-83a3-3603badcd79d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623723060,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1990"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "e1f6c2f4-4d70-4834-8873-319b76743ebe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923170,
+          "id": "e1f6c2f4-4d70-4834-8873-319b76743ebe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923170,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They might be right but that’s not why Google’s service is disruptive. Google App Engine really is the first Internet operating system and given generous free plan it spells death for low-end web hosting and some of the specialized application hosters."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ee1ccc30-0650-4143-99a2-6a1f6930182c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "ee1ccc30-0650-4143-99a2-6a1f6930182c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Other companies that should be afraid, very afraid of GAE are hosters of specific applications that don’t have network effects. Companies like SixApart, PBWiki, WordPress.com, github, 37signals, FogCreek etc., etc."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f3e6810c-e8aa-4e9a-8b2e-1c19ddcd7247": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "f3e6810c-e8aa-4e9a-8b2e-1c19ddcd7247",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GAE covers some of the same ground that AWS but even though it’s less powerful, it’s also much more ground breaking. By providing an Internet OS it enables shrink-wrapped software model for Internet apps: write the app once, run it many times."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f4ed3edb-27d6-4dd6-815c-05a3095ba673": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923171,
+          "id": "f4ed3edb-27d6-4dd6-815c-05a3095ba673",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923171,
+          "parent_id": "98823469-6c65-4223-8117-5605a311fbb3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GAE inverts this: the environment is given and application writers need to use available language and APIs. It shifts the burden from users of the application to developers, which is how it should be, because there are much more users than developers."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b3b0ba67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"67f9-nUvJD0ZD2gn+lZMoLVRDc6DuaI0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d45b43692d8ad970c3e2e3ea41e1cddca1565326196; expires=Sat, 08-Aug-20 04:49:56 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,1890 @@
+2700 1565326114383 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+      "table": "block"
+    }
+  ]
+}
+Response:+1551
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3",
+          "075c33d0-8058-4882-bb75-e21ecbc32ea8",
+          "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "dacee791-2730-4df3-af1a-d101f2328322",
+          "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+          "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+          "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+          "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+          "55ee1fee-c089-4866-b908-3dbb475da3ae",
+          "9712665b-b331-4871-83d8-37b59bffd0d6",
+          "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+          "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+          "43d4b69c-bcfb-4c66-a1ca-6cfd69562876"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532991467423,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532995904758,
+        "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Web services for hosting static websites"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 290
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371931391f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"44c-h634YrifSjhOj3xa3wbLfGRfx6U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+48460 1565326114386 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+  "verticalColumns": false
+}
+Response:+47269
+{
+  "cursor": {
+    "stack": [
+      [
+        {
+          "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "index": 15,
+          "table": "block"
+        }
+      ],
+      [
+        {
+          "id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "index": 3,
+          "table": "block"
+        }
+      ],
+      [
+        {
+          "id": "538a8093-3d26-4b54-ad60-13b5f3920b58",
+          "index": 0,
+          "table": "block"
+        }
+      ]
+    ]
+  },
+  "recordMap": {
+    "block": {
+      "07204613-29dc-4c5f-8d20-02ac6bd56349": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "07204613-29dc-4c5f-8d20-02ac6bd56349",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Demo on the homepage is the actual workflow"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "075c33d0-8058-4882-bb75-e21ecbc32ea8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995189990,
+          "id": "075c33d0-8058-4882-bb75-e21ecbc32ea8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995906095,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of services for hosting static websites"
+              ]
+            ]
+          },
+          "type": "header",
+          "version": 19
+        }
+      },
+      "0a979982-f1d7-429e-ad6b-15f9a89cf8e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7efbf4d2-73cc-4335-bbd0-1bbf8fec7ad6",
+            "dbbe71cf-021a-4500-959e-60c008e3e7d6",
+            "80955353-754b-4953-a3a4-cbc154959f99",
+            "4f7b0014-946d-477d-90b0-03326454dbf6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995448365,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.netlify.com",
+                [
+                  [
+                    "a",
+                    "https://www.netlify.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 16
+        }
+      },
+      "19ef5dfc-247c-4f50-a54b-90a73cb8f462": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2a99ae81-babc-4cf6-b973-75d0a69551a5",
+            "4f091881-250e-4308-a73d-219c2b195fa4",
+            "48922234-49d7-4b41-989b-bef2d88b557a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991793205,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://pages.github.com",
+                [
+                  [
+                    "a",
+                    "https://pages.github.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 20
+        }
+      },
+      "21fe23f2-426d-4eb7-991e-28ea85e5c633": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "21fe23f2-426d-4eb7-991e-28ea85e5c633",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995754523,
+          "parent_id": "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Drag and drop site building"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 34
+        }
+      },
+      "26ed8632-a0a8-44f5-af2d-1be0ac06c900": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991701458,
+          "id": "26ed8632-a0a8-44f5-af2d-1be0ac06c900",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991716043,
+          "parent_id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "DropBox or GitHub ⇒ website"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 88
+        }
+      },
+      "2a99ae81-babc-4cf6-b973-75d0a69551a5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "2a99ae81-babc-4cf6-b973-75d0a69551a5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995681528,
+          "parent_id": "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "driven by a git branch in GitHub repository"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 98
+        }
+      },
+      "2bdfbece-9634-4ed0-b489-b5fa5c6971dc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991795661,
+          "id": "2bdfbece-9634-4ed0-b489-b5fa5c6971dc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991796454,
+          "parent_id": "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "2fa43dee-7ad0-477e-b79d-257ba06b353a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "2fa43dee-7ad0-477e-b79d-257ba06b353a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991483954,
+          "parent_id": "9712665b-b331-4871-83d8-37b59bffd0d6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Based on Node.js native HTTP/2"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "3b37413f-3ef6-47d3-9b76-820fd03d3457": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "733854f6-ad26-40dc-babf-7f00ea3bbf91",
+            "4c28c33e-c952-430c-b629-8dcd6773a045",
+            "c74fa3f6-682a-4373-9773-e19a288750bc"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995700215,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://zeit.co/blog/now-static",
+                [
+                  [
+                    "a",
+                    "https://zeit.co/blog/now-static"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "43d4b69c-bcfb-4c66-a1ca-6cfd69562876": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "26ed8632-a0a8-44f5-af2d-1be0ac06c900",
+            "b2ee170c-5796-4599-9b3f-4af22c6e4162",
+            "538a8093-3d26-4b54-ad60-13b5f3920b58"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991698626,
+          "id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995803281,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.paperplane.io/",
+                [
+                  [
+                    "a",
+                    "https://www.paperplane.io/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 17
+        }
+      },
+      "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995171087,
+          "id": "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533001674413,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Description: Comparison of web services for hosting static websites."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 174
+        }
+      },
+      "48922234-49d7-4b41-989b-bef2d88b557a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991793205,
+          "id": "48922234-49d7-4b41-989b-bef2d88b557a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991793790,
+          "parent_id": "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "4c28c33e-c952-430c-b629-8dcd6773a045": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "4c28c33e-c952-430c-b629-8dcd6773a045",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Auto-detects static sites"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "4f091881-250e-4308-a73d-219c2b195fa4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "4f091881-250e-4308-a73d-219c2b195fa4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995690712,
+          "parent_id": "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Limited to Jekyll static site generator"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 59
+        }
+      },
+      "4f7b0014-946d-477d-90b0-03326454dbf6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991844651,
+          "id": "4f7b0014-946d-477d-90b0-03326454dbf6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991936051,
+          "parent_id": "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "paid for advanced features (functions to execute server side code, identity/login service, form submissions with more than 100 submissions, team collaboration)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 380
+        }
+      },
+      "538a8093-3d26-4b54-ad60-13b5f3920b58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995803281,
+          "id": "538a8093-3d26-4b54-ad60-13b5f3920b58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995865184,
+          "parent_id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$9/mo for unlimited everything"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 84
+        }
+      },
+      "55ee1fee-c089-4866-b908-3dbb475da3ae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "71adb789-3e46-4979-b1cf-3309fafd1537",
+            "bd3c294d-2f2b-4102-a258-8a1e16d5e3f0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "55ee1fee-c089-4866-b908-3dbb475da3ae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995734667,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://aws.amazon.com/s3/",
+                [
+                  [
+                    "a",
+                    "https://aws.amazon.com/s3/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "561d17d9-b10c-482d-9790-2c3fedeed762": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "561d17d9-b10c-482d-9790-2c3fedeed762",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Seems to just give an SSH account with a special directory for the static files?"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5e199680-99d5-49f5-ae7b-e67d97c8ac12": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "5e199680-99d5-49f5-ae7b-e67d97c8ac12",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995649177,
+          "parent_id": "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Open source"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 11
+        }
+      },
+      "71adb789-3e46-4979-b1cf-3309fafd1537": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "71adb789-3e46-4979-b1cf-3309fafd1537",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995726804,
+          "parent_id": "55ee1fee-c089-4866-b908-3dbb475da3ae",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "pay for use"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 26
+        }
+      },
+      "733854f6-ad26-40dc-babf-7f00ea3bbf91": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "733854f6-ad26-40dc-babf-7f00ea3bbf91",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995700215,
+          "parent_id": "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Delightful design, very clever details"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "764f0796-9470-4d5d-9d82-10076cc23c5a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "764f0796-9470-4d5d-9d82-10076cc23c5a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Atlassian/Bitbucket integration"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "776e848f-0f0e-44ec-9524-9abe2f20c55e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995634017,
+          "id": "776e848f-0f0e-44ec-9524-9abe2f20c55e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995638552,
+          "parent_id": "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "command-line tools"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 51
+        }
+      },
+      "7c75d093-9a6d-4611-9398-2f2a41e5cc72": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "7c75d093-9a6d-4611-9398-2f2a41e5cc72",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "9712665b-b331-4871-83d8-37b59bffd0d6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Aimed at next-gen static frontend development: server push, manifests, etc"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "7e6fa619-4186-4499-b97a-3b53407653a0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b28e4b0d-1001-4433-b15b-1c177fc8bf15",
+            "21fe23f2-426d-4eb7-991e-28ea85e5c633",
+            "07204613-29dc-4c5f-8d20-02ac6bd56349",
+            "e9a7077a-cdc5-4c9a-86f9-e7343e4a9365"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.bitballoon.com",
+                [
+                  [
+                    "a",
+                    "https://www.bitballoon.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "7efbf4d2-73cc-4335-bbd0-1bbf8fec7ad6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "7efbf4d2-73cc-4335-bbd0-1bbf8fec7ad6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995448077,
+          "parent_id": "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "both command-line tools and web-based UI"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 114
+        }
+      },
+      "7fb6f928-4cf8-43b5-aa14-3c7e4e1f7c77": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995329032,
+          "id": "7fb6f928-4cf8-43b5-aa14-3c7e4e1f7c77",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995347457,
+          "parent_id": "dacee791-2730-4df3-af1a-d101f2328322",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "can use auth and functions for more functionaly"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 176
+        }
+      },
+      "80955353-754b-4953-a3a4-cbc154959f99": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991829732,
+          "id": "80955353-754b-4953-a3a4-cbc154959f99",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991844412,
+          "parent_id": "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free for unlimited basic websites"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 84
+        }
+      },
+      "8730551e-2420-464b-a211-11c3370eba28": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995311689,
+          "id": "8730551e-2420-464b-a211-11c3370eba28",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995486277,
+          "parent_id": "dacee791-2730-4df3-af1a-d101f2328322",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free tier: $1 GB of stored data, $10 GB of bandwidth. Pay per use after that."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 176
+        }
+      },
+      "9712665b-b331-4871-83d8-37b59bffd0d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2fa43dee-7ad0-477e-b79d-257ba06b353a",
+            "7c75d093-9a6d-4611-9398-2f2a41e5cc72"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "9712665b-b331-4871-83d8-37b59bffd0d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991604199,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://commons.host",
+                [
+                  [
+                    "a",
+                    "https://commons.host/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 11
+        }
+      },
+      "b1e33a92-7713-4473-b06d-a3fda02e62b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "b1e33a92-7713-4473-b06d-a3fda02e62b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991503235,
+          "parent_id": "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Took off when Heroku changed their pricing to make static site hosting unviable"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "b28e4b0d-1001-4433-b15b-1c177fc8bf15": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "b28e4b0d-1001-4433-b15b-1c177fc8bf15",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995750323,
+          "parent_id": "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Friendly to beginners"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 74
+        }
+      },
+      "b2ee170c-5796-4599-9b3f-4af22c6e4162": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995789986,
+          "id": "b2ee170c-5796-4599-9b3f-4af22c6e4162",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995802996,
+          "parent_id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free tier: up to 3 websites, no custom domains"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 102
+        }
+      },
+      "bd3c294d-2f2b-4102-a258-8a1e16d5e3f0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995727499,
+          "id": "bd3c294d-2f2b-4102-a258-8a1e16d5e3f0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995737035,
+          "parent_id": "55ee1fee-c089-4866-b908-3dbb475da3ae",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "complicated to use"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 64
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "c674bebe-8adf-44d1-8c3a-36cc18c131e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3",
+            "075c33d0-8058-4882-bb75-e21ecbc32ea8",
+            "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+            "dacee791-2730-4df3-af1a-d101f2328322",
+            "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+            "e2423e6b-e580-4c74-8361-b93461e51efc",
+            "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+            "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+            "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+            "55ee1fee-c089-4866-b908-3dbb475da3ae",
+            "9712665b-b331-4871-83d8-37b59bffd0d6",
+            "7e6fa619-4186-4499-b97a-3b53407653a0",
+            "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+            "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+            "43d4b69c-bcfb-4c66-a1ca-6cfd69562876"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991467423,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995904758,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web services for hosting static websites"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 290
+        }
+      },
+      "c74fa3f6-682a-4373-9773-e19a288750bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "c74fa3f6-682a-4373-9773-e19a288750bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995714516,
+          "parent_id": "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Requires framework-specific tooling for SPA"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 19
+        }
+      },
+      "d5f27f3a-a625-41b9-b314-69bf71cffc6c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "561d17d9-b10c-482d-9790-2c3fedeed762"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.nearlyfreespeech.net/",
+                [
+                  [
+                    "a",
+                    "https://www.nearlyfreespeech.net/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "d76d7d65-0984-4aac-8ebb-1c03c31f454b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995639928,
+          "id": "d76d7d65-0984-4aac-8ebb-1c03c31f454b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995645554,
+          "parent_id": "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free, accepts donations"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 56
+        }
+      },
+      "dacee791-2730-4df3-af1a-d101f2328322": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fbe211a4-a7a7-4415-8fc3-3c82003a7f48",
+            "7fb6f928-4cf8-43b5-aa14-3c7e4e1f7c77",
+            "8730551e-2420-464b-a211-11c3370eba28"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "dacee791-2730-4df3-af1a-d101f2328322",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995485644,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://firebase.google.com/products/hosting/",
+                [
+                  [
+                    "a",
+                    "https://firebase.google.com/products/hosting/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 29
+        }
+      },
+      "dbbe71cf-021a-4500-959e-60c008e3e7d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995448365,
+          "id": "dbbe71cf-021a-4500-959e-60c008e3e7d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995483162,
+          "parent_id": "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "can integrate with GitHub, publish automatically when git repository changes"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 326
+        }
+      },
+      "e2423e6b-e580-4c74-8361-b93461e51efc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "776e848f-0f0e-44ec-9524-9abe2f20c55e",
+            "d76d7d65-0984-4aac-8ebb-1c03c31f454b",
+            "5e199680-99d5-49f5-ae7b-e67d97c8ac12",
+            "f11a10ef-db89-4585-8904-6f514bf9e994"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995651544,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://neocities.org",
+                [
+                  [
+                    "a",
+                    "https://neocities.org/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 29
+        }
+      },
+      "e377718b-aa6e-45b9-b7c4-c0420cdbfe14": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "e377718b-aa6e-45b9-b7c4-c0420cdbfe14",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995491995,
+          "parent_id": "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "command-line tools"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 40
+        }
+      },
+      "e9a7077a-cdc5-4c9a-86f9-e7343e4a9365": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474731,
+          "id": "e9a7077a-cdc5-4c9a-86f9-e7343e4a9365",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "7e6fa619-4186-4499-b97a-3b53407653a0",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Mini GUI dashboard to set password, change domain name"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "764f0796-9470-4d5d-9d82-10076cc23c5a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991699171,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.aerobatic.com",
+                [
+                  [
+                    "a",
+                    "https://www.aerobatic.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 6
+        }
+      },
+      "f11a10ef-db89-4585-8904-6f514bf9e994": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474733,
+          "id": "f11a10ef-db89-4585-8904-6f514bf9e994",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995652225,
+          "parent_id": "e2423e6b-e580-4c74-8361-b93461e51efc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Made mostly by one dev, with contributors helping out"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 11
+        }
+      },
+      "f5315ea9-c4f3-4fac-8579-7fe883f0548e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995493515,
+          "id": "f5315ea9-c4f3-4fac-8579-7fe883f0548e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995550715,
+          "parent_id": "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "free for basic website, $13/mo per project for more advanced features (custom redirects, password protection)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 248
+        }
+      },
+      "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ffcf6c49-b161-405a-af39-b2bbbbd0c20a",
+            "2bdfbece-9634-4ed0-b489-b5fa5c6971dc"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991795661,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://pages.gitlab.io",
+                [
+                  [
+                    "a",
+                    "https://pages.gitlab.io/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 7
+        }
+      },
+      "fbe211a4-a7a7-4415-8fc3-3c82003a7f48": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995316816,
+          "id": "fbe211a4-a7a7-4415-8fc3-3c82003a7f48",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995327831,
+          "parent_id": "dacee791-2730-4df3-af1a-d101f2328322",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "command-line tools for deployment"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 78
+        }
+      },
+      "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e377718b-aa6e-45b9-b7c4-c0420cdbfe14",
+            "b1e33a92-7713-4473-b06d-a3fda02e62b8",
+            "f5315ea9-c4f3-4fac-8579-7fe883f0548e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995493515,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://surge.sh",
+                [
+                  [
+                    "a",
+                    "https://surge.sh/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 10
+        }
+      },
+      "ffcf6c49-b161-405a-af39-b2bbbbd0c20a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991474732,
+          "id": "ffcf6c49-b161-405a-af39-b2bbbbd0c20a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532991474748,
+          "parent_id": "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GitLab CI builds/pipelines integration"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371931a9427fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"74cc-L3eS+Cs3wqD+OOzlGo8mS2FQHWw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+9031 1565326114389 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+583
+{
+  "chunkNumber": 1,
+  "cursor": {
+    "stack": [
+      [
+        {
+          "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "index": 15,
+          "table": "block"
+        }
+      ],
+      [
+        {
+          "id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "index": 3,
+          "table": "block"
+        }
+      ],
+      [
+        {
+          "id": "538a8093-3d26-4b54-ad60-13b5f3920b58",
+          "index": 0,
+          "table": "block"
+        }
+      ]
+    ]
+  },
+  "limit": 30,
+  "pageId": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+  "verticalColumns": false
+}
+Response:+7410
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "43d4b69c-bcfb-4c66-a1ca-6cfd69562876": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "26ed8632-a0a8-44f5-af2d-1be0ac06c900",
+            "b2ee170c-5796-4599-9b3f-4af22c6e4162",
+            "538a8093-3d26-4b54-ad60-13b5f3920b58"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991698626,
+          "id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995803281,
+          "parent_id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.paperplane.io/",
+                [
+                  [
+                    "a",
+                    "https://www.paperplane.io/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 17
+        }
+      },
+      "538a8093-3d26-4b54-ad60-13b5f3920b58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532995803281,
+          "id": "538a8093-3d26-4b54-ad60-13b5f3920b58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995865184,
+          "parent_id": "43d4b69c-bcfb-4c66-a1ca-6cfd69562876",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$9/mo for unlimited everything"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 84
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "c674bebe-8adf-44d1-8c3a-36cc18c131e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3",
+            "075c33d0-8058-4882-bb75-e21ecbc32ea8",
+            "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+            "dacee791-2730-4df3-af1a-d101f2328322",
+            "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+            "e2423e6b-e580-4c74-8361-b93461e51efc",
+            "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+            "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+            "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+            "55ee1fee-c089-4866-b908-3dbb475da3ae",
+            "9712665b-b331-4871-83d8-37b59bffd0d6",
+            "7e6fa619-4186-4499-b97a-3b53407653a0",
+            "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+            "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+            "43d4b69c-bcfb-4c66-a1ca-6cfd69562876"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991467423,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995904758,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web services for hosting static websites"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 290
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371932397d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"12e6-RjRv5K+rZJq2B79tWeiBqP19Oj8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

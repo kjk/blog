@@ -1,0 +1,922 @@
+2768 1565326106457 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+      "table": "block"
+    }
+  ]
+}
+Response:+1619
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "d7e72523-a4f5-432e-9e8b-846be81b6372",
+          "52e73c4f-7594-4544-aa19-3627f4a7d893",
+          "2a131f62-6649-4ca4-bab1-91af1b2766fb",
+          "f7da3f10-34bc-4c42-97d1-f5b93649ba2a",
+          "c78cc399-6f40-4021-af44-b924297e6a0f",
+          "9a0efa0e-6c5f-4f98-8c11-a762d3549fd9",
+          "fef51941-e74b-4b38-b70c-a4d6df6eb8dd",
+          "9ebc0123-31d4-44c8-ace1-40bb09d6353d",
+          "43096011-22c6-4276-816a-aaa14d7ea6b0",
+          "f0838ff1-7d36-443b-8a79-30702168f933",
+          "1266d403-74f7-4017-a6d4-d86603ea60ae",
+          "e821a56d-eda0-48c7-a95e-b3e3c7a0be20",
+          "4b73f899-fa52-40cb-a62d-30f986bf0d9f",
+          "3aba6210-4264-4412-b3e5-3f4c31463c91",
+          "4d6267c5-9a70-4f49-9e86-92b4afd90808",
+          "e24442fc-a86d-47af-9e97-fcd95174bf66",
+          "c2e35c3a-e50c-4396-8ac3-345225252fce"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564363011962,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564363260000,
+        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "15minutes"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 81
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718ffdde07fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:25 GMT"
+  ],
+  "Etag": [
+    "W/\"47a-7XqeGQu6++lDseqzCVkaU2dxf6w\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df7273871af57ec8c49f18a0ea17d63481565326105; expires=Sat, 08-Aug-20 04:48:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+26688 1565326106464 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+  "verticalColumns": false
+}
+Response:+25497
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "068d80e1-75d0-485a-8dbf-a73d9e1d5797": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d7e72523-a4f5-432e-9e8b-846be81b6372",
+            "52e73c4f-7594-4544-aa19-3627f4a7d893",
+            "2a131f62-6649-4ca4-bab1-91af1b2766fb",
+            "f7da3f10-34bc-4c42-97d1-f5b93649ba2a",
+            "c78cc399-6f40-4021-af44-b924297e6a0f",
+            "9a0efa0e-6c5f-4f98-8c11-a762d3549fd9",
+            "fef51941-e74b-4b38-b70c-a4d6df6eb8dd",
+            "9ebc0123-31d4-44c8-ace1-40bb09d6353d",
+            "43096011-22c6-4276-816a-aaa14d7ea6b0",
+            "f0838ff1-7d36-443b-8a79-30702168f933",
+            "1266d403-74f7-4017-a6d4-d86603ea60ae",
+            "e821a56d-eda0-48c7-a95e-b3e3c7a0be20",
+            "4b73f899-fa52-40cb-a62d-30f986bf0d9f",
+            "3aba6210-4264-4412-b3e5-3f4c31463c91",
+            "4d6267c5-9a70-4f49-9e86-92b4afd90808",
+            "e24442fc-a86d-47af-9e97-fcd95174bf66",
+            "c2e35c3a-e50c-4396-8ac3-345225252fce"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363011962,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "15minutes"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 81
+        }
+      },
+      "1266d403-74f7-4017-a6d4-d86603ea60ae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "1266d403-74f7-4017-a6d4-d86603ea60ae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can, of course, use any timer. A kitchen timer will do. An iPhone will do."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "2a131f62-6649-4ca4-bab1-91af1b2766fb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ca18e7a-c59e-47ab-9536-7ad283a02090",
+            "57a57d10-67aa-47b4-a0fd-695032e108de"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363260000,
+          "id": "2a131f62-6649-4ca4-bab1-91af1b2766fb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 5
+        }
+      },
+      "2ca18e7a-c59e-47ab-9536-7ad283a02090": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a0346684-3a65-488e-9224-7e81c827fc55"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363260000,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "2ca18e7a-c59e-47ab-9536-7ad283a02090",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "2a131f62-6649-4ca4-bab1-91af1b2766fb",
+          "parent_table": "block",
+          "type": "column",
+          "version": 5
+        }
+      },
+      "3aba6210-4264-4412-b3e5-3f4c31463c91": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "3aba6210-4264-4412-b3e5-3f4c31463c91",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Source"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "43096011-22c6-4276-816a-aaa14d7ea6b0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "43096011-22c6-4276-816a-aaa14d7ea6b0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You start the timer and when it's done, it gets your attention."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "4b73f899-fa52-40cb-a62d-30f986bf0d9f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "4b73f899-fa52-40cb-a62d-30f986bf0d9f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I used to use iPhone's timer (part of built-in clock application) but it had a fatal flaw of using sound to alert and no way to shut it up. I don't't think that my coworkers liked to hear my iPhone buzzing every 15 minutes. Also, timer on iPhone has no way to pause/resume."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "4d6267c5-9a70-4f49-9e86-92b4afd90808": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "4d6267c5-9a70-4f49-9e86-92b4afd90808",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "15minutes is an "
+              ],
+              [
+                "open-source",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/15minutes"
+                  ]
+                ]
+              ],
+              [
+                " application written in C# (Windows version) and Cocoa (Mac version). Source is available at "
+              ],
+              [
+                "github.com",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/15minutes"
+                  ]
+                ]
+              ],
+              [
+                ". Fork away."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 9
+        }
+      },
+      "52e73c4f-7594-4544-aa19-3627f4a7d893": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363080000,
+          "id": "52e73c4f-7594-4544-aa19-3627f4a7d893",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363080000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "15minutes is obsolete!",
+                [
+                  [
+                    "h",
+                    "yellow_background"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "header",
+          "version": 43
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "57a57d10-67aa-47b4-a0fd-695032e108de": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d8ecb571-fcf3-42d4-864a-af020a17eda3"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363260000,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "57a57d10-67aa-47b4-a0fd-695032e108de",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "2a131f62-6649-4ca4-bab1-91af1b2766fb",
+          "parent_table": "block",
+          "type": "column",
+          "version": 5
+        }
+      },
+      "623523b6-7e15-48a0-b525-749d6921465c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0628691b-cf32-4202-917b-c20ffb93e6ec",
+            "291e550d-9da5-47d0-b0a8-6164696a63c7",
+            "32899462-4037-452a-9b02-6cc3d3324828",
+            "b25e7aac-8c46-4173-aeef-9138f08eac31",
+            "d11ec24a-2bc3-4022-9bbd-b996d6f5ff95",
+            "21b99eb5-51e8-43b1-b77a-f7ca8d17f6c5",
+            "0a98f17a-0db3-4d34-a098-de440be6ac04",
+            "720f3373-697e-49cf-ad02-23014612b4b6",
+            "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
+            "416a638c-4506-44f6-a97e-e04a27275259",
+            "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
+            "373a1571-ce4e-4e72-9ebe-2486ef903d9c",
+            "6abd05fb-fcea-4b3d-beac-7f0b12063df5",
+            "64d13f24-c26b-4966-b8aa-10b134dfd9a6",
+            "bc636291-0eb0-4e74-9c93-e7c020978836",
+            "bd8e5818-8cda-4944-a4d3-cec23127df4e",
+            "fa4bd070-8ea4-40a5-8964-9124d0ba09a4",
+            "c970b1fd-89bf-4489-ace9-ff639e342003",
+            "c7c82988-3fbf-4cd6-81ed-707b6016148f",
+            "bc675e65-0488-4171-b73f-c115fdea9748",
+            "2c0aae86-be45-4ee1-983e-b67561f583e5",
+            "321d6c7f-2b7f-4e26-8c31-31bda299fe8b",
+            "6e3e0f08-e531-4b46-92e6-47417222ccaf",
+            "c05a388f-34d2-495b-8b37-ccfca6468d24",
+            "ab3fddf1-cc5e-4955-9dfd-9c80410546db",
+            "6ca5bd99-d3b7-418d-a4cf-8a3edfd725b8",
+            "08197c5c-2c02-4391-bb1f-2fb331ce3a7f",
+            "07332a12-7308-42d1-9800-b47195b2d994",
+            "75e0ef52-2bd2-41c3-a5d4-d97fb3b2a91f",
+            "068d80e1-75d0-485a-8dbf-a73d9e1d5797"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532681448412,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "623523b6-7e15-48a0-b525-749d6921465c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564362960000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Software written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 201
+        }
+      },
+      "9a0efa0e-6c5f-4f98-8c11-a762d3549fd9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "9a0efa0e-6c5f-4f98-8c11-a762d3549fd9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Why"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "9ebc0123-31d4-44c8-ace1-40bb09d6353d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "9ebc0123-31d4-44c8-ace1-40bb09d6353d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Time boxing requires a timer and 15minutes is just that: a timer."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "a0346684-3a65-488e-9224-7e81c827fc55": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363221622,
+          "format": {
+            "display_source": "https://kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-1.1.png"
+          },
+          "id": "a0346684-3a65-488e-9224-7e81c827fc55",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "2ca18e7a-c59e-47ab-9536-7ad283a02090",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-1.1.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 8
+        }
+      },
+      "c2e35c3a-e50c-4396-8ac3-345225252fce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "c2e35c3a-e50c-4396-8ac3-345225252fce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363080000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The program icon comes from "
+              ],
+              [
+                "hand-drawn icon set",
+                [
+                  [
+                    "a",
+                    "http://olawolska.com/newsy/49-hand-drawing-icons-set/"
+                  ]
+                ]
+              ],
+              [
+                " by "
+              ],
+              [
+                "Alexandra Wolska",
+                [
+                  [
+                    "a",
+                    "http://olawolska.com/"
+                  ]
+                ]
+              ],
+              [
+                " (available under "
+              ],
+              [
+                "Creative Commons Attribution-Share Alike 3.0 Unported",
+                [
+                  [
+                    "a",
+                    "http://creativecommons.org/licenses/by-sa/3.0/"
+                  ]
+                ]
+              ],
+              [
+                " license)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 15
+        }
+      },
+      "c78cc399-6f40-4021-af44-b924297e6a0f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "c78cc399-6f40-4021-af44-b924297e6a0f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "15minutes is a productivity app inspired by "
+              ],
+              [
+                "pomodoro technique",
+                [
+                  [
+                    "a",
+                    "http://www.pomodorotechnique.com/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "d7e72523-a4f5-432e-9e8b-846be81b6372": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564362960000,
+          "id": "d7e72523-a4f5-432e-9e8b-846be81b6372",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363080000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /software/15minutes.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 12
+        }
+      },
+      "d8ecb571-fcf3-42d4-864a-af020a17eda3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363256526,
+          "format": {
+            "display_source": "https://kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-mac.png"
+          },
+          "id": "d8ecb571-fcf3-42d4-864a-af020a17eda3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363260000,
+          "parent_id": "57a57d10-67aa-47b4-a0fd-695032e108de",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-mac.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 9
+        }
+      },
+      "e24442fc-a86d-47af-9e97-fcd95174bf66": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "e24442fc-a86d-47af-9e97-fcd95174bf66",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The icon"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "e821a56d-eda0-48c7-a95e-b3e3c7a0be20": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050188,
+          "id": "e821a56d-eda0-48c7-a95e-b3e3c7a0be20",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I wrote 15minutes because I mostly care about not procrastinating on my software developement tasks. When I program, I'm at the computer, so software solution works well."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "f0838ff1-7d36-443b-8a79-30702168f933": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "f0838ff1-7d36-443b-8a79-30702168f933",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Alternatives"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "f7da3f10-34bc-4c42-97d1-f5b93649ba2a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050186,
+          "id": "f7da3f10-34bc-4c42-97d1-f5b93649ba2a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363200000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 3
+        }
+      },
+      "fef51941-e74b-4b38-b70c-a4d6df6eb8dd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564363050187,
+          "id": "fef51941-e74b-4b38-b70c-a4d6df6eb8dd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564363020000,
+          "parent_id": "068d80e1-75d0-485a-8dbf-a73d9e1d5797",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One way to fight procrastination is to just start working on something for a fixed, short amount of time. It's known as "
+              ],
+              [
+                "time boxing",
+                [
+                  [
+                    "a",
+                    "http://www.davecheong.com/2006/07/26/time-boxing-is-an-effective-getting-things-done-strategy/"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "pomodoro technique",
+                [
+                  [
+                    "a",
+                    "http://www.pomodorotechnique.com/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 9
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719008e2c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:25 GMT"
+  ],
+  "Etag": [
+    "W/\"3ebd-teW9z6jl2AQmebksUxkLcRTBH4c\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df7273871af57ec8c49f18a0ea17d63481565326105; expires=Sat, 08-Aug-20 04:48:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

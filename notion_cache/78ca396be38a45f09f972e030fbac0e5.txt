@@ -1,0 +1,1232 @@
+3287 1565326189326 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+      "table": "block"
+    }
+  ]
+}
+Response:+2138
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ef476255-bbc6-47d2-a430-4d89463eba5e",
+          "d656e362-9af3-4e9f-a8eb-fc3b0f44ca58",
+          "ce1949a5-b7c0-49a1-ba12-18f3c32b8c1a",
+          "5912ce93-ab1b-480e-92c5-d08b0b0b14fc",
+          "f6f45de2-fa76-471d-ab23-385decaa25c1",
+          "439be2bf-e891-48b4-9a88-195f0dee2a49",
+          "94c8ed69-eccd-49de-a81e-2940f11d4af3",
+          "c8f4152d-14cb-42b7-a266-a4a84d738fc7",
+          "ea7a8d32-2f22-43c8-800d-dbde4cb740c6",
+          "add39dc0-8fc9-4aa6-b388-f1ac067a91a9",
+          "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17",
+          "0146615a-4eae-404a-9d93-35000a45adb1",
+          "09f9b39c-e607-454d-ab82-16a232ab4449",
+          "aa781e08-897e-4fae-9c51-953cbbb15498",
+          "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7",
+          "755f77bb-5fc7-4816-988d-9c05b78a9b22",
+          "85b76676-22a9-4cb1-8e01-0ac475ff87d9",
+          "ff654a66-1dce-4eb2-bf90-791abc30cc2e",
+          "61003c17-b319-4cd8-90f5-2c3392ef66ad",
+          "0756a9a9-c10d-43bd-a441-2d66bde12af2",
+          "eacc1237-4901-46a2-842a-1cdc5acaa05e",
+          "26780fd2-1e47-4828-b377-51925a613814",
+          "0c853063-c0e5-46e5-80cb-048d6e777e26",
+          "77b8b474-f6ef-4ac4-9d82-865e125ce559",
+          "afafe1ce-c29c-4422-9b21-1bf71bb5a89e",
+          "6c1647e3-5bff-4050-85f2-712ce4d5042a"
+        ],
+        "copied_from": "bcd69690-1501-488d-9799-89f39372af2d",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195926154,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996353736,
+        "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Valgrind basics"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b0609497fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:48 GMT"
+  ],
+  "Etag": [
+    "W/\"614-SKQ+guTB/yK5dBAehStMMH0kXFo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d20db686c5d5b409d5058d1607e8596a71565326188; expires=Sat, 08-Aug-20 04:49:48 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+35303 1565326189330 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+  "verticalColumns": false
+}
+Response:+34112
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0146615a-4eae-404a-9d93-35000a45adb1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "0146615a-4eae-404a-9d93-35000a45adb1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Profiling CPU usage:",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0756a9a9-c10d-43bd-a441-2d66bde12af2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "0756a9a9-c10d-43bd-a441-2d66bde12af2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "#include \u003cvalgrind/callgrind.h\u003e",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "09f9b39c-e607-454d-ab82-16a232ab4449": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "09f9b39c-e607-454d-ab82-16a232ab4449",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951354822,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "valgrind --tool=callgrind ${prog-to-run}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 9
+        }
+      },
+      "0c853063-c0e5-46e5-80cb-048d6e777e26": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "0c853063-c0e5-46e5-80cb-048d6e777e26",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In other words, if your code looks like:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "26780fd2-1e47-4828-b377-51925a613814": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "26780fd2-1e47-4828-b377-51925a613814",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "add "
+              ],
+              [
+                "--collect-atstart=no",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " so that valgrind doesn’t profile from the beginning but only the sections of the code within "
+              ],
+              [
+                "CALLGRIND_TOGGLE_COLLECT",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "439be2bf-e891-48b4-9a88-195f0dee2a49": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "439be2bf-e891-48b4-9a88-195f0dee2a49",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Basic usage",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951342169,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "valgrind --tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 9
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5912ce93-ab1b-480e-92c5-d08b0b0b14fc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926154,
+          "id": "5912ce93-ab1b-480e-92c5-d08b0b0b14fc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623748130,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "61003c17-b319-4cd8-90f5-2c3392ef66ad": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "61003c17-b319-4cd8-90f5-2c3392ef66ad",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Profiling sections of the code",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6c1647e3-5bff-4050-85f2-712ce4d5042a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926157,
+          "id": "6c1647e3-5bff-4050-85f2-712ce4d5042a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926157,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There’s also an option "
+              ],
+              [
+                "--instr-atstart=no",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and "
+              ],
+              [
+                "CALLGRIND_START_INSTRUMENTATION",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and "
+              ],
+              [
+                "CALLGRIND_STOP_INSTRUMENTATION",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " macros. In theory you can use this option and insert those 2 macros into the code to speedup profiling (instrumentation slows down valgrind) but in practice valgrind 3.2 crashed when I was using this option."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "755f77bb-5fc7-4816-988d-9c05b78a9b22": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "755f77bb-5fc7-4816-988d-9c05b78a9b22",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "and then:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "77b8b474-f6ef-4ac4-9d82-865e125ce559": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926157,
+          "id": "77b8b474-f6ef-4ac4-9d82-865e125ce559",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951379141,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Java/C/C++/C#"
+              ]
+            ],
+            "title": [
+              [
+                "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND_TOGGLE_COLLECT\nfoo();\nCALLGRIND_TOGGLE_COLLECT"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 11
+        }
+      },
+      "78ca396b-e38a-45f0-9f97-2e030fbac0e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ef476255-bbc6-47d2-a430-4d89463eba5e",
+            "d656e362-9af3-4e9f-a8eb-fc3b0f44ca58",
+            "ce1949a5-b7c0-49a1-ba12-18f3c32b8c1a",
+            "5912ce93-ab1b-480e-92c5-d08b0b0b14fc",
+            "f6f45de2-fa76-471d-ab23-385decaa25c1",
+            "439be2bf-e891-48b4-9a88-195f0dee2a49",
+            "94c8ed69-eccd-49de-a81e-2940f11d4af3",
+            "c8f4152d-14cb-42b7-a266-a4a84d738fc7",
+            "ea7a8d32-2f22-43c8-800d-dbde4cb740c6",
+            "add39dc0-8fc9-4aa6-b388-f1ac067a91a9",
+            "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17",
+            "0146615a-4eae-404a-9d93-35000a45adb1",
+            "09f9b39c-e607-454d-ab82-16a232ab4449",
+            "aa781e08-897e-4fae-9c51-953cbbb15498",
+            "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7",
+            "755f77bb-5fc7-4816-988d-9c05b78a9b22",
+            "85b76676-22a9-4cb1-8e01-0ac475ff87d9",
+            "ff654a66-1dce-4eb2-bf90-791abc30cc2e",
+            "61003c17-b319-4cd8-90f5-2c3392ef66ad",
+            "0756a9a9-c10d-43bd-a441-2d66bde12af2",
+            "eacc1237-4901-46a2-842a-1cdc5acaa05e",
+            "26780fd2-1e47-4828-b377-51925a613814",
+            "0c853063-c0e5-46e5-80cb-048d6e777e26",
+            "77b8b474-f6ef-4ac4-9d82-865e125ce559",
+            "afafe1ce-c29c-4422-9b21-1bf71bb5a89e",
+            "6c1647e3-5bff-4050-85f2-712ce4d5042a"
+          ],
+          "copied_from": "bcd69690-1501-488d-9799-89f39372af2d",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926154,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996353736,
+          "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Valgrind basics"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "85b76676-22a9-4cb1-8e01-0ac475ff87d9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "85b76676-22a9-4cb1-8e01-0ac475ff87d9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951365638,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "callgrind_control -i on\ncallgrind_control -i off"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "94c8ed69-eccd-49de-a81e-2940f11d4af3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "94c8ed69-eccd-49de-a81e-2940f11d4af3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951313317,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "valgrind ${prog-to-run} ${arg1} ${arg2} ..."
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 13
+        }
+      },
+      "aa781e08-897e-4fae-9c51-953cbbb15498": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "aa781e08-897e-4fae-9c51-953cbbb15498",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "or:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951363022,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "valgrind --tool=callgrind --instr-atstart=no ${prog-to-run}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 15
+        }
+      },
+      "add39dc0-8fc9-4aa6-b388-f1ac067a91a9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "add39dc0-8fc9-4aa6-b388-f1ac067a91a9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Profiling memory usage:",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "afafe1ce-c29c-4422-9b21-1bf71bb5a89e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926157,
+          "id": "afafe1ce-c29c-4422-9b21-1bf71bb5a89e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926157,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "your program is profiled only when foo() function is running."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba2e39ae-fb47-4fc7-9d89-54d8f734476f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6304b86f-fe53-42a2-bed0-07f2563a4230",
+            "197b2814-2034-48cb-933f-f05432e01d81",
+            "5fb4c6fe-33ef-4f43-9223-22abe598d008",
+            "8224bdb4-0545-4a86-ad7a-8659a8d50b50",
+            "16a651dd-4b01-4b73-8974-befd23ffe539",
+            "71497e6c-49d5-4fcc-889e-1b39fdd453da",
+            "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
+            "6568863d-9f85-4eca-ae74-28d2d86e9d34",
+            "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+            "e06c81e6-7666-490c-989b-7e7aeab8225c",
+            "1cf51fe5-cc69-42e8-b43b-31049aebe333",
+            "b15f453e-1878-4f56-8b35-0944b082dc5e",
+            "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
+            "98823469-6c65-4223-8117-5605a311fbb3",
+            "2c61a22c-b459-4d43-8cb0-9f81dd8584ff",
+            "c822c83a-86b9-4e23-b9ff-8ddb89aa6e33",
+            "2457a729-f4b0-482e-b2ea-6b2cd4de7cf9",
+            "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+            "f2b15335-f9b7-4eab-a7b5-b084ff1b1bbb",
+            "b62ca976-a51d-4708-a65f-c676b1d55058",
+            "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
+            "e61f8b9a-55ee-4bde-8f9f-c6e86105a422",
+            "c26d8fef-5360-4830-8f6b-af20da67cbe2",
+            "cce783d8-887e-48e6-abeb-aee06b0a074a",
+            "24ce1b6e-ffe0-43d1-8493-61ba8524642b",
+            "723d09e3-6e85-4ba0-a706-1a36452a2b34"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195890466,
+          "id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2008 (26)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 59
+        }
+      },
+      "c8f4152d-14cb-42b7-a266-a4a84d738fc7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "c8f4152d-14cb-42b7-a266-a4a84d738fc7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Checking for memory access errors and memory leaks",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ce1949a5-b7c0-49a1-ba12-18f3c32b8c1a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926154,
+          "id": "ce1949a5-b7c0-49a1-ba12-18f3c32b8c1a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926154,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2008-03-13T17:19:08-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d656e362-9af3-4e9f-a8eb-fc3b0f44ca58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926154,
+          "id": "d656e362-9af3-4e9f-a8eb-fc3b0f44ca58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926154,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: unix, debugging, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ea7a8d32-2f22-43c8-800d-dbde4cb740c6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "ea7a8d32-2f22-43c8-800d-dbde4cb740c6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531951334341,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "valgrind --tool=memcheck --leak-check=full --show-reachable=yes\n--num-callers=16 ${prog-to-run}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 27
+        }
+      },
+      "eacc1237-4901-46a2-842a-1cdc5acaa05e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "eacc1237-4901-46a2-842a-1cdc5acaa05e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "wrap the section to profile with "
+              ],
+              [
+                "CALLGRIND_TOGGLE_COLLECT",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " macros"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "ef476255-bbc6-47d2-a430-4d89463eba5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926154,
+          "id": "ef476255-bbc6-47d2-a430-4d89463eba5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623749128,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1043"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "f6f45de2-fa76-471d-ab23-385decaa25c1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926155,
+          "id": "f6f45de2-fa76-471d-ab23-385decaa25c1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926155,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Valgrind",
+                [
+                  [
+                    "a",
+                    "http://valgrind.org/"
+                  ]
+                ]
+              ],
+              [
+                " basics is a tool that can find bugs in compiled code by running compiled executable and instrumenting it. According to docs works best on code compiled with "
+              ],
+              [
+                "-O0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "-O1",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and might report false positives with highly optimized code (i.e. compiled with "
+              ],
+              [
+                "-O2",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ")."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ff654a66-1dce-4eb2-bf90-791abc30cc2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926156,
+          "id": "ff654a66-1dce-4eb2-bf90-791abc30cc2e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926156,
+          "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It generates "
+              ],
+              [
+                "callgrind.out.\u003cpid\u003e",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " file (where "
+              ],
+              [
+                "\u003cpid\u003e",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " is process id of the program). Use "
+              ],
+              [
+                "kcachegrind",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " GUI tool to view the results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b0679747fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:48 GMT"
+  ],
+  "Etag": [
+    "W/\"5035-URuiQVhjVcq9ghJmBQCQKexGN8Y\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d20db686c5d5b409d5058d1607e8596a71565326188; expires=Sat, 08-Aug-20 04:49:48 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

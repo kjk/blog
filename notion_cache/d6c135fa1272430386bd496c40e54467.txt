@@ -1,0 +1,584 @@
+2353 1565326212863 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "d6c135fa-1272-4303-86bd-496c40e54467",
+      "table": "block"
+    }
+  ]
+}
+Response:+1204
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "d71dbef9-468c-4eae-b814-2e792fd9500e",
+          "37f5cd55-ef23-48a6-a542-0598fbfd791a",
+          "239bd3a3-4c37-4ea3-8562-e17f5828b915",
+          "da387623-7ecc-47c9-abf5-8a7f69b082f2",
+          "aa8e3c78-af7a-428d-8161-f328ac108be1",
+          "2c22ca91-cace-4be4-83ed-eae665133518",
+          "472b083a-2a6f-4016-b210-5af8698ce596"
+        ],
+        "copied_from": "26c00510-234f-49e4-a3a2-9b3bd7d42c7d",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736870587,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "d6c135fa-1272-4303-86bd-496c40e54467",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996156388,
+        "parent_id": "981d650d-2df1-4162-a739-d788c628cdcf",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The Silver Searcher windows port"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b994ba77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:12 GMT"
+  ],
+  "Etag": [
+    "W/\"33f-h1eEbPW2MmNTzviV/D73GRi6zmY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d75a8a7ba6fcbfd0286717842e914bdee1565326212; expires=Sat, 08-Aug-20 04:50:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+15689 1565326212864 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "d6c135fa-1272-4303-86bd-496c40e54467",
+  "verticalColumns": false
+}
+Response:+14498
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "239bd3a3-4c37-4ea3-8562-e17f5828b915": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870588,
+          "id": "239bd3a3-4c37-4ea3-8562-e17f5828b915",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870588,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2013-10-27T17:06:08-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2c22ca91-cace-4be4-83ed-eae665133518": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870588,
+          "id": "2c22ca91-cace-4be4-83ed-eae665133518",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870588,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It didn’t have a Windows version, so "
+              ],
+              [
+                "I’ve made one",
+                [
+                  [
+                    "a",
+                    "/software/the-silver-searcher-for-windows.html"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "37f5cd55-ef23-48a6-a542-0598fbfd791a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870587,
+          "id": "37f5cd55-ef23-48a6-a542-0598fbfd791a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870587,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: software"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "472b083a-2a6f-4016-b210-5af8698ce596": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870588,
+          "id": "472b083a-2a6f-4016-b210-5af8698ce596",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870588,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s the first release so there might be rough edges. If you find them, "
+              ],
+              [
+                "let me know",
+                [
+                  [
+                    "a",
+                    "/contactme.html"
+                  ]
+                ]
+              ],
+              [
+                " so that I can fix them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "981d650d-2df1-4162-a739-d788c628cdcf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e8cef214-c816-4ed4-bb21-59b136367b28",
+            "d6c135fa-1272-4303-86bd-496c40e54467",
+            "051b003e-36f1-4834-99d8-f90c7fd629fe",
+            "12fa45de-b700-417a-960f-8a0c70529267",
+            "4ef21f46-006b-4691-b0b5-00b9981766df",
+            "ab277f85-805c-42cb-aa17-e7a491368d52",
+            "467a8ebf-4449-40da-a27a-3696fe44fa0e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736868413,
+          "id": "981d650d-2df1-4162-a739-d788c628cdcf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268200000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2013 (7)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 25
+        }
+      },
+      "aa8e3c78-af7a-428d-8161-f328ac108be1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870588,
+          "id": "aa8e3c78-af7a-428d-8161-f328ac108be1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870588,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Silver Searcher",
+                [
+                  [
+                    "a",
+                    "https://github.com/ggreer/the_silver_searcher"
+                  ]
+                ]
+              ],
+              [
+                " is a command line utility for searching text files. Like grep, but faster. It’s written in super-optimized C and gets a big speed boost by intelligently skipping files that you don’t want to search (temporary binary files created by the compiler etc.)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d6c135fa-1272-4303-86bd-496c40e54467": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d71dbef9-468c-4eae-b814-2e792fd9500e",
+            "37f5cd55-ef23-48a6-a542-0598fbfd791a",
+            "239bd3a3-4c37-4ea3-8562-e17f5828b915",
+            "da387623-7ecc-47c9-abf5-8a7f69b082f2",
+            "aa8e3c78-af7a-428d-8161-f328ac108be1",
+            "2c22ca91-cace-4be4-83ed-eae665133518",
+            "472b083a-2a6f-4016-b210-5af8698ce596"
+          ],
+          "copied_from": "26c00510-234f-49e4-a3a2-9b3bd7d42c7d",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870587,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996156388,
+          "parent_id": "981d650d-2df1-4162-a739-d788c628cdcf",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Silver Searcher windows port"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      },
+      "d71dbef9-468c-4eae-b814-2e792fd9500e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870587,
+          "id": "d71dbef9-468c-4eae-b814-2e792fd9500e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870587,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 7"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "da387623-7ecc-47c9-abf5-8a7f69b082f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736870588,
+          "id": "da387623-7ecc-47c9-abf5-8a7f69b082f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736870588,
+          "parent_id": "d6c135fa-1272-4303-86bd-496c40e54467",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b99abe77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:12 GMT"
+  ],
+  "Etag": [
+    "W/\"2464-ot42LccsDJrEu3jOnj2hqLxz7Ik\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d75a8a7ba6fcbfd0286717842e914bdee1565326212; expires=Sat, 08-Aug-20 04:50:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

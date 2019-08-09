@@ -1,0 +1,1405 @@
+4108 1565326220538 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+      "table": "block"
+    }
+  ]
+}
+Response:+2959
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "374a4b98-5f58-4981-8597-9a3ca1c2bf58",
+          "59a8cb3f-50bc-4deb-9a97-140f3568371a",
+          "574e2c08-ab2b-4a51-8d00-9b484a737b9d",
+          "c1fb8d88-5f07-435e-b690-382af80d82e7",
+          "2811ebbf-90f3-4057-92c2-6c1e4e794033",
+          "27896762-d3b8-4c4f-ba52-dc9dafa87305",
+          "321f2385-3c29-43e9-a588-58b1c044ad0e",
+          "1ddff2b7-7900-49cc-af98-fadc651d7d2a",
+          "d3706c85-8d22-46f9-9f1b-a6cc4e107dcc",
+          "26f771e4-57ea-4cbb-a56b-72db4aaee030",
+          "4c3d5bde-0e60-425a-ba32-409caf52fa08",
+          "50d40e2c-b2d9-4432-bcdd-09ba23d577b0",
+          "15cf123c-ce6c-4d55-9f51-9633e7f0ed16",
+          "07f50493-e919-40a0-bcdd-73d6fe445469",
+          "e823e363-d1c3-4995-a214-10e58c504178",
+          "7702ea63-67ce-46d9-a33a-6dd5e0142f1a",
+          "ac2c83f8-2009-4bde-8e70-9abfa5322384",
+          "e814dfac-91d8-4016-9a73-de348ed2b6f8",
+          "99f02441-3b9f-4954-a1b3-f2ee0e83d86d",
+          "a828cb2f-0f43-4fe9-85b0-ab429f1fb4c3",
+          "fbcee9a2-dae3-46ae-a323-c3280b9f8a07",
+          "e7532fc7-2276-4ca5-a0af-c209e90cfb1f",
+          "bc34a58e-6e10-4ed3-8c5e-939d8f78cd6b",
+          "46c6598c-ffe1-4afb-90ec-dcb9744a8170",
+          "240f6b67-afc9-4d0a-befb-05898f946a18",
+          "82ecc241-e97c-4259-9d2c-04c0d5420dcb",
+          "8e4c5f0d-43fc-40e2-86ce-eaa4607a54b7",
+          "5c720a4b-1e80-49ba-9d14-6eaecdcbc345",
+          "8e72bb11-e16b-4c93-b184-4a2882d1b380",
+          "9ba80133-4844-453c-bf18-b6031d823422",
+          "375b94c1-35f6-4055-8c93-3f87df414664",
+          "d048b483-6eb6-4eaa-aef4-561b90214cf7",
+          "93d5a150-b058-4de7-8bb6-04a4a5cf8e1c",
+          "388c372d-eb13-436d-b190-b4b58a356083",
+          "65da7f1e-19b1-4093-a3b8-324527c9d9b7",
+          "9c48881c-8a1f-49bf-bcf6-75030dab17d1",
+          "066b74e7-a359-4cfb-8a92-a2a9d8840f87"
+        ],
+        "copied_from": "83fac1a9-a76c-49d7-9ebd-7dd9ae95fe1a",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736780543,
+        "file_ids": [
+          "86bd3ca0-53f5-4048-997a-78a19bd9ce21"
+        ],
+        "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86bd3ca0-53f5-4048-997a-78a19bd9ce21/header-06.jpg",
+          "page_cover_position": 0.5,
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996130087,
+        "parent_id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Accessing GitHub API from Go"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 17
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371bc90a9f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:19 GMT"
+  ],
+  "Etag": [
+    "W/\"89a-bEHVwZPbyVYtjsbEgHe2IG3lnuQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0a09127df6dd6d75fc5976d800ffe5541565326219; expires=Sat, 08-Aug-20 04:50:19 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+46858 1565326220543 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+  "verticalColumns": false
+}
+Response:+45667
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "066b74e7-a359-4cfb-8a92-a2a9d8840f87": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "066b74e7-a359-4cfb-8a92-a2a9d8840f87",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531817012938,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "package main\n\nimport (\n    \"encoding/json\"\n    \"fmt\"\n\n    \"github.com/google/go-github/github\"\n    \"golang.org/x/oauth2\"\n)\n\nvar (\n    // you need to generate personal access token at\n    // https://github.com/settings/applications#personal-access-tokens\n    personalAccessToken = \"\"\n)\n\ntype TokenSource struct {\n    AccessToken string\n}\n\nfunc (t *TokenSource) Token() (*oauth2.Token, error) {\n    token := \u0026oauth2.Token{\n        AccessToken: t.AccessToken,\n    }\n    return token, nil\n}\n\nfunc main() {\n    tokenSource := \u0026TokenSource{\n        AccessToken: personalAccessToken,\n    }\n    oauthClient := oauth2.NewClient(oauth2.NoContext, tokenSource)\n    client := github.NewClient(oauthClient)\n    user, _, err := client.Users.Get(\"\")\n    if err != nil {\n        fmt.Printf(\"client.Users.Get() faled with '%s'\\n\", err)\n        return\n    }\n    d, err := json.MarshalIndent(user, \"\", \"  \")\n    if err != nil {\n        fmt.Printf(\"json.MarshlIndent() failed with %s\\n\", err)\n        return\n    }\n    fmt.Printf(\"User:\\n%s\\n\", string(d))\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "07f50493-e919-40a0-bcdd-73d6fe445469": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "07f50493-e919-40a0-bcdd-73d6fe445469",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GitHub redirects to a callback url on your website (which you provided when registering the app with GitHub)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "15cf123c-ce6c-4d55-9f51-9633e7f0ed16": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "15cf123c-ce6c-4d55-9f51-9633e7f0ed16",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the user authorizes your app by clicking on a link"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "1ddff2b7-7900-49cc-af98-fadc651d7d2a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "1ddff2b7-7900-49cc-af98-fadc651d7d2a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To access private info about the user via the API in your web app you need to authenticate your app against GitHub website."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
+            "1a427ccf-a37e-4d5e-b52c-fa69e4f14eee",
+            "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+            "9070283f-b1a5-43b5-8af1-c4e5003a1891"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736778229,
+          "id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268200000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2015 (4)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 22
+        }
+      },
+      "240f6b67-afc9-4d0a-befb-05898f946a18": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "240f6b67-afc9-4d0a-befb-05898f946a18",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816993824,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "const htmlIndex = `\u003chtml\u003e\u003cbody\u003e\nLogged in with \u003ca href=\"/login\"\u003eGitHub\u003c/a\u003e\n\u003c/body\u003e\u003c/html\u003e\n`\n\n// /\nfunc handleMain(w http.ResponseWriter, r *http.Request) {\n    w.Header().Set(\"Content-Type\", \"text/html; charset=utf-8\")\n    w.WriteHeader(http.StatusOK)\n    w.Write([]byte(htmlIndex))\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "26f771e4-57ea-4cbb-a56b-72db4aaee030": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "26f771e4-57ea-4cbb-a56b-72db4aaee030",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The flow of OAuth is:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "27896762-d3b8-4c4f-ba52-dc9dafa87305": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "27896762-d3b8-4c4f-ba52-dc9dafa87305",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To use GitHub API from Go you can use "
+              ],
+              [
+                "github.com/google/go-github",
+                [
+                  [
+                    "a",
+                    "http://github.com/google/go-github"
+                  ]
+                ]
+              ],
+              [
+                " package. GitHub, like many other sites, uses OAuth 2.0 protocol for authentication. There are few packages for Go that implement OAuth. This article describes how to use "
+              ],
+              [
+                "golang.org/x/oauth2",
+                [
+                  [
+                    "a",
+                    "http://golang.org/x/oauth2"
+                  ]
+                ]
+              ],
+              [
+                " package. If you prefer to read code, read "
+              ],
+              [
+                "this sample",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/kjkpub/blob/master/go/github_sample/sample_1.go"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2811ebbf-90f3-4057-92c2-6c1e4e794033": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780544,
+          "id": "2811ebbf-90f3-4057-92c2-6c1e4e794033",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780544,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "321f2385-3c29-43e9-a588-58b1c044ad0e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "321f2385-3c29-43e9-a588-58b1c044ad0e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Short intro to OAuth for GitHub"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "374a4b98-5f58-4981-8597-9a3ca1c2bf58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780543,
+          "id": "374a4b98-5f58-4981-8597-9a3ca1c2bf58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780543,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 15"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "375b94c1-35f6-4055-8c93-3f87df414664": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "375b94c1-35f6-4055-8c93-3f87df414664",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531817003725,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "func main() {\n    http.HandleFunc(\"/\", handleMain)\n    http.HandleFunc(\"/login\", handleGitHubLogin)\n    http.HandleFunc(\"/github_oauth_cb\", handleGitHubCallback)\n    fmt.Print(\"Started running on http://127.0.0.1:7000\\n\")\n    fmt.Println(http.ListenAndServe(\":7000\", nil))\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "388c372d-eb13-436d-b190-b4b58a356083": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "388c372d-eb13-436d-b190-b4b58a356083",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531817008099,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "func tokenToJSON(token *oauth2.Token) (string, error) {\n    if d, err := json.Marshal(token); err != nil {\n        return \"\", err\n    } else {\n        return string(d), nil\n    }\n}\n\nfunc tokenFromJSON(jsonStr string) (*oauth2.Token, error) {\n    var token oauth2.Token\n    if err := json.Unmarshal([]byte(jsonStr), \u0026token); err != nil {\n        return nil, err\n    }\n    return \u0026token, nil\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "46c6598c-ffe1-4afb-90ec-dcb9744a8170": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "46c6598c-ffe1-4afb-90ec-dcb9744a8170",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is your main html page:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4c3d5bde-0e60-425a-ba32-409caf52fa08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "4c3d5bde-0e60-425a-ba32-409caf52fa08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the user is on your website and clicks “login with GitHub” link"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "50d40e2c-b2d9-4432-bcdd-09ba23d577b0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "50d40e2c-b2d9-4432-bcdd-09ba23d577b0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "you redirect the user to GitHub’s authorization page. In that url you specify desired access level and a random secret"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "574e2c08-ab2b-4a51-8d00-9b484a737b9d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780543,
+          "id": "574e2c08-ab2b-4a51-8d00-9b484a737b9d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532406345836,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: go, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "59a8cb3f-50bc-4deb-9a97-140f3568371a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780543,
+          "id": "59a8cb3f-50bc-4deb-9a97-140f3568371a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780543,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2015-02-12T23:18:58-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5c720a4b-1e80-49ba-9d14-6eaecdcbc345": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "5c720a4b-1e80-49ba-9d14-6eaecdcbc345",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "GitHub will show authorization page to your user. If the user authorizes your app, GitHub will re-direct to OAuth callback. Here’s how you can turn it into a token, token into http client and use that client to list GitHub information about user:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "65da7f1e-19b1-4093-a3b8-324527c9d9b7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "65da7f1e-19b1-4093-a3b8-324527c9d9b7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780547,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Using personal access token"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "7702ea63-67ce-46d9-a33a-6dd5e0142f1a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "7702ea63-67ce-46d9-a33a-6dd5e0142f1a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "you have to check that the secret is the same as the one you sent to GitHub (security measure that prevents forgery)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "82ecc241-e97c-4259-9d2c-04c0d5420dcb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "82ecc241-e97c-4259-9d2c-04c0d5420dcb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In the handler for /login url, redirect to GitHub’s authorization page:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8e4c5f0d-43fc-40e2-86ce-eaa4607a54b7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "8e4c5f0d-43fc-40e2-86ce-eaa4607a54b7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816996716,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "// /login\nfunc handleGitHubLogin(w http.ResponseWriter, r *http.Request) {\n    url := oauthConf.AuthCodeURL(oauthStateString, oauth2.AccessTypeOnline)\n    http.Redirect(w, r, url, http.StatusTemporaryRedirect)\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "8e72bb11-e16b-4c93-b184-4a2882d1b380": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "8e72bb11-e16b-4c93-b184-4a2882d1b380",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531817000834,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "// /github_oauth_cb. Called by github after authorization is granted\nfunc handleGitHubCallback(w http.ResponseWriter, r *http.Request) {\n    state := r.FormValue(\"state\")\n    if state != oauthStateString {\n        fmt.Printf(\"invalid oauth state, expected '%s', got '%s'\\n\", oauthStateString, state)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n\n    code := r.FormValue(\"code\")\n    token, err := oauthConf.Exchange(oauth2.NoContext, code)\n    if err != nil {\n        fmt.Printf(\"oauthConf.Exchange() failed with '%s'\\n\", err)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n\n    oauthClient := oauthConf.Client(oauth2.NoContext, token)\n    client := github.NewClient(oauthClient)\n    user, _, err := client.Users.Get(\"\")\n    if err != nil {\n        fmt.Printf(\"client.Users.Get() faled with '%s'\\n\", err)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n    fmt.Printf(\"Logged in as GitHub user: %s\\n\", *user.Login)\n    http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "93d5a150-b058-4de7-8bb6-04a4a5cf8e1c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "93d5a150-b058-4de7-8bb6-04a4a5cf8e1c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780547,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Once you retrieve the token, you need to remember it e.g. in a database. Here’s how to serialize/deserialize token to/from JSON:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "99f02441-3b9f-4954-a1b3-f2ee0e83d86d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "99f02441-3b9f-4954-a1b3-f2ee0e83d86d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Notes on callback url"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "9ba80133-4844-453c-bf18-b6031d823422": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "9ba80133-4844-453c-bf18-b6031d823422",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780547,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "And finally this is how you tie everything together:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9c48881c-8a1f-49bf-bcf6-75030dab17d1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "9c48881c-8a1f-49bf-bcf6-75030dab17d1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780547,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you want to access someone else’s GitHub info, you need to authorize your app with GitHub as described above. If you want to access your own account, you can generate a "
+              ],
+              [
+                "personal access token",
+                [
+                  [
+                    "a",
+                    "https://github.com/settings/applications#personal-access-tokens"
+                  ]
+                ]
+              ],
+              [
+                ". Here’s how to do it:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a828cb2f-0f43-4fe9-85b0-ab429f1fb4c3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "a828cb2f-0f43-4fe9-85b0-ab429f1fb4c3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You define callback url when you register the app. This is a problem for testing, because your app might use different hosts for development or production. One option is to create different apps for testing and production, with different callback urls. OAuth protocol allows providing callback url as an argument when calling authorization page (and oauth2 library allows setting it as "
+              ],
+              [
+                "oauth2.Config.RedirectURL",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ") but GitHub "
+              ],
+              [
+                "has restrictions",
+                [
+                  [
+                    "a",
+                    "https://developer.github.com/v3/oauth/#redirect-urls"
+                  ]
+                ]
+              ],
+              [
+                " and doesn’t allow changing host."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ac2c83f8-2009-4bde-8e70-9abfa5322384": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "ac2c83f8-2009-4bde-8e70-9abfa5322384",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "you call another GitHub url to exchange code for access token"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "bc34a58e-6e10-4ed3-8c5e-939d8f78cd6b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "bc34a58e-6e10-4ed3-8c5e-939d8f78cd6b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531816989662,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "import (\n    \"fmt\"\n    \"net/http\"\n\n    \"github.com/google/go-github/github\"\n    \"golang.org/x/oauth2\"\n    githuboauth \"golang.org/x/oauth2/github\"\n)\n\nvar (\n    // You must register the app at https://github.com/settings/applications\n    // Set callback to http://127.0.0.1:7000/github_oauth_cb\n    // Set ClientId and ClientSecret to\n    oauthConf = \u0026oauth2.Config{\n        ClientID:     \"\",\n        ClientSecret: \"\",\n        // select level of access you want https://developer.github.com/v3/oauth/#scopes\n        Scopes:       []string{\"user:email\", \"repo\"},\n        Endpoint:     githuboauth.Endpoint,\n    }\n    // random string for oauth2 API calls to protect against CSRF\n    oauthStateString = \"thisshouldberandom\"\n)"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "c1fb8d88-5f07-435e-b690-382af80d82e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780543,
+          "id": "c1fb8d88-5f07-435e-b690-382af80d82e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780543,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Collection: go-cookbook"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d048b483-6eb6-4eaa-aef4-561b90214cf7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780547,
+          "id": "d048b483-6eb6-4eaa-aef4-561b90214cf7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780547,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Remembering OAuth access token"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "d3706c85-8d22-46f9-9f1b-a6cc4e107dcc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "d3706c85-8d22-46f9-9f1b-a6cc4e107dcc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "First, you need to "
+              ],
+              [
+                "register your application with GitHub",
+                [
+                  [
+                    "a",
+                    "https://github.com/settings/applications"
+                  ]
+                ]
+              ],
+              [
+                " (under Developer applications). You provide description of the app, including a callback url (we’ll get back to that). GitHub creates client id and client secret that you’ll need to provide to OAuth libraries (and keep them secret)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e7532fc7-2276-4ca5-a0af-c209e90cfb1f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "e7532fc7-2276-4ca5-a0af-c209e90cfb1f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Create OAuth config object:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e814dfac-91d8-4016-9a73-de348ed2b6f8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "e814dfac-91d8-4016-9a73-de348ed2b6f8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Access token is what you use to authenticate your API calls."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e823e363-d1c3-4995-a214-10e58c504178": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780545,
+          "id": "e823e363-d1c3-4995-a214-10e58c504178",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780545,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in the url handler, extract “secret” and “code” args"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "374a4b98-5f58-4981-8597-9a3ca1c2bf58",
+            "59a8cb3f-50bc-4deb-9a97-140f3568371a",
+            "574e2c08-ab2b-4a51-8d00-9b484a737b9d",
+            "c1fb8d88-5f07-435e-b690-382af80d82e7",
+            "2811ebbf-90f3-4057-92c2-6c1e4e794033",
+            "27896762-d3b8-4c4f-ba52-dc9dafa87305",
+            "321f2385-3c29-43e9-a588-58b1c044ad0e",
+            "1ddff2b7-7900-49cc-af98-fadc651d7d2a",
+            "d3706c85-8d22-46f9-9f1b-a6cc4e107dcc",
+            "26f771e4-57ea-4cbb-a56b-72db4aaee030",
+            "4c3d5bde-0e60-425a-ba32-409caf52fa08",
+            "50d40e2c-b2d9-4432-bcdd-09ba23d577b0",
+            "15cf123c-ce6c-4d55-9f51-9633e7f0ed16",
+            "07f50493-e919-40a0-bcdd-73d6fe445469",
+            "e823e363-d1c3-4995-a214-10e58c504178",
+            "7702ea63-67ce-46d9-a33a-6dd5e0142f1a",
+            "ac2c83f8-2009-4bde-8e70-9abfa5322384",
+            "e814dfac-91d8-4016-9a73-de348ed2b6f8",
+            "99f02441-3b9f-4954-a1b3-f2ee0e83d86d",
+            "a828cb2f-0f43-4fe9-85b0-ab429f1fb4c3",
+            "fbcee9a2-dae3-46ae-a323-c3280b9f8a07",
+            "e7532fc7-2276-4ca5-a0af-c209e90cfb1f",
+            "bc34a58e-6e10-4ed3-8c5e-939d8f78cd6b",
+            "46c6598c-ffe1-4afb-90ec-dcb9744a8170",
+            "240f6b67-afc9-4d0a-befb-05898f946a18",
+            "82ecc241-e97c-4259-9d2c-04c0d5420dcb",
+            "8e4c5f0d-43fc-40e2-86ce-eaa4607a54b7",
+            "5c720a4b-1e80-49ba-9d14-6eaecdcbc345",
+            "8e72bb11-e16b-4c93-b184-4a2882d1b380",
+            "9ba80133-4844-453c-bf18-b6031d823422",
+            "375b94c1-35f6-4055-8c93-3f87df414664",
+            "d048b483-6eb6-4eaa-aef4-561b90214cf7",
+            "93d5a150-b058-4de7-8bb6-04a4a5cf8e1c",
+            "388c372d-eb13-436d-b190-b4b58a356083",
+            "65da7f1e-19b1-4093-a3b8-324527c9d9b7",
+            "9c48881c-8a1f-49bf-bcf6-75030dab17d1",
+            "066b74e7-a359-4cfb-8a92-a2a9d8840f87"
+          ],
+          "copied_from": "83fac1a9-a76c-49d7-9ebd-7dd9ae95fe1a",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780543,
+          "file_ids": [
+            "86bd3ca0-53f5-4048-997a-78a19bd9ce21"
+          ],
+          "format": {
+            "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86bd3ca0-53f5-4048-997a-78a19bd9ce21/header-06.jpg",
+            "page_cover_position": 0.5,
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996130087,
+          "parent_id": "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Accessing GitHub API from Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 17
+        }
+      },
+      "fbcee9a2-dae3-46ae-a323-c3280b9f8a07": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736780546,
+          "id": "fbcee9a2-dae3-46ae-a323-c3280b9f8a07",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736780546,
+          "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Implementing OAuth using "
+              ],
+              [
+                "golang.org/x/oauth2",
+                [
+                  [
+                    "a",
+                    "http://golang.org/x/oauth2"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bc97af97fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:19 GMT"
+  ],
+  "Etag": [
+    "W/\"779a-1h4mBQvUhVj+ZoKt28X8xXFaM44\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0a09127df6dd6d75fc5976d800ffe5541565326219; expires=Sat, 08-Aug-20 04:50:19 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

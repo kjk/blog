@@ -1,0 +1,1081 @@
+3357 1565326097493 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+      "table": "block"
+    }
+  ]
+}
+Response:+2208
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "fedb646f-0618-4c4f-ae70-171310cf39c0",
+          "5d707574-6072-413c-b145-cea3216ad6e2",
+          "9335cd0e-41fe-4f14-8958-e0f390da9aa6",
+          "6b7a73e0-823f-4358-9762-97b8288431db",
+          "aa5df761-1dd9-404a-89fd-a73d1d4b93b9",
+          "54b039a6-e3da-4157-949e-07d2c7849833",
+          "fd534628-847d-48f2-aaad-d41ce39353e4",
+          "06c0510c-e904-4d41-bd9d-27080d3882c7",
+          "15dc6fbe-cce2-4ef7-a8f9-53c445787291",
+          "664ac62c-5c77-4f77-bf43-7ec7e64709b6",
+          "76c8278d-eda8-4f2b-9d34-b9a941fe2edc",
+          "0dd65257-0f90-4431-b6e9-b1f670781ed5",
+          "61e83f32-f3d6-4f38-bc8c-1f17e65cf113",
+          "552507d8-034c-4b18-ae36-cc1d245ba2f9",
+          "bf46dcff-fb17-4fd0-913d-d287d3909baa",
+          "e6e42675-23c7-4caf-9b3b-581409d7b53a",
+          "4be24555-0742-4ad3-b67b-225046eddb3e",
+          "48459a32-1f56-4b2a-b9d3-956774c02204",
+          "c1ec93a6-4653-4c06-97bb-4a281a89efdd",
+          "f72a2ed2-b84f-4bab-85bd-a854cba2e0e7",
+          "1dea8f73-795f-4ec6-91ce-bd6f7160ad87",
+          "6b98844d-66b0-4b00-895f-bf9b9e7db993",
+          "35eee78f-7d8c-49b3-9074-8e6033c6564d",
+          "e6b8d257-53b3-4908-a404-24dff86ba271",
+          "2718c312-2432-4e3e-9732-cfbc8427c1f1",
+          "1b42962b-37b6-41ec-82e7-63afc32ce4e3",
+          "6243b4f3-8615-47a9-ac3f-19816f871151",
+          "9a091f48-f01c-434d-9b8a-7bf44b4e03d5"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512295773180,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539490091371,
+        "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Using MySQL in Docker for local testing in Python"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 3
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718c808ff7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:16 GMT"
+  ],
+  "Etag": [
+    "W/\"64e-s5cN2PFy+f6O1fmuSnKrJ3I9sto\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2836baff3684f7d0310196679d7ff3811565326096; expires=Sat, 08-Aug-20 04:48:16 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+36248 1565326097495 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ed25f870-79cc-4b0b-9080-460e062053e4",
+  "verticalColumns": false
+}
+Response:+35057
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "06c0510c-e904-4d41-bd9d-27080d3882c7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "06c0510c-e904-4d41-bd9d-27080d3882c7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s just a matter of running docker commands and parsing their outputs but it’s difficult enough to worth sharing the complete solution."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "0dd65257-0f90-4431-b6e9-b1f670781ed5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "0dd65257-0f90-4431-b6e9-b1f670781ed5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "otherwise start it with "
+              ],
+              [
+                "docker run",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "15dc6fbe-cce2-4ef7-a8f9-53c445787291": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "15dc6fbe-cce2-4ef7-a8f9-53c445787291",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Conceptually, what we do is:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "1b42962b-37b6-41ec-82e7-63afc32ce4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "1b42962b-37b6-41ec-82e7-63afc32ce4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "start-mysql-in-docker/start_docker.py",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/blob/master/start-mysql-in-docker/start_docker.py"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "1dea8f73-795f-4ec6-91ce-bd6f7160ad87": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "1dea8f73-795f-4ec6-91ce-bd6f7160ad87",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Python scripts works a bit differently in that it extracts ip address of the docker instance and port on which MySQL is listening and writes this information to stdout. We can parse its output in "
+              ],
+              [
+                "run.sh",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and pass it to arbitrary program."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2718c312-2432-4e3e-9732-cfbc8427c1f1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "2718c312-2432-4e3e-9732-cfbc8427c1f1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The real meat of the operation is "
+              ],
+              [
+                "start_docker.py",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " script which checks if docker instance is already running. If not, it starts it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "35eee78f-7d8c-49b3-9074-8e6033c6564d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "35eee78f-7d8c-49b3-9074-8e6033c6564d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "#!/bin/bash\nset -u -e -o pipefail\n\n# ./start_docker.py writes '\u003cip_address\u003e:\u003cdb port\u003e' to stdout\nIFS=\\; read -a ip_port \u003c\u003c\u003c\"`./start_docker.py`\"\nip=\"${ip_port[0]}\"\nport=\"${ip_port[1]}\"\n\n./quicknotes -local -verbose -db-host ${ip} -db-port ${port} $@"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "48459a32-1f56-4b2a-b9d3-956774c02204": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "48459a32-1f56-4b2a-b9d3-956774c02204",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "port on which the database is exposed locally (in the container MySQL listens on standard port 3306, it must be exposed locally on a unique port)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "4be24555-0742-4ad3-b67b-225046eddb3e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "4be24555-0742-4ad3-b67b-225046eddb3e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "name of the container, which should by unique for the project"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "54b039a6-e3da-4157-949e-07d2c7849833": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "54b039a6-e3da-4157-949e-07d2c7849833",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One wrinkle in the scheme is that you have to make sure that the database container is running, get the ip address of docker instance and port on which the database is listening on."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "552507d8-034c-4b18-ae36-cc1d245ba2f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "552507d8-034c-4b18-ae36-cc1d245ba2f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The script is very re-usable. You can customize it by changing:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5d707574-6072-413c-b145-cea3216ad6e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "5d707574-6072-413c-b145-cea3216ad6e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Imagine you’re writing a web service that uses MySQL. You deploy on Linux but write code and test on Mac."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "61e83f32-f3d6-4f38-bc8c-1f17e65cf113": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "61e83f32-f3d6-4f38-bc8c-1f17e65cf113",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "MySQL database is stored in a mounted directory so that it persists even if the container is stopped."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "6243b4f3-8615-47a9-ac3f-19816f871151": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "6243b4f3-8615-47a9-ac3f-19816f871151",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Python"
+              ]
+            ],
+            "title": [
+              [
+                "#!/usr/local/bin/python3\n\nimport sys, os, os.path, time, subprocess\n\nkStatusRunning = \"running\"\nkStatusExited = \"exited\"\n\n# using https://hub.docker.com/_/mysql/\n# to use the latest mysql, use mysql:8\nimageName = \"mysql:5.6\"\n# name must be unique across containers runing on this computer\ncontainerName = \"mysql-db-multi\"\n# this is where mysql database files are stored, so that\n# they persist even if container goes away\ndbDir = os.path.expanduser(\"~/data/db-multi\")\n# 3306 is standard MySQL port, I use a unique port to be able\n# to run multiple mysql instances for different projects\ndockerDbLocalPort = \"7200\"\n\ndef eprint(*args, **kwargs):\n  print(*args, file=sys.stderr, **kwargs)\n\ndef print_cmd(cmd):\n  eprint(\"cmd:\" + \" \".join(cmd))\n\ndef run_cmd(cmd):\n  print_cmd(cmd)\n  res = subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)\n  eprint(res.stdout.decode('utf-8'))\n\ndef run_cmd_out(cmd):\n  print_cmd(cmd)\n  s = subprocess.check_output(cmd)\n  return s.decode(\"utf-8\")\n\ndef run_cmd_show_progress(cmd):\n  eprint(\"Running '%s'\" % cmd)\n  p = subprocess.Popen(cmd, stdout = subprocess.PIPE,\n          stderr = subprocess.STDOUT, shell = True)\n  while True:\n    line = p.stdout.readline()\n    if not line:\n      break\n    sys.stdout.buffer.write(line)\n    sys.stdout.flush()\n  #eprint(\"Finished runnign '%s'\" % \" \".join(cmd))\n\ndef verify_docker_running():\n  try:\n    run_cmd([\"docker\", \"ps\"])\n  except:\n    eprint(\"docker is not running! must run docker\")\n    sys.exit(10)\n\n# not sure if this covers all cases\ndef decode_status(status_verbose):\n  if \"Exited\" in status_verbose:\n    return kStatusExited\n  return kStatusRunning\n\n# given:\n# 0.0.0.0:7200-\u003e3306/tcp\n# return (0.0.0.0, 7200) or None if doesn't match\ndef decode_ip_port(mappings):\n  parts = mappings.split(\"-\u003e\")\n  if len(parts) != 2:\n    return None\n  parts = parts[0].split(\":\")\n  if len(parts) != 2:\n    return None\n  return parts\n\n# returns:\n#  - container id\n#  - status\n#  - (ip, port) in the host that maps to exposed port inside the container (or None)\n# returns (None, None, None) if no container of that name\ndef docker_container_info(containerName):\n  s = run_cmd_out([\"docker\", \"ps\", \"-a\", \"--format\", \"{{.ID}}|{{.Status}}|{{.Ports}}|{{.Names}}\"])\n  # this returns a line like:\n  # 6c5a934e00fb|Exited (0) 3 months ago|0.0.0.0:7200-\u003e3306/tcp|mysql-56-for-quicknotes\n  lines = s.split(\"\\n\")\n  for l in lines:\n    if len(l) == 0:\n      continue\n    parts = l.split(\"|\")\n    assert len(parts) == 4, \"parts: %s\" % parts\n    id, status, mappings, names = parts\n    if containerName in names:\n      status = decode_status(status)\n      ip_port = decode_ip_port(mappings)\n      return (id, status, ip_port)\n  return (None, None, None)\n\ndef wait_for_container(containerName):\n  # 8 secs is a heuristic\n  timeOut = 8\n  eprint(\"waiting %s secs for container to start\" % timeOut, end=\"\", flush=True)\n  while timeOut \u003e 0:\n    (containerId, status, ip_port) = docker_container_info(containerName)\n    if status == kStatusRunning:\n      return\n    eprint(\".\", end=\"\", flush=True)\n    time.sleep(1)\n    timeOut -= 1\n  eprint(\"\")\n\ndef start_container_if_needed(imageName, containerName, portMapping):\n  (containerId, status, ip_port) = docker_container_info(containerName)\n  if status == kStatusRunning:\n    eprint(\"container %s is already running\" % containerName)\n    return\n  if status == kStatusExited:\n    cmd = [\"docker\", \"start\", containerId]\n  else:\n    volumeMapping = \"%s:/var/lib/mysql\" % dbDir\n    cmd = [\"docker\", \"run\", \"-d\", \"--name=\" + containerName, \"-p\", portMapping, \"-v\", volumeMapping, \"-e\", \"MYSQL_ALLOW_EMPTY_PASSWORD=yes\", imageName]\n  run_cmd(cmd)\n  wait_for_container(containerName)\n\ndef create_db_dir():\n  try:\n    os.makedirs(dbDir)\n  except:\n    # throws if already exists, which is ok\n    pass\n\ndef main():\n  verify_docker_running()\n  create_db_dir()\n  start_container_if_needed(imageName, containerName, dockerDbLocalPort + \":3306\")\n  (containerId, status, ip_port) = docker_container_info(containerName)\n  assert ip_port is not None\n  ip, port = ip_port\n  print(\"%s;%s\" % (ip, port))\n\nif __name__ == \"__main__\":\n  main()"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "664ac62c-5c77-4f77-bf43-7ec7e64709b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "664ac62c-5c77-4f77-bf43-7ec7e64709b6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "run "
+              ],
+              [
+                "docker ps -a",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and parse the output. If the desired container is already running, parse ip address/port from the output and return that"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "6b7a73e0-823f-4358-9762-97b8288431db": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "6b7a73e0-823f-4358-9762-97b8288431db",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can use "
+              ],
+              [
+                "native MySQL installer",
+                [
+                  [
+                    "a",
+                    "https://dev.mysql.com/downloads/mysql/"
+                  ]
+                ]
+              ],
+              [
+                " or install MySQL via "
+              ],
+              [
+                "Homebrew",
+                [
+                  [
+                    "a",
+                    "https://brew.sh/"
+                  ]
+                ]
+              ],
+              [
+                " but my favorite way is to use docker."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "6b98844d-66b0-4b00-895f-bf9b9e7db993": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "6b98844d-66b0-4b00-895f-bf9b9e7db993",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s start with "
+              ],
+              [
+                "run.sh",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " script that starts a local instance."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "76c8278d-eda8-4f2b-9d34-b9a941fe2edc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "76c8278d-eda8-4f2b-9d34-b9a941fe2edc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "if the container is stopped, re-start it with "
+              ],
+              [
+                "docker start",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "9335cd0e-41fe-4f14-8958-e0f390da9aa6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "9335cd0e-41fe-4f14-8958-e0f390da9aa6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What is a good way to setup a MySQL database for local testing?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "9a091f48-f01c-434d-9b8a-7bf44b4e03d5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "9a091f48-f01c-434d-9b8a-7bf44b4e03d5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "type": "sub_header",
+          "version": 0
+        }
+      },
+      "aa5df761-1dd9-404a-89fd-a73d1d4b93b9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "aa5df761-1dd9-404a-89fd-a73d1d4b93b9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "With docker you can have multiple MySQL instances running and you can easily install exactly the same version of MySQL as the one in production. I’ve learned the hard way that using newer version for development can bite you."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "bf46dcff-fb17-4fd0-913d-d287d3909baa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "bf46dcff-fb17-4fd0-913d-d287d3909baa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the base MySQL container ("
+              ],
+              [
+                "mysql:5.6",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " in my case)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "c1ec93a6-4653-4c06-97bb-4a281a89efdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "c1ec93a6-4653-4c06-97bb-4a281a89efdd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This can be adapted for other databases, like PostgreSQL."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "e6b8d257-53b3-4908-a404-24dff86ba271": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "e6b8d257-53b3-4908-a404-24dff86ba271",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Assume that "
+              ],
+              [
+                "./quicknotes",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " is the executable for the service."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "e6e42675-23c7-4caf-9b3b-581409d7b53a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "e6e42675-23c7-4caf-9b3b-581409d7b53a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "where MySQL data is stored"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "ed25f870-79cc-4b0b-9080-460e062053e4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fedb646f-0618-4c4f-ae70-171310cf39c0",
+            "5d707574-6072-413c-b145-cea3216ad6e2",
+            "9335cd0e-41fe-4f14-8958-e0f390da9aa6",
+            "6b7a73e0-823f-4358-9762-97b8288431db",
+            "aa5df761-1dd9-404a-89fd-a73d1d4b93b9",
+            "54b039a6-e3da-4157-949e-07d2c7849833",
+            "fd534628-847d-48f2-aaad-d41ce39353e4",
+            "06c0510c-e904-4d41-bd9d-27080d3882c7",
+            "15dc6fbe-cce2-4ef7-a8f9-53c445787291",
+            "664ac62c-5c77-4f77-bf43-7ec7e64709b6",
+            "76c8278d-eda8-4f2b-9d34-b9a941fe2edc",
+            "0dd65257-0f90-4431-b6e9-b1f670781ed5",
+            "61e83f32-f3d6-4f38-bc8c-1f17e65cf113",
+            "552507d8-034c-4b18-ae36-cc1d245ba2f9",
+            "bf46dcff-fb17-4fd0-913d-d287d3909baa",
+            "e6e42675-23c7-4caf-9b3b-581409d7b53a",
+            "4be24555-0742-4ad3-b67b-225046eddb3e",
+            "48459a32-1f56-4b2a-b9d3-956774c02204",
+            "c1ec93a6-4653-4c06-97bb-4a281a89efdd",
+            "f72a2ed2-b84f-4bab-85bd-a854cba2e0e7",
+            "1dea8f73-795f-4ec6-91ce-bd6f7160ad87",
+            "6b98844d-66b0-4b00-895f-bf9b9e7db993",
+            "35eee78f-7d8c-49b3-9074-8e6033c6564d",
+            "e6b8d257-53b3-4908-a404-24dff86ba271",
+            "2718c312-2432-4e3e-9732-cfbc8427c1f1",
+            "1b42962b-37b6-41ec-82e7-63afc32ce4e3",
+            "6243b4f3-8615-47a9-ac3f-19816f871151",
+            "9a091f48-f01c-434d-9b8a-7bf44b4e03d5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295773180,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1539490091371,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Using MySQL in Docker for local testing in Python"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 3
+        }
+      },
+      "f72a2ed2-b84f-4bab-85bd-a854cba2e0e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "f72a2ed2-b84f-4bab-85bd-a854cba2e0e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Implementation in Python"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 0
+        }
+      },
+      "fd534628-847d-48f2-aaad-d41ce39353e4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807755,
+          "id": "fd534628-847d-48f2-aaad-d41ce39353e4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807755,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Doing this manually would be annoying and I like to automate. I wrote a re-usable script that ensures MySQL docker instance is running and then passes database ip address/port to the program."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "fedb646f-0618-4c4f-ae70-171310cf39c0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512295807187,
+          "id": "fedb646f-0618-4c4f-ae70-171310cf39c0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512295807187,
+          "parent_id": "ed25f870-79cc-4b0b-9080-460e062053e4",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718c8795c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:16 GMT"
+  ],
+  "Etag": [
+    "W/\"5cc9-cDUq9Svp5QTChbf/cI7eJiICJD0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2836baff3684f7d0310196679d7ff3811565326096; expires=Sat, 08-Aug-20 04:48:16 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

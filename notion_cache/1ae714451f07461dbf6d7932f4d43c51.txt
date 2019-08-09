@@ -1,0 +1,474 @@
+2117 1565326116422 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+      "table": "block"
+    }
+  ]
+}
+Response:+969
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5f4e205a-2444-43fc-8e14-068cc33d60fb",
+          "bed7eb1a-9a3e-4896-b262-8181cb8179b7",
+          "4920987a-92b8-4732-a8d1-417459511266",
+          "d51c0352-e843-4f90-8a52-4d4f56bc8f01"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486620389,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1559948580000,
+        "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gitpod.io"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 46
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037193e7f5a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:35 GMT"
+  ],
+  "Etag": [
+    "W/\"27f-dyxg73t5jguzVYlJtjV2BG1VyIc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d51b96e12215372f2bf11c06b0961b7931565326115; expires=Sat, 08-Aug-20 04:48:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+12391 1565326116422 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+  "verticalColumns": false
+}
+Response:+11200
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1ae71445-1f07-461d-bf6d-7932f4d43c51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5f4e205a-2444-43fc-8e14-068cc33d60fb",
+            "bed7eb1a-9a3e-4896-b262-8181cb8179b7",
+            "4920987a-92b8-4732-a8d1-417459511266",
+            "d51c0352-e843-4f90-8a52-4d4f56bc8f01"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1535486620389,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1559948580000,
+          "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "gitpod.io"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 46
+        }
+      },
+      "4920987a-92b8-4732-a8d1-417459511266": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1535707446410,
+          "id": "4920987a-92b8-4732-a8d1-417459511266",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1559948580000,
+          "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5f4e205a-2444-43fc-8e14-068cc33d60fb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1535707437485,
+          "id": "5f4e205a-2444-43fc-8e14-068cc33d60fb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1559948580000,
+          "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://docs.gitpod.io/40_Configuration.html#working-with-go",
+                [
+                  [
+                    "a",
+                    "https://docs.gitpod.io/40_Configuration.html#working-with-go"
+                  ]
+                ]
+              ],
+              [
+                " : working with Go"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 41
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "66c160f5-e60e-4aa2-8683-c9dce71188bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9733706b-8f79-42bd-9f80-c02690d40285",
+            "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+            "ffc69e47-0694-46f6-8f81-227e30e04d33",
+            "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+            "ee81607f-5650-4a86-acd6-b16b82fb1982",
+            "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+            "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
+            "46231b41-455b-457b-8305-d189add1004b",
+            "24f3e1d0-9d10-48b6-9e66-b47de19abac4",
+            "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
+            "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
+            "f676ae9b-cd87-48cb-a757-821ea1f0a264",
+            "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+            "840474db-f4cb-4f62-9792-d854e9108155",
+            "7b012643-f530-458c-9ff2-d36203f7aeae",
+            "c7a9a476-031a-4c7c-9fc5-59bcc9f84433",
+            "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+            "c45ea742-c768-4df4-90ff-81e015598690",
+            "53b6fc6e-1f19-4550-885e-3a0717e706cc",
+            "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+            "5be79f93-59c2-454e-8181-e841e607c33e",
+            "854d9940-a0f1-4b54-981f-6d25d2c064c5",
+            "1912e300-19b2-480f-acc4-47baae12b454",
+            "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+            "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
+            "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+            "d94e10ca-0a08-419e-8b02-79c832275207",
+            "db5ebfcd-5966-401f-8ba5-bd2f7c088730",
+            "afb51309-3534-4530-93b1-f4a56d95c294",
+            "d596823b-59e2-41b0-ac3c-983228bf492d",
+            "56216027-c0e3-43b2-985d-35648b9c0891",
+            "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+            "a9969fdc-d396-4544-91f8-980bc5517d13"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553024280000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 217
+        }
+      },
+      "bed7eb1a-9a3e-4896-b262-8181cb8179b7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1559948580000,
+          "id": "bed7eb1a-9a3e-4896-b262-8181cb8179b7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1559948580000,
+          "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.gitpod.io/blog/gitpodify/",
+                [
+                  [
+                    "a",
+                    "https://www.gitpod.io/blog/gitpodify/"
+                  ]
+                ]
+              ],
+              [
+                " : how to do a custom env for a given repository"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 56
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "d51c0352-e843-4f90-8a52-4d4f56bc8f01": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1535707453128,
+          "id": "d51c0352-e843-4f90-8a52-4d4f56bc8f01",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1535707453128,
+          "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037193eefaa7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:35 GMT"
+  ],
+  "Etag": [
+    "W/\"1ce7-arToLDOeZKYWli1HFKLaJqCixmU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d51b96e12215372f2bf11c06b0961b7931565326115; expires=Sat, 08-Aug-20 04:48:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,942 @@
+3044 1565326163546 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+      "table": "block"
+    }
+  ]
+}
+Response:+1895
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "326f6305-1cf7-4828-bb85-7ff0c22ba797",
+          "783ecc70-f042-48dc-951c-74ff6b502fc5",
+          "d8cf27f3-6f9e-452e-bebf-9c65265c95f4",
+          "1b5864a6-f85c-4dc7-a05e-d079b3fac054",
+          "727da785-e942-4a54-9add-d78b174bd67e",
+          "5b4d07d4-5384-4753-9c06-77b97f982d0c",
+          "350d7623-fa93-49ad-ae39-a7b1f8db3d1a",
+          "bdf3fdb6-59e4-4dc9-83b1-3ab14603b1ec",
+          "25e69eef-4945-492e-aa8a-29dc9a0fa364",
+          "32c5e0b0-614d-4011-b05f-63bbedd9beb9",
+          "62525403-dd15-4c2b-8c0c-6db0b6593784",
+          "568fbd4b-3331-4e51-8ca8-8e5a925353bb",
+          "d47563ba-115d-4fcf-a174-dbf31a5ef4bf",
+          "f98dea76-cd69-4c5a-90b5-e79e16c73ee2",
+          "b7e19fc3-ecc1-49a5-abc4-87f74e66df1b",
+          "612107a2-3d5e-47b0-a344-dbc5836fdfe7",
+          "435f7a57-f51c-469b-8bfd-c67b2d0bd9fa",
+          "56c0fe5d-c0a2-496b-ae97-25bacfd08242",
+          "917c14df-912c-4c70-8b70-41a907c49942",
+          "04a91c93-978f-4e73-a0b0-260d6e4fd0e8",
+          "f926221f-9877-422a-af3c-f775c63541eb"
+        ],
+        "copied_from": "ab803011-fd21-49e2-b929-9068d338682b",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944446,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996368299,
+        "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Compacting s3 aws logs"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a64bc8d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:22 GMT"
+  ],
+  "Etag": [
+    "W/\"558-fvj456Ty1KXiGUjdtTTkOsbI5ZU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d894d253975b2e7db09b39502d235f0d11565326162; expires=Sat, 08-Aug-20 04:49:22 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+29178 1565326163548 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+  "verticalColumns": false
+}
+Response:+27987
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "04a91c93-978f-4e73-a0b0-260d6e4fd0e8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "04a91c93-978f-4e73-a0b0-260d6e4fd0e8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Another thing I noticed is that boto sometimes hangs when talking to s3 (exception on timeout would be much better). If that happens, you can kill the script and restart it - it’s smart enough to not re-download files and only deletes the original log files on s3 after compressed log has been saved in s3."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "11703b89-1c9f-48ad-ae04-7eb3f6a2f004": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0ad61046-26d4-47d9-9c53-8b8a8262ca21",
+            "25a7d8d0-c006-4492-9d3c-dd68872e6aa0",
+            "4dfe2435-8ba9-4edf-b4d8-1f7c08b35ed8",
+            "0947e99e-e9ac-4929-a042-0bfc1af30862",
+            "d9c46c22-51ce-4ed1-83f7-aedf795f009a",
+            "0d9dec58-66c0-4d02-a14c-571afd6d50e3",
+            "7c647e80-7f31-49d8-980e-85cd7779d180",
+            "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+            "6d2cfd06-b8f5-4974-b3c6-83a8bd67538e",
+            "00b12e48-bfa0-4eb8-be8a-7915ab77d38e",
+            "b4f45548-2741-44c1-9f2e-c5c84a311099",
+            "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+            "f8055656-137f-4084-95a0-fcf1e3794ed8",
+            "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+            "c9294795-92d0-49c3-b734-21e955fa44fa",
+            "78c37832-4398-4091-bcfe-39d4a4e85fc6",
+            "40162557-4d1d-4685-b9a2-9403645c0c49",
+            "673a95a8-caff-4e92-ae66-ff7510ede1c0",
+            "4754a9c5-481c-4697-aa86-f266e711c5f1",
+            "877c7392-6f09-46bb-bbad-1f173c81946f",
+            "e7f5e7f9-db4b-48ea-9f66-980a025a8ee9",
+            "837a7b55-fbe6-4e87-97cf-d15dc5c176ba",
+            "a0b85ed2-ec0c-4472-be40-18bc449db05f",
+            "7c108342-3b6f-4160-adf1-fcd270f2bc54",
+            "3f220264-80be-4f0e-8382-fcf8a69f253b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195927875,
+          "id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2009 (25)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "1375745a-cd9c-41db-a5b0-9d119a98df5f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "326f6305-1cf7-4828-bb85-7ff0c22ba797",
+            "783ecc70-f042-48dc-951c-74ff6b502fc5",
+            "d8cf27f3-6f9e-452e-bebf-9c65265c95f4",
+            "1b5864a6-f85c-4dc7-a05e-d079b3fac054",
+            "727da785-e942-4a54-9add-d78b174bd67e",
+            "5b4d07d4-5384-4753-9c06-77b97f982d0c",
+            "350d7623-fa93-49ad-ae39-a7b1f8db3d1a",
+            "bdf3fdb6-59e4-4dc9-83b1-3ab14603b1ec",
+            "25e69eef-4945-492e-aa8a-29dc9a0fa364",
+            "32c5e0b0-614d-4011-b05f-63bbedd9beb9",
+            "62525403-dd15-4c2b-8c0c-6db0b6593784",
+            "568fbd4b-3331-4e51-8ca8-8e5a925353bb",
+            "d47563ba-115d-4fcf-a174-dbf31a5ef4bf",
+            "f98dea76-cd69-4c5a-90b5-e79e16c73ee2",
+            "b7e19fc3-ecc1-49a5-abc4-87f74e66df1b",
+            "612107a2-3d5e-47b0-a344-dbc5836fdfe7",
+            "435f7a57-f51c-469b-8bfd-c67b2d0bd9fa",
+            "56c0fe5d-c0a2-496b-ae97-25bacfd08242",
+            "917c14df-912c-4c70-8b70-41a907c49942",
+            "04a91c93-978f-4e73-a0b0-260d6e4fd0e8",
+            "f926221f-9877-422a-af3c-f775c63541eb"
+          ],
+          "copied_from": "ab803011-fd21-49e2-b929-9068d338682b",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996368299,
+          "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Compacting s3 aws logs"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "1b5864a6-f85c-4dc7-a05e-d079b3fac054": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "1b5864a6-f85c-4dc7-a05e-d079b3fac054",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623567147,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "25e69eef-4945-492e-aa8a-29dc9a0fa364": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "25e69eef-4945-492e-aa8a-29dc9a0fa364",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "download all the files for a given day locally"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "326f6305-1cf7-4828-bb85-7ff0c22ba797": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "326f6305-1cf7-4828-bb85-7ff0c22ba797",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623568594,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 12012"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "32c5e0b0-614d-4011-b05f-63bbedd9beb9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "32c5e0b0-614d-4011-b05f-63bbedd9beb9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "create one file that is compressed concatenation of those files"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "350d7623-fa93-49ad-ae39-a7b1f8db3d1a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "350d7623-fa93-49ad-ae39-a7b1f8db3d1a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To fix that I wrote a python script that compacts the logs so that we only get one file per day, which is a more reasonable number (35k files shrank to only 171 for me). As a bonus, it also compresses the log. Given very repetitive nature of log files, it’s a big win (the file shrinks by 94% when compressed with bzip2 algorithm)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "435f7a57-f51c-469b-8bfd-c67b2d0bd9fa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "435f7a57-f51c-469b-8bfd-c67b2d0bd9fa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Also, the script expects a "
+              ],
+              [
+                "awscreds.py",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " file with access/secret key i.e.:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "568fbd4b-3331-4e51-8ca8-8e5a925353bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "568fbd4b-3331-4e51-8ca8-8e5a925353bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "delete the original files"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "56c0fe5d-c0a2-496b-ae97-25bacfd08242": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "56c0fe5d-c0a2-496b-ae97-25bacfd08242",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "access = “access key”\n    secret = “secret key”"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "5b4d07d4-5384-4753-9c06-77b97f982d0c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "5b4d07d4-5384-4753-9c06-77b97f982d0c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Unfortunately, standard s3 logs have a problem: they’re split among lots of files. Around 200 log files are generated for one day which leads to enormous number of files stored on s3 (e.g. merely 6 months of logs generated ~35k of log files)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "612107a2-3d5e-47b0-a344-dbc5836fdfe7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "612107a2-3d5e-47b0-a344-dbc5836fdfe7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "where the logs are downloaded locally. I preserve them although they could be deleted if you’re short on space"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "62525403-dd15-4c2b-8c0c-6db0b6593784": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "62525403-dd15-4c2b-8c0c-6db0b6593784",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "upload compressed file back to s3"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "727da785-e942-4a54-9add-d78b174bd67e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "727da785-e942-4a54-9add-d78b174bd67e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Amazon’s s3 can serve the files via HTTP protocol, so it can be used as an HTTP server for static files. With a little effort you can configure a given s3 bucket to save access log files to a different s3 bucket. This is useful if you’re interested e.g. in figuring out how often a given file is being downloaded. Logging doesn’t happen automatically. To set it up, carefully follow "
+              ],
+              [
+                "this official document",
+                [
+                  [
+                    "a",
+                    "http://docs.amazonwebservices.com/AmazonS3/latest/index.html?ServerLogs.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "783ecc70-f042-48dc-951c-74ff6b502fc5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "783ecc70-f042-48dc-951c-74ff6b502fc5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: aws, python"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "917c14df-912c-4c70-8b70-41a907c49942": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "917c14df-912c-4c70-8b70-41a907c49942",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One unexpected thing I noticed is that apparently Amazon sometimes saves the log file with screwy permissions so that it can’t be read or even fixed by setting new acl (both those operations return 403 forbidden). The only operation that works is deleting the file from s3, so that’s what I do (it’s only a log file, after all)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b7e19fc3-ecc1-49a5-abc4-87f74e66df1b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "b7e19fc3-ecc1-49a5-abc4-87f74e66df1b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "s3 bucket name that stores the logs"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "bdf3fdb6-59e4-4dc9-83b1-3ab14603b1ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "bdf3fdb6-59e4-4dc9-83b1-3ab14603b1ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The logic of the script is simple:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d47563ba-115d-4fcf-a174-dbf31a5ef4bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "d47563ba-115d-4fcf-a174-dbf31a5ef4bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "repeat"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "d8cf27f3-6f9e-452e-bebf-9c65265c95f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "d8cf27f3-6f9e-452e-bebf-9c65265c95f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2009-03-07T18:39:07-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f926221f-9877-422a-af3c-f775c63541eb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944447,
+          "id": "f926221f-9877-422a-af3c-f775c63541eb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944447,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Expected usage of the script is as a daily script followed by a script that analyzes the logs. Due to boto hanging it might not work well in such scenario, though."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f98dea76-cd69-4c5a-90b5-e79e16c73ee2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944446,
+          "id": "f98dea76-cd69-4c5a-90b5-e79e16c73ee2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944446,
+          "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It took me a few hours to get right, so in the spirit of sharing, "
+              ],
+              [
+                "here it is",
+                [
+                  [
+                    "a",
+                    "http://code.google.com/p/kjk/source/browse/trunk/scripts/compact-s3-logs.py"
+                  ]
+                ]
+              ],
+              [
+                ". You’ll have to change a few things in the source:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a655cd87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:22 GMT"
+  ],
+  "Etag": [
+    "W/\"48fa-VyuIaqdC6muCjngaayOXB7s0+vY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d894d253975b2e7db09b39502d235f0d11565326162; expires=Sat, 08-Aug-20 04:49:22 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

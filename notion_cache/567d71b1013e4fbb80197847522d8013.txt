@@ -1,0 +1,1162 @@
+3513 1565326181639 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "567d71b1-013e-4fbb-8019-7847522d8013",
+      "table": "block"
+    }
+  ]
+}
+Response:+2364
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "0fe707c2-2323-4f24-926f-824f6cbb9faa",
+          "f611bba1-ec96-4a1b-9e08-2c1fe81f29a3",
+          "7898da10-ef0e-4442-95cf-e064b2645076",
+          "90b6d89d-04d3-4c59-aa5e-21137ea8f0cf",
+          "f0f2c9c9-9c95-476e-ac91-7b109eda7727",
+          "94bc3d9c-da54-4555-acf3-947a173886df",
+          "041995a2-3434-47a3-9706-29e468efb5ec",
+          "90215dfd-799a-4c30-9a17-1751309180e2",
+          "26108b77-f809-49f1-aa28-8fd35ddf5523",
+          "c7733d3b-d2ca-4a86-8a3f-258f44023e97",
+          "3ef359a5-be06-4415-b9c8-2de1b78d34aa",
+          "ff159678-da63-42bf-a671-e8b0c214f245",
+          "03ed2771-65e9-497a-b05b-c85de9d2c6b1",
+          "61c50480-7c77-48a9-a110-81f3186ebddc",
+          "1b0a99d5-29d9-4bea-bf8d-53ce22065a91",
+          "a6ac1bff-2b3c-4cf2-b392-714c56bc4fd1",
+          "556ba9ec-3366-4325-8309-2421c971781d",
+          "772993de-28aa-4930-a505-b6314ad1113e",
+          "4c93b8b5-ab4d-4b74-b297-f8993e060a79",
+          "3c16e6f1-b99a-49e7-a9e8-f846d3325374",
+          "a8f7d18f-7f18-4253-a71c-7c633d357247",
+          "b65a610d-e132-4b25-ae32-54200081c079",
+          "b710084c-f5c9-4995-962c-905ee75ed8ac",
+          "63ca7ea6-6709-47bf-9b8e-41833ab74cbb",
+          "a9581d26-af45-42bf-a863-149e92ecd04c",
+          "d8b8ad99-c97a-4fa2-be5b-21e17d2a4515",
+          "441dd0d7-6fc6-48f2-bf9b-dd68c2b07a56",
+          "db9df202-d47b-4ab5-8a6c-0b90ff9469e2",
+          "d969b459-6635-4896-a51f-a4b2ab20b324",
+          "4e249c10-97a8-4cf6-900e-56a9aec8880f"
+        ],
+        "copied_from": "af84c4db-ca17-45dc-a526-d05c8cace2bb",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200903438,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "567d71b1-013e-4fbb-8019-7847522d8013",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996386089,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Summary of talk on continuous deployment "
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371ad5faaf7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:40 GMT"
+  ],
+  "Etag": [
+    "W/\"6ca-oO28vf4StQK+8dWyQCo+vRbasxw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1b87bb44fb23b22c3e439aeb112fa5cb1565326180; expires=Sat, 08-Aug-20 04:49:40 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+36562 1565326181642 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "567d71b1-013e-4fbb-8019-7847522d8013",
+  "verticalColumns": false
+}
+Response:+35371
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "03ed2771-65e9-497a-b05b-c85de9d2c6b1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "03ed2771-65e9-497a-b05b-c85de9d2c6b1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Switching to continuous deployment was scary, feeling of lack of safety net."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "041995a2-3434-47a3-9706-29e468efb5ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "041995a2-3434-47a3-9706-29e468efb5ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before continuous deployment releases were on a 2 week cycle: 1 week dev, 1 week QA."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0fe707c2-2323-4f24-926f-824f6cbb9faa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "0fe707c2-2323-4f24-926f-824f6cbb9faa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623249544,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 134001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "1b0a99d5-29d9-4bea-bf8d-53ce22065a91": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "1b0a99d5-29d9-4bea-bf8d-53ce22065a91",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Code in small batch sizes (2 hrs worth of coding)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "26108b77-f809-49f1-aa28-8fd35ddf5523": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "26108b77-f809-49f1-aa28-8fd35ddf5523",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before: common staging area. After: standalone sandboxes for each dev and for QA."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3c16e6f1-b99a-49e7-a9e8-f846d3325374": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "3c16e6f1-b99a-49e7-a9e8-f846d3325374",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Incrementally build cluster immune system, which can detected bad changes. Started by monitoring with off-the-shelf tools like nagios, ganglia, over time added custom monitoring, business level metrics.\nUsed 5 whys based on production problems to figure out what to monitor."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3ef359a5-be06-4415-b9c8-2de1b78d34aa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "3ef359a5-be06-4415-b9c8-2de1b78d34aa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Release is triggered by a checkin. It runs a battery of tests and only goes into production if tests pass. The whole process takes \u003c20min."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "441dd0d7-6fc6-48f2-bf9b-dd68c2b07a56": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "441dd0d7-6fc6-48f2-bf9b-dd68c2b07a56",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Start with qualitative analysis: contact customers who asked for the feature and get their feedback, focusing not on coolness but on whether it solved their problem and made the difference in ability to make or keep the sale."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4c93b8b5-ab4d-4b74-b297-f8993e060a79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "4c93b8b5-ab4d-4b74-b297-f8993e060a79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Problem: with time tests get out of date and start failing. Solution: a rule that says can only deploy if all tests pass. If test became invalid, had to fix it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4e249c10-97a8-4cf6-900e-56a9aec8880f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "4e249c10-97a8-4cf6-900e-56a9aec8880f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I was disappointed that the talk doesn’t talk about “cluster immune system” in more technical detail. The idea is easy to express but the actual implementation seems to me frighteningly complex, especially given the need for testing new code on realistic data (e.g. production accounts) and at the same time in a sandboxed environment that is not production."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "556ba9ec-3366-4325-8309-2421c971781d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "556ba9ec-3366-4325-8309-2421c971781d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Wrote functional tests, starting with test for user activation (registration etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "567d71b1-013e-4fbb-8019-7847522d8013": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0fe707c2-2323-4f24-926f-824f6cbb9faa",
+            "f611bba1-ec96-4a1b-9e08-2c1fe81f29a3",
+            "7898da10-ef0e-4442-95cf-e064b2645076",
+            "90b6d89d-04d3-4c59-aa5e-21137ea8f0cf",
+            "f0f2c9c9-9c95-476e-ac91-7b109eda7727",
+            "94bc3d9c-da54-4555-acf3-947a173886df",
+            "041995a2-3434-47a3-9706-29e468efb5ec",
+            "90215dfd-799a-4c30-9a17-1751309180e2",
+            "26108b77-f809-49f1-aa28-8fd35ddf5523",
+            "c7733d3b-d2ca-4a86-8a3f-258f44023e97",
+            "3ef359a5-be06-4415-b9c8-2de1b78d34aa",
+            "ff159678-da63-42bf-a671-e8b0c214f245",
+            "03ed2771-65e9-497a-b05b-c85de9d2c6b1",
+            "61c50480-7c77-48a9-a110-81f3186ebddc",
+            "1b0a99d5-29d9-4bea-bf8d-53ce22065a91",
+            "a6ac1bff-2b3c-4cf2-b392-714c56bc4fd1",
+            "556ba9ec-3366-4325-8309-2421c971781d",
+            "772993de-28aa-4930-a505-b6314ad1113e",
+            "4c93b8b5-ab4d-4b74-b297-f8993e060a79",
+            "3c16e6f1-b99a-49e7-a9e8-f846d3325374",
+            "a8f7d18f-7f18-4253-a71c-7c633d357247",
+            "b65a610d-e132-4b25-ae32-54200081c079",
+            "b710084c-f5c9-4995-962c-905ee75ed8ac",
+            "63ca7ea6-6709-47bf-9b8e-41833ab74cbb",
+            "a9581d26-af45-42bf-a863-149e92ecd04c",
+            "d8b8ad99-c97a-4fa2-be5b-21e17d2a4515",
+            "441dd0d7-6fc6-48f2-bf9b-dd68c2b07a56",
+            "db9df202-d47b-4ab5-8a6c-0b90ff9469e2",
+            "d969b459-6635-4896-a51f-a4b2ab20b324",
+            "4e249c10-97a8-4cf6-900e-56a9aec8880f"
+          ],
+          "copied_from": "af84c4db-ca17-45dc-a526-d05c8cace2bb",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996386089,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of talk on continuous deployment "
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "61c50480-7c77-48a9-a110-81f3186ebddc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "61c50480-7c77-48a9-a110-81f3186ebddc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How they transitioned to continuous deployment",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "63ca7ea6-6709-47bf-9b8e-41833ab74cbb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "63ca7ea6-6709-47bf-9b8e-41833ab74cbb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They spend more time measuring and optimizing existing features than adding new features."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "772993de-28aa-4930-a505-b6314ad1113e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "772993de-28aa-4930-a505-b6314ad1113e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Functional tests take time, they wanted release cycle to be \u003c30 min. Solution: parallelize tests on multiple machines."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7898da10-ef0e-4442-95cf-e064b2645076": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "7898da10-ef0e-4442-95cf-e064b2645076",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623251400,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "90215dfd-799a-4c30-9a17-1751309180e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "90215dfd-799a-4c30-9a17-1751309180e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "After: release multiple times a day."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "90b6d89d-04d3-4c59-aa5e-21137ea8f0cf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "90b6d89d-04d3-4c59-aa5e-21137ea8f0cf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623247513,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "94bc3d9c-da54-4555-acf3-947a173886df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "94bc3d9c-da54-4555-acf3-947a173886df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903438,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "WiredReach: simple sharing software (BoxCloud, CloudFire), 7 years in business. Hybrid web/desktop model."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a6ac1bff-2b3c-4cf2-b392-714c56bc4fd1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "a6ac1bff-2b3c-4cf2-b392-714c56bc4fd1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Gradual automation: first deployed manually, then automated more and more."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a8f7d18f-7f18-4253-a71c-7c633d357247": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "a8f7d18f-7f18-4253-a71c-7c633d357247",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For client software developed background update process, ability to selectively push updates."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a9581d26-af45-42bf-a863-149e92ecd04c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "a9581d26-af45-42bf-a863-149e92ecd04c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Constrain features pipeline. Don’t start working on new features until deployed features have been validated."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "b65a610d-e132-4b25-ae32-54200081c079": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "b65a610d-e132-4b25-ae32-54200081c079",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How they develop new features now",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b710084c-f5c9-4995-962c-905ee75ed8ac": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "b710084c-f5c9-4995-962c-905ee75ed8ac",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Remaining problem: how to know they are implementing the right features and not just implementing random features faster?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c7733d3b-d2ca-4a86-8a3f-258f44023e97": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "c7733d3b-d2ca-4a86-8a3f-258f44023e97",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before: release was all day event (code freeze, testing, packaging etc.). After: release is a non-event."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d8b8ad99-c97a-4fa2-be5b-21e17d2a4515": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "d8b8ad99-c97a-4fa2-be5b-21e17d2a4515",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How to validate a feature?",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d969b459-6635-4896-a51f-a4b2ab20b324": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "d969b459-6635-4896-a51f-a4b2ab20b324",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My commentary",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "db9df202-d47b-4ab5-8a6c-0b90ff9469e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "db9df202-d47b-4ab5-8a6c-0b90ff9469e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On quantitative side they use mixpanel, kissmetrics, google analytics and focus on macro-level changes (have 5 metrics they track: revenue, retention etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f0f2c9c9-9c95-476e-ac91-7b109eda7727": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "f0f2c9c9-9c95-476e-ac91-7b109eda7727",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903438,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of "
+              ],
+              [
+                "this talk",
+                [
+                  [
+                    "a",
+                    "http://www.justin.tv/startuplessonslearned/b/262657677"
+                  ]
+                ]
+              ],
+              [
+                " from Startup Lessons Learned conference about transitioning to continuous deployment."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f611bba1-ec96-4a1b-9e08-2c1fe81f29a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903438,
+          "id": "f611bba1-ec96-4a1b-9e08-2c1fe81f29a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623250624,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-05-03T12:28:26-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "ff159678-da63-42bf-a671-e8b0c214f245": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903439,
+          "id": "ff159678-da63-42bf-a671-e8b0c214f245",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903439,
+          "parent_id": "567d71b1-013e-4fbb-8019-7847522d8013",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before: release changed hundreds lines of code. After: \u003c 25 lines of code."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371ad67ae17fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:40 GMT"
+  ],
+  "Etag": [
+    "W/\"5bde-9HDjNM7FJFyzimRWpg84av4PIMo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1b87bb44fb23b22c3e439aeb112fa5cb1565326180; expires=Sat, 08-Aug-20 04:49:40 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

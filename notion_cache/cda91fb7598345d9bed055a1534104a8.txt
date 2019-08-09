@@ -1,0 +1,1073 @@
+3002 1565326210272 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+      "table": "block"
+    }
+  ]
+}
+Response:+1853
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "8b706b32-7cdd-47bc-8141-59ebe47f5173",
+          "1584bdf8-3b94-4e1c-b213-0b4f51f3186d",
+          "7c36afd8-8361-4abd-be69-6e588bd6e62e",
+          "ebe42be9-1235-4a33-82fe-8867a7df977b",
+          "78203eab-d811-4f78-8fac-c32860d48b3e",
+          "fe3f5bf4-428d-4c17-8bd5-752a16880d77",
+          "2940620d-cd5f-48a5-a4f0-0734e841c35a",
+          "8f35f818-d6b6-4707-aa6e-c5b43e78e96f",
+          "23bb4e86-5d67-4b52-be7a-0c7e3b4fb9bb",
+          "cb7a92a5-dfa6-4ffd-b93d-549810e6c1f4",
+          "2b84df34-3f17-4854-8dd5-56affba32538",
+          "7976bb2f-8dc7-4d5d-aa16-ce1cc5e945d1",
+          "3f139193-386a-461c-ae9d-07bc7d078a01",
+          "b72445e2-85a2-4a3e-9f8a-cca402535db8",
+          "4cef5e20-3b8d-4014-952f-9e80b3849c07",
+          "62fd7b02-e1b1-4fe1-a69e-3118684b929b",
+          "0ac5459e-ecaa-47c0-ad36-4cdd8b5bd1f7",
+          "c03caa48-2aa4-443b-a7da-aecf7a8d6a4e",
+          "046af2bd-14f5-4d62-9765-8dbad336d161",
+          "343dadf3-b1ea-45eb-9129-a411c7f421fa"
+        ],
+        "copied_from": "3bc9e116-2001-4014-a981-5bfbb36606f7",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200903459,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996386089,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How to accept online payments "
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b88eab67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:09 GMT"
+  ],
+  "Etag": [
+    "W/\"539-QndA0vxYXramh5BR/xw5diNgcHE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dddc103d8dd8b9759b6665131e634510a1565326209; expires=Sat, 08-Aug-20 04:50:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+32777 1565326210274 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+  "verticalColumns": false
+}
+Response:+31586
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "046af2bd-14f5-4d62-9765-8dbad336d161": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "046af2bd-14f5-4d62-9765-8dbad336d161",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Recurly",
+                [
+                  [
+                    "a",
+                    "http://recurly.com/"
+                  ]
+                ]
+              ],
+              [
+                " helps to outsource subscription billings. Doesn’t require merchant account or payment gateway."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "089eaaae-5b39-4d8b-beb7-c9817b99c65e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "089eaaae-5b39-4d8b-beb7-c9817b99c65e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "4cef5e20-3b8d-4014-952f-9e80b3849c07",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "combined merchant account and gateway"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "0ac5459e-ecaa-47c0-ad36-4cdd8b5bd1f7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "0ac5459e-ecaa-47c0-ad36-4cdd8b5bd1f7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PayPal is simpler and can even be cheaper. Downside: they will oftentimes hold back up to 25% of your proceeds for three months as a fraud prevention/risk management effort"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1584bdf8-3b94-4e1c-b213-0b4f51f3186d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "1584bdf8-3b94-4e1c-b213-0b4f51f3186d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623320341,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: business"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "23bb4e86-5d67-4b52-be7a-0c7e3b4fb9bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "23bb4e86-5d67-4b52-be7a-0c7e3b4fb9bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Then you need to find a payment gateway. Gateway takes credit card information that users input on your site and talk to the processors (First Data, Paymentech, Global Payments etc.) to get the money transfered to your merchant account (which then gets transfered to your regular bank account)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2940620d-cd5f-48a5-a4f0-0734e841c35a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "2940620d-cd5f-48a5-a4f0-0734e841c35a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use "
+              ],
+              [
+                "TransFS",
+                [
+                  [
+                    "a",
+                    "http://transfs.com/"
+                  ]
+                ]
+              ],
+              [
+                " to find a provider for internet merchant account. Don’t use regular banks for it (like Bank Of America etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2b84df34-3f17-4854-8dd5-56affba32538": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "2b84df34-3f17-4854-8dd5-56affba32538",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Authorize.net",
+                [
+                  [
+                    "a",
+                    "http://www.authorize.net/solutions/merchantsolutions/onlinemerchantaccount/"
+                  ]
+                ]
+              ],
+              [
+                " is a popular gateway. "
+              ],
+              [
+                "Braintree",
+                [
+                  [
+                    "a",
+                    "http://www.braintreepaymentsolutions.com/services/payment-gateway"
+                  ]
+                ]
+              ],
+              [
+                " has better API but costs more and your merchant account has to support First Data Nashville processor."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "343dadf3-b1ea-45eb-9129-a411c7f421fa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "343dadf3-b1ea-45eb-9129-a411c7f421fa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PayPal, Google Checkout, Amazon Payments offer similar service (see "
+              ],
+              [
+                "this comparison",
+                [
+                  [
+                    "a",
+                    "http://www.merchantaccountblog.com/1027/a-comparison-of-3-alternative-payment-methods"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "3f139193-386a-461c-ae9d-07bc7d078a01": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "3f139193-386a-461c-ae9d-07bc7d078a01",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Or you can use PayPal, which has three offerings:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4cef5e20-3b8d-4014-952f-9e80b3849c07": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "089eaaae-5b39-4d8b-beb7-c9817b99c65e",
+            "69be9fae-70dd-4448-9407-7771839d29a2"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "4cef5e20-3b8d-4014-952f-9e80b3849c07",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Website Payments pro:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "62fd7b02-e1b1-4fe1-a69e-3118684b929b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "62fd7b02-e1b1-4fe1-a69e-3118684b929b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PayFlow Pro - a standard gateway that works with any internet merchant account"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "69be9fae-70dd-4448-9407-7771839d29a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "69be9fae-70dd-4448-9407-7771839d29a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "4cef5e20-3b8d-4014-952f-9e80b3849c07",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "can only accept credit card payments"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "78203eab-d811-4f78-8fac-c32860d48b3e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "78203eab-d811-4f78-8fac-c32860d48b3e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of "
+              ],
+              [
+                "this article",
+                [
+                  [
+                    "a",
+                    "http://blog.meatinthesky.com/introduction-to-online-payments-tldr-its-a-to"
+                  ]
+                ]
+              ],
+              [
+                " on how to accept online payments."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7976bb2f-8dc7-4d5d-aa16-ce1cc5e945d1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "7976bb2f-8dc7-4d5d-aa16-ce1cc5e945d1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For micro transactions don use merchant account (fees too high). Use "
+              ],
+              [
+                "PayPal",
+                [
+                  [
+                    "a",
+                    "http://www.paypal.com/IntegrationCenter/ic_micropayments.html"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "Amazon Payments",
+                [
+                  [
+                    "a",
+                    "https://payments.amazon.com/sdui/sdui/about?nodeId=73479#suse_micro"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7c36afd8-8361-4abd-be69-6e588bd6e62e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "7c36afd8-8361-4abd-be69-6e588bd6e62e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623319323,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-05-05T00:33:33-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "8b706b32-7cdd-47bc-8141-59ebe47f5173": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "8b706b32-7cdd-47bc-8141-59ebe47f5173",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623321967,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 148001"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "8f35f818-d6b6-4707-aa6e-c5b43e78e96f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "8f35f818-d6b6-4707-aa6e-c5b43e78e96f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "TransFS merchant accounts are “interchange plus” i.e. to process your transaction they charge you interchange fee (fee that credit card companies like Visa charge) plus a little bit on top of that. It takes 3-4 weeks to get merchant account."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9b87fdae-798f-400d-be32-a9f73bb642b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "9b87fdae-798f-400d-be32-a9f73bb642b6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "b72445e2-85a2-4a3e-9f8a-cca402535db8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "combined merchant account and gateway"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "b72445e2-85a2-4a3e-9f8a-cca402535db8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9b87fdae-798f-400d-be32-a9f73bb642b6",
+            "b79426c8-8d77-4413-8a93-ef7313d8174e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "b72445e2-85a2-4a3e-9f8a-cca402535db8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Website Payments standard:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "b79426c8-8d77-4413-8a93-ef7313d8174e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "b79426c8-8d77-4413-8a93-ef7313d8174e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "b72445e2-85a2-4a3e-9f8a-cca402535db8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "can only accept PayPal payments"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "c03caa48-2aa4-443b-a7da-aecf7a8d6a4e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "c03caa48-2aa4-443b-a7da-aecf7a8d6a4e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Other options:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cb7a92a5-dfa6-4ffd-b93d-549810e6c1f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "cb7a92a5-dfa6-4ffd-b93d-549810e6c1f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You need to write the code to talk to a gateway yourself."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cda91fb7-5983-45d9-bed0-55a1534104a8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8b706b32-7cdd-47bc-8141-59ebe47f5173",
+            "1584bdf8-3b94-4e1c-b213-0b4f51f3186d",
+            "7c36afd8-8361-4abd-be69-6e588bd6e62e",
+            "ebe42be9-1235-4a33-82fe-8867a7df977b",
+            "78203eab-d811-4f78-8fac-c32860d48b3e",
+            "fe3f5bf4-428d-4c17-8bd5-752a16880d77",
+            "2940620d-cd5f-48a5-a4f0-0734e841c35a",
+            "8f35f818-d6b6-4707-aa6e-c5b43e78e96f",
+            "23bb4e86-5d67-4b52-be7a-0c7e3b4fb9bb",
+            "cb7a92a5-dfa6-4ffd-b93d-549810e6c1f4",
+            "2b84df34-3f17-4854-8dd5-56affba32538",
+            "7976bb2f-8dc7-4d5d-aa16-ce1cc5e945d1",
+            "3f139193-386a-461c-ae9d-07bc7d078a01",
+            "b72445e2-85a2-4a3e-9f8a-cca402535db8",
+            "4cef5e20-3b8d-4014-952f-9e80b3849c07",
+            "62fd7b02-e1b1-4fe1-a69e-3118684b929b",
+            "0ac5459e-ecaa-47c0-ad36-4cdd8b5bd1f7",
+            "c03caa48-2aa4-443b-a7da-aecf7a8d6a4e",
+            "046af2bd-14f5-4d62-9765-8dbad336d161",
+            "343dadf3-b1ea-45eb-9129-a411c7f421fa"
+          ],
+          "copied_from": "3bc9e116-2001-4014-a981-5bfbb36606f7",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996386089,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How to accept online payments "
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "ebe42be9-1235-4a33-82fe-8867a7df977b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "ebe42be9-1235-4a33-82fe-8867a7df977b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623318696,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "fe3f5bf4-428d-4c17-8bd5-752a16880d77": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903459,
+          "id": "fe3f5bf4-428d-4c17-8bd5-752a16880d77",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903459,
+          "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To accept credit cards you need an internet merchant account. Despite the name, it’s not like a bank account. It only allows you to process credit card transactions, but the money must be deposited to your real checking account."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b895ae87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:09 GMT"
+  ],
+  "Etag": [
+    "W/\"4fb3-7bPfPNfxW/AGP4gTEX6DK3HEUH4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dddc103d8dd8b9759b6665131e634510a1565326209; expires=Sat, 08-Aug-20 04:50:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

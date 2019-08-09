@@ -1,0 +1,506 @@
+2031 1565326225174 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+      "table": "block"
+    }
+  ]
+}
+Response:+883
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
+          "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
+          "8bd94450-130f-43af-827c-585c10f3269c",
+          "f10eae20-028c-4cc4-b618-ed0a2eeab783"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1476994093045,
+        "id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1476994093045,
+        "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Writing micro-benchmarks"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371be61de47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:24 GMT"
+  ],
+  "Etag": [
+    "W/\"254-WkZW5o4zdgj/rX5MoRaLbDGNqVw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ded0d36fcee0db5afc4be978339dba3aa1565326224; expires=Sat, 08-Aug-20 04:50:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+13689 1565326225176 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+  "verticalColumns": false
+}
+Response:+12498
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1dc21c63-3bee-4170-8bfe-73d10b0bdf45": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1476994103317,
+          "id": "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1476994103317,
+          "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use "
+              ],
+              [
+                "benchmark",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " package ("
+              ],
+              [
+                "npm install benchmark",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ", https://benchmarkjs.com/). "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "4da97980-9fb6-45cb-886a-51c656751d35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c708a15-fad2-4e38-bbd3-513320386063",
+            "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+            "6eb26b91-5c85-46e4-a0bc-f8f2a4c89701"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493148639391,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web programming, webdev"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "8bd94450-130f-43af-827c-585c10f3269c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1476994161266,
+          "id": "8bd94450-130f-43af-827c-585c10f3269c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1476994161266,
+          "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Javascript"
+              ]
+            ],
+            "title": [
+              [
+                "var Benchmark = require('benchmark');\n\nvar suite = new Benchmark.Suite;\n\nfunction f1() {\n\treturn ['foo', 'bar'].includes('zeta');\n}\n\nvar known = ['foo', 'bar'];\nfunction f2() {\n\treturn known.includes('zeta');\n}\n\nsuite.add('f1', f1);\nsuite.add('f2', f2);\nsuite.on('cycle', function(event) {\n  console.log(String(event.target));\n})\nsuite.on('complete', function() {\n  console.log('Fastest is ' + this.filter('fastest').map('name'));\n})\nsuite.run({ 'async': true });"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 0
+        }
+      },
+      "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+            "c47b7a17-6b4e-440c-a17d-a97af441c43a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513208401787,
+          "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "bf0571fb-b139-4519-80b3-642fc7ca90f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4378bba8-e57e-4e78-9f0b-f74783d0e4ad",
+            "8a62731b-efc2-4d2b-85a7-28e75d6ad832",
+            "6074f435-4709-45cd-a236-264be0835308",
+            "46b22716-de8e-403a-8c80-bd9e307a62fd",
+            "f15ade5d-c484-40a1-9a83-2b26dca42293",
+            "73b8a31c-ff4b-4a70-9f4e-55b67cacf2ce",
+            "937a54e8-cd6a-4cf1-87c5-746ee8b5dd70",
+            "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+            "d38aa151-d80d-4495-9c33-9dadb1624700",
+            "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+            "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+            "7d0e5fcf-a4a9-4835-9dfa-cb62d419ef3e",
+            "66a63130-9a65-42f8-9b0e-b7423c88a58e",
+            "19bcb623-d77f-457a-9961-147e49c0c2d5",
+            "3e5bee99-6254-4c19-a0f4-81094f0b9132",
+            "364e0c20-a407-45d7-9863-36ce0e2503b2",
+            "230afdf7-9aea-4166-9941-fdd06ea3442c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474616705298,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1550290620000,
+          "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "JavaScript"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 62
+        }
+      },
+      "c47b7a17-6b4e-440c-a17d-a97af441c43a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+            "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+            "96f13c56-22d9-4629-b828-11bd27c57bad",
+            "90eb791a-9db9-4934-b823-3cda5b1adcfa",
+            "b3be4adb-1ace-49dd-a3a0-57cf3888ff86",
+            "f6a44c22-0fbe-47ed-83a9-6299d32d6617",
+            "0c6cd619-f3f4-448f-940e-b85317aa34d0",
+            "737fa2b5-07b6-4215-a893-e3451a275d43",
+            "29416d8f-74a1-4b94-a128-fbb638277ae5",
+            "0bf7d482-d612-4b90-b02c-a82e410d017b",
+            "7b96a8df-df45-418a-b397-1c0a1a467314",
+            "2a75c15d-68f7-4745-ace3-d4b52319affd",
+            "549b8840-1eb1-4bf8-a0fc-5adad64960cc",
+            "e2baf309-cea7-4284-9627-4547085bd681",
+            "51e263b9-e569-4456-8b0f-881b050a1f07",
+            "65830ea1-3638-41fe-9f7f-a14f75a8056b",
+            "d5ef6e3d-e215-45d7-9c25-418f1ba2a51d",
+            "78416031-074a-4ffd-aea0-5cb899b68b20"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532382006532,
+          "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "parent_table": "block",
+          "type": "column",
+          "version": 109
+        }
+      },
+      "cfe4a457-7e89-4108-a093-9a3e16f5c38b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
+            "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
+            "8bd94450-130f-43af-827c-585c10f3269c",
+            "f10eae20-028c-4cc4-b618-ed0a2eeab783"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1476994093045,
+          "id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1476994093045,
+          "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Writing micro-benchmarks"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 0
+        }
+      },
+      "f10eae20-028c-4cc4-b618-ed0a2eeab783": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1476994178747,
+          "id": "f10eae20-028c-4cc4-b618-ed0a2eeab783",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1476994178747,
+          "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "f64318d5-67e9-4cbe-90a2-bdaeaa45befb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1476994149688,
+          "id": "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1476994149688,
+          "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A simple benchmark in node:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371be69e2d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:24 GMT"
+  ],
+  "Etag": [
+    "W/\"2038-kZgiTM3wL8rJZ18yaOoo1f2uOxE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ded0d36fcee0db5afc4be978339dba3aa1565326224; expires=Sat, 08-Aug-20 04:50:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

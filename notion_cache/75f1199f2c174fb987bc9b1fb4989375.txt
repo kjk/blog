@@ -1,0 +1,1292 @@
+3536 1565326188153 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+      "table": "block"
+    }
+  ]
+}
+Response:+2387
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "575a2e81-9d03-4f16-9950-4dec7a7b5c20",
+          "2441bf2d-f1a6-44f8-b1c7-ed519cb493c6",
+          "6f02cb17-5686-4fb5-a0a8-68f4f0df2aa4",
+          "35a182c0-5d1f-4214-b4bc-c2976a70108a",
+          "e196657f-8b5d-4e2d-986a-b5c202107231",
+          "5484a575-a4ba-476f-a138-a36753302ef1",
+          "3c852935-52d9-43fa-b240-1aaf3e48438c",
+          "68741c95-3379-49c5-a083-fe00e2cf7f10",
+          "57cc2ffa-9c6c-4bfc-bbc0-83e70e2a664c",
+          "df10ac60-a2ef-4690-9b9b-7bb466979f4c",
+          "7d6573f6-0394-4392-9590-f05d647cd64e",
+          "bf291411-b73f-4e67-be60-004464302e49",
+          "ce617085-2be7-4358-9b4c-433ff1df15c9",
+          "25b42e2d-4577-4cd4-aa84-486908153c50",
+          "fdd6aa8e-5094-49b7-8f3d-6940b3cfd870",
+          "0ee18d46-9577-4f6d-ad43-4472aa9c669e",
+          "b9ce976e-a1f9-4c61-aa97-3f09bccbca97",
+          "7306e452-1e12-4438-8ab2-3082b51e912a",
+          "1bc236d1-c16e-419c-b998-58f5c772d889",
+          "8966276b-4bb9-4c0b-be41-f263d5a6c381",
+          "aea3d3ff-eb1a-4bd5-9b67-78196a4f106c",
+          "0bb555a8-24ac-46fa-94a4-dd9a99e478ab",
+          "460f9d33-150f-44ae-9bf5-bb739349201c",
+          "3c28a100-750c-4bcb-b645-3aef754a6164",
+          "464c0d5c-51ba-43e5-a8df-d42b3abc9ec4",
+          "7b76c7b9-62d7-4f0c-92b0-c475c0e0703c",
+          "2ab29c74-9a68-4cae-8144-372f01fe5a45",
+          "e02f9b78-53da-4e4a-9a42-d55a35c1bfa6",
+          "5f60ca0e-49eb-46c9-b549-89ccf0f59d18",
+          "f51b0284-bd3a-4096-ad5f-01e08a73ddb3"
+        ],
+        "copied_from": "8654348e-ac93-44cc-b41f-037d0d054b5c",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204097271,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996117383,
+        "parent_id": "56757391-fba8-45bc-8551-262f3c9f81f2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 24
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371afebd2d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:47 GMT"
+  ],
+  "Etag": [
+    "W/\"6e1-3kkJ3+kymd9+A0mXLN9B2oHlGoI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2597b74a77e8881f029df62c9d621891565326187; expires=Sat, 08-Aug-20 04:49:47 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+38588 1565326188154 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+  "verticalColumns": false
+}
+Response:+37397
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0bb555a8-24ac-46fa-94a4-dd9a99e478ab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "0bb555a8-24ac-46fa-94a4-dd9a99e478ab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Flag "
+              ],
+              [
+                "-y",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " disables confirmation prompt."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0ee18d46-9577-4f6d-ad43-4472aa9c669e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "0ee18d46-9577-4f6d-ad43-4472aa9c669e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ubuntu only provides a relatively old clang 3.8. Luckily, Apple creates deb packages and maintains a server for all llvm/clang releases and most Ubuntu distros."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1bc236d1-c16e-419c-b998-58f5c772d889": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "1bc236d1-c16e-419c-b998-58f5c772d889",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For security, packages are signed with private keys. You need public key to verify package signature."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2441bf2d-f1a6-44f8-b1c7-ed519cb493c6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "2441bf2d-f1a6-44f8-b1c7-ed519cb493c6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097271,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2017-11-20T20:37:02-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "25b42e2d-4577-4cd4-aa84-486908153c50": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "25b42e2d-4577-4cd4-aa84-486908153c50",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of servers is in "
+              ],
+              [
+                "/etc/apt/sources.list",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". Here’s how it looks by default on Ubuntu 16.04:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2ab29c74-9a68-4cae-8144-372f01fe5a45": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "2ab29c74-9a68-4cae-8144-372f01fe5a45",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This version is installed side-by-side with the default clang 3.8. To run it, you have to explicitly say "
+              ],
+              [
+                "clang-6.0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". "
+              ],
+              [
+                "clang",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " will either refer to 3.8 (if you’ve installed it) or nothing at all."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "35a182c0-5d1f-4214-b4bc-c2976a70108a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531721860685,
+          "id": "35a182c0-5d1f-4214-b4bc-c2976a70108a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531721904816,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "type": "text",
+          "version": 8
+        }
+      },
+      "3c28a100-750c-4bcb-b645-3aef754a6164": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "3c28a100-750c-4bcb-b645-3aef754a6164",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There is a new llvm/clang release every 6 months. What to do for newer version?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3c852935-52d9-43fa-b240-1aaf3e48438c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "3c852935-52d9-43fa-b240-1aaf3e48438c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097271,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To install latest version (currently 6.0) run:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "460f9d33-150f-44ae-9bf5-bb739349201c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "460f9d33-150f-44ae-9bf5-bb739349201c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What if there’s a newer version of clang or a different version of Ubuntu?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "464c0d5c-51ba-43e5-a8df-d42b3abc9ec4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "464c0d5c-51ba-43e5-a8df-d42b3abc9ec4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Visit https://apt.llvm.org/ and locate the equivalent of "
+              ],
+              [
+                "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " for desired combo of clang/Ubuntu and correspondingly update "
+              ],
+              [
+                "apt-add-repository ...",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " line in the above instructions."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5484a575-a4ba-476f-a138-a36753302ef1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "5484a575-a4ba-476f-a138-a36753302ef1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097271,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ubuntu 16.04 ships with relatively old clang. Running "
+              ],
+              [
+                "sudo apt-get install clang",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " installs version 3.8."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "56757391-fba8-45bc-8551-262f3c9f81f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1a80d412-8dc0-4148-b175-8606292dab30",
+            "0c896ea2-efd2-4ec7-be1d-1f6e3b22d254",
+            "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+            "431295a5-4f7e-4208-869f-4763862c1f05",
+            "4a034f05-012c-446b-a381-49b8ad2178ac",
+            "9b592882-a324-4247-bd09-405fc7a556d2",
+            "693ee625-7f3c-428f-a8e1-15607c79260e",
+            "578cb0cc-6552-48ce-85a1-74ab9eda7ef3"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531203553111,
+          "id": "56757391-fba8-45bc-8551-262f3c9f81f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268200000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2017 (8)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "575a2e81-9d03-4f16-9950-4dec7a7b5c20": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "575a2e81-9d03-4f16-9950-4dec7a7b5c20",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531383329006,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 20"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "57cc2ffa-9c6c-4bfc-bbc0-83e70e2a664c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "57cc2ffa-9c6c-4bfc-bbc0-83e70e2a664c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "clang-6.0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " is the name of the executable (and so is "
+              ],
+              [
+                "lldb-6.0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " etc.)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5f60ca0e-49eb-46c9-b549-89ccf0f59d18": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "5f60ca0e-49eb-46c9-b549-89ccf0f59d18",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531383345905,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100\nupdate-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-6.0 1000\nupdate-alternatives --install /usr/bin/clang++ clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-6.0 1000\nupdate-alternatives --config clang\nupdate-alternatives --config clang++"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "68741c95-3379-49c5-a083-fe00e2cf7f10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "68741c95-3379-49c5-a083-fe00e2cf7f10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531383335758,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -\nsudo apt-add-repository \"deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main\"\nsudo apt-get update\nsudo apt-get install -y clang-6.0"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "6f02cb17-5686-4fb5-a0a8-68f4f0df2aa4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "6f02cb17-5686-4fb5-a0a8-68f4f0df2aa4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531721779905,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: unix"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "7306e452-1e12-4438-8ab2-3082b51e912a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "7306e452-1e12-4438-8ab2-3082b51e912a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sudo apt-get update",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " downloads the latest list of packages from all servers, including the one we just added"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "75f1199f-2c17-4fb9-87bc-9b1fb4989375": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "575a2e81-9d03-4f16-9950-4dec7a7b5c20",
+            "2441bf2d-f1a6-44f8-b1c7-ed519cb493c6",
+            "6f02cb17-5686-4fb5-a0a8-68f4f0df2aa4",
+            "35a182c0-5d1f-4214-b4bc-c2976a70108a",
+            "e196657f-8b5d-4e2d-986a-b5c202107231",
+            "5484a575-a4ba-476f-a138-a36753302ef1",
+            "3c852935-52d9-43fa-b240-1aaf3e48438c",
+            "68741c95-3379-49c5-a083-fe00e2cf7f10",
+            "57cc2ffa-9c6c-4bfc-bbc0-83e70e2a664c",
+            "df10ac60-a2ef-4690-9b9b-7bb466979f4c",
+            "7d6573f6-0394-4392-9590-f05d647cd64e",
+            "bf291411-b73f-4e67-be60-004464302e49",
+            "ce617085-2be7-4358-9b4c-433ff1df15c9",
+            "25b42e2d-4577-4cd4-aa84-486908153c50",
+            "fdd6aa8e-5094-49b7-8f3d-6940b3cfd870",
+            "0ee18d46-9577-4f6d-ad43-4472aa9c669e",
+            "b9ce976e-a1f9-4c61-aa97-3f09bccbca97",
+            "7306e452-1e12-4438-8ab2-3082b51e912a",
+            "1bc236d1-c16e-419c-b998-58f5c772d889",
+            "8966276b-4bb9-4c0b-be41-f263d5a6c381",
+            "aea3d3ff-eb1a-4bd5-9b67-78196a4f106c",
+            "0bb555a8-24ac-46fa-94a4-dd9a99e478ab",
+            "460f9d33-150f-44ae-9bf5-bb739349201c",
+            "3c28a100-750c-4bcb-b645-3aef754a6164",
+            "464c0d5c-51ba-43e5-a8df-d42b3abc9ec4",
+            "7b76c7b9-62d7-4f0c-92b0-c475c0e0703c",
+            "2ab29c74-9a68-4cae-8144-372f01fe5a45",
+            "e02f9b78-53da-4e4a-9a42-d55a35c1bfa6",
+            "5f60ca0e-49eb-46c9-b549-89ccf0f59d18",
+            "f51b0284-bd3a-4096-ad5f-01e08a73ddb3"
+          ],
+          "copied_from": "8654348e-ac93-44cc-b41f-037d0d054b5c",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996117383,
+          "parent_id": "56757391-fba8-45bc-8551-262f3c9f81f2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 24
+        }
+      },
+      "7b76c7b9-62d7-4f0c-92b0-c475c0e0703c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "7b76c7b9-62d7-4f0c-92b0-c475c0e0703c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Making latest version available as clang"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "7d6573f6-0394-4392-9590-f05d647cd64e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "7d6573f6-0394-4392-9590-f05d647cd64e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s deconstruct those commands so that you know what’s happening."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8966276b-4bb9-4c0b-be41-f263d5a6c381": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "8966276b-4bb9-4c0b-be41-f263d5a6c381",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " downloads llvm’s server public key."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "aea3d3ff-eb1a-4bd5-9b67-78196a4f106c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "aea3d3ff-eb1a-4bd5-9b67-78196a4f106c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sudo apt-get -y install clang-6.0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " installs newly available package "
+              ],
+              [
+                "clang-6.0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b9ce976e-a1f9-4c61-aa97-3f09bccbca97": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "b9ce976e-a1f9-4c61-aa97-3f09bccbca97",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sudo apt-add-repository \"deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " adds llvm’s server for Ubuntu 16.04 to "
+              ],
+              [
+                "/etc/apt/sources.list",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bf291411-b73f-4e67-be60-004464302e49": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "bf291411-b73f-4e67-be60-004464302e49",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How does apt know what packages are available?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ce617085-2be7-4358-9b4c-433ff1df15c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "ce617085-2be7-4358-9b4c-433ff1df15c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Apt queries package servers to get a list of available deb packages. Default Ubuntu installation knows about official Ubuntu servers but you can run your own server to provide additional packages."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "df10ac60-a2ef-4690-9b9b-7bb466979f4c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "df10ac60-a2ef-4690-9b9b-7bb466979f4c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How it works"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "e02f9b78-53da-4e4a-9a42-d55a35c1bfa6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "e02f9b78-53da-4e4a-9a42-d55a35c1bfa6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You can reconfigure the system so that "
+              ],
+              [
+                "clang",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " refers to clang 6:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e196657f-8b5d-4e2d-986a-b5c202107231": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097271,
+          "id": "e196657f-8b5d-4e2d-986a-b5c202107231",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097271,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This article describes installing latest clang (llvm) on Ubuntu 16.04 (Xenial), which is also the default distro for "
+              ],
+              [
+                "Windows Subsystem for Linux",
+                [
+                  [
+                    "a",
+                    "https://msdn.microsoft.com/en-us/commandline/wsl/about"
+                  ]
+                ]
+              ],
+              [
+                " (WSL)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f51b0284-bd3a-4096-ad5f-01e08a73ddb3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "f51b0284-bd3a-4096-ad5f-01e08a73ddb3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531204097272,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This might help if you have scripts that hard-code name of the compiler and don’t allow over-writing it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fdd6aa8e-5094-49b7-8f3d-6940b3cfd870": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204097272,
+          "id": "fdd6aa8e-5094-49b7-8f3d-6940b3cfd870",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531383341195,
+          "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "$ cat /etc/apt/sources.list\ndeb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse\ndeb http://archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse\ndeb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371aff1d547fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:47 GMT"
+  ],
+  "Etag": [
+    "W/\"5afa-Oez9eJ75C+EhRrygn2G/t7dXF1U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2597b74a77e8881f029df62c9d621891565326187; expires=Sat, 08-Aug-20 04:49:47 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

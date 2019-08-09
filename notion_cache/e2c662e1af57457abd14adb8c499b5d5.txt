@@ -1,0 +1,425 @@
+2255 1565326095402 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+      "table": "block"
+    }
+  ]
+}
+Response:+1106
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "fc9e1caf-b2ac-466f-8210-6bbc9e6397fe",
+          "01b6a52e-2bc5-4b15-a7b2-d3739c25940f",
+          "4a32b730-d68a-48e0-9223-fd1fc64c2e55",
+          "0c877d5d-946f-4b2b-9f65-ef321135e101",
+          "8419fd06-1dd2-4fed-9798-268adda2c1e1"
+        ],
+        "copied_from": "44bdc500-e50b-486f-99c1-3003541e1af8",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564451744853,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564560060000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "7/29/2019, starting a new project"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 64
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718bb1ad47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:14 GMT"
+  ],
+  "Etag": [
+    "W/\"2f3-zPGVqtiiAD+rRoiLN3gVTdkRbC8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc1bae95e7faddee69ec88c0fce5bfc701565326094; expires=Sat, 08-Aug-20 04:48:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+10502 1565326095404 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+  "verticalColumns": false
+}
+Response:+9312
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "01b6a52e-2bc5-4b15-a7b2-d3739c25940f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451760000,
+          "id": "01b6a52e-2bc5-4b15-a7b2-d3739c25940f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564451760000,
+          "parent_id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Backend: Go. Frontend: Svelte."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 38
+        }
+      },
+      "03ece883-f7df-4ce7-8596-73d04811479e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "da8bb0eb-517b-42f6-bd47-243c353a26cf",
+            "63609728-3d1a-45c8-b748-4a99ac4b5d97",
+            "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+            "44bdc500-e50b-486f-99c1-3003541e1af8",
+            "1d09647e-c501-43b4-8639-f98c0fd50902",
+            "410977d4-4b00-4415-b475-b02a09c78c8f",
+            "76631d76-ce90-41b8-ba26-0c5ca553e421",
+            "40bd5f71-6199-4c1c-b7a6-776cee491720",
+            "13ddfc52-fc77-4262-abb3-2a43217a0344",
+            "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+            "3de112a3-49e1-4294-b694-8a3e0220092e",
+            "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+            "270d8956-01be-4446-a3d6-ab7d3cd691d0",
+            "e29face0-6696-4709-96a6-fb8ea750ccc2",
+            "b7c27f52-4ad1-4a5e-9dbc-5c1b6db0ee4a",
+            "751d064a-76bf-46fa-9b29-3da1a88cd033",
+            "8846aafe-b5a9-4389-8f35-b870628ad218"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554244717057,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "03ece883-f7df-4ce7-8596-73d04811479e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564560060000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This developer's life"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 144
+        }
+      },
+      "0c877d5d-946f-4b2b-9f65-ef321135e101": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451880000,
+          "id": "0c877d5d-946f-4b2b-9f65-ef321135e101",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564451940000,
+          "parent_id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Speed of iteration is key to productivity, in my opinion."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 74
+        }
+      },
+      "4a32b730-d68a-48e0-9223-fd1fc64c2e55": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451760000,
+          "id": "4a32b730-d68a-48e0-9223-fd1fc64c2e55",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564451880000,
+          "parent_id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Today writing a skeleton of the app and deployment scripts. The goal is to have an app that does more or less nothing but is running on a server and can be re-deployed under a minute."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 313
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "8419fd06-1dd2-4fed-9798-268adda2c1e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451940000,
+          "id": "8419fd06-1dd2-4fed-9798-268adda2c1e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564452060000,
+          "parent_id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "e2c662e1-af57-457a-bd14-adb8c499b5d5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fc9e1caf-b2ac-466f-8210-6bbc9e6397fe",
+            "01b6a52e-2bc5-4b15-a7b2-d3739c25940f",
+            "4a32b730-d68a-48e0-9223-fd1fc64c2e55",
+            "0c877d5d-946f-4b2b-9f65-ef321135e101",
+            "8419fd06-1dd2-4fed-9798-268adda2c1e1"
+          ],
+          "copied_from": "44bdc500-e50b-486f-99c1-3003541e1af8",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451744853,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564560060000,
+          "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "7/29/2019, starting a new project"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 64
+        }
+      },
+      "fc9e1caf-b2ac-466f-8210-6bbc9e6397fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564451760000,
+          "id": "fc9e1caf-b2ac-466f-8210-6bbc9e6397fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564451760000,
+          "parent_id": "e2c662e1-af57-457a-bd14-adb8c499b5d5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Starting a new project today."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 33
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718bb8b037fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:14 GMT"
+  ],
+  "Etag": [
+    "W/\"184a-xUfkuxePLFs2gGmclcbDS2RftdU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc1bae95e7faddee69ec88c0fce5bfc701565326094; expires=Sat, 08-Aug-20 04:48:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

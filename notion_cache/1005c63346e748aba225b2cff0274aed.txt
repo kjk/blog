@@ -1,0 +1,905 @@
+3155 1565326153724 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+      "table": "block"
+    }
+  ]
+}
+Response:+2006
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "7a4513e3-fdbb-4f4c-8944-e40f28a581d3",
+          "bab2612e-8dad-4979-9db8-ead878bef95d",
+          "e825a703-44d7-4f3f-9552-e9c883b4d8c7",
+          "50e7cc9a-b9ef-445e-911a-7c81a7319dfb",
+          "73dca8c6-5b2d-48f7-a292-6fdb8ecdbea9",
+          "67e7b5ff-31a7-465c-a547-83226be10e9b",
+          "ccce53de-1856-4dc9-afc3-8bd7a48a0cdb",
+          "31d83d78-5f1b-416d-b707-2f7bfddbc5b2",
+          "853df8df-3a4d-43e7-80dc-ff38ea09ce1e",
+          "0a568d48-6210-4c29-8cf3-7b37aec491e4",
+          "72e01d80-0dbb-4c53-b07b-0ab5ba2e1a5e",
+          "fbf4be80-9ed2-4224-847e-6c06edf6ceeb",
+          "842034a1-0657-4270-b385-15016be5619b",
+          "1f2f2304-20f3-4659-9d24-cec50b72e47c",
+          "838eeaee-3bd7-43e7-bb2b-3abd4d3595c8",
+          "90dc58d2-4639-4827-ad1d-c2ef898e2d61",
+          "542cf506-b75b-44f3-ba1a-5bf92956d3f0",
+          "cfaece6a-3aaa-48e2-b1d2-00a9cf0db5df",
+          "fee284af-ec9f-4c00-87c1-0cb219f8defe",
+          "d02e6992-4c0f-4953-b5fc-0cf5143b4f80",
+          "50be91dd-cfa7-40de-b3a8-1272dec88238",
+          "58b35ab1-6d3d-4bd6-9fab-8874dca59f17",
+          "300cdbd7-633e-46e4-942c-3a1df03a0491",
+          "d22c1ddf-d1cd-431e-ae3f-9244c77f2a95"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532669744025,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532669819613,
+        "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "What I've learned from \"After the Gold Rush\""
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 43
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a279a387fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:12 GMT"
+  ],
+  "Etag": [
+    "W/\"5b0-d7enZOejzjQFhv3soAg/quWTOvw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddb1377a71d08c9030459b0ccd2e0bb451565326152; expires=Sat, 08-Aug-20 04:49:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+27370 1565326153725 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "1005c633-46e7-48ab-a225-b2cff0274aed",
+  "verticalColumns": false
+}
+Response:+26179
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0a568d48-6210-4c29-8cf3-7b37aec491e4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "0a568d48-6210-4c29-8cf3-7b37aec491e4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "convenience"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "1005c633-46e7-48ab-a225-b2cff0274aed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7a4513e3-fdbb-4f4c-8944-e40f28a581d3",
+            "bab2612e-8dad-4979-9db8-ead878bef95d",
+            "e825a703-44d7-4f3f-9552-e9c883b4d8c7",
+            "50e7cc9a-b9ef-445e-911a-7c81a7319dfb",
+            "73dca8c6-5b2d-48f7-a292-6fdb8ecdbea9",
+            "67e7b5ff-31a7-465c-a547-83226be10e9b",
+            "ccce53de-1856-4dc9-afc3-8bd7a48a0cdb",
+            "31d83d78-5f1b-416d-b707-2f7bfddbc5b2",
+            "853df8df-3a4d-43e7-80dc-ff38ea09ce1e",
+            "0a568d48-6210-4c29-8cf3-7b37aec491e4",
+            "72e01d80-0dbb-4c53-b07b-0ab5ba2e1a5e",
+            "fbf4be80-9ed2-4224-847e-6c06edf6ceeb",
+            "842034a1-0657-4270-b385-15016be5619b",
+            "1f2f2304-20f3-4659-9d24-cec50b72e47c",
+            "838eeaee-3bd7-43e7-bb2b-3abd4d3595c8",
+            "90dc58d2-4639-4827-ad1d-c2ef898e2d61",
+            "542cf506-b75b-44f3-ba1a-5bf92956d3f0",
+            "cfaece6a-3aaa-48e2-b1d2-00a9cf0db5df",
+            "fee284af-ec9f-4c00-87c1-0cb219f8defe",
+            "d02e6992-4c0f-4953-b5fc-0cf5143b4f80",
+            "50be91dd-cfa7-40de-b3a8-1272dec88238",
+            "58b35ab1-6d3d-4bd6-9fab-8874dca59f17",
+            "300cdbd7-633e-46e4-942c-3a1df03a0491",
+            "d22c1ddf-d1cd-431e-ae3f-9244c77f2a95"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669744025,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669819613,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What I've learned from \"After the Gold Rush\""
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 43
+        }
+      },
+      "1f2f2304-20f3-4659-9d24-cec50b72e47c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "1f2f2304-20f3-4659-9d24-cec50b72e47c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Their summary"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 2
+        }
+      },
+      "300cdbd7-633e-46e4-942c-3a1df03a0491": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751373,
+          "id": "300cdbd7-633e-46e4-942c-3a1df03a0491",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Disrupt your competitors, sustain your customers."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "31d83d78-5f1b-416d-b707-2f7bfddbc5b2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "31d83d78-5f1b-416d-b707-2f7bfddbc5b2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "functionality"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "50be91dd-cfa7-40de-b3a8-1272dec88238": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751373,
+          "id": "50be91dd-cfa7-40de-b3a8-1272dec88238",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Technology supply doesn't equal technology demand."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "50e7cc9a-b9ef-445e-911a-7c81a7319dfb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "50e7cc9a-b9ef-445e-911a-7c81a7319dfb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669764176,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Note: \"After the Gold Rush\" is a paper that was once freely available "
+              ],
+              [
+                "at this site",
+                [
+                  [
+                    "a",
+                    "http://innosight.com/"
+                  ]
+                ]
+              ],
+              [
+                ". Now you have to register with them in order to download it."
+              ]
+            ]
+          },
+          "type": "quote",
+          "version": 4
+        }
+      },
+      "542cf506-b75b-44f3-ba1a-5bf92956d3f0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "542cf506-b75b-44f3-ba1a-5bf92956d3f0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Look for a mainstream migration potential - start simple and with a low price."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "58b35ab1-6d3d-4bd6-9fab-8874dca59f17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751373,
+          "id": "58b35ab1-6d3d-4bd6-9fab-8874dca59f17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Markets that don't exist can't be analyzed."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "67e7b5ff-31a7-465c-a547-83226be10e9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "67e7b5ff-31a7-465c-a547-83226be10e9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Dell has been selling a custom-ordered PC through phone. For them Internet was sustaining because they could offer the same product (ability to buy a customized PC) more conveniently. They achieved great success by adopting Web as a distribution channel. Compaq was selling majority of their computers through retail stores. For them Internet was disruptive because when they tried to introduce selling through web they faced great opposition from their retail channels and their internal system (optimized for retailing of pre-made computers) didn't fit well with selling customized PCs through web. They failed."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "72e01d80-0dbb-4c53-b07b-0ab5ba2e1a5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "72e01d80-0dbb-4c53-b07b-0ab5ba2e1a5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "price"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "73dca8c6-5b2d-48f7-a292-6fdb8ecdbea9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "73dca8c6-5b2d-48f7-a292-6fdb8ecdbea9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "New technology can be disruptive or sustaining. Sustaining technology is such that allows to do the same thing better (cheaper, faster). It doesn't create new markets or opportunities. Disruptive technology creates new markets and opportunities, sometimes replacing the old technology. Internet isn't inherently disruptive or sustaining."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "7a4513e3-fdbb-4f4c-8944-e40f28a581d3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669746684,
+          "id": "7a4513e3-fdbb-4f4c-8944-e40f28a581d3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669783863,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2002-01-01"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 38
+        }
+      },
+      "838eeaee-3bd7-43e7-bb2b-3abd4d3595c8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "838eeaee-3bd7-43e7-bb2b-3abd4d3595c8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Customers and investors control the resources of an organization."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "842034a1-0657-4270-b385-15016be5619b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "842034a1-0657-4270-b385-15016be5619b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As an example: during DOS days functionality was a prevailing basis of competition for operating system. There was a lot of things that DOS programs didn't do. An attempt to combat Microsoft on price would fail since Microsoft was competing on functionality by creating Windows. People would be willing to pay a premium price to get the functionality of Windows even if a replacement of DOS would be cheaper."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "853df8df-3a4d-43e7-80dc-ff38ea09ce1e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "853df8df-3a4d-43e7-80dc-ff38ea09ce1e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "reliability"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "90dc58d2-4639-4827-ad1d-c2ef898e2d61": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "90dc58d2-4639-4827-ad1d-c2ef898e2d61",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Small markets don't serve the growth needs of large companies."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "bab2612e-8dad-4979-9db8-ead878bef95d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669784348,
+          "id": "bab2612e-8dad-4979-9db8-ead878bef95d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669792343,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /articles/learned-gold-rush.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 18
+        }
+      },
+      "ccce53de-1856-4dc9-afc3-8bd7a48a0cdb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "ccce53de-1856-4dc9-afc3-8bd7a48a0cdb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One can compete on different basis:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "cfaece6a-3aaa-48e2-b1d2-00a9cf0db5df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "cfaece6a-3aaa-48e2-b1d2-00a9cf0db5df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Disruption predicated on a change of behavior will fail."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "d02e6992-4c0f-4953-b5fc-0cf5143b4f80": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "d02e6992-4c0f-4953-b5fc-0cf5143b4f80",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Organization's capabilities define its disabilities. The capabilities of an organization reside in its resources, processes and values."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "d22c1ddf-d1cd-431e-ae3f-9244c77f2a95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751373,
+          "id": "d22c1ddf-d1cd-431e-ae3f-9244c77f2a95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Disruption enables a larger population of less-skilled and less wealthy individuals to do what typically required specialists to do."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "e825a703-44d7-4f3f-9552-e9c883b4d8c7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751371,
+          "id": "e825a703-44d7-4f3f-9552-e9c883b4d8c7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What I've learned from \"After the Gold Rush\""
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 2
+        }
+      },
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+            "19602cce-611b-4e7e-a79a-533dca66b8a1",
+            "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+            "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+            "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+            "be2da96b-1802-4cf1-995e-11794d303358",
+            "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+            "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+            "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+            "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+            "1005c633-46e7-48ab-a225-b2cff0274aed",
+            "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+            "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669517099,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Documents"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 226
+        }
+      },
+      "fbf4be80-9ed2-4224-847e-6c06edf6ceeb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "fbf4be80-9ed2-4224-847e-6c06edf6ceeb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669825876,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For a given product there is a "
+              ],
+              [
+                "prevailing basis of competition",
+                [
+                  [
+                    "i"
+                  ]
+                ]
+              ],
+              [
+                ". In order to succeed one has to know what is prevailing basis of competition for his product and compete based on it. One also has to watch for shifts."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 10
+        }
+      },
+      "fee284af-ec9f-4c00-87c1-0cb219f8defe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669751372,
+          "id": "fee284af-ec9f-4c00-87c1-0cb219f8defe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669751389,
+          "parent_id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Frame it as a marketing problem, not a technology challenge - find customers who value the technology as it is today."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a27fa617fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:13 GMT"
+  ],
+  "Etag": [
+    "W/\"442b-Qq+ndNAwIh5ywhSiQeMRVXuelek\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ddb1377a71d08c9030459b0ccd2e0bb451565326152; expires=Sat, 08-Aug-20 04:49:12 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,1215 @@
+3100 1565326236358 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+      "table": "block"
+    }
+  ]
+}
+Response:+1951
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5ef63264-a229-4362-b35a-10a9f61d57a8",
+          "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+          "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+          "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+          "069cd5e2-ec07-412c-9f34-9951a1043c60",
+          "d8cac563-43a0-4363-9a37-9c2f5453e410",
+          "f07e9302-e504-49a5-b768-4c567049f7b4",
+          "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+          "81548827-ae30-485b-9f2d-ee7c17539c93",
+          "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+          "70e44195-6141-4b3e-a783-d408a1246114",
+          "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+          "14dca5f7-596b-4949-8b91-18fe82a38866",
+          "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+          "9fabdd72-e388-4e7b-ad79-1284311441a3",
+          "9e650fed-b56e-4564-8160-b412c1de1500",
+          "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+          "734f5831-b443-4e4a-818c-361951428378",
+          "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+          "480eb536-ff2c-494d-83b5-09fab81cea5f",
+          "a204a4c6-e209-4c27-bd8e-3acf78e5bd45"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354271723,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532125750833,
+        "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+        "parent_table": "block",
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission"
+          }
+        ],
+        "properties": {
+          "title": [
+            [
+              "Tesla watch"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 92
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c2b8a8e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:35 GMT"
+  ],
+  "Etag": [
+    "W/\"555-smayiCbc+FpGIpA2jIuDoF4Ixh0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea2e916ac8d6afa343f58c35af8469541565326235; expires=Sat, 08-Aug-20 04:50:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28681 1565326236360 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+  "verticalColumns": false
+}
+Response:+27490
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "00e66e65-7758-4d35-ba45-b2a03c9efe7e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517356100177,
+          "id": "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517356224693,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CATLS (supplies NEVS), plans 50 GW by 2020 "
+              ],
+              [
+                "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+                [
+                  [
+                    "a",
+                    "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 102
+        }
+      },
+      "030307e5-bd89-4aa2-8a02-6d61968e08c6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517425358580,
+          "id": "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517425388453,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Volswagen to build 1500 ev cars a day (~500k / year) in Zwickau factory "
+              ],
+              [
+                "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/",
+                [
+                  [
+                    "a",
+                    "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 195
+        }
+      },
+      "069cd5e2-ec07-412c-9f34-9951a1043c60": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354279834,
+          "id": "069cd5e2-ec07-412c-9f34-9951a1043c60",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354453489,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "construction began June 2014, estimated completion 2020"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 167
+        }
+      },
+      "14dca5f7-596b-4949-8b91-18fe82a38866": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517355809123,
+          "id": "14dca5f7-596b-4949-8b91-18fe82a38866",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517355824765,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Predictions:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 36
+        }
+      },
+      "2ba0b2e0-deae-4c77-b31e-4481777b70a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+            "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+            "1038b484-044d-42fa-9242-d2445cdf9c53",
+            "87b42ff4-81ca-4ea3-bf4d-11ae306831b2",
+            "07d8cbcf-3f47-4724-b539-3753a588a64c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233350473,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532409014482,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research for investing"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 138
+        }
+      },
+      "3dfcc36c-8b19-445c-9df4-abd43c32a900": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354363129,
+          "id": "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354635405,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "started making powerwalls and powerpack in Q1 2016"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 142
+        }
+      },
+      "3f9399c9-790b-4089-a7a8-5b3b0f301fc6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354274252,
+          "id": "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354279462,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Giga factory:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 40
+        }
+      },
+      "480eb536-ff2c-494d-83b5-09fab81cea5f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517359953104,
+          "id": "480eb536-ff2c-494d-83b5-09fab81cea5f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517360017154,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "growth of electric cars (including hybrids) up to 2016 "
+              ],
+              [
+                "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/",
+                [
+                  [
+                    "a",
+                    "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 146
+        }
+      },
+      "4bed70ed-b73b-46c3-80e2-762a0bdafcb1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5ef63264-a229-4362-b35a-10a9f61d57a8",
+            "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+            "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+            "069cd5e2-ec07-412c-9f34-9951a1043c60",
+            "d8cac563-43a0-4363-9a37-9c2f5453e410",
+            "f07e9302-e504-49a5-b768-4c567049f7b4",
+            "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+            "81548827-ae30-485b-9f2d-ee7c17539c93",
+            "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+            "70e44195-6141-4b3e-a783-d408a1246114",
+            "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+            "14dca5f7-596b-4949-8b91-18fe82a38866",
+            "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+            "9fabdd72-e388-4e7b-ad79-1284311441a3",
+            "9e650fed-b56e-4564-8160-b412c1de1500",
+            "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+            "734f5831-b443-4e4a-818c-361951428378",
+            "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+            "480eb536-ff2c-494d-83b5-09fab81cea5f",
+            "a204a4c6-e209-4c27-bd8e-3acf78e5bd45"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354271723,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532125750833,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "reader",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tesla watch"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5ef63264-a229-4362-b35a-10a9f61d57a8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1523422789827,
+          "id": "5ef63264-a229-4362-b35a-10a9f61d57a8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532125743242,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Battery cost based on Power Pack 2 price: $437 per kWh"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 134
+        }
+      },
+      "70e44195-6141-4b3e-a783-d408a1246114": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354735251,
+          "id": "70e44195-6141-4b3e-a783-d408a1246114",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517356107399,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SK Innovations (provides Kia Soul EV, some cars made in China, will supply Mercedes), increasing production capacity to 4 GW/year by end of 2018 (capacity on March 2016 is 1.9) "
+              ],
+              [
+                "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/",
+                [
+                  [
+                    "a",
+                    "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 417
+        }
+      },
+      "734f5831-b443-4e4a-818c-361951428378": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517357423162,
+          "id": "734f5831-b443-4e4a-818c-361951428378",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517357427867,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Misc numbers:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 30
+        }
+      },
+      "81548827-ae30-485b-9f2d-ee7c17539c93": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354328422,
+          "id": "81548827-ae30-485b-9f2d-ee7c17539c93",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517356616218,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "planned capacity 50 GW in 2018, 150 GW in 2020, half for car batteries, enabling ~1 million cars / year (assuming average 70kw battery per car)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 464
+        }
+      },
+      "9e650fed-b56e-4564-8160-b412c1de1500": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517425347644,
+          "id": "9e650fed-b56e-4564-8160-b412c1de1500",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517425358384,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Other car makers EV plans:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 68
+        }
+      },
+      "9fabdd72-e388-4e7b-ad79-1284311441a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517356219201,
+          "id": "9fabdd72-e388-4e7b-ad79-1284311441a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517356329078,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Total world battery production 174 GW by 2020. China: 108 GW, US: 38GW, Korea: 23GW, Poland: 5GW ("
+              ],
+              [
+                "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+                [
+                  [
+                    "a",
+                    "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 348
+        }
+      },
+      "a204a4c6-e209-4c27-bd8e-3acf78e5bd45": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517425335395,
+          "id": "a204a4c6-e209-4c27-bd8e-3acf78e5bd45",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517425335395,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "abbbcb44-f6fd-4ba5-bdb0-4b3970180958": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+            "c726345f-2a7d-425a-81fc-0560771f9b62",
+            "477349aa-e816-450a-b529-c76ac11b3180",
+            "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+            "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+            "a3909f65-ba28-468a-a576-0069f4e8990c",
+            "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+            "3b935305-7eaa-447d-98e9-c4c87da23dbe"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233372250,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564010040000,
+          "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tesla facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 99
+        }
+      },
+      "aeeeb581-f827-4d68-8b13-c8a0ad5842dc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354578262,
+          "id": "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354735016,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Factories from others:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 60
+        }
+      },
+      "b9d3bba9-214b-4bb6-80c7-c88e0e26e605": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517357428054,
+          "id": "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517357441629,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "BMW makes 2 million cars a year ("
+              ],
+              [
+                "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory",
+                [
+                  [
+                    "a",
+                    "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 92
+        }
+      },
+      "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a5802a6b-efb1-4543-818b-60fef5789094",
+            "8f6d46da-f48c-449b-afe1-5e98cf9a3490",
+            "6f1c8bd3-a447-4e5d-842b-8fd949f8f06c",
+            "b45c7405-1c1a-446b-8bd7-77c07d70a8ef",
+            "4d778a4f-3731-4b66-8a89-1623f5250941"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1523421961110,
+          "id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1523422421287,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PowerPack orders"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 55
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "d8cac563-43a0-4363-9a37-9c2f5453e410": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354464958,
+          "id": "d8cac563-43a0-4363-9a37-9c2f5453e410",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354543190,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "estimated cost $5 billion, shared with Panasonic ($1.6 billion originally, upped to ~$3 billion)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 222
+        }
+      },
+      "dbd1723b-d2a4-4619-8089-8d846f59e1cc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354609525,
+          "id": "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517356698122,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "sources: "
+              ],
+              [
+                "https://www.tesla.com/gigafactory",
+                [
+                  [
+                    "a",
+                    "https://www.tesla.com/gigafactory"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "https://en.wikipedia.org/wiki/Gigafactory_1",
+                [
+                  [
+                    "a",
+                    "https://en.wikipedia.org/wiki/Gigafactory_1"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/",
+                [
+                  [
+                    "a",
+                    "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 45
+        }
+      },
+      "f07e9302-e504-49a5-b768-4c567049f7b4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354522707,
+          "id": "f07e9302-e504-49a5-b768-4c567049f7b4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517354561606,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tesla spent $608 million by September 2016"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 110
+        }
+      },
+      "f14f80b5-77ff-430f-8a75-d43add3e29e6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517355825067,
+          "id": "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517355866435,
+          "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Panasonic predicts 3 million cars / year in 2026"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 137
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c2beac27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:35 GMT"
+  ],
+  "Etag": [
+    "W/\"4458-JYQ9uUUE0WHFRuPHbu1KCPmQG5o\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea2e916ac8d6afa343f58c35af8469541565326235; expires=Sat, 08-Aug-20 04:50:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+6128 1565326236360 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+462
+{
+  "requests": [
+    {
+      "id": "a5802a6b-efb1-4543-818b-60fef5789094",
+      "table": "block"
+    },
+    {
+      "id": "8f6d46da-f48c-449b-afe1-5e98cf9a3490",
+      "table": "block"
+    },
+    {
+      "id": "6f1c8bd3-a447-4e5d-842b-8fd949f8f06c",
+      "table": "block"
+    },
+    {
+      "id": "b45c7405-1c1a-446b-8bd7-77c07d70a8ef",
+      "table": "block"
+    },
+    {
+      "id": "4d778a4f-3731-4b66-8a89-1623f5250941",
+      "table": "block"
+    }
+  ]
+}
+Response:+4627
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523422186553,
+        "id": "a5802a6b-efb1-4543-818b-60fef5789094",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422586066,
+        "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "PowerPack : ~250 kWh ("
+            ],
+            [
+              "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/",
+              [
+                [
+                  "a",
+                  "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 90
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523422421287,
+        "id": "8f6d46da-f48c-449b-afe1-5e98cf9a3490",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422463262,
+        "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018: 150 MWh per quarter, doubling per year ("
+            ],
+            [
+              "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 125
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523421969002,
+        "id": "6f1c8bd3-a447-4e5d-842b-8fd949f8f06c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422632242,
+        "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-04-10 840 kWh (4 PowerPacks) "
+            ],
+            [
+              "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/"
+                ]
+              ]
+            ],
+            [
+              ", small pilot program for BP"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 208
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523422134650,
+        "id": "b45c7405-1c1a-446b-8bd7-77c07d70a8ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422630214,
+        "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-03-22 50 MWh (200 PowerPacks) "
+            ],
+            [
+              "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 106
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523422278498,
+        "id": "4d778a4f-3731-4b66-8a89-1623f5250941",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422706378,
+        "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-01 129 MWh (516 PowerPacks)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 136
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c2c6af97fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:35 GMT"
+  ],
+  "Etag": [
+    "W/\"b1c-83UzRNO8AAWd/IESDmSlnMHtZ84\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea2e916ac8d6afa343f58c35af8469541565326235; expires=Sat, 08-Aug-20 04:50:35 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

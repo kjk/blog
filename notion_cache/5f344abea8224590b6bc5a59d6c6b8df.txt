@@ -1,0 +1,816 @@
+2795 1565326183824 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+      "table": "block"
+    }
+  ]
+}
+Response:+1646
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "6b871cfc-6905-4af0-8ce6-79864ffb84ae",
+          "7db1107b-ac31-4758-8f6d-c6881d4a7c96",
+          "27724833-c273-40bd-88cf-dad53c6833fe",
+          "56cb54c3-267c-47b7-a015-e92bec802954",
+          "92401c04-4b16-43ac-883b-65089927a49e",
+          "36c19d37-ff88-4571-bc89-ba409c952c17",
+          "c9ab86d6-dfd8-4bf1-b5ce-be52c4c0542c",
+          "43d22ea5-9779-4ecc-9584-845c83f5dbde",
+          "0866eee4-6f21-40b1-a8c3-696433fecf1d",
+          "9da7fc3f-4644-4f9c-bcf2-6e2d411ed10f",
+          "9bd6bc1e-a4e2-424b-9769-7e16a72b6dfd",
+          "272caa58-7b3b-450d-9dd6-c5ea7965e3ff",
+          "2ab55fd1-ebde-499c-8de2-57e643195275",
+          "46d846c8-d110-4192-84de-4e3855e22ba4",
+          "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4",
+          "aa220c4f-13f8-4127-84bf-cadbf061bc63"
+        ],
+        "copied_from": "b649c623-79fb-48dd-92b3-c0610cc387aa",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736998534,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1542860456258,
+        "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SumatraPDF 1.6 released"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371ae3a8117fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:43 GMT"
+  ],
+  "Etag": [
+    "W/\"496-bmg2tk7XJSuUJsBgR1yDJkWn0wA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=db40dd0803e2ed0cac2b1262d8c9369f71565326182; expires=Sat, 08-Aug-20 04:49:42 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+24144 1565326183825 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+  "verticalColumns": false
+}
+Response:+22953
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0866eee4-6f21-40b1-a8c3-696433fecf1d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "0866eee4-6f21-40b1-a8c3-696433fecf1d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We’ve added support for displaying a folder containing images: drag the folder to SumatraPDF window"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1542860450070,
+          "file_ids": [
+            "39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad"
+          ],
+          "format": {
+            "block_aspect_ratio": 1.15625,
+            "block_full_width": false,
+            "block_height": 370,
+            "block_page_width": false,
+            "block_preserve_scale": true,
+            "block_width": 320,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png"
+          },
+          "id": "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1542860450813,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 11
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "272caa58-7b3b-450d-9dd6-c5ea7965e3ff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "272caa58-7b3b-450d-9dd6-c5ea7965e3ff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We’ve added Print toolbar button."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "27724833-c273-40bd-88cf-dad53c6833fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998534,
+          "id": "27724833-c273-40bd-88cf-dad53c6833fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998534,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2011-05-30T21:42:25-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2ab55fd1-ebde-499c-8de2-57e643195275": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "2ab55fd1-ebde-499c-8de2-57e643195275",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Experimental: we’ve added previewing of PDF documents in Windows Vista and 7. This creates thumbnails and displays documents in Explorer’s Preview pane. Needs to be explicitly selected during install process. We’ve had reports that it doesn’t work on 64-bit Windows which is why we call it experimental."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "36c19d37-ff88-4571-bc89-ba409c952c17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "36c19d37-ff88-4571-bc89-ba409c952c17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In this release we’ve added support for "
+              ],
+              [
+                "DjVu",
+                [
+                  [
+                    "a",
+                    "http://djvu.org/"
+                  ]
+                ]
+              ],
+              [
+                " file format."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "43d22ea5-9779-4ecc-9584-845c83f5dbde": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "43d22ea5-9779-4ecc-9584-845c83f5dbde",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We’ve added support for displaying Postscript documents. This requires recent Ghostscript version to be already installed - we don’t bundle it ourselves."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "46d846c8-d110-4192-84de-4e3855e22ba4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998537,
+          "id": "46d846c8-d110-4192-84de-4e3855e22ba4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998537,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is how “frequently read” list looks like:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "56cb54c3-267c-47b7-a015-e92bec802954": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998534,
+          "id": "56cb54c3-267c-47b7-a015-e92bec802954",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998534,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5f344abe-a822-4590-b6bc-5a59d6c6b8df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6b871cfc-6905-4af0-8ce6-79864ffb84ae",
+            "7db1107b-ac31-4758-8f6d-c6881d4a7c96",
+            "27724833-c273-40bd-88cf-dad53c6833fe",
+            "56cb54c3-267c-47b7-a015-e92bec802954",
+            "92401c04-4b16-43ac-883b-65089927a49e",
+            "36c19d37-ff88-4571-bc89-ba409c952c17",
+            "c9ab86d6-dfd8-4bf1-b5ce-be52c4c0542c",
+            "43d22ea5-9779-4ecc-9584-845c83f5dbde",
+            "0866eee4-6f21-40b1-a8c3-696433fecf1d",
+            "9da7fc3f-4644-4f9c-bcf2-6e2d411ed10f",
+            "9bd6bc1e-a4e2-424b-9769-7e16a72b6dfd",
+            "272caa58-7b3b-450d-9dd6-c5ea7965e3ff",
+            "2ab55fd1-ebde-499c-8de2-57e643195275",
+            "46d846c8-d110-4192-84de-4e3855e22ba4",
+            "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4",
+            "aa220c4f-13f8-4127-84bf-cadbf061bc63"
+          ],
+          "copied_from": "b649c623-79fb-48dd-92b3-c0610cc387aa",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998534,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1542860456258,
+          "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SumatraPDF 1.6 released"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "6b871cfc-6905-4af0-8ce6-79864ffb84ae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998534,
+          "id": "6b871cfc-6905-4af0-8ce6-79864ffb84ae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998534,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 498008"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7db1107b-ac31-4758-8f6d-c6881d4a7c96": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998534,
+          "id": "7db1107b-ac31-4758-8f6d-c6881d4a7c96",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998534,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: sumatra, releasenotes"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "92401c04-4b16-43ac-883b-65089927a49e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "92401c04-4b16-43ac-883b-65089927a49e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SumatraPDF developers",
+                [
+                  [
+                    "a",
+                    "http://www.ohloh.net/p/4623/contributors"
+                  ]
+                ]
+              ],
+              [
+                " are quite pleased to announce 1.6 release of "
+              ],
+              [
+                "SumatraPDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ],
+              [
+                ", a PDF, XPS, DjVu, CBZ and CBR reader for Windows."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9bd6bc1e-a4e2-424b-9769-7e16a72b6dfd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "9bd6bc1e-a4e2-424b-9769-7e16a72b6dfd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We’ve added printing progress and allow canceling printing process."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9da7fc3f-4644-4f9c-bcf2-6e2d411ed10f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "9da7fc3f-4644-4f9c-bcf2-6e2d411ed10f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We now support clickable links and a Table of Content for XPS documents."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "aa220c4f-13f8-4127-84bf-cadbf061bc63": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1542860456258,
+          "id": "aa220c4f-13f8-4127-84bf-cadbf061bc63",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1542860456258,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "c9ab86d6-dfd8-4bf1-b5ce-be52c4c0542c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998535,
+          "id": "c9ab86d6-dfd8-4bf1-b5ce-be52c4c0542c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998535,
+          "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "When no document is open, we display a list of frequently read document as thumbnails. This functionality is inspired by new tab page in Chrome."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86f1e3f8-c08c-4554-98f2-8cfb464398a4",
+            "f1fcdd01-b2dd-4794-a7af-3b00eebda21e",
+            "4b52129c-080e-4159-aebe-3e510d4b81d2",
+            "f5652f25-3b4d-4dc0-bb99-c673ca61b977",
+            "be153e27-1136-4bf0-a5d3-c65c2085db09",
+            "a8d20cf4-69be-48fd-b305-44e34a281704",
+            "0aaab80b-35fb-473e-af08-3c5c3f13b829",
+            "d0c12a9a-f1c5-4726-bfa4-502c41161763",
+            "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+            "c1ce4215-5b65-4edd-afa0-63e314119f75",
+            "1e14f055-b2ea-4ec9-b451-ed64f38732ac",
+            "99d0b424-dc31-47da-86f3-4388e6b933e1",
+            "1287e403-5c29-436b-9f4a-249a433ceff5",
+            "faff1f91-88e2-4351-8839-7fb0edb524b6",
+            "d3c4a006-1407-4f16-a096-fa084233dfdd",
+            "171e0029-5b7c-4f69-aedc-8dfbb1082f63",
+            "07cab082-7c10-4439-b356-31396c3c99ed",
+            "465ee96a-4544-410f-9c87-9338e179890b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736995601,
+          "id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2011 (17)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371ae4084e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:43 GMT"
+  ],
+  "Etag": [
+    "W/\"3afe-/nNdi+/F6GLwQWMWerQ6iVN6Zik\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d70ab3fecf74b72831619aa8a22be75a51565326183; expires=Sat, 08-Aug-20 04:49:43 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

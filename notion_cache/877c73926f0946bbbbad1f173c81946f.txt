@@ -1,0 +1,828 @@
+2817 1565326192803 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+      "table": "block"
+    }
+  ]
+}
+Response:+1668
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "93cc1eb8-b0ae-4417-85a6-cca2feda5a8c",
+          "f8ee325d-5a4f-41b1-89fd-f61331c1a302",
+          "8fee4005-e342-4698-a7df-949918173c28",
+          "043bc6c5-03d7-42d6-aba1-66a9a5ddc0c9",
+          "786f7137-eee1-4ec8-a419-573a7fb4e440",
+          "8f6740f3-f336-407c-be6f-153abd4561a8",
+          "536fec42-1f97-4248-85df-903926dd2289",
+          "c1d771ca-3ddf-43f5-a285-578b97f8cafa",
+          "4b762520-4ee5-42c7-a66a-d8d8e938eff0",
+          "a447fe3f-ccd9-40a3-a0af-fb5f1a2e691f",
+          "00b34630-8faf-4297-b62e-712578b7abd3",
+          "a86801e4-60e8-4b30-b574-bf6b209760ab",
+          "14ca4534-7c6a-412d-904b-bbec684e677f",
+          "523dc2f7-1e40-429c-90ed-24b0aa040943",
+          "cf0fdcb4-c578-4538-ba4f-cc3b46c20011",
+          "4270a109-db56-4c09-a0e0-44d1526f99ee"
+        ],
+        "copied_from": "2b88251a-51bd-4d0e-8b33-e2cb15e35021",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195944694,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996368299,
+        "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Setting unicode rtf text in rich edit control"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 16
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b1b8c3e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:51 GMT"
+  ],
+  "Etag": [
+    "W/\"4ac-RHl18M9jdcoibUxNUOoR/WeYPJk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d9683da005b992c131ab1f71cc5a47fa61565326191; expires=Sat, 08-Aug-20 04:49:51 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+24198 1565326192805 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "877c7392-6f09-46bb-bbad-1f173c81946f",
+  "verticalColumns": false
+}
+Response:+23007
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "00b34630-8faf-4297-b62e-712578b7abd3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "00b34630-8faf-4297-b62e-712578b7abd3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In non-unicode build, where text was ansi, it worked and the text showed up nicely formatted."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "043bc6c5-03d7-42d6-aba1-66a9a5ddc0c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531623458688,
+          "id": "043bc6c5-03d7-42d6-aba1-66a9a5ddc0c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623469155,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 58
+        }
+      },
+      "11703b89-1c9f-48ad-ae04-7eb3f6a2f004": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0ad61046-26d4-47d9-9c53-8b8a8262ca21",
+            "25a7d8d0-c006-4492-9d3c-dd68872e6aa0",
+            "4dfe2435-8ba9-4edf-b4d8-1f7c08b35ed8",
+            "0947e99e-e9ac-4929-a042-0bfc1af30862",
+            "d9c46c22-51ce-4ed1-83f7-aedf795f009a",
+            "0d9dec58-66c0-4d02-a14c-571afd6d50e3",
+            "7c647e80-7f31-49d8-980e-85cd7779d180",
+            "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+            "6d2cfd06-b8f5-4974-b3c6-83a8bd67538e",
+            "00b12e48-bfa0-4eb8-be8a-7915ab77d38e",
+            "b4f45548-2741-44c1-9f2e-c5c84a311099",
+            "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+            "f8055656-137f-4084-95a0-fcf1e3794ed8",
+            "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+            "c9294795-92d0-49c3-b734-21e955fa44fa",
+            "78c37832-4398-4091-bcfe-39d4a4e85fc6",
+            "40162557-4d1d-4685-b9a2-9403645c0c49",
+            "673a95a8-caff-4e92-ae66-ff7510ede1c0",
+            "4754a9c5-481c-4697-aa86-f266e711c5f1",
+            "877c7392-6f09-46bb-bbad-1f173c81946f",
+            "e7f5e7f9-db4b-48ea-9f66-980a025a8ee9",
+            "837a7b55-fbe6-4e87-97cf-d15dc5c176ba",
+            "a0b85ed2-ec0c-4472-be40-18bc449db05f",
+            "7c108342-3b6f-4160-adf1-fcd270f2bc54",
+            "3f220264-80be-4f0e-8382-fcf8a69f253b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195927875,
+          "id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2009 (25)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "14ca4534-7c6a-412d-904b-bbec684e677f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "14ca4534-7c6a-412d-904b-bbec684e677f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "An hour of trying various ways to make it work ended with me finding a working work-around: using "
+              ],
+              [
+                "EM_SETTEXTEX",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and utf-8 encoded text with "
+              ],
+              [
+                "CP_UTF8",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " code-page. I’m using WTL so the code ended up being:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "4270a109-db56-4c09-a0e0-44d1526f99ee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "4270a109-db56-4c09-a0e0-44d1526f99ee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s quite possible I’ve botched something somewhere in my code and this work-around isn’t needed but I can hardly think of anything."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4b762520-4ee5-42c7-a66a-d8d8e938eff0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "4b762520-4ee5-42c7-a66a-d8d8e938eff0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Today I spent an hour battling a baffling problem with rich edit control."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "523dc2f7-1e40-429c-90ed-24b0aa040943": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "523dc2f7-1e40-429c-90ed-24b0aa040943",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "#ifdef UNICODE\n // Don’t know why I have to do this, but SetWindowText() with unicode\n // doesn’t work (rtf codes are not being recognized)\n const char *sUtf = WstrToUtf8(s);\n m_statusMsgEdit.SetTextEx((LPCTSTR)sUtf, ST_DEFAULT, CP_UTF8);\n#else\n m_statusMsgEdit.SetWindowText(s);\n#endif"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "536fec42-1f97-4248-85df-903926dd2289": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "536fec42-1f97-4248-85df-903926dd2289",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623450611,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "786f7137-eee1-4ec8-a419-573a7fb4e440": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531623469551,
+          "id": "786f7137-eee1-4ec8-a419-573a7fb4e440",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623469551,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "877c7392-6f09-46bb-bbad-1f173c81946f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "93cc1eb8-b0ae-4417-85a6-cca2feda5a8c",
+            "f8ee325d-5a4f-41b1-89fd-f61331c1a302",
+            "8fee4005-e342-4698-a7df-949918173c28",
+            "043bc6c5-03d7-42d6-aba1-66a9a5ddc0c9",
+            "786f7137-eee1-4ec8-a419-573a7fb4e440",
+            "8f6740f3-f336-407c-be6f-153abd4561a8",
+            "536fec42-1f97-4248-85df-903926dd2289",
+            "c1d771ca-3ddf-43f5-a285-578b97f8cafa",
+            "4b762520-4ee5-42c7-a66a-d8d8e938eff0",
+            "a447fe3f-ccd9-40a3-a0af-fb5f1a2e691f",
+            "00b34630-8faf-4297-b62e-712578b7abd3",
+            "a86801e4-60e8-4b30-b574-bf6b209760ab",
+            "14ca4534-7c6a-412d-904b-bbec684e677f",
+            "523dc2f7-1e40-429c-90ed-24b0aa040943",
+            "cf0fdcb4-c578-4538-ba4f-cc3b46c20011",
+            "4270a109-db56-4c09-a0e0-44d1526f99ee"
+          ],
+          "copied_from": "2b88251a-51bd-4d0e-8b33-e2cb15e35021",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996368299,
+          "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Setting unicode rtf text in rich edit control"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 16
+        }
+      },
+      "8f6740f3-f336-407c-be6f-153abd4561a8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531623469392,
+          "id": "8f6740f3-f336-407c-be6f-153abd4561a8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623475609,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "TODO: move to win32 section"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 60
+        }
+      },
+      "8fee4005-e342-4698-a7df-949918173c28": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "8fee4005-e342-4698-a7df-949918173c28",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2009-04-14T23:36:41-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "93cc1eb8-b0ae-4417-85a6-cca2feda5a8c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "93cc1eb8-b0ae-4417-85a6-cca2feda5a8c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623451818,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 19006"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "a447fe3f-ccd9-40a3-a0af-fb5f1a2e691f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "a447fe3f-ccd9-40a3-a0af-fb5f1a2e691f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I was setting rtf-formatted text using "
+              ],
+              [
+                "WM_SETTEXT",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " message."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a86801e4-60e8-4b30-b574-bf6b209760ab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "a86801e4-60e8-4b30-b574-bf6b209760ab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In unicode build, however, the text wasn’t parsed as rtf and showed verbatim."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c1d771ca-3ddf-43f5-a285-578b97f8cafa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "c1d771ca-3ddf-43f5-a285-578b97f8cafa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Despite being around for thousands of years, win32 API is poorly documented in many areas."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cf0fdcb4-c578-4538-ba4f-cc3b46c20011": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "cf0fdcb4-c578-4538-ba4f-cc3b46c20011",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "MSDN "
+              ],
+              [
+                "claims",
+                [
+                  [
+                    "a",
+                    "http://msdn.microsoft.com/en-us/library/bb774284.aspx"
+                  ]
+                ]
+              ],
+              [
+                " I could have used code-page 1200 for unicode text, but that didn’t work either."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f8ee325d-5a4f-41b1-89fd-f61331c1a302": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195944694,
+          "id": "f8ee325d-5a4f-41b1-89fd-f61331c1a302",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195944694,
+          "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: win32, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b1c2c6e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:52 GMT"
+  ],
+  "Etag": [
+    "W/\"3a6c-JrUvT84VREpsJUgDywCv/roNB1M\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d750adfcf9897375dbf37d917e77d54331565326192; expires=Sat, 08-Aug-20 04:49:52 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

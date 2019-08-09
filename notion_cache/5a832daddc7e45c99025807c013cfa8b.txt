@@ -1,0 +1,1645 @@
+2575 1565326108846 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+      "table": "block"
+    }
+  ]
+}
+Response:+1426
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+          "2a406ecd-1b58-4326-ba81-58101b267c99",
+          "47ecbe32-c3a1-4740-ad96-b711d54f8b2e",
+          "5f2fac9f-b0f5-47d5-93f4-8077af81ec5e",
+          "3af349c2-7deb-449e-8897-bdffa548a230",
+          "84c55fe3-e32f-4f6c-a698-87af16d1471a",
+          "93d8f491-4d5f-488d-9187-9c8a6ea7f12d",
+          "7258e947-3a93-4385-8a11-1bb2c987dcbd",
+          "d7724a1d-06c1-44e8-8fda-afde4daca7bc",
+          "bbf82344-2303-4990-a02e-d1d3a2928d6b",
+          "9b4e192c-6b84-4f43-af99-8c178f2ecf44",
+          "768e7295-1243-4219-951c-c42ae2f35314",
+          "de3f9dc3-e8e2-4021-8aea-5c82b58ea8b5"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336755324,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532921550777,
+        "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "go code snippets"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 41
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037190e0c3d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:27 GMT"
+  ],
+  "Etag": [
+    "W/\"3e5-Xfk7n+L38einZ21iN56Y03GnOsM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dadecb389f2b98cce6c0bb160adca639a1565326107; expires=Sat, 08-Aug-20 04:48:27 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+18926 1565326108847 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+  "verticalColumns": false
+}
+Response:+17735
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2a406ecd-1b58-4326-ba81-58101b267c99": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b276ff11-a91f-4e21-90e9-6e74943eb1ce"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512356243245,
+          "id": "2a406ecd-1b58-4326-ba81-58101b267c99",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512356243245,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "debounce"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "3af349c2-7deb-449e-8897-bdffa548a230": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f2413c83-e5c8-4406-a3ec-206a27f2ecf1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456267235,
+          "id": "3af349c2-7deb-449e-8897-bdffa548a230",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515748976075,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "progress_estimator.go"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 7
+        }
+      },
+      "47ecbe32-c3a1-4740-ad96-b711d54f8b2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a48dfb08-f010-46c2-9b7c-9819b9a7d2e0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512356583780,
+          "id": "47ecbe32-c3a1-4740-ad96-b711d54f8b2e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512356583780,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "download url"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5a832dad-dc7e-45c9-9025-807c013cfa8b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+            "2a406ecd-1b58-4326-ba81-58101b267c99",
+            "47ecbe32-c3a1-4740-ad96-b711d54f8b2e",
+            "5f2fac9f-b0f5-47d5-93f4-8077af81ec5e",
+            "3af349c2-7deb-449e-8897-bdffa548a230",
+            "84c55fe3-e32f-4f6c-a698-87af16d1471a",
+            "93d8f491-4d5f-488d-9187-9c8a6ea7f12d",
+            "7258e947-3a93-4385-8a11-1bb2c987dcbd",
+            "d7724a1d-06c1-44e8-8fda-afde4daca7bc",
+            "bbf82344-2303-4990-a02e-d1d3a2928d6b",
+            "9b4e192c-6b84-4f43-af99-8c178f2ecf44",
+            "768e7295-1243-4219-951c-c42ae2f35314",
+            "de3f9dc3-e8e2-4021-8aea-5c82b58ea8b5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512336755324,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532921550777,
+          "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "go code snippets"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 41
+        }
+      },
+      "5f2fac9f-b0f5-47d5-93f4-8077af81ec5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e731cb45-6bae-4b4d-b233-430fab9534bf"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512363622272,
+          "id": "5f2fac9f-b0f5-47d5-93f4-8077af81ec5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515748976075,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "non-blocking send"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 5
+        }
+      },
+      "6f70163e-a5b8-4ba9-928a-faa2e45d1f51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1b338041-238f-4b08-83a8-9e23a3989c88",
+            "25c1809f-e05f-43c0-8b3d-af1cce2d5945",
+            "56c7102b-120f-42a3-81ff-d4673507a0d3",
+            "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+            "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+            "fe3aac0b-2171-4dd8-8a69-f6889f05a8ac",
+            "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+            "e0c915d3-04e0-4da7-b455-6aa03929dfca",
+            "b1cff481-c77e-43e4-a604-6b5582c12fdf",
+            "74400c4f-5c50-4d60-9893-22638b9e5037",
+            "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+            "08e41706-8555-46c3-a074-dae41cf910d8",
+            "ed2347d7-29bd-4c41-9b2b-52fed11e4ec7",
+            "591cfada-b10d-443a-bd75-1a3365cbeef9",
+            "d19571fb-1515-49bf-b875-c26c46f75837",
+            "e3aa0199-ee36-492a-90fb-92aa3fe8ba25",
+            "bc5ada73-f538-449e-91d3-61f6857e2ebc",
+            "6435bf2e-2453-4c41-94bf-08cb397eeda3",
+            "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+            "9d54f7ea-1a6e-4b3c-b788-efc3cfcf9e92"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753820011,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1537164927987,
+          "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 27
+        }
+      },
+      "7258e947-3a93-4385-8a11-1bb2c987dcbd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c806f461-2f1a-49bb-a0d8-e7e4d79f791c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516306515478,
+          "id": "7258e947-3a93-4385-8a11-1bb2c987dcbd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516306529829,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "set/get firestore document"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 134
+        }
+      },
+      "768e7295-1243-4219-951c-c42ae2f35314": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e3ed3d05-f2aa-4f41-bf47-e838e4c9d3d8"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532921507697,
+          "id": "768e7295-1243-4219-951c-c42ae2f35314",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532921550777,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "remove duplicate strings from array"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 10
+        }
+      },
+      "84c55fe3-e32f-4f6c-a698-87af16d1471a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a2f4cc02-1d57-41a8-828b-62d380a2422b",
+            "88730164-dcb3-43e9-8b92-eb8982c3cb08"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512356248215,
+          "id": "84c55fe3-e32f-4f6c-a698-87af16d1471a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515360404902,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https server via let's encrypt"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 85
+        }
+      },
+      "93d8f491-4d5f-488d-9187-9c8a6ea7f12d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fe4f3651-8cef-45be-b9a0-438d9c185781",
+            "1ee63b45-d9f0-4f62-abcd-0b3b6bfb8034"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515897520960,
+          "id": "93d8f491-4d5f-488d-9187-9c8a6ea7f12d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516306513960,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "open browser in mac/windows"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 67
+        }
+      },
+      "9b4e192c-6b84-4f43-af99-8c178f2ecf44": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f1a08e85-964f-4501-8f11-0cf8827b319e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1524479050296,
+          "id": "9b4e192c-6b84-4f43-af99-8c178f2ecf44",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1524479132208,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "panicIf"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 25
+        }
+      },
+      "aea20e01-890c-4874-ae08-4557d7789195": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+            "ed055f63-753e-42ef-9025-e11ac9062c35"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530068313902,
+          "id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554270960000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Programming:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 48
+        }
+      },
+      "bbf82344-2303-4990-a02e-d1d3a2928d6b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8f1ad12c-d9e6-4a1b-a478-8e6f93ac5119"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517558292195,
+          "id": "bbf82344-2303-4990-a02e-d1d3a2928d6b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517558302052,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "bytesRemoveFirstLine"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 51
+        }
+      },
+      "d7724a1d-06c1-44e8-8fda-afde4daca7bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5ef2afb4-0d64-47c7-907f-4b7c5313c396"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516490633779,
+          "id": "d7724a1d-06c1-44e8-8fda-afde4daca7bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1523856120936,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "normalizeNewlines"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 79
+        }
+      },
+      "de3f9dc3-e8e2-4021-8aea-5c82b58ea8b5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f17970aa-6717-4c0b-b7c6-8ecebe9a5de1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515749012718,
+          "id": "de3f9dc3-e8e2-4021-8aea-5c82b58ea8b5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533749335758,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "zip"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 31
+        }
+      },
+      "fcb0f40c-8780-410d-ba69-1cb3ad3280a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "822848c6-d4f3-4496-a2fb-d0c839e2ed41",
+            "e506454c-ad92-47dd-8dc6-41422baa4242",
+            "acd21668-c6f7-4d6d-a654-d1c660c0612f",
+            "17412f34-a722-4c95-9fb4-443928dd5f4a",
+            "f1349e63-fc8a-4123-ad33-d596f95c6303",
+            "589330b6-be9d-48dd-84be-14db1e8989bd"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516490681903,
+          "id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532159030501,
+          "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "files"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 55
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037190e7c717fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:27 GMT"
+  ],
+  "Etag": [
+    "W/\"2cc0-sBkDThsUwGXAjUeWZymjD7wudps\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dadecb389f2b98cce6c0bb160adca639a1565326107; expires=Sat, 08-Aug-20 04:48:27 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28049 1565326108848 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1782
+{
+  "requests": [
+    {
+      "id": "822848c6-d4f3-4496-a2fb-d0c839e2ed41",
+      "table": "block"
+    },
+    {
+      "id": "e506454c-ad92-47dd-8dc6-41422baa4242",
+      "table": "block"
+    },
+    {
+      "id": "acd21668-c6f7-4d6d-a654-d1c660c0612f",
+      "table": "block"
+    },
+    {
+      "id": "17412f34-a722-4c95-9fb4-443928dd5f4a",
+      "table": "block"
+    },
+    {
+      "id": "f1349e63-fc8a-4123-ad33-d596f95c6303",
+      "table": "block"
+    },
+    {
+      "id": "589330b6-be9d-48dd-84be-14db1e8989bd",
+      "table": "block"
+    },
+    {
+      "id": "b276ff11-a91f-4e21-90e9-6e74943eb1ce",
+      "table": "block"
+    },
+    {
+      "id": "a48dfb08-f010-46c2-9b7c-9819b9a7d2e0",
+      "table": "block"
+    },
+    {
+      "id": "e731cb45-6bae-4b4d-b233-430fab9534bf",
+      "table": "block"
+    },
+    {
+      "id": "f2413c83-e5c8-4406-a3ec-206a27f2ecf1",
+      "table": "block"
+    },
+    {
+      "id": "a2f4cc02-1d57-41a8-828b-62d380a2422b",
+      "table": "block"
+    },
+    {
+      "id": "88730164-dcb3-43e9-8b92-eb8982c3cb08",
+      "table": "block"
+    },
+    {
+      "id": "fe4f3651-8cef-45be-b9a0-438d9c185781",
+      "table": "block"
+    },
+    {
+      "id": "1ee63b45-d9f0-4f62-abcd-0b3b6bfb8034",
+      "table": "block"
+    },
+    {
+      "id": "c806f461-2f1a-49bb-a0d8-e7e4d79f791c",
+      "table": "block"
+    },
+    {
+      "id": "5ef2afb4-0d64-47c7-907f-4b7c5313c396",
+      "table": "block"
+    },
+    {
+      "id": "8f1ad12c-d9e6-4a1b-a478-8e6f93ac5119",
+      "table": "block"
+    },
+    {
+      "id": "f1a08e85-964f-4501-8f11-0cf8827b319e",
+      "table": "block"
+    },
+    {
+      "id": "e3ed3d05-f2aa-4f41-bf47-e838e4c9d3d8",
+      "table": "block"
+    },
+    {
+      "id": "f17970aa-6717-4c0b-b7c6-8ecebe9a5de1",
+      "table": "block"
+    }
+  ]
+}
+Response:+25225
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "f2d241f3-c806-4cd2-bf75-b829fa1bc7da"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336763574,
+        "id": "822848c6-d4f3-4496-a2fb-d0c839e2ed41",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516490693847,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "read gzipped file"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "f78411b1-d7e4-469f-b760-8db47a08e7cd"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516395486554,
+        "id": "e506454c-ad92-47dd-8dc6-41422baa4242",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516490693847,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "io.ReadCloser for a gzipped file"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 101
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "3cc94dc3-cd72-4177-ae1e-e9eab7c1dfa9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336816120,
+        "id": "acd21668-c6f7-4d6d-a654-d1c660c0612f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516490693847,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "read file line by line using scanner"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 3
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "a1f84ba8-4250-4ba7-a1eb-294a22c6783f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516490638561,
+        "id": "17412f34-a722-4c95-9fb4-443928dd5f4a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516490693847,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "read file line by line with string.Split()"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 171
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "50e4f1ef-8543-4573-8d9f-0301bd11ea8f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532153489783,
+        "id": "f1349e63-fc8a-4123-ad33-d596f95c6303",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532153497667,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "copy file"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 45
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5d42acd0-57ab-4933-8b4d-ecb1c0b14a31"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532159027087,
+        "id": "589330b6-be9d-48dd-84be-14db1e8989bd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532159032524,
+        "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "combine.go"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 31
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512356250271,
+        "id": "b276ff11-a91f-4e21-90e9-6e74943eb1ce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512356250271,
+        "parent_id": "2a406ecd-1b58-4326-ba81-58101b267c99",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "// Debouncer runs a given function, debounced\ntype Debouncer struct {\n    currDebounceID *int32\n}\n\n// NewDebouncer creates a new Debouncer\nfunc NewDebouncer() *Debouncer {\n    return \u0026Debouncer{}\n}\n\nfunc (d *Debouncer) debounce(f func(), timeout time.Duration) {\n    if d.currDebounceID != nil {\n        // stop currently scheduled function\n        v := atomic.AddInt32(d.currDebounceID, 1)\n        d.currDebounceID = nil\n        if v \u003e 1 {\n            // it was already executed\n            return\n        }\n    }\n\n    d.currDebounceID = new(int32)\n    go func(f func(), timeout time.Duration, debounceID *int32) {\n        for {\n            select {\n            case \u003c-time.After(timeout):\n                v := atomic.AddInt32(debounceID, 1)\n                // if v != 1, it was cancelled\n                if v == 1 {\n                    f()\n                }\n            }\n        }\n    }(f, timeout, d.currDebounceID)\n}\n\nvar articleLoadDebouncer *Debouncer\n\nfunc reloadArticlesDelayed() {\n    if articleLoadDebouncer == nil {\n        articleLoadDebouncer = NewDebouncer()\n    }\n    articleLoadDebouncer.debounce(loadArticles, time.Second)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512356590747,
+        "id": "a48dfb08-f010-46c2-9b7c-9819b9a7d2e0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512356590747,
+        "parent_id": "47ecbe32-c3a1-4740-ad96-b711d54f8b2e",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func TimeoutDialer(cTimeout time.Duration, rwTimeout time.Duration) func(net, addr string) (c net.Conn, err error) {\n    return func(netw, addr string) (net.Conn, error) {\n        conn, err := net.DialTimeout(netw, addr, cTimeout)\n        if err != nil {\n            return nil, err\n        }\n        conn.SetDeadline(time.Now().Add(rwTimeout))\n        return conn, nil\n    }\n}\n\n// can be used for http.Get() requests with better timeouts. New one must be created\n// for each Get() request\nfunc NewTimeoutClient(connectTimeout time.Duration, readWriteTimeout time.Duration) *http.Client {\n    return \u0026http.Client{\n        Transport: \u0026http.Transport{\n            Dial:  TimeoutDialer(connectTimeout, readWriteTimeout),\n            Proxy: http.ProxyFromEnvironment,\n        },\n    }\n}\n\nfunc DownloadUrl(url string) ([]byte, error) {\n    // default timeout for http.Get() is really long, so dial it down\n    // for both connection and read/write timeouts\n    timeoutClient := NewTimeoutClient(time.Second*120, time.Second*120)\n    resp, err := timeoutClient.Get(url)\n    if err != nil {\n        return nil, err\n    }\n    defer resp.Body.Close()\n    if resp.StatusCode != 200 {\n        return nil, errors.New(fmt.Sprintf(\"'%s': status code not 200 (%d)\", url, resp.StatusCode))\n    }\n    return ioutil.ReadAll(resp.Body)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512363630831,
+        "id": "e731cb45-6bae-4b4d-b233-430fab9534bf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512363630831,
+        "parent_id": "5f2fac9f-b0f5-47d5-93f4-8077af81ec5e",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "select {\ncase ch \u003c- value:\ndefault:\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512456277456,
+        "id": "f2413c83-e5c8-4406-a3ec-206a27f2ecf1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512456277456,
+        "parent_id": "3af349c2-7deb-449e-8897-bdffa548a230",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "package util\n\nimport (\n\t\"sync\"\n\t\"time\"\n)\n\n// ProgressEstimatorData contains fields readable after Next()\ntype ProgressEstimatorData struct {\n\tTotal             int\n\tCurr              int\n\tLeft              int\n\tPercDone          float64 // 0...1\n\tSkipped           int\n\tTimeSoFar         time.Duration\n\tEstimatedTimeLeft time.Duration\n}\n\n// ProgressEstimator is for estimating progress\ntype ProgressEstimator struct {\n\ttimeStart time.Time\n\tsync.Mutex\n\tProgressEstimatorData\n}\n\n// NewProgressEstimator creates a ProgressEstimator\nfunc NewProgressEstimator(total int) *ProgressEstimator {\n\td := ProgressEstimatorData{\n\t\tTotal: total,\n\t}\n\treturn \u0026ProgressEstimator{\n\t\tProgressEstimatorData: d,\n\t\ttimeStart:             time.Now(),\n\t}\n}\n\n// Next advances estimator\nfunc (pe *ProgressEstimator) next(isSkipped bool) ProgressEstimatorData {\n\tpe.Lock()\n\tdefer pe.Unlock()\n\tif isSkipped {\n\t\tpe.Skipped++\n\t}\n\tpe.Curr++\n\tpe.Left = pe.Total - pe.Curr\n\tpe.TimeSoFar = time.Since(pe.timeStart)\n\n\trealTotal := pe.Total - pe.Skipped\n\trealCurr := pe.Curr - pe.Skipped\n\tif realCurr == 0 || realTotal == 0 {\n\t\tpe.EstimatedTimeLeft = pe.TimeSoFar\n\t} else {\n\t\tpe.PercDone = float64(realCurr) / float64(realTotal) // 0..1 range\n\t\trealPerc := float64(realTotal) / float64(realCurr)\n\t\testimatedTotalTime := float64(pe.TimeSoFar) * realPerc\n\t\tpe.EstimatedTimeLeft = time.Duration(estimatedTotalTime) - pe.TimeSoFar\n\t}\n\tcpy := pe.ProgressEstimatorData\n\treturn cpy\n}\n\n// Next advances estimator\nfunc (pe *ProgressEstimator) Next() ProgressEstimatorData {\n\treturn pe.next(false)\n}\n\n// Skip advances estimator but allows to mark this file as taking no time,\n// to allow better estimates\nfunc (pe *ProgressEstimator) Skip() ProgressEstimatorData {\n\treturn pe.next(true)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515360393913,
+        "id": "a2f4cc02-1d57-41a8-828b-62d380a2422b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515360394461,
+        "parent_id": "84c55fe3-e32f-4f6c-a698-87af16d1471a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gist.github.com/kennwhite/f9ea1afff776049974678fb21a6f3846",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/kennwhite/f9ea1afff776049974678fb21a6f3846"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 7
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515360404896,
+        "id": "88730164-dcb3-43e9-8b92-eb8982c3cb08",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515360411177,
+        "parent_id": "84c55fe3-e32f-4f6c-a698-87af16d1471a",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "package main\n\nimport (\n\t\"crypto/tls\"\n\t\"golang.org/x/crypto/acme/autocert\"\n\t\"log\"\n\t\"net\"\n\t\"net/http\"\n)\n\nvar domain string = \"example.com\"\n\nfunc redirect(w http.ResponseWriter, req *http.Request) {\n\n\tip, _, _ := net.SplitHostPort(req.RemoteAddr)\n\ttarget := \"https://\" + req.Host\n\tagent := req.UserAgent()\n\tlog.Printf(\"Redirecting [%s] - [%s] to: %s\", agent, ip, target)\n\thttp.Redirect(w, req, target, http.StatusTemporaryRedirect)\n\n}\n\nfunc main() {\n\n\tstaticDir := \"static\"\n\tcertCache := \"tmp/certs\"\n\tTLSAddr := \":https\"\n\n\t// Use LE key \u0026 cert retrieved from tls.Config GetCertificate\n\tcertFile, keyFile := \"\", \"\"\n\n\tcertManager := autocert.Manager{\n\t\tPrompt:     autocert.AcceptTOS,\n\t\tHostPolicy: autocert.HostWhitelist(domain),\n\t\tCache:      autocert.DirCache(certCache),\n\t}\n\n\tSetHSTSHeader := func(h http.Handler) http.HandlerFunc {\n\t\treturn func(w http.ResponseWriter, r *http.Request) {\n\t\t\tip, _, _ := net.SplitHostPort(r.RemoteAddr)\n\n\t\t\tl := \"[\" + r.UserAgent() + \"] - [\" + ip + \"]\"\n\t\t\tlog.Print(l)\n\n\t\t\theaders := map[string]string{\n\t\t\t\t\"Strict-Transport-Security\": \"max-age=31557600; includeSubDomains\",\n\t\t\t\t\"X-Content-Type-Options\":    \"nosniff\",\n\t\t\t\t\"X-XSS-Protection\":          \"1; mode=block\",\n\t\t\t\t\"Content-Security-Policy\":   \"default-src 'self'; script-src 'self'\",\n\t\t\t\t\"X-Frame-Options\":           \"DENY\",\n\t\t\t\t\"Referrer-Policy\":           \"no-referrer\",\n\t\t\t\t\"Public-Key-Pins\": \n\t\t\t\t\t\"pin-sha256=\\\"uIgDNRW0N1ZqFBvx6qJWFqIlaR2rZH/Yr35ZNB+KdHE=\\\";\" + // Site cert\n\t\t\t\t\t\"pin-sha256=\\\"BackupBackupBackupBackupBackupBackupBackups=\\\";\" + // Site backup cert\n\t\t\t\t\t\"pin-sha256=\\\"YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=\\\";\" + // LE X3 root CA\n\t\t\t\t\t\"pin-sha256=\\\"Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=\\\";\" + // LE DST X3 root CA\n\t\t\t\t\t\"includeSubdomains; max-age=2592000\",\n\t\t\t}\n\t\t\tfor k, v := range headers {\n\t\t\t\t//fmt.Println(k, \":\", v)\n\t\t\t\tw.Header().Add(k, v)\n\t\t\t}\n\t\t\th.ServeHTTP(w, r)\n\t\t}\n\t}\n\n\tHTTPSServer := \u0026http.Server{\n\t\tAddr: TLSAddr,\n\t\tTLSConfig: \u0026tls.Config{\n\t\t\tGetCertificate: certManager.GetCertificate, MinVersion: tls.VersionTLS10, // MaxVersion: tls.VersionTLS12,\n\t\t\tCipherSuites: []uint16{\n\t\t\t\ttls.TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305,\n\t\t\t\ttls.TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,\n\t\t\t\ttls.TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,\n\t\t\t\ttls.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, // Required by Go (and HTTP/2 RFC), even if you only present ECDSA certs\n\t\t\t\ttls.TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA,\n\t\t\t\t/*\n\t\t\t\t\ttls.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,\n\t\t\t\t\ttls.TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA,\n\t\t\t\t\ttls.TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305,\n\t\t\t\t\ttls.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,\n\t\t\t\t\ttls.TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,\n\t\t\t\t*/\n\t\t\t},\n\t\t},\n\t}\n\n\thttp.Handle(\"/\", SetHSTSHeader(http.FileServer(http.Dir(staticDir))))\n\n\t// HTTP (redirect) Listener\n\tgo http.ListenAndServe(\":80\", http.HandlerFunc(redirect))\n\n\t// HTTPS Listener\n\terr := HTTPSServer.ListenAndServeTLS(certFile, keyFile)\n\n\tlog.Fatal(err)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 10
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515897536471,
+        "id": "fe4f3651-8cef-45be-b9a0-438d9c185781",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515897536777,
+        "parent_id": "93d8f491-4d5f-488d-9187-9c8a6ea7f12d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gist.github.com/hyg/9c4afcd91fe24316cbf0",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/hyg/9c4afcd91fe24316cbf0"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515897529402,
+        "id": "1ee63b45-d9f0-4f62-abcd-0b3b6bfb8034",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517451662323,
+        "parent_id": "93d8f491-4d5f-488d-9187-9c8a6ea7f12d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "func openBrowser(url string) {\n\tvar err error\n\n\tswitch runtime.GOOS {\n\tcase \"linux\":\n\t\terr = exec.Command(\"xdg-open\", url).Start()\n\tcase \"windows\":\n\t\terr = exec.Command(\"rundll32\", \"url.dll,FileProtocolHandler\", url).Start()\n\tcase \"darwin\":\n\t\terr = exec.Command(\"open\", url).Start()\n\tdefault:\n\t\terr = fmt.Errorf(\"unsupported platform\")\n\t}\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516306529825,
+        "id": "c806f461-2f1a-49bb-a0d8-e7e4d79f791c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516306530162,
+        "parent_id": "7258e947-3a93-4385-8a11-1bb2c987dcbd",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func panicIfErr(err error) {\n\tif err != nil {\n\t\tpanic(err.Error())\n\t}\n}\n\ntype Foo struct {\n\tStr     string   `json:\"str\"`\n\tStr2    string   `json:\"str-2\" firestore:\"str-2\"`\n\tStrArr  []string `json:\"strarr\"`\n\tStrArr2 []string `json:\"str-arr\" firestore:\"str-arr\"`\n}\n\nfunc dbTestSetGet() {\n\tdb, ctx := getDB()\n\td := map[string]interface{}{\n\t\t\"str\":     \"string value str\",\n\t\t\"str-2\":   \"string value str-2\",\n\t\t\"strarr\":  []string{\"string\", \"array\", \"for\", \"strarr\"},\n\t\t\"str-arr\": []string{\"string\", \"array\", \"for\", \"str-arr\"},\n\t}\n\t_, err := db.Collection(\"foo\").Doc(\"bar\").Set(ctx, d)\n\tpanicIfErr(err)\n\tdoc, err := db.Collection(\"foo\").Doc(\"bar\").Get(ctx)\n\tpanicIfErr(err)\n\tdata := doc.Data()\n\tfmt.Printf(\"Data: %#v\\n\", data)\n\tvar foo Foo\n\terr = doc.DataTo(\u0026foo)\n\tpanicIfErr(err)\n\tfmt.Printf(\"foo: %#v\\n\", foo)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517558276243,
+        "id": "5ef2afb4-0d64-47c7-907f-4b7c5313c396",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517558276784,
+        "parent_id": "d7724a1d-06c1-44e8-8fda-afde4daca7bc",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func normalizeNewlines(d []byte) []byte {\n\t// replace CR LF (windows) with LF (unix)\n\td = bytes.Replace(d, []byte{13, 10}, []byte{10}, -1)\n\t// replace CF (mac) with LF (unix)\n\td = bytes.Replace(d, []byte{13}, []byte{10}, -1)\n\treturn d\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517558302047,
+        "id": "8f1ad12c-d9e6-4a1b-a478-8e6f93ac5119",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517558302570,
+        "parent_id": "bbf82344-2303-4990-a02e-d1d3a2928d6b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "// return first line of d and the rest\nfunc bytesRemoveFirstLine(d []byte) (string, []byte) {\n\tidx := bytes.IndexByte(d, 10)\n\t//u.PanicIf(-1 == idx)\n\tif -1 == idx {\n\t\treturn string(d), nil\n\t}\n\tl := d[:idx]\n\treturn string(l), d[idx+1:]\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1524479132204,
+        "id": "f1a08e85-964f-4501-8f11-0cf8827b319e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1524479139211,
+        "parent_id": "9b4e192c-6b84-4f43-af99-8c178f2ecf44",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "// FmtArgs formats args as a string. First argument should be format string\n// and the rest are arguments to the format\nfunc FmtArgs(args ...interface{}) string {\n\tif len(args) == 0 {\n\t\treturn \"\"\n\t}\n\tformat := args[0].(string)\n\tif len(args) == 1 {\n\t\treturn format\n\t}\n\treturn fmt.Sprintf(format, args[1:]...)\n}\n\nfunc panicWithMsg(defaultMsg string, args ...interface{}) {\n\ts := FmtArgs(args...)\n\tif s == \"\" {\n\t\ts = defaultMsg\n\t}\n\tfmt.Printf(\"%s\\n\", s)\n\tpanic(s)\n}\n\n// PanicIf panics if cond is true\nfunc PanicIf(cond bool, args ...interface{}) {\n\tif !cond {\n\t\treturn\n\t}\n\tpanicWithMsg(\"PanicIf: condition failed\", args...)\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194268,
+        "id": "e3ed3d05-f2aa-4f41-bf47-e838e4c9d3d8",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532921555537,
+        "parent_id": "768e7295-1243-4219-951c-c42ae2f35314",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "// RemoveDuplicateStrings removes duplicate strings from an array of strings.\n// It's optimized for the case of no duplicates. It modifes a in place.\nfunc RemoveDuplicateStrings(a []string) []string {\n    if len(a) \u003c 2 {\n        return a\n    }\n    sort.Strings(a)\n    writeIdx := 1\n    for i := 1; i \u003c len(a); i++ {\n        if a[i-1] == a[i] {\n            continue\n        }\n        if writeIdx != i {\n            a[writeIdx] = a[i]\n        }\n        writeIdx++\n    }\n    return a[:writeIdx]\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "85c0aa5f-0de2-4010-905a-4c06feb21fc7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533749335758,
+        "id": "f17970aa-6717-4c0b-b7c6-8ecebe9a5de1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533749348780,
+        "parent_id": "de3f9dc3-e8e2-4021-8aea-5c82b58ea8b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "unzip .zip file to a directory"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 76
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037190efc9e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:28 GMT"
+  ],
+  "Etag": [
+    "W/\"4cf8-hkhea2YiZIP5AO1HGBOoR51130s\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dadecb389f2b98cce6c0bb160adca639a1565326107; expires=Sat, 08-Aug-20 04:48:27 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+12722 1565326108848 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+638
+{
+  "requests": [
+    {
+      "id": "f2d241f3-c806-4cd2-bf75-b829fa1bc7da",
+      "table": "block"
+    },
+    {
+      "id": "f78411b1-d7e4-469f-b760-8db47a08e7cd",
+      "table": "block"
+    },
+    {
+      "id": "3cc94dc3-cd72-4177-ae1e-e9eab7c1dfa9",
+      "table": "block"
+    },
+    {
+      "id": "a1f84ba8-4250-4ba7-a1eb-294a22c6783f",
+      "table": "block"
+    },
+    {
+      "id": "50e4f1ef-8543-4573-8d9f-0301bd11ea8f",
+      "table": "block"
+    },
+    {
+      "id": "5d42acd0-57ab-4933-8b4d-ecb1c0b14a31",
+      "table": "block"
+    },
+    {
+      "id": "85c0aa5f-0de2-4010-905a-4c06feb21fc7",
+      "table": "block"
+    }
+  ]
+}
+Response:+11043
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336787599,
+        "id": "f2d241f3-c806-4cd2-bf75-b829fa1bc7da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336787599,
+        "parent_id": "822848c6-d4f3-4496-a2fb-d0c839e2ed41",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "package main\n\nimport (\n    \"compress/gzip\"\n    \"fmt\"\n    \"io/ioutil\"\n    \"os\"\n)\n\nfunc ReadGzippedFile(path string) ([]byte, error) {\n    file, err := os.Open(path)\n    if err != nil {\n        return nil, err\n    }\n    defer file.Close()\n    gzipReader, err := gzip.NewReader(file)\n    if err != nil {\n        return nil, err\n    }\n    defer gzipReader.Close()\n    return ioutil.ReadAll(gzipReader)\n}\n\nfunc main() {\n    fileName := \"t.gz\"\n    if data, err := ReadGzippedFile(fileName); err != nil {\n        fmt.Printf(\"ReadGzippedFile('%s') failed with '%s'\\n\", fileName, err.Error())\n    } else {\n        fmt.Printf(\"Uncompressed size of '%s' file: %d bytes\\n\", fileName, len(data))\n    }\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516395505421,
+        "id": "f78411b1-d7e4-469f-b760-8db47a08e7cd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516395742380,
+        "parent_id": "e506454c-ad92-47dd-8dc6-41422baa4242",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "// GzippedReadCloser is a io.ReadCloser for a gzip file\ntype GzippedReadCloser struct {\n\tf *os.File\n\tr io.Reader\n}\n\n// Close closes a reader\nfunc (rc *GzippedReadCloser) Close() error {\n\treturn rc.f.Close()\n}\n\n// Read reads data from a reader\nfunc (rc *GzippedReadCloser) Read(d []byte) (int, error) {\n\treturn rc.r.Read(d)\n}\n\nfunc openGzipped(path string) (io.ReadCloser, error) {\n\tf, err := os.Open(path)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\tr, err := gzip.NewReader(f)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\trc := \u0026GzippedReadCloser{\n\t\tf: f,\n\t\tr: r,\n\t}\n\treturn rc, nil\n}\n\nfunc readGzipped(path string) ([]byte, error) {\n\trc, err := openGzipped(path)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\tdefer rc.Close()\n\td, err := ioutil.ReadAll(rc)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\treturn d, nil\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336831626,
+        "id": "3cc94dc3-cd72-4177-ae1e-e9eab7c1dfa9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336831626,
+        "parent_id": "acd21668-c6f7-4d6d-a654-d1c660c0612f",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "import (\n    \"bufio\"\n    \"fmt\"\n    \"os\"\n)\n\nfunc ReadLines(filePath string) ([]string, error) {\n    file, err := os.OpenFile(filePath, os.O_RDONLY, 0666)\n    if err != nil {\n        return nil, err\n    }\n    defer file.Close()\n    scanner := bufio.NewScanner(file)\n    res := make([]string, 0)\n    for scanner.Scan() {\n        line := scanner.Bytes()\n        res = append(res, string(line))\n    }\n    if err = scanner.Err(); err != nil {\n        return nil, err\n    }\n    return res, nil\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516490659974,
+        "id": "a1f84ba8-4250-4ba7-a1eb-294a22c6783f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516490660342,
+        "parent_id": "17412f34-a722-4c95-9fb4-443928dd5f4a",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func readFileAsLines(path string) ([]string, error) {\n\td, err := ioutil.ReadFile(path)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\ts := string(d)\n\tres := strings.Split(s, \"\\n\")\n\treturn res, nil\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532153497662,
+        "id": "50e4f1ef-8543-4573-8d9f-0301bd11ea8f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532153502233,
+        "parent_id": "f1349e63-fc8a-4123-ad33-d596f95c6303",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc copyFile(dst string, src string) error {\n\terr := mkdirForFile(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfin, err := os.Open(src)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer fin.Close()\n\tfout, err := os.Create(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\t_, err = io.Copy(fout, fin)\n\terr2 := fout.Close()\n\tif err != nil || err2 != nil {\n\t\tos.Remove(dst)\n\t}\n\n\treturn err\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532159032518,
+        "id": "5d42acd0-57ab-4933-8b4d-ecb1c0b14a31",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532159044038,
+        "parent_id": "589330b6-be9d-48dd-84be-14db1e8989bd",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "package main\n\nimport (\n\t\"bufio\"\n\t\"io/ioutil\"\n\t\"os\"\n\t\"path/filepath\"\n\t\"strings\"\n)\n\nvar (\n\tdestDir = \"out\"\n)\n\nfunc panicIfErr(err error) {\n\tif err != nil {\n\t\tpanic(err.Error())\n\t}\n}\n\nfunc getDirs() []string {\n\tfileInfos, err := ioutil.ReadDir(\".\")\n\tpanicIfErr(err)\n\tres := []string{}\n\tfor _, fi := range fileInfos {\n\t\tif !fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tres = append(res, fi.Name())\n\t}\n\treturn res\n}\n\nfunc mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc readLines(filePath string) ([]string, error) {\n\tfile, err := os.OpenFile(filePath, os.O_RDONLY, 0666)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\tdefer file.Close()\n\tscanner := bufio.NewScanner(file)\n\tres := make([]string, 0)\n\tfor scanner.Scan() {\n\t\tline := scanner.Bytes()\n\t\tres = append(res, string(line))\n\t}\n\tif err = scanner.Err(); err != nil {\n\t\treturn nil, err\n\t}\n\treturn res, nil\n}\n\nfunc tweakAndCopyFile(dst string, src string) {\n\terr := mkdirForFile(dst)\n\tpanicIfErr(err)\n\n\tlines, err := readLines(src)\n\tpanicIfErr(err)\n\tif lines[0] == \"---\" {\n\t\tlines = lines[1:]\n\t}\n\n\td := strings.Join(lines, \"\\n\")\n\terr = ioutil.WriteFile(dst, []byte(d), 0644)\n\tpanicIfErr(err)\n}\n\nfunc copyMdFilesFromDir(dir string) {\n\tfileInfos, err := ioutil.ReadDir(dir)\n\tpanicIfErr(err)\n\tparts := strings.Split(dir, \"-\")\n\tsuffix := parts[0]\n\tfor _, fi := range fileInfos {\n\t\tif fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tname := fi.Name()\n\t\tif !strings.HasSuffix(name, \".md\") {\n\t\t\tcontinue\n\t\t}\n\t\tsrc := filepath.Join(dir, name)\n\t\tdstName := suffix + \"-\" + name\n\t\tdst := filepath.Join(destDir, dstName)\n\t\ttweakAndCopyFile(dst, src)\n\t}\n}\n\nfunc main() {\n\tdirs := getDirs()\n\tfor _, dir := range dirs {\n\t\tcopyMdFilesFromDir(dir)\n\t}\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533749348774,
+        "id": "85c0aa5f-0de2-4010-905a-4c06feb21fc7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1541458568866,
+        "parent_id": "f17970aa-6717-4c0b-b7c6-8ecebe9a5de1",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "func recreateDir(dir string) error {\n\terr := os.RemoveAll(dir)\n\tif err != nil {\n\t\treturn err\n\t}\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc createDirForFile(path string) error {\n\tdir := filepath.Dir(path)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc unzipFile(f *zip.File, dstPath string) error {\n\tr, err := f.Open()\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer r.Close()\n\n\terr = createDirForFile(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tw, err := os.Create(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\t_, err = io.Copy(w, r)\n\tif err != nil {\n\t\tw.Close()\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\terr = w.Close()\n\tif err != nil {\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\treturn nil\n}\n\nfunc unzip(zipPath string, destDir string) error {\n\tst, err := os.Stat(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfileSize := st.Size()\n\tf, err := os.Open(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer f.Close()\n\n\tzr, err := zip.NewReader(f, fileSize)\n\tif err != nil {\n\t\treturn err\n\t}\n\terr = recreateDir(destDir)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tfor _, fi := range zr.File {\n\t\tif fi.FileInfo().IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tdestPath := filepath.Join(destDir, fi.Name)\n\t\terr = unzipFile(fi, destPath)\n\t\tif err != nil {\n\t\t\tos.RemoveAll(destDir)\n\t\t\treturn err\n\t\t}\n\t}\n\treturn nil\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 57
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037190f7cd87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:28 GMT"
+  ],
+  "Etag": [
+    "W/\"236e-goxGuWmm5iCR2U671nFR9P6Y7VY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3c7e8a4fe4b571ec4a428148021022af1565326108; expires=Sat, 08-Aug-20 04:48:28 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

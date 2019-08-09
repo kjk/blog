@@ -1,0 +1,929 @@
+3025 1565326197873 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+      "table": "block"
+    }
+  ]
+}
+Response:+1876
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "83ab48b4-c656-4d59-855d-8aa0b6ea9a8b",
+          "bbe10fff-9573-4ce9-a489-ba31189154a7",
+          "ba0f1cde-7908-44fb-ac89-145ca16f31d4",
+          "7ad719c9-a4f7-4cce-af50-e3eee251033b",
+          "49346a28-7471-40ed-8c3f-fa6e393e1691",
+          "312d1208-6564-4c41-beb5-6817f18fff31",
+          "651d731d-c65a-4e38-a143-490c1f5d8d40",
+          "74f04883-bfd0-4507-9120-daa4266c4cf3",
+          "07dfea08-48e4-4e80-ba1e-e6131d1476cc",
+          "90718b89-fb9a-4597-b308-f5a72bf50634",
+          "c299e8ae-74f9-4dc9-8a61-e762bd639c19",
+          "bd149781-67de-4c4e-b188-bd7c8d270bbd",
+          "912b74a0-1025-42fe-b875-821557a1d714",
+          "5d96bd13-988b-4ac1-b429-9125a0d6a744",
+          "45027384-8218-4fe0-be9b-91d1249fba66",
+          "80cf105f-966c-4e1d-89d2-a6a7991ce12e",
+          "c82d65a3-7c25-4275-a732-ea5531010dea",
+          "932ec6fe-cb97-4c72-9520-db70cd2f5c31",
+          "b070850c-7b17-4512-a492-d5d2d1945a7c",
+          "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51"
+        ],
+        "copied_from": "11a03240-c799-4a3d-975d-4d6ae9634668",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195941703,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996368299,
+        "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How content-based addressing can help web performance"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b3b7bf27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"550-nZe2WCBk3tTS8HVEXW38ZIXcpGU\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28759 1565326197874 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+  "verticalColumns": false
+}
+Response:+27568
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "07dfea08-48e4-4e80-ba1e-e6131d1476cc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "07dfea08-48e4-4e80-ba1e-e6131d1476cc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What if there was a backwards-compatible way, efficient way of caching popular resources that worked globally (across multiple websites)? In theory it’s possible and not that hard."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "11703b89-1c9f-48ad-ae04-7eb3f6a2f004": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0ad61046-26d4-47d9-9c53-8b8a8262ca21",
+            "25a7d8d0-c006-4492-9d3c-dd68872e6aa0",
+            "4dfe2435-8ba9-4edf-b4d8-1f7c08b35ed8",
+            "0947e99e-e9ac-4929-a042-0bfc1af30862",
+            "d9c46c22-51ce-4ed1-83f7-aedf795f009a",
+            "0d9dec58-66c0-4d02-a14c-571afd6d50e3",
+            "7c647e80-7f31-49d8-980e-85cd7779d180",
+            "1375745a-cd9c-41db-a5b0-9d119a98df5f",
+            "6d2cfd06-b8f5-4974-b3c6-83a8bd67538e",
+            "00b12e48-bfa0-4eb8-be8a-7915ab77d38e",
+            "b4f45548-2741-44c1-9f2e-c5c84a311099",
+            "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+            "f8055656-137f-4084-95a0-fcf1e3794ed8",
+            "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
+            "c9294795-92d0-49c3-b734-21e955fa44fa",
+            "78c37832-4398-4091-bcfe-39d4a4e85fc6",
+            "40162557-4d1d-4685-b9a2-9403645c0c49",
+            "673a95a8-caff-4e92-ae66-ff7510ede1c0",
+            "4754a9c5-481c-4697-aa86-f266e711c5f1",
+            "877c7392-6f09-46bb-bbad-1f173c81946f",
+            "e7f5e7f9-db4b-48ea-9f66-980a025a8ee9",
+            "837a7b55-fbe6-4e87-97cf-d15dc5c176ba",
+            "a0b85ed2-ec0c-4472-be40-18bc449db05f",
+            "7c108342-3b6f-4160-adf1-fcd270f2bc54",
+            "3f220264-80be-4f0e-8382-fcf8a69f253b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195927875,
+          "id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2009 (25)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "312d1208-6564-4c41-beb5-6817f18fff31": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "312d1208-6564-4c41-beb5-6817f18fff31",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One method is by setting Expires HTTP header by which a web server can tell the browser for how long can it cache a given resource. The problem with this approach is that if the resource is changed before the expiration date, the browser will see an outdated version."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "45027384-8218-4fe0-be9b-91d1249fba66": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "45027384-8218-4fe0-be9b-91d1249fba66",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "it works globally. If 10 websites host the same version of jQuery library, the browser only need to download it once"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "49346a28-7471-40ed-8c3f-fa6e393e1691": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "49346a28-7471-40ed-8c3f-fa6e393e1691",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Currently an HTTP resource (e.g. an image, a JavaScript file, a CSS script) is uniquely identified by a uri. Unfortunately a web browser doesn’t know if a given resource has changed, so in the simplest case, it has to re-download it over and over again. This is very inefficient, so we came up with ways to tell the browser to avoid re-downloading content."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I’m not a web technologist and I don’t know this particular solution would be acceptable, but I’m sure there is a way."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "5d96bd13-988b-4ac1-b429-9125a0d6a744": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "5d96bd13-988b-4ac1-b429-9125a0d6a744",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Compared to existing solutions, it has following advantages:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "651d731d-c65a-4e38-a143-490c1f5d8d40": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "651d731d-c65a-4e38-a143-490c1f5d8d40",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Another method is "
+              ],
+              [
+                "ETag",
+                [
+                  [
+                    "a",
+                    "http://en.wikipedia.org/wiki/HTTP_ETag"
+                  ]
+                ]
+              ],
+              [
+                ". When returning a resource web server also returns an ETag header which uniquely identifies the resource. If subsequent response contains the same etag, the browser might skip downloading the content. This still requires making a small request."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "74f04883-bfd0-4507-9120-daa4266c4cf3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "74f04883-bfd0-4507-9120-daa4266c4cf3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "None of this methods works globally i.e. if two websites use the same version of jQuery library, even if they both instruct the browser to cache them, the browser still ends up downloading two versions. Google’s "
+              ],
+              [
+                "AJAX Libraries API",
+                [
+                  [
+                    "a",
+                    "http://code.google.com/apis/ajaxlibs/"
+                  ]
+                ]
+              ],
+              [
+                " is an attempt to solve this problem for the most popular web libraries."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7ad719c9-a4f7-4cce-af50-e3eee251033b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941703,
+          "id": "7ad719c9-a4f7-4cce-af50-e3eee251033b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941703,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem with HTTP caching"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "80cf105f-966c-4e1d-89d2-a6a7991ce12e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "80cf105f-966c-4e1d-89d2-a6a7991ce12e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "it doesn’t have the ‘oops, we set the expiration date too far into future’ problem that setting Expires header"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "83ab48b4-c656-4d59-855d-8aa0b6ea9a8b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941703,
+          "id": "83ab48b4-c656-4d59-855d-8aa0b6ea9a8b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623534389,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 8074"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "90718b89-fb9a-4597-b308-f5a72bf50634": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "90718b89-fb9a-4597-b308-f5a72bf50634",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Enter content-addressable resources"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "912b74a0-1025-42fe-b875-821557a1d714": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "912b74a0-1025-42fe-b875-821557a1d714",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "All we need is a way to tell the browser the sha1 hash of a resource. If a resource with this hash is already cached locally, the browser doesn’t need to re-download it."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "932ec6fe-cb97-4c72-9520-db70cd2f5c31": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "932ec6fe-cb97-4c72-9520-db70cd2f5c31",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How to tell the browser about the hash"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "99ab976b-cedc-474f-8d72-8857e1fc67bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "83ab48b4-c656-4d59-855d-8aa0b6ea9a8b",
+            "bbe10fff-9573-4ce9-a489-ba31189154a7",
+            "ba0f1cde-7908-44fb-ac89-145ca16f31d4",
+            "7ad719c9-a4f7-4cce-af50-e3eee251033b",
+            "49346a28-7471-40ed-8c3f-fa6e393e1691",
+            "312d1208-6564-4c41-beb5-6817f18fff31",
+            "651d731d-c65a-4e38-a143-490c1f5d8d40",
+            "74f04883-bfd0-4507-9120-daa4266c4cf3",
+            "07dfea08-48e4-4e80-ba1e-e6131d1476cc",
+            "90718b89-fb9a-4597-b308-f5a72bf50634",
+            "c299e8ae-74f9-4dc9-8a61-e762bd639c19",
+            "bd149781-67de-4c4e-b188-bd7c8d270bbd",
+            "912b74a0-1025-42fe-b875-821557a1d714",
+            "5d96bd13-988b-4ac1-b429-9125a0d6a744",
+            "45027384-8218-4fe0-be9b-91d1249fba66",
+            "80cf105f-966c-4e1d-89d2-a6a7991ce12e",
+            "c82d65a3-7c25-4275-a732-ea5531010dea",
+            "932ec6fe-cb97-4c72-9520-db70cd2f5c31",
+            "b070850c-7b17-4512-a492-d5d2d1945a7c",
+            "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51"
+          ],
+          "copied_from": "11a03240-c799-4a3d-975d-4d6ae9634668",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941703,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996368299,
+          "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How content-based addressing can help web performance"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "b070850c-7b17-4512-a492-d5d2d1945a7c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "b070850c-7b17-4512-a492-d5d2d1945a7c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The simplest way would be to define another attribute e.g. sha1hash that could be added tags that refer to resources, like script, a, link etc."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba0f1cde-7908-44fb-ac89-145ca16f31d4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941703,
+          "id": "ba0f1cde-7908-44fb-ac89-145ca16f31d4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623533246,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "bbe10fff-9573-4ce9-a489-ba31189154a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941703,
+          "id": "bbe10fff-9573-4ce9-a489-ba31189154a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941703,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2009-03-05T16:54:31-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bd149781-67de-4c4e-b188-bd7c8d270bbd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "bd149781-67de-4c4e-b188-bd7c8d270bbd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The idea is simple: we can uniquely identify any piece of data by calculating sha1 (or some other cryptographically secure hash) of its content."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c299e8ae-74f9-4dc9-8a61-e762bd639c19": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "c299e8ae-74f9-4dc9-8a61-e762bd639c19",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The idea of content-addressable data has been recently used to great benefit in e.g. "
+              ],
+              [
+                "git",
+                [
+                  [
+                    "a",
+                    "http://git-scm.com/"
+                  ]
+                ]
+              ],
+              [
+                " or "
+              ],
+              [
+                "BitTorrent protocol",
+                [
+                  [
+                    "a",
+                    "http://bittorrent.org/beps/bep_0003.html"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c82d65a3-7c25-4275-a732-ea5531010dea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195941704,
+          "id": "c82d65a3-7c25-4275-a732-ea5531010dea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195941704,
+          "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "it’s more efficient than ETag because it doesn’t require making any requests"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b3bfc3b7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"479f-5KPHXDFPzKErHEHskjzXb1SuPhE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

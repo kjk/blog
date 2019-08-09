@@ -1,0 +1,1183 @@
+2838 1565326089882 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+      "table": "block"
+    }
+  ]
+}
+Response:+1689
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "9003325c-9eb6-479c-919d-084ff5386b78",
+          "ca4f2d38-04f0-4608-a076-fee536d008d2",
+          "40438914-9d53-4491-81ef-057db2d2294d",
+          "f596631a-ccbe-4a80-b371-131b7620f8b7",
+          "9f6dec3a-768c-4193-a927-064132522208",
+          "5773a642-c10d-45a9-8022-c0017b99167a",
+          "31c70c58-41ac-43c2-aa17-214a51dc1871",
+          "df60940c-5336-4a9e-b4d7-1b00b7dda33b",
+          "87dc3fed-46ba-4713-afdd-a9926ecaf46b",
+          "9a4ce34e-f27e-4462-bba8-7ffcb1983504",
+          "aa8548fa-e31e-48cd-bb9f-eb7196cec8cc",
+          "87466dd4-9ad9-4ae5-a1f8-229f878614ae",
+          "9fce2e17-4e42-486f-80d6-9564461ed207",
+          "1bf6552f-cc33-4b31-b989-36a082f6341c",
+          "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "eefac7ca-c15a-4744-bc72-7a3c71400a3d",
+          "0202fa11-8e4b-4a80-8b83-f40dac058216",
+          "c25c3dcb-d17b-455c-8332-9532849f9495"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546328183301,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554664560000,
+        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I'm a Go consultant for hire"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 159
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718986f5a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:09 GMT"
+  ],
+  "Etag": [
+    "W/\"4b5-KVc+MonEx+lSxspQ0+57v51Vnss\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea57d1080e0cc1dfe5e57e610c1e0ad31565326089; expires=Sat, 08-Aug-20 04:48:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+34860 1565326089887 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "36859b86-c5ac-423e-a037-4f3a4331b814",
+  "verticalColumns": false
+}
+Response:+33669
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0202fa11-8e4b-4a80-8b83-f40dac058216": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328618888,
+          "id": "0202fa11-8e4b-4a80-8b83-f40dac058216",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271080000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I'm in San Diego, California timezone."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 123
+        }
+      },
+      "0a19d7a6-755d-42a4-98b2-a993451ab886": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "43263adc-bd84-40be-904d-fcb41106ba4b",
+            "fa676f2e-dbef-418f-b7e9-62224746abff",
+            "edde4062-7ee7-4b44-911f-9481756f638e",
+            "34485c93-12cf-48ff-99b2-5d1e1035400e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328925143,
+          "id": "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329693895,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I wrote or maintain several open source libraries, including:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 166
+        }
+      },
+      "1bf6552f-cc33-4b31-b989-36a082f6341c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328572805,
+          "id": "1bf6552f-cc33-4b31-b989-36a082f6341c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328686581,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I've been "
+              ],
+              [
+                "programming in Go and writing about it",
+                [
+                  [
+                    "a",
+                    "https://blog.kowalczyk.info/tag/go"
+                  ]
+                ]
+              ],
+              [
+                " before Go even reached v1.0"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 207
+        }
+      },
+      "31c70c58-41ac-43c2-aa17-214a51dc1871": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328331631,
+          "id": "31c70c58-41ac-43c2-aa17-214a51dc1871",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554447960000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Do you have a well defined piece of code that needs to be written in Go?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 213
+        }
+      },
+      "34485c93-12cf-48ff-99b2-5d1e1035400e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546329101403,
+          "id": "34485c93-12cf-48ff-99b2-5d1e1035400e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329135542,
+          "parent_id": "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/kjk/inflect",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/inflect"
+                  ]
+                ]
+              ],
+              [
+                " : library to pluralize (\"cat\" =\u003e \"cats\", \"man\" =\u003e \"men\") or singularize (\"cats\" =\u003e \"cat\", \"men\" =\u003e \"man\") English language nouns."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 54
+        }
+      },
+      "362ad29d-0360-4aea-9cc2-31a2f14f2782": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265200000,
+          "id": "362ad29d-0360-4aea-9cc2-31a2f14f2782",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271320000,
+          "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "San Diego, CA"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "36859b86-c5ac-423e-a037-4f3a4331b814": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9003325c-9eb6-479c-919d-084ff5386b78",
+            "ca4f2d38-04f0-4608-a076-fee536d008d2",
+            "40438914-9d53-4491-81ef-057db2d2294d",
+            "f596631a-ccbe-4a80-b371-131b7620f8b7",
+            "9f6dec3a-768c-4193-a927-064132522208",
+            "5773a642-c10d-45a9-8022-c0017b99167a",
+            "31c70c58-41ac-43c2-aa17-214a51dc1871",
+            "df60940c-5336-4a9e-b4d7-1b00b7dda33b",
+            "87dc3fed-46ba-4713-afdd-a9926ecaf46b",
+            "9a4ce34e-f27e-4462-bba8-7ffcb1983504",
+            "aa8548fa-e31e-48cd-bb9f-eb7196cec8cc",
+            "87466dd4-9ad9-4ae5-a1f8-229f878614ae",
+            "9fce2e17-4e42-486f-80d6-9564461ed207",
+            "1bf6552f-cc33-4b31-b989-36a082f6341c",
+            "0a19d7a6-755d-42a4-98b2-a993451ab886",
+            "eefac7ca-c15a-4744-bc72-7a3c71400a3d",
+            "0202fa11-8e4b-4a80-8b83-f40dac058216",
+            "c25c3dcb-d17b-455c-8332-9532849f9495"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328183301,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554664560000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I'm a Go consultant for hire"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 159
+        }
+      },
+      "40438914-9d53-4491-81ef-057db2d2294d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328220214,
+          "id": "40438914-9d53-4491-81ef-057db2d2294d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271020000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Hello there. "
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 4
+        }
+      },
+      "43263adc-bd84-40be-904d-fcb41106ba4b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546329061599,
+          "id": "43263adc-bd84-40be-904d-fcb41106ba4b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329073319,
+          "parent_id": "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/gomarkdown/markdown",
+                [
+                  [
+                    "a",
+                    "https://github.com/gomarkdown/markdown"
+                  ]
+                ]
+              ],
+              [
+                " : a markdown parser and HTML renderer"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 86
+        }
+      },
+      "4616da17-f445-4ac1-b339-03322d51cbd6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554664560000,
+          "id": "4616da17-f445-4ac1-b339-03322d51cbd6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554664560000,
+          "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "477ff4aa-6ce1-48a5-9298-9db68136aa85": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265260000,
+          "id": "477ff4aa-6ce1-48a5-9298-9db68136aa85",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265260000,
+          "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "kkowalczyk@gmail.com",
+                [
+                  [
+                    "a",
+                    "mailto:kkowalczyk@gmail.com"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 24
+        }
+      },
+      "4c5f67fd-286a-4bc4-b13a-ab122ac5afb7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554271320000,
+          "id": "4c5f67fd-286a-4bc4-b13a-ab122ac5afb7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271320000,
+          "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Krzysztof Kowalczyk"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 374
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5773a642-c10d-45a9-8022-c0017b99167a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328242986,
+          "id": "5773a642-c10d-45a9-8022-c0017b99167a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554447960000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Do you need extra Go programming fire power?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 119
+        }
+      },
+      "5c5e584b-48b6-478a-ab94-cae5efcba64f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265200000,
+          "id": "5c5e584b-48b6-478a-ab94-cae5efcba64f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265260000,
+          "parent_id": "b1d9e979-7a59-460f-a790-81a609de700e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "github.com/kjk",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 23
+        }
+      },
+      "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4c5f67fd-286a-4bc4-b13a-ab122ac5afb7",
+            "362ad29d-0360-4aea-9cc2-31a2f14f2782",
+            "477ff4aa-6ce1-48a5-9298-9db68136aa85",
+            "90dc6939-c23f-41d7-9e46-ad4cf97eb00f",
+            "4616da17-f445-4ac1-b339-03322d51cbd6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265200000,
+          "format": {
+            "column_ratio": 0.33333333333333337
+          },
+          "id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554664560000,
+          "parent_id": "ca4f2d38-04f0-4608-a076-fee536d008d2",
+          "parent_table": "block",
+          "type": "column",
+          "version": 13
+        }
+      },
+      "87466dd4-9ad9-4ae5-a1f8-229f878614ae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328529815,
+          "id": "87466dd4-9ad9-4ae5-a1f8-229f878614ae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328570966,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I wrote a "
+              ],
+              [
+                "book on Go",
+                [
+                  [
+                    "a",
+                    "https://www.programming-books.io/essential/go/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 54
+        }
+      },
+      "87dc3fed-46ba-4713-afdd-a9926ecaf46b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328491071,
+          "id": "87dc3fed-46ba-4713-afdd-a9926ecaf46b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328496416,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What have I done?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 48
+        }
+      },
+      "9003325c-9eb6-479c-919d-084ff5386b78": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554270960000,
+          "id": "9003325c-9eb6-479c-919d-084ff5386b78",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271020000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /goconsultantforhire.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 42
+        }
+      },
+      "90dc6939-c23f-41d7-9e46-ad4cf97eb00f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265260000,
+          "id": "90dc6939-c23f-41d7-9e46-ad4cf97eb00f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265260000,
+          "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "blog.kowalczyk.info",
+                [
+                  [
+                    "a",
+                    "https://blog.kowalczyk.info"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 22
+        }
+      },
+      "9a4ce34e-f27e-4462-bba8-7ffcb1983504": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328496605,
+          "id": "9a4ce34e-f27e-4462-bba8-7ffcb1983504",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328507950,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Why should you trust my expertise?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 85
+        }
+      },
+      "9d270813-f66b-4af3-aeeb-f5eec6749d90": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265260000,
+          "id": "9d270813-f66b-4af3-aeeb-f5eec6749d90",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265320000,
+          "parent_id": "b1d9e979-7a59-460f-a790-81a609de700e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "twitter.com/kjk",
+                [
+                  [
+                    "a",
+                    "https://twitter.com/kjk"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 26
+        }
+      },
+      "9f6dec3a-768c-4193-a927-064132522208": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328194541,
+          "id": "9f6dec3a-768c-4193-a927-064132522208",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328242755,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What can I do for you?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 57
+        }
+      },
+      "9fce2e17-4e42-486f-80d6-9564461ed207": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328688597,
+          "id": "9fce2e17-4e42-486f-80d6-9564461ed207",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554664500000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "for "
+              ],
+              [
+                "Hibernating Rhinos",
+                [
+                  [
+                    "a",
+                    "https://ravendb.net/about"
+                  ]
+                ]
+              ],
+              [
+                " I've ported a ~50k loc Java driver to Go. Read "
+              ],
+              [
+                "how I did it",
+                [
+                  [
+                    "a",
+                    "https://www.notion.so/Lessons-learned-porting-50k-loc-from-Java-to-Go-19f2fe97f06a47c3b1f118fd06851fad"
+                  ]
+                ]
+              ],
+              [
+                ". See the result at "
+              ],
+              [
+                "https://github.com/ravendb/ravendb-go-client",
+                [
+                  [
+                    "a",
+                    "https://github.com/ravendb/ravendb-go-client"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 376
+        }
+      },
+      "aa8548fa-e31e-48cd-bb9f-eb7196cec8cc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328508178,
+          "id": "aa8548fa-e31e-48cd-bb9f-eb7196cec8cc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546328529614,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here are a few reasons:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 87
+        }
+      },
+      "b1d9e979-7a59-460f-a790-81a609de700e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5c5e584b-48b6-478a-ab94-cae5efcba64f",
+            "9d270813-f66b-4af3-aeeb-f5eec6749d90",
+            "b2ebcad2-db18-4a74-804f-742d8ca2e742"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265260000,
+          "format": {
+            "column_ratio": 0.3333333333333333
+          },
+          "id": "b1d9e979-7a59-460f-a790-81a609de700e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265320000,
+          "parent_id": "ca4f2d38-04f0-4608-a076-fee536d008d2",
+          "parent_table": "block",
+          "type": "column",
+          "version": 8
+        }
+      },
+      "b2ebcad2-db18-4a74-804f-742d8ca2e742": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265320000,
+          "id": "b2ebcad2-db18-4a74-804f-742d8ca2e742",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265320000,
+          "parent_id": "b1d9e979-7a59-460f-a790-81a609de700e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "linkedIn",
+                [
+                  [
+                    "a",
+                    "https://www.linkedin.com/in/krzysztof-kowalczyk-61a130a/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 13
+        }
+      },
+      "c25c3dcb-d17b-455c-8332-9532849f9495": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546329661066,
+          "id": "c25c3dcb-d17b-455c-8332-9532849f9495",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329661066,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "type": "text",
+          "version": 5
+        }
+      },
+      "ca4f2d38-04f0-4608-a076-fee536d008d2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d76c176f-9b19-409e-ae1c-37b826f3bbdd",
+            "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+            "b1d9e979-7a59-460f-a790-81a609de700e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265200000,
+          "id": "ca4f2d38-04f0-4608-a076-fee536d008d2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265260000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 7
+        }
+      },
+      "d76c176f-9b19-409e-ae1c-37b826f3bbdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d8fc5a48-c38f-4a84-9fb4-845e6eb0f5bf"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265200000,
+          "format": {
+            "column_ratio": 0.33333333333333337
+          },
+          "id": "d76c176f-9b19-409e-ae1c-37b826f3bbdd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265260000,
+          "parent_id": "ca4f2d38-04f0-4608-a076-fee536d008d2",
+          "parent_table": "block",
+          "type": "column",
+          "version": 7
+        }
+      },
+      "d8fc5a48-c38f-4a84-9fb4-845e6eb0f5bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554265195852,
+          "format": {
+            "block_full_width": false,
+            "block_page_width": false,
+            "block_width": 132,
+            "display_source": "https://d33wubrfki0l68.cloudfront.net/171a1763146594ac564249efabc5b3201cf10166/0ea46/gfx/head-bw-sq-120.png"
+          },
+          "id": "d8fc5a48-c38f-4a84-9fb4-845e6eb0f5bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265200000,
+          "parent_id": "d76c176f-9b19-409e-ae1c-37b826f3bbdd",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://d33wubrfki0l68.cloudfront.net/171a1763146594ac564249efabc5b3201cf10166/0ea46/gfx/head-bw-sq-120.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 10
+        }
+      },
+      "df60940c-5336-4a9e-b4d7-1b00b7dda33b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546328373773,
+          "id": "df60940c-5336-4a9e-b4d7-1b00b7dda33b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554265380000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Email me at "
+              ],
+              [
+                "kkowalczyk@gmail.com",
+                [
+                  [
+                    "a",
+                    "mailto:kkowalczyk@gmail.com"
+                  ]
+                ]
+              ],
+              [
+                " with the details of your project and let's see if there's a match."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 249
+        }
+      },
+      "edde4062-7ee7-4b44-911f-9481756f638e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546329572889,
+          "id": "edde4062-7ee7-4b44-911f-9481756f638e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329693895,
+          "parent_id": "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/kjk/flex",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/flex"
+                  ]
+                ]
+              ],
+              [
+                " : Go implementation of CSS flexbox layout algorithm, port of Facebook's Yoga"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "eefac7ca-c15a-4744-bc72-7a3c71400a3d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554271080000,
+          "id": "eefac7ca-c15a-4744-bc72-7a3c71400a3d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271260000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I worked at Microsoft, Palm, BitTorrent, OpenDNS"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 337
+        }
+      },
+      "f596631a-ccbe-4a80-b371-131b7620f8b7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1554271020000,
+          "id": "f596631a-ccbe-4a80-b371-131b7620f8b7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554271320000,
+          "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I'm Chris and I'm available for short to medium term contracts that involve programming in Go."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "fa676f2e-dbef-418f-b7e9-62224746abff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1546329073613,
+          "id": "fa676f2e-dbef-418f-b7e9-62224746abff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1546329100347,
+          "parent_id": "0a19d7a6-755d-42a4-98b2-a993451ab886",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/kjk/notionapi",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/notionapi"
+                  ]
+                ]
+              ],
+              [
+                " : unofficial API for notion.so"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 125
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371898df857fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:09 GMT"
+  ],
+  "Etag": [
+    "W/\"51ce-hg5ojLytfHqO/JINK/Vqx+KI74E\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea57d1080e0cc1dfe5e57e610c1e0ad31565326089; expires=Sat, 08-Aug-20 04:48:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

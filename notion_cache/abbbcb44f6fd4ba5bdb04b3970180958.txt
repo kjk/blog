@@ -1,0 +1,3702 @@
+2370 1565326226458 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+      "table": "block"
+    }
+  ]
+}
+Response:+1221
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+          "c726345f-2a7d-425a-81fc-0560771f9b62",
+          "477349aa-e816-450a-b529-c76ac11b3180",
+          "48184943-6db9-4153-ae4a-68d5f9175fc8",
+          "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+          "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+          "a3909f65-ba28-468a-a576-0069f4e8990c",
+          "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "3b935305-7eaa-447d-98e9-c4c87da23dbe"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528233372250,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564010040000,
+        "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tesla facts"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 99
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371beda9f47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"344-OI/JYIViPKigUhQTmt32Wrv2pbM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+21494 1565326226459 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+  "verticalColumns": false
+}
+Response:+20303
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2ba0b2e0-deae-4c77-b31e-4481777b70a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+            "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+            "1038b484-044d-42fa-9242-d2445cdf9c53",
+            "87b42ff4-81ca-4ea3-bf4d-11ae306831b2",
+            "07d8cbcf-3f47-4724-b539-3753a588a64c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233350473,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532409014482,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research for investing"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 138
+        }
+      },
+      "3b935305-7eaa-447d-98e9-c4c87da23dbe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533160183889,
+          "id": "3b935305-7eaa-447d-98e9-c4c87da23dbe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533160183889,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "477349aa-e816-450a-b529-c76ac11b3180": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c0f26341-a99b-4470-a3d7-7f9d03ffc8d4",
+            "e84e384a-c2f3-4e52-acea-9fbe52bec6c7",
+            "d474d861-472a-43bd-a71a-59ff6472e670",
+            "aa01f32d-831f-488b-ba2d-ea014e1f3d17",
+            "a15ffdd2-17a1-48e1-8e18-5074add4a7f0",
+            "27d575df-1469-466e-b29f-7a4a58aa6537",
+            "7f0106d6-9f62-48f1-ae09-83c3ca9340c8",
+            "a5f2b23c-6b42-448c-8f92-5f26d3817c3a",
+            "1e277fdb-2f06-4c19-a0cd-16ce536f4462"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1540422647637,
+          "id": "477349aa-e816-450a-b529-c76ac11b3180",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540425586881,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Q3 2018 conference call (Oct 24 2018)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 121
+        }
+      },
+      "48184943-6db9-4153-ae4a-68d5f9175fc8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c369ef0f-425b-4b1f-b0f4-b7d3bc51f2d2",
+            "d6a9f5b6-c04a-4f7f-9a41-061eea6fc66b",
+            "3596f8b7-0953-47a2-a820-e7ae813ff7ef",
+            "bed87527-a006-45b5-875c-9f8caaeedab5",
+            "6237705a-7244-46f7-a580-a142537da2fa",
+            "7c5c0b85-51b9-4314-bf76-334a89ef570f",
+            "01d5dff2-989a-4c10-a29d-e621fb36151a",
+            "e28e306f-c67a-4c99-8c3d-855d7f395e9f",
+            "201235ca-f7f7-4d42-841c-d08c79c07237",
+            "8e42481b-7bf0-4e02-a3a8-923c9db1cb24",
+            "aaaaf336-6e4c-4f6b-aba7-8dd5229b4df7",
+            "26fd06da-202d-458c-9ab6-88eab6fd4a70",
+            "5e4ffa40-b3dc-4745-9905-6c418fec49a1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1540421408586,
+          "id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540423006280,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Q3 2018 earnings report (Oct 24 2018)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 221
+        }
+      },
+      "4bed70ed-b73b-46c3-80e2-762a0bdafcb1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5ef63264-a229-4362-b35a-10a9f61d57a8",
+            "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+            "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+            "069cd5e2-ec07-412c-9f34-9951a1043c60",
+            "d8cac563-43a0-4363-9a37-9c2f5453e410",
+            "f07e9302-e504-49a5-b768-4c567049f7b4",
+            "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+            "81548827-ae30-485b-9f2d-ee7c17539c93",
+            "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+            "70e44195-6141-4b3e-a783-d408a1246114",
+            "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+            "14dca5f7-596b-4949-8b91-18fe82a38866",
+            "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+            "9fabdd72-e388-4e7b-ad79-1284311441a3",
+            "9e650fed-b56e-4564-8160-b412c1de1500",
+            "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+            "734f5831-b443-4e4a-818c-361951428378",
+            "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+            "480eb536-ff2c-494d-83b5-09fab81cea5f",
+            "a204a4c6-e209-4c27-bd8e-3acf78e5bd45"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517354271723,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532125750833,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "reader",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tesla watch"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "a3909f65-ba28-468a-a576-0069f4e8990c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "67109e88-b115-4cf8-9759-941703a63312",
+            "579f0e13-14ff-4242-a3d3-ce7450846077",
+            "ab0ecf4a-f217-48cf-aba0-0c95837c992a",
+            "6e16cbbc-5b55-4307-8de3-e29c3488f9ac",
+            "970e4bb3-d9f0-4c85-9c15-970eb275090d",
+            "c0f62323-f8d8-40cc-af89-577960eb34fe",
+            "fc100f1c-9c1c-4495-8790-a77fbca8f085",
+            "77507896-29d7-437d-9ecd-91961459570d",
+            "a8d95b4e-4ca9-4011-9bc3-89ece1071642",
+            "902ec544-bf64-44d8-85a5-7facec4ddfd3",
+            "229e11c2-396a-4dea-a5a9-ae26bcc08907",
+            "e56375a1-a20f-4a90-9860-065109bc2a03",
+            "49e48bb7-8123-4963-b36e-83ebf1751c78",
+            "12d49eaf-ddc5-4fcd-83a0-58329e52fa7a",
+            "2ac37710-e8de-41cc-a946-65d7c280983c",
+            "b922660b-997b-45de-9975-0f3085473b05",
+            "90efc95c-d5bf-43e0-a069-5cbcb67653f4",
+            "800599ba-18f0-458d-8e86-dc9fcfb1868f",
+            "685cd522-65f7-4b33-92f8-0f431119fcf3",
+            "8573a9aa-57f1-4cfa-b262-1a458a8076f1",
+            "018ebcb7-89e9-484b-ac7c-7e8f7c9aa39a",
+            "95f6f230-da73-4b6b-aa49-8fb0addaa591",
+            "2766c0bb-79b5-41e2-9000-fc11f956e01b",
+            "44c96482-7478-4902-8794-f439e20783be"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533157884949,
+          "id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540421435583,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Q2 2018 earnings conference call 2008-08-01 (August 1)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 182
+        }
+      },
+      "abbbcb44-f6fd-4ba5-bdb0-4b3970180958": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+            "c726345f-2a7d-425a-81fc-0560771f9b62",
+            "477349aa-e816-450a-b529-c76ac11b3180",
+            "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+            "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+            "a3909f65-ba28-468a-a576-0069f4e8990c",
+            "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+            "3b935305-7eaa-447d-98e9-c4c87da23dbe"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233372250,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564010040000,
+          "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tesla facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 99
+        }
+      },
+      "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5493d27d-efc3-419d-9d63-b23b1d72fa66",
+            "0333163a-8a0a-4058-8bcd-264dfd0ff830",
+            "3244a02f-837a-450a-871f-afbc16463164",
+            "40b22ae3-1a7e-4c1e-9e5e-2f71c3a19b92",
+            "90a533de-88eb-44fa-8c02-013ed2b591dc"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1539548644027,
+          "id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1539548771228,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Supercharger satisfaction in UK October 2018"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 119
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "495abfff-378f-4e58-b9ec-1b7d7c6c7dd5",
+            "42797f7d-8920-4e12-a6c2-c6a8153b5b06",
+            "dc62e2df-42f6-458f-9249-26cb52717a09",
+            "762da2d9-ad62-4237-b230-1d6767f533cd",
+            "5194ec3a-a90a-4de1-8f4d-fcbe206a9626",
+            "ac69c9bf-e330-4eac-8c73-eb18680ab802",
+            "903d5875-4271-4fdb-8bf5-dc9ebb264132",
+            "3ad66604-59c7-4fe7-acc2-c77e6b6628f5",
+            "071689d2-b25b-4bf8-936d-d3c8d4c0626a",
+            "070e8170-d78a-422f-bbbf-b006f9ca65c8",
+            "1f9398e6-4bf2-4fc6-bf4d-d94f2e5fd927",
+            "0ec2f4f0-66c4-489e-9193-57f8a098ab8c",
+            "509c15b4-1431-4c05-881b-21febeb97334",
+            "ba18e17e-16bf-4a75-ae92-f62a590196c8",
+            "81c4706a-4673-4c03-a821-23b8a7e23f04",
+            "2e5aa6e5-74f3-45e4-b162-a1e4fa7ad54a",
+            "9eaef521-746d-462e-80df-612d27dc8af1",
+            "a99b9794-62af-46d1-85a4-c58bc5ee7db4",
+            "9c6a13f3-5f22-4e69-8fe9-daecd2cdb00d",
+            "5575d691-519a-490f-96a7-e02c53897aeb",
+            "feea0d57-e80a-4a31-a8f8-ad7060184790",
+            "82d2256d-071c-41e0-a9c4-97291f50db5a",
+            "3f675994-6658-40e3-84f5-0912c93b0f20",
+            "ad9e41fb-9032-4557-a771-6dd65e7f4378",
+            "939ca6f1-672c-4558-8518-5472649e3702",
+            "19ca8a9c-4bda-4c7f-bc20-62c1883635f7",
+            "0523abf6-6825-420e-8af2-ca3fef0d18f8",
+            "d4984720-49fc-45dd-97b4-dac3bb0acec4",
+            "0ab05405-54f7-4355-9f24-3a9962bb9421",
+            "3e4c46bc-de51-4c80-8683-74d42fb8211b",
+            "0b4e7898-df31-41b9-bb87-8a787b53bed0",
+            "089be3c9-c08f-47a5-a7e6-17f0f0402185",
+            "bb892e76-ff2a-4f46-a112-ad0aef8be853",
+            "eb31cde1-618e-4134-9a93-6b4d4a534ed9",
+            "a864d5ce-0cb5-4f11-96af-c8c1a848a400",
+            "d0491baa-a832-401a-92ae-20b36ad1c47a",
+            "84aa8eca-c6fa-48b5-aee2-3a9f104a24b9",
+            "bbc481b0-9f11-4178-9a74-2bd0e5800c53",
+            "532b578b-fb3b-4db7-9ff0-c8774e31a1c5",
+            "c90fea2e-d792-489c-8c7a-4a4908b8857c",
+            "c2a21409-f5ec-4ef0-a37a-57c8756ade69"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233375483,
+          "id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528238828676,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Shareholders meeting 2018-06-05 (June 5)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 191
+        }
+      },
+      "c726345f-2a7d-425a-81fc-0560771f9b62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "46915c8d-d07f-4ab1-95d4-e5c83ea28f09",
+            "71fc62d7-2d1f-49e1-a132-aace8e2871fd",
+            "bd39ed57-a2e7-477d-bf8b-dd31c4b1478e",
+            "a696673b-f4b8-4b94-9975-f4433be70105",
+            "3f2e0cc4-9056-4576-bf9b-732571a1ece5",
+            "1d7b73c4-adde-4d38-8f00-dea9d57a2881",
+            "ec081f9b-e0e4-49b3-a95a-750f8b14fa00",
+            "cb4f7a34-3108-4072-8ca7-db9372f19534",
+            "8d1af344-9e67-4cd3-8396-f364a543cef0",
+            "6c5ed2cd-0249-4497-8c42-ddc432acdd36",
+            "33cca16a-39ec-4f82-8cde-0aba23af2992",
+            "db57444e-a3b5-45ae-9f43-d27fa511ad0e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1560288600000,
+          "id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1560291720000,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2019 shareholder meeting (June 11 2019)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 79
+        }
+      },
+      "d36a8275-b841-4bb7-8021-1896cd59b8b9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "138b71ac-59c9-403c-8c75-6e01467b80c8",
+            "0398644d-e657-4f8d-9ea7-35a96a28fcdb",
+            "b14daa63-9d1b-4362-a8bc-1c74cf1b3f39",
+            "a5e099a8-07ac-412b-95a7-61c014aff5fb",
+            "72c185cc-e5fe-4d31-a539-6e33aee26baf",
+            "e51a38dd-cf08-42ee-ba83-65e5355dae5e",
+            "3ed54807-615c-4e25-b98e-2848a0131d90",
+            "44cd5a5d-2016-4cde-9b16-a3d74a072520",
+            "f314c04e-6ae7-4169-8085-3d44c5db89f5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564007580000,
+          "id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564009980000,
+          "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Q2 2019 conference call (July 24 2019)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 88
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bee0a4d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"35e5-9iihahVmb5Nmvq6IFofSohS5kTE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+88938 1565326226466 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+9966
+{
+  "requests": [
+    {
+      "id": "138b71ac-59c9-403c-8c75-6e01467b80c8",
+      "table": "block"
+    },
+    {
+      "id": "0398644d-e657-4f8d-9ea7-35a96a28fcdb",
+      "table": "block"
+    },
+    {
+      "id": "b14daa63-9d1b-4362-a8bc-1c74cf1b3f39",
+      "table": "block"
+    },
+    {
+      "id": "a5e099a8-07ac-412b-95a7-61c014aff5fb",
+      "table": "block"
+    },
+    {
+      "id": "72c185cc-e5fe-4d31-a539-6e33aee26baf",
+      "table": "block"
+    },
+    {
+      "id": "e51a38dd-cf08-42ee-ba83-65e5355dae5e",
+      "table": "block"
+    },
+    {
+      "id": "3ed54807-615c-4e25-b98e-2848a0131d90",
+      "table": "block"
+    },
+    {
+      "id": "44cd5a5d-2016-4cde-9b16-a3d74a072520",
+      "table": "block"
+    },
+    {
+      "id": "f314c04e-6ae7-4169-8085-3d44c5db89f5",
+      "table": "block"
+    },
+    {
+      "id": "46915c8d-d07f-4ab1-95d4-e5c83ea28f09",
+      "table": "block"
+    },
+    {
+      "id": "71fc62d7-2d1f-49e1-a132-aace8e2871fd",
+      "table": "block"
+    },
+    {
+      "id": "bd39ed57-a2e7-477d-bf8b-dd31c4b1478e",
+      "table": "block"
+    },
+    {
+      "id": "a696673b-f4b8-4b94-9975-f4433be70105",
+      "table": "block"
+    },
+    {
+      "id": "3f2e0cc4-9056-4576-bf9b-732571a1ece5",
+      "table": "block"
+    },
+    {
+      "id": "1d7b73c4-adde-4d38-8f00-dea9d57a2881",
+      "table": "block"
+    },
+    {
+      "id": "ec081f9b-e0e4-49b3-a95a-750f8b14fa00",
+      "table": "block"
+    },
+    {
+      "id": "cb4f7a34-3108-4072-8ca7-db9372f19534",
+      "table": "block"
+    },
+    {
+      "id": "8d1af344-9e67-4cd3-8396-f364a543cef0",
+      "table": "block"
+    },
+    {
+      "id": "6c5ed2cd-0249-4497-8c42-ddc432acdd36",
+      "table": "block"
+    },
+    {
+      "id": "33cca16a-39ec-4f82-8cde-0aba23af2992",
+      "table": "block"
+    },
+    {
+      "id": "db57444e-a3b5-45ae-9f43-d27fa511ad0e",
+      "table": "block"
+    },
+    {
+      "id": "c0f26341-a99b-4470-a3d7-7f9d03ffc8d4",
+      "table": "block"
+    },
+    {
+      "id": "e84e384a-c2f3-4e52-acea-9fbe52bec6c7",
+      "table": "block"
+    },
+    {
+      "id": "d474d861-472a-43bd-a71a-59ff6472e670",
+      "table": "block"
+    },
+    {
+      "id": "aa01f32d-831f-488b-ba2d-ea014e1f3d17",
+      "table": "block"
+    },
+    {
+      "id": "a15ffdd2-17a1-48e1-8e18-5074add4a7f0",
+      "table": "block"
+    },
+    {
+      "id": "27d575df-1469-466e-b29f-7a4a58aa6537",
+      "table": "block"
+    },
+    {
+      "id": "7f0106d6-9f62-48f1-ae09-83c3ca9340c8",
+      "table": "block"
+    },
+    {
+      "id": "a5f2b23c-6b42-448c-8f92-5f26d3817c3a",
+      "table": "block"
+    },
+    {
+      "id": "1e277fdb-2f06-4c19-a0cd-16ce536f4462",
+      "table": "block"
+    },
+    {
+      "id": "c369ef0f-425b-4b1f-b0f4-b7d3bc51f2d2",
+      "table": "block"
+    },
+    {
+      "id": "d6a9f5b6-c04a-4f7f-9a41-061eea6fc66b",
+      "table": "block"
+    },
+    {
+      "id": "3596f8b7-0953-47a2-a820-e7ae813ff7ef",
+      "table": "block"
+    },
+    {
+      "id": "bed87527-a006-45b5-875c-9f8caaeedab5",
+      "table": "block"
+    },
+    {
+      "id": "6237705a-7244-46f7-a580-a142537da2fa",
+      "table": "block"
+    },
+    {
+      "id": "7c5c0b85-51b9-4314-bf76-334a89ef570f",
+      "table": "block"
+    },
+    {
+      "id": "01d5dff2-989a-4c10-a29d-e621fb36151a",
+      "table": "block"
+    },
+    {
+      "id": "e28e306f-c67a-4c99-8c3d-855d7f395e9f",
+      "table": "block"
+    },
+    {
+      "id": "201235ca-f7f7-4d42-841c-d08c79c07237",
+      "table": "block"
+    },
+    {
+      "id": "8e42481b-7bf0-4e02-a3a8-923c9db1cb24",
+      "table": "block"
+    },
+    {
+      "id": "aaaaf336-6e4c-4f6b-aba7-8dd5229b4df7",
+      "table": "block"
+    },
+    {
+      "id": "26fd06da-202d-458c-9ab6-88eab6fd4a70",
+      "table": "block"
+    },
+    {
+      "id": "5e4ffa40-b3dc-4745-9905-6c418fec49a1",
+      "table": "block"
+    },
+    {
+      "id": "5493d27d-efc3-419d-9d63-b23b1d72fa66",
+      "table": "block"
+    },
+    {
+      "id": "0333163a-8a0a-4058-8bcd-264dfd0ff830",
+      "table": "block"
+    },
+    {
+      "id": "3244a02f-837a-450a-871f-afbc16463164",
+      "table": "block"
+    },
+    {
+      "id": "40b22ae3-1a7e-4c1e-9e5e-2f71c3a19b92",
+      "table": "block"
+    },
+    {
+      "id": "90a533de-88eb-44fa-8c02-013ed2b591dc",
+      "table": "block"
+    },
+    {
+      "id": "495abfff-378f-4e58-b9ec-1b7d7c6c7dd5",
+      "table": "block"
+    },
+    {
+      "id": "42797f7d-8920-4e12-a6c2-c6a8153b5b06",
+      "table": "block"
+    },
+    {
+      "id": "dc62e2df-42f6-458f-9249-26cb52717a09",
+      "table": "block"
+    },
+    {
+      "id": "762da2d9-ad62-4237-b230-1d6767f533cd",
+      "table": "block"
+    },
+    {
+      "id": "5194ec3a-a90a-4de1-8f4d-fcbe206a9626",
+      "table": "block"
+    },
+    {
+      "id": "ac69c9bf-e330-4eac-8c73-eb18680ab802",
+      "table": "block"
+    },
+    {
+      "id": "903d5875-4271-4fdb-8bf5-dc9ebb264132",
+      "table": "block"
+    },
+    {
+      "id": "3ad66604-59c7-4fe7-acc2-c77e6b6628f5",
+      "table": "block"
+    },
+    {
+      "id": "071689d2-b25b-4bf8-936d-d3c8d4c0626a",
+      "table": "block"
+    },
+    {
+      "id": "070e8170-d78a-422f-bbbf-b006f9ca65c8",
+      "table": "block"
+    },
+    {
+      "id": "1f9398e6-4bf2-4fc6-bf4d-d94f2e5fd927",
+      "table": "block"
+    },
+    {
+      "id": "0ec2f4f0-66c4-489e-9193-57f8a098ab8c",
+      "table": "block"
+    },
+    {
+      "id": "509c15b4-1431-4c05-881b-21febeb97334",
+      "table": "block"
+    },
+    {
+      "id": "ba18e17e-16bf-4a75-ae92-f62a590196c8",
+      "table": "block"
+    },
+    {
+      "id": "81c4706a-4673-4c03-a821-23b8a7e23f04",
+      "table": "block"
+    },
+    {
+      "id": "2e5aa6e5-74f3-45e4-b162-a1e4fa7ad54a",
+      "table": "block"
+    },
+    {
+      "id": "9eaef521-746d-462e-80df-612d27dc8af1",
+      "table": "block"
+    },
+    {
+      "id": "a99b9794-62af-46d1-85a4-c58bc5ee7db4",
+      "table": "block"
+    },
+    {
+      "id": "9c6a13f3-5f22-4e69-8fe9-daecd2cdb00d",
+      "table": "block"
+    },
+    {
+      "id": "5575d691-519a-490f-96a7-e02c53897aeb",
+      "table": "block"
+    },
+    {
+      "id": "feea0d57-e80a-4a31-a8f8-ad7060184790",
+      "table": "block"
+    },
+    {
+      "id": "82d2256d-071c-41e0-a9c4-97291f50db5a",
+      "table": "block"
+    },
+    {
+      "id": "3f675994-6658-40e3-84f5-0912c93b0f20",
+      "table": "block"
+    },
+    {
+      "id": "ad9e41fb-9032-4557-a771-6dd65e7f4378",
+      "table": "block"
+    },
+    {
+      "id": "939ca6f1-672c-4558-8518-5472649e3702",
+      "table": "block"
+    },
+    {
+      "id": "19ca8a9c-4bda-4c7f-bc20-62c1883635f7",
+      "table": "block"
+    },
+    {
+      "id": "0523abf6-6825-420e-8af2-ca3fef0d18f8",
+      "table": "block"
+    },
+    {
+      "id": "d4984720-49fc-45dd-97b4-dac3bb0acec4",
+      "table": "block"
+    },
+    {
+      "id": "0ab05405-54f7-4355-9f24-3a9962bb9421",
+      "table": "block"
+    },
+    {
+      "id": "3e4c46bc-de51-4c80-8683-74d42fb8211b",
+      "table": "block"
+    },
+    {
+      "id": "0b4e7898-df31-41b9-bb87-8a787b53bed0",
+      "table": "block"
+    },
+    {
+      "id": "089be3c9-c08f-47a5-a7e6-17f0f0402185",
+      "table": "block"
+    },
+    {
+      "id": "bb892e76-ff2a-4f46-a112-ad0aef8be853",
+      "table": "block"
+    },
+    {
+      "id": "eb31cde1-618e-4134-9a93-6b4d4a534ed9",
+      "table": "block"
+    },
+    {
+      "id": "a864d5ce-0cb5-4f11-96af-c8c1a848a400",
+      "table": "block"
+    },
+    {
+      "id": "d0491baa-a832-401a-92ae-20b36ad1c47a",
+      "table": "block"
+    },
+    {
+      "id": "84aa8eca-c6fa-48b5-aee2-3a9f104a24b9",
+      "table": "block"
+    },
+    {
+      "id": "bbc481b0-9f11-4178-9a74-2bd0e5800c53",
+      "table": "block"
+    },
+    {
+      "id": "532b578b-fb3b-4db7-9ff0-c8774e31a1c5",
+      "table": "block"
+    },
+    {
+      "id": "c90fea2e-d792-489c-8c7a-4a4908b8857c",
+      "table": "block"
+    },
+    {
+      "id": "c2a21409-f5ec-4ef0-a37a-57c8756ade69",
+      "table": "block"
+    },
+    {
+      "id": "67109e88-b115-4cf8-9759-941703a63312",
+      "table": "block"
+    },
+    {
+      "id": "579f0e13-14ff-4242-a3d3-ce7450846077",
+      "table": "block"
+    },
+    {
+      "id": "ab0ecf4a-f217-48cf-aba0-0c95837c992a",
+      "table": "block"
+    },
+    {
+      "id": "6e16cbbc-5b55-4307-8de3-e29c3488f9ac",
+      "table": "block"
+    },
+    {
+      "id": "970e4bb3-d9f0-4c85-9c15-970eb275090d",
+      "table": "block"
+    },
+    {
+      "id": "c0f62323-f8d8-40cc-af89-577960eb34fe",
+      "table": "block"
+    },
+    {
+      "id": "fc100f1c-9c1c-4495-8790-a77fbca8f085",
+      "table": "block"
+    },
+    {
+      "id": "77507896-29d7-437d-9ecd-91961459570d",
+      "table": "block"
+    },
+    {
+      "id": "a8d95b4e-4ca9-4011-9bc3-89ece1071642",
+      "table": "block"
+    },
+    {
+      "id": "902ec544-bf64-44d8-85a5-7facec4ddfd3",
+      "table": "block"
+    },
+    {
+      "id": "229e11c2-396a-4dea-a5a9-ae26bcc08907",
+      "table": "block"
+    },
+    {
+      "id": "e56375a1-a20f-4a90-9860-065109bc2a03",
+      "table": "block"
+    },
+    {
+      "id": "49e48bb7-8123-4963-b36e-83ebf1751c78",
+      "table": "block"
+    },
+    {
+      "id": "12d49eaf-ddc5-4fcd-83a0-58329e52fa7a",
+      "table": "block"
+    },
+    {
+      "id": "2ac37710-e8de-41cc-a946-65d7c280983c",
+      "table": "block"
+    },
+    {
+      "id": "b922660b-997b-45de-9975-0f3085473b05",
+      "table": "block"
+    },
+    {
+      "id": "90efc95c-d5bf-43e0-a069-5cbcb67653f4",
+      "table": "block"
+    },
+    {
+      "id": "800599ba-18f0-458d-8e86-dc9fcfb1868f",
+      "table": "block"
+    },
+    {
+      "id": "685cd522-65f7-4b33-92f8-0f431119fcf3",
+      "table": "block"
+    },
+    {
+      "id": "8573a9aa-57f1-4cfa-b262-1a458a8076f1",
+      "table": "block"
+    },
+    {
+      "id": "018ebcb7-89e9-484b-ac7c-7e8f7c9aa39a",
+      "table": "block"
+    },
+    {
+      "id": "95f6f230-da73-4b6b-aa49-8fb0addaa591",
+      "table": "block"
+    },
+    {
+      "id": "2766c0bb-79b5-41e2-9000-fc11f956e01b",
+      "table": "block"
+    },
+    {
+      "id": "44c96482-7478-4902-8794-f439e20783be",
+      "table": "block"
+    }
+  ]
+}
+Response:+77930
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564007640000,
+        "id": "138b71ac-59c9-403c-8c75-6e01467b80c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564008060000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "improving service"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 35
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564008780000,
+        "id": "0398644d-e657-4f8d-9ea7-35a96a28fcdb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564008780000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "order pacing in Q3 is ahead of where it was in Q2"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564008060000,
+        "id": "b14daa63-9d1b-4362-a8bc-1c74cf1b3f39",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564008120000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "guides profitability next q"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 43
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564008540000,
+        "id": "a5e099a8-07ac-412b-95a7-61c014aff5fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564008780000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "JB Straubel transitioning to senior adviser"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 47
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564009020000,
+        "id": "72c185cc-e5fe-4d31-a539-6e33aee26baf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564009020000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "expect gross margin to increase; asp to stay stable; increase FSD revenue"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 75
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564009020000,
+        "id": "e51a38dd-cf08-42ee-ba83-65e5355dae5e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564009080000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "battery day: in 6 months, going for 1 TWh production"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 58
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564009080000,
+        "id": "3ed54807-615c-4e25-b98e-2848a0131d90",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564009380000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "battery capacity now at ~29 GWh; not cell constrai"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 58
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564009380000,
+        "id": "44cd5a5d-2016-4cde-9b16-a3d74a072520",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564009980000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Lathrop is a distribution facility"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564009980000,
+        "id": "f314c04e-6ae7-4169-8085-3d44c5db89f5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564010040000,
+        "parent_id": "d36a8275-b841-4bb7-8021-1896cd59b8b9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "reduced labor hours per car and other costs"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 52
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560289740000,
+        "id": "46915c8d-d07f-4ab1-95d4-e5c83ea28f09",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290160000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "best selling car by revenue, outselling luxury cars, a chance for best quarter"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 121
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290160000,
+        "id": "71fc62d7-2d1f-49e1-a132-aace8e2871fd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290160000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "63% trade-ins are from non-premium cars"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 58
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290220000,
+        "id": "bd39ed57-a2e7-477d-bf8b-dd31c4b1478e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290220000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "re-iterating timeline for autonomy"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 45
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290580000,
+        "id": "a696673b-f4b8-4b94-9975-f4433be70105",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290580000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "model y possibly better drag coefficient"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 48
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290580000,
+        "id": "3f2e0cc4-9056-4576-bf9b-732571a1ece5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290760000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gf1 is half of global battery production"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 52
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290940000,
+        "id": "1d7b73c4-adde-4d38-8f00-dea9d57a2881",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560290940000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "kind of announced gf in europe (decision of where by end of year)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 69
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560290940000,
+        "id": "ec081f9b-e0e4-49b3-a95a-750f8b14fa00",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560291000000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "doubling energy storage business by 2x"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 61
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560291000000,
+        "id": "cb4f7a34-3108-4072-8ca7-db9372f19534",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560291060000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "v3 of solar roof"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 25
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560291480000,
+        "id": "8d1af344-9e67-4cd3-8396-f364a543cef0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560291540000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "talking about mobile repair service, moving body repair in-house"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 68
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560291540000,
+        "id": "6c5ed2cd-0249-4497-8c42-ddc432acdd36",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560291600000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "product roadmap: model y, truck (unveil in summer), semi (production end of 2020)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 85
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560291660000,
+        "id": "33cca16a-39ec-4f82-8cde-0aba23af2992",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560291720000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "battery \u0026 powertrain investor day (maybe in summer, by end of year)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 103
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1560291720000,
+        "id": "db57444e-a3b5-45ae-9f43-d27fa511ad0e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1560292320000,
+        "parent_id": "c726345f-2a7d-425a-81fc-0560771f9b62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "shutting down the idea of starlink antennas on cars"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 57
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422673197,
+        "id": "c0f26341-a99b-4470-a3d7-7f9d03ffc8d4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423336393,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "v9 of software, talking about AutoPilot (Navigate On AutoPilot)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 156
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540423404894,
+        "id": "e84e384a-c2f3-4e52-acea-9fbe52bec6c7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423485166,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Steve Bannon talks about AutoPilot HW progress (validation, production line), ready by end Q1 2019; same cost as old hw but 10x improvement in frame rate"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 392
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540423584903,
+        "id": "d474d861-472a-43bd-a71a-59ff6472e670",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423606273,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "removed Full Self Driving from ordering flow because it was confusing to user"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 180
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540423677030,
+        "id": "aa01f32d-831f-488b-ba2d-ea014e1f3d17",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423789366,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Karpathy says they trained larger NN that require new hw to work"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 172
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540424197755,
+        "id": "a15ffdd2-17a1-48e1-8e18-5074add4a7f0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540424374389,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: cell supply constraints. A: they are expanding Panasonic cell supply, have 3rd party suppliers as well. They made half world-wide car batteries (20 GWh)."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 434
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540424336024,
+        "id": "27d575df-1469-466e-b29f-7a4a58aa6537",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540424392728,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: why better margins on Model 3. A: improvements all over the place"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 186
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540424660800,
+        "id": "7f0106d6-9f62-48f1-ae09-83c3ca9340c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540424701820,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: plan for total M3 production A: hoping for 1 million Model 3 world-wide"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 314
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540425379544,
+        "id": "a5f2b23c-6b42-448c-8f92-5f26d3817c3a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540425413172,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: what are trade-ins for M3. A: all over the place but many upgrade from much cheaper car"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 254
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540425586881,
+        "id": "1e277fdb-2f06-4c19-a0cd-16ce536f4462",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540425706151,
+        "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "working on reducing time car build → delivered to 10 days (from 30 days in August, 20 days now). Terms with suppliers: over 60 days on average."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 341
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540421720150,
+        "id": "c369ef0f-425b-4b1f-b0f4-b7d3bc51f2d2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540421730515,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "average 4.3 k cars per week"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 74
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540421886062,
+        "id": "d6a9f5b6-c04a-4f7f-9a41-061eea6fc66b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422075289,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "sold 56k Model 3, 70k all cars"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 106
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422172334,
+        "id": "3596f8b7-0953-47a2-a820-e7ae813ff7ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422193968,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "20% gross margin on Model 3, targeting 25%"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 121
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540421966266,
+        "id": "bed87527-a006-45b5-875c-9f8caaeedab5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540421991418,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ended up with 364 k (out of 455) reservations, less than 20% cancelled"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 190
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422022419,
+        "id": "6237705a-7244-46f7-a580-a142537da2fa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422039798,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Going to Europe early 2019"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 82
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422318113,
+        "id": "7c5c0b85-51b9-4314-bf76-334a89ef570f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422335006,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4 new stores and service locations, 351 locations worldwide"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 156
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422347584,
+        "id": "01d5dff2-989a-4c10-a29d-e621fb36151a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422353962,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "mobile service fleet: 373 cars"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 66
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422364918,
+        "id": "e28e306f-c67a-4c99-8c3d-855d7f395e9f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422384985,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "opened several body shops in US, planning dozens more in next few quarters"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 166
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422390890,
+        "id": "201235ca-f7f7-4d42-841c-d08c79c07237",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422438891,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "44 new supercharger locations, total 1352 stations, 11k connectors and over 20k Destination Chargers globally"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 252
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422452708,
+        "id": "8e42481b-7bf0-4e02-a3a8-923c9db1cb24",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423321106,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "energy storage: 239 MWh (18% from Q2, 118% from Q3 2017), on track to 3x 2017 numbers, 17.2% gross margin (up from 11.8% Q2)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 391
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422566064,
+        "id": "aaaaf336-6e4c-4f6b-aba7-8dd5229b4df7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422580313,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Solar Roof delayed, targeting first half 2019 to increase production"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 154
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422857624,
+        "id": "26fd06da-202d-458c-9ab6-88eab6fd4a70",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540422949320,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "lowered cost of user acquisition costs for solar leads to better profitability"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 162
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540423006280,
+        "id": "5e4ffa40-b3dc-4745-9905-6c418fec49a1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423053151,
+        "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$52m ZEV credits (was 0 in Q2)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 78
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539548669074,
+        "id": "5493d27d-efc3-419d-9d63-b23b1d72fa66",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539548673299,
+        "parent_id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.zap-map.com/zap-map-survey-reveals-top-ev-charging-networks/",
+              [
+                [
+                  "a",
+                  "https://www.zap-map.com/zap-map-survey-reveals-top-ev-charging-networks/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539548771228,
+        "id": "0333163a-8a0a-4058-8bcd-264dfd0ff830",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539548778621,
+        "parent_id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Survey of 1600 users of Zap-Map"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 68
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539548676156,
+        "id": "3244a02f-837a-450a-871f-afbc16463164",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539548709598,
+        "parent_id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tesla: 93% very satisfied, 3% somewhat satisfied, 4% not satisfied"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 154
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539548709737,
+        "id": "40b22ae3-1a7e-4c1e-9e5e-2f71c3a19b92",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539548746153,
+        "parent_id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "InstaVolt: 65% very satisfied, 22% somewhat satisfied, 12% not satisfied"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 158
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539548746890,
+        "id": "90a533de-88eb-44fa-8c02-013ed2b591dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539548806531,
+        "parent_id": "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Pod Point: 50% very satisfied, 32% somewhat satisfied, 18% not satisfied"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 162
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235324392,
+        "id": "495abfff-378f-4e58-b9ec-1b7d7c6c7dd5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235492998,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "500 cars a day (3.5k a week, 15k a month)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 169
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235520211,
+        "id": "42797f7d-8920-4e12-a6c2-c6a8153b5b06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235531224,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: 5k/week end of June"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 92
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235559440,
+        "id": "dc62e2df-42f6-458f-9249-26cb52717a09",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235693980,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "model 3 outsells mercedes c-class, bmw 3-series, audi a4, "
+            ],
+            [
+              "https://twitter.com/Tesla/status/1004118655230078977",
+              [
+                [
+                  "a",
+                  "https://twitter.com/Tesla/status/1004118655230078977"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 148
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235592871,
+        "id": "762da2d9-ad62-4237-b230-1d6767f533cd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235605684,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: base model end of 2018"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 112
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235606165,
+        "id": "5194ec3a-a90a-4de1-8f4d-fcbe206a9626",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235624668,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "reliability of model 3 improved 5x"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 74
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235703001,
+        "id": "ac69c9bf-e330-4eac-8c73-eb18680ab802",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235725662,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "worker safety 6% below industry average, shooting for 50% below industry average"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 194
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235726456,
+        "id": "903d5875-4271-4fdb-8bf5-dc9ebb264132",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235801787,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "~10k superchargers world-wide"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 116
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235812218,
+        "id": "3ad66604-59c7-4fe7-acc2-c77e6b6628f5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235832161,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: supercharger v3 starts deploying end of 2018"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 134
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235835209,
+        "id": "071689d2-b25b-4bf8-936d-d3c8d4c0626a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235845717,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "will accelerate supercharger expansion when v3 is ready"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 120
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235846006,
+        "id": "070e8170-d78a-422f-bbbf-b006f9ca65c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235872611,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "installed 1GW of energy storage in Tesla lifetime"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 116
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235872820,
+        "id": "1f9398e6-4bf2-4fc6-bf4d-d94f2e5fd927",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235886341,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: plans to install 1GW next year"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 106
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235887176,
+        "id": "0ec2f4f0-66c4-489e-9193-57f8a098ab8c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235899497,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: plans to double installations every year"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 118
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235907369,
+        "id": "509c15b4-1431-4c05-881b-21febeb97334",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235940644,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: next quarter plans to build more car batteries than all other factories combined (including china)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 250
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235941422,
+        "id": "ba18e17e-16bf-4a75-ae92-f62a590196c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236089407,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: exponential growth of solar roofs"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 128
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236090452,
+        "id": "81c4706a-4673-4c03-a821-23b8a7e23f04",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236122986,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: expect positive GAAP income and cash flow in Q3 and Q4"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 206
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236123908,
+        "id": "2e5aa6e5-74f3-45e4-b162-a1e4fa7ad54a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236142672,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "no plans to raise money"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 108
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236143045,
+        "id": "9eaef521-746d-462e-80df-612d27dc8af1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236181983,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: unveil Model Y March 2019, production: June 2020"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 146
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236193411,
+        "id": "a99b9794-62af-46d1-85a4-c58bc5ee7db4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236324686,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "doubling-down on manufacturing as competitive strength"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 134
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236462841,
+        "id": "9c6a13f3-5f22-4e69-8fe9-daecd2cdb00d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236505192,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: on cell level less than $100 kWh by end 2018 (depends on commodity prices)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 194
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236488927,
+        "id": "5575d691-519a-490f-96a7-e02c53897aeb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236545113,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: less than $100 kWh on a battery pack level in 2 years (by June 2020)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 266
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236546124,
+        "id": "feea0d57-e80a-4a31-a8f8-ad7060184790",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236592319,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "plans to build out gigafactory for 4-5 years"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 166
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236593213,
+        "id": "82d2256d-071c-41e0-a9c4-97291f50db5a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236662907,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "close to announcing china gigafactory which will combine car/battery/powertrain production, in Shanghai"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 220
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236760172,
+        "id": "3f675994-6658-40e3-84f5-0912c93b0f20",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236793711,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "will announce European factory by end of 2018, 10-12 factories world-wide in the future"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 212
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236787206,
+        "id": "ad9e41fb-9032-4557-a771-6dd65e7f4378",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236831997,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "will improve Tesla Semi design"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 70
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236877562,
+        "id": "939ca6f1-672c-4558-8518-5472649e3702",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236882822,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "will recycle batteries"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236901047,
+        "id": "19ca8a9c-4bda-4c7f-bc20-62c1883635f7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236934487,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "works with insurance companies to get insurance 20-30% lower than BWM 3, working on improving repair cost"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 228
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236936114,
+        "id": "0523abf6-6825-420e-8af2-ca3fef0d18f8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528236992383,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "free trial for Autopilot"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 66
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528236993202,
+        "id": "d4984720-49fc-45dd-97b4-dac3bb0acec4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237035843,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "making rapid progress on Autopilot software (including new release this week); expects exponential improvements"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 244
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237036297,
+        "id": "0ab05405-54f7-4355-9f24-3a9962bb9421",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237165599,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "model 3 test drives starting end of 07 2018"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 144
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237165969,
+        "id": "3e4c46bc-de51-4c80-8683-74d42fb8211b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237181360,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "doubling service centers every year"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 96
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237189441,
+        "id": "0b4e7898-df31-41b9-bb87-8a787b53bed0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237213178,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "creating Tesla body shop repairs locations; top 10 metro location by end of month"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 184
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237299477,
+        "id": "089be3c9-c08f-47a5-a7e6-17f0f0402185",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237306694,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "compact car in less than 5 years"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 78
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237307413,
+        "id": "bb892e76-ff2a-4f46-a112-ad0aef8be853",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539396678378,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "lease on Model 3 end of 2018 / beginning of 2019"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 114
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237712662,
+        "id": "eb31cde1-618e-4134-9a93-6b4d4a534ed9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237754893,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "talking about virtual plant in Australia that uses 50k PowerPacks; about projects in Puerto Rico"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 258
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528237756006,
+        "id": "a864d5ce-0cb5-4f11-96af-c8c1a848a400",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528237841364,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: can improve charging time 3-4x (that would be 150kW*4 ~= 600kW)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 164
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528238100785,
+        "id": "d0491baa-a832-401a-92ae-20b36ad1c47a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528238141912,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prediction: 30-40% improvement in battery density in 2-3 year, 6-8 years to double"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 214
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528238273699,
+        "id": "84aa8eca-c6fa-48b5-aee2-3a9f104a24b9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528238302513,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "all-wheel drive production starting this month, scale up in July-August, high-volume production in September"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 238
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528238441349,
+        "id": "bbc481b0-9f11-4178-9a74-2bd0e5800c53",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528238448528,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "defends not using lidar"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 84
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528238610528,
+        "id": "532b578b-fb3b-4db7-9ff0-c8774e31a1c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528238827862,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "plans to have the same profit margin in storage business as in car business, ~20-30%"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 206
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528238828676,
+        "id": "c90fea2e-d792-489c-8c7a-4a4908b8857c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528238850262,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "no motorcycles (because Musk almost got killed once)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 110
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528235857217,
+        "id": "c2a21409-f5ec-4ef0-a37a-57c8756ade69",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528235857217,
+        "parent_id": "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533157913824,
+        "id": "67109e88-b115-4cf8-9759-941703a63312",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533160393258,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Autopilot: Stuart: autopilot v9 (auto on-ramp, off-ramp), integrated with navigation. More safety features. Karpathy: leads vision team, neural networks. Pete Bannon: hardware v3 is working to speed up running neural networks. Claims 10x speed improvement over previous hardware (2000 fps vs. 200 fps at the same cost)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 834
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533160441945,
+        "id": "579f0e13-14ff-4242-a3d3-ce7450846077",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533160790954,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: what improved gross margins? A: spinning up production lines has issues and it takes time to debug and optimize production process."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 378
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533160792505,
+        "id": "ab0ecf4a-f217-48cf-aba0-0c95837c992a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533160821395,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Unexpectedly more orders for high-perf version."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 100
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533160821983,
+        "id": "6e16cbbc-5b55-4307-8de3-e29c3488f9ac",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533160981148,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Most frequent trade-ins for Model 3: Toyota Prius, BMW 3, Honda Accord, Honda Civic, Nissan Leaf."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 204
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533160985090,
+        "id": "970e4bb3-d9f0-4c85-9c15-970eb275090d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533161298256,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: gigafactory 3 in China, how much will it cost? A: less than half of Giga 1 capex, $2 billion for ~200k. They are finding ways to improve production and make more with same capex."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 428
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533161301791,
+        "id": "c0f62323-f8d8-40cc-af89-577960eb34fe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533161796915,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: capital spending, how will fund? A: will not be raising equity. For china loan from local banks. There is no notice from regulators that prevent them raising equity."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 426
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533161797145,
+        "id": "fc100f1c-9c1c-4495-8790-a77fbca8f085",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533161923515,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: self-driving can be used as military-grade weapon. Concerns about regulation in China? Didn't come up."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 276
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533161923970,
+        "id": "77507896-29d7-437d-9ecd-91961459570d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533161974059,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: who is bigger competitor: BMW or Amazon? Not Amazon. Praising BMW."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 248
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533161975717,
+        "id": "a8d95b4e-4ca9-4011-9bc3-89ece1071642",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162078789,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: detailed question about margins. A: somewhat generic answer."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 140
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533162153275,
+        "id": "902ec544-bf64-44d8-85a5-7facec4ddfd3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162252217,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: what's holding back coast-to-coast fully autonomous ride. A: could do it in a limited fashion. Focusing on safety and improving basics like recognizing traffic lights etc. "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 380
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533161182500,
+        "id": "229e11c2-396a-4dea-a5a9-ae26bcc08907",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162419276,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: how to better sell Autopilot. A: agrees it would be good."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 154
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533162419500,
+        "id": "e56375a1-a20f-4a90-9860-065109bc2a03",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162609930,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: Is GA4 permanent, is it a model for the future? A: permanent for now. Good because flexible. Also talks about simplifying manufacturing and Model Y."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 361
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533162610326,
+        "id": "49e48bb7-8123-4963-b36e-83ebf1751c78",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162749299,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: what average transaction in the future? A: Reiterating target of 25% margin on Model 3"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 212
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533162750058,
+        "id": "12d49eaf-ddc5-4fcd-83a0-58329e52fa7a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533162929715,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: another question about manufacturing. A: a lot of manufacturing is software and Tesla is better at software. Anti-outsourcing lesson."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 330
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533162934935,
+        "id": "2ac37710-e8de-41cc-a946-65d7c280983c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163181934,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: how close to cash positive. A: re-iterating cash-flow positive and GAAP positive in Q3."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 226
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163182731,
+        "id": "b922660b-997b-45de-9975-0f3085473b05",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163281524,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: still planning 1 million in 2020. A: aiming for a million, somewhere between 500k and 1 million, maybe 750k."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 308
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163306462,
+        "id": "90efc95c-d5bf-43e0-a069-5cbcb67653f4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163365633,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: where will they make Model Y A: not made a decision yet, maybe will announce this year. Hoping to announce European Gigafactory."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 360
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163365917,
+        "id": "800599ba-18f0-458d-8e86-dc9fcfb1868f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163552666,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: how much Model 3 sales pull from other cars? A: no details other the above top 5. Expects battery production to be limiting factor. Not enough cells for PowerWall production."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 400
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163491237,
+        "id": "685cd522-65f7-4b33-92f8-0f431119fcf3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163631180,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: will have reservations for Model Y? A: no decision yet."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 130
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163632058,
+        "id": "8573a9aa-57f1-4cfa-b262-1a458a8076f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163766020,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: technical details on production. A: Currently body production is a bottleneck."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 180
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163766380,
+        "id": "018ebcb7-89e9-484b-ac7c-7e8f7c9aa39a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163897408,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: will Giga 1 produce cars? Technology in Semi. A: No comment about production. Semi will re-use some Model 3 production."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 270
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163898229,
+        "id": "95f6f230-da73-4b6b-aa49-8fb0addaa591",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533164031891,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: car vs. energy production allocation. A: Makes sense to prioritize Model 3. Still, growth in storage is 300% this year, going for 3-4x in 2019."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 330
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533164167390,
+        "id": "2766c0bb-79b5-41e2-9000-fc11f956e01b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533164276142,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q: comment about new strategy of being profitable A: getting to scale that can't spend money efficiently."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 334
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533163170740,
+        "id": "44c96482-7478-4902-8794-f439e20783be",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533163170740,
+        "parent_id": "a3909f65-ba28-468a-a576-0069f4e8990c",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bee6aa87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"d0b6-siMPrHCazJfvKEEYjbQufToxMKY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

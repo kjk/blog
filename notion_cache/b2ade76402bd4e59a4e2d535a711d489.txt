@@ -1,0 +1,918 @@
+2934 1565326236931 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+      "table": "block"
+    }
+  ]
+}
+Response:+1785
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "c40274fb-12fe-4da3-98c7-e12310cdf1f4",
+          "cc6d34fd-9c72-437a-938c-5c4a053b5770",
+          "b5aded4b-a1fb-4c56-b35d-b5b2cfdbd598",
+          "3f646b9c-932f-4a79-a121-e56d233091df",
+          "114f31a1-e668-4dd1-8e23-daf10b364a4e",
+          "12f48af1-f8b3-46ae-8cf1-62a1f91cf4e0",
+          "5c0f682e-6abb-44f5-accf-7b6127bf0c44",
+          "b8178b46-7ba4-4446-a32b-91d819a59c99",
+          "a84e743a-10a1-4db3-aae7-9b882cab132c",
+          "9a98353a-b657-4e58-a1fc-9d60bb967600",
+          "4434dc4c-5c6a-4e86-a5ed-038469cfa118",
+          "44d53772-b702-48fe-aa6a-496917ffb11f",
+          "18b7af7a-9e4b-4a49-94a0-211bcdc88cb1",
+          "85491cc0-b674-4297-9a75-288becf8b585",
+          "4092e349-7a19-4df8-a80e-71da1da3d83f",
+          "be5e618e-ffde-4f48-8c0a-75bac10ecfb5",
+          "e6b876c7-d8ea-4534-bbdd-83d8c87c9975",
+          "9a37e1f3-7925-4310-8cd8-50d0456c89f3",
+          "3b937b89-d902-4f81-aa0d-2685e8bac610",
+          "3656d3b9-b1b2-4d71-852f-29ef26c3d2d6"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1565128686359,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1565294400000,
+        "parent_id": "b975c64f-e460-4212-b00c-a4f8a6aaaf20",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Faster copy \u0026 paste"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 120
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c2f9cd67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:36 GMT"
+  ],
+  "Etag": [
+    "W/\"4fa-AU7WFSpIz2wnGShCYQIHSsyE+Xs\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=de78b0d7c0707605763f948d3736fb3b31565326236; expires=Sat, 08-Aug-20 04:50:36 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28569 1565326236932 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+  "verticalColumns": false
+}
+Response:+27378
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "114f31a1-e668-4dd1-8e23-daf10b364a4e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128980000,
+          "id": "114f31a1-e668-4dd1-8e23-daf10b364a4e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565128980000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "type": "text",
+          "version": 5
+        }
+      },
+      "12f48af1-f8b3-46ae-8cf1-62a1f91cf4e0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128980000,
+          "file_ids": [
+            "d13f9286-a2c4-418e-805c-fd8d4a5b9561"
+          ],
+          "format": {
+            "block_aspect_ratio": 0.20323325635103925,
+            "block_full_width": false,
+            "block_page_width": true,
+            "block_preserve_scale": true,
+            "block_width": 866,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d13f9286-a2c4-418e-805c-fd8d4a5b9561/Screen_Shot_2019-08-06_at_3.02.57_PM.png"
+          },
+          "id": "12f48af1-f8b3-46ae-8cf1-62a1f91cf4e0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565128980000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d13f9286-a2c4-418e-805c-fd8d4a5b9561/Screen_Shot_2019-08-06_at_3.02.57_PM.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "version": 8
+        }
+      },
+      "18b7af7a-9e4b-4a49-94a0-211bcdc88cb1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565131020000,
+          "id": "18b7af7a-9e4b-4a49-94a0-211bcdc88cb1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "But this is also an issue when copying between Notion and other apps, like text editors."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 103
+        }
+      },
+      "3656d3b9-b1b2-4d71-852f-29ef26c3d2d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294400000,
+          "id": "3656d3b9-b1b2-4d71-852f-29ef26c3d2d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "3b937b89-d902-4f81-aa0d-2685e8bac610": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294400000,
+          "id": "3b937b89-d902-4f81-aa0d-2685e8bac610",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "(It's Ctrl-C and Ctrl-V on Windows)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 53
+        }
+      },
+      "3f646b9c-932f-4a79-a121-e56d233091df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128860000,
+          "id": "3f646b9c-932f-4a79-a121-e56d233091df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565130180000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The issue seems to be that Cmd-C is only active when this pop-up is shown:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 99
+        }
+      },
+      "4092e349-7a19-4df8-a80e-71da1da3d83f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294394859,
+          "id": "4092e349-7a19-4df8-a80e-71da1da3d83f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here's a simple test for this issue:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "4434dc4c-5c6a-4e86-a5ed-038469cfa118": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "file_ids": [
+            "2cd4b341-bc4a-411c-8075-24322d60d089"
+          ],
+          "format": {
+            "block_full_width": false,
+            "block_page_width": false,
+            "block_preserve_scale": true,
+            "block_width": 400,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cd4b341-bc4a-411c-8075-24322d60d089/copy-notion-bug.mov"
+          },
+          "id": "4434dc4c-5c6a-4e86-a5ed-038469cfa118",
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cd4b341-bc4a-411c-8075-24322d60d089/copy-notion-bug.mov"
+              ]
+            ]
+          },
+          "type": "video",
+          "version": 8
+        }
+      },
+      "44d53772-b702-48fe-aa6a-496917ffb11f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565130480000,
+          "id": "44d53772-b702-48fe-aa6a-496917ffb11f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565131140000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Instead of copying just the selected text (in blue), the whole block was copied."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 96
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c0f682e-6abb-44f5-accf-7b6127bf0c44": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128920000,
+          "id": "5c0f682e-6abb-44f5-accf-7b6127bf0c44",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565131140000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem is that showing this pop-up is delayed. Cmd-C should work immediately after I can see that the text is selected (has blue background)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 169
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "7097d0b0-6616-4177-9ea3-5929049be1c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "88aee8f4-3620-471a-a9db-cad28368174c",
+            "b975c64f-e460-4212-b00c-a4f8a6aaaf20",
+            "c7d2afd0-5d4d-4e05-99bf-80246c5e590b",
+            "6cf6069b-dbc5-4cff-a0bc-d2e9afb45093",
+            "13813823-462b-4a18-af3d-612905ac564d",
+            "d60cadc2-d4ea-4ef6-8c87-64c1e770efcd",
+            "dd914a65-e807-402a-ae0a-d7f715856e7f",
+            "aa4a3d4f-f468-4eb5-9e75-50dbdee2d258",
+            "a5827afa-aaf7-41bf-b840-723d50a3b682",
+            "c61e0393-9453-44eb-b659-333914dcce8d",
+            "152f647c-f97f-4b76-8842-53a7a588c38f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528075297200,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565128620000,
+          "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "notion"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 68
+        }
+      },
+      "85491cc0-b674-4297-9a75-288becf8b585": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294340000,
+          "id": "85491cc0-b674-4297-9a75-288becf8b585",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294340000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "type": "divider",
+          "version": 15
+        }
+      },
+      "9a37e1f3-7925-4310-8cd8-50d0456c89f3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294400000,
+          "id": "9a37e1f3-7925-4310-8cd8-50d0456c89f3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "3. Now select text and Cmd-C immediately. Switch to text editor and Cmd-V. For me, when I press Cmd-C at my normal speed, I get the old selection pasted, not the new one."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "9a98353a-b657-4e58-a1fc-9d60bb967600": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "copied_from": "a84e743a-10a1-4db3-aae7-9b882cab132c",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565130204379,
+          "id": "9a98353a-b657-4e58-a1fc-9d60bb967600",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565130180000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "a84e743a-10a1-4db3-aae7-9b882cab132c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "copied_from": "04e37f10-884c-4699-aa04-ec54176b3162",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128986815,
+          "id": "a84e743a-10a1-4db3-aae7-9b882cab132c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565131020000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here's an example screen recording where I select text (shown in blue) and quickly press Cmd-C and Cmd-V:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 138
+        }
+      },
+      "b2ade764-02bd-4e59-a4e2-d535a711d489": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c40274fb-12fe-4da3-98c7-e12310cdf1f4",
+            "cc6d34fd-9c72-437a-938c-5c4a053b5770",
+            "b5aded4b-a1fb-4c56-b35d-b5b2cfdbd598",
+            "3f646b9c-932f-4a79-a121-e56d233091df",
+            "114f31a1-e668-4dd1-8e23-daf10b364a4e",
+            "12f48af1-f8b3-46ae-8cf1-62a1f91cf4e0",
+            "5c0f682e-6abb-44f5-accf-7b6127bf0c44",
+            "b8178b46-7ba4-4446-a32b-91d819a59c99",
+            "a84e743a-10a1-4db3-aae7-9b882cab132c",
+            "9a98353a-b657-4e58-a1fc-9d60bb967600",
+            "4434dc4c-5c6a-4e86-a5ed-038469cfa118",
+            "44d53772-b702-48fe-aa6a-496917ffb11f",
+            "18b7af7a-9e4b-4a49-94a0-211bcdc88cb1",
+            "85491cc0-b674-4297-9a75-288becf8b585",
+            "4092e349-7a19-4df8-a80e-71da1da3d83f",
+            "be5e618e-ffde-4f48-8c0a-75bac10ecfb5",
+            "e6b876c7-d8ea-4534-bbdd-83d8c87c9975",
+            "9a37e1f3-7925-4310-8cd8-50d0456c89f3",
+            "3b937b89-d902-4f81-aa0d-2685e8bac610",
+            "3656d3b9-b1b2-4d71-852f-29ef26c3d2d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128686359,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b975c64f-e460-4212-b00c-a4f8a6aaaf20",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Faster copy \u0026 paste"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 120
+        }
+      },
+      "b5aded4b-a1fb-4c56-b35d-b5b2cfdbd598": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128860000,
+          "id": "b5aded4b-a1fb-4c56-b35d-b5b2cfdbd598",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565128860000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It should happen immediately."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 45
+        }
+      },
+      "b8178b46-7ba4-4446-a32b-91d819a59c99": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565129100000,
+          "id": "b8178b46-7ba4-4446-a32b-91d819a59c99",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565129100000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "b975c64f-e460-4212-b00c-a4f8a6aaaf20": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "92d9449c-4dfc-4eb9-a5ce-c8d928307d16",
+            "bc592169-f0a5-4746-ab31-2dc5e31f906a",
+            "561eadde-885e-4010-9fe8-63fb9bc15460",
+            "dc35c26c-d71e-4c0e-ab10-a903236d875a",
+            "d0c06ee5-9d21-4719-b36c-5c18ffce8d1c",
+            "d32b1ab1-ffad-4bb2-a1f0-044fe1e5b7c4",
+            "59e43af2-9de1-4b2b-a869-2672a3e85867",
+            "65443668-f46c-4919-b2d2-8ff9c8110b29",
+            "7cf38158-07ec-451f-92f1-7b5f2385e9fa",
+            "b2ade764-02bd-4e59-a4e2-d535a711d489",
+            "95705362-9611-45e0-bed0-a7eb558c56b3",
+            "fbc5e501-6427-4abc-add7-32b2495e964a",
+            "f1373cae-cf3e-465f-84c0-ad9191c9f000",
+            "347b2016-d1b1-4a2c-9a56-784249d1e84c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492471393032,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b975c64f-e460-4212-b00c-a4f8a6aaaf20",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565233260000,
+          "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Notion bugs and feature requests"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 26
+        }
+      },
+      "be5e618e-ffde-4f48-8c0a-75bac10ecfb5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294394859,
+          "id": "be5e618e-ffde-4f48-8c0a-75bac10ecfb5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "1. Open a text editor next to notion window."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 4
+        }
+      },
+      "c40274fb-12fe-4da3-98c7-e12310cdf1f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128680000,
+          "id": "c40274fb-12fe-4da3-98c7-e12310cdf1f4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565131080000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I copy \u0026 paste to and from Notion very frequently."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 61
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "cc6d34fd-9c72-437a-938c-5c4a053b5770": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565128680000,
+          "id": "cc6d34fd-9c72-437a-938c-5c4a053b5770",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565293740000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Currently it's maddening because there's a delay between the time I can see visually that text is selected (Notion shows it with blue background) and the time copy command (Cmd-C on Mac) will copy the text to clipboard."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 301
+        }
+      },
+      "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+            "f511e438-4d54-4bf4-9b99-deee90438992",
+            "79f8d68c-67a7-47fb-93bf-88a868e85c36",
+            "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+            "7097d0b0-6616-4177-9ea3-5929049be1c4",
+            "c35e671a-9211-44dd-97e7-71325c4f8c61",
+            "bf1261dd-c29f-49de-9a9b-49611911a6da",
+            "a518f0ec-d095-42b1-9aea-4034849fa37e",
+            "184e6d93-e489-4448-b837-9241accf6bda",
+            "16159d4a-d712-4326-8165-c72f4cfe4eec",
+            "4653fe6a-59f2-4002-bac1-2abba014e77e",
+            "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+            "5749be0d-4e27-4e61-99a5-d9de82cb57f8",
+            "c174875e-f8e4-4d6f-b149-4ae10bd5a33c",
+            "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+            "ed889e66-a03b-4980-afe1-e1578ab522e5",
+            "de6b4f3a-a858-466f-9771-6be86ae0a9d4",
+            "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+            "9d802f54-65d3-4881-8445-c46ba6c7202c",
+            "a6bfde90-c3d5-479b-9c38-85dcb126dea0",
+            "ef11ef21-0f07-45d9-b473-2de7b8563a2a",
+            "896a9d12-f40c-44da-924b-b4979993cef3",
+            "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+            "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
+            "e7b071b3-6bfc-4eaa-aa7c-897f19153802",
+            "e9c202dd-9c5a-4e46-b2da-9c492c12ce9d",
+            "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+            "61ad39c0-e049-4818-92ff-7420fa27a390",
+            "ae389859-fcfe-4b73-9187-6decbe1aab54",
+            "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
+            "1b61c073-c94e-46ed-b1f6-e3cb1b4bad4e",
+            "1154caf2-d6b8-430a-83a6-80be9d0a340c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 143
+        }
+      },
+      "e6b876c7-d8ea-4534-bbdd-83d8c87c9975": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1565294400000,
+          "id": "e6b876c7-d8ea-4534-bbdd-83d8c87c9975",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1565294400000,
+          "parent_id": "b2ade764-02bd-4e59-a4e2-d535a711d489",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2. Select text with mouse (blue highlight). Wait. Cmd-C to copy. Switch to text editor and Cmd-V to paste. You should paste the selected text."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c300d087fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:36 GMT"
+  ],
+  "Etag": [
+    "W/\"4886-ISct3o7S4t956VBRlykSAIbSF5U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=de78b0d7c0707605763f948d3736fb3b31565326236; expires=Sat, 08-Aug-20 04:50:36 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

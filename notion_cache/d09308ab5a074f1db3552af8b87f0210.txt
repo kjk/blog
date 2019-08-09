@@ -1,0 +1,1210 @@
+2063 1565326234394 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+      "table": "block"
+    }
+  ]
+}
+Response:+915
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+          "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+          "957241b6-3ca9-4a9e-aab0-449b8b2fcbb7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492646758908,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492646758908,
+        "parent_id": "298a5bdd-313d-46ba-947b-3c4197796b2c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "PDFium"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c1f2ca77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:33 GMT"
+  ],
+  "Etag": [
+    "W/\"254-Z/2zZGhmgxXj37ZkitXgKNq5deM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dedac27010ed01c3834d5c0867b4538661565326233; expires=Sat, 08-Aug-20 04:50:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+10957 1565326234396 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+  "verticalColumns": false
+}
+Response:+9767
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "298a5bdd-313d-46ba-947b-3c4197796b2c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f66255bf-5b60-41a2-b995-8b37cafdc328",
+            "47d93de5-0e51-4f6d-a36f-b0349e29e6f5",
+            "28928fd5-4211-4cc9-87b1-280bed451f34",
+            "fa2c18c3-a7e5-4083-a179-72b86dc48021",
+            "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+            "0d4f3842-99fc-4705-98d7-7ac595610b38",
+            "57219043-78b7-4fe0-9c35-25cd51590794"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1501883015381,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "298a5bdd-313d-46ba-947b-3c4197796b2c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532676921411,
+          "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "pdf format"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 12
+        }
+      },
+      "4f50cc8c-6ac3-4914-899b-a98ca068fc0f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f3d3a026-23f8-4ea1-a69d-b64bc0cabb60",
+            "3db090cf-0140-41f8-b803-33ed0da4de6c",
+            "53f10a36-632c-4e7a-b7a7-979a3b5405dc",
+            "f4928552-a493-4ff0-8c18-05e9a0c0d84e",
+            "b5c48a8f-e9f4-4e74-ac83-a9d3c93f1fc1",
+            "b91e0626-dde3-4caf-953a-a56069842400",
+            "3641615b-a9cd-45ae-b925-26c257fbf71a",
+            "b97d9dfb-9d8e-4dc5-80d3-0483411f80de",
+            "580ca3f4-418e-44e4-95f6-2d7cd5151c9c",
+            "1d1eb7f7-f445-47f4-928b-441d76329a51",
+            "9362f44d-a4e7-40f3-9f98-6279f1b4413b",
+            "e5b5b6d6-88bc-4487-93a1-c86a50f1d22f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492646774015,
+          "id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520282916972,
+          "parent_id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 2
+        }
+      },
+      "555b4b00-8e38-49b8-8a71-90041a6bfc35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "69294301-0f80-4c98-bd0a-7872120eb67a",
+            "3e168cd1-23d8-4a70-ae82-84b4273fe77e",
+            "f14fe712-3cfb-4e85-813c-b16af514c188",
+            "76c9e4cc-8cc6-4174-b7fc-7ee945b6d8ef",
+            "a661ba3b-2d92-4331-9387-e4687157e2b5",
+            "c2954b93-0b56-417f-8da5-bee787423ff5",
+            "be79d467-611a-4e05-9b3b-0c86d7e401eb",
+            "74302f5d-4abc-448f-9601-f2083b1c842b",
+            "d2e28aef-a034-4e3a-b97f-d9db05d2ad06"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512364793243,
+          "id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512364793243,
+          "parent_id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "compiling on windows"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "957241b6-3ca9-4a9e-aab0-449b8b2fcbb7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512364806681,
+          "id": "957241b6-3ca9-4a9e-aab0-449b8b2fcbb7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512364806681,
+          "parent_id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "d09308ab-5a07-4f1d-b355-2af8b87f0210": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+            "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+            "957241b6-3ca9-4a9e-aab0-449b8b2fcbb7"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492646758908,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492646758908,
+          "parent_id": "298a5bdd-313d-46ba-947b-3c4197796b2c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PDFium"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 0
+        }
+      },
+      "ee0eee35-e706-4e75-9b2f-69d1d03125b2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "88a03a0a-bb8e-489b-aa82-797f15b78c54",
+            "0ed634dd-4821-4ad1-8ba8-ff2bb262e35e",
+            "f2f31f05-558f-4784-87f5-1cefe972d151",
+            "e55eb827-b092-4933-8c83-2c4892ef5108",
+            "eb2fc10d-5893-41f9-82b2-ec8e1978acf5",
+            "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
+            "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
+            "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
+            "4ac18b52-d1c4-4261-85d0-d69058ff9a62",
+            "298a5bdd-313d-46ba-947b-3c4197796b2c",
+            "65db085c-d90f-45d2-a271-8f19a7566e1b",
+            "2bcf1198-2d49-48a6-9185-82b06f66eee1",
+            "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
+            "9ffa1c9a-b885-4860-8767-9318db3affdd",
+            "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
+            "202ba373-0e91-4068-a6fc-18b602b1a955"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530068688255,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1538219617432,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "File formats"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 95
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c1fbcce7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:33 GMT"
+  ],
+  "Etag": [
+    "W/\"1965-G7t0/5ey4RhewNb6taBZ+Uafkdw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dedac27010ed01c3834d5c0867b4538661565326233; expires=Sat, 08-Aug-20 04:50:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+20884 1565326234401 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1870
+{
+  "requests": [
+    {
+      "id": "f3d3a026-23f8-4ea1-a69d-b64bc0cabb60",
+      "table": "block"
+    },
+    {
+      "id": "3db090cf-0140-41f8-b803-33ed0da4de6c",
+      "table": "block"
+    },
+    {
+      "id": "53f10a36-632c-4e7a-b7a7-979a3b5405dc",
+      "table": "block"
+    },
+    {
+      "id": "f4928552-a493-4ff0-8c18-05e9a0c0d84e",
+      "table": "block"
+    },
+    {
+      "id": "b5c48a8f-e9f4-4e74-ac83-a9d3c93f1fc1",
+      "table": "block"
+    },
+    {
+      "id": "b91e0626-dde3-4caf-953a-a56069842400",
+      "table": "block"
+    },
+    {
+      "id": "3641615b-a9cd-45ae-b925-26c257fbf71a",
+      "table": "block"
+    },
+    {
+      "id": "b97d9dfb-9d8e-4dc5-80d3-0483411f80de",
+      "table": "block"
+    },
+    {
+      "id": "580ca3f4-418e-44e4-95f6-2d7cd5151c9c",
+      "table": "block"
+    },
+    {
+      "id": "1d1eb7f7-f445-47f4-928b-441d76329a51",
+      "table": "block"
+    },
+    {
+      "id": "9362f44d-a4e7-40f3-9f98-6279f1b4413b",
+      "table": "block"
+    },
+    {
+      "id": "e5b5b6d6-88bc-4487-93a1-c86a50f1d22f",
+      "table": "block"
+    },
+    {
+      "id": "69294301-0f80-4c98-bd0a-7872120eb67a",
+      "table": "block"
+    },
+    {
+      "id": "3e168cd1-23d8-4a70-ae82-84b4273fe77e",
+      "table": "block"
+    },
+    {
+      "id": "f14fe712-3cfb-4e85-813c-b16af514c188",
+      "table": "block"
+    },
+    {
+      "id": "76c9e4cc-8cc6-4174-b7fc-7ee945b6d8ef",
+      "table": "block"
+    },
+    {
+      "id": "a661ba3b-2d92-4331-9387-e4687157e2b5",
+      "table": "block"
+    },
+    {
+      "id": "c2954b93-0b56-417f-8da5-bee787423ff5",
+      "table": "block"
+    },
+    {
+      "id": "be79d467-611a-4e05-9b3b-0c86d7e401eb",
+      "table": "block"
+    },
+    {
+      "id": "74302f5d-4abc-448f-9601-f2083b1c842b",
+      "table": "block"
+    },
+    {
+      "id": "d2e28aef-a034-4e3a-b97f-d9db05d2ad06",
+      "table": "block"
+    }
+  ]
+}
+Response:+17972
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520282916972,
+        "id": "f3d3a026-23f8-4ea1-a69d-b64bc0cabb60",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520282987448,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/sandsmark/pdfium/releases",
+              [
+                [
+                  "a",
+                  "https://github.com/sandsmark/pdfium/releases"
+                ]
+              ]
+            ],
+            [
+              " : pre-build binaries for mac and windows, "
+            ],
+            [
+              "https://groups.google.com/forum/#!topic/pdfium/iBHCzgBjHFg",
+              [
+                [
+                  "a",
+                  "https://groups.google.com/forum/#!topic/pdfium/iBHCzgBjHFg"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://ci.appveyor.com/project/sandsmark/pdfium/build/64/job/clga1tp2v7j0ug8x/artifacts",
+              [
+                [
+                  "a",
+                  "https://ci.appveyor.com/project/sandsmark/pdfium/build/64/job/clga1tp2v7j0ug8x/artifacts"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 137
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492646837568,
+        "id": "3db090cf-0140-41f8-b803-33ed0da4de6c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492646837568,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/pvginkel/PdfiumBuild",
+              [
+                [
+                  "a",
+                  "https://github.com/pvginkel/PdfiumBuild"
+                ]
+              ]
+            ],
+            [
+              " : scripts to build on Windows as a .dll, also hosts daily builds at "
+            ],
+            [
+              "https://assendelft.webathome.org/Pdfium/",
+              [
+                [
+                  "a",
+                  "https://assendelft.webathome.org/Pdfium/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492646874579,
+        "id": "53f10a36-632c-4e7a-b7a7-979a3b5405dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492646874579,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/pvginkel/PdfiumViewer/",
+              [
+                [
+                  "a",
+                  "https://github.com/pvginkel/PdfiumViewer/"
+                ]
+              ]
+            ],
+            [
+              " : Viewer based on PDFium, C# (Winforms and WPF)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492647960146,
+        "id": "f4928552-a493-4ff0-8c18-05e9a0c0d84e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492647960146,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://pdfium.patagames.com/",
+              [
+                [
+                  "a",
+                  "https://pdfium.patagames.com/"
+                ]
+              ]
+            ],
+            [
+              " : SDK for PDFium for C#, $220, but doesn't have anything over pvginkel's"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1500758353999,
+        "id": "b5c48a8f-e9f4-4e74-ac83-a9d3c93f1fc1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1500758353999,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/sandsmark/pdfium/blob/master/appveyor.yml",
+              [
+                [
+                  "a",
+                  "https://github.com/sandsmark/pdfium/blob/master/appveyor.yml"
+                ]
+              ]
+            ],
+            [
+              " : appveyor script to build pdfium as a library"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512355616036,
+        "id": "b91e0626-dde3-4caf-953a-a56069842400",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094405104,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/pvginkel/PdfiumViewer",
+              [
+                [
+                  "a",
+                  "https://github.com/pvginkel/PdfiumViewer"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512355632635,
+        "id": "3641615b-a9cd-45ae-b925-26c257fbf71a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094419838,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://pdfium.patagames.com/",
+              [
+                [
+                  "a",
+                  "http://pdfium.patagames.com/"
+                ]
+              ]
+            ],
+            [
+              " - commercial (but cheap) based on pdfium, "
+            ],
+            [
+              "https://github.com/Patagames/Pdf.WinForms",
+              [
+                [
+                  "a",
+                  "https://github.com/Patagames/Pdf.WinForms"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 30
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364765849,
+        "id": "b97d9dfb-9d8e-4dc5-80d3-0483411f80de",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364765849,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://bugs.chromium.org/p/pdfium/issues/list",
+              [
+                [
+                  "a",
+                  "https://bugs.chromium.org/p/pdfium/issues/list"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364762529,
+        "id": "580ca3f4-418e-44e4-95f6-2d7cd5151c9c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364762529,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/pvginkel/PdfiumViewer",
+              [
+                [
+                  "a",
+                  "https://github.com/pvginkel/PdfiumViewer"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364762529,
+        "id": "1d1eb7f7-f445-47f4-928b-441d76329a51",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364762529,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/rsippl/wxPDFView",
+              [
+                [
+                  "a",
+                  "https://github.com/rsippl/wxPDFView"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364762529,
+        "id": "9362f44d-a4e7-40f3-9f98-6279f1b4413b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364762529,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/vmiklos/vmexam/tree/master/pdfium",
+              [
+                [
+                  "a",
+                  "https://github.com/vmiklos/vmexam/tree/master/pdfium"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364773208,
+        "id": "e5b5b6d6-88bc-4487-93a1-c86a50f1d22f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364773208,
+        "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "69294301-0f80-4c98-bd0a-7872120eb67a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Compiling pdfium on windows:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "3e168cd1-23d8-4a70-ae82-84b4273fe77e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "install "
+            ],
+            [
+              "depot tools",
+              [
+                [
+                  "a",
+                  "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "f14fe712-3cfb-4e85-813c-b16af514c188",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "add depot_tools to PATH ("
+            ],
+            [
+              "setup_depot",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "76c9e4cc-8cc6-4174-b7fc-7ee945b6d8ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "mkdir repo; cd repo",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "a661ba3b-2d92-4331-9387-e4687157e2b5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "fetch pdfium",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "c2954b93-0b56-417f-8da5-bee787423ff5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cd pdfium",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "be79d467-611a-4e05-9b3b-0c86d7e401eb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "generate build files: "
+            ],
+            [
+              "python.bat build\\gyp_pdfium",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "74302f5d-4abc-448f-9601-f2083b1c842b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cd .\\out\\Release",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364808580,
+        "id": "d2e28aef-a034-4e3a-b97f-d9db05d2ad06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364808580,
+        "parent_id": "555b4b00-8e38-49b8-8a71-90041a6bfc35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ninja",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c201d017fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:33 GMT"
+  ],
+  "Etag": [
+    "W/\"29bb-fMQNYEqlERmCAR8vwZywodPDNYY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dedac27010ed01c3834d5c0867b4538661565326233; expires=Sat, 08-Aug-20 04:50:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

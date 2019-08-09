@@ -1,0 +1,1228 @@
+3324 1565326225811 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "89eef919-7135-4045-b6b3-2b0519388748",
+      "table": "block"
+    }
+  ]
+}
+Response:+2175
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "891240b5-4512-4294-b9de-54203f40f983",
+          "9251c754-4286-440e-9d87-01d91492240e",
+          "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+          "66168900-29a4-4b49-98d6-a9af85807d8a",
+          "222676a7-9844-4d5d-a627-0cc98ff04bd4",
+          "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
+          "354e935f-c591-4c8b-8d4d-20d70e081818",
+          "77f72963-3316-4dce-8aeb-cb59958cac1d",
+          "ea906f83-89a8-45c8-8b36-644b2e2769f9",
+          "dc19b5e0-1eb4-4dc8-9116-4d53e83b4f50",
+          "f3f1e7b2-b346-4c5c-b7ea-fd8f7adb048f",
+          "012e7762-ee66-4eb0-8b51-6982f331d410",
+          "60b77322-f3ae-4129-95aa-155b873efcd4",
+          "cd2da4ca-ce83-4aaf-8d01-3fd370c66788",
+          "a2262455-e64d-4c36-b9ba-302a591427ad",
+          "b3745fe1-c4ae-4c7c-ae15-a0bb5cd97741",
+          "9c272765-aa8d-4452-956a-c502d884f60f",
+          "6a2af4b3-9ea5-414a-ac28-2444f321eb4f",
+          "87040025-3d72-43a2-894e-f0bfba852933",
+          "a9f5732a-1a98-4d7c-b9b8-d0e2021b8487",
+          "9d1d2c84-3049-4e71-a83e-ae69361748c1",
+          "b4187419-fef0-4500-bb40-bd05401f540d",
+          "64e5a3b2-fbd9-4c78-8e03-d519534ac5fd",
+          "5f3ff862-f2e3-4163-94ba-4003a1e59c87",
+          "70ae7f8a-c5ad-4811-8147-b7ea734d4220",
+          "70cfde46-1579-4038-b5c0-6297f6e62a94",
+          "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9",
+          "e3fc70d4-fc14-417c-a708-e8b51c4ffcf9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508261938105,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "89eef919-7135-4045-b6b3-2b0519388748",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550085600000,
+        "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "css grid layout"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 79
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371be9a80d7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:24 GMT"
+  ],
+  "Etag": [
+    "W/\"62d-OQK/xMrpy7/FMGq8IZcWbSrfUd8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ded0d36fcee0db5afc4be978339dba3aa1565326224; expires=Sat, 08-Aug-20 04:50:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+36935 1565326225814 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "89eef919-7135-4045-b6b3-2b0519388748",
+  "verticalColumns": false
+}
+Response:+35744
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "012e7762-ee66-4eb0-8b51-6982f331d410": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508262197449,
+          "id": "012e7762-ee66-4eb0-8b51-6982f331d410",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508262197449,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://css-tricks.com/things-ive-learned-css-grid-layout/",
+                [
+                  [
+                    "a",
+                    "https://css-tricks.com/things-ive-learned-css-grid-layout/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "222676a7-9844-4d5d-a627-0cc98ff04bd4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1538600217413,
+          "id": "222676a7-9844-4d5d-a627-0cc98ff04bd4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1538600217754,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://css-tricks.com/preventing-a-grid-blowout/",
+                [
+                  [
+                    "a",
+                    "https://css-tricks.com/preventing-a-grid-blowout/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "2a54acb5-cea8-4600-b608-cf4afc7afdc5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1533877455166,
+          "id": "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1533877463407,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://grid.malven.co/",
+                [
+                  [
+                    "a",
+                    "http://grid.malven.co/"
+                  ]
+                ]
+              ],
+              [
+                " : visual css layout"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 55
+        }
+      },
+      "354e935f-c591-4c8b-8d4d-20d70e081818": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520043934899,
+          "id": "354e935f-c591-4c8b-8d4d-20d70e081818",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520043942404,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout",
+                [
+                  [
+                    "a",
+                    "https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout"
+                  ]
+                ]
+              ],
+              [
+                " : rebuilds VS Code layout"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 71
+        }
+      },
+      "4da97980-9fb6-45cb-886a-51c656751d35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c708a15-fad2-4e38-bbd3-513320386063",
+            "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+            "6eb26b91-5c85-46e4-a0bc-f8f2a4c89701"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493148639391,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web programming, webdev"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5f3ff862-f2e3-4163-94ba-4003a1e59c87": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516741497031,
+          "id": "5f3ff862-f2e3-4163-94ba-4003a1e59c87",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516741497320,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://bitsofco.de/github-contribution-graph-css-grid/",
+                [
+                  [
+                    "a",
+                    "https://bitsofco.de/github-contribution-graph-css-grid/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "60b77322-f3ae-4129-95aa-155b873efcd4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261986080,
+          "id": "60b77322-f3ae-4129-95aa-155b873efcd4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508261986080,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://labs.jensimmons.com/",
+                [
+                  [
+                    "a",
+                    "http://labs.jensimmons.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "64e5a3b2-fbd9-4c78-8e03-d519534ac5fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515885592712,
+          "id": "64e5a3b2-fbd9-4c78-8e03-d519534ac5fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516741503443,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://www.creativebloq.com/features/css-grid-layout-secrets-revealed",
+                [
+                  [
+                    "a",
+                    "http://www.creativebloq.com/features/css-grid-layout-secrets-revealed?utm_source=frontendfocus\u0026utm_medium=email"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 93
+        }
+      },
+      "66168900-29a4-4b49-98d6-a9af85807d8a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1538600085583,
+          "id": "66168900-29a4-4b49-98d6-a9af85807d8a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1538600085945,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.sitepoint.com/creating-css-grid-layouts/",
+                [
+                  [
+                    "a",
+                    "https://www.sitepoint.com/creating-css-grid-layouts/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "6a2af4b3-9ea5-414a-ac28-2444f321eb4f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1510832112280,
+          "id": "6a2af4b3-9ea5-414a-ac28-2444f321eb4f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514551205780,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/incessantmeraki/Modern-CSS-Layout-Handbook",
+                [
+                  [
+                    "a",
+                    "https://github.com/incessantmeraki/Modern-CSS-Layout-Handbook"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "70ae7f8a-c5ad-4811-8147-b7ea734d4220": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1517027498396,
+          "id": "70ae7f8a-c5ad-4811-8147-b7ea734d4220",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1517027498680,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://cssgrid.io/",
+                [
+                  [
+                    "a",
+                    "https://cssgrid.io/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "70cfde46-1579-4038-b5c0-6297f6e62a94": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1518636272562,
+          "id": "70cfde46-1579-4038-b5c0-6297f6e62a94",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1518636273104,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://hacks.mozilla.org/2018/02/css-grid-for-ui-layouts/",
+                [
+                  [
+                    "a",
+                    "https://hacks.mozilla.org/2018/02/css-grid-for-ui-layouts/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "77f72963-3316-4dce-8aeb-cb59958cac1d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514551179620,
+          "id": "77f72963-3316-4dce-8aeb-cb59958cac1d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514551181908,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://css-tricks.com/snippets/css/complete-guide-grid/",
+                [
+                  [
+                    "a",
+                    "https://css-tricks.com/snippets/css/complete-guide-grid/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "87040025-3d72-43a2-894e-f0bfba852933": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514546285445,
+          "id": "87040025-3d72-43a2-894e-f0bfba852933",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514546287613,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://medium.freecodecamp.org/how-to-recreate-mediums-article-layout-with-css-grid-b4608792bad1",
+                [
+                  [
+                    "a",
+                    "https://medium.freecodecamp.org/how-to-recreate-mediums-article-layout-with-css-grid-b4608792bad1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "891240b5-4512-4294-b9de-54203f40f983": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261938105,
+          "id": "891240b5-4512-4294-b9de-54203f40f983",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520043934642,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "89eef919-7135-4045-b6b3-2b0519388748": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "891240b5-4512-4294-b9de-54203f40f983",
+            "9251c754-4286-440e-9d87-01d91492240e",
+            "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+            "66168900-29a4-4b49-98d6-a9af85807d8a",
+            "222676a7-9844-4d5d-a627-0cc98ff04bd4",
+            "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
+            "354e935f-c591-4c8b-8d4d-20d70e081818",
+            "77f72963-3316-4dce-8aeb-cb59958cac1d",
+            "ea906f83-89a8-45c8-8b36-644b2e2769f9",
+            "dc19b5e0-1eb4-4dc8-9116-4d53e83b4f50",
+            "f3f1e7b2-b346-4c5c-b7ea-fd8f7adb048f",
+            "012e7762-ee66-4eb0-8b51-6982f331d410",
+            "60b77322-f3ae-4129-95aa-155b873efcd4",
+            "cd2da4ca-ce83-4aaf-8d01-3fd370c66788",
+            "a2262455-e64d-4c36-b9ba-302a591427ad",
+            "b3745fe1-c4ae-4c7c-ae15-a0bb5cd97741",
+            "9c272765-aa8d-4452-956a-c502d884f60f",
+            "6a2af4b3-9ea5-414a-ac28-2444f321eb4f",
+            "87040025-3d72-43a2-894e-f0bfba852933",
+            "a9f5732a-1a98-4d7c-b9b8-d0e2021b8487",
+            "9d1d2c84-3049-4e71-a83e-ae69361748c1",
+            "b4187419-fef0-4500-bb40-bd05401f540d",
+            "64e5a3b2-fbd9-4c78-8e03-d519534ac5fd",
+            "5f3ff862-f2e3-4163-94ba-4003a1e59c87",
+            "70ae7f8a-c5ad-4811-8147-b7ea734d4220",
+            "70cfde46-1579-4038-b5c0-6297f6e62a94",
+            "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9",
+            "e3fc70d4-fc14-417c-a708-e8b51c4ffcf9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261938105,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1550085600000,
+          "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css grid layout"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 79
+        }
+      },
+      "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508275989270,
+          "id": "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1550085600000,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://mxb.at/blog/css-grid-admin-dashboard/",
+                [
+                  [
+                    "a",
+                    "https://mxb.at/blog/css-grid-admin-dashboard/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "9251c754-4286-440e-9d87-01d91492240e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1544502897203,
+          "id": "9251c754-4286-440e-9d87-01d91492240e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544502911866,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://mayagao.github.io/css-quick-reference/",
+                [
+                  [
+                    "a",
+                    "https://mayagao.github.io/css-quick-reference/"
+                  ]
+                ]
+              ],
+              [
+                " : visual explanation of some grid properties"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 112
+        }
+      },
+      "9c272765-aa8d-4452-956a-c502d884f60f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513828449884,
+          "id": "9c272765-aa8d-4452-956a-c502d884f60f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513828465197,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://advent2017.digitpaint.nl/7/",
+                [
+                  [
+                    "a",
+                    "https://advent2017.digitpaint.nl/7/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 17
+        }
+      },
+      "9d1d2c84-3049-4e71-a83e-ae69361748c1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514863391816,
+          "id": "9d1d2c84-3049-4e71-a83e-ae69361748c1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514863405438,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://cloudfour.com/thinks/breaking-out-with-css-grid-layout/",
+                [
+                  [
+                    "a",
+                    "https://cloudfour.com/thinks/breaking-out-with-css-grid-layout/"
+                  ]
+                ]
+              ],
+              [
+                " : how to make some parts break out of the grid"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 107
+        }
+      },
+      "a2262455-e64d-4c36-b9ba-302a591427ad": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1510003888177,
+          "id": "a2262455-e64d-4c36-b9ba-302a591427ad",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1510003888177,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://aerolab.co/blog/flexbox-grids/",
+                [
+                  [
+                    "a",
+                    "https://aerolab.co/blog/flexbox-grids/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "a9f5732a-1a98-4d7c-b9b8-d0e2021b8487": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514863351788,
+          "id": "a9f5732a-1a98-4d7c-b9b8-d0e2021b8487",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514863375191,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout",
+                [
+                  [
+                    "a",
+                    "https://www.bitovi.com/blog/using-css-grid-to-build-a-page-layout"
+                  ]
+                ]
+              ],
+              [
+                " : implementing atom ide like layout"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 133
+        }
+      },
+      "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1527300226377,
+          "id": "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1527300227972,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/",
+                [
+                  [
+                    "a",
+                    "https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "b3745fe1-c4ae-4c7c-ae15-a0bb5cd97741": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513578841746,
+          "id": "b3745fe1-c4ae-4c7c-ae15-a0bb5cd97741",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513578842769,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-box-alignment-new-layout-standard/",
+                [
+                  [
+                    "a",
+                    "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-box-alignment-new-layout-standard/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "b4187419-fef0-4500-bb40-bd05401f540d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514863776579,
+          "id": "b4187419-fef0-4500-bb40-bd05401f540d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1514863777045,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://blogs.igalia.com/mrego/2016/02/01/deep-dive-into-grid-layout-placement/",
+                [
+                  [
+                    "a",
+                    "https://blogs.igalia.com/mrego/2016/02/01/deep-dive-into-grid-layout-placement/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+            "c47b7a17-6b4e-440c-a17d-a97af441c43a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513208401787,
+          "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "cd2da4ca-ce83-4aaf-8d01-3fd370c66788": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508265685469,
+          "id": "cd2da4ca-ce83-4aaf-8d01-3fd370c66788",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508265685469,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-1/",
+                [
+                  [
+                    "a",
+                    "https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-1/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "dc19b5e0-1eb4-4dc8-9116-4d53e83b4f50": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508262071640,
+          "id": "dc19b5e0-1eb4-4dc8-9116-4d53e83b4f50",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508262071640,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://varun.ca/css-grid-2/",
+                [
+                  [
+                    "a",
+                    "http://varun.ca/css-grid-2/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "e3fc70d4-fc14-417c-a708-e8b51c4ffcf9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513828465892,
+          "id": "e3fc70d4-fc14-417c-a708-e8b51c4ffcf9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513828465892,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "e69efbed-9eb2-488b-9471-8d0ae76ed728": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "50b80b35-fd43-40de-9023-f0d6f324f540",
+            "787003c8-d17d-4122-8104-c30c7ed21601",
+            "8c63609c-679f-4a5a-929e-731d891c172f",
+            "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
+            "b581742e-9f43-4912-9ada-9bdb27328398",
+            "383485cc-2a56-49e4-8141-4f236cf51a68",
+            "89eef919-7135-4045-b6b3-2b0519388748",
+            "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+            "3af433aa-634b-417c-9242-3446f488f442"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496213351894,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552553340000,
+          "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "css"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 19
+        }
+      },
+      "ea906f83-89a8-45c8-8b36-644b2e2769f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261961790,
+          "id": "ea906f83-89a8-45c8-8b36-644b2e2769f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508261961790,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://varun.ca/css-grid/",
+                [
+                  [
+                    "a",
+                    "http://varun.ca/css-grid/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "f3f1e7b2-b346-4c5c-b7ea-fd8f7adb048f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508261984256,
+          "id": "f3f1e7b2-b346-4c5c-b7ea-fd8f7adb048f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508261984256,
+          "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://gridbyexample.com/",
+                [
+                  [
+                    "a",
+                    "https://gridbyexample.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "fa41cc44-c715-40f3-aafe-fdaff617ef7a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d3935805-7603-4673-95a6-565d6a27b702",
+            "d8f255ad-bbdd-4000-9956-8f8f22a385ce",
+            "0e53211b-84da-49c2-880f-fcea30915a3c",
+            "2f318861-97f0-40dc-945e-7984f3d9d79e",
+            "e5012c2e-2a98-4082-9243-4de9d482f3ea",
+            "90b32ed5-e082-4cfd-8add-b045b12cec93",
+            "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
+            "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+            "f5895d7f-c2fc-45e0-9ea1-bb4b11721af7",
+            "ca91dc08-8066-4240-a75b-ba010250e6e3",
+            "a2b0cda3-f76c-484b-a405-d80c412265d6",
+            "00d91491-80e8-429e-9579-436281717fa7",
+            "08758c1a-198b-4a85-8fd0-83a7e218d314",
+            "9a738391-5f77-4fe0-ae54-21a2e21d0fcd",
+            "4ff077ea-55d4-4db2-bea7-ad70751133f9",
+            "99074a86-31df-4401-b42c-90eed46c48b1",
+            "26c135f6-77cc-4486-bcae-68f7eb3190d5",
+            "09fcd255-8bc4-45aa-8dc4-80b402e08468",
+            "956e8e7b-ef54-4c23-9199-811c087ec1ae"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "parent_table": "block",
+          "type": "column",
+          "version": 144
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bea18307fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"56ad-1bGIJoPzWXcU+pgsLZpMyVpud/E\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=ded0d36fcee0db5afc4be978339dba3aa1565326224; expires=Sat, 08-Aug-20 04:50:24 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

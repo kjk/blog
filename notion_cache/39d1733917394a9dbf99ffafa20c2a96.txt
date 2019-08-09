@@ -1,0 +1,1286 @@
+3742 1565326221889 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+      "table": "block"
+    }
+  ]
+}
+Response:+2593
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "ba8d3ae9-7a1a-46a9-8ea2-7295a1d33539",
+          "b2b85bb8-b06a-42f7-8d20-a38ba2126dc5",
+          "d0e62926-14b7-4fa3-b59b-5ba598b8a54b",
+          "25c1db05-c969-4578-ac53-ce75d36b0a17",
+          "f196a6e8-1c1e-4747-8afd-212ed940dd03",
+          "7321acea-a131-4a4e-a3a6-f9ef3b2714aa",
+          "98e566b8-ce89-4094-85c2-54ae1741ecc6",
+          "9f00cff5-fb43-4541-83df-91d45f1ae4f5",
+          "b33564e7-dfe0-4d50-916d-d7e8e0bc8f33",
+          "9f4ae5f9-9e2f-46c3-971c-b201d0e32c4a",
+          "08af8a14-96bf-4b3e-bdb1-4d09c11c12ad",
+          "20ce03c5-689e-474d-bc2f-87ccd713356e",
+          "d69c8a07-84b4-4de0-aceb-48ebbcefaf05",
+          "870097a5-4586-477e-9984-d01759ac3685",
+          "f1c163d5-98ac-4c80-87bf-81c66684398a",
+          "5cb75d4d-3c42-4486-94a3-ff214e435713",
+          "264ddced-b032-4a71-9815-7badf7206974",
+          "567e43cb-28ad-42e4-9682-502181abcb36",
+          "e33a036c-229b-4502-8c08-e2f990039288",
+          "4eaf2a38-eae7-4a8a-92c4-240bdec406ea",
+          "892a570a-b983-43b4-8fb7-8de9809ebc5c",
+          "15cba0fc-ac2e-48c5-a119-16a375451612",
+          "85b99805-5db8-4ef1-a8a2-0f7180ff0389",
+          "11610a85-48e9-4981-ad49-67056fb48cef",
+          "c02cbad1-ccac-4f61-acce-d6ebd90398bc",
+          "6f72f637-2be1-492c-ade0-11c10f160d5b",
+          "1f95f8f1-094e-4e98-9b97-593274d92df5",
+          "98aa694f-90fa-4d25-8188-cf505017c8be",
+          "f2624055-e427-48c5-b8e6-b18dfdd88b2e",
+          "112805bf-cf9c-4c00-ab26-a21bca7c00e5"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531888786897,
+        "file_ids": [
+          "f4649414-a80a-475f-92bf-dfda91b0689a"
+        ],
+        "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
+          "page_cover_position": 0.5,
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532405771089,
+        "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Embedding build number in Go executable"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 50
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371bd198637fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:21 GMT"
+  ],
+  "Etag": [
+    "W/\"779-rQ91kOS5G8gRdbT78zIFQ9Jcleg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d865c270840473949b4b8b17c391656421565326221; expires=Sat, 08-Aug-20 04:50:21 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+39172 1565326221891 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+  "verticalColumns": false
+}
+Response:+37981
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "08af8a14-96bf-4b3e-bdb1-4d09c11c12ad": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786889,
+          "id": "08af8a14-96bf-4b3e-bdb1-4d09c11c12ad",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786889,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you’re using git, that would be sha1 of the revision used to build the program."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "112805bf-cf9c-4c00-ab26-a21bca7c00e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786896,
+          "id": "112805bf-cf9c-4c00-ab26-a21bca7c00e5",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889687184,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Code for this chapter: "
+              ],
+              [
+                "https://github.com/kjk/go-cookbook/tree/master/embed-build-number",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/tree/master/embed-build-number"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "11610a85-48e9-4981-ad49-67056fb48cef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889706791,
+          "id": "11610a85-48e9-4981-ad49-67056fb48cef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889708398,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "-ldflags \"${flags}\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " tells Go build tool to pass "
+              ],
+              [
+                "${flags}",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " to go linker"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 12
+        }
+      },
+      "15cba0fc-ac2e-48c5-a119-16a375451612": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889692535,
+          "id": "15cba0fc-ac2e-48c5-a119-16a375451612",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889700026,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "git rev-parse HEAD",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " returns sha1 of the current revision, e.g. "
+              ],
+              [
+                "e5ce06c1f604efb1de91d515d5de865e7e164d59",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 21
+        }
+      },
+      "1f95f8f1-094e-4e98-9b97-593274d92df5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786895,
+          "id": "1f95f8f1-094e-4e98-9b97-593274d92df5",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786895,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If this is a web application, we can additionally add a debug page that would show the version. I often do it "
+              ],
+              [
+                "like that",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/main.go#L43"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "20ce03c5-689e-474d-bc2f-87ccd713356e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786889,
+          "id": "20ce03c5-689e-474d-bc2f-87ccd713356e",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786889,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We can embed that version in the executable during build thanks Go linker’s "
+              ],
+              [
+                "-X",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " option which allows to change any variable in the program."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "25c1db05-c969-4578-ac53-ce75d36b0a17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "25c1db05-c969-4578-ac53-ce75d36b0a17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889723055,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "UpdatedAt: 2017-07-09T01:50:32Z"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "264ddced-b032-4a71-9815-7badf7206974": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786891,
+          "id": "264ddced-b032-4a71-9815-7badf7206974",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786891,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Full example: "
+              ],
+              [
+                "embed-build-number/build.sh",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.sh"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "39d17339-1739-4a9d-bf99-ffafa20c2a96": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ba8d3ae9-7a1a-46a9-8ea2-7295a1d33539",
+            "b2b85bb8-b06a-42f7-8d20-a38ba2126dc5",
+            "d0e62926-14b7-4fa3-b59b-5ba598b8a54b",
+            "25c1db05-c969-4578-ac53-ce75d36b0a17",
+            "f196a6e8-1c1e-4747-8afd-212ed940dd03",
+            "7321acea-a131-4a4e-a3a6-f9ef3b2714aa",
+            "98e566b8-ce89-4094-85c2-54ae1741ecc6",
+            "9f00cff5-fb43-4541-83df-91d45f1ae4f5",
+            "b33564e7-dfe0-4d50-916d-d7e8e0bc8f33",
+            "9f4ae5f9-9e2f-46c3-971c-b201d0e32c4a",
+            "08af8a14-96bf-4b3e-bdb1-4d09c11c12ad",
+            "20ce03c5-689e-474d-bc2f-87ccd713356e",
+            "d69c8a07-84b4-4de0-aceb-48ebbcefaf05",
+            "870097a5-4586-477e-9984-d01759ac3685",
+            "f1c163d5-98ac-4c80-87bf-81c66684398a",
+            "5cb75d4d-3c42-4486-94a3-ff214e435713",
+            "264ddced-b032-4a71-9815-7badf7206974",
+            "567e43cb-28ad-42e4-9682-502181abcb36",
+            "e33a036c-229b-4502-8c08-e2f990039288",
+            "4eaf2a38-eae7-4a8a-92c4-240bdec406ea",
+            "892a570a-b983-43b4-8fb7-8de9809ebc5c",
+            "15cba0fc-ac2e-48c5-a119-16a375451612",
+            "85b99805-5db8-4ef1-a8a2-0f7180ff0389",
+            "11610a85-48e9-4981-ad49-67056fb48cef",
+            "c02cbad1-ccac-4f61-acce-d6ebd90398bc",
+            "6f72f637-2be1-492c-ade0-11c10f160d5b",
+            "1f95f8f1-094e-4e98-9b97-593274d92df5",
+            "98aa694f-90fa-4d25-8188-cf505017c8be",
+            "f2624055-e427-48c5-b8e6-b18dfdd88b2e",
+            "112805bf-cf9c-4c00-ab26-a21bca7c00e5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786897,
+          "file_ids": [
+            "f4649414-a80a-475f-92bf-dfda91b0689a"
+          ],
+          "format": {
+            "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
+            "page_cover_position": 0.5,
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532405771089,
+          "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Embedding build number in Go executable"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 50
+        }
+      },
+      "4eaf2a38-eae7-4a8a-92c4-240bdec406ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786892,
+          "id": "4eaf2a38-eae7-4a8a-92c4-240bdec406ea",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786892,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Full example: "
+              ],
+              [
+                "embed-build-number/build.ps1",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.ps1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "567e43cb-28ad-42e4-9682-502181abcb36": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786891,
+          "id": "567e43cb-28ad-42e4-9682-502181abcb36",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786891,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On Windows we would write powershell script "
+              ],
+              [
+                "build.ps1",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5cb75d4d-3c42-4486-94a3-ff214e435713": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786890,
+          "id": "5cb75d4d-3c42-4486-94a3-ff214e435713",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889673600,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "#!/bin/bash\n\n# notice how we avoid spaces in $now to avoid quotation hell in go build command\nnow=$(date +'%Y-%m-%d_%T')\ngo build -ldflags \"-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now\""
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "6f72f637-2be1-492c-ade0-11c10f160d5b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786894,
+          "id": "6f72f637-2be1-492c-ade0-11c10f160d5b",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889678822,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "var (\n    flgVersion bool\n)\n\nfunc parseCmdLineFlags() {\n    flag.BoolVar(\u0026flgVersion, \"version\", false, \"if true, print version and exit\")\n    flag.Parse()\n    if flgVersion {\n        fmt.Printf(\"Build on %s from sha1 %s\\n\", buildTime, sha1ver)\n        os.Exit(0)\n    }\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "7321acea-a131-4a4e-a3a6-f9ef3b2714aa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "7321acea-a131-4a4e-a3a6-f9ef3b2714aa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889723055,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Collection: go-cookbook"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "7495260a-1daa-4611-8858-ad2e049e77e6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e6ca5046-8d98-4b5a-9e0c-883636419632",
+            "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+            "ac7e26d8-7292-40f2-adea-5a9c63c00394",
+            "da74af7a-3096-4880-8249-be7a79fc8156",
+            "8ede890d-08ce-444f-a52d-105ddea4d3e4",
+            "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
+            "15b069ab-c983-4dce-b2a4-32d05c46e2e2",
+            "e1f2db06-a96a-413a-a10e-e0723f6802ab",
+            "1c001c20-740f-492d-9ca4-79ae9334a67f",
+            "4a5192a1-8aeb-40da-a8f5-6b1236435340",
+            "2a1131aa-835f-4169-82b1-a4856e248cd1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888785220,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "7495260a-1daa-4611-8858-ad2e049e77e6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1539978870003,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Go Cookbook"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 57
+        }
+      },
+      "85b99805-5db8-4ef1-a8a2-0f7180ff0389": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889700026,
+          "id": "85b99805-5db8-4ef1-a8a2-0f7180ff0389",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889706791,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "-X main.sha1ver=${foo}",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " tells Go linker to set variable "
+              ],
+              [
+                "sha1ver",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " in package "
+              ],
+              [
+                "main",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " to "
+              ],
+              [
+                "${foo}",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "870097a5-4586-477e-9984-d01759ac3685": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786889,
+          "id": "870097a5-4586-477e-9984-d01759ac3685",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889671280,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "package main\n\nvar (\n    sha1ver   string // sha1 revision used to build the program\n    buildTime string // when the executable was built\n)"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "892a570a-b983-43b4-8fb7-8de9809ebc5c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786893,
+          "id": "892a570a-b983-43b4-8fb7-8de9809ebc5c",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889692535,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s deconstruct:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "98aa694f-90fa-4d25-8188-cf505017c8be": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786896,
+          "id": "98aa694f-90fa-4d25-8188-cf505017c8be",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889684479,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "func servePlainText(w http.ResponseWriter, s string) {\n    w.Header().Set(\"Content-Type\", \"text/plain\")\n    w.Header().Set(\"Content-Length\", strconv.Itoa(len(s)))\n    w.WriteHeader(http.StatusOK)\n    w.Write([]byte(s))\n}\n\n// /app/debug\nfunc handleDebug(w http.ResponseWriter, r *http.Request) {\n    s := fmt.Sprintf(\"url: %s %s\", r.Method, r.RequestURI)\n    a := []string{s}\n\n    a = append(a, \"Headers:\")\n    for k, v := range r.Header {\n        if len(v) == 0 {\n            a = append(a, k)\n        } else if len(v) == 1 {\n            s = fmt.Sprintf(\"  %s: %v\", k, v[0])\n            a = append(a, s)\n        } else {\n            a = append(a, \"  \"+k+\":\")\n            for _, v2 := range v {\n                a = append(a, \"    \"+v2)\n            }\n        }\n    }\n\n    a = append(a, \"\")\n    a = append(a, fmt.Sprintf(\"ver: https://github.com/kjk/go-cookbook/commit/%s\", sha1ver))\n    a = append(a, fmt.Sprintf(\"built on: %s\", buildTime))\n\n    s = strings.Join(a, \"\\n\")\n    servePlainText(w, s)\n}\n\nfunc makeHTTPServer() *http.Server {\n    mux := \u0026http.ServeMux{}\n\n    mux.HandleFunc(\"/app/debug\", handleDebug)\n\n    return \u0026http.Server{\n        ReadTimeout:  5 * time.Second,\n        WriteTimeout: 5 * time.Second,\n        IdleTimeout:  120 * time.Second,\n        Handler:      mux,\n    }\n}\n\nfunc startHTTPServer() {\n    httpAddr := \"127.0.0.1:4040\"\n    httpSrv := makeHTTPServer()\n    httpSrv.Addr = httpAddr\n    fmt.Printf(\"Visit http://%s/app/debug\\n\", httpAddr)\n    err := httpSrv.ListenAndServe()\n    if err != nil {\n        log.Fatalf(\"httpSrv.ListendAndServe() failed with %s\\n\", err)\n    }\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "98e566b8-ce89-4094-85c2-54ae1741ecc6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "98e566b8-ce89-4094-85c2-54ae1741ecc6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889723055,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Description: How to embed build number in Go executable."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "9f00cff5-fb43-4541-83df-91d45f1ae4f5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889726486,
+          "id": "9f00cff5-fb43-4541-83df-91d45f1ae4f5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889726486,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "9f4ae5f9-9e2f-46c3-971c-b201d0e32c4a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786889,
+          "id": "9f4ae5f9-9e2f-46c3-971c-b201d0e32c4a",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786889,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "When debugging problems it’s good to know what version of the code is running."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b2b85bb8-b06a-42f7-8d20-a38ba2126dc5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "b2b85bb8-b06a-42f7-8d20-a38ba2126dc5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889723055,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: go"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "b33564e7-dfe0-4d50-916d-d7e8e0bc8f33": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786887,
+          "id": "b33564e7-dfe0-4d50-916d-d7e8e0bc8f33",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786887,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "So you’ve deployed your web application to production and it’s running on a server far, far away."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba8d3ae9-7a1a-46a9-8ea2-7295a1d33539": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723047,
+          "id": "ba8d3ae9-7a1a-46a9-8ea2-7295a1d33539",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889738467,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: vEja"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 6
+        }
+      },
+      "c02cbad1-ccac-4f61-acce-d6ebd90398bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786894,
+          "id": "c02cbad1-ccac-4f61-acce-d6ebd90398bc",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786894,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We also need an easy way to see that version. We can add "
+              ],
+              [
+                "-version",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " cmd-line flag to "
+              ],
+              [
+                "print it out",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/main.go#L26"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d0e62926-14b7-4fa3-b59b-5ba598b8a54b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "d0e62926-14b7-4fa3-b59b-5ba598b8a54b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889723055,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CreatedAt: 2017-07-07T09:01:20Z"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "d69c8a07-84b4-4de0-aceb-48ebbcefaf05": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786889,
+          "id": "d69c8a07-84b4-4de0-aceb-48ebbcefaf05",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786889,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In our Go program we would have:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e33a036c-229b-4502-8c08-e2f990039288": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786891,
+          "id": "e33a036c-229b-4502-8c08-e2f990039288",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531889675824,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Go"
+              ]
+            ],
+            "title": [
+              [
+                "# notice how we avoid spaces in $now to avoid quotation hell in go build command\n$now = Get-Date -UFormat \"%Y-%m-%d_%T\"\n$sha1 = (git rev-parse HEAD).Trim()\n\ngo build -ldflags \"-X main.sha1ver=$sha1 -X main.buildTime=$now\""
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "f196a6e8-1c1e-4747-8afd-212ed940dd03": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531889723048,
+          "id": "f196a6e8-1c1e-4747-8afd-212ed940dd03",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532405771089,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "PublishedOn: 2017-07-13"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 4
+        }
+      },
+      "f1c163d5-98ac-4c80-87bf-81c66684398a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786890,
+          "id": "f1c163d5-98ac-4c80-87bf-81c66684398a",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786890,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "We can set that variable to sha1 of the git revision in our build script "
+              ],
+              [
+                "build.sh",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f2624055-e427-48c5-b8e6-b18dfdd88b2e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531888786896,
+          "id": "f2624055-e427-48c5-b8e6-b18dfdd88b2e",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531888786896,
+          "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In addition to printing version of the code I also show HTTP headers. During debugging, the more information, the better."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bd1f89f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:21 GMT"
+  ],
+  "Etag": [
+    "W/\"5da0-4MNMzvboHeZK/8onK0JQ9CF6jhM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d865c270840473949b4b8b17c391656421565326221; expires=Sat, 08-Aug-20 04:50:21 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

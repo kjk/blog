@@ -1,0 +1,1064 @@
+2994 1565326110811 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+      "table": "block"
+    }
+  ]
+}
+Response:+1845
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
+          "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
+          "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
+          "4d551f13-830e-479c-84bf-0f889bb0eca3",
+          "5be23634-424f-46a7-85a6-71d828b0a141",
+          "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
+          "acce5f8a-d06d-425b-a886-bdccd3f9df02",
+          "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
+          "f7e75216-d48d-4989-88d3-a733c9e81711",
+          "edde199f-c166-495d-b00a-b2fcee292d12",
+          "cf584cd0-a776-483e-8b57-c2cb1580bd74",
+          "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
+          "535be14c-e514-4fa2-bbed-cdc529989e55",
+          "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
+          "d7995392-c218-4c52-920f-4ee6b33844c8",
+          "5de98585-cd65-44c4-8cbe-04f462283b61",
+          "76d649da-f850-425c-a9fb-c9c07071e4f2",
+          "03def337-f6b7-4847-8034-6544bbae72f6",
+          "df44289a-2bf7-4b34-b081-dc256273976f",
+          "5ff38682-b20e-44e4-87f2-6c635c1070cb",
+          "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530253989400,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530683413996,
+        "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Building Go from source on Windows"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 158
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037191a9bb47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:29 GMT"
+  ],
+  "Etag": [
+    "W/\"530-9mA5M4fifTk5rGhtLOL+KIfP64k\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc69a460991e0bd43eebd33a56dd6a7f91565326109; expires=Sat, 08-Aug-20 04:48:29 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+29948 1565326110813 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+  "verticalColumns": false
+}
+Response:+28757
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "029fd97e-ebdf-427e-a15b-30deb57ff2dc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254149443,
+          "id": "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530255267403,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "checkout latest Go sources "
+              ],
+              [
+                "git checkout https://github.com/golang/go.git",
+                [
+                  [
+                    "a",
+                    "https://github.com/golang/go.git"
+                  ],
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 155
+        }
+      },
+      "03def337-f6b7-4847-8034-6544bbae72f6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530683413996,
+          "id": "03def337-f6b7-4847-8034-6544bbae72f6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530683438873,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                ".\\runtime.test.exe \"-test.run\" TestRuntimePanic",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 56
+        }
+      },
+      "1b7bddac-5520-4dec-9cf0-a56907c4013e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254218145,
+          "id": "1b7bddac-5520-4dec-9cf0-a56907c4013e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530300463501,
+          "parent_id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "set GOROOT_BOOTSTRAP=C:\\Go",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " in cmd.exe"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 41
+        }
+      },
+      "2ea6c538-25b7-41c7-aacc-23fa301cbe60": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254305038,
+          "id": "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530301558449,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Running just runtime tests, in powershell:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 108
+        }
+      },
+      "386ce37b-19f5-455c-8b13-12bc6ff45fd6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530305693164,
+          "id": "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530305693556,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                ". \"${env:GOROOT}\\bin\\go\" test -c runtime",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "4d551f13-830e-479c-84bf-0f889bb0eca3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254046853,
+          "id": "4d551f13-830e-479c-84bf-0f889bb0eca3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530255241065,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "install gcc from "
+              ],
+              [
+                "https://nuwen.net/mingw.html",
+                [
+                  [
+                    "a",
+                    "https://nuwen.net/mingw.html"
+                  ]
+                ]
+              ],
+              [
+                ". I used "
+              ],
+              [
+                "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe",
+                [
+                  [
+                    "a",
+                    "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe"
+                  ]
+                ]
+              ],
+              [
+                " and extracted to c:\\MinGW"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 166
+        }
+      },
+      "528ab837-97cb-4a46-ac5e-9c83fa275d1b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254028939,
+          "id": "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254046632,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "must have Go installed (by default to "
+              ],
+              [
+                "C:\\Go",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 133
+        }
+      },
+      "535be14c-e514-4fa2-bbed-cdc529989e55": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530301526738,
+          "id": "535be14c-e514-4fa2-bbed-cdc529989e55",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530301550895,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$env:GOROOT = \"C:\\Users\\kjk\\src\\go\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 23
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5be23634-424f-46a7-85a6-71d828b0a141": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254131467,
+          "id": "5be23634-424f-46a7-85a6-71d828b0a141",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530255248277,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In a "
+              ],
+              [
+                "cmd.exe",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " (not PowerShell, because it screws things up):"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 146
+        }
+      },
+      "5de98585-cd65-44c4-8cbe-04f462283b61": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530307062555,
+          "id": "5de98585-cd65-44c4-8cbe-04f462283b61",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530307077167,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$env:TEST_G0_STACK_OVERFLOW = \"1\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 58
+        }
+      },
+      "5ff38682-b20e-44e4-87f2-6c635c1070cb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530303766337,
+          "id": "5ff38682-b20e-44e4-87f2-6c635c1070cb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530305697481,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "type": "text",
+          "version": 8
+        }
+      },
+      "6f70163e-a5b8-4ba9-928a-faa2e45d1f51": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1b338041-238f-4b08-83a8-9e23a3989c88",
+            "25c1809f-e05f-43c0-8b3d-af1cce2d5945",
+            "56c7102b-120f-42a3-81ff-d4673507a0d3",
+            "1cae71c4-e3f2-40a6-8cbf-380eac594d37",
+            "5a832dad-dc7e-45c9-9025-807c013cfa8b",
+            "fe3aac0b-2171-4dd8-8a69-f6889f05a8ac",
+            "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+            "e0c915d3-04e0-4da7-b455-6aa03929dfca",
+            "b1cff481-c77e-43e4-a604-6b5582c12fdf",
+            "74400c4f-5c50-4d60-9893-22638b9e5037",
+            "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+            "08e41706-8555-46c3-a074-dae41cf910d8",
+            "ed2347d7-29bd-4c41-9b2b-52fed11e4ec7",
+            "591cfada-b10d-443a-bd75-1a3365cbeef9",
+            "d19571fb-1515-49bf-b875-c26c46f75837",
+            "e3aa0199-ee36-492a-90fb-92aa3fe8ba25",
+            "bc5ada73-f538-449e-91d3-61f6857e2ebc",
+            "6435bf2e-2453-4c41-94bf-08cb397eeda3",
+            "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+            "9d54f7ea-1a6e-4b3c-b788-efc3cfcf9e92"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1474753820011,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1537164927987,
+          "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Go"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 27
+        }
+      },
+      "76d649da-f850-425c-a9fb-c9c07071e4f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530305699068,
+          "id": "76d649da-f850-425c-a9fb-c9c07071e4f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530307100438,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "gdb --args .\\runtime.test.exe \"-test.run\" TestG0StackOverflow",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 134
+        }
+      },
+      "787e1dc0-1afb-4a07-a9c7-944f73b25edf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254180499,
+          "id": "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254253175,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "add gcc to PATH by running "
+              ],
+              [
+                "c:\\MinGW\\set_distro_paths.bat",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 126
+        }
+      },
+      "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530303756308,
+          "id": "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530305731204,
+          "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "br runtime.badmorestackg0",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 19
+        }
+      },
+      "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254056359,
+          "id": "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254094725,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "must have Git installed (from "
+              ],
+              [
+                "https://git-scm.com/downloads",
+                [
+                  [
+                    "a",
+                    "https://git-scm.com/downloads"
+                  ]
+                ]
+              ],
+              [
+                ")"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 78
+        }
+      },
+      "acce5f8a-d06d-425b-a886-bdccd3f9df02": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254174676,
+          "id": "acce5f8a-d06d-425b-a886-bdccd3f9df02",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254179901,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "cd go\\src",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 52
+        }
+      },
+      "aea20e01-890c-4874-ae08-4557d7789195": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+            "ed055f63-753e-42ef-9025-e11ac9062c35"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530068313902,
+          "id": "aea20e01-890c-4874-ae08-4557d7789195",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554270960000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Programming:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 48
+        }
+      },
+      "be8e234c-d7bf-4d0e-8917-726b133f99fb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530300437648,
+          "id": "be8e234c-d7bf-4d0e-8917-726b133f99fb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530300466188,
+          "parent_id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$env:GOROOT_BOOTSTRAP = \"c:\\Go\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " in powershell"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 65
+        }
+      },
+      "bf2363a5-6186-4fa5-8c08-a3c6d2305f97": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
+            "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
+            "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
+            "4d551f13-830e-479c-84bf-0f889bb0eca3",
+            "5be23634-424f-46a7-85a6-71d828b0a141",
+            "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
+            "acce5f8a-d06d-425b-a886-bdccd3f9df02",
+            "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
+            "f7e75216-d48d-4989-88d3-a733c9e81711",
+            "edde199f-c166-495d-b00a-b2fcee292d12",
+            "cf584cd0-a776-483e-8b57-c2cb1580bd74",
+            "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
+            "535be14c-e514-4fa2-bbed-cdc529989e55",
+            "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
+            "d7995392-c218-4c52-920f-4ee6b33844c8",
+            "5de98585-cd65-44c4-8cbe-04f462283b61",
+            "76d649da-f850-425c-a9fb-c9c07071e4f2",
+            "03def337-f6b7-4847-8034-6544bbae72f6",
+            "df44289a-2bf7-4b34-b081-dc256273976f",
+            "5ff38682-b20e-44e4-87f2-6c635c1070cb",
+            "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530253989400,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530683413996,
+          "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Building Go from source on Windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 158
+        }
+      },
+      "cf584cd0-a776-483e-8b57-c2cb1580bd74": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530301519941,
+          "id": "cf584cd0-a776-483e-8b57-c2cb1580bd74",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530301519941,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "d7995392-c218-4c52-920f-4ee6b33844c8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530301560324,
+          "id": "d7995392-c218-4c52-920f-4ee6b33844c8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530306019285,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                ". \"${env:GOROOT}\\bin\\go\" test -c runtime -ldflags=-linkmode=external",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 25
+        }
+      },
+      "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530301569087,
+          "id": "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530301569087,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "df44289a-2bf7-4b34-b081-dc256273976f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
+            "f98f156e-75e0-4872-80f5-74cc65c8c568"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530305727768,
+          "id": "df44289a-2bf7-4b34-b081-dc256273976f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530309262620,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In gdb:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 24
+        }
+      },
+      "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530253998123,
+          "id": "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254028721,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Pre-requisties:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 44
+        }
+      },
+      "edde199f-c166-495d-b00a-b2fcee292d12": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530254257100,
+          "id": "edde199f-c166-495d-b00a-b2fcee292d12",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530254303698,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "all.bat",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " : this builds Go and runs the tests"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 46
+        }
+      },
+      "f7e75216-d48d-4989-88d3-a733c9e81711": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1b7bddac-5520-4dec-9cf0-a56907c4013e",
+            "be8e234c-d7bf-4d0e-8917-726b133f99fb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530300449695,
+          "id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530300463935,
+          "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "set "
+              ],
+              [
+                "GOROOT_BOOTSTRAP",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 68
+        }
+      },
+      "f98f156e-75e0-4872-80f5-74cc65c8c568": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530309262620,
+          "id": "f98f156e-75e0-4872-80f5-74cc65c8c568",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530309262620,
+          "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037191b0bd77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:30 GMT"
+  ],
+  "Etag": [
+    "W/\"43e6-aPLR4z5SOKE79hNV7NMjj8hGTWw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dc69a460991e0bd43eebd33a56dd6a7f91565326109; expires=Sat, 08-Aug-20 04:48:29 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

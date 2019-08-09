@@ -1,0 +1,955 @@
+2916 1565326099610 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+      "table": "block"
+    }
+  ]
+}
+Response:+1767
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5cd94e8b-cf41-40ff-9615-734125bb8952",
+          "74a36cc5-45dc-405d-885f-e2c8a1134cef",
+          "ecef3b3b-875f-4a8c-b5e6-6fe03741caab",
+          "8b63b110-3311-4add-afdc-730175dde746",
+          "af3b2e69-5c25-4a83-b624-d6122e6e5158",
+          "136715ee-7b17-4456-bb71-b7ef3595e0a7",
+          "7a48eede-f617-49ee-94f6-1e35fbd8bf5c",
+          "cc303c0d-a04e-4322-bfa0-040041c3cc95",
+          "e65d0c02-53a4-473f-a1a0-86e3c78ab1a0",
+          "09deaf2f-56d4-4db6-bdc9-099ab14564da",
+          "ea3cd31c-9dfc-4e8a-a1a2-201d811ba10c",
+          "cce3c1b7-7503-45c1-a4b1-f1a15d7d37fc",
+          "522f889c-6461-4caa-8026-9d1221a9f705",
+          "a3282939-623a-49d1-b0b6-ad95da643491",
+          "12c72f98-5646-43dc-b5ec-5dd32fbee4fb",
+          "f7a1494f-fb47-4b1a-819c-1174860475e9",
+          "f5721042-8b2e-43a5-b4ca-c684d8354f36",
+          "629bdda5-7c21-4cd6-b206-c8485e5d51fc",
+          "5b9e3c0e-265a-47b3-9d0c-9714fab85c20",
+          "145c413b-b1f4-4341-a91d-39daeb3f722e"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496442317405,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1527202671967,
+        "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "webpack"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 30
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718d5487a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:18 GMT"
+  ],
+  "Etag": [
+    "W/\"4ed-Z0UzSVeTDVdSQT/RfFYSBJmrV3g\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d7c71c284e04937c620ca52f4dccfc48a1565326098; expires=Sat, 08-Aug-20 04:48:18 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28183 1565326099610 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+  "verticalColumns": false
+}
+Response:+26992
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "09deaf2f-56d4-4db6-bdc9-099ab14564da": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1498204119784,
+          "id": "09deaf2f-56d4-4db6-bdc9-099ab14564da",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515458634748,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://webpack.js.org/configuration/",
+                [
+                  [
+                    "a",
+                    "https://webpack.js.org/configuration/"
+                  ]
+                ]
+              ],
+              [
+                " : official docs"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 2
+        }
+      },
+      "12c72f98-5646-43dc-b5ec-5dd32fbee4fb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512294312465,
+          "id": "12c72f98-5646-43dc-b5ec-5dd32fbee4fb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512294312465,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.youtube.com/watch?v=MzVFrIAwwS8",
+                [
+                  [
+                    "a",
+                    "https://www.youtube.com/watch?v=MzVFrIAwwS8"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "136715ee-7b17-4456-bb71-b7ef3595e0a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515376756686,
+          "id": "136715ee-7b17-4456-bb71-b7ef3595e0a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515376757059,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a",
+                [
+                  [
+                    "a",
+                    "https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "145c413b-b1f4-4341-a91d-39daeb3f722e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515453437661,
+          "id": "145c413b-b1f4-4341-a91d-39daeb3f722e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515453437661,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "2a75c15d-68f7-4745-ace3-d4b52319affd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5cd94e8b-cf41-40ff-9615-734125bb8952",
+            "74a36cc5-45dc-405d-885f-e2c8a1134cef",
+            "ecef3b3b-875f-4a8c-b5e6-6fe03741caab",
+            "8b63b110-3311-4add-afdc-730175dde746",
+            "af3b2e69-5c25-4a83-b624-d6122e6e5158",
+            "136715ee-7b17-4456-bb71-b7ef3595e0a7",
+            "7a48eede-f617-49ee-94f6-1e35fbd8bf5c",
+            "cc303c0d-a04e-4322-bfa0-040041c3cc95",
+            "e65d0c02-53a4-473f-a1a0-86e3c78ab1a0",
+            "09deaf2f-56d4-4db6-bdc9-099ab14564da",
+            "ea3cd31c-9dfc-4e8a-a1a2-201d811ba10c",
+            "cce3c1b7-7503-45c1-a4b1-f1a15d7d37fc",
+            "522f889c-6461-4caa-8026-9d1221a9f705",
+            "a3282939-623a-49d1-b0b6-ad95da643491",
+            "12c72f98-5646-43dc-b5ec-5dd32fbee4fb",
+            "f7a1494f-fb47-4b1a-819c-1174860475e9",
+            "f5721042-8b2e-43a5-b4ca-c684d8354f36",
+            "629bdda5-7c21-4cd6-b206-c8485e5d51fc",
+            "5b9e3c0e-265a-47b3-9d0c-9714fab85c20",
+            "145c413b-b1f4-4341-a91d-39daeb3f722e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496442317405,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1527202671967,
+          "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "webpack"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 30
+        }
+      },
+      "4da97980-9fb6-45cb-886a-51c656751d35": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8c708a15-fad2-4e38-bbd3-513320386063",
+            "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+            "6eb26b91-5c85-46e4-a0bc-f8f2a4c89701"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493148639391,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553219400000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web programming, webdev"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 92
+        }
+      },
+      "522f889c-6461-4caa-8026-9d1221a9f705": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512294299242,
+          "id": "522f889c-6461-4caa-8026-9d1221a9f705",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512294299242,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html",
+                [
+                  [
+                    "a",
+                    "http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5b9e3c0e-265a-47b3-9d0c-9714fab85c20": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1527202671967,
+          "id": "5b9e3c0e-265a-47b3-9d0c-9714fab85c20",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1527202672292,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://engineering.monsanto.com/2018/05/18/webpack4/",
+                [
+                  [
+                    "a",
+                    "http://engineering.monsanto.com/2018/05/18/webpack4/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "5cd94e8b-cf41-40ff-9615-734125bb8952": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496442321098,
+          "id": "5cd94e8b-cf41-40ff-9615-734125bb8952",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496442321098,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "629bdda5-7c21-4cd6-b206-c8485e5d51fc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516314797485,
+          "id": "629bdda5-7c21-4cd6-b206-c8485e5d51fc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516314797781,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1",
+                [
+                  [
+                    "a",
+                    "https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "74a36cc5-45dc-405d-885f-e2c8a1134cef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1523043883728,
+          "id": "74a36cc5-45dc-405d-885f-e2c8a1134cef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1523043885238,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/GoogleChromeLabs/webpack-libs-optimizations",
+                [
+                  [
+                    "a",
+                    "https://github.com/GoogleChromeLabs/webpack-libs-optimizations"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "7a48eede-f617-49ee-94f6-1e35fbd8bf5c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515377531081,
+          "id": "7a48eede-f617-49ee-94f6-1e35fbd8bf5c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515377531452,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://vuejsdevelopers.com/2017/06/18/vue-js-boost-your-app-with-webpack/",
+                [
+                  [
+                    "a",
+                    "https://vuejsdevelopers.com/2017/06/18/vue-js-boost-your-app-with-webpack/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "8b63b110-3311-4add-afdc-730175dde746": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515372706231,
+          "id": "8b63b110-3311-4add-afdc-730175dde746",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515372708590,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://survivejs.com/webpack/developing/getting-started/",
+                [
+                  [
+                    "a",
+                    "https://survivejs.com/webpack/developing/getting-started/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 15
+        }
+      },
+      "a3282939-623a-49d1-b0b6-ad95da643491": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512294305986,
+          "id": "a3282939-623a-49d1-b0b6-ad95da643491",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512294305986,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://christianalfoni.github.io/react-webpack-cookbook/Getting-started.html",
+                [
+                  [
+                    "a",
+                    "http://christianalfoni.github.io/react-webpack-cookbook/Getting-started.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "af3b2e69-5c25-4a83-b624-d6122e6e5158": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515375494558,
+          "id": "af3b2e69-5c25-4a83-b624-d6122e6e5158",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515375494873,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9",
+                [
+                  [
+                    "a",
+                    "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+            "c47b7a17-6b4e-440c-a17d-a97af441c43a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1513208401787,
+          "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 6
+        }
+      },
+      "c47b7a17-6b4e-440c-a17d-a97af441c43a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+            "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+            "96f13c56-22d9-4629-b828-11bd27c57bad",
+            "90eb791a-9db9-4934-b823-3cda5b1adcfa",
+            "b3be4adb-1ace-49dd-a3a0-57cf3888ff86",
+            "f6a44c22-0fbe-47ed-83a9-6299d32d6617",
+            "0c6cd619-f3f4-448f-940e-b85317aa34d0",
+            "737fa2b5-07b6-4215-a893-e3451a275d43",
+            "29416d8f-74a1-4b94-a128-fbb638277ae5",
+            "0bf7d482-d612-4b90-b02c-a82e410d017b",
+            "7b96a8df-df45-418a-b397-1c0a1a467314",
+            "2a75c15d-68f7-4745-ace3-d4b52319affd",
+            "549b8840-1eb1-4bf8-a0fc-5adad64960cc",
+            "e2baf309-cea7-4284-9627-4547085bd681",
+            "51e263b9-e569-4456-8b0f-881b050a1f07",
+            "65830ea1-3638-41fe-9f7f-a14f75a8056b",
+            "d5ef6e3d-e215-45d7-9c25-418f1ba2a51d",
+            "78416031-074a-4ffd-aea0-5cb899b68b20"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1513208401787,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532382006532,
+          "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
+          "parent_table": "block",
+          "type": "column",
+          "version": 109
+        }
+      },
+      "cc303c0d-a04e-4322-bfa0-040041c3cc95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496442322519,
+          "id": "cc303c0d-a04e-4322-bfa0-040041c3cc95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496442322519,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/pinterest/bonsai",
+                [
+                  [
+                    "a",
+                    "https://github.com/pinterest/bonsai"
+                  ]
+                ]
+              ],
+              [
+                " : webpack analyser, "
+              ],
+              [
+                "https://medium.com/@Pinterest_Engineering/introducing-bonsai-an-open-source-webpack-analyzer-6bdfe22f8984",
+                [
+                  [
+                    "a",
+                    "https://medium.com/@Pinterest_Engineering/introducing-bonsai-an-open-source-webpack-analyzer-6bdfe22f8984"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "cce3c1b7-7503-45c1-a4b1-f1a15d7d37fc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512294291626,
+          "id": "cce3c1b7-7503-45c1-a4b1-f1a15d7d37fc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512294291626,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/petehunt/webpack-howto",
+                [
+                  [
+                    "a",
+                    "https://github.com/petehunt/webpack-howto"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "e65d0c02-53a4-473f-a1a0-86e3c78ab1a0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1498204101152,
+          "id": "e65d0c02-53a4-473f-a1a0-86e3c78ab1a0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1498204101152,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://survivejs.com/webpack/developing/getting-started/",
+                [
+                  [
+                    "a",
+                    "https://survivejs.com/webpack/developing/getting-started/"
+                  ]
+                ]
+              ],
+              [
+                " : a book on webpack"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "ea3cd31c-9dfc-4e8a-a1a2-201d811ba10c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1508038032372,
+          "id": "ea3cd31c-9dfc-4e8a-a1a2-201d811ba10c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1508038032372,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://what-problem-does-it-solve.com/webpack/intro.html",
+                [
+                  [
+                    "a",
+                    "https://what-problem-does-it-solve.com/webpack/intro.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "ecef3b3b-875f-4a8c-b5e6-6fe03741caab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516390201551,
+          "id": "ecef3b3b-875f-4a8c-b5e6-6fe03741caab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516390211610,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/zouhir/jarvis",
+                [
+                  [
+                    "a",
+                    "https://github.com/zouhir/jarvis"
+                  ]
+                ]
+              ],
+              [
+                " : webpack dashboard"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 60
+        }
+      },
+      "f5721042-8b2e-43a5-b4ca-c684d8354f36": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516314791186,
+          "id": "f5721042-8b2e-43a5-b4ca-c684d8354f36",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516314791484,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://iamakulov.com/notes/webpack-front-end-size-caching/",
+                [
+                  [
+                    "a",
+                    "https://iamakulov.com/notes/webpack-front-end-size-caching/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "f7a1494f-fb47-4b1a-819c-1174860475e9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512521029534,
+          "id": "f7a1494f-fb47-4b1a-819c-1174860475e9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512521029534,
+          "parent_id": "2a75c15d-68f7-4745-ace3-d4b52319affd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.netlify.com/blog/2017/11/30/starting-with-webpack-from-scratch/",
+                [
+                  [
+                    "a",
+                    "https://www.netlify.com/blog/2017/11/30/starting-with-webpack-from-scratch/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718d5c89f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:18 GMT"
+  ],
+  "Etag": [
+    "W/\"420e-wJOW0tETvfpn4BQaucZvaahSLcM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d7c71c284e04937c620ca52f4dccfc48a1565326098; expires=Sat, 08-Aug-20 04:48:18 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

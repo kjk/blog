@@ -1,0 +1,1201 @@
+2213 1565326146694 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "a0918966-943e-427c-8f9f-0171a6f52745",
+      "table": "block"
+    }
+  ]
+}
+Response:+1064
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "340fc157-bb16-4f81-8f5a-500c8d49282d",
+          "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+          "6b5063af-7abd-4539-a96d-ab83c659a923",
+          "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+          "9728ba34-06ce-430d-b1be-daa3048f857b",
+          "d022d37e-a67d-4cb6-b0bd-d42ab63302bb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900705407,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530089787499,
+        "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "MySQL"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 9
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719fb3c3a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:05 GMT"
+  ],
+  "Etag": [
+    "W/\"2c8-5uOpuIcYvRT9M2xvhBHDBGpOrmY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d56be812836d0b5e66a9d7fe47dc0805a1565326145; expires=Sat, 08-Aug-20 04:49:05 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+14549 1565326146697 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "a0918966-943e-427c-8f9f-0171a6f52745",
+  "verticalColumns": false
+}
+Response:+13358
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0586f9d3-24fc-4cd6-a951-c323895c7ef5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ce66ac80-93c9-4f82-9d7d-78dbb92aa0c2",
+            "6acae330-c93b-462a-a531-01379db2b7f4",
+            "c01f2e9f-c225-4265-a0ba-54ae39c7655d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492912265282,
+          "id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492912265282,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "default config for mysql:5.6 docker image"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "340fc157-bb16-4f81-8f5a-500c8d49282d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2b67bb04-b2b1-49e3-ac10-46216c586ccf",
+            "073e2c47-6722-4d11-ac1d-b7e006c71af8",
+            "037abc27-dc81-40b7-9333-4720ec321186",
+            "6bfb93d0-0c39-4a36-b024-6f2876705421",
+            "53a81843-2670-4bdf-bb41-fe83cd1bc7aa"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492900709635,
+          "id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492900709635,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "connecting to the database with "
+              ],
+              [
+                "mysql",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " executable"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "515006ec-a4e4-48fa-af52-65dce7674e79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2deca6d7-09eb-4b54-9b1c-8397165d9972",
+            "91b14d80-b9df-458c-ab7d-588a9f5dccec",
+            "6a2aafdb-0faa-4881-ad72-a7c29d355691",
+            "6325967d-6fab-488e-8882-a4b619ac90fc",
+            "ba0bb283-71f2-42f2-a35b-781a8a668b3a",
+            "4df7b812-4234-4e24-8135-1c3898254ba2",
+            "9491f8fb-6117-4313-9c98-fc1fc32605c4",
+            "a0918966-943e-427c-8f9f-0171a6f52745",
+            "b28448f6-f67b-4919-bcea-922a116a1144",
+            "1a23cb2d-ca3e-40e3-bfff-ae52b04551fb",
+            "ea50f379-0961-4e43-93f5-05a0641bd92a",
+            "8bba674f-b821-45d7-b654-ac75f711c31b",
+            "7992e194-348d-481c-89d2-082f6a945b3c",
+            "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+            "28a9eec3-d1de-42f7-9c95-ba9cbe399758",
+            "bf9325b5-606d-4e27-b27a-4a5dd1b12f46",
+            "85d70691-eb7a-45f6-991c-e9c20cbae0b9",
+            "0e931590-f27c-40fc-8710-5626a4ad6324",
+            "9a2c2066-aee3-4427-95ed-c1c3c058741a",
+            "f074cc9e-dae7-4b63-9544-30cd19c2ba04",
+            "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+            "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
+            "f1d2dc66-ecfe-417d-9cd6-3e7ae33d6078",
+            "5734a97a-c4bb-4777-9a23-e7e54764e1c1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.5625
+          },
+          "id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 106
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6b5063af-7abd-4539-a96d-ab83c659a923": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d836f2b8-0829-425f-8f9e-1123dd90e6be",
+            "f9c5c40f-68b1-42b6-b4c2-efa16a91a192",
+            "8796e13b-cd4e-46bd-92f9-92366539a446",
+            "d173c4c9-760f-49a4-9b02-077d64066075"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492900865077,
+          "id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492900865077,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "mysql cmd-line ui"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "9728ba34-06ce-430d-b1be-daa3048f857b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b9935de3-67f0-4327-97f3-1fa8e028020c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368447358,
+          "id": "9728ba34-06ce-430d-b1be-daa3048f857b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512368447358,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "notes"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "a0918966-943e-427c-8f9f-0171a6f52745": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "6b5063af-7abd-4539-a96d-ab83c659a923",
+            "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+            "9728ba34-06ce-430d-b1be-daa3048f857b",
+            "d022d37e-a67d-4cb6-b0bd-d42ab63302bb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492900705407,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530089787499,
+          "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "MySQL"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 9
+        }
+      },
+      "b600d302-84b2-4c3e-8ab2-8a87c33d260e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "fc2c96bc-e4e8-432c-8008-308b9fdabb5d",
+            "dbbd1456-2791-4af2-a4ca-b87ccb252919",
+            "939ac4d9-adc9-4c99-b1e0-73e6607b0f20",
+            "519e7a3b-fe0f-4638-bfba-e771ac8b6061",
+            "998be927-53f2-46c6-9361-723902a9d577"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492996905855,
+          "id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530089786390,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "using "
+              ],
+              [
+                "mysqlsh [OPTIONS] [URI] -f \u003cpath\u003e [script args...]",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 2
+        }
+      },
+      "d022d37e-a67d-4cb6-b0bd-d42ab63302bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368450814,
+          "id": "d022d37e-a67d-4cb6-b0bd-d42ab63302bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512368450814,
+          "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719fbac557fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:05 GMT"
+  ],
+  "Etag": [
+    "W/\"21b7-YKlVhic4OCDTj/UBvjyDTfdDKWA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d56be812836d0b5e66a9d7fe47dc0805a1565326145; expires=Sat, 08-Aug-20 04:49:05 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+19014 1565326146698 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1606
+{
+  "requests": [
+    {
+      "id": "2b67bb04-b2b1-49e3-ac10-46216c586ccf",
+      "table": "block"
+    },
+    {
+      "id": "073e2c47-6722-4d11-ac1d-b7e006c71af8",
+      "table": "block"
+    },
+    {
+      "id": "037abc27-dc81-40b7-9333-4720ec321186",
+      "table": "block"
+    },
+    {
+      "id": "6bfb93d0-0c39-4a36-b024-6f2876705421",
+      "table": "block"
+    },
+    {
+      "id": "53a81843-2670-4bdf-bb41-fe83cd1bc7aa",
+      "table": "block"
+    },
+    {
+      "id": "fc2c96bc-e4e8-432c-8008-308b9fdabb5d",
+      "table": "block"
+    },
+    {
+      "id": "dbbd1456-2791-4af2-a4ca-b87ccb252919",
+      "table": "block"
+    },
+    {
+      "id": "939ac4d9-adc9-4c99-b1e0-73e6607b0f20",
+      "table": "block"
+    },
+    {
+      "id": "519e7a3b-fe0f-4638-bfba-e771ac8b6061",
+      "table": "block"
+    },
+    {
+      "id": "998be927-53f2-46c6-9361-723902a9d577",
+      "table": "block"
+    },
+    {
+      "id": "d836f2b8-0829-425f-8f9e-1123dd90e6be",
+      "table": "block"
+    },
+    {
+      "id": "f9c5c40f-68b1-42b6-b4c2-efa16a91a192",
+      "table": "block"
+    },
+    {
+      "id": "8796e13b-cd4e-46bd-92f9-92366539a446",
+      "table": "block"
+    },
+    {
+      "id": "d173c4c9-760f-49a4-9b02-077d64066075",
+      "table": "block"
+    },
+    {
+      "id": "ce66ac80-93c9-4f82-9d7d-78dbb92aa0c2",
+      "table": "block"
+    },
+    {
+      "id": "6acae330-c93b-462a-a531-01379db2b7f4",
+      "table": "block"
+    },
+    {
+      "id": "c01f2e9f-c225-4265-a0ba-54ae39c7655d",
+      "table": "block"
+    },
+    {
+      "id": "b9935de3-67f0-4327-97f3-1fa8e028020c",
+      "table": "block"
+    }
+  ]
+}
+Response:+16366
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900731741,
+        "id": "2b67bb04-b2b1-49e3-ac10-46216c586ccf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900731741,
+        "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "/usr/bin/mysql -u root@localhost --password=\u003cpwd\u003e \u003cdbname\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900749140,
+        "id": "073e2c47-6722-4d11-ac1d-b7e006c71af8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900749140,
+        "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "-p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : will ask for password"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492996803589,
+        "id": "037abc27-dc81-40b7-9333-4720ec321186",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492996803589,
+        "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "--password",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : provide password"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492901124275,
+        "id": "6bfb93d0-0c39-4a36-b024-6f2876705421",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492901124275,
+        "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "--port=3307",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : connect to non-standard port (3306 is default)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900811393,
+        "id": "53a81843-2670-4bdf-bb41-fe83cd1bc7aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900811393,
+        "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Can connect to remote servers, but the server might be configured to not allow remote connections (per user)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492996916526,
+        "id": "fc2c96bc-e4e8-432c-8008-308b9fdabb5d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492996916526,
+        "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "on mac use "
+            ],
+            [
+              "brew install Caskroom/cask/mysql-shell",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to install"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492997091130,
+        "id": "dbbd1456-2791-4af2-a4ca-b87ccb252919",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492997091130,
+        "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "--sql",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : run in sql mode (JavaScript is default)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492996966870,
+        "id": "939ac4d9-adc9-4c99-b1e0-73e6607b0f20",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492996966870,
+        "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "-f \u003cpath\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : process a file"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492997010851,
+        "id": "519e7a3b-fe0f-4638-bfba-e771ac8b6061",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492997010851,
+        "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "--port=\u003cport\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : connect to port"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492997039711,
+        "id": "998be927-53f2-46c6-9361-723902a9d577",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530089787499,
+        "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "--dbuser=\u003cuser\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : user"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 2
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900924016,
+        "id": "d836f2b8-0829-425f-8f9e-1123dd90e6be",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900924016,
+        "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "show databases;",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900946631,
+        "id": "f9c5c40f-68b1-42b6-b4c2-efa16a91a192",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900946631,
+        "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "use \u003cdb\u003e;",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900949285,
+        "id": "8796e13b-cd4e-46bd-92f9-92366539a446",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900949285,
+        "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "show tables;",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492901018190,
+        "id": "d173c4c9-760f-49a4-9b02-077d64066075",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492901018190,
+        "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "describe \u003ctable\u003e;",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492912280769,
+        "id": "ce66ac80-93c9-4f82-9d7d-78dbb92aa0c2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492912280769,
+        "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "/var/lib/mysql",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : data directory"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492912331389,
+        "id": "6acae330-c93b-462a-a531-01379db2b7f4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492912331389,
+        "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "/etc/mysql/my.cnf",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : configuration file"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492912302662,
+        "id": "c01f2e9f-c225-4265-a0ba-54ae39c7655d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492912302662,
+        "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "[client]\nport\t\t= 3306\nsocket\t\t= /var/run/mysqld/mysqld.sock\n\n[mysqld_safe]\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nnice\t\t= 0\n\n[mysqld]\nskip-host-cache\nskip-name-resolve\nuser\t\t= mysql\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nport\t\t= 3306\nbasedir\t\t= /usr\ndatadir\t\t= /var/lib/mysql\ntmpdir\t\t= /tmp\nlc-messages-dir\t= /usr/share/mysql\nexplicit_defaults_for_timestamp\n\n# Instead of skip-networking the default is now to listen only on\n# localhost which is more compatible and is not less secure.\n#bind-address\t= 127.0.0.1\n\n#log-error\t= /var/log/mysql/error.log\n\n# Recommended in standard MySQL setup\nsql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\n\n# Disabling symbolic-links is recommended to prevent assorted security risks\nsymbolic-links=0\n\n# * IMPORTANT: Additional settings that can override those from this file!\n#   The files must end with '.cnf', otherwise they'll be ignored.\n#\n!includedir /etc/mysql/conf.d/"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368455469,
+        "id": "b9935de3-67f0-4327-97f3-1fa8e028020c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368455469,
+        "parent_id": "9728ba34-06ce-430d-b1be-daa3048f857b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "brew install homebrew/versions/mysql55 : so that it matches version on gce\nbrew link --force homebrew/versions/mysql55\n\nimport (\n_ \"github.com/go-sql-driver/mysql\"\n)\n\nTypes:\nint, integer - 4 bytes\nbigint - 8 bytes\nfloat - 4 bytes\ndouble - 8 bytes\n\ndate - 3 bytes\ntime - 3 bytes\ndatetime - 8 bytes\ntimestamp - 4 bytes\nvarchar(n) - L + 1 bytes if n \u003c= 255, L + 2 bytes i n \u003e 255, max is 65535 \ntext\nvarbinary(n)\nblob\n\nNotes:\nvarchar is stored inline, size limited to max row size (65k)\ntext is stored on the size, not max row limit, slower than varchar\n\nCREATE [UNIQUE] INDEX idx_name ON table(column,...) using [HASH | BTREE]\n\nHomebrew:\nTo connect:\n    mysql -uroot\n\nTo have launchd start mysql at login:\n    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents\nThen to load mysql now:\n    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist\nOr, if you don't want/need launchctl, you can just run:\n    mysql.server start\n==\u003e /usr/local/\n\nhttp://blog.ionelmc.ro/2014/12/28/terrible-choices-mysql/\n\n\nSELECT @@GLOBAL.sql_mode;\nSELECT @@SESSION.sql_mode;\nlocal:\nSTRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION\non gce is empty\n\nVersion:\nlocal: 5.6.22\ngce: 5.5.38-log\n\nhttps://github.com/yahoo/mysql_perf_analyzer\nhttp://githubengineering.com/using-mysql-performance-schema-for-workload-analysis/\nhttp://stackoverflow.com/questions/3499372/get-list-of-mysql-databases-and-server-version\nhttps://github.com/pubnative/mysqldriver-go"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719fc0c6f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:05 GMT"
+  ],
+  "Etag": [
+    "W/\"2918-PNJ/cHtXIeaApYiQ9VknYEF9YPM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d56be812836d0b5e66a9d7fe47dc0805a1565326145; expires=Sat, 08-Aug-20 04:49:05 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

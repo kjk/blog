@@ -1,0 +1,981 @@
+2569 1565326092280 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+      "table": "block"
+    }
+  ]
+}
+Response:+1420
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+          "19602cce-611b-4e7e-a79a-533dca66b8a1",
+          "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+          "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+          "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+          "be2da96b-1802-4cf1-995e-11794d303358",
+          "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+          "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+          "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+          "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532669517099,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564356900000,
+        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Documents"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 226
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503718a79fd57fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:11 GMT"
+  ],
+  "Etag": [
+    "W/\"3df-OdpvSXMwkTCNLdqsr/P2o/hUq14\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d4dca8836f3a5f20b7558f27cc77f848d1565326091; expires=Sat, 08-Aug-20 04:48:11 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+35156 1565326092282 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+  "verticalColumns": false
+}
+Response:+33965
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1005c633-46e7-48ab-a225-b2cff0274aed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7a4513e3-fdbb-4f4c-8944-e40f28a581d3",
+            "bab2612e-8dad-4979-9db8-ead878bef95d",
+            "e825a703-44d7-4f3f-9552-e9c883b4d8c7",
+            "50e7cc9a-b9ef-445e-911a-7c81a7319dfb",
+            "73dca8c6-5b2d-48f7-a292-6fdb8ecdbea9",
+            "67e7b5ff-31a7-465c-a547-83226be10e9b",
+            "ccce53de-1856-4dc9-afc3-8bd7a48a0cdb",
+            "31d83d78-5f1b-416d-b707-2f7bfddbc5b2",
+            "853df8df-3a4d-43e7-80dc-ff38ea09ce1e",
+            "0a568d48-6210-4c29-8cf3-7b37aec491e4",
+            "72e01d80-0dbb-4c53-b07b-0ab5ba2e1a5e",
+            "fbf4be80-9ed2-4224-847e-6c06edf6ceeb",
+            "842034a1-0657-4270-b385-15016be5619b",
+            "1f2f2304-20f3-4659-9d24-cec50b72e47c",
+            "838eeaee-3bd7-43e7-bb2b-3abd4d3595c8",
+            "90dc58d2-4639-4827-ad1d-c2ef898e2d61",
+            "542cf506-b75b-44f3-ba1a-5bf92956d3f0",
+            "cfaece6a-3aaa-48e2-b1d2-00a9cf0db5df",
+            "fee284af-ec9f-4c00-87c1-0cb219f8defe",
+            "d02e6992-4c0f-4953-b5fc-0cf5143b4f80",
+            "50be91dd-cfa7-40de-b3a8-1272dec88238",
+            "58b35ab1-6d3d-4bd6-9fab-8874dca59f17",
+            "300cdbd7-633e-46e4-942c-3a1df03a0491",
+            "d22c1ddf-d1cd-431e-ae3f-9244c77f2a95"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669744025,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1005c633-46e7-48ab-a225-b2cff0274aed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669819613,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What I've learned from \"After the Gold Rush\""
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 43
+        }
+      },
+      "19602cce-611b-4e7e-a79a-533dca66b8a1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669605652,
+          "id": "19602cce-611b-4e7e-a79a-533dca66b8a1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301220000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "type": "text",
+          "version": 51
+        }
+      },
+      "2299e4ce-51f2-425d-b192-fca7a6ce6242": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9426326b-9aeb-43b8-8211-5afe2fd22681",
+            "9f82e908-b0f7-446a-8131-5fee4762a717",
+            "1f988b12-523c-4899-af5f-b6aee1594a97",
+            "72fde877-02b7-40a6-a03d-43e388384932",
+            "f3521c27-2404-4ad0-a50f-a458f5b40598",
+            "be4430df-1851-44c8-ada6-2872f7973518",
+            "57c20abf-6cfe-4e7a-a440-e4baf3bb5bc2",
+            "a6b4db8c-a1e5-4da6-b43f-42cf1d7f91f7",
+            "820aab3c-1cff-4d7c-bd02-581bfa56ef99",
+            "d40e392d-b73c-468f-ab87-73f3cacd22f9",
+            "f094e4e1-055b-4b56-805b-ebab5250febf",
+            "37af0f1b-a70d-4968-8b61-b134774e9d8c",
+            "a506163c-b2eb-4ae1-b747-3bc3803d51c8",
+            "93266d53-eb19-449b-96c3-d2f1245f5671",
+            "1fe51497-dc57-4c4e-8ab8-1ac617609c97",
+            "bf9c0d50-75a1-42f0-bc2e-818ffb0978f8",
+            "6b082536-1210-4978-bd5f-e8cb033c03d9",
+            "614bf8d4-88dd-46d2-90cf-ad1211593a3a",
+            "8fe426d9-3671-430f-aca5-f1a80d275702",
+            "226b5e0e-e895-4f6e-b65a-dc91f4d43748",
+            "e46858f3-f55d-4169-862d-e89932fa74bc",
+            "5bd0c2ae-b0d2-472b-80ce-2a4856741d98",
+            "92e3e07d-4420-4f74-92bd-af43bca27054",
+            "d000e092-c94b-42ab-95b4-5e220eedf48e",
+            "07d5a5a1-726d-4429-a885-b7103340c030",
+            "17fe8f40-bb28-4099-9bee-7ec48b4c2754",
+            "f53bd2aa-3bd5-4b8b-9ca2-5620e46bcfdb",
+            "08010643-154c-49ad-a9cf-2cf5ccb4e2f4",
+            "7b9c5e8f-2233-4526-b816-f899859fed7f",
+            "e38f0c45-9be9-48a8-8b26-762ab0341f1d",
+            "af2bb95e-32ca-4124-916e-f74157b3ed4f",
+            "582416ba-a293-4561-b2e6-13ff4f585062",
+            "9b9d8a73-af3a-4c6f-8db2-9c61c201c830",
+            "220f0208-db8b-47d0-9a49-1134cce19408",
+            "fd17ffaf-38e2-4dcb-b903-65663fae3974",
+            "cd783c17-4d70-4375-8d64-ed1be373314c",
+            "86a6e651-8de7-4f12-a368-ed8698253c07",
+            "9a27d884-ff13-455f-ae89-034a764c8d26",
+            "e5739e7a-5c4b-47ff-9f1c-f45fc02c8a78",
+            "9a61db2b-daaa-4842-a590-d1d1d6664040",
+            "91cddde6-19b6-40b0-9c4d-8b4290113c4c",
+            "e73bb72b-846d-462b-81b2-57b5e38722aa",
+            "656b099d-b808-46fb-9219-2c53c6a878c7",
+            "71e7851f-682a-4b5c-848e-6ce26ef5259a",
+            "f2cd720c-85cb-41bd-948d-57c42d64582b",
+            "24bcceb0-822d-4e83-a61b-c053749ffa75",
+            "a51479c8-eeaf-4176-ada0-04bd733ff150",
+            "a5d05ecd-d744-45fc-8b39-0d4ef65c68f9",
+            "1e3c9bdd-b19d-4b69-8e26-107d37baa526",
+            "ad21e89e-77a9-44b9-a74e-d99e3d225738",
+            "db372c56-a6f2-4ba3-a9f6-c59402ff7688",
+            "703eee76-3137-4256-a8ba-6eb44fb30184",
+            "6e5dcdf5-8ce6-42b2-8e30-efd9819aec75",
+            "e3dddd51-9fc5-4a06-86af-31de003e5813",
+            "657a283a-8e09-4339-afb2-8e08813b7806",
+            "06d2ee22-09ba-430f-bd09-90417e4cdef3",
+            "a0da4a1b-4075-4b70-9c72-145bdff256cc",
+            "3b70221a-06d1-4ac3-a25e-669e846fc679",
+            "df28bb93-0195-499d-b2f4-7bf811b850cf",
+            "16d78389-24ff-4e5c-9764-45611d1f75b9",
+            "b507d84f-70e5-49cc-9899-0de212a375f6",
+            "ba066be5-dc98-4ef5-87fa-38662a1facd1",
+            "69187653-638a-4e11-bddb-52aa601364b7",
+            "4e09e324-9f0f-4dec-a625-b0b32b2e8b21",
+            "6269ceba-9576-452c-b60f-6ea0db355f9e",
+            "99d2cf7e-8054-4759-8f4e-f81ffd161cdf",
+            "817c4e9f-ed19-4cd7-bd43-6b06e36fb917",
+            "6a45219d-d7eb-4197-aab0-86f23f7c4775",
+            "b78dd6c4-7765-4759-89e9-921ce24d55e0",
+            "44136282-9c91-4ffb-a0eb-1c180e649134",
+            "30f8f262-915e-40e5-8c7c-f38777db398f",
+            "41108884-f6cd-4bff-aa82-c43bdfcb43f4",
+            "b9b04b95-4e53-446a-b22f-32d14943738f",
+            "53fb0db8-c911-433b-8e5e-33777d25e5e5",
+            "db3509a4-e150-4cde-8b05-d23d9f3c012d",
+            "27bdbe7e-8e90-4526-b26f-62facd420b7e",
+            "4bc9480a-ac31-4205-bb21-bbd5a0880b68",
+            "3a22c962-9d90-4e11-b429-427e69a798da",
+            "e3868153-2bf3-41d7-9b0c-e94a9965c4c1",
+            "b71ee91e-8a69-48a8-bcbc-450d55235a05",
+            "4bdd74eb-ea7d-4101-86af-a747db421744",
+            "444b1f30-2015-43d3-8b74-dc8d30ff2a07",
+            "dc6dfc17-c2e2-429e-9c17-e4f4182498fd",
+            "69e0061d-d019-498d-8fe3-81ddc12e42b7",
+            "34ca4f75-7a56-4a9f-97ef-0610a59a454e",
+            "1192f253-f997-4664-99f9-f1e4a5c85138",
+            "9aa8dbb5-6401-4062-9abe-dc86dd5769ce",
+            "cd38c80d-9230-423b-ac82-05dfbff78e10",
+            "586cd412-da35-4fbe-acca-294cb5bd77a4",
+            "2df4bca0-1f84-41d8-ac7c-3d9f1ed987f0",
+            "f1971a8b-43e1-4779-863c-e44056d13753",
+            "3f58d6c6-e15b-4d9d-bcb7-b1487506f54e",
+            "230762c9-6dfa-48ff-a494-e93b592728ee",
+            "eab5e827-07ee-4f48-bdb5-ae9f03879070",
+            "164b926b-d711-472c-8eb8-9ddf9e10f820",
+            "f6d5f8dd-1b8b-4118-9362-4b4680c5c3fd",
+            "dd26b814-ae5a-4227-a3e5-c729a437ed73",
+            "e615dab8-a86d-4fa0-8063-0a7c51e7e1e8",
+            "8f0b6cf1-f3cf-427f-a894-540fe283a428",
+            "1aa40245-2684-47cc-a0f6-57d21a48a3f8",
+            "f4402727-8c8e-41f2-8501-c46b3ead5405",
+            "2db85abe-e9a0-43d6-b849-b8202771f3ad",
+            "5f04021b-005c-45b6-85d1-f0799be9e290",
+            "80cd0084-ae4b-4eb9-a441-b661735f1cbd",
+            "4a448755-8d19-4ec6-a858-2d8ee646270e",
+            "5de47ad1-de00-460f-91a1-050401420174"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669878615,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669898248,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of the book \"The 22 Immutable Laws of Marketing\""
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 119
+        }
+      },
+      "3c072e6e-df66-4ffb-a522-38a07222d3c3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b408ff34-2d00-405b-814a-4e23271310f9",
+            "469572cd-95c4-43b2-aaae-215229728c2c",
+            "04ed62a1-38c2-40c8-b7f6-ff101a405c80",
+            "9b41e1cd-59fb-4a42-8a2d-bf90b72a1fae",
+            "36c4ed84-c0dc-48e9-9942-b281c8dac90b",
+            "2b7b95cd-486e-4929-a9fc-66d06a6cc2b2",
+            "4620754e-3db9-42b9-8789-23971ef4f199",
+            "8ea4db1f-6b37-4620-9b2a-1ebf8feb4c58",
+            "744147cb-b86e-4168-be72-32f92fd72778",
+            "adfda5c6-6b7e-4016-b0f0-46832747f857",
+            "d6876f24-a76c-4d92-a5b0-6998f57745d5",
+            "31250b47-ac8d-479b-a4ca-6e0700e47448",
+            "1a3945fb-a05c-4679-b31e-8ff82d70df1c",
+            "f0e104bc-ea7c-4c11-937a-a7cd4f1256b0",
+            "f591e560-0200-4e26-a465-31ce80021c0e",
+            "f84e0c07-5c07-484b-aef1-35d61bbc6f48",
+            "3723bdd3-3225-4193-a7c4-ce8068f943ab",
+            "8e50c616-ce02-4665-81da-033dfd80d64a",
+            "a01c0306-edb3-4ce9-836d-7eb88141d7a7",
+            "84a444b8-f7e4-4356-9e0f-8f95ea58048e",
+            "967d6db2-7fcd-42fb-8a24-b64315513a58",
+            "5c6183ec-08f2-4af0-833d-4b34af534a20",
+            "16c3a65b-bf53-4892-9bd1-5842dccff60f",
+            "90134c6a-f196-437b-8d03-3b7791b7c327",
+            "7a24c0c3-9829-46e7-97d9-fff4e4115bc4",
+            "c7c381c4-51f5-4978-8288-43b11b6cf7de",
+            "b040ae90-8608-430a-b4c7-8c4a7bc12b3d",
+            "edbad75f-f276-469e-8c48-0ebec018b128",
+            "52cff3b0-9023-47f0-af0a-3e8706a044b7",
+            "d0a9332e-31d1-47cd-89d5-512213466d3c",
+            "8bca51e5-fb58-4e65-a330-2fd7d47fe609",
+            "d2b6b7f2-c419-4315-9555-7b9dbb3cf299",
+            "2559a7e4-311d-4dbf-b190-84e5fcfc593f",
+            "f33852ed-19e5-40d3-a284-f1e0a15a448d",
+            "6fd16435-7e2a-4165-9ea4-b7c2a7688917",
+            "42967bcf-fee2-45c9-a24c-03995f40694c",
+            "2d4ba700-641d-4079-a271-f6da89b01443",
+            "05b33b21-3c19-41ca-b138-cf6b922e2766",
+            "6007e850-ebfc-4c70-b630-9d105f198179",
+            "c3d25c9b-a65c-430d-93bc-b9145e409a94",
+            "f71f88eb-6731-439c-a7df-7cb8ddc4312b",
+            "f2a9bf32-30a7-43ff-a81b-f5d7eb14562d",
+            "7ba6baba-8279-4e7f-ac90-895213d6cf12",
+            "c863e356-d2c0-4187-8f29-aa0128d8707e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564300403566,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356240000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of ePub format readers and viewers for Windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 94
+        }
+      },
+      "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669599039,
+          "id": "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532678587055,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /documents.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 96
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "56938d9a-81de-43f4-a766-235ed4e9e9ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a2a977e5-d605-478a-889b-14a7e73adb32",
+            "6976fc7c-4b63-4b63-a75f-c789022abb35",
+            "605dfc0b-414a-4f42-9aca-2902cdc2abcb",
+            "c735bf8c-8034-4eca-a0b0-3f8ba094c656",
+            "2f49af36-add3-4860-8023-c3b7833ca43d",
+            "b21cd0a6-fb8f-4620-bcb6-a2240badd171",
+            "9c29cc42-abf2-4e79-9aa1-52ff6802e79b",
+            "bf5566e2-0004-4a2a-bdac-de9f0b8c59ad",
+            "02caef18-5de3-4635-bfa2-f1172f88a0b8",
+            "e7b1b769-f650-4ac7-a72a-2ebc8c90e02c",
+            "a79b1a75-cd91-4a21-b3f1-56553ecc97b6",
+            "072edc59-94a6-400c-89fe-c0da538647c6",
+            "a9cf45a7-0d0c-4dc2-8086-1f4787df9bfb",
+            "13c05568-026b-4851-bb99-743cc1ea1b1a",
+            "5cf3e6e2-5e6b-4bb4-b64d-f9152234cf07",
+            "68a6d61c-4464-426c-a7fb-f3826d2024b8",
+            "77ab4fa9-cc26-4656-a78e-a957dd892469",
+            "6754b250-ea65-4e47-9f00-701f003f0b78",
+            "c0782396-6760-4c50-8f83-ee22db95bbce",
+            "04bcd8eb-e483-4ba7-876a-b8501629da3d",
+            "f52d2375-09bb-4ef3-8f1a-c13cb88e4dd7",
+            "9aeee4b2-05e9-4a39-a0b5-b08eaae5c7df",
+            "cc9568aa-6094-48ff-a82a-d5a56d4c3c93",
+            "0db96b00-1b33-49b2-86b4-81100cc29773",
+            "7ac7de56-b45d-4099-88bf-09d1777c0371",
+            "43238d7f-0573-408e-869d-7a6d0cec6f11",
+            "da3ae2d1-0488-4a4e-88dd-2d64640a35ec",
+            "5f743518-278c-4194-8f85-af9adac5d507",
+            "0f520c99-1d53-4dd7-b372-2557ac91292a",
+            "48d983bb-972f-4e4c-b2fe-f75eb126ae04",
+            "3dbe5c49-d0c8-4cdd-84fc-3255261f7c04",
+            "462a6ea7-fb3f-451f-980b-355f0721d8b2",
+            "d8da26bb-ac5c-4e52-acfa-03b4dc59a4bd",
+            "c050388c-f07e-4e94-9c04-ee8d2a90a958",
+            "e4ac35df-7973-4354-a798-c84644c414ca",
+            "40397cce-b27e-4f6d-b981-1a6aec7260dd",
+            "b219fba7-e8b9-40df-a734-27f2ca6f3655",
+            "5cb76871-3be0-476e-aa14-a7ed43127efc"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564300813417,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564355940000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of mobi format readers and viewers for Windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 68
+        }
+      },
+      "7f45c154-04c3-4940-b6ca-4c8725efb5e8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c019108a-ef42-4f0c-b349-9c39cc2804b0",
+            "b3877883-ad07-43fd-aae3-d7e424108ac7",
+            "92696f43-1040-4686-97f7-d51adecfcfbc",
+            "e921ba01-07ae-4765-9078-0ade897a1337",
+            "888fb1c9-b793-4e43-8cf0-2cb957e5e644",
+            "4ca456fe-e561-45f3-84b6-b93f79c0e79a",
+            "9e008307-369f-4b10-a931-6cd12abb0866",
+            "d6c0b5c3-23a4-41eb-8b6d-8449aaf349e7",
+            "6a1b41f0-5ae3-4b48-931f-0c3dae73d70e",
+            "123af456-cad0-400e-85f4-30806bf86243",
+            "03705c23-2f4a-4fdc-a081-bb068fadc052",
+            "64b2319c-0577-4b88-9b27-0c9563d2bdf8",
+            "2ba261db-673f-40fa-b0b8-568f4ae72051",
+            "66ae90fa-a420-4316-b8d6-e41c0e08766c",
+            "3cdd0f9b-bf79-468e-9fed-d6bb20ae4610",
+            "836963f7-2476-459d-ad4c-a64c4fc0b2fb",
+            "c034089b-2c10-475e-b34f-a795ce31a01f",
+            "6756d0c9-723d-49ea-9e52-ba4791ef7984",
+            "feeac59b-8678-45fe-a4b5-a88a91581f72",
+            "c2ed79dc-26d8-4881-8496-bacbfb7e63bc",
+            "c42aae94-6b59-40c0-9135-23257fe83d16",
+            "c67af62d-a4e6-48df-9c13-44853881540c",
+            "13faf503-d198-4a72-85e1-8982f9c78049",
+            "d4d2b698-68e1-4454-9cda-343536e7b0d1",
+            "37f5de2d-9794-403b-a204-5bfad4bd4c3d",
+            "d9e2e444-f3f0-40ed-b9d0-8726c27343b5",
+            "4f02c792-0502-4f94-8dc6-95ebaa3f92cd",
+            "f702fb2e-4395-405b-8df4-1299eaf89582",
+            "174dab3b-9a92-43e7-96b6-00f3008d6806",
+            "a6136197-be08-448a-b381-a30d9576d8d4",
+            "b230bf3e-1a72-4c25-935c-e439fe62279b",
+            "61025a1b-f447-4d13-9544-e56fb5408e3e",
+            "f2e1d7cc-71f9-40ce-a9b6-f8d0b66a969c",
+            "aab99e44-532c-4fc4-bc79-162633664e6b",
+            "ff5714ea-7678-49f3-b08d-b302a16d1411",
+            "3c3e3f56-8b3c-4b83-95f9-dc979e051365",
+            "a99584ea-e7af-4c0f-9f91-c99000dac446",
+            "f1846c0f-a18c-42e0-9b2e-687a89793587",
+            "f1512fa7-3e99-43d9-b493-bb35ddd90d26",
+            "afa5f711-b84d-4c69-92ba-c20d30ef1b90",
+            "568d4193-ce61-4700-a076-0cfdadea277c",
+            "04e1a376-ac75-4cc6-903d-3a4f259cc007",
+            "19ca7fc1-0f6f-4357-b824-38084ba6c405",
+            "347e208b-2885-4062-853e-ae81348f3fb6",
+            "e8bcf159-ed77-43cd-b313-5efb03818106",
+            "3ecdf98d-9864-4487-b008-8f39d662a778",
+            "e45837b9-bd25-4d9b-905e-db4580b2da8e",
+            "0f275ef1-7bce-4e46-bda6-422be338c495",
+            "6f79e82a-661d-4a90-be90-391ff7bbcf6f",
+            "02540451-8cc0-4f6c-b508-c6718ce9bf95",
+            "ee84b275-6255-4fc9-9486-842c1be5e2bd"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564273734896,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301160000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of CBR, CBZ comic book readers for windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 158
+        }
+      },
+      "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2be95978-632d-4bfe-ad75-bfa2836960d6",
+            "ff606f30-9342-4ffb-8819-8776195afc07",
+            "114c8e94-0259-4a71-b5da-2191cdd34852",
+            "b9e168c8-c00a-4fc3-bd3c-d9d29785566c",
+            "1386bc2d-7569-46cd-85bd-10691c0702ea",
+            "38b07cfb-a523-43c7-9fdc-b3ee3245fef8",
+            "0f9a3ae9-18f6-421b-be43-819bb9a7476b",
+            "9f3c07e3-4b69-4e5b-938b-40c65386357d",
+            "65cd3a60-e417-4b34-8efb-1763c3610946",
+            "b2e56ff4-817a-4f46-8fd6-00ccc1613cc1",
+            "e953725b-5baf-4d95-83f9-7783185b341b",
+            "9f0e7664-e2bd-42e2-a224-cb50747b03d9",
+            "4e56e3cb-da47-4117-a371-54f700989052",
+            "826ee231-0d86-4c4f-b1a1-43177234ff36",
+            "c1b942e5-b561-4252-acc1-807d1c04de95",
+            "07fb5482-e8c5-4178-a1d9-a119a7354294",
+            "0b9dcc28-0320-4e7d-957b-d4349679166f",
+            "9463fe3d-5382-4b63-b81a-3b13bdb85ede",
+            "35b2151b-4c9a-4869-8fc1-3b8a23a2e5bf",
+            "c7eabad8-3718-45de-8576-1f621f2be858",
+            "ff283002-d125-4205-8758-bdacea0b927a",
+            "e0780a5b-f913-4731-8ce6-e33562dab585",
+            "684d005f-66d2-4ed8-9cf7-077453ae456b",
+            "5f74ffed-33d3-44b3-8444-3fb5283443f1",
+            "2659c16e-eefb-45cf-99df-df5ed2adb17b",
+            "4f130695-bae3-4be6-8926-431329dd106f",
+            "0b052a64-4af4-40ef-aca6-aa5d47cafe9a",
+            "b99a5b48-4da9-4c78-a6ac-ee6cb3fa96d4",
+            "8cc1e8d2-42b4-4eb5-9477-53b91c73528e",
+            "35ba9488-1bff-4c9b-b6e7-fd8b0422e0b5",
+            "22bedeca-bccf-45f5-94df-7946ecb94f50",
+            "ea904a1b-b428-4791-9993-16827314af53",
+            "ccffe3cc-015f-4251-9976-d4f82cc1ba2c",
+            "0795692b-ef90-44c5-9814-10a7e048ebdc",
+            "33163bb6-d89b-4bdd-baac-093ea72ce1bd",
+            "44cca85d-7ad8-4bb2-887f-63932ad776c0",
+            "85ebedb9-5e27-4465-bddd-51d510e40b95",
+            "7eaf856e-84cc-4abd-8b3a-6328b1a80a46",
+            "4c79bb09-bd60-4055-bfbb-e68a9db41446",
+            "24f8e1c2-dcdd-4495-91fe-d0366bcbb56a",
+            "921a3af3-d949-4c9f-a7ff-4cd5648e8288",
+            "b2939144-d2f5-43b1-b192-744854343939",
+            "f3001d2b-84f5-47b4-950f-be724d5e2fe0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669526755,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564357020000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Engineering school (summary of Rick Catell talk)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 126
+        }
+      },
+      "be2da96b-1802-4cf1-995e-11794d303358": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5270d6a2-0d22-4a68-b344-eba73daae9a0",
+            "3d8b4305-85cd-4c4a-9adf-04f2439d8d69",
+            "54d6175c-fce5-4b59-a70a-05f66fce89fd",
+            "e8d4847a-5eec-46cc-bf11-0bbfb3aaa4bd",
+            "d4cd73bd-fc1f-443f-9e1d-e81eaf5c5d03",
+            "6dc707d2-d6b5-43b3-a9eb-0b135999b814",
+            "d55fd109-e57f-4017-85e1-314a41ff9cec",
+            "174d1120-0045-441c-b9b7-20efc7f95f62",
+            "ad1243a6-8b89-4864-b5f4-cd3c28cf5bb8",
+            "d27f3638-9aad-40a0-aa9c-c0b4d6eee4ec",
+            "f38d21d5-462a-4f7d-8394-35a2fe1fddfa",
+            "df31be2d-9764-480c-b514-b6b7bf029503",
+            "340af81e-cb3d-4ba3-9cec-589693810f05",
+            "64be5f50-e9c9-4267-8625-c07141804698",
+            "0c9f891f-65e4-442c-b5ff-def81a09725e",
+            "163bfd29-602a-40b5-acd5-92d3fd2536a1",
+            "b1e0e700-8d34-49aa-a9c7-c7316eea1e3f",
+            "a71c2c37-b7f5-4662-80a3-8563db915ed4",
+            "8a7bc48b-722f-4b71-99d8-fe2c7972d4e7",
+            "29bc5c1c-14bd-4655-8bcf-8d94df0e5919",
+            "18fbdbb0-9d91-462f-b279-9749d50ebeb0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301011417,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564357020000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of CHM readers and viewers for Window"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 57
+        }
+      },
+      "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c01805df-711a-49e4-a400-a9445f682acb",
+            "647294f3-4512-49d8-8454-eed4deb3a83d",
+            "7ad2e591-5cba-4107-89df-ff5ddc608b86",
+            "72cf8b51-a71f-47d7-850c-d49983b5071d",
+            "f1757cd3-5c98-4039-bd49-bebc897e1246",
+            "4bf2138b-8564-4c08-a61a-3919ad5e0361",
+            "b9f2d836-3f05-47ad-a565-34f7978984bb",
+            "3c9bd4bc-c6e0-47b0-87df-518482d18bf5",
+            "1b6d3593-9f17-4a54-be27-4a663a06899a",
+            "9bf67e40-1d13-464f-a98c-1c037e2fa362",
+            "d977cc3d-de33-4636-8765-33f53ceeaf59",
+            "47ec1789-f405-4a75-8b32-26e770c46e77",
+            "85b7faea-d9ef-41b6-a58a-0fd017a0a475",
+            "aa0f45e1-9b45-4304-9a71-ed831ce86e0f",
+            "feffa722-b574-412a-8e57-c9eb8c1f3681",
+            "3ae7645f-70fa-4e00-89b7-8553a4e94829",
+            "304814f3-23e4-477c-9728-da6cabc7347c",
+            "afa2d7db-b9b7-408c-825a-4109127cc038"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293600216,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of website with free eBooks in EPUB and MOBI formats"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 155
+        }
+      },
+      "da7f7cb5-0008-4dd3-8635-2d7bc4151788": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3b14700b-f965-4939-b2ea-0e9fce9f4b14",
+            "61543f04-bb91-4e6f-96c8-8320ff71f800",
+            "09f70af2-0fdf-4ca7-b940-4d5fd62f0618",
+            "81a53d3d-b3d8-4919-bf66-cb96c435dc29",
+            "079bd614-a77a-4826-9eaa-a565f943085f",
+            "88c4a0d1-223d-4f71-b152-f77bfe3acda0",
+            "65f0ee8e-75a8-4bf5-9747-f5b1702f3f0e",
+            "2b7979d6-6062-4af3-93e3-86613cbc8793",
+            "7931384b-d43f-4037-bb21-31423d9cd9b8",
+            "27356384-c272-4436-be48-463bf725f242",
+            "10b3a8f2-380c-4374-9c81-836376eef58e",
+            "340099e4-ee4e-4076-953a-b77bd51b6ea7",
+            "3c38ff7f-ffff-4f24-92d9-8501021e2098",
+            "c3bbbe46-4ab3-4d8b-b9c6-b8e27feecb4d",
+            "a9aedd68-c27e-40d4-832f-36ff17932724",
+            "6d4aaf3f-a3a9-4d53-be36-0f78f83d1222",
+            "fa150f31-ac63-4794-8f96-8157a00c5574",
+            "5ebc0882-bc47-40f1-a3e6-4963ee722250",
+            "88086084-c3e1-4e9b-a092-0aab165bbb17",
+            "d6193407-27ae-42f5-85ac-61c8daef770a",
+            "eab47b44-82cb-4e9b-bc6e-e5984245e6bf",
+            "4ac911e7-fec7-4c3a-b625-1330feca8743",
+            "b4ab84b4-170f-45f1-98fd-f89dbf302824",
+            "62bdc692-d72a-42ad-a4ee-85950a6424e0",
+            "2c1e2995-8d13-40bb-bf13-0c603f3af6e7",
+            "312a41a4-a52a-4985-a813-9a647d2990fd"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669669706,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669696510,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Things I Learned the Hard Way: Engineering and Computer Science in the Real World"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 43
+        }
+      },
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+            "19602cce-611b-4e7e-a79a-533dca66b8a1",
+            "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+            "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+            "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+            "be2da96b-1802-4cf1-995e-11794d303358",
+            "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+            "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+            "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+            "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+            "1005c633-46e7-48ab-a225-b2cff0274aed",
+            "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+            "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669517099,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Documents"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 226
+        }
+      },
+      "ec96b10a-82df-41c1-8e7c-b01e5c2303ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564356900000,
+          "id": "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "type": "text",
+          "version": 15
+        }
+      },
+      "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669994271,
+          "id": "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532669994271,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503718a7ffee7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:11 GMT"
+  ],
+  "Etag": [
+    "W/\"5d90-H/f7aKDjhjkneez0kT5S0XyQpc4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d4dca8836f3a5f20b7558f27cc77f848d1565326091; expires=Sat, 08-Aug-20 04:48:11 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,1438 @@
+2277 1565326233146 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+      "table": "block"
+    }
+  ]
+}
+Response:+1128
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+          "74f866e5-f16d-4e25-b0be-feb260291155",
+          "05030362-3dda-4726-aa5e-ec227e389be6",
+          "92b5bd63-0419-464a-b71a-c3a835da0d17",
+          "77fd0131-6d91-4641-afc1-1057131ea890",
+          "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
+          "64593cee-e253-439a-b99c-b61f01f23b19"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501808316944,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090566472,
+        "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Visual Studio, msvc"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 7
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c1778787fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:32 GMT"
+  ],
+  "Etag": [
+    "W/\"2fd-NEEekiM3UQL+N1kmMGOaNmu4UQo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0853b37d19f3e415063e8055693128981565326232; expires=Sat, 08-Aug-20 04:50:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+16864 1565326233147 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "9b25f742-bd92-4319-bc3d-821313bbac74",
+  "verticalColumns": false
+}
+Response:+15673
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "05030362-3dda-4726-aa5e-ec227e389be6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3ea9594a-c8a5-4d2b-a32b-24a4b304a6e5",
+            "db1ee049-5c60-4c8a-9193-9a3eaa2dcb8b",
+            "50a9a6ae-69b1-40d6-8060-1856722b753d",
+            "948eae94-d3f1-419d-a4f1-8227dbe18244"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1503779596333,
+          "id": "05030362-3dda-4726-aa5e-ec227e389be6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1503779596333,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Versions"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "080a04a6-9baa-4c9c-aaa1-2f75f995e382": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b02603ff-e21f-4dbd-8043-bc5c43463579",
+            "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
+            "f188fad9-163a-4407-a3b5-14350b445afd",
+            "217e9671-7522-470c-ab27-15ff924ab0fb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1510032519932,
+          "id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1535837118252,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Finding where msvc is installed"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 2
+        }
+      },
+      "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "0e709db1-d3a2-4575-994e-a7d8e8c6103a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530090565509,
+          "id": "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530090578018,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "msvc versions"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 46
+        }
+      },
+      "515006ec-a4e4-48fa-af52-65dce7674e79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2deca6d7-09eb-4b54-9b1c-8397165d9972",
+            "91b14d80-b9df-458c-ab7d-588a9f5dccec",
+            "6a2aafdb-0faa-4881-ad72-a7c29d355691",
+            "6325967d-6fab-488e-8882-a4b619ac90fc",
+            "ba0bb283-71f2-42f2-a35b-781a8a668b3a",
+            "4df7b812-4234-4e24-8135-1c3898254ba2",
+            "9491f8fb-6117-4313-9c98-fc1fc32605c4",
+            "a0918966-943e-427c-8f9f-0171a6f52745",
+            "b28448f6-f67b-4919-bcea-922a116a1144",
+            "1a23cb2d-ca3e-40e3-bfff-ae52b04551fb",
+            "ea50f379-0961-4e43-93f5-05a0641bd92a",
+            "8bba674f-b821-45d7-b654-ac75f711c31b",
+            "7992e194-348d-481c-89d2-082f6a945b3c",
+            "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+            "28a9eec3-d1de-42f7-9c95-ba9cbe399758",
+            "bf9325b5-606d-4e27-b27a-4a5dd1b12f46",
+            "85d70691-eb7a-45f6-991c-e9c20cbae0b9",
+            "0e931590-f27c-40fc-8710-5626a4ad6324",
+            "9a2c2066-aee3-4427-95ed-c1c3c058741a",
+            "f074cc9e-dae7-4b63-9544-30cd19c2ba04",
+            "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+            "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
+            "f1d2dc66-ecfe-417d-9cd6-3e7ae33d6078",
+            "5734a97a-c4bb-4777-9a23-e7e54764e1c1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.5625
+          },
+          "id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 106
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "64593cee-e253-439a-b99c-b61f01f23b19": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512459928056,
+          "id": "64593cee-e253-439a-b99c-b61f01f23b19",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512459928056,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "74f866e5-f16d-4e25-b0be-feb260291155": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "98234dcd-29ba-414b-b8d4-2964d3ff60c3",
+            "b0da4193-b430-4aaa-8402-9f10a6d42e06",
+            "8e91c0ee-8e47-425b-b98c-39674a1043b1",
+            "63d9f45f-3410-4c5e-9f75-d9b709359f5f",
+            "c4b7073a-b112-42d1-9823-27d9769966c9",
+            "a515ffe6-d8cb-4cc0-b69f-4b0ee48288fd",
+            "0211c1d9-5193-43d6-9a10-13671312f394",
+            "f9d0cab5-268b-4fc7-82a3-2f9c644d36b8",
+            "2df4e168-de0e-4ccf-9734-bc748e416010"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1501808326139,
+          "id": "74f866e5-f16d-4e25-b0be-feb260291155",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1501808326139,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "77fd0131-6d91-4641-afc1-1057131ea890": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b4fce1c0-da49-481f-9c8c-3e873d0046c4",
+            "6d0b811b-a497-4c35-bd53-dc088bc675f1",
+            "23f393b2-abcc-46e1-9544-28fa380a91df",
+            "bd0ab5d6-281b-4d61-9eb7-400b91fbf236",
+            "503a2e82-2387-4d35-9321-ca5fbccd5a8d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512459965688,
+          "id": "77fd0131-6d91-4641-afc1-1057131ea890",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530090578018,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "misc"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 24
+        }
+      },
+      "92b5bd63-0419-464a-b71a-c3a835da0d17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c4e84a85-d64f-47d8-8649-0f17462bdc7b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512459960907,
+          "id": "92b5bd63-0419-464a-b71a-c3a835da0d17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512459960907,
+          "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "toolsets"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "9b25f742-bd92-4319-bc3d-821313bbac74": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+            "74f866e5-f16d-4e25-b0be-feb260291155",
+            "05030362-3dda-4726-aa5e-ec227e389be6",
+            "92b5bd63-0419-464a-b71a-c3a835da0d17",
+            "77fd0131-6d91-4641-afc1-1057131ea890",
+            "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
+            "64593cee-e253-439a-b99c-b61f01f23b19"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1501808316944,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9b25f742-bd92-4319-bc3d-821313bbac74",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530090566472,
+          "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Visual Studio, msvc"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "fbf4f25f-ad76-491c-a266-d07154f5a6f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "bbedaf77-da5b-4d0e-a94e-4960162328a5",
+            "92c23bf1-5168-4417-a77d-e74eb3e244dd",
+            "3abcd7bd-56bc-4a81-9f78-5737d42210d0",
+            "06e18e67-4915-49c1-b54b-2ef8c78bd6bb",
+            "579468fe-f56f-4dc0-8525-62e89803b09a",
+            "77f853fb-9a1a-453f-9cbf-d5a4cdbf5919",
+            "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+            "2bb774c0-845f-438a-a586-82f628e23829",
+            "7158e361-34a2-4b28-be92-b18e06dd2175",
+            "289151dc-16f8-43ca-940f-2ceca1c9726d",
+            "2b2b3c56-a0e5-4353-a94d-c19f548c871b",
+            "9b25f742-bd92-4319-bc3d-821313bbac74",
+            "cee6518e-28c3-4ac1-8eab-24523a8e074d",
+            "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
+            "fa3fc358-e564-4f39-b89c-57f13d426d54",
+            "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+            "865ca4c4-d5fc-499e-8c9a-130d65a82cdf"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1495307923991,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544217625866,
+          "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 48
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c17e8ae7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:32 GMT"
+  ],
+  "Etag": [
+    "W/\"289f-kNTPXcaVv5WZ1v0fewLFQ3nbfa8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0853b37d19f3e415063e8055693128981565326232; expires=Sat, 08-Aug-20 04:50:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+26142 1565326233148 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+2134
+{
+  "requests": [
+    {
+      "id": "b02603ff-e21f-4dbd-8043-bc5c43463579",
+      "table": "block"
+    },
+    {
+      "id": "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
+      "table": "block"
+    },
+    {
+      "id": "f188fad9-163a-4407-a3b5-14350b445afd",
+      "table": "block"
+    },
+    {
+      "id": "217e9671-7522-470c-ab27-15ff924ab0fb",
+      "table": "block"
+    },
+    {
+      "id": "98234dcd-29ba-414b-b8d4-2964d3ff60c3",
+      "table": "block"
+    },
+    {
+      "id": "b0da4193-b430-4aaa-8402-9f10a6d42e06",
+      "table": "block"
+    },
+    {
+      "id": "8e91c0ee-8e47-425b-b98c-39674a1043b1",
+      "table": "block"
+    },
+    {
+      "id": "63d9f45f-3410-4c5e-9f75-d9b709359f5f",
+      "table": "block"
+    },
+    {
+      "id": "c4b7073a-b112-42d1-9823-27d9769966c9",
+      "table": "block"
+    },
+    {
+      "id": "a515ffe6-d8cb-4cc0-b69f-4b0ee48288fd",
+      "table": "block"
+    },
+    {
+      "id": "0211c1d9-5193-43d6-9a10-13671312f394",
+      "table": "block"
+    },
+    {
+      "id": "f9d0cab5-268b-4fc7-82a3-2f9c644d36b8",
+      "table": "block"
+    },
+    {
+      "id": "2df4e168-de0e-4ccf-9734-bc748e416010",
+      "table": "block"
+    },
+    {
+      "id": "3ea9594a-c8a5-4d2b-a32b-24a4b304a6e5",
+      "table": "block"
+    },
+    {
+      "id": "db1ee049-5c60-4c8a-9193-9a3eaa2dcb8b",
+      "table": "block"
+    },
+    {
+      "id": "50a9a6ae-69b1-40d6-8060-1856722b753d",
+      "table": "block"
+    },
+    {
+      "id": "948eae94-d3f1-419d-a4f1-8227dbe18244",
+      "table": "block"
+    },
+    {
+      "id": "c4e84a85-d64f-47d8-8649-0f17462bdc7b",
+      "table": "block"
+    },
+    {
+      "id": "b4fce1c0-da49-481f-9c8c-3e873d0046c4",
+      "table": "block"
+    },
+    {
+      "id": "6d0b811b-a497-4c35-bd53-dc088bc675f1",
+      "table": "block"
+    },
+    {
+      "id": "23f393b2-abcc-46e1-9544-28fa380a91df",
+      "table": "block"
+    },
+    {
+      "id": "bd0ab5d6-281b-4d61-9eb7-400b91fbf236",
+      "table": "block"
+    },
+    {
+      "id": "503a2e82-2387-4d35-9321-ca5fbccd5a8d",
+      "table": "block"
+    },
+    {
+      "id": "0e709db1-d3a2-4575-994e-a7d8e8c6103a",
+      "table": "block"
+    }
+  ]
+}
+Response:+22966
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1510032542211,
+        "id": "b02603ff-e21f-4dbd-8043-bc5c43463579",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1510032542211,
+        "parent_id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38",
+              [
+                [
+                  "a",
+                  "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1510032557072,
+        "id": "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1510032557072,
+        "parent_id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "call \"%ProgramFiles(x86)%\\Microsoft Visual Studio\\Installer\\vswhere.exe\""
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1510033402027,
+        "id": "f188fad9-163a-4407-a3b5-14350b445afd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1510033402027,
+        "parent_id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/vswhere",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/vswhere"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535837118252,
+        "id": "217e9671-7522-470c-ab27-15ff924ab0fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535837679351,
+        "parent_id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://pastebin.com/3YvWQa5c",
+              [
+                [
+                  "a",
+                  "https://pastebin.com/3YvWQa5c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a"
+                ]
+              ]
+            ],
+            [
+              " : a short program by JBlow"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 68
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501808328284,
+        "id": "98234dcd-29ba-414b-b8d4-2964d3ff60c3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501808328284,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501808388519,
+        "id": "b0da4193-b430-4aaa-8402-9f10a6d42e06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501808388519,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503641557900,
+        "id": "8e91c0ee-8e47-425b-b98c-39674a1043b1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503641557900,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://lists.boost.org/Archives/boost/2017/08/238109.php",
+              [
+                [
+                  "a",
+                  "https://lists.boost.org/Archives/boost/2017/08/238109.php"
+                ]
+              ]
+            ],
+            [
+              " : talks about toolsets in 2015 and 2017 msvc versions"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503779554663,
+        "id": "63d9f45f-3410-4c5e-9f75-d9b709359f5f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503779554663,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/install/use-command-line-parameters-to-install-visual-studio.md",
+              [
+                [
+                  "a",
+                  "https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/install/use-command-line-parameters-to-install-visual-studio.md"
+                ]
+              ]
+            ],
+            [
+              " : describes how to install from command-line, bootstrap installer for msvc 2017 community: "
+            ],
+            [
+              "https://aka.ms/vs/15/release/vs_community.exe",
+              [
+                [
+                  "a",
+                  "https://aka.ms/vs/15/release/vs_community.exe"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503779809781,
+        "id": "c4b7073a-b112-42d1-9823-27d9769966c9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503779809781,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio",
+              [
+                [
+                  "a",
+                  "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503779671325,
+        "id": "a515ffe6-d8cb-4cc0-b69f-4b0ee48288fd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503779671325,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://docs.microsoft.com/en-us/visualstudio/install/automated-installation-with-response-file",
+              [
+                [
+                  "a",
+                  "https://docs.microsoft.com/en-us/visualstudio/install/automated-installation-with-response-file"
+                ]
+              ]
+            ],
+            [
+              " : how to use layout response file to define what to install (instead of cmd-line args)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1506392224076,
+        "id": "0211c1d9-5193-43d6-9a10-13671312f394",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1506392224076,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1506971690345,
+        "id": "f9d0cab5-268b-4fc7-82a3-2f9c644d36b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1506971690345,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508836781872,
+        "id": "2df4e168-de0e-4ccf-9734-bc748e416010",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508836781872,
+        "parent_id": "74f866e5-f16d-4e25-b0be-feb260291155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/",
+              [
+                [
+                  "a",
+                  "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508400694706,
+        "id": "3ea9594a-c8a5-4d2b-a32b-24a4b304a6e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508400694706,
+        "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "15 is 2017"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508400678830,
+        "id": "db1ee049-5c60-4c8a-9193-9a3eaa2dcb8b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508400678830,
+        "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "15.0_a8883afc : 15.1 ? as in %USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\15.0_a8883afc"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508441688320,
+        "id": "50a9a6ae-69b1-40d6-8060-1856722b753d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508441688320,
+        "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "15.0_40f18805 : 15.3.2 ?"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508441719355,
+        "id": "948eae94-d3f1-419d-a4f1-8227dbe18244",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1508441719355,
+        "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512459975919,
+        "id": "c4e84a85-d64f-47d8-8649-0f17462bdc7b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512459975919,
+        "parent_id": "92b5bd63-0419-464a-b71a-c3a835da0d17",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\Folders is a list of dirs, including C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\Win32\\PlatformToolsets\\v120_xp\\\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\295292B04E66BBB3F8861D188DD56FC3\nhas:\n0C008876E49D315498BC74F8B287A1B0 =\u003e C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\x64\\PlatformToolsets\\v120_xp\\msbldver.dll\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files\n$ find . -name \"toolset.props\"\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files/MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets\n$ ls -lah\ntotal 8.0K\ndrwx------+ 1 SYSTEM         SYSTEM 0 Sep 13 12:52 .\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 ..\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013_xp\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120_xp\n\ntoolset.props is a bunch of MSBuild defines that specify additional flags\nv120 == VS 2013\n\nThere’s also:\nMSBuild/Microsoft.Cpp/v4.0/V110 (VS 2012?)\nand\nPlatforms/Win32/PlatformToolsets/LLVM_vs2010\nPlatforms/Win32/PlatformToolsets/v100\nPlatforms/Win32/PlatformToolsets/v90"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530090500154,
+        "id": "b4fce1c0-da49-481f-9c8c-3e873d0046c4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090504656,
+        "parent_id": "77fd0131-6d91-4641-afc1-1057131ea890",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://view.officeapps.live.com/op/view.aspx?src=http%3a%2f%2fvideo.ch9.ms%2fsessions%2fbuild%2f2014%2f2-582.pptx",
+              [
+                [
+                  "a",
+                  "http://view.officeapps.live.com/op/view.aspx?src=http%3a%2f%2fvideo.ch9.ms%2fsessions%2fbuild%2f2014%2f2-582.pptx"
+                ]
+              ]
+            ],
+            [
+              " - list of Visual Studio tips"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530090505944,
+        "id": "6d0b811b-a497-4c35-bd53-dc088bc675f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090524361,
+        "parent_id": "77fd0131-6d91-4641-afc1-1057131ea890",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://reviews.llvm.org/rL220226",
+              [
+                [
+                  "a",
+                  "http://reviews.llvm.org/rL220226"
+                ]
+              ]
+            ],
+            [
+              " - detecting Visual Studio installations"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530090516790,
+        "id": "23f393b2-abcc-46e1-9544-28fa380a91df",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090534469,
+        "parent_id": "77fd0131-6d91-4641-afc1-1057131ea890",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt",
+              [
+                [
+                  "a",
+                  "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530090534774,
+        "id": "bd0ab5d6-281b-4d61-9eb7-400b91fbf236",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090542740,
+        "parent_id": "77fd0131-6d91-4641-afc1-1057131ea890",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://blog.bfitz.us/?p=2369",
+              [
+                [
+                  "a",
+                  "http://blog.bfitz.us/?p=2369"
+                ]
+              ]
+            ],
+            [
+              " - using Visual Studio toolchains"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530090540926,
+        "id": "503a2e82-2387-4d35-9321-ca5fbccd5a8d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090564767,
+        "parent_id": "77fd0131-6d91-4641-afc1-1057131ea890",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://visualgdb.com/news/vs-community/",
+              [
+                [
+                  "a",
+                  "http://visualgdb.com/news/vs-community/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512461356807,
+        "id": "0e709db1-d3a2-4575-994e-a7d8e8c6103a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530090578018,
+        "parent_id": "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "MSVC++ 14.0 _MSC_VER == 1900 (Visual Studio 2015)\nMSVC++ 12.0 _MSC_VER == 1800 (Visual Studio 2013)\nMSVC++ 11.0 _MSC_VER == 1700 (Visual Studio 2012)\nMSVC++ 10.0 _MSC_VER == 1600 (Visual Studio 2010)\nMSVC++ 9.0  _MSC_VER == 1500 (Visual Studio 2008)\nMSVC++ 8.0  _MSC_VER == 1400 (Visual Studio 2005)\nMSVC++ 7.1  _MSC_VER == 1310 (Visual Studio 2003)\nMSVC++ 7.0  _MSC_VER == 1300\nMSVC++ 6.0  _MSC_VER == 1200\nMSVC++ 5.0  _MSC_VER == 1100"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 37
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c1858de7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:32 GMT"
+  ],
+  "Etag": [
+    "W/\"3c10-0RNDdqu5WSD+yYVz6y1XmVsxxHc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0853b37d19f3e415063e8055693128981565326232; expires=Sat, 08-Aug-20 04:50:32 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

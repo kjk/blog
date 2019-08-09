@@ -1,0 +1,5274 @@
+3182 1565326090797 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+      "table": "block"
+    }
+  ]
+}
+Response:+2033
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+          "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+          "c178e777-fe48-4711-961a-607dbe4b5a9b",
+          "82b644c3-535e-4ce8-86cc-5b586242bbee",
+          "db692f2c-0d5e-4379-9e80-98482910010d",
+          "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+          "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+          "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+          "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+          "21569f94-24a7-4763-86fc-02e698612653",
+          "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+          "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+          "b725097a-bd79-48df-b36e-ad5f89e18654",
+          "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+          "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+          "81714acf-995e-4968-bb22-0684d95c9495",
+          "1e4d6af9-2729-45a8-87f3-740805b8c583",
+          "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+          "d16023a9-b711-42af-84f9-297c523d57d2",
+          "0251008d-b4dd-43e3-85ab-4839a7bd6f3b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492419698870,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564296540000,
+        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+        "parent_table": "block",
+        "permissions": [
+          {
+            "role": "editor",
+            "type": "user_permission",
+            "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+          }
+        ],
+        "properties": {
+          "title": [
+            [
+              "Business (of software and other)"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 90
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037189d19c87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:09 GMT"
+  ],
+  "Etag": [
+    "W/\"599-SIuHjJteRj9HF/vDnmVZb0mmnvk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea57d1080e0cc1dfe5e57e610c1e0ad31565326089; expires=Sat, 08-Aug-20 04:48:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+32086 1565326090801 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+  "verticalColumns": false
+}
+Response:+30895
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0251008d-b4dd-43e3-85ab-4839a7bd6f3b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532924414425,
+          "id": "0251008d-b4dd-43e3-85ab-4839a7bd6f3b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924414425,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "0a19229c-2a40-49c7-a3e7-99641e90cd30": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4a6fe619-0714-4de8-808a-1d5ab343a4ea",
+            "68b4a999-53c9-4afa-96bb-1f7222bfd9f1",
+            "43c6c24b-4e80-4dc0-a3ec-9890e4d07450",
+            "35127cf4-64a7-4e99-ad65-6dd67ccfcf11",
+            "abfb4bfd-6c69-4e72-a264-924972395a3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1523586392003,
+          "id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1523586505330,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "keyword research"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 68
+        }
+      },
+      "11ee59ba-4a3b-405e-bde6-347286c0a9ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1ba5bded-fbc6-4583-ac5e-28165b9b1d05",
+            "4244ed2a-37fe-480c-a419-2ae0490a28fa",
+            "798218ad-59d8-4810-96f8-fa30385d1dfb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1516845496651,
+          "id": "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1518510057095,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "tools"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 26
+        }
+      },
+      "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ed09137f-b827-41ca-9e9c-5fd2a59ec298",
+            "bcb9c4a2-ca5d-4743-b45a-87d54bdfb6ff"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514616300195,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516341226790,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Software Entreprenur book"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 85
+        }
+      },
+      "1e4d6af9-2729-45a8-87f3-740805b8c583": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f7b0bac4-4203-4ccf-aab5-186ce38a4373"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515545447640,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "1e4d6af9-2729-45a8-87f3-740805b8c583",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515545536013,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Possible company names"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 61
+        }
+      },
+      "21569f94-24a7-4763-86fc-02e698612653": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8e448f07-0370-4321-ba61-31a0ae569bbb",
+            "8922d478-f844-4062-a4ad-748d44336cb6",
+            "165d68db-1c58-4763-9897-1d9a9b72c398"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461800423,
+          "id": "21569f94-24a7-4763-86fc-02e698612653",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1515545559695,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "license generation schemes"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "66e4e957-529b-4ede-83f6-9c7e6b342f8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9db158a2-1b0f-4400-b10b-3a509ce49be2",
+            "52da5757-f89a-4c8f-ac0a-518e7951657b",
+            "7f36e7ce-5265-47cc-80a6-04c213e634d3",
+            "eadca129-64f0-4450-9cec-22f48f621204",
+            "a34ff329-3116-4a84-976a-7648fd0cf458",
+            "28c2736a-0412-4200-8362-42457f4759e6",
+            "a3697d7f-1f17-48b7-bb0d-93b3766321ef"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512364660402,
+          "id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512364660402,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "customer support software"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "70eacde9-d15f-4be5-ba46-c17130fa2fac": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "06897155-0a7f-4276-ab03-df95592030ac",
+            "2a5ca780-9ce9-4320-b842-00e87ce44493"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512364579701,
+          "id": "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512364579701,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "accounting"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 0
+        }
+      },
+      "70fd4562-34a7-4164-bfcd-464c6ea5886d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b8a9b613-a661-4f56-95a4-1837b029e57d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512367841304,
+          "id": "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1549660620000,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "pricing pages and strategies"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 5
+        }
+      },
+      "813b68ac-e556-401f-b437-67d5ecdf0a1b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "06817da6-d15d-429d-b3ee-c8f20c086a41",
+            "5ca40190-f491-42be-af52-d78d57c37b0a",
+            "603ed0b1-304e-4251-a904-bb1a7d6a14a2",
+            "41097d6a-ae3b-4d9e-916c-d8e3f22199d6",
+            "32ae297f-9eda-442a-aa91-130cea9e15a2",
+            "7ccde7c0-1177-4860-ac30-0bec8fadbf95",
+            "df554996-4596-4a0a-9373-f3f782ce8d40",
+            "1ca32db5-87d9-41bb-b2d0-737b06375466",
+            "585c8d40-9301-420f-9360-58ff044f51b2"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1493607895850,
+          "id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924431585,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "books and articles"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 17
+        }
+      },
+      "81714acf-995e-4968-bb22-0684d95c9495": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e0b30f2b-a9f4-4fa7-81d7-ce372bef1d08",
+            "3c319d08-3535-454f-b5fd-be28db5de808",
+            "a15f8c5b-43d7-4b17-bd03-3cf3ca48c459",
+            "40392d22-4d06-4f9d-b745-f504c243236a",
+            "5fcd0564-cb5c-48ee-9e3d-427342e3798e",
+            "987c5f7b-a440-45cc-814e-fd73f2f34efe",
+            "69080b11-8063-4186-9425-c6c8b6bf359d",
+            "adf92042-6d8f-4391-ab87-fdbce6370c33",
+            "5cee29d5-d8d3-4c3a-9520-30abb47539cb",
+            "3cc0ebd2-46ca-4392-a782-94b4da8014f6",
+            "fda850d0-c769-4bf5-b7d8-7c6733b1e5d0",
+            "1059922e-f11e-41bd-b215-c290bec6bc24",
+            "f8790df6-64a8-46a6-b84e-37d6a2b6f9cb",
+            "c53ffb17-3c48-40bd-aeb9-5c1a5db1d160",
+            "cf6b454f-293e-4b39-80f7-4085157dcd0f",
+            "50751643-efea-4ac9-818c-2fee0bb727ce",
+            "330048db-7199-489f-b4c0-cd26da337b08",
+            "9b407cc9-3be0-49f3-ad70-06ca2eb8b45f",
+            "bb99de5c-9538-4505-9ba1-a87124c4252e",
+            "bf69293a-8686-43b4-8f44-4e0ace828a96",
+            "99ddcc26-6940-40df-9858-44fee61ce555",
+            "b9abe19f-6823-4e19-9a66-d5c30ad44441",
+            "afcfb6eb-6928-46f7-95c1-e03e63269107",
+            "8636ca99-5dc6-4dc5-ba3c-2fa2c44576c8",
+            "b842944a-3adb-4f75-9ca4-bff244db978e",
+            "d8bb9a80-2979-41e6-bbf7-5a49c5a1feee",
+            "2380a742-634a-4fb6-8542-25eb6ca3eba2",
+            "71e10003-e919-4ef1-8f63-3a77354dc5ea",
+            "75ffea2e-d86d-4470-b5a9-b5a0812103fd",
+            "8ce1d402-1059-4b31-99e7-08f98b0fb8d7",
+            "73ad99bb-5c66-4704-a55e-0b89d03a3280",
+            "b81222fd-fb13-4e11-a043-a5466ba7c3b3",
+            "acefb3ed-dc0a-4676-b6be-141b42b8d892",
+            "aee30f21-4668-451c-8098-982944fb3cff",
+            "7d44f5ea-39f9-4cff-8505-a378a9f11943",
+            "9cc93aa1-f79a-4341-8268-55b4da651468",
+            "3fe99079-4e62-4a7e-b955-a5596dfd798d",
+            "e4dd120f-5a14-443d-89de-2b24ee0601da",
+            "dfccb429-8a4d-4a44-86df-157f7dfef0c8",
+            "6ebdb315-fb0b-4ed3-88b3-c593deaeb0c0",
+            "85f7cd01-2d42-4a3a-bab6-eb84bf2e1c2f",
+            "d46f30dc-5615-42fc-888c-2cbe4f55c6ee",
+            "3cb3a18f-2c98-4024-afe7-8062b6fd37a6",
+            "07445a1c-83db-4b9a-9848-d4feeb54f3a8",
+            "ff893c4e-75db-4968-99ab-76edbd9b25b5",
+            "8f322bc9-c615-46be-bf9b-897b4d9667cd",
+            "a4c5ae1a-c7d1-4e09-8c30-e05a6427fd78",
+            "34dcc676-92d1-4a8d-b1fb-a340b96d6665",
+            "328075c2-2a4c-469e-9611-f2eabb005019",
+            "3780437f-43e4-4155-a61b-e3633ef0da73",
+            "30413686-bd6c-4d60-9e90-b8ac16a0f547",
+            "66c9c352-61a4-43df-b1ad-498a2178d241",
+            "504c6ceb-66d9-440c-ae53-ff01903f45c9",
+            "9965a163-0e44-4cf8-8b3b-660d8bd3487d",
+            "b2b0b0a4-38f1-452e-b7b6-d3b283ee2dad",
+            "b15aa821-fd87-4d29-9cfe-c9d94cd4e478",
+            "3859892a-2655-4fd3-bdb4-f074db66e1db",
+            "545fdf61-9ed9-4ad0-9eb8-01a19178a182",
+            "abfc9e21-4e01-4bdf-a74d-9dde26d67fb8",
+            "a3bc8ca9-74e3-42e2-9983-d5b542ea0b9f",
+            "6a40e94e-3f17-4512-a362-56d20deee3ff",
+            "da3ddc41-4947-455a-ac7f-f2f7886ee5e5",
+            "a5b9d2d1-d914-4b84-8fcc-ba459f53e124",
+            "9c0c555b-ba53-4436-bb08-de9b3505625d",
+            "eca8e231-f1a4-4439-9f77-886bb4046165",
+            "967abf57-f3e5-4cb8-b42f-eeb571a8c7f1",
+            "c975bc7c-b1b1-4c05-9f51-6dd5a3881544",
+            "1853ca70-030d-4b4a-b719-2d2093e74e80"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492723846069,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "81714acf-995e-4968-bb22-0684d95c9495",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1492723846069,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Small business stories"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 0
+        }
+      },
+      "82b644c3-535e-4ce8-86cc-5b586242bbee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e3f9c8f9-73c3-4e84-bb32-b25015940a34",
+            "f8947d76-141b-4b70-bc1a-ce4f808cd1f3",
+            "b1eb11b2-4bdf-4451-92df-fdd52628bde7",
+            "a2be0295-a2ba-4d01-8a85-79b9e91909e4",
+            "1011f439-81d1-449a-8636-27fcdf096275",
+            "0258916a-f974-4459-91fd-65b092e61685",
+            "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+            "5df746f3-cee3-4a62-a250-bbd69e93e73d",
+            "d09376fa-4e9b-4590-94b0-8be550b1d1ad",
+            "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496460162155,
+          "id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564296540000,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "payments"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 79
+        }
+      },
+      "8438605b-0946-44e8-85e9-9f8b8029c3b5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "579d4952-70ae-4751-9ca2-886910524513",
+            "374b3fa9-b2bd-4511-b9b8-a2211203a68a",
+            "def0615c-56c6-43dd-b05b-92ff9f2e78fa",
+            "9578681d-4dca-4eff-80ae-34aa3dfb5617",
+            "a4ba568e-6f0b-4877-aa23-a6d95230b5c3",
+            "c3b2b6ad-c46c-49e2-bccc-b28b2d6c649d",
+            "29b1f92c-6dcf-40cb-9f07-42505952a992",
+            "d9a8866f-de10-4df5-a9a0-b34446b015af",
+            "e37ab7ea-1f52-4372-91cb-30fbc11d4fca"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1515975726503,
+          "id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516046277595,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "researching competitors"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 114
+        }
+      },
+      "9a07ca64-c0c1-4dc0-9e8b-d134b348678d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+            "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+            "c178e777-fe48-4711-961a-607dbe4b5a9b",
+            "82b644c3-535e-4ce8-86cc-5b586242bbee",
+            "db692f2c-0d5e-4379-9e80-98482910010d",
+            "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+            "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+            "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+            "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+            "21569f94-24a7-4763-86fc-02e698612653",
+            "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+            "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+            "b725097a-bd79-48df-b36e-ad5f89e18654",
+            "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+            "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "81714acf-995e-4968-bb22-0684d95c9495",
+            "1e4d6af9-2729-45a8-87f3-740805b8c583",
+            "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+            "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+            "d16023a9-b711-42af-84f9-297c523d57d2",
+            "0251008d-b4dd-43e3-85ab-4839a7bd6f3b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492419698870,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564296540000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Business (of software and other)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 90
+        }
+      },
+      "a62674a8-9b22-46e0-8ca6-2fdb721fd893": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ed4bcf9b-076f-4b8c-86c7-233b5dcd3129",
+            "ee398744-13c1-4db4-a998-c8e2fb059c18",
+            "a03d47e2-267f-4978-be0e-5cec5f479e35",
+            "8ea897ff-fb8a-49b3-8dbf-0ed34f0d760b",
+            "c7a84e1a-1107-4c17-8c48-85d13aa5ce27",
+            "3b280b9c-102e-4365-9c3e-05aa67e5ff71",
+            "36bc42fd-1fd2-4fb8-a80f-0db66d02b555",
+            "8fdc9b03-89b0-401d-bf9b-2916251c6899"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492419704517,
+          "id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924433555,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "software licensing software and ideas"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 8
+        }
+      },
+      "a98dd27a-87ef-432f-b2f5-113e1a0584fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "cec790e0-1599-4636-942f-9a75258cb2c1",
+            "d79eefde-74d6-449a-a350-8103d4a45061",
+            "0a126737-b906-4dd8-b0a9-3a83b68f7731",
+            "9af6f279-46d2-4885-8ffa-440e5d3b46a9",
+            "0503b59e-a97f-49d1-a257-0bfd83309406",
+            "ccc2c8c3-fd66-4204-b3a9-6e7e2d328be4",
+            "8f64d704-dc0c-4249-beb1-78341b049893",
+            "f67c595e-09cb-4f33-b777-2b9e18a978de",
+            "d6d80bea-d31f-4e62-8d86-d65762793fa0",
+            "e2c905ac-a4c1-49e6-bae3-02aced204c14",
+            "44f45b0b-79b2-41b6-9708-23f5aafa69d2",
+            "22a59d3f-b8e8-4981-ab40-b94a541c2437",
+            "f0e80e55-651f-4466-b2cb-a687f56ae5da",
+            "5fa486eb-7c9a-4f07-9b3a-509421646037"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512368204910,
+          "id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1539496130227,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "marketing"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 32
+        }
+      },
+      "b725097a-bd79-48df-b36e-ad5f89e18654": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "051a801b-35c0-4b04-8566-09b4687b4c94",
+            "830df507-5ca8-4cdb-ab33-8d495fb7a6f2",
+            "3e2dae73-4f84-41a4-b0ab-be674af1c3e0",
+            "550a8263-5952-4d9f-b828-5a8182ab5dbc",
+            "e81eae50-797e-4ee3-915a-7a147f42eaef",
+            "d1eeacca-5b64-4a47-8f1f-97f1606b8741",
+            "fe855cbe-29a5-4e52-bb98-623883f33936",
+            "20566b7c-36af-4633-a9a4-3bdb6074f425",
+            "74a556f4-242b-4752-afb0-8a3c37aeaa8c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1518848865846,
+          "id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554166140000,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SEO"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 40
+        }
+      },
+      "b97b3f74-e68d-410b-ac90-e965f6a524cd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "b4ee0ed1-a9c7-44f6-aed8-83e7b12061e6",
+            "c600b6c4-e211-47cc-af7b-650d079766ab",
+            "1a5729b2-30e0-45e5-94cf-f14403db6c79",
+            "ac4abf70-7cd5-4cf5-bee0-163450efaf0a",
+            "ecb1f362-c016-40eb-9b87-ac6a184be779",
+            "b6960205-1c2f-44b1-adf6-b4de3e313d62",
+            "37288fce-2a6a-45ce-817c-4566678b9b0d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1514859387026,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1516341223869,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Essentials of Starting Indie Business"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 198
+        }
+      },
+      "c178e777-fe48-4711-961a-607dbe4b5a9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4fd64b76-4e0f-421f-9b69-cf354d064404",
+            "dd3d187f-984a-4384-a654-0ab89a23a743",
+            "26038b52-2dc4-4b24-92f7-6e405432a713",
+            "20a18746-729c-43d6-853b-1b596ba31360",
+            "81cafb1f-e816-4800-a570-5557e581b9bb"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512364552496,
+          "id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1518125030513,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "misc"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 17
+        }
+      },
+      "d16023a9-b711-42af-84f9-297c523d57d2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a4c82556-1ca9-49b7-8fee-41af9fc25fa2",
+            "2a37b3cd-3d10-491f-8612-19a8f1e1f55c",
+            "c223d124-59f3-43ee-8506-04098afca1a0",
+            "6d686b41-47e8-4467-a4ec-cbff7d7576db"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1520656786931,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d16023a9-b711-42af-84f9-297c523d57d2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1520656834005,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Finding freelancers"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 62
+        }
+      },
+      "db692f2c-0d5e-4379-9e80-98482910010d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77d887a4-49ec-48ad-b0bc-eae0c759f0c8",
+            "443ec2dd-00cc-41ec-9b1f-011885ce5aff",
+            "4fea6770-0fd4-4c0b-a84c-7b2a122f3217",
+            "ec54eb41-f519-4d92-9bd4-28448b7eb7e1",
+            "7fb31e46-7b16-4fb9-8789-7ade15a54952",
+            "0c859968-d2a1-47b8-b1b4-e2fc2c44125f",
+            "198a9a2d-5c8d-494d-bcda-cb4569230d40",
+            "cdb3b970-a189-4f30-8b74-79d3fe00b438"
+          ],
+          "copied_from": "89662235-38a2-443a-8723-bafe288e88f0",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532924416080,
+          "id": "db692f2c-0d5e-4379-9e80-98482910010d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532924430135,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "selling downloadable content"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 12
+        }
+      },
+      "f79996b1-a1a4-4467-8db0-1704748c3d8c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "322e5db6-683c-441f-b3d5-11ff4f24af8a",
+            "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
+            "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+            "a643a618-2e95-48cb-a40c-5cf03dd2ee64",
+            "82576ef3-e97a-4f74-9952-aba398f75b36",
+            "8f417f48-0425-4754-b92b-f7b515592408"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1539060973569,
+          "id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1553894280000,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "freelancing"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 39
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037189d79ef7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:09 GMT"
+  ],
+  "Etag": [
+    "W/\"5079-7YLa2hkkL/VdJfqQ3w7HABxY2VA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea57d1080e0cc1dfe5e57e610c1e0ad31565326089; expires=Sat, 08-Aug-20 04:48:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+111579 1565326090812 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+8822
+{
+  "requests": [
+    {
+      "id": "ed4bcf9b-076f-4b8c-86c7-233b5dcd3129",
+      "table": "block"
+    },
+    {
+      "id": "ee398744-13c1-4db4-a998-c8e2fb059c18",
+      "table": "block"
+    },
+    {
+      "id": "a03d47e2-267f-4978-be0e-5cec5f479e35",
+      "table": "block"
+    },
+    {
+      "id": "8ea897ff-fb8a-49b3-8dbf-0ed34f0d760b",
+      "table": "block"
+    },
+    {
+      "id": "c7a84e1a-1107-4c17-8c48-85d13aa5ce27",
+      "table": "block"
+    },
+    {
+      "id": "3b280b9c-102e-4365-9c3e-05aa67e5ff71",
+      "table": "block"
+    },
+    {
+      "id": "36bc42fd-1fd2-4fb8-a80f-0db66d02b555",
+      "table": "block"
+    },
+    {
+      "id": "8fdc9b03-89b0-401d-bf9b-2916251c6899",
+      "table": "block"
+    },
+    {
+      "id": "06817da6-d15d-429d-b3ee-c8f20c086a41",
+      "table": "block"
+    },
+    {
+      "id": "5ca40190-f491-42be-af52-d78d57c37b0a",
+      "table": "block"
+    },
+    {
+      "id": "603ed0b1-304e-4251-a904-bb1a7d6a14a2",
+      "table": "block"
+    },
+    {
+      "id": "41097d6a-ae3b-4d9e-916c-d8e3f22199d6",
+      "table": "block"
+    },
+    {
+      "id": "32ae297f-9eda-442a-aa91-130cea9e15a2",
+      "table": "block"
+    },
+    {
+      "id": "7ccde7c0-1177-4860-ac30-0bec8fadbf95",
+      "table": "block"
+    },
+    {
+      "id": "df554996-4596-4a0a-9373-f3f782ce8d40",
+      "table": "block"
+    },
+    {
+      "id": "1ca32db5-87d9-41bb-b2d0-737b06375466",
+      "table": "block"
+    },
+    {
+      "id": "585c8d40-9301-420f-9360-58ff044f51b2",
+      "table": "block"
+    },
+    {
+      "id": "4fd64b76-4e0f-421f-9b69-cf354d064404",
+      "table": "block"
+    },
+    {
+      "id": "dd3d187f-984a-4384-a654-0ab89a23a743",
+      "table": "block"
+    },
+    {
+      "id": "26038b52-2dc4-4b24-92f7-6e405432a713",
+      "table": "block"
+    },
+    {
+      "id": "20a18746-729c-43d6-853b-1b596ba31360",
+      "table": "block"
+    },
+    {
+      "id": "81cafb1f-e816-4800-a570-5557e581b9bb",
+      "table": "block"
+    },
+    {
+      "id": "e3f9c8f9-73c3-4e84-bb32-b25015940a34",
+      "table": "block"
+    },
+    {
+      "id": "f8947d76-141b-4b70-bc1a-ce4f808cd1f3",
+      "table": "block"
+    },
+    {
+      "id": "b1eb11b2-4bdf-4451-92df-fdd52628bde7",
+      "table": "block"
+    },
+    {
+      "id": "a2be0295-a2ba-4d01-8a85-79b9e91909e4",
+      "table": "block"
+    },
+    {
+      "id": "1011f439-81d1-449a-8636-27fcdf096275",
+      "table": "block"
+    },
+    {
+      "id": "0258916a-f974-4459-91fd-65b092e61685",
+      "table": "block"
+    },
+    {
+      "id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+      "table": "block"
+    },
+    {
+      "id": "5df746f3-cee3-4a62-a250-bbd69e93e73d",
+      "table": "block"
+    },
+    {
+      "id": "d09376fa-4e9b-4590-94b0-8be550b1d1ad",
+      "table": "block"
+    },
+    {
+      "id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+      "table": "block"
+    },
+    {
+      "id": "77d887a4-49ec-48ad-b0bc-eae0c759f0c8",
+      "table": "block"
+    },
+    {
+      "id": "443ec2dd-00cc-41ec-9b1f-011885ce5aff",
+      "table": "block"
+    },
+    {
+      "id": "4fea6770-0fd4-4c0b-a84c-7b2a122f3217",
+      "table": "block"
+    },
+    {
+      "id": "ec54eb41-f519-4d92-9bd4-28448b7eb7e1",
+      "table": "block"
+    },
+    {
+      "id": "7fb31e46-7b16-4fb9-8789-7ade15a54952",
+      "table": "block"
+    },
+    {
+      "id": "0c859968-d2a1-47b8-b1b4-e2fc2c44125f",
+      "table": "block"
+    },
+    {
+      "id": "198a9a2d-5c8d-494d-bcda-cb4569230d40",
+      "table": "block"
+    },
+    {
+      "id": "cdb3b970-a189-4f30-8b74-79d3fe00b438",
+      "table": "block"
+    },
+    {
+      "id": "06897155-0a7f-4276-ab03-df95592030ac",
+      "table": "block"
+    },
+    {
+      "id": "2a5ca780-9ce9-4320-b842-00e87ce44493",
+      "table": "block"
+    },
+    {
+      "id": "9db158a2-1b0f-4400-b10b-3a509ce49be2",
+      "table": "block"
+    },
+    {
+      "id": "52da5757-f89a-4c8f-ac0a-518e7951657b",
+      "table": "block"
+    },
+    {
+      "id": "7f36e7ce-5265-47cc-80a6-04c213e634d3",
+      "table": "block"
+    },
+    {
+      "id": "eadca129-64f0-4450-9cec-22f48f621204",
+      "table": "block"
+    },
+    {
+      "id": "a34ff329-3116-4a84-976a-7648fd0cf458",
+      "table": "block"
+    },
+    {
+      "id": "28c2736a-0412-4200-8362-42457f4759e6",
+      "table": "block"
+    },
+    {
+      "id": "a3697d7f-1f17-48b7-bb0d-93b3766321ef",
+      "table": "block"
+    },
+    {
+      "id": "b8a9b613-a661-4f56-95a4-1837b029e57d",
+      "table": "block"
+    },
+    {
+      "id": "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+      "table": "block"
+    },
+    {
+      "id": "cec790e0-1599-4636-942f-9a75258cb2c1",
+      "table": "block"
+    },
+    {
+      "id": "d79eefde-74d6-449a-a350-8103d4a45061",
+      "table": "block"
+    },
+    {
+      "id": "0a126737-b906-4dd8-b0a9-3a83b68f7731",
+      "table": "block"
+    },
+    {
+      "id": "9af6f279-46d2-4885-8ffa-440e5d3b46a9",
+      "table": "block"
+    },
+    {
+      "id": "0503b59e-a97f-49d1-a257-0bfd83309406",
+      "table": "block"
+    },
+    {
+      "id": "ccc2c8c3-fd66-4204-b3a9-6e7e2d328be4",
+      "table": "block"
+    },
+    {
+      "id": "8f64d704-dc0c-4249-beb1-78341b049893",
+      "table": "block"
+    },
+    {
+      "id": "f67c595e-09cb-4f33-b777-2b9e18a978de",
+      "table": "block"
+    },
+    {
+      "id": "d6d80bea-d31f-4e62-8d86-d65762793fa0",
+      "table": "block"
+    },
+    {
+      "id": "e2c905ac-a4c1-49e6-bae3-02aced204c14",
+      "table": "block"
+    },
+    {
+      "id": "44f45b0b-79b2-41b6-9708-23f5aafa69d2",
+      "table": "block"
+    },
+    {
+      "id": "22a59d3f-b8e8-4981-ab40-b94a541c2437",
+      "table": "block"
+    },
+    {
+      "id": "f0e80e55-651f-4466-b2cb-a687f56ae5da",
+      "table": "block"
+    },
+    {
+      "id": "5fa486eb-7c9a-4f07-9b3a-509421646037",
+      "table": "block"
+    },
+    {
+      "id": "8e448f07-0370-4321-ba61-31a0ae569bbb",
+      "table": "block"
+    },
+    {
+      "id": "8922d478-f844-4062-a4ad-748d44336cb6",
+      "table": "block"
+    },
+    {
+      "id": "165d68db-1c58-4763-9897-1d9a9b72c398",
+      "table": "block"
+    },
+    {
+      "id": "579d4952-70ae-4751-9ca2-886910524513",
+      "table": "block"
+    },
+    {
+      "id": "374b3fa9-b2bd-4511-b9b8-a2211203a68a",
+      "table": "block"
+    },
+    {
+      "id": "def0615c-56c6-43dd-b05b-92ff9f2e78fa",
+      "table": "block"
+    },
+    {
+      "id": "9578681d-4dca-4eff-80ae-34aa3dfb5617",
+      "table": "block"
+    },
+    {
+      "id": "a4ba568e-6f0b-4877-aa23-a6d95230b5c3",
+      "table": "block"
+    },
+    {
+      "id": "c3b2b6ad-c46c-49e2-bccc-b28b2d6c649d",
+      "table": "block"
+    },
+    {
+      "id": "29b1f92c-6dcf-40cb-9f07-42505952a992",
+      "table": "block"
+    },
+    {
+      "id": "d9a8866f-de10-4df5-a9a0-b34446b015af",
+      "table": "block"
+    },
+    {
+      "id": "e37ab7ea-1f52-4372-91cb-30fbc11d4fca",
+      "table": "block"
+    },
+    {
+      "id": "1ba5bded-fbc6-4583-ac5e-28165b9b1d05",
+      "table": "block"
+    },
+    {
+      "id": "4244ed2a-37fe-480c-a419-2ae0490a28fa",
+      "table": "block"
+    },
+    {
+      "id": "798218ad-59d8-4810-96f8-fa30385d1dfb",
+      "table": "block"
+    },
+    {
+      "id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+      "table": "block"
+    },
+    {
+      "id": "830df507-5ca8-4cdb-ab33-8d495fb7a6f2",
+      "table": "block"
+    },
+    {
+      "id": "3e2dae73-4f84-41a4-b0ab-be674af1c3e0",
+      "table": "block"
+    },
+    {
+      "id": "550a8263-5952-4d9f-b828-5a8182ab5dbc",
+      "table": "block"
+    },
+    {
+      "id": "e81eae50-797e-4ee3-915a-7a147f42eaef",
+      "table": "block"
+    },
+    {
+      "id": "d1eeacca-5b64-4a47-8f1f-97f1606b8741",
+      "table": "block"
+    },
+    {
+      "id": "fe855cbe-29a5-4e52-bb98-623883f33936",
+      "table": "block"
+    },
+    {
+      "id": "20566b7c-36af-4633-a9a4-3bdb6074f425",
+      "table": "block"
+    },
+    {
+      "id": "74a556f4-242b-4752-afb0-8a3c37aeaa8c",
+      "table": "block"
+    },
+    {
+      "id": "4a6fe619-0714-4de8-808a-1d5ab343a4ea",
+      "table": "block"
+    },
+    {
+      "id": "68b4a999-53c9-4afa-96bb-1f7222bfd9f1",
+      "table": "block"
+    },
+    {
+      "id": "43c6c24b-4e80-4dc0-a3ec-9890e4d07450",
+      "table": "block"
+    },
+    {
+      "id": "35127cf4-64a7-4e99-ad65-6dd67ccfcf11",
+      "table": "block"
+    },
+    {
+      "id": "abfb4bfd-6c69-4e72-a264-924972395a3e",
+      "table": "block"
+    },
+    {
+      "id": "322e5db6-683c-441f-b3d5-11ff4f24af8a",
+      "table": "block"
+    },
+    {
+      "id": "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
+      "table": "block"
+    },
+    {
+      "id": "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+      "table": "block"
+    },
+    {
+      "id": "a643a618-2e95-48cb-a40c-5cf03dd2ee64",
+      "table": "block"
+    },
+    {
+      "id": "82576ef3-e97a-4f74-9952-aba398f75b36",
+      "table": "block"
+    },
+    {
+      "id": "8f417f48-0425-4754-b92b-f7b515592408",
+      "table": "block"
+    }
+  ]
+}
+Response:+101713
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492503845066,
+        "id": "ed4bcf9b-076f-4b8c-86c7-233b5dcd3129",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492503845066,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.paddle.com/",
+              [
+                [
+                  "a",
+                  "https://www.paddle.com/"
+                ]
+              ]
+            ],
+            [
+              " : licensing system for WIndows (C++, C#) and Mac"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492419720000,
+        "id": "ee398744-13c1-4db4-a998-c8e2fb059c18",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492419720000,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.joelonsoftware.com/default.asp?biz.5.594488.16",
+              [
+                [
+                  "a",
+                  "http://discuss.joelonsoftware.com/default.asp?biz.5.594488.16"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492419734134,
+        "id": "a03d47e2-267f-4978-be0e-5cec5f479e35",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492419734134,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.codeproject.com/Articles/99499/Implementation-of-the-Licensing-System-for-a-Softw",
+              [
+                [
+                  "a",
+                  "https://www.codeproject.com/Articles/99499/Implementation-of-the-Licensing-System-for-a-Softw"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492419736693,
+        "id": "8ea897ff-fb8a-49b3-8dbf-0ed34f0d760b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492419736693,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.reddit.com/r/Entrepreneur/comments/39g0xv/solutions_to_sell_desktop_software/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/Entrepreneur/comments/39g0xv/solutions_to_sell_desktop_software/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "http://www.licensespot.com/",
+              [
+                [
+                  "a",
+                  "http://www.licensespot.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1494637156651,
+        "id": "c7a84e1a-1107-4c17-8c48-85d13aa5ce27",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1494637156651,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=13494360",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=13494360"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1494637159470,
+        "id": "3b280b9c-102e-4365-9c3e-05aa67e5ff71",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1494637159470,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gumroad?"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1494637206062,
+        "id": "36bc42fd-1fd2-4fb8-a80f-0db66d02b555",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1494637206062,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Aquatic Prime?"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1494637311155,
+        "id": "8fdc9b03-89b0-401d-bf9b-2916251c6899",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1494637311155,
+        "parent_id": "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.brandonstaggs.com/2007/07/26/implementing-a-partial-serial-number-verification-system-in-delphi/",
+              [
+                [
+                  "a",
+                  "http://www.brandonstaggs.com/2007/07/26/implementing-a-partial-serial-number-verification-system-in-delphi/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "3bfdfdf8-2ee3-4a64-a4bc-46789a20be0e",
+          "71bdf2f5-2b21-4ce7-b2c8-0ccc936877d9",
+          "eaec3bd4-ea33-4c12-bcd6-3bb1d28b0055",
+          "59090918-f18b-45f1-b4cf-1d6e4634abcd",
+          "88894460-8c57-4b6d-9d77-993edb669b5e",
+          "6c962eeb-9180-4e7e-b0c9-5b6cb8e9e9c8",
+          "f7428b63-37c5-4968-abcf-ad38488a4fd6",
+          "6634832b-73f3-4f69-95e0-052d79a3aec7",
+          "5d4ceb15-a8da-4177-8a1c-272d08b44213",
+          "0231d990-fe70-44af-96f7-733352999fab",
+          "12d01d91-f04f-4fbd-8102-c6da4515a254",
+          "5287f45c-0b0a-4146-90a1-888eefa18cda",
+          "be31f693-a5f9-4d77-8384-573eba109eb4",
+          "ab83dac6-38de-4db7-826e-026b6725633b",
+          "2251e38b-7f92-4f6c-a8bc-6dc3f10e7b7c",
+          "50c7468c-e6dc-4640-bd6b-bff33b49fb41",
+          "515a474e-dd25-4d02-90fd-def0080f7ddb",
+          "2d635e16-9ee0-427a-a487-b75c07299f88",
+          "6116f800-43b7-423c-990b-967f4bd97523",
+          "61f16175-273c-4f30-be29-0005994aae73",
+          "08b2e304-8a20-4f09-aa63-9e2a87213e07",
+          "d8491f55-efd2-4013-bf71-049d75400ca5",
+          "9ea74ea8-93f1-4e07-8521-61bfc032888f",
+          "02512dfe-33cf-4b83-82e0-d9fe6ee4828c",
+          "050ac30b-f8ef-4691-b3ba-7686b6823545",
+          "0e744965-e407-464d-bacf-e304d36fde5c",
+          "ecfc37e4-1d1f-4403-aa48-c2e2e3533f2a",
+          "01bd0360-97a9-4a58-8991-55c89c295583",
+          "131e7f75-6eb8-4588-a0de-24df0c81f6ab",
+          "cd712990-2675-4d2c-ae31-c69a1ef83f0d",
+          "933c483e-b7e1-4fc0-bbdf-08c263d0739f",
+          "4987185d-b3bb-42d7-82c5-2e66199f3713",
+          "bad968e5-ebb6-48da-a437-e0d01d2dce8b",
+          "b3963c9a-e91e-4ee1-867d-4fd2503d9b90",
+          "5ae7c2ac-6627-4d1f-bd07-607da40dcf6f",
+          "b4628b7e-138b-4156-aae6-377eb86dc4ae",
+          "576d67c7-3129-43d7-83de-d6cd7845cfe4",
+          "0e76c3f8-b0cd-4823-8ad7-adca5fc13f9c",
+          "87407982-2524-44ef-a475-3bda3198eea1",
+          "08097159-7d46-4e36-bbdc-3841b718bf3c",
+          "ddc24381-0317-4021-bb88-8e1e43827050",
+          "4af1b7d0-f9cb-47af-a476-f0da8d1b992c",
+          "a941c544-102b-4644-8016-7916e3249e33",
+          "ea88ae81-96ec-4f20-bead-506aef2450f9",
+          "92f4002d-45f9-4a67-92d6-ca972a69e519",
+          "18f1599d-bcf7-4680-b87a-e87e78515c9e",
+          "957d0e0f-0487-429b-a80e-3fcf4f4ae5a2",
+          "27e24fb6-c99c-4b1d-85db-13fca072c6db",
+          "8b066f22-ecea-4664-bb31-9360fc3b51b7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532921178221,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "06817da6-d15d-429d-b3ee-c8f20c086a41",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922919100,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Summary Of \"The Mom test\" book about validating business ideas"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 261
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496460173377,
+        "id": "5ca40190-f491-42be-af52-d78d57c37b0a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496460173377,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496460175753,
+        "id": "603ed0b1-304e-4251-a904-bb1a7d6a14a2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496460175753,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.sodaware.net/dev/articles/",
+              [
+                [
+                  "a",
+                  "https://www.sodaware.net/dev/articles/"
+                ]
+              ]
+            ],
+            [
+              " : Steve Pavlina Shareware articles"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496460204854,
+        "id": "41097d6a-ae3b-4d9e-916c-d8e3f22199d6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496460204854,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://momtestbook.com/",
+              [
+                [
+                  "a",
+                  "http://momtestbook.com/"
+                ]
+              ]
+            ],
+            [
+              " : \"The Mom Test\" book on how to interview people to figure out business ideas"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496460519833,
+        "id": "32ae297f-9eda-442a-aa91-130cea9e15a2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496460519833,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/mezod/awesome-indie",
+              [
+                [
+                  "a",
+                  "https://github.com/mezod/awesome-indie"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496460538577,
+        "id": "7ccde7c0-1177-4860-ac30-0bec8fadbf95",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924368465,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://barnacl.es/",
+              [
+                [
+                  "a",
+                  "https://barnacl.es/"
+                ]
+              ]
+            ],
+            [
+              " : \"News for bootstrappers, not VC hackers\""
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 2
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "copied_from": "86c75abe-1e38-4057-b9c9-3d57b474cd0d",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924365122,
+        "id": "df554996-4596-4a0a-9373-f3f782ce8d40",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924365122,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://personalmba.com",
+              [
+                [
+                  "a",
+                  "https://personalmba.com"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "copied_from": "517057fd-f705-4712-838e-347a6707c9db",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924365119,
+        "id": "1ca32db5-87d9-41bb-b2d0-737b06375466",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924365119,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://changethis.com/manifesto/98.02.PersonalMBA/pdf/98.02.PersonalMBA.pdf",
+              [
+                [
+                  "a",
+                  "http://changethis.com/manifesto/98.02.PersonalMBA/pdf/98.02.PersonalMBA.pdf"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "copied_from": "d576046e-d902-4128-a6b9-de2e94113612",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924365114,
+        "id": "585c8d40-9301-420f-9360-58ff044f51b2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924365114,
+        "parent_id": "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "“Go it Alone” full book "
+            ],
+            [
+              "http://brucejudson.com/",
+              [
+                [
+                  "a",
+                  "http://brucejudson.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515362501007,
+        "id": "4fd64b76-4e0f-421f-9b69-cf354d064404",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515362505271,
+        "parent_id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/mezod/awesome-indie",
+              [
+                [
+                  "a",
+                  "https://github.com/mezod/awesome-indie"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 28
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518125030513,
+        "id": "dd3d187f-984a-4384-a654-0ab89a23a743",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518125053215,
+        "parent_id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.bootstrapped.fm/t/do-you-prevent-signups-from-disposable-email-services/5680/9",
+              [
+                [
+                  "a",
+                  "http://discuss.bootstrapped.fm/t/do-you-prevent-signups-from-disposable-email-services/5680/9"
+                ]
+              ]
+            ],
+            [
+              " : blocking e-mails from disposable email accounts"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 120
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515362523699,
+        "id": "26038b52-2dc4-4b24-92f7-6e405432a713",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515362542407,
+        "parent_id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ttps://handbook.clerky.com/",
+              [
+                [
+                  "a",
+                  "https://handbook.clerky.com/"
+                ]
+              ]
+            ],
+            [
+              " : Legal Concepts For Founders"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 27
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515362549160,
+        "id": "20a18746-729c-43d6-853b-1b596ba31360",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515362549837,
+        "parent_id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=7673680 - alternatives to adsense for publishers"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364556919,
+        "id": "81cafb1f-e816-4800-a570-5557e581b9bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515362584259,
+        "parent_id": "c178e777-fe48-4711-961a-607dbe4b5a9b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              ". from http://vimeo.com/72081980 when selling SAS business, 3-7x revenue multiple is standard\n. \n. http://pud.com/post/87930228516/how-i-increased-conversion-on-my-checkout-form-by-60, http://baymard.com/blog/visually-reinforce-sensitive-fields\nhttp://elem.com/~btilly/effective-ab-testing/\nhttp://customer.io/ - some e-mail thingy for customer satisfaction\nhttp://justinkan.com/the-founders-guide-to-selling-your-company, https://news.ycombinator.com/item?id=8585358\nhttp://jacquesmattheij.com/How+To+Sell+Your+Company\nhttps://bench.co/ - Bookkeeping/accounting for small businesses \nhttps://news.ycombinator.com/item?id=8783188 - anecdotes on using freelancer.com/odesk\nhttps://www.groovehq.com/blog/hiten-shah-interview - links to marketing etc. blogs\nhttp://www.priceintelligently.com/blog/all - blog about pricing\nhttps://medium.com/@leemunroe/things-i-ve-learned-about-sending-email-2587eeef43f0\nhttps://medium.com/making-things-people-want/21-easy-ways-to-improve-conversion-with-copy-e39825fe731f\nhttps://www.chargebee.com/blog/how-to-incorporate-in-the-us-v2/\nhttps://medium.com/developers-writing/how-to-launch-a-mac-app-and-become-1-top-paid-app-globally-4434bbfb51ee#.1akj8qfbg\nhttp://thenextweb.com/insider/2015/12/18/i-analyzed-250-saas-pricing-pages-heres-what-i-found/\nhttps://www.goodui.org/\nhttps://news.ycombinator.com/item?id=10875879, http://cushionapp.com/expenses/\nhttp://accountalent.com/do-it-yourself-tax-for-startups/\nhttp://christiantietze.de/?clickid=xs1W7I3tvww2Qk6Ty33jGWq5UkSzi4zWN0N3TM0\u0026irgwc=1 - a book on selling software outside of apple store\nhttps://jkraemer.net/2015/10/how-i-set-up-shop-in-hong-kong, https://quaderno.io/blog/digital-nomads-have-you-set-your-business-up-in-hong-kong/ - how to setup a business in Hong Kong and some warnings\nhttps://github.com/255kb/stack-on-a-budget/blob/master/README.md, https://news.ycombinator.com/item?id=13231951"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 6
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564296540000,
+        "id": "e3f9c8f9-73c3-4e84-bb32-b25015940a34",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564296540000,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://discuss.bootstrapped.fm/t/bootstrappers-guide-to-payment-processing/6441",
+              [
+                [
+                  "a",
+                  "https://discuss.bootstrapped.fm/t/bootstrappers-guide-to-payment-processing/6441"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845272796,
+        "id": "f8947d76-141b-4b70-bc1a-ce4f808cd1f3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845290924,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.kapwing.com/blog/unexpected-challenges-of-making-money/",
+              [
+                [
+                  "a",
+                  "https://www.kapwing.com/blog/unexpected-challenges-of-making-money/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 35
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845292051,
+        "id": "b1eb11b2-4bdf-4451-92df-fdd52628bde7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845308445,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://remysharp.com/2016/12/23/beginners-guide-to-stripe-integration",
+              [
+                [
+                  "a",
+                  "https://remysharp.com/2016/12/23/beginners-guide-to-stripe-integration"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845309859,
+        "id": "a2be0295-a2ba-4d01-8a85-79b9e91909e4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845319491,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://mjtsai.com/blog/2012/10/08/stripe-for-indie-mac-developers/",
+              [
+                [
+                  "a",
+                  "http://mjtsai.com/blog/2012/10/08/stripe-for-indie-mac-developers/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845320610,
+        "id": "1011f439-81d1-449a-8636-27fcdf096275",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845328954,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://gigliwood.com/blog/i-heart-stripe-credit-card.html",
+              [
+                [
+                  "a",
+                  "http://gigliwood.com/blog/i-heart-stripe-credit-card.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845330578,
+        "id": "0258916a-f974-4459-91fd-65b092e61685",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845337891,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://gigliwood.com/blog/designing-the-perfect-credi.html",
+              [
+                [
+                  "a",
+                  "http://gigliwood.com/blog/designing-the-perfect-credi.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "79f5e62c-106b-43e0-b88d-06b92f1b5b28",
+          "7bc5e5dc-4108-433e-a5af-d35b2f1bc920",
+          "ae16f9aa-e9bd-4798-9f9b-52c3382fcb3c",
+          "a93ec2ad-90eb-46d7-af42-1b96715d221d",
+          "53ea8507-94f4-4f28-8484-3f781ce48ff7",
+          "504cb06a-1910-4f75-8fab-8ecab4b00737",
+          "03326fc8-eca5-4bac-b9d1-267a658d168c",
+          "ffba26f8-48cc-4299-ac2e-c093ffd2f8da",
+          "142caf9a-7095-41a6-9184-a2fb11d3fc74",
+          "47f9800d-68a2-4d96-84cc-58029cb92980",
+          "077b8f08-5109-43ad-9cde-d1aefb969629"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845353202,
+        "id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845448441,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "reducing fraud and chargebacks"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 132
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "b4bf018d-b69b-411e-b296-568e1bbc7cb9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518471941534,
+        "id": "5df746f3-cee3-4a62-a250-bbd69e93e73d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518471982329,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "chargbee recommended for subscriptions"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 84
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5ac40eb4-0867-437c-8df5-a37a80b891e1"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518472053092,
+        "id": "d09376fa-4e9b-4590-94b0-8be550b1d1ad",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534031200,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "paddle.com",
+              [
+                [
+                  "a",
+                  "http://paddle.com"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 136
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "33d4ff92-5227-4069-82a6-b28298c6ad6e",
+          "3dedbc78-f918-4d27-8e0d-846fe3d79b91",
+          "c6691c0a-6f82-418c-8f26-a4363d09b516",
+          "f3401b8f-5b4c-4fd4-af86-b001eae22cd8"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520534058612,
+        "id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534156542,
+        "parent_id": "82b644c3-535e-4ce8-86cc-5b586242bbee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.bootstrapped.fm/t/recurring-billing-with-multiple-payment-providers/5744/2",
+              [
+                [
+                  "a",
+                  "http://discuss.bootstrapped.fm/t/recurring-billing-with-multiple-payment-providers/5744/2"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 41
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "77d887a4-49ec-48ad-b0bc-eae0c759f0c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Gumroad"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "443ec2dd-00cc-41ec-9b1f-011885ce5aff",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Paddle"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "4fea6770-0fd4-4c0b-a84c-7b2a122f3217",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "FastSpring"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "ec54eb41-f519-4d92-9bd4-28448b7eb7e1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SendOwl"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "7fb31e46-7b16-4fb9-8789-7ade15a54952",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "0c859968-d2a1-47b8-b1b4-e2fc2c44125f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.bootstrapped.fm/t/gumroad-alternatives/5103",
+              [
+                [
+                  "a",
+                  "http://discuss.bootstrapped.fm/t/gumroad-alternatives/5103"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "198a9a2d-5c8d-494d-bcda-cb4569230d40",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.bootstrapped.fm/t/gumroad-alternative/4631",
+              [
+                [
+                  "a",
+                  "http://discuss.bootstrapped.fm/t/gumroad-alternative/4631"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924416080,
+        "id": "cdb3b970-a189-4f30-8b74-79d3fe00b438",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924416080,
+        "parent_id": "db692f2c-0d5e-4379-9e80-98482910010d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=11356560",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=11356560"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 1
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364656693,
+        "id": "06897155-0a7f-4276-ab03-df95592030ac",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364656693,
+        "parent_id": "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.dwmbeancounter.com/tutorial/Tutorial.html",
+              [
+                [
+                  "a",
+                  "http://www.dwmbeancounter.com/tutorial/Tutorial.html"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=11239437",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=11239437"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364656693,
+        "id": "2a5ca780-9ce9-4320-b842-00e87ce44493",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364656693,
+        "parent_id": "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html",
+              [
+                [
+                  "a",
+                  "https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "9db158a2-1b0f-4400-b10b-3a509ce49be2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Help desk/customer support software:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "52da5757-f89a-4c8f-ac0a-518e7951657b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.helpscout.net/",
+              [
+                [
+                  "a",
+                  "http://www.helpscout.net/"
+                ]
+              ]
+            ],
+            [
+              " : $15/month/user, free for 3 users (with limited functionality), docs additional $25/month, recommendation: "
+            ],
+            [
+              "http://blog.thegrizzlylabs.com/2014/01/3-years-of-remote-work-and-counting.html",
+              [
+                [
+                  "a",
+                  "http://blog.thegrizzlylabs.com/2014/01/3-years-of-remote-work-and-counting.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "7f36e7ce-5265-47cc-80a6-04c213e634d3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.zendesk.com",
+              [
+                [
+                  "a",
+                  "https://www.zendesk.com/"
+                ]
+              ]
+            ],
+            [
+              " : $5/user/month for basic features"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "eadca129-64f0-4450-9cec-22f48f621204",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.intercom.io",
+              [
+                [
+                  "a",
+                  "https://www.intercom.io/"
+                ]
+              ]
+            ],
+            [
+              " : from $50/month for customer support"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "a34ff329-3116-4a84-976a-7648fd0cf458",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://freshdesk.com",
+              [
+                [
+                  "a",
+                  "https://freshdesk.com/"
+                ]
+              ]
+            ],
+            [
+              " : free for up to 3 people, $15/agent/month"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "28c2736a-0412-4200-8362-42457f4759e6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.desk.com",
+              [
+                [
+                  "a",
+                  "https://www.desk.com/"
+                ]
+              ]
+            ],
+            [
+              " : $25/month for basic plan"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364680801,
+        "id": "a3697d7f-1f17-48b7-bb0d-93b3766321ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364680801,
+        "parent_id": "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.groovehq.com/",
+              [
+                [
+                  "a",
+                  "https://www.groovehq.com/"
+                ]
+              ]
+            ],
+            [
+              " - have free tier, $15/month/user for Pro plan"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512367856414,
+        "id": "b8a9b613-a661-4f56-95a4-1837b029e57d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512367856414,
+        "parent_id": "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "https://www.getcloudapp.com/plans : nice monthly/yearly switch\nhttp://thenextweb.com/insider/2015/12/18/i-analyzed-250-saas-pricing-pages-heres-what-i-found/\nhttp://www.nickkolenda.com/psychological-pricing-strategies/\nhttps://sheetsu.com/pricing : monthly/yearly switch"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "eed5c809-5c92-473c-acb8-ba649d84af98",
+          "f7a4f54b-082d-4bb3-af17-0fbbddfb06eb",
+          "795f6916-00f0-421e-b8d4-b7afabe88f28",
+          "f6994f11-7093-432f-acce-1ee92603fce5",
+          "a82d7ffd-c726-42c8-bd66-d9a8aaac1e13",
+          "47b73e8b-49c8-4a25-8498-e8ecda7d03a1",
+          "781f72c5-5cd2-49b3-9f2c-68093adf4a48",
+          "7bdc3a8e-ce33-424f-9795-9a93184f5e80",
+          "88fee1a8-e746-4853-9122-d20ba22ed86e",
+          "55e4384b-f6e0-4e4c-bbdc-516a0114a6a3",
+          "3678af22-9134-4844-a8b3-94b3ecfdd806",
+          "4e27f4f1-1e06-4bcc-bd45-e73dffe822c9",
+          "0b3860a3-2ae9-49c3-981f-a3f55da6f796",
+          "664e5772-a913-4cbe-9dc3-3876b78ff6e6",
+          "7ef1d4cd-3dd9-4180-bd3f-41fc9c682df3",
+          "07415b86-0737-425d-a2bc-3f6b97ec1661",
+          "9f22ae41-a10e-497f-9210-c8366d5d1717",
+          "d18d3218-614f-4920-8bae-244f538fc4f7",
+          "e5451513-183b-4660-8229-a744627fd8ea",
+          "dd062630-7612-42a1-b0c4-bedcf564717e",
+          "0c858c96-ca29-4560-8f67-ae6c0b393630",
+          "979eaccb-37a8-4cdb-b2ce-d4b60c38f778",
+          "1c35f954-4b1b-4a0b-9be9-46ad9ce6cc05",
+          "41fac837-efc9-4582-a1f2-03c09535508c",
+          "6d699eda-a74c-4712-9305-d18050277e01",
+          "925c61ea-37f8-447d-b518-086e4c7b4c56",
+          "9f5c9432-af3d-48ee-ab29-5078d6ab1c4f",
+          "313a5272-ff09-4089-bb5c-95d3b0cb9f28",
+          "18c27dcd-3207-4c9a-a199-addb5b3b8f11",
+          "8f209a62-0dc0-4f7f-9dd8-b1aa5c920a2b",
+          "bb43db48-253c-403a-9765-5dd48212fb59",
+          "234fec5b-1051-4ab9-8e30-4e910ac2d510",
+          "3f527d57-88ab-4b5b-9dd9-41b3251de676",
+          "787c4e80-35aa-4a01-9c30-7cab163a6f53",
+          "7808ac86-e1cb-4160-a052-75db9d043c9e",
+          "a0c77e51-2870-4137-8a96-4ab9fcd3760f",
+          "13c92324-ce55-4368-9f3c-26baf136dfaa",
+          "ae931393-7362-4741-afe5-7738227c7dbb",
+          "680277a3-00a4-49ae-899a-f70cff18062d",
+          "419e190e-d841-46bb-b236-f5a59b3d515f",
+          "0f4349be-ccca-4f5b-b391-9b7b20553234",
+          "8a18f2aa-ac61-4538-9cc5-6e68587acb16",
+          "2c6df358-7077-488f-b2e4-9a1f88d3245c",
+          "cc8fa348-d10d-4f48-a691-eb7acdc4ec77",
+          "3d6a478a-7155-4aaf-8329-cf9f309e73b9",
+          "fdf1db64-1098-477c-9bd3-becbbcf8f94d",
+          "3959f4bc-f4ad-431c-a901-f355f83c7a6c",
+          "d2da380e-64d3-448a-badd-8bfd1212e490",
+          "27bb62e8-821e-4238-8b6a-5b278ccefe38",
+          "d31e3e1c-cea9-4b75-8ab8-44ed6fa20ccc",
+          "36dd8310-fec1-40b9-b8d2-7648fb2d0e01",
+          "2133e43b-0571-473b-84f4-57221290a526",
+          "639de6b8-885e-45be-96d3-6ff647ac5546",
+          "ee382842-a932-4f20-af14-d08c8e0c68f9",
+          "e00689f0-1e4b-46b0-bfe4-c306256aed30",
+          "f6b7da9c-5dea-4941-9508-de29841c792a",
+          "0dda5bdc-cbea-4c4f-8f37-726e6e07490c",
+          "a54fba94-68aa-49d8-890f-c4a79c4c4b9d",
+          "1c1f31c4-8348-43fa-80a9-55ccf9e2a2f9",
+          "95934bdf-8201-47e6-9285-411e01e4a096",
+          "4592eb24-a1c8-4f5c-8ca8-96fd250c37d5",
+          "a3b36cd1-0645-420e-8eab-1e8e00b1c433",
+          "a535fd72-49dc-4203-b3cb-ead91efc64f9",
+          "8063dde3-60db-4e4f-bc4e-1294156b0f52",
+          "7bd2e38a-423d-44c2-bcc6-30a7547dc8bf",
+          "73953330-f657-4826-a0af-b1463a432abe",
+          "423cbb30-385c-425e-9d40-daca7f988056",
+          "8b144bdf-2893-445a-8448-082779b491ba",
+          "dd72dbcf-e95b-4bb7-bca5-4e51d680fb58",
+          "c10b3649-7bd8-46f0-baab-2742a2a3c7bb",
+          "01c5b978-b03e-4b22-9cf9-74f626e95784",
+          "f7329a04-6122-42b4-b28a-4fd6584c7ece",
+          "5a92a57c-57e0-4952-a118-d9b01982fe73",
+          "ed1143a5-6964-45d4-8332-11c9b30d75c3",
+          "3de26b20-6a83-459a-ba8d-73689b727356",
+          "b497277c-49e5-40d4-86b8-66a3cede21dd",
+          "db9225f4-7c40-4f4a-bffb-d7281691f5f9",
+          "13793e6c-9ca4-450c-b025-64a0b5e8ce23",
+          "8c02f72c-b459-4d3a-8c0d-07090708439b",
+          "f00c9213-eba4-4e1a-a9a8-9ca096577a97",
+          "66474e0e-6af5-4bf9-b6c8-e1fad0b2bf10",
+          "9c4332d6-859a-4e33-8980-4dbc631d4250",
+          "97f0076c-ae22-4a9d-a909-f8f1a88a299b",
+          "083105bd-0ed7-4ca8-96e5-5795c3d8a457",
+          "f583a0c2-78a7-4f60-adad-a597a534ecec",
+          "56ba355d-6919-47ec-b5fb-8ffcb1b11c07",
+          "6f0965bb-2b86-4125-ae2c-e2c0cd2891d4",
+          "991306ac-a91d-4fe4-8648-c245dc210c29",
+          "115e1fe3-4421-46de-b181-8f784fef9acb",
+          "f4a5eaaa-2f83-4989-b866-4d4ffc27e4b8",
+          "58768f07-89d3-42d6-9183-cce77a599d79",
+          "744c8669-e02d-4b57-86cc-007f917b701a",
+          "90344270-ead1-425c-903c-618d17453b8e",
+          "9039a849-b9e0-4fe2-9f73-d8acf5d78efa",
+          "98145232-4287-4ddc-abd0-535bf1f6a99a",
+          "9bc7a5a8-7fbd-4763-bb9e-781cd6e0514a",
+          "e2daccff-7436-47bc-b202-a3be365d0659",
+          "4692b0ad-4103-471b-8e4b-d1addffdb37c",
+          "77690a70-c925-4324-bfc9-76be554653d5",
+          "5d860832-41a0-43be-9127-f499222129e6",
+          "d11ee35f-971d-4514-945c-4465ff45e7e9",
+          "21fd3fd1-f27c-4792-bea7-ae7ce31e9c1f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512456955593,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539496130227,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A short guide to marketing for developers"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1519169996630,
+        "id": "cec790e0-1599-4636-942f-9a75258cb2c1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1519169998109,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.julian.com/learn/growth/intro",
+              [
+                [
+                  "a",
+                  "https://www.julian.com/learn/growth/intro"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516530010451,
+        "id": "d79eefde-74d6-449a-a350-8103d4a45061",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516530022563,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.kimhartman.se/wp-content/uploads/2016/03/Traction-a-startup-guide-to-getting-more-customers-summary-Gabriel-Weinberg.pdf",
+              [
+                [
+                  "a",
+                  "http://www.kimhartman.se/wp-content/uploads/2016/03/Traction-a-startup-guide-to-getting-more-customers-summary-Gabriel-Weinberg.pdf"
+                ]
+              ]
+            ],
+            [
+              " : summary of the book Traction"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 97
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022477699,
+        "id": "0a126737-b906-4dd8-b0a9-3a83b68f7731",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022480434,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://priceonomics.com/the-content-marketing-handbook/",
+              [
+                [
+                  "a",
+                  "http://priceonomics.com/the-content-marketing-handbook/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022480810,
+        "id": "9af6f279-46d2-4885-8ffa-440e5d3b46a9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022489200,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.bugmuncher.com/2015/12/18/from-side-project-to-profitable-start-up-part-7.html",
+              [
+                [
+                  "a",
+                  "https://blog.bugmuncher.com/2015/12/18/from-side-project-to-profitable-start-up-part-7.html"
+                ]
+              ]
+            ],
+            [
+              " - how buying traffic rarely works"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022490982,
+        "id": "0503b59e-a97f-49d1-a257-0bfd83309406",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022496133,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://david-smith.org/blog/2013/12/02/creating-animated-gifs-for-documentation/",
+              [
+                [
+                  "a",
+                  "https://david-smith.org/blog/2013/12/02/creating-animated-gifs-for-documentation/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022498484,
+        "id": "ccc2c8c3-fd66-4204-b3a9-6e7e2d328be4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022503456,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.helpscout.net/blog/benefits-sell/",
+              [
+                [
+                  "a",
+                  "http://www.helpscout.net/blog/benefits-sell/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022504403,
+        "id": "8f64d704-dc0c-4249-beb1-78341b049893",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022508870,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.nickkolenda.com/conversion-optimization-psychology/",
+              [
+                [
+                  "a",
+                  "http://www.nickkolenda.com/conversion-optimization-psychology/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022509708,
+        "id": "f67c595e-09cb-4f33-b777-2b9e18a978de",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022518000,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.craigkerstiens.com/2011/02/28/setting-goals-funnels/",
+              [
+                [
+                  "a",
+                  "http://www.craigkerstiens.com/2011/02/28/setting-goals-funnels/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022521567,
+        "id": "d6d80bea-d31f-4e62-8d86-d65762793fa0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022522333,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.goodui.org/",
+              [
+                [
+                  "a",
+                  "https://www.goodui.org/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022526426,
+        "id": "e2c905ac-a4c1-49e6-bae3-02aced204c14",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022527648,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://ma.ttias.be/technical-guide-seo/#sitemap",
+              [
+                [
+                  "a",
+                  "https://ma.ttias.be/technical-guide-seo/#sitemap"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515022532129,
+        "id": "44f45b0b-79b2-41b6-9708-23f5aafa69d2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515022532865,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://jesseleimgruber.com/66-proven-tactics-to-acquire-users-with-zero-marketing-budget/",
+              [
+                [
+                  "a",
+                  "http://jesseleimgruber.com/66-proven-tactics-to-acquire-users-with-zero-marketing-budget/"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518040289346,
+        "id": "22a59d3f-b8e8-4981-ab40-b94a541c2437",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518040290106,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://selleratheart.com/promote-blog-0-to100-k-views-6-months/",
+              [
+                [
+                  "a",
+                  "https://selleratheart.com/promote-blog-0-to100-k-views-6-months/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520237472245,
+        "id": "f0e80e55-651f-4466-b2cb-a687f56ae5da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520237473315,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.reddit.com/r/startups/comments/81h9bb/knowledgedump_from_the_dude_that_bootstrapped_to/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/startups/comments/81h9bb/knowledgedump_from_the_dude_that_bootstrapped_to/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1521147005164,
+        "id": "5fa486eb-7c9a-4f07-9b3a-509421646037",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1521147005691,
+        "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.sideprojectchecklist.com/marketing-checklist/",
+              [
+                [
+                  "a",
+                  "https://www.sideprojectchecklist.com/marketing-checklist/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512461827604,
+        "id": "8e448f07-0370-4321-ba61-31a0ae569bbb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512461827604,
+        "parent_id": "21569f94-24a7-4763-86fc-02e698612653",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://ayende.com/blog/173250/playing-with-key-generators?Key=758e198a-b916-4a4f-8162-3bdc5e4a4ee3"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512461827604,
+        "id": "8922d478-f844-4062-a4ad-748d44336cb6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512461827604,
+        "parent_id": "21569f94-24a7-4763-86fc-02e698612653",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://ayende.com/blog/173283/playing-with-key-generators-redux?Key=2b315e5d-70a6-4211-90bf-4dafafa6a8cb"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512461827604,
+        "id": "165d68db-1c58-4763-9897-1d9a9b72c398",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512461827604,
+        "parent_id": "21569f94-24a7-4763-86fc-02e698612653",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://keygen.sh/ : service for Node etc. apps for managing licenses"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975753148,
+        "id": "579d4952-70ae-4751-9ca2-886910524513",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975755375,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "From "
+            ],
+            [
+              "https://www.indiehackers.com/forum/first-ecommerce-venture-how-do-i-improve-and-or-market-this-fabb108c7f?commentId=-L2qZTmBWO-u8G3uXHtL",
+              [
+                [
+                  "a",
+                  "https://www.indiehackers.com/forum/first-ecommerce-venture-how-do-i-improve-and-or-market-this-fabb108c7f?commentId=-L2qZTmBWO-u8G3uXHtL"
+                ]
+              ]
+            ],
+            [
+              ":"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975771475,
+        "id": "374b3fa9-b2bd-4511-b9b8-a2211203a68a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975775732,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "facebook retargetting"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975756779,
+        "id": "def0615c-56c6-43dd-b05b-92ff9f2e78fa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975798438,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Plug competitors URL's into: "
+            ],
+            [
+              "https://www.similarweb.com",
+              [
+                [
+                  "a",
+                  "https://www.similarweb.com"
+                ]
+              ]
+            ],
+            [
+              ". Change to referrals and find out where their traffic comes from, copy, rinse and repeat."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 25
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975777250,
+        "id": "9578681d-4dca-4eff-80ae-34aa3dfb5617",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975813623,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Research competitors via "
+            ],
+            [
+              "http://semrush.com/",
+              [
+                [
+                  "a",
+                  "http://semrush.com/"
+                ]
+              ]
+            ],
+            [
+              " and view their advert history, see what graphics/ text ads they use/used that gained the most traction for them. You can see how much they spent, what type of adverts and much more. Golden."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 33
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975805262,
+        "id": "a4ba568e-6f0b-4877-aa23-a6d95230b5c3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975835915,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Plug competitors into "
+            ],
+            [
+              "http://ahref.com/",
+              [
+                [
+                  "a",
+                  "http://ahref.com/"
+                ]
+              ]
+            ],
+            [
+              " and research their: 1. Backlinks profile 2. Best content (that generates the most traffic) and many more features."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 29
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975847165,
+        "id": "c3b2b6ad-c46c-49e2-bccc-b28b2d6c649d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975847692,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tip - You can add around 5 at the same time, and use Ahrefs to compare them. The end result will tell you whom has the best links and much much more."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515975848756,
+        "id": "29b1f92c-6dcf-40cb-9f07-42505952a992",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515975858323,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Create an excell sheet and add the data into it, research your top 5/10 competitors and pick their quailtys apart."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 10
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516046269550,
+        "id": "d9a8866f-de10-4df5-a9a0-b34446b015af",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516046271841,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "woorank"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 20
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516046272095,
+        "id": "e37ab7ea-1f52-4372-91cb-30fbc11d4fca",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516046285611,
+        "parent_id": "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "MajesticSEO"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845500149,
+        "id": "1ba5bded-fbc6-4583-ac5e-28165b9b1d05",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845517002,
+        "parent_id": "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.indiehackers.com/forum/what-are-your-favorite-free-tools-4ea24efe7b",
+              [
+                [
+                  "a",
+                  "https://www.indiehackers.com/forum/what-are-your-favorite-free-tools-4ea24efe7b"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845517002,
+        "id": "4244ed2a-37fe-480c-a419-2ae0490a28fa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845521953,
+        "parent_id": "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://startuptools.pbworks.com/w/page/17974963/FrontPage",
+              [
+                [
+                  "a",
+                  "http://startuptools.pbworks.com/w/page/17974963/FrontPage"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 11
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518510057095,
+        "id": "798218ad-59d8-4810-96f8-fa30385d1dfb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518510070464,
+        "parent_id": "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gist.github.com/adamloving/4401361",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/adamloving/4401361"
+                ]
+              ]
+            ],
+            [
+              " : list of domains for disposable and temporary email addresses"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "8146deb1-bc30-41df-8b8e-086ac41ec3b1",
+          "e6ea420d-82a7-49bc-93c3-8e080543ca50",
+          "62c3033e-d67c-421d-90f0-6ecea98a72b5",
+          "64945fcf-250d-42b4-9f73-c4700626bfdd",
+          "d00c7685-d891-4381-b3b2-a2dc11a3a838",
+          "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+          "4ed79f83-6a91-4597-9280-72391487c3f4",
+          "4646fb16-acec-4396-b92b-8348fbb986f8",
+          "37e24db4-caa8-42f5-a5d0-f1a3fd06699f",
+          "47b6dccc-18f5-4199-8f7e-e6767ec2153f",
+          "5ab7b468-ea68-456b-9c3f-2dd730c4f8d9",
+          "7cd750d5-dda4-4de9-82a9-2ead6c5eaabe",
+          "06ab6cae-0b00-47b9-9b42-b2b22369c5d1",
+          "f2e2c968-cc53-4eba-98b4-6194b3496fc3",
+          "f272d0df-0681-44e6-b5ea-d1e46c3963b6",
+          "ced20987-83b8-40aa-bff3-2f856faae0a9",
+          "cc651a86-ab4f-422e-8f1a-5ce6949a40e2"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532921971695,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922033607,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Summary of Founders Battle Virtual Talks #7 about SEO with Michael Schwarz"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 39
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "6be27a37-223b-4bf8-8203-1783f9a7f1c0",
+          "fb4067b4-f01b-4a2a-92c9-5a6e6136472f",
+          "88b6eecb-6d55-4781-99f5-07815de9d4d9",
+          "f74e658a-8d9f-4c42-8777-587acd87a52f",
+          "ddec4207-c315-458e-aec6-86fc897d7e1e",
+          "4ecf8338-e2b2-4df7-9a52-963d0f65e1ff",
+          "1bc4e04e-9be7-4eed-a7e3-d4fdef98a1fd",
+          "f15de051-d936-4651-bef8-bf8aac959efe",
+          "a2a193af-e1c0-4317-9884-8c8ef09dbcaa",
+          "6607d939-0a70-4803-b2a2-7bc19f905073",
+          "1ff24a47-6dae-45d8-8d45-951757a7508a",
+          "482a7728-e0bc-410e-9c4b-4cba5ae639ba",
+          "e8302967-2afa-42ea-aa6d-4e69b68ef318",
+          "ce2fd203-f547-4848-8e68-0d1f2df5ed2b",
+          "f8796154-d42e-4e85-ab34-23bebe072fdd",
+          "1b7f1837-5a30-43db-af52-7660f8a72b69",
+          "7670c4e6-6bc5-43f3-b0da-068d669d89f1",
+          "cfa41364-2e43-4af9-bb23-f14fad514d91",
+          "bf3ba87d-7a59-42c6-8aee-5c9bf587860f",
+          "eb03cdf4-bb5b-4781-8b31-f04da52f46d1",
+          "5b1556f9-64ec-4260-9a71-2ee95e2f4778",
+          "afa76c55-f065-47f4-92cc-e0efa32df0a6",
+          "cb1a1033-5cc2-4dff-890c-034d99d6f7ec",
+          "b0d91e10-da6b-404a-b2c0-cb780c8044f3",
+          "c6786236-0cac-4c29-802c-63b28050162f",
+          "a5856744-9f33-4c8d-a538-e9948ccecb25",
+          "da6a1ed5-1666-4214-aabd-5d21b93ac9ef"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922984913,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "830df507-5ca8-4cdb-ab33-8d495fb7a6f2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923059394,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Summary of “Sell to Strangers” video about content marketing"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 44
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532315868372,
+        "id": "3e2dae73-4f84-41a4-b0ab-be674af1c3e0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532315870448,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb",
+              [
+                [
+                  "a",
+                  "https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518848868876,
+        "id": "550a8263-5952-4d9f-b828-5a8182ab5dbc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518848870133,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.reddit.com/r/startups/comments/7x9gr0/quick_and_easy_guide_to_seo_for_startups/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/startups/comments/7x9gr0/quick_and_easy_guide_to_seo_for_startups/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520984416705,
+        "id": "e81eae50-797e-4ee3-915a-7a147f42eaef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520984417103,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/edulift/competitive-analysis-with-ahrefs-how-we-scaled-the-lingualift-blog-to-80-000-readers-b5267df0b8e7",
+              [
+                [
+                  "a",
+                  "https://medium.com/edulift/competitive-analysis-with-ahrefs-how-we-scaled-the-lingualift-blog-to-80-000-readers-b5267df0b8e7"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922560403,
+        "id": "d1eeacca-5b64-4a47-8f1f-97f1606b8741",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922562418,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/",
+              [
+                [
+                  "a",
+                  "http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 10
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923994454,
+        "id": "fe855cbe-29a5-4e52-bb98-623883f33936",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924015069,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://inside.6q.io/blogging-for-startups/",
+              [
+                [
+                  "a",
+                  "https://inside.6q.io/blogging-for-startups/"
+                ]
+              ]
+            ],
+            [
+              " is a case study of attracting website traffic by writing blog posts"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 10
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924015337,
+        "id": "20566b7c-36af-4633-a9a4-3bdb6074f425",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924028058,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.reddit.com/r/Entrepreneur/comments/6gveyw/ive_seen_a_lot_of_google_adwords_posts_that_lack/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/Entrepreneur/comments/6gveyw/ive_seen_a_lot_of_google_adwords_posts_that_lack/"
+                ]
+              ]
+            ],
+            [
+              " : notes on using adsense well; has links to online seo tools."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 80
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554166140000,
+        "id": "74a556f4-242b-4752-afb0-8a3c37aeaa8c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554166140000,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://backlinko.com/on-page-seo",
+              [
+                [
+                  "a",
+                  "https://backlinko.com/on-page-seo"
+                ]
+              ]
+            ],
+            [
+              " : a good list for basics of seo"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 39
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523586402379,
+        "id": "4a6fe619-0714-4de8-808a-1d5ab343a4ea",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523586445901,
+        "parent_id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SEMrush"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 36
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523586441212,
+        "id": "68b4a999-53c9-4afa-96bb-1f7222bfd9f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523586447711,
+        "parent_id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "buzzsumo"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 37
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523586449968,
+        "id": "43c6c24b-4e80-4dc0-a3ec-9890e4d07450",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523586464430,
+        "parent_id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "moz keyword explorer (free version)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 80
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523586464808,
+        "id": "35127cf4-64a7-4e99-ad65-6dd67ccfcf11",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523586469605,
+        "parent_id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "spyfu"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523586505330,
+        "id": "abfb4bfd-6c69-4e72-a264-924972395a3e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523586507306,
+        "parent_id": "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "long tail pro"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 32
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539060978901,
+        "id": "322e5db6-683c-441f-b3d5-11ff4f24af8a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1549660620000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://ryanwaggoner.com/articles/",
+              [
+                [
+                  "a",
+                  "https://ryanwaggoner.com/articles/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1549660620000,
+        "id": "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1549660620000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://simpleprogrammer.com/freelancing-business/",
+              [
+                [
+                  "a",
+                  "https://simpleprogrammer.com/freelancing-business/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1550116980000,
+        "id": "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550439060000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://kev.inburke.com/kevin/going-solo-successfully/",
+              [
+                [
+                  "a",
+                  "https://kev.inburke.com/kevin/going-solo-successfully/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=19181931",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=19181931"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553892120000,
+        "id": "a643a618-2e95-48cb-a40c-5cf03dd2ee64",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553894280000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://andyadams.org/everything-i-know-about-freelancing/",
+              [
+                [
+                  "a",
+                  "https://andyadams.org/everything-i-know-about-freelancing/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=19522053",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=19522053"
+                ]
+              ]
+            ],
+            [
+              ","
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553894280000,
+        "id": "82576ef3-e97a-4f74-9952-aba398f75b36",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553894280000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://certainly.software/",
+              [
+                [
+                  "a",
+                  "https://certainly.software/"
+                ]
+              ]
+            ],
+            [
+              " : a good \"hire me\" page"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 28
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "1288819b-f677-49c3-80d1-73db229a8682",
+          "3f7b2535-ede4-4606-8d55-52fda497f9ed",
+          "4257a402-4ff9-4a6a-811e-f69041809778",
+          "42aa736f-e7cb-43ad-bda6-c6328849ef9d",
+          "82e03736-199b-4e0f-9a22-72b33f682303",
+          "9553fb44-bbb2-41e1-969f-42244aa9c9eb",
+          "58e78231-9ac7-4e0d-a193-01189bf7b8be",
+          "68af175f-7515-405a-be37-69d1ab0ef9fc",
+          "b3031300-38e8-4904-a461-118d7cc13359",
+          "bfab8d02-b86e-40f6-ab50-5d359c921833",
+          "dbcbe107-c330-41ff-847d-bb3e2d6cc5a7",
+          "b6d7dbf2-6f53-4e71-9918-103501fcf2c0",
+          "01f39655-1acc-4fdd-b13f-4816adc52c3b",
+          "a6a30865-2e26-4894-8c3f-16faa4abf94b",
+          "0d20fba0-dc0b-4cfc-ac52-5fc062c378eb",
+          "4222e2ca-913d-4890-9f67-9f2027b2c662",
+          "d92097db-57ff-49a1-9da4-e1cd9469df97",
+          "7ec998ec-2ace-424b-8fbd-ae1dff1bf233",
+          "076630e1-64dd-4539-af63-b0495c555f30",
+          "4f2a203e-5bcb-4f6f-941f-2bfb4e3f6e28",
+          "b3632f2f-41b5-42cb-b809-d2dbab62229b",
+          "913c919a-8dc4-43de-81e6-ac7464db1a44",
+          "cb8e2f45-e8ec-41e7-a373-431042efef85",
+          "cabd5c40-e194-439f-aab3-4e5454f7ff79",
+          "2e9fe3e2-5197-4472-992c-6c110153d74a",
+          "e98e3f58-c49e-404f-a386-63f89b281e7d",
+          "90e8cd74-2180-4601-b234-6df762e7c436",
+          "59f65bce-6e36-4b4e-9d08-9ef396f53b0f",
+          "e340beee-0e05-4636-94f1-59c9c42ae798",
+          "eba9c247-ef1b-4a23-8351-857bc17c3b75",
+          "ce76bf10-aee7-451f-9ed8-b5609d657507",
+          "b233a7f1-5570-40f5-8424-cd3be73c9548",
+          "b98fde95-b394-4ed1-b412-08e19dd0c778",
+          "eb4cdd85-9c21-4949-825c-aea19e25718c",
+          "22def21a-20f2-4594-aa8a-1ebcc9e96c26",
+          "62ddcf49-6284-440e-adcc-dec3355e1415",
+          "f80827cf-5727-4e80-914f-7d2edc35d31d",
+          "a2d14cbb-ab25-4183-a2c0-4346d0feaa88",
+          "97c1a553-363a-4bf4-a313-25201233b363",
+          "5744e571-dbde-4bc1-8e5c-f647a1e4c816",
+          "7d1d4cbd-883e-4e95-b9e9-aa704798c902",
+          "5a4be143-5584-4ec3-b606-2a66a1f83479",
+          "7463a52d-63ed-44b4-8462-034a33213235",
+          "230e5216-d9a3-4630-b283-86c33a9ed5ef",
+          "aeacbd91-f546-4f28-8317-1bf4fdb01fcd",
+          "9227fddc-a558-4ed6-8b67-c863a102260d",
+          "15a60b90-c243-49be-927f-d20d8567d0f6",
+          "e8a2ac32-f735-44da-8b0b-e970d9072c3a",
+          "488a0194-1ea5-4674-b4a4-b6d9327aa7ec",
+          "c6e0add8-2421-4f70-bd47-43819ea6455a",
+          "986950f3-f8e6-4066-875d-1874105bfe99",
+          "93341a6e-3422-406c-9d59-85e6b990fb8b",
+          "5a0ea801-aa1b-4d2c-835f-29266803d4a4",
+          "4ae0fd1b-b26d-41f7-a842-4652404b8f9f",
+          "d351e2e9-4270-4514-b777-12f444caa8e5",
+          "4bbdd9c4-70b0-4f7c-af3b-b0d119a6db8d",
+          "3ac5e3c8-2a6f-4503-8e74-841b0eed4ea2",
+          "970489a2-9e6d-4ec0-b1f3-94d3103db66d",
+          "9b996bd1-727d-40c3-ab60-8474abba5f8d",
+          "3ee52785-2b03-4d2d-aeec-02316ce8cdf7",
+          "872acf95-eda4-45b7-bbcd-4d0f32d49f33",
+          "551d7b51-dee2-4ab6-af14-bb45ed333d46",
+          "f7f6165d-3b59-4c37-84fb-f085ebd3d5f5",
+          "bb20515e-4885-45c3-9a1e-90f6cfb97ae7",
+          "cc73129b-d381-4294-96ad-f54590a8f90f",
+          "714123dd-53fa-408d-84e6-4a31dcbe7226",
+          "6f52c301-8fc9-400f-a485-4c96e2b88396",
+          "60f2dd35-2993-4ecb-806e-2286d8aa6520",
+          "53b97377-a057-4b9f-932b-4c3b6f6fe1c1",
+          "942a24c7-250d-4b90-a55d-a805f8baaf05",
+          "20a15c4b-eb07-4199-84b9-4bb7004dfba7",
+          "46e6c5fd-fcab-4653-ae86-24e59e83de70",
+          "0c30d1b8-d160-4d51-8ed1-c6a78c0ff1ae",
+          "06393c65-692e-4be1-acbb-1325c95d37e0",
+          "c7831a4d-7e24-459e-b67e-ec3a7ca61d5d",
+          "708c18cb-bd15-4e3d-881d-091f47e92c31",
+          "d426fa14-d581-4507-9e0c-f2fcb6ecc796",
+          "b1d5191a-364a-41fb-b140-a6d2b811de89",
+          "581308d2-0adc-49d9-8002-242cab43f0bd",
+          "de1b33b7-a98a-4ad1-9d49-b98fc8393ef0",
+          "9070aa85-5b60-4571-a0c3-cab2bddca3cc",
+          "64d4569d-245b-4b65-b44d-035e2e820aa3",
+          "4ef3bb27-c9db-4063-a58b-0e513c0799ba",
+          "e00db840-9040-4d22-9d13-df8e9a175fb1",
+          "299fcd8e-c4d5-48a8-b4e6-47ea138e2d45",
+          "1c9ba46b-51ec-4b3e-8a29-835496df396c",
+          "1a93eac0-55f5-4b73-8d82-9e9f05efb3ca",
+          "f7496fb5-881e-4f1c-ae29-b3c87fb2bbe7",
+          "71acf077-c519-4d52-bc46-d65e48f183cb",
+          "cb66f799-9212-47b6-a404-f56bdb55abe4",
+          "dee8f0a9-fef0-41e8-9091-f432ff57423c",
+          "75509926-3ba1-432d-ae39-9aa4008667a9",
+          "57db114a-f473-4987-880d-4c90f6194405",
+          "3e611f87-c30f-4587-9f7a-cec9947262ca",
+          "0cafb520-02b9-4c75-a196-a8af3c563f9d",
+          "0ea2a75f-ccc1-470d-9ebb-5dbf4efce42c",
+          "71e1933e-6c52-4ed9-9fc2-3271f203207f",
+          "ba70c1b0-fd36-42f8-809b-bd5bb682735f",
+          "69b5ceab-3b5f-4247-a388-197aea3721fb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1550116991205,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "8f417f48-0425-4754-b92b-f7b515592408",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550120820000,
+        "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Basics of freelancing"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 248
+      }
+    }
+  ]
+}
+HeadersJSON:+933
+{
+  "Cf-Ray": [
+    "5037189dfa347fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:09 GMT"
+  ],
+  "Etag": [
+    "W/\"10511-9SO/Sat2zE8PPOLWjr+fi996p0k\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dea57d1080e0cc1dfe5e57e610c1e0ad31565326089; expires=Sat, 08-Aug-20 04:48:09 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+17659 1565326090814 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1518
+{
+  "requests": [
+    {
+      "id": "79f5e62c-106b-43e0-b88d-06b92f1b5b28",
+      "table": "block"
+    },
+    {
+      "id": "7bc5e5dc-4108-433e-a5af-d35b2f1bc920",
+      "table": "block"
+    },
+    {
+      "id": "ae16f9aa-e9bd-4798-9f9b-52c3382fcb3c",
+      "table": "block"
+    },
+    {
+      "id": "a93ec2ad-90eb-46d7-af42-1b96715d221d",
+      "table": "block"
+    },
+    {
+      "id": "53ea8507-94f4-4f28-8484-3f781ce48ff7",
+      "table": "block"
+    },
+    {
+      "id": "504cb06a-1910-4f75-8fab-8ecab4b00737",
+      "table": "block"
+    },
+    {
+      "id": "03326fc8-eca5-4bac-b9d1-267a658d168c",
+      "table": "block"
+    },
+    {
+      "id": "ffba26f8-48cc-4299-ac2e-c093ffd2f8da",
+      "table": "block"
+    },
+    {
+      "id": "142caf9a-7095-41a6-9184-a2fb11d3fc74",
+      "table": "block"
+    },
+    {
+      "id": "47f9800d-68a2-4d96-84cc-58029cb92980",
+      "table": "block"
+    },
+    {
+      "id": "077b8f08-5109-43ad-9cde-d1aefb969629",
+      "table": "block"
+    },
+    {
+      "id": "b4bf018d-b69b-411e-b296-568e1bbc7cb9",
+      "table": "block"
+    },
+    {
+      "id": "5ac40eb4-0867-437c-8df5-a37a80b891e1",
+      "table": "block"
+    },
+    {
+      "id": "33d4ff92-5227-4069-82a6-b28298c6ad6e",
+      "table": "block"
+    },
+    {
+      "id": "3dedbc78-f918-4d27-8e0d-846fe3d79b91",
+      "table": "block"
+    },
+    {
+      "id": "c6691c0a-6f82-418c-8f26-a4363d09b516",
+      "table": "block"
+    },
+    {
+      "id": "f3401b8f-5b4c-4fd4-af86-b001eae22cd8",
+      "table": "block"
+    }
+  ]
+}
+Response:+15099
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845338890,
+        "id": "79f5e62c-106b-43e0-b88d-06b92f1b5b28",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845372555,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://ithare.com/payment-processing-credit-cards-chargebacks-and-collateral-damage/",
+              [
+                [
+                  "a",
+                  "http://ithare.com/payment-processing-credit-cards-chargebacks-and-collateral-damage/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://www.reddit.com/r/programming/comments/5jj3wb/processing_credit_cards_chargebacks_and/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/programming/comments/5jj3wb/processing_credit_cards_chargebacks_and/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845372555,
+        "id": "7bc5e5dc-4108-433e-a5af-d35b2f1bc920",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845395241,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.candyjapan.com/how-i-got-credit-card-fraud-somewhat-under-control",
+              [
+                [
+                  "a",
+                  "https://www.candyjapan.com/how-i-got-credit-card-fraud-somewhat-under-control"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845395241,
+        "id": "ae16f9aa-e9bd-4798-9f9b-52c3382fcb3c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845402033,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=7919809",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=7919809"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845402033,
+        "id": "a93ec2ad-90eb-46d7-af42-1b96715d221d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845411641,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=10234287",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=10234287"
+                ]
+              ]
+            ],
+            [
+              " : use Minfraud, maxmind"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845411641,
+        "id": "53ea8507-94f4-4f28-8484-3f781ce48ff7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845420112,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=10237697",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=10237697"
+                ]
+              ]
+            ],
+            [
+              " : always send \"accepted\" but hold suspicious transactions."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845420112,
+        "id": "504cb06a-1910-4f75-8fab-8ecab4b00737",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845424744,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=10742553",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=10742553"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845424744,
+        "id": "03326fc8-eca5-4bac-b9d1-267a658d168c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845431945,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=11431881",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=11431881"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845431945,
+        "id": "ffba26f8-48cc-4299-ac2e-c093ffd2f8da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845436474,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://discuss.bootstrapped.fm/t/what-are-best-practices-for-avoiding-chargebacks-for-ecommerce/3488",
+              [
+                [
+                  "a",
+                  "http://discuss.bootstrapped.fm/t/what-are-best-practices-for-avoiding-chargebacks-for-ecommerce/3488"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845436474,
+        "id": "142caf9a-7095-41a6-9184-a2fb11d3fc74",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845440855,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.signifyd.com",
+              [
+                [
+                  "a",
+                  "https://www.signifyd.com"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845440855,
+        "id": "47f9800d-68a2-4d96-84cc-58029cb92980",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845448441,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://simility.com/device-recon-results/",
+              [
+                [
+                  "a",
+                  "https://simility.com/device-recon-results/"
+                ]
+              ]
+            ],
+            [
+              " : 7 leading fraud indicators"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516845448441,
+        "id": "077b8f08-5109-43ad-9cde-d1aefb969629",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1516845454862,
+        "parent_id": "8f2d4abc-5603-4780-bd77-5294cbf9c1e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://developer.humblebundle.com/post/147806409802/humble-fraud",
+              [
+                [
+                  "a",
+                  "http://developer.humblebundle.com/post/147806409802/humble-fraud"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=12146464",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=12146464"
+                ]
+              ]
+            ],
+            [
+              "\n"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 22
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518471982329,
+        "id": "b4bf018d-b69b-411e-b296-568e1bbc7cb9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518471984712,
+        "parent_id": "5df746f3-cee3-4a62-a250-bbd69e93e73d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=16360890",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=16360890"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518472068325,
+        "id": "5ac40eb4-0867-437c-8df5-a37a80b891e1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518472069910,
+        "parent_id": "d09376fa-4e9b-4590-94b0-8be550b1d1ad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=16360890",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=16360890"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520534030507,
+        "id": "33d4ff92-5227-4069-82a6-b28298c6ad6e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534154513,
+        "parent_id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gocardless.com/en-us/",
+              [
+                [
+                  "a",
+                  "https://gocardless.com/en-us/"
+                ]
+              ]
+            ],
+            [
+              " (europe only for now?)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 117
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520534080848,
+        "id": "3dedbc78-f918-4d27-8e0d-846fe3d79b91",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534151987,
+        "parent_id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://app.paywhirl.com/",
+              [
+                [
+                  "a",
+                  "https://app.paywhirl.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 18
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520534119480,
+        "id": "c6691c0a-6f82-418c-8f26-a4363d09b516",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534149847,
+        "parent_id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://recurly.com/",
+              [
+                [
+                  "a",
+                  "https://recurly.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520534133525,
+        "id": "f3401b8f-5b4c-4fd4-af86-b001eae22cd8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520534157445,
+        "parent_id": "6bd95efc-6ce4-43b7-a992-e941b6f6cfa9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.chargify.com/",
+              [
+                [
+                  "a",
+                  "https://www.chargify.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 20
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037189eaabb7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:10 GMT"
+  ],
+  "Etag": [
+    "W/\"2398-0ZcTEidxlaeWaV8WBpQtFy2u41U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1cced1c870455e7b682877b2678829d21565326090; expires=Sat, 08-Aug-20 04:48:10 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

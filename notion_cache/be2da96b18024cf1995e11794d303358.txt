@@ -1,0 +1,888 @@
+3001 1565326154916 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "be2da96b-1802-4cf1-995e-11794d303358",
+      "table": "block"
+    }
+  ]
+}
+Response:+1852
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5270d6a2-0d22-4a68-b344-eba73daae9a0",
+          "3d8b4305-85cd-4c4a-9adf-04f2439d8d69",
+          "54d6175c-fce5-4b59-a70a-05f66fce89fd",
+          "e8d4847a-5eec-46cc-bf11-0bbfb3aaa4bd",
+          "d4cd73bd-fc1f-443f-9e1d-e81eaf5c5d03",
+          "6dc707d2-d6b5-43b3-a9eb-0b135999b814",
+          "d55fd109-e57f-4017-85e1-314a41ff9cec",
+          "174d1120-0045-441c-b9b7-20efc7f95f62",
+          "ad1243a6-8b89-4864-b5f4-cd3c28cf5bb8",
+          "d27f3638-9aad-40a0-aa9c-c0b4d6eee4ec",
+          "f38d21d5-462a-4f7d-8394-35a2fe1fddfa",
+          "df31be2d-9764-480c-b514-b6b7bf029503",
+          "340af81e-cb3d-4ba3-9cec-589693810f05",
+          "64be5f50-e9c9-4267-8625-c07141804698",
+          "0c9f891f-65e4-442c-b5ff-def81a09725e",
+          "163bfd29-602a-40b5-acd5-92d3fd2536a1",
+          "b1e0e700-8d34-49aa-a9c7-c7316eea1e3f",
+          "a71c2c37-b7f5-4662-80a3-8563db915ed4",
+          "8a7bc48b-722f-4b71-99d8-fe2c7972d4e7",
+          "29bc5c1c-14bd-4655-8bcf-8d94df0e5919",
+          "18fbdbb0-9d91-462f-b279-9749d50ebeb0"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564301011417,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "be2da96b-1802-4cf1-995e-11794d303358",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564357020000,
+        "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "List of CHM readers and viewers for Window"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 57
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a2efe587fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"537-1nAGnTq0pC6CDx7YCJXeqpWyBEc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+25108 1565326154918 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "be2da96b-1802-4cf1-995e-11794d303358",
+  "verticalColumns": false
+}
+Response:+23917
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0c9f891f-65e4-442c-b5ff-def81a09725e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014635,
+          "id": "0c9f891f-65e4-442c-b5ff-def81a09725e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "UltraCHM"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "163bfd29-602a-40b5-acd5-92d3fd2536a1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014636,
+          "id": "163bfd29-602a-40b5-acd5-92d3fd2536a1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "UltraCHM",
+                [
+                  [
+                    "a",
+                    "http://www.ultrachm.com/"
+                  ]
+                ]
+              ],
+              [
+                " is a commercial CHM viewer."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "174d1120-0045-441c-b9b7-20efc7f95f62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014629,
+          "id": "174d1120-0045-441c-b9b7-20efc7f95f62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "FBReader",
+                [
+                  [
+                    "a",
+                    "http://www.fbreader.org/win32"
+                  ]
+                ]
+              ],
+              [
+                " is a cross-platform, open-source eBook reader that can also read CHM files."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "18fbdbb0-9d91-462f-b279-9749d50ebeb0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301040000,
+          "id": "18fbdbb0-9d91-462f-b279-9749d50ebeb0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "29bc5c1c-14bd-4655-8bcf-8d94df0e5919": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014639,
+          "id": "29bc5c1c-14bd-4655-8bcf-8d94df0e5919",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CHM document is a collection of HTML pages, compressed and packed as a single file. Files are compressed with "
+              ],
+              [
+                "lzx algorithm",
+                [
+                  [
+                    "a",
+                    "http://en.wikipedia.org/wiki/LZX_(algorithm)"
+                  ]
+                ]
+              ],
+              [
+                ". CHM document also contains additional files like pre-build search index, table of contents structure etc. For the most complete description of the CHM format, you can read "
+              ],
+              [
+                "Unofficial HTML Help Specification",
+                [
+                  [
+                    "a",
+                    "http://www.nongnu.org/chmspec/latest/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "340af81e-cb3d-4ba3-9cec-589693810f05": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014634,
+          "id": "340af81e-cb3d-4ba3-9cec-589693810f05",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Beyond CHM"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "3d8b4305-85cd-4c4a-9adf-04f2439d8d69": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564300980000,
+          "id": "3d8b4305-85cd-4c4a-9adf-04f2439d8d69",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "5270d6a2-0d22-4a68-b344-eba73daae9a0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301040000,
+          "id": "5270d6a2-0d22-4a68-b344-eba73daae9a0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /articles/chm-reader-viewer-for-windows.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 10
+        }
+      },
+      "54d6175c-fce5-4b59-a70a-05f66fce89fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014621,
+          "id": "54d6175c-fce5-4b59-a70a-05f66fce89fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sumatra PDF"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "64be5f50-e9c9-4267-8625-c07141804698": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014634,
+          "id": "64be5f50-e9c9-4267-8625-c07141804698",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Beyond CHM",
+                [
+                  [
+                    "a",
+                    "http://www.beyondchm.com/"
+                  ]
+                ]
+              ],
+              [
+                " is a commercial, multi-tab CHM reader and editor."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 6
+        }
+      },
+      "6dc707d2-d6b5-43b3-a9eb-0b135999b814": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014627,
+          "id": "6dc707d2-d6b5-43b3-a9eb-0b135999b814",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "XCHM",
+                [
+                  [
+                    "a",
+                    "http://xchm.sourceforge.net/"
+                  ]
+                ]
+              ],
+              [
+                " is a cross-platform, open-source CHM viewer. It works on Windows, Mac and Linux."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "8a7bc48b-722f-4b71-99d8-fe2c7972d4e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014638,
+          "id": "8a7bc48b-722f-4b71-99d8-fe2c7972d4e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CHM stands for "
+              ],
+              [
+                "Compiled HTML",
+                [
+                  [
+                    "a",
+                    "http://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help"
+                  ]
+                ]
+              ],
+              [
+                " and is a format introduced by Microsoft to be used by Windows application to provide documentation."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "a71c2c37-b7f5-4662-80a3-8563db915ed4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014637,
+          "id": "a71c2c37-b7f5-4662-80a3-8563db915ed4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Details of CHM format"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 2
+        }
+      },
+      "ad1243a6-8b89-4864-b5f4-cd3c28cf5bb8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014631,
+          "id": "ad1243a6-8b89-4864-b5f4-cd3c28cf5bb8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CHM Reader extension for FireFox"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "b1e0e700-8d34-49aa-a9c7-c7316eea1e3f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014636,
+          "id": "b1e0e700-8d34-49aa-a9c7-c7316eea1e3f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564357020000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "be2da96b-1802-4cf1-995e-11794d303358": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5270d6a2-0d22-4a68-b344-eba73daae9a0",
+            "3d8b4305-85cd-4c4a-9adf-04f2439d8d69",
+            "54d6175c-fce5-4b59-a70a-05f66fce89fd",
+            "e8d4847a-5eec-46cc-bf11-0bbfb3aaa4bd",
+            "d4cd73bd-fc1f-443f-9e1d-e81eaf5c5d03",
+            "6dc707d2-d6b5-43b3-a9eb-0b135999b814",
+            "d55fd109-e57f-4017-85e1-314a41ff9cec",
+            "174d1120-0045-441c-b9b7-20efc7f95f62",
+            "ad1243a6-8b89-4864-b5f4-cd3c28cf5bb8",
+            "d27f3638-9aad-40a0-aa9c-c0b4d6eee4ec",
+            "f38d21d5-462a-4f7d-8394-35a2fe1fddfa",
+            "df31be2d-9764-480c-b514-b6b7bf029503",
+            "340af81e-cb3d-4ba3-9cec-589693810f05",
+            "64be5f50-e9c9-4267-8625-c07141804698",
+            "0c9f891f-65e4-442c-b5ff-def81a09725e",
+            "163bfd29-602a-40b5-acd5-92d3fd2536a1",
+            "b1e0e700-8d34-49aa-a9c7-c7316eea1e3f",
+            "a71c2c37-b7f5-4662-80a3-8563db915ed4",
+            "8a7bc48b-722f-4b71-99d8-fe2c7972d4e7",
+            "29bc5c1c-14bd-4655-8bcf-8d94df0e5919",
+            "18fbdbb0-9d91-462f-b279-9749d50ebeb0"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301011417,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564357020000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of CHM readers and viewers for Window"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 57
+        }
+      },
+      "d27f3638-9aad-40a0-aa9c-c0b4d6eee4ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014631,
+          "id": "d27f3638-9aad-40a0-aa9c-c0b4d6eee4ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CHM Reader",
+                [
+                  [
+                    "a",
+                    "https://addons.mozilla.org/en-US/firefox/addon/chm-reader/"
+                  ]
+                ]
+              ],
+              [
+                " is not a stand-alone application but an extension to FireFox which allows reading CHM files directly in that browser."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "d4cd73bd-fc1f-443f-9e1d-e81eaf5c5d03": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014627,
+          "id": "d4cd73bd-fc1f-443f-9e1d-e81eaf5c5d03",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "XCHM"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "d55fd109-e57f-4017-85e1-314a41ff9cec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014629,
+          "id": "d55fd109-e57f-4017-85e1-314a41ff9cec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "FBReader"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      },
+      "df31be2d-9764-480c-b514-b6b7bf029503": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014633,
+          "id": "df31be2d-9764-480c-b514-b6b7bf029503",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "ExtraCHM",
+                [
+                  [
+                    "a",
+                    "http://www.extrachm.com/"
+                  ]
+                ]
+              ],
+              [
+                " is a commercial CHM reader."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "e8d4847a-5eec-46cc-bf11-0bbfb3aaa4bd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014625,
+          "id": "e8d4847a-5eec-46cc-bf11-0bbfb3aaa4bd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564301040000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sumatra PDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/"
+                  ]
+                ]
+              ],
+              [
+                " supports viewing CHM files. Sumatra is free, open-source and supports many other formats, like PDF, ePub, MOBI, XPS, DjVu, CBR, CBZ."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 23
+        }
+      },
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+            "19602cce-611b-4e7e-a79a-533dca66b8a1",
+            "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+            "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+            "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+            "be2da96b-1802-4cf1-995e-11794d303358",
+            "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+            "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+            "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+            "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+            "1005c633-46e7-48ab-a225-b2cff0274aed",
+            "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+            "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669517099,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Documents"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 226
+        }
+      },
+      "f38d21d5-462a-4f7d-8394-35a2fe1fddfa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564301014632,
+          "id": "f38d21d5-462a-4f7d-8394-35a2fe1fddfa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564300980000,
+          "parent_id": "be2da96b-1802-4cf1-995e-11794d303358",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "ExtraCHM"
+              ]
+            ]
+          },
+          "type": "sub_sub_header",
+          "version": 2
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a2f6e8a7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"3a62-hHkIRf3go9Q0cHChu/2lrgPDMBE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

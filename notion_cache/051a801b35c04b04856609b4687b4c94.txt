@@ -1,0 +1,1039 @@
+2883 1565326111945 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+      "table": "block"
+    }
+  ]
+}
+Response:+1734
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "8146deb1-bc30-41df-8b8e-086ac41ec3b1",
+          "e6ea420d-82a7-49bc-93c3-8e080543ca50",
+          "62c3033e-d67c-421d-90f0-6ecea98a72b5",
+          "64945fcf-250d-42b4-9f73-c4700626bfdd",
+          "d00c7685-d891-4381-b3b2-a2dc11a3a838",
+          "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+          "4ed79f83-6a91-4597-9280-72391487c3f4",
+          "4646fb16-acec-4396-b92b-8348fbb986f8",
+          "37e24db4-caa8-42f5-a5d0-f1a3fd06699f",
+          "47b6dccc-18f5-4199-8f7e-e6767ec2153f",
+          "5ab7b468-ea68-456b-9c3f-2dd730c4f8d9",
+          "7cd750d5-dda4-4de9-82a9-2ead6c5eaabe",
+          "06ab6cae-0b00-47b9-9b42-b2b22369c5d1",
+          "f2e2c968-cc53-4eba-98b4-6194b3496fc3",
+          "f272d0df-0681-44e6-b5ea-d1e46c3963b6",
+          "ced20987-83b8-40aa-bff3-2f856faae0a9",
+          "cc651a86-ab4f-422e-8f1a-5ce6949a40e2"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532921971695,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922033607,
+        "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Summary of Founders Battle Virtual Talks #7 about SEO with Michael Schwarz"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 39
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371922580c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:31 GMT"
+  ],
+  "Etag": [
+    "W/\"4e2-n3vNBnImIsrHSq4FRhj4HvtZi8M\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df052e7a4d12c33fb32e46580f1f109c21565326111; expires=Sat, 08-Aug-20 04:48:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+31669 1565326111948 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "051a801b-35c0-4b04-8566-09b4687b4c94",
+  "verticalColumns": false
+}
+Response:+30478
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "051a801b-35c0-4b04-8566-09b4687b4c94": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8146deb1-bc30-41df-8b8e-086ac41ec3b1",
+            "e6ea420d-82a7-49bc-93c3-8e080543ca50",
+            "62c3033e-d67c-421d-90f0-6ecea98a72b5",
+            "64945fcf-250d-42b4-9f73-c4700626bfdd",
+            "d00c7685-d891-4381-b3b2-a2dc11a3a838",
+            "3d1805f1-b654-4caf-a980-1948f23900c4",
+            "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+            "4ed79f83-6a91-4597-9280-72391487c3f4",
+            "4646fb16-acec-4396-b92b-8348fbb986f8",
+            "37e24db4-caa8-42f5-a5d0-f1a3fd06699f",
+            "47b6dccc-18f5-4199-8f7e-e6767ec2153f",
+            "5ab7b468-ea68-456b-9c3f-2dd730c4f8d9",
+            "7cd750d5-dda4-4de9-82a9-2ead6c5eaabe",
+            "06ab6cae-0b00-47b9-9b42-b2b22369c5d1",
+            "f2e2c968-cc53-4eba-98b4-6194b3496fc3",
+            "f272d0df-0681-44e6-b5ea-d1e46c3963b6",
+            "ced20987-83b8-40aa-bff3-2f856faae0a9",
+            "cc651a86-ab4f-422e-8f1a-5ce6949a40e2"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532921971695,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of Founders Battle Virtual Talks #7 about SEO with Michael Schwarz"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 39
+        }
+      },
+      "06ab6cae-0b00-47b9-9b42-b2b22369c5d1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "06ab6cae-0b00-47b9-9b42-b2b22369c5d1",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Alt \u0026 title for image tags is important for ranking in image search."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "0d299ee5-88b8-4a5c-b7d2-3780e8d0076e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886882663,
+          "id": "0d299ee5-88b8-4a5c-b7d2-3780e8d0076e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886884329,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "135b56f7-2cb1-4d98-b5b8-6169d92f988b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "135b56f7-2cb1-4d98-b5b8-6169d92f988b",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886903561,
+          "parent_id": "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "link building"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "1db26159-aaed-4c3a-9d41-290455d05d00": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886895123,
+          "id": "1db26159-aaed-4c3a-9d41-290455d05d00",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886896273,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "create sitemaps"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 12
+        }
+      },
+      "37e24db4-caa8-42f5-a5d0-f1a3fd06699f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "37e24db4-caa8-42f5-a5d0-f1a3fd06699f",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "h1 is important ranking factor."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "3d1805f1-b654-4caf-a980-1948f23900c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9f793365-34df-4360-b355-ebd82a7b1fae",
+            "69b99bfb-c6b6-4f49-aea1-cb79423b6171",
+            "945f52f0-26d3-4a92-8a96-0f269930de12",
+            "0d299ee5-88b8-4a5c-b7d2-3780e8d0076e",
+            "b666882f-ea47-4183-b0a2-3a7818795397",
+            "b46eb8ef-6276-4f7c-b72f-c7ae76a01cef",
+            "9658dded-300a-48b7-b1e5-ff48ec4dcbca",
+            "1db26159-aaed-4c3a-9d41-290455d05d00"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886870575,
+          "id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "8 SEO must-haves for a website:"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 36
+        }
+      },
+      "4646fb16-acec-4396-b92b-8348fbb986f8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "4646fb16-acec-4396-b92b-8348fbb986f8",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Meta Description is shown in Google Search, so its quality can improve click-through from search results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "47b6dccc-18f5-4199-8f7e-e6767ec2153f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "47b6dccc-18f5-4199-8f7e-e6767ec2153f",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "url is important ranking factor."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "4ed79f83-6a91-4597-9280-72391487c3f4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "4ed79f83-6a91-4597-9280-72391487c3f4",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Page title is important ranking factor and is shown in search result."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "50cee008-915c-46b1-9d96-70bf9b0fc004": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "50cee008-915c-46b1-9d96-70bf9b0fc004",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886901729,
+          "parent_id": "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "rich snippets"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5ab7b468-ea68-456b-9c3f-2dd730c4f8d9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "5ab7b468-ea68-456b-9c3f-2dd730c4f8d9",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Google likes to rank one page for keyword, so if you target multiple keywords, you should have multiple page, each page targeting different keywords."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "62c3033e-d67c-421d-90f0-6ecea98a72b5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532921994412,
+          "id": "62c3033e-d67c-421d-90f0-6ecea98a72b5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532921994412,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "64945fcf-250d-42b4-9f73-c4700626bfdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194260,
+          "id": "64945fcf-250d-42b4-9f73-c4700626bfdd",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Insights:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 9
+        }
+      },
+      "69b99bfb-c6b6-4f49-aea1-cb79423b6171": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886877065,
+          "id": "69b99bfb-c6b6-4f49-aea1-cb79423b6171",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886879533,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "meta description"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "7cd750d5-dda4-4de9-82a9-2ead6c5eaabe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "7cd750d5-dda4-4de9-82a9-2ead6c5eaabe",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Don’t try to optimize a single page for too many keywords."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "8146deb1-bc30-41df-8b8e-086ac41ec3b1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532921989969,
+          "format": {
+            "block_aspect_ratio": 0.5620608899297423,
+            "block_full_width": false,
+            "block_height": 480,
+            "block_page_width": true,
+            "block_preserve_scale": true,
+            "block_width": 854,
+            "display_source": "https://www.youtube.com/embed/R29ypgkXHVw?feature=oembed"
+          },
+          "id": "8146deb1-bc30-41df-8b8e-086ac41ec3b1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532921992178,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "source": [
+              [
+                "https://www.youtube.com/watch?v=R29ypgkXHVw"
+              ]
+            ]
+          },
+          "type": "video",
+          "version": 8
+        }
+      },
+      "945f52f0-26d3-4a92-8a96-0f269930de12": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886879533,
+          "id": "945f52f0-26d3-4a92-8a96-0f269930de12",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886882663,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "headings (h1)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "9658dded-300a-48b7-b1e5-ff48ec4dcbca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886891872,
+          "id": "9658dded-300a-48b7-b1e5-ff48ec4dcbca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886895123,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "choose the right CMS"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "9a07ca64-c0c1-4dc0-9e8b-d134b348678d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a62674a8-9b22-46e0-8ca6-2fdb721fd893",
+            "813b68ac-e556-401f-b437-67d5ecdf0a1b",
+            "c178e777-fe48-4711-961a-607dbe4b5a9b",
+            "82b644c3-535e-4ce8-86cc-5b586242bbee",
+            "db692f2c-0d5e-4379-9e80-98482910010d",
+            "70eacde9-d15f-4be5-ba46-c17130fa2fac",
+            "66e4e957-529b-4ede-83f6-9c7e6b342f8f",
+            "70fd4562-34a7-4164-bfcd-464c6ea5886d",
+            "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+            "21569f94-24a7-4763-86fc-02e698612653",
+            "8438605b-0946-44e8-85e9-9f8b8029c3b5",
+            "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
+            "b725097a-bd79-48df-b36e-ad5f89e18654",
+            "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+            "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "81714acf-995e-4968-bb22-0684d95c9495",
+            "1e4d6af9-2729-45a8-87f3-740805b8c583",
+            "b97b3f74-e68d-410b-ac90-e965f6a524cd",
+            "1af9f9c6-656f-4d8d-bc49-f4d9fb8f7c89",
+            "d16023a9-b711-42af-84f9-297c523d57d2",
+            "0251008d-b4dd-43e3-85ab-4839a7bd6f3b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492419698870,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564296540000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Business (of software and other)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 90
+        }
+      },
+      "9f793365-34df-4360-b355-ebd82a7b1fae": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886874186,
+          "id": "9f793365-34df-4360-b355-ebd82a7b1fae",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886877065,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "title tags"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 17
+        }
+      },
+      "b46eb8ef-6276-4f7c-b72f-c7ae76a01cef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886888455,
+          "id": "b46eb8ef-6276-4f7c-b72f-c7ae76a01cef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886891872,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "optimize alt \u0026 title image tags"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 14
+        }
+      },
+      "b666882f-ea47-4183-b0a2-3a7818795397": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886884329,
+          "id": "b666882f-ea47-4183-b0a2-3a7818795397",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531886888455,
+          "parent_id": "3d1805f1-b654-4caf-a980-1948f23900c4",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "create unique landing pages"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 18
+        }
+      },
+      "b725097a-bd79-48df-b36e-ad5f89e18654": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "051a801b-35c0-4b04-8566-09b4687b4c94",
+            "830df507-5ca8-4cdb-ab33-8d495fb7a6f2",
+            "3e2dae73-4f84-41a4-b0ab-be674af1c3e0",
+            "550a8263-5952-4d9f-b828-5a8182ab5dbc",
+            "e81eae50-797e-4ee3-915a-7a147f42eaef",
+            "d1eeacca-5b64-4a47-8f1f-97f1606b8741",
+            "fe855cbe-29a5-4e52-bb98-623883f33936",
+            "20566b7c-36af-4633-a9a4-3bdb6074f425",
+            "74a556f4-242b-4752-afb0-8a3c37aeaa8c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1518848865846,
+          "id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554166140000,
+          "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SEO"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 40
+        }
+      },
+      "cc651a86-ab4f-422e-8f1a-5ce6949a40e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "cc651a86-ab4f-422e-8f1a-5ce6949a40e2",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Link building is tricky. You want your website to be linked from other high-ranking websites. But if you use shady tactics like buying links then Google doesn’t like it and might penalize your website."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 11
+        }
+      },
+      "ced20987-83b8-40aa-bff3-2f856faae0a9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "ced20987-83b8-40aa-bff3-2f856faae0a9",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Rich snippets don’t apply for everything but for e.g. review sites, you can add ranking for a given item that will be shown in search results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "d00c7685-d891-4381-b3b2-a2dc11a3a838": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531886863148,
+          "id": "d00c7685-d891-4381-b3b2-a2dc11a3a838",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "70% vistors come from search engines, 96% of those are from google"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 35
+        }
+      },
+      "e6ea420d-82a7-49bc-93c3-8e080543ca50": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532921995458,
+          "id": "e6ea420d-82a7-49bc-93c3-8e080543ca50",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532921995458,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "f272d0df-0681-44e6-b5ea-d1e46c3963b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "f272d0df-0681-44e6-b5ea-d1e46c3963b6",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sitemap is an xml or text file that lists pages on your website. You submit a sitemap to Google to help it index the website. More info: "
+              ],
+              [
+                "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190",
+                [
+                  [
+                    "a",
+                    "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 13
+        }
+      },
+      "f2e2c968-cc53-4eba-98b4-6194b3496fc3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194262,
+          "id": "f2e2c968-cc53-4eba-98b4-6194b3496fc3",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Good CMS (e.g. WordPress) allows you to set those important things (page title, meta description etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "f696adda-a22a-4cc6-b5c1-616fb34b6f50": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "50cee008-915c-46b1-9d96-70bf9b0fc004",
+            "135b56f7-2cb1-4d98-b5b8-6169d92f988b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531204194261,
+          "id": "f696adda-a22a-4cc6-b5c1-616fb34b6f50",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532922033607,
+          "parent_id": "051a801b-35c0-4b04-8566-09b4687b4c94",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2 SEO nice-haves"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 11
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371922c8e67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:31 GMT"
+  ],
+  "Etag": [
+    "W/\"4e91-hyV4R7PIeUFF6TD/ZSF1SBexbXw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df052e7a4d12c33fb32e46580f1f109c21565326111; expires=Sat, 08-Aug-20 04:48:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

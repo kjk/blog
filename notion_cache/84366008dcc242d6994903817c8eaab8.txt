@@ -1,0 +1,799 @@
+2769 1565326191734 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+      "table": "block"
+    }
+  ]
+}
+Response:+1620
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "f09ad7e4-a0c8-46c8-b5c6-1bb111a3ed15",
+          "4a2b0936-e439-471a-9c41-a1e554e7fb00",
+          "a8578ac9-8525-4f07-a067-ac0009c94aad",
+          "b7ba329e-bac8-44a6-a13f-8a13d01a69dc",
+          "512ef369-a4b8-46f2-9a67-164ccbb49abe",
+          "2c273448-8e73-4817-b371-40d20d8e01fd",
+          "594ebd55-4470-403e-9dc5-fe975dece9fe",
+          "804ac129-1e4a-4e41-9321-42a166d3e42b",
+          "dde6ceb5-bc15-46e5-9450-5cec9283cf27",
+          "85ad3feb-24ca-4a5e-a582-5b51f2ced7e8",
+          "9f25045f-4172-4de3-af42-4919bb1d78ed",
+          "e7af90a2-dc39-4d59-85bc-163214d4b200",
+          "f439a4ec-fb50-4de6-adbf-5364a32512c4",
+          "74c50e1a-29b0-4397-93ed-73faf3f2a328",
+          "b61eea6f-3e72-4b78-9091-3ac318a00721"
+        ],
+        "copied_from": "dc27ee5f-efb7-4bd9-886f-3b40e13dbe5a",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195786235,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996287576,
+        "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Why consistency is important in software design"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 18
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b1518b97fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:50 GMT"
+  ],
+  "Etag": [
+    "W/\"487-zmfDnZXSFh3RpL7S6fgI1T/Awx0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=def9c24279f57c90b1815d646c38fe78e1565326190; expires=Sat, 08-Aug-20 04:49:50 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+25761 1565326191735 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "84366008-dcc2-42d6-9949-03817c8eaab8",
+  "verticalColumns": false
+}
+Response:+24570
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2c273448-8e73-4817-b371-40d20d8e01fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "2c273448-8e73-4817-b371-40d20d8e01fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "File managers have long history, dating back to DOS days and Norton Commander who ruled that market (and was cloned multiple times). On Windows we have two general styles of file management:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "4a2b0936-e439-471a-9c41-a1e554e7fb00": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "4a2b0936-e439-471a-9c41-a1e554e7fb00",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625210910,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2003-06-24T18:24:36-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "512ef369-a4b8-46f2-9a67-164ccbb49abe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "512ef369-a4b8-46f2-9a67-164ccbb49abe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I have a problem: none of the available file managers really meet my needs. There’s always something that bothers me either because a feature is missing or (I think) could work better. That’s why I’m constantly looking for something better. I’ve tried many file managers: Salamander, Total Commander, "
+              ],
+              [
+                "Frigate",
+                [
+                  [
+                    "a",
+                    "http://www.frigate3.com/"
+                  ]
+                ]
+              ],
+              [
+                " (and a few others that I cannot recall so easily). Out of those I tried Frigate is the best but I keep looking and that’s why recently I tried another one: Directory Opus. I remember Directory Opus from my Amiga days: it was THE file manager on that platform, packed with features and nice to use. Amiga went down and took the whole market for Amiga software with it but it looks like Directory Opus folks averted the disaster by porting their software to Windows. This post is about how they lost a potential costumer (me) because of lack of consistency with Windows."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "594ebd55-4470-403e-9dc5-fe975dece9fe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "594ebd55-4470-403e-9dc5-fe975dece9fe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "one that works just like Explorer (built into Windows)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "74c50e1a-29b0-4397-93ed-73faf3f2a328": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "74c50e1a-29b0-4397-93ed-73faf3f2a328",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Customization is possible so I was able to fix at least some of the keyboard mappings but I quickly gave up on Directory Opus even though it seems to be a very solid product, has all the basic capabilities and maybe even has features not available anywhere else."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "804ac129-1e4a-4e41-9321-42a166d3e42b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "804ac129-1e4a-4e41-9321-42a166d3e42b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "second that works more or less like Norton Commander"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "84366008-dcc2-42d6-9949-03817c8eaab8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f09ad7e4-a0c8-46c8-b5c6-1bb111a3ed15",
+            "4a2b0936-e439-471a-9c41-a1e554e7fb00",
+            "a8578ac9-8525-4f07-a067-ac0009c94aad",
+            "b7ba329e-bac8-44a6-a13f-8a13d01a69dc",
+            "512ef369-a4b8-46f2-9a67-164ccbb49abe",
+            "2c273448-8e73-4817-b371-40d20d8e01fd",
+            "594ebd55-4470-403e-9dc5-fe975dece9fe",
+            "804ac129-1e4a-4e41-9321-42a166d3e42b",
+            "dde6ceb5-bc15-46e5-9450-5cec9283cf27",
+            "85ad3feb-24ca-4a5e-a582-5b51f2ced7e8",
+            "9f25045f-4172-4de3-af42-4919bb1d78ed",
+            "e7af90a2-dc39-4d59-85bc-163214d4b200",
+            "f439a4ec-fb50-4de6-adbf-5364a32512c4",
+            "74c50e1a-29b0-4397-93ed-73faf3f2a328",
+            "b61eea6f-3e72-4b78-9091-3ac318a00721"
+          ],
+          "copied_from": "dc27ee5f-efb7-4bd9-886f-3b40e13dbe5a",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996287576,
+          "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Why consistency is important in software design"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 18
+        }
+      },
+      "85ad3feb-24ca-4a5e-a582-5b51f2ced7e8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "85ad3feb-24ca-4a5e-a582-5b51f2ced7e8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Every file managers seems to implement the golden standard set by Norton Commander. That is: every except Directory Opus. You might think that this is a small thing but it’s not. I was quickly infuriated by things not working the way I was expected them to behave. Among other things:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9f25045f-4172-4de3-af42-4919bb1d78ed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "9f25045f-4172-4de3-af42-4919bb1d78ed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "there’s not right-click-drag-and-drop (which usually allows me to choose move/copy/create shortcut when I perform drop)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "a8578ac9-8525-4f07-a067-ac0009c94aad": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531625213506,
+          "id": "a8578ac9-8525-4f07-a067-ac0009c94aad",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625217413,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 34
+        }
+      },
+      "b61eea6f-3e72-4b78-9091-3ac318a00721": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "b61eea6f-3e72-4b78-9091-3ac318a00721",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The moral of the story: don’t be gratuitously different than anyone else. Be as consistent with the platform as possible. There are cases where you simply find a better way of doing things and that justifies being different, but keyboard mappings aren’t the place to innovate."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b7ba329e-bac8-44a6-a13f-8a13d01a69dc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "b7ba329e-bac8-44a6-a13f-8a13d01a69dc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625209965,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "dde6ceb5-bc15-46e5-9450-5cec9283cf27": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "dde6ceb5-bc15-46e5-9450-5cec9283cf27",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "By now we all expect some things to work a certain way: F5 is copy, F6 is move, F2 is rename, Ins selects a single file, you have two panes, you can drag-and-drop files between them using a mouse etc. There’s no particular reason to use F2 instead of Ctrl-C except that everyone excepts Ctrl-C to mean “Copy from a clipboard”."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e7af90a2-dc39-4d59-85bc-163214d4b200": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "e7af90a2-dc39-4d59-85bc-163214d4b200",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "F5, F6 (and probably many others) aren’t mapped to the same operations as in NC"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "20b34bf6-02e0-49f0-8aed-2309a097873c",
+            "1363796b-7441-4e15-9470-ed2efd2bc585",
+            "d23f2e68-4d9f-45b4-9a8b-2981ff8d05c9",
+            "98494e10-661d-4bfb-a379-0aec1ac313dd",
+            "866dbdd5-b5e0-4900-9e18-6f204af2ffab",
+            "31a8bf9c-23fa-49e6-8061-22c4913048d3",
+            "52979d4b-5163-4a03-9077-7890670a9753",
+            "0e6cf17c-3de1-4806-922f-8d0402843b8f",
+            "a80c396b-b324-41bb-990a-980ea3ddc25a",
+            "2c8def1e-b066-4453-b0b1-f163840ca646",
+            "adcd152c-ba2a-48dd-ba7e-2de4d07d448b",
+            "e87a3fdb-32c1-4d46-83d7-693a654485f3",
+            "9215e7c9-6695-40eb-9ab0-dabe4afe2672",
+            "8478a4c2-8702-4837-8997-18a1d8137f96",
+            "03c5dea0-1e8e-4ef4-a041-904d6a5de46a",
+            "f79ab418-940d-4ebb-9f68-3900252f75ed",
+            "4194c048-3ff5-46d2-88c4-51818da3725e",
+            "0a4da7d6-e93c-4ba8-a87c-c505e8bc81c8",
+            "fe5b16a8-15d4-4c15-ba2a-94ad67f482ba",
+            "8aada009-b073-4777-9ce3-decfc633756d",
+            "97cc2daf-fe57-444c-b1e4-7b436b022fe4",
+            "477ec7bd-f5ae-41bf-bd51-5c1b7d68dca5",
+            "b13f1d68-28e2-4b8b-b1d1-47519b728b29",
+            "941a1f2c-5c20-4f27-aa51-b38f116c74f4",
+            "967972ad-be0b-494b-b772-e9f6489eb84b",
+            "36181bcd-8399-42c4-a1a3-1caad933721b",
+            "84366008-dcc2-42d6-9949-03817c8eaab8",
+            "63dd2935-607b-465e-a707-111d981d8710",
+            "c122ae48-097f-40b4-95bd-99005270369c",
+            "958402a6-8fe9-41f4-9626-2e7f83486a47",
+            "464c291c-d660-4f8c-9fbc-3f26069438ca",
+            "bc81e70c-d754-4700-baf4-56e41199ec72",
+            "c1a2e879-d8db-4810-ab18-db144948f668",
+            "dfa0ad7d-312f-45f7-8f3c-92561f748ac7",
+            "a726fefe-0c1b-4829-b53c-361bdb347359",
+            "5db03935-3cbb-4606-b8ab-614471617263",
+            "7edf7239-89d6-41c7-870f-7ee40b01c19e",
+            "22ee7837-6409-4e15-86de-7d7be59ce2ef",
+            "678979c4-7969-4122-b9ed-65528647e01e",
+            "68a7a4e3-7168-4e57-8b43-df4480fc2db8",
+            "76e0c432-f234-4045-8ec2-495ab17b4597",
+            "2557e059-05d9-45d3-b89e-d2a6000eda11",
+            "ac3fc93e-21a7-474e-8a9a-9267f63d2893",
+            "c5e8489d-ebb9-4ece-95ff-97b19ede3e49",
+            "d08ad186-b982-4fd4-a3c3-42088422bc68",
+            "529d5b82-5b8c-4e3a-89b6-2f5c044bf473",
+            "3b720874-e7b6-4ec7-ac1e-2cc94cb0b96c",
+            "5d488681-25c1-4fbc-bde7-cbb1ce917077",
+            "6058622a-cf4c-41d6-977b-347f07e14fa1",
+            "900168f6-c3eb-4b13-bd39-bb0148d9d421",
+            "cbbdbe2d-3848-415f-9f8f-63017e7ec398"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195702218,
+          "id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996452327,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2003"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 92
+        }
+      },
+      "f09ad7e4-a0c8-46c8-b5c6-1bb111a3ed15": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "f09ad7e4-a0c8-46c8-b5c6-1bb111a3ed15",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625212348,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1650"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "f439a4ec-fb50-4de6-adbf-5364a32512c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786235,
+          "id": "f439a4ec-fb50-4de6-adbf-5364a32512c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786235,
+          "parent_id": "84366008-dcc2-42d6-9949-03817c8eaab8",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Ins doesn’t select/deselect a file (in fact, there doesn’t seem to be possible to do it not using the mouse which renders keyboard navigation largely useless)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b1588e27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:51 GMT"
+  ],
+  "Etag": [
+    "W/\"4261-HGFqkO72b+A755AjpjwnRpisLwc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=def9c24279f57c90b1815d646c38fe78e1565326190; expires=Sat, 08-Aug-20 04:49:50 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

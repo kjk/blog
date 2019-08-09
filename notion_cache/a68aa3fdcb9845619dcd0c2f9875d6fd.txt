@@ -1,0 +1,546 @@
+2216 1565326146910 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+      "table": "block"
+    }
+  ]
+}
+Response:+1067
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "dd085cee-c62c-4263-bc87-aa8e6a79ac9b",
+          "5cf70158-5939-488b-ae28-c10fdba9c80f",
+          "7ce4ca0b-72a4-4923-a214-4c931becce21",
+          "4a8b7586-a02f-4e98-ae7c-fdafacae615a",
+          "3d35ed99-7761-4f3e-a74c-76351a430b38",
+          "e7a239fd-5f56-401f-a4ab-daff2a35f7fa"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499408495823,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530049181300,
+        "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Datasets"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 3
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "503719fc9caa7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:06 GMT"
+  ],
+  "Etag": [
+    "W/\"2cb-wynsQPO4A88zEfsF2yC4gcx8zKc\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d339ac600f61c327cb6da7fc3ecfe3e361565326146; expires=Sat, 08-Aug-20 04:49:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+14621 1565326146912 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+  "verticalColumns": false
+}
+Response:+13430
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1c88e826-c6ef-4432-bd0e-188560b1a34f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77419d0c-c357-47de-b617-b16ddf354df2",
+            "09c3cc57-44a4-4ac1-97fb-9b9d18080f6d",
+            "4cb16d35-5069-46e7-a2c9-be86e5bc1f80",
+            "595294dc-8be6-41ee-8aec-14a9b5d21ac7",
+            "44be8df9-6823-49e9-bb8c-a7077124b674",
+            "80a4483d-b747-4706-9898-363d53f16bf0",
+            "e3598ab7-48ad-41e2-aa7f-f8902d7ca062",
+            "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+            "26a2d6ae-61d5-4350-824b-3aa9f7e131e7",
+            "51b70cc4-6af0-4d6e-8f7c-272387e8a356",
+            "dfcaa0f4-b1c3-4163-932e-4f0378e8d82f",
+            "0dc31cc7-8d09-4258-8f92-f44cbb61d180",
+            "7b7ead5f-c9a0-4a9c-840a-d1eaba74c2a1",
+            "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+            "1013e1bd-10bd-49ac-b02f-79a7ada7e060",
+            "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+            "53485f8e-b0c1-4c49-b174-8995a9e38d4c",
+            "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+            "d61cd2f8-8e60-42d4-bb4d-3b782df87518",
+            "5122bd29-ef09-436b-a66f-8c3321a70e5c",
+            "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+            "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
+            "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+            "040630a7-5e9f-4aae-83d0-1538bdc8f702"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.4375
+          },
+          "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 199
+        }
+      },
+      "3d35ed99-7761-4f3e-a74c-76351a430b38": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461474700,
+          "id": "3d35ed99-7761-4f3e-a74c-76351a430b38",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530049169509,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "http://blog.garage-coding.com/2015/12/28/query-online-datasets.html",
+                [
+                  [
+                    "a",
+                    "http://blog.garage-coding.com/2015/12/28/query-online-datasets.html"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "4a8b7586-a02f-4e98-ae7c-fdafacae615a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461474700,
+          "id": "4a8b7586-a02f-4e98-ae7c-fdafacae615a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530049171634,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.reddit.com/r/datasets/comments/3mg812/full_reddit_submission_corpus_now_available_2006/",
+                [
+                  [
+                    "a",
+                    "https://www.reddit.com/r/datasets/comments/3mg812/full_reddit_submission_corpus_now_available_2006/"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5cf70158-5939-488b-ae28-c10fdba9c80f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461474700,
+          "id": "5cf70158-5939-488b-ae28-c10fdba9c80f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530049173766,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://archive.org/details/stackexchange",
+                [
+                  [
+                    "a",
+                    "https://archive.org/details/stackexchange"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "7ce4ca0b-72a4-4923-a214-4c931becce21": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461474700,
+          "id": "7ce4ca0b-72a4-4923-a214-4c931becce21",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530049172706,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/",
+                [
+                  [
+                    "a",
+                    "https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 4
+        }
+      },
+      "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "dd085cee-c62c-4263-bc87-aa8e6a79ac9b",
+            "5cf70158-5939-488b-ae28-c10fdba9c80f",
+            "7ce4ca0b-72a4-4923-a214-4c931becce21",
+            "4a8b7586-a02f-4e98-ae7c-fdafacae615a",
+            "3d35ed99-7761-4f3e-a74c-76351a430b38",
+            "e7a239fd-5f56-401f-a4ab-daff2a35f7fa"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1499408495823,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530049181300,
+          "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Datasets"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 3
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "dd085cee-c62c-4263-bc87-aa8e6a79ac9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1499408498615,
+          "id": "dd085cee-c62c-4263-bc87-aa8e6a79ac9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1499408498615,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker",
+                [
+                  [
+                    "a",
+                    "https://archive.org/details/14566367HackerNewsCommentsAndStoriesArchivedByGreyPanthersHacker"
+                  ]
+                ]
+              ],
+              [
+                " : 1.6 GB .json.bz2 hacker news comments and stories"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "e7a239fd-5f56-401f-a4ab-daff2a35f7fa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512461485392,
+          "id": "e7a239fd-5f56-401f-a4ab-daff2a35f7fa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512461485392,
+          "parent_id": "a68aa3fd-cb98-4561-9dcd-0c2f9875d6fd",
+          "parent_table": "block",
+          "type": "text",
+          "version": 0
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "503719fcfcc17fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:06 GMT"
+  ],
+  "Etag": [
+    "W/\"21b7-EOPoUsWIlHkuRLgtWmZZyV7/e7c\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d339ac600f61c327cb6da7fc3ecfe3e361565326146; expires=Sat, 08-Aug-20 04:49:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

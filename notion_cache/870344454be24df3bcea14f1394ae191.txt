@@ -1,0 +1,1280 @@
+3517 1565326192617 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "87034445-4be2-4df3-bcea-14f1394ae191",
+      "table": "block"
+    }
+  ]
+}
+Response:+2368
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "1534e801-f60d-40bb-993e-91c6dd1b9954",
+          "29b25d30-be28-456d-b80e-2165b199c03d",
+          "61e5b4f9-bc6c-4949-92e2-135b72b4ade3",
+          "11e12036-2779-42ef-82cf-7e2f6ae51089",
+          "e2f1afad-e47d-444c-b985-974d8710b10b",
+          "4eec4bbc-3ce4-44fe-b651-3afa6e88e6a7",
+          "8e0d095b-2b33-4aa7-927f-54d148f891b1",
+          "811c9b6e-30e5-4bcd-a5ac-687e0d8435ba",
+          "4f9bf66e-5910-4554-ac8e-ee43a79bf393",
+          "c27dd059-7358-47fa-a3a9-27489c9708fd",
+          "1569f977-e751-40f4-a8da-e6a060c149af",
+          "add2c99b-6bc5-42c4-869b-fba755d03af8",
+          "86c51a43-5bac-4e39-88bd-171a125464ca",
+          "4190b238-c489-4ba2-b660-7bec1eb87157",
+          "9100c0d1-8d61-47f6-aefd-55ab6fd9190f",
+          "2cb465e1-e904-45da-bd52-fef55bf87da9",
+          "6742b78c-05c3-4a96-b87b-9f40ed14fe1c",
+          "2bfb4c67-977e-4653-852f-71a426e598eb",
+          "0d44f0a9-a621-41e6-8d71-d8a252350ad4",
+          "10ba986a-529c-4de6-bc24-28877d5ffbdd",
+          "fecba320-3b52-4780-bd18-b6d38cb557f2",
+          "f6370d22-47d5-485b-8d35-8eec4e24b84b",
+          "809d9978-595f-4589-8b13-5f4311d15eed",
+          "c3cd29fc-1061-4621-bb30-f0633f859d5e",
+          "d79374a4-3909-4f46-8b33-14e0dafccc25",
+          "c75a2d29-ea87-4e33-b99d-e16fd308f805",
+          "d244bfee-6a96-4696-80a8-dfb36fa654a3",
+          "98af360c-8485-4ac2-a6f4-e5ab8dc6df4a",
+          "f5ef788f-8c4f-416e-a3aa-f941a8c4f144",
+          "d7397fc1-3046-4434-928a-f90df9607251"
+        ],
+        "copied_from": "c2e1561a-9710-481f-8780-3d6b809dec86",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195845805,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "87034445-4be2-4df3-bcea-14f1394ae191",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996335405,
+        "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "On how I improved Sumatra performance by ~60%"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b1a8ba37fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:51 GMT"
+  ],
+  "Etag": [
+    "W/\"6ce-zNK9AdnHG97W5RXZ/XUhYRlBpZk\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d9683da005b992c131ab1f71cc5a47fa61565326191; expires=Sat, 08-Aug-20 04:49:51 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+41873 1565326192620 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "87034445-4be2-4df3-bcea-14f1394ae191",
+  "verticalColumns": false
+}
+Response:+40682
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0d44f0a9-a621-41e6-8d71-d8a252350ad4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "0d44f0a9-a621-41e6-8d71-d8a252350ad4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Then there is the hard (but most fun) part of figuring out how to change the code to get speedups."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "10ba986a-529c-4de6-bc24-28877d5ffbdd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "10ba986a-529c-4de6-bc24-28877d5ffbdd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There is occasional heartbreak. Some of my attempts at improvements only gave me spectacular crashes (as always a result of "
+              ],
+              [
+                "ignorance or carelesness",
+                [
+                  [
+                    "a",
+                    "/articles/sourceOfBugs.html"
+                  ]
+                ]
+              ],
+              [
+                ")."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "11e12036-2779-42ef-82cf-7e2f6ae51089": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "11e12036-2779-42ef-82cf-7e2f6ae51089",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623912433,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "1534e801-f60d-40bb-993e-91c6dd1b9954": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "1534e801-f60d-40bb-993e-91c6dd1b9954",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623913742,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1966"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "1569f977-e751-40f4-a8da-e6a060c149af": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "1569f977-e751-40f4-a8da-e6a060c149af",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In order to see how my changes affect performance I would build a reference version of test program without any changes, build a version with my changes (making sure I use the same compiler settings for both versions), run them on the same PDF file and compare results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "29b25d30-be28-456d-b80e-2165b199c03d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "29b25d30-be28-456d-b80e-2165b199c03d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: sumatra, optimization, programming, profiling"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2bfb4c67-977e-4653-852f-71a426e598eb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "2bfb4c67-977e-4653-852f-71a426e598eb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The profiler will show you which functions take most of the time, how many times they are called, call trees etc. This information is not only useful to identify which code needs work but also can help you understand how the code works. If code is algorithms + data then software is code + execution paths."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "2cb465e1-e904-45da-bd52-fef55bf87da9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "2cb465e1-e904-45da-bd52-fef55bf87da9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I used to run tests manually, copy data to spreadsheet and making analysis there. That got old fast, so I wrote a python script to automate the process. The script takes as arguments names of 2 executables to compare, name of PDF file, runs both tests programs on this PDF multiple times (interleaved, to help even out possible CPU load changes from other activity on the computer) and just gives me the summary of results."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "4190b238-c489-4ba2-b660-7bec1eb87157": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "4190b238-c489-4ba2-b660-7bec1eb87157",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Even with multiple runs I see 1-1.5% changes when running the same executable so I don’t get excited when I see 1.5% improvement with my changes - those fall into line noise."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4eec4bbc-3ce4-44fe-b651-3afa6e88e6a7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "4eec4bbc-3ce4-44fe-b651-3afa6e88e6a7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sumatra",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ],
+              [
+                ", my PDF viewer for Windows, uses an existing open-source "
+              ],
+              [
+                "poppler",
+                [
+                  [
+                    "a",
+                    "http://poppler.freedesktop.org/"
+                  ]
+                ]
+              ],
+              [
+                " library for most of its work (parsing and rendering PDF files). Almost all execution time is spent in poppler code. I didn’t write the code yet I was able to improve some specific scenario (loading of a PDF file) by about ~60% using rather small and un-intrusive changes (i.e. without rewriting a lot of code)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4f9bf66e-5910-4554-ac8e-ee43a79bf393": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "4f9bf66e-5910-4554-ac8e-ee43a79bf393",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In Sumatra case that was obvious. The things that people care about are: how long does it take to load the PDF file and how long does it take to render a given page."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "61e5b4f9-bc6c-4949-92e2-135b72b4ade3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "61e5b4f9-bc6c-4949-92e2-135b72b4ade3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2006-09-02T18:01:53-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6742b78c-05c3-4a96-b87b-9f40ed14fe1c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "6742b78c-05c3-4a96-b87b-9f40ed14fe1c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Measuring execution times tells you how much work is being done but what you need to know is which parts of the code are doing the most work. Again, there’s no point optimizing code that is not executed very often. Speeding by 50% a piece of code that contributes to 1% of execution time of your scenario only improves execution time by 0.5%. The best way to get detailed performance information is to use a good profiler. On Windows "
+              ],
+              [
+                "AQTime",
+                [
+                  [
+                    "a",
+                    "http://www.automatedqa.com/products/aqtime/"
+                  ]
+                ]
+              ],
+              [
+                " is quite wonderful, Visual Studio Team (aka. Expensive) Edition has one. On Unix I’ve read good things about "
+              ],
+              [
+                "valgrind",
+                [
+                  [
+                    "a",
+                    "http://valgrind.org/"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "oprofile",
+                [
+                  [
+                    "a",
+                    "http://oprofile.sourceforge.net/"
+                  ]
+                ]
+              ],
+              [
+                "and "
+              ],
+              [
+                "dtrace",
+                [
+                  [
+                    "a",
+                    "http://www.sun.com/bigadmin/content/dtrace/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "809d9978-595f-4589-8b13-5f4311d15eed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "809d9978-595f-4589-8b13-5f4311d15eed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "optimize scenarios that matters to your users"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "811c9b6e-30e5-4bcd-a5ac-687e0d8435ba": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "811c9b6e-30e5-4bcd-a5ac-687e0d8435ba",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Before you start improving performance, you need to decide what exactly do you need to improve. You don’t want to waste time "
+              ],
+              [
+                "improving idle loop",
+                [
+                  [
+                    "a",
+                    "http://www-128.ibm.com/developerworks/power/library/pa-unrollav3/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c17c9bfe-9b64-48f3-a3ca-a4080de8527d",
+            "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+            "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+            "171030c0-8630-4399-8806-6407967f8a76",
+            "5d89b199-892a-4dcb-a6de-f754b28e347a",
+            "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+            "5094f3ac-18ed-4d98-8e2f-716bb4d74e66",
+            "52e46e84-edb5-47ae-9c99-2b00f9fb117f",
+            "828c5dfe-b184-42a3-bf07-70cb2f430979",
+            "42795644-40b2-4758-9b8b-edb7ed4f20ad",
+            "e83f12b0-4e79-481d-82ce-142d61fdf7ab",
+            "e3f3de70-632c-426e-8c48-2d7aca3bdf62",
+            "f8aa7527-bd9a-42d6-aa33-399daa4bd612",
+            "430e8f23-1fc8-454b-9089-158b2fba45d4",
+            "e7eb256f-bcbb-4034-a685-c46149832cd3",
+            "da1f1944-ed04-426b-a103-db27afc77e2f",
+            "f830f945-8e01-415c-9e8d-d3a243504647",
+            "f3fd52ee-cad8-4862-a054-54fcdeb7c6df",
+            "2ac56de1-d067-4464-bee8-eff2a5768ca5",
+            "c598349d-9349-4937-94d8-9041f694a5cb",
+            "68d1dadd-39e2-4588-a0dd-bc34b75990a2",
+            "6ca7ef8d-216c-428c-9248-3ecd1b144377",
+            "44db41a4-3b22-4eba-b59d-c3fe00cef4dc",
+            "b6e07724-a143-4aff-a26a-69cf18186e0b",
+            "d9eef152-f793-4ff8-96c0-d78744527a3e",
+            "03fc93fd-c0f4-4092-9350-41113b2fe75e",
+            "3def6f60-a5a0-4560-a402-55e40754acd8",
+            "a6d438b1-00d7-458e-b82d-2303aedb1487",
+            "87034445-4be2-4df3-bcea-14f1394ae191",
+            "90c97050-d91a-46d9-989b-73c2652303f8",
+            "281d8b5e-dce2-403b-802f-91c2b2700bf5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195819922,
+          "id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268380000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2006 (31)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "86c51a43-5bac-4e39-88bd-171a125464ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "86c51a43-5bac-4e39-88bd-171a125464ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Therefore it’s important to run the same test serveral (say 10) times and calculate averages, rejecting values that fall too much outside of average. Rather arbitrarily I decided to do a two-pass filtering when calculating averages. In first pass I reject all values that differ more than 45% from average and in second pass I reject all values that differ more than 10% from the average. I don’t have justification for those values, they seem to work for me. The reason for two-pass filtering is that one really outrages value in a short run might skew average so much that all values differ from average a lot (e.g. \u003e20%)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "87034445-4be2-4df3-bcea-14f1394ae191": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1534e801-f60d-40bb-993e-91c6dd1b9954",
+            "29b25d30-be28-456d-b80e-2165b199c03d",
+            "61e5b4f9-bc6c-4949-92e2-135b72b4ade3",
+            "11e12036-2779-42ef-82cf-7e2f6ae51089",
+            "e2f1afad-e47d-444c-b985-974d8710b10b",
+            "4eec4bbc-3ce4-44fe-b651-3afa6e88e6a7",
+            "8e0d095b-2b33-4aa7-927f-54d148f891b1",
+            "811c9b6e-30e5-4bcd-a5ac-687e0d8435ba",
+            "4f9bf66e-5910-4554-ac8e-ee43a79bf393",
+            "c27dd059-7358-47fa-a3a9-27489c9708fd",
+            "1569f977-e751-40f4-a8da-e6a060c149af",
+            "add2c99b-6bc5-42c4-869b-fba755d03af8",
+            "86c51a43-5bac-4e39-88bd-171a125464ca",
+            "4190b238-c489-4ba2-b660-7bec1eb87157",
+            "9100c0d1-8d61-47f6-aefd-55ab6fd9190f",
+            "2cb465e1-e904-45da-bd52-fef55bf87da9",
+            "6742b78c-05c3-4a96-b87b-9f40ed14fe1c",
+            "2bfb4c67-977e-4653-852f-71a426e598eb",
+            "0d44f0a9-a621-41e6-8d71-d8a252350ad4",
+            "10ba986a-529c-4de6-bc24-28877d5ffbdd",
+            "fecba320-3b52-4780-bd18-b6d38cb557f2",
+            "f6370d22-47d5-485b-8d35-8eec4e24b84b",
+            "809d9978-595f-4589-8b13-5f4311d15eed",
+            "c3cd29fc-1061-4621-bb30-f0633f859d5e",
+            "d79374a4-3909-4f46-8b33-14e0dafccc25",
+            "c75a2d29-ea87-4e33-b99d-e16fd308f805",
+            "d244bfee-6a96-4696-80a8-dfb36fa654a3",
+            "98af360c-8485-4ac2-a6f4-e5ab8dc6df4a",
+            "f5ef788f-8c4f-416e-a3aa-f941a8c4f144",
+            "d7397fc1-3046-4434-928a-f90df9607251"
+          ],
+          "copied_from": "c2e1561a-9710-481f-8780-3d6b809dec86",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996335405,
+          "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On how I improved Sumatra performance by ~60%"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "8e0d095b-2b33-4aa7-927f-54d148f891b1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "8e0d095b-2b33-4aa7-927f-54d148f891b1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This post describes mechanics of performance improvement process I used."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9100c0d1-8d61-47f6-aefd-55ab6fd9190f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "9100c0d1-8d61-47f6-aefd-55ab6fd9190f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Another trap are CPUs with dynamically adjustable frequency (standard on laptops since they save power). They completely ruin ability to use execution time for comparison. Don’t use laptops for running tests or turn off this CPU feature."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "98af360c-8485-4ac2-a6f4-e5ab8dc6df4a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "98af360c-8485-4ac2-a6f4-e5ab8dc6df4a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "use your brain to make changes to the code"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "add2c99b-6bc5-42c4-869b-fba755d03af8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "add2c99b-6bc5-42c4-869b-fba755d03af8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Getting results from a single run is not good enough. Given multi-tasking nature of Windows, running time is only an approximation of performance. Also, some parts of the code heavily depend on cache. For example, loading PDF for the second time takes only a fraction of time because the file is most likely cached in memory and memory access is orders of magnitude faster than reading from disk."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c27dd059-7358-47fa-a3a9-27489c9708fd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "c27dd059-7358-47fa-a3a9-27489c9708fd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Another thing you need before even starting to improve the performance is to have a way to reliably measure changes in performance. In my case I had to write a test program that would take name of PDF file as input and dump statistics about how much time, in milliseconds, did it take to load the file and to render each page."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c3cd29fc-1061-4621-bb30-f0633f859d5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "c3cd29fc-1061-4621-bb30-f0633f859d5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "write tools to make evaluating performance changes possible"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "c75a2d29-ea87-4e33-b99d-e16fd308f805": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "c75a2d29-ea87-4e33-b99d-e16fd308f805",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "use profiler to see which code needs to be optimized"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "d244bfee-6a96-4696-80a8-dfb36fa654a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "d244bfee-6a96-4696-80a8-dfb36fa654a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "use profiler to understand how code works"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "d7397fc1-3046-4434-928a-f90df9607251": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "d7397fc1-3046-4434-928a-f90df9607251",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If you’re curious about what the specific changes for poppler were, you can look at the patches I’ve submitted and their description: "
+              ],
+              [
+                "~19% speedup",
+                [
+                  [
+                    "a",
+                    "https://bugs.freedesktop.org/show_bug.cgi?id=7808"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "~25% speedup",
+                [
+                  [
+                    "a",
+                    "https://bugs.freedesktop.org/show_bug.cgi?id=7910"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "~2% speedup",
+                [
+                  [
+                    "a",
+                    "https://bugs.freedesktop.org/show_bug.cgi?id=8111"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "~7% speedup",
+                [
+                  [
+                    "a",
+                    "https://bugs.freedesktop.org/show_bug.cgi?id=8112"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d79374a4-3909-4f46-8b33-14e0dafccc25": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "d79374a4-3909-4f46-8b33-14e0dafccc25",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "write tools to automate performance evaluation"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "e2f1afad-e47d-444c-b985-974d8710b10b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845805,
+          "id": "e2f1afad-e47d-444c-b985-974d8710b10b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845805,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Improving performance of code you didn’t write is fun. It’s especially fun if you can find a way to make a "
+              ],
+              [
+                "small change",
+                [
+                  [
+                    "a",
+                    "https://bugs.freedesktop.org/show_bug.cgi?id=8112"
+                  ]
+                ]
+              ],
+              [
+                " and improve performance by ~7%. It doesn’t happen often, but when it does happen, it feels good."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f5ef788f-8c4f-416e-a3aa-f941a8c4f144": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "f5ef788f-8c4f-416e-a3aa-f941a8c4f144",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "make sure your changes do improve performance. Flying blind is not good enough"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "f6370d22-47d5-485b-8d35-8eec4e24b84b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "f6370d22-47d5-485b-8d35-8eec4e24b84b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Summary of important points about performance optimization:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fecba320-3b52-4780-bd18-b6d38cb557f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195845806,
+          "id": "fecba320-3b52-4780-bd18-b6d38cb557f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195845806,
+          "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On the bright side, it also happened that I had improvements ideas that would require extensive changes but after staring more at the code and profiler results, I found much smaller change with a similar speedup potential."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b1b0bce7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:51 GMT"
+  ],
+  "Etag": [
+    "W/\"68b1-C1UjRXAw7JvDtzR0VgCP/XnbBN0\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d9683da005b992c131ab1f71cc5a47fa61565326191; expires=Sat, 08-Aug-20 04:49:51 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,722 @@
+2593 1565326174864 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+      "table": "block"
+    }
+  ]
+}
+Response:+1444
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "773bf221-d455-46d6-9698-d6d823d5c5fb",
+          "5fa7f90c-4ba3-4a90-b368-e8f94edd8be4",
+          "eead5cbf-e86f-4d26-80b4-85f15724e9e5",
+          "5a07b12e-9253-4040-8992-731ac6525207",
+          "eb32c916-eb05-40fe-ac1e-0fe4146526b8",
+          "50662e65-3210-4541-8fa8-dcd3f3d5732e",
+          "180182e1-13fc-4baf-b6af-64fe30bcc7a1",
+          "ab16e94f-6777-4654-a5ef-df55f03f140c",
+          "8eda2f7e-a39c-4032-9f07-00d96abf652b",
+          "c9a50d4e-18ae-445f-af21-f36a22a9dc8c",
+          "968dc350-10d3-42da-ae2c-b2193d99c278",
+          "9aba29a7-1906-47b4-b530-3aa6a865b108"
+        ],
+        "copied_from": "8c0cad58-92bb-4e72-a6ca-a761dee3571c",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195923296,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996353736,
+        "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Variadic Macros (C++)"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371aabbd6c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:34 GMT"
+  ],
+  "Etag": [
+    "W/\"3f8-1jmHxI2UzTS0qqVEQvzKPvOrPCg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dac976acc8352334b47dba876d86b8a9b1565326174; expires=Sat, 08-Aug-20 04:49:34 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+21501 1565326174866 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+  "verticalColumns": false
+}
+Response:+20310
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "180182e1-13fc-4baf-b6af-64fe30bcc7a1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "180182e1-13fc-4baf-b6af-64fe30bcc7a1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The C Standard specifies that at least one argument must be passed to the ellipsis, to ensure that the macro does not resolve to an expression with a trailing comma. The Visual C++ implementation will suppress a trailing comma if no arguments are passed to the ellipsis."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3a476938-a9f3-409a-9bd2-3cf2b1157986": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "773bf221-d455-46d6-9698-d6d823d5c5fb",
+            "5fa7f90c-4ba3-4a90-b368-e8f94edd8be4",
+            "eead5cbf-e86f-4d26-80b4-85f15724e9e5",
+            "5a07b12e-9253-4040-8992-731ac6525207",
+            "eb32c916-eb05-40fe-ac1e-0fe4146526b8",
+            "50662e65-3210-4541-8fa8-dcd3f3d5732e",
+            "180182e1-13fc-4baf-b6af-64fe30bcc7a1",
+            "ab16e94f-6777-4654-a5ef-df55f03f140c",
+            "8eda2f7e-a39c-4032-9f07-00d96abf652b",
+            "c9a50d4e-18ae-445f-af21-f36a22a9dc8c",
+            "968dc350-10d3-42da-ae2c-b2193d99c278",
+            "9aba29a7-1906-47b4-b530-3aa6a865b108"
+          ],
+          "copied_from": "8c0cad58-92bb-4e72-a6ca-a761dee3571c",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996353736,
+          "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Variadic Macros (C++)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "50662e65-3210-4541-8fa8-dcd3f3d5732e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "50662e65-3210-4541-8fa8-dcd3f3d5732e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To use variadic macros, the ellipsis may be specified as the final formal argument in a macro definition, and the replacement identifier "
+              ],
+              [
+                "__VA_ARGS__",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                " may be used in the definition to insert the extra arguments. "
+              ],
+              [
+                "__VA_ARGS__",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                " is replaced by all of the arguments that match the ellipsis, including commas between them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5a07b12e-9253-4040-8992-731ac6525207": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "5a07b12e-9253-4040-8992-731ac6525207",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623702157,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "5fa7f90c-4ba3-4a90-b368-e8f94edd8be4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "5fa7f90c-4ba3-4a90-b368-e8f94edd8be4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: visual studio, c++"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "773bf221-d455-46d6-9698-d6d823d5c5fb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "773bf221-d455-46d6-9698-d6d823d5c5fb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623703165,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1253"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "8eda2f7e-a39c-4032-9f07-00d96abf652b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "8eda2f7e-a39c-4032-9f07-00d96abf652b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Example:"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "968dc350-10d3-42da-ae2c-b2193d99c278": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "968dc350-10d3-42da-ae2c-b2193d99c278",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Output"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "9aba29a7-1906-47b4-b530-3aa6a865b108": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "9aba29a7-1906-47b4-b530-3aa6a865b108",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Plain Text"
+              ]
+            ],
+            "title": [
+              [
+                "here are some varargs1(1)\n    here are some varargs2(4)\n    here are some varargs3(5)\n    hello, world"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "ab16e94f-6777-4654-a5ef-df55f03f140c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "ab16e94f-6777-4654-a5ef-df55f03f140c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Support for variadic macros was introduced in Visual C++ 2005."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba2e39ae-fb47-4fc7-9d89-54d8f734476f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6304b86f-fe53-42a2-bed0-07f2563a4230",
+            "197b2814-2034-48cb-933f-f05432e01d81",
+            "5fb4c6fe-33ef-4f43-9223-22abe598d008",
+            "8224bdb4-0545-4a86-ad7a-8659a8d50b50",
+            "16a651dd-4b01-4b73-8974-befd23ffe539",
+            "71497e6c-49d5-4fcc-889e-1b39fdd453da",
+            "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
+            "6568863d-9f85-4eca-ae74-28d2d86e9d34",
+            "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+            "e06c81e6-7666-490c-989b-7e7aeab8225c",
+            "1cf51fe5-cc69-42e8-b43b-31049aebe333",
+            "b15f453e-1878-4f56-8b35-0944b082dc5e",
+            "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
+            "98823469-6c65-4223-8117-5605a311fbb3",
+            "2c61a22c-b459-4d43-8cb0-9f81dd8584ff",
+            "c822c83a-86b9-4e23-b9ff-8ddb89aa6e33",
+            "2457a729-f4b0-482e-b2ea-6b2cd4de7cf9",
+            "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+            "f2b15335-f9b7-4eab-a7b5-b084ff1b1bbb",
+            "b62ca976-a51d-4708-a65f-c676b1d55058",
+            "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
+            "e61f8b9a-55ee-4bde-8f9f-c6e86105a422",
+            "c26d8fef-5360-4830-8f6b-af20da67cbe2",
+            "cce783d8-887e-48e6-abeb-aee06b0a074a",
+            "24ce1b6e-ffe0-43d1-8493-61ba8524642b",
+            "723d09e3-6e85-4ba0-a706-1a36452a2b34"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195890466,
+          "id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2008 (26)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 59
+        }
+      },
+      "c9a50d4e-18ae-445f-af21-f36a22a9dc8c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "c9a50d4e-18ae-445f-af21-f36a22a9dc8c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Java/C/C++/C#"
+              ]
+            ],
+            "title": [
+              [
+                "// variadic_macros.cpp\n#include\n#define EMPTY\n\n#define CHECK1(x, ...) if (!(x)) { printf(__VA_ARGS__); }\n#define CHECK2(x, ...) if ((x)) { printf(__VA_ARGS__); }\n#define CHECK3(...) { printf(__VA_ARGS__); }\n#define MACRO(s, ...) printf(s, __VA_ARGS__)\n\nint main() {\n   CHECK1(0, \"here %s %s %s\", \"are\", \"some\", \"varargs1(1)\\n\");\n   CHECK1(1, \"here %s %s %s\", \"are\", \"some\", \"varargs1(2)\\n\");   // won't print\n\n   CHECK2(0, \"here %s %s %s\", \"are\", \"some\", \"varargs2(3)\\n\");   // won't print\n   CHECK2(1, \"here %s %s %s\", \"are\", \"some\", \"varargs2(4)\\n\");\n\n   // always invokes printf in the macro\n   CHECK3(\"here %s %s %s\", \"are\", \"some\", \"varargs3(5)\\n\");\n\n   MACRO(\"hello, world\\n\");\n   // MACRO(\"error\\n\", EMPTY);   would cause C2059\n}"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 1
+        }
+      },
+      "eb32c916-eb05-40fe-ac1e-0fe4146526b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "eb32c916-eb05-40fe-ac1e-0fe4146526b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Variadic macros are function-like macros that contain a variable number of arguments."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "eead5cbf-e86f-4d26-80b4-85f15724e9e5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195923296,
+          "id": "eead5cbf-e86f-4d26-80b4-85f15724e9e5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195923296,
+          "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2008-04-04T16:36:43-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371aac2da87fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:34 GMT"
+  ],
+  "Etag": [
+    "W/\"34fe-J5amh+hF3ii1NxBofxNHixy9e2o\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dac976acc8352334b47dba876d86b8a9b1565326174; expires=Sat, 08-Aug-20 04:49:34 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

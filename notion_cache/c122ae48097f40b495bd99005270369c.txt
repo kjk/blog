@@ -1,0 +1,1566 @@
+3880 1565326206862 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "c122ae48-097f-40b4-95bd-99005270369c",
+      "table": "block"
+    }
+  ]
+}
+Response:+2731
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "a7b10abd-3ede-4e69-a961-dd36e17aeec4",
+          "f1aba1fa-a6f5-4528-9145-02da798acdfe",
+          "8edda2ad-4e84-44b3-a72f-4a830f7fa1f2",
+          "34b9d7ac-a705-4fd8-bd8d-51ab1f608751",
+          "b831f534-3274-4296-8939-ac9668cf5aef",
+          "eada1abd-1ca0-4e57-9248-2896c7d0878a",
+          "893199a7-bef5-48a8-972c-732141a0c741",
+          "b2c38b40-6b87-4c59-ad78-c1a028c84baf",
+          "34fe34a5-468d-4c6a-ae1e-4c4e5b7fa861",
+          "77d75e59-7498-458d-ad29-da446f2f7f89",
+          "17ecca25-bb94-4ea6-8821-697717d2918f",
+          "cbdf7ade-7a33-4ded-8f9b-cfe4955584e7",
+          "f9c65a40-aefc-468c-8875-f2eede801942",
+          "156533df-555a-474b-aeed-18a812a45847",
+          "7a7a3e31-4cce-4826-9f27-c85066c7c598",
+          "92f4afd2-d3af-4d83-8b60-558e3243d000",
+          "f038b858-f70d-43c6-93e6-6cc85bd117ca",
+          "a3763e5c-d752-4dae-8011-d89f0eb459cd",
+          "fc402ba3-83a8-4a0d-8d90-f75f6df4acb5",
+          "b6a24f38-785b-42be-9ea1-7b9516bdfadf",
+          "087f2a6c-165b-4f00-8c7a-83c2c02e1c60",
+          "84dd200c-e4c5-46f3-93a6-22a68cceab5c",
+          "5f841fca-4bec-436e-9af3-a44ebcec7af1",
+          "865ea67c-696e-4198-8c9d-a11ae9c145ee",
+          "8e4b618c-ae0e-4167-a454-ac1c579f40c8",
+          "4117914f-c49e-4e1a-8751-c73a0f973bbe",
+          "9fbae4ca-8dcf-4a1d-acf1-2c4fefbd67ed",
+          "77bebcca-cfa8-4b30-98de-7714432e6d2d",
+          "a2282e24-25e3-4a98-974d-51d27b18f677",
+          "7bee3738-c2aa-4200-9496-e80f80a4d488",
+          "eacb2a2b-7541-428d-b97f-e704e04a65be",
+          "22cb5d19-d653-4e24-9bf1-197a6226cf03",
+          "4ce47bb8-9c77-431f-a071-53067722a957",
+          "d8083ee9-48ec-4713-823c-3e2fa59bee37",
+          "37abc6fb-2004-437d-8bff-42352c75bbe2",
+          "495d9231-dbb9-4279-8bf0-f526e73e1f1f",
+          "1f34fa7c-fa31-47af-9f4d-fbfb6d41b0ba"
+        ],
+        "copied_from": "9bdda999-1fbe-407c-8746-634eed42f4cf",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195786970,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c122ae48-097f-40b4-95bd-99005270369c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996287576,
+        "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "My future is so bright that I’ll need to wear sunglasses"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b739f117fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:06 GMT"
+  ],
+  "Etag": [
+    "W/\"7ec-Bg6U4B+A7UaPT7Jh6i8RggRX+Nw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df7ebbd8aeef05f7d072415b9c6a84e9e1565326206; expires=Sat, 08-Aug-20 04:50:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+55566 1565326206864 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "c122ae48-097f-40b4-95bd-99005270369c",
+  "verticalColumns": false
+}
+Response:+54375
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "087f2a6c-165b-4f00-8c7a-83c2c02e1c60": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "087f2a6c-165b-4f00-8c7a-83c2c02e1c60",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The other pop-cultural misconception in the software business is that if you develop anything good Microsoft will either crush you or buy you. Never mind that it can be proven to be untrue (Photoshop, Macromedia and Flash, Adobe Acrobat, Quicken) and that the existence of positive examples (like Borland or Netscape) proves not that you can’t compete with Microsoft but that you have to know how to compete and how to avoid making mistakes. Just like Adobe or Intuit or Macromedia managed so far. But wait, isn’t Eric talking about “small software developers”? Neither of the companies he mentioned to support his thesis were small (what that proves is that on the web you can get away with sloppy thinking and people might even "
+              ],
+              [
+                "agree with you",
+                [
+                  [
+                    "a",
+                    "http://weblogs.asp.net/javery/posts/9123.aspx"
+                  ]
+                ]
+              ],
+              [
+                " or applaud it as "
+              ],
+              [
+                "excellent content",
+                [
+                  [
+                    "a",
+                    "http://weblogs.asp.net/cosgood/archive/06222003.aspx"
+                  ]
+                ]
+              ],
+              [
+                ").\nI remember one sentence from "
+              ],
+              [
+                "Innovators Dilemma",
+                [
+                  [
+                    "a",
+                    "http://www.eastbook.com/InnovatorsDilemma.html"
+                  ]
+                ]
+              ],
+              [
+                ": “small markets don’t serve the growth needs of big companies”. Translation: for Microsoft (or any big company) to even entertain entering a market it has to have a potential of bringing millions of dollars of yearly revenue. There aren’t that many markets/products that have that potential. On the downside:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "156533df-555a-474b-aeed-18a812a45847": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "156533df-555a-474b-aeed-18a812a45847",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "what will Eric do?"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "17ecca25-bb94-4ea6-8821-697717d2918f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "17ecca25-bb94-4ea6-8821-697717d2918f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "there’s plenty of room to build software and make money without running head-first into Microsoft"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "1f34fa7c-fa31-47af-9f4d-fbfb6d41b0ba": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "1f34fa7c-fa31-47af-9f4d-fbfb6d41b0ba",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Now, excuse me, I have some software to write…"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "22cb5d19-d653-4e24-9bf1-197a6226cf03": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "22cb5d19-d653-4e24-9bf1-197a6226cf03",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "So what will Eric do? That’s the part where it gets surreal. He says:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "34b9d7ac-a705-4fd8-bd8d-51ab1f608751": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "34b9d7ac-a705-4fd8-bd8d-51ab1f608751",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625143498,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "34fe34a5-468d-4c6a-ae1e-4c4e5b7fa861": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "34fe34a5-468d-4c6a-ae1e-4c4e5b7fa861",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Eric hesitantly prefers the open-source-only future but isn’t entirely happy with either, he prefers the glorious past (last 25 years which is 1978-2003) where small software developers were "
+              ],
+              [
+                "the lifeblood of personal computer revolution",
+                [
+                  [
+                    "i"
+                  ]
+                ]
+              ],
+              [
+                " and were building great, innovative software making millions in the process. Except that:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "37abc6fb-2004-437d-8bff-42352c75bbe2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "37abc6fb-2004-437d-8bff-42352c75bbe2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As for me, my future will so bright that I’ll need sunglasses. I’m delighted to live in an era when all it takes to sell software I might (or might not) write is to spend few bucks on a web site and register with one of many e-commerce providers. I’m delighted that the availability of the Internet opened so many new opportunities that we only began to scratch the surface of "
+              ],
+              [
+                "what’s possible",
+                [
+                  [
+                    "a",
+                    "http://www.edge.org/3rd_culture/gelernter/gelernter_p1.html"
+                  ]
+                ]
+              ],
+              [
+                ". I’m delighted that open-source provided me with a set of free tools to write software and lots of code to learn from (and in some cases to take and use in my own software). I’m delighted that I live in times when new ideas/software/services/companies are created daily, things like web, IM, "
+              ],
+              [
+                "eBay",
+                [
+                  [
+                    "a",
+                    "http://www.ebay.com/"
+                  ]
+                ]
+              ],
+              [
+                ", p2p, file sharing, "
+              ],
+              [
+                "BitTorrent",
+                [
+                  [
+                    "a",
+                    "http://bitconjurer.org/BitTorrent/"
+                  ]
+                ]
+              ],
+              [
+                ", blogs, "
+              ],
+              [
+                "MT",
+                [
+                  [
+                    "a",
+                    "http://www.movabletype.org/"
+                  ]
+                ]
+              ],
+              [
+                " and blogger, "
+              ],
+              [
+                "google",
+                [
+                  [
+                    "a",
+                    "http://www.google.com/"
+                  ]
+                ]
+              ],
+              [
+                ", Yahoo, Amazon.com, "
+              ],
+              [
+                "Watson",
+                [
+                  [
+                    "a",
+                    "http://www.karelia.com/watson/"
+                  ]
+                ]
+              ],
+              [
+                ", Napster, iTunes, "
+              ],
+              [
+                "Chandler",
+                [
+                  [
+                    "a",
+                    "http://www.osafoundation.org/"
+                  ]
+                ]
+              ],
+              [
+                ", Palm,Pocket PC,"
+              ],
+              [
+                "Hiptop",
+                [
+                  [
+                    "a",
+                    "http://www.hiptop.com/"
+                  ]
+                ]
+              ],
+              [
+                ",perl,Python… the list goes on and on. I’m delighted that I have a shot on "
+              ],
+              [
+                "Cold Stone",
+                [
+                  [
+                    "a",
+                    "http://radio.weblogs.com/0001011/2003/06/22.html#a3446"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4117914f-c49e-4e1a-8751-c73a0f973bbe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "4117914f-c49e-4e1a-8751-c73a0f973bbe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s move on to competition from open-source. On average, there isn’t any. People are usually blinded by the staggering success of few open-source project like Linux (which is good enough to be a viable threat to Windows) or Apache (which still owns the web server market). But extrapolating from such data is like predicting how fast an average person can run by averaging the speed of Olympic medalists. Let’s look at more realistic data: today the most active project on "
+              ],
+              [
+                "SourceForge",
+                [
+                  [
+                    "a",
+                    "http://sourceforge.net/"
+                  ]
+                ]
+              ],
+              [
+                " is "
+              ],
+              [
+                "Gaim",
+                [
+                  [
+                    "a",
+                    "http://sourceforge.net/projects/gaim/"
+                  ]
+                ]
+              ],
+              [
+                " (activity is a rough guide of how actively a given project is developed.) Not only it has "
+              ],
+              [
+                "a closed-source “competitor”",
+                [
+                  [
+                    "a",
+                    "http://www.ceruleanstudios.com/trillian/index.html"
+                  ]
+                ]
+              ],
+              [
+                " but it seems that the competition is doing well enough to pay the salaries of "
+              ],
+              [
+                "7 people",
+                [
+                  [
+                    "a",
+                    "http://www.ceruleanstudios.com/about/index.html"
+                  ]
+                ]
+              ],
+              [
+                " and Trillian is simply a better product (personal opinion based on trying to get Gaim running on Windows and being annoyed by crashes and badly designed user interaction). Are you afraid of competition like that? This is pretty much cream of the crop open-source project and it only has 10 developers. That’s 30 times less than Eric’s hypothetical 300 developers bent (still hypothetically) upon cloning your product. Most projects SourceForge have around one part-time developer and are in constant hunger for more but there aren’t more developers willing (or being able) to code for free. The big wave of growth in open-source was due to internet. At some point there was an influx of new people exposed to the ideas of open-source and they got involved with it. I believe that we reached an equilibrium: some new people come to open-source but others go and the overall number doesn’t change much. Open-source will be with us forever but it will never be the only way. To put it another way: I’ll be very old when GIMP puts Photoshop out of business."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "495d9231-dbb9-4279-8bf0-f526e73e1f1f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "495d9231-dbb9-4279-8bf0-f526e73e1f1f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The only thing standing between me and the mythical innovative software and gobs of money is my ability to have great ideas and to work hard to bring them to life."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4ce47bb8-9c77-431f-a071-53067722a957": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "4ce47bb8-9c77-431f-a071-53067722a957",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The small companies offer me no visions. They can’t build platforms; they can’t challenge Microsoft…If you want my support, and the support of others like me, propose a vision."
+              ]
+            ]
+          },
+          "type": "quote",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5f841fca-4bec-436e-9af3-a44ebcec7af1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "5f841fca-4bec-436e-9af3-a44ebcec7af1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "you’re unlikely to create such novel product anyway, so stop worrying about Microsoft eating your lunch when you do"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "77bebcca-cfa8-4b30-98de-7714432e6d2d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "77bebcca-cfa8-4b30-98de-7714432e6d2d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "ability to create innovative software"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "77d75e59-7498-458d-ad29-da446f2f7f89": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "77d75e59-7498-458d-ad29-da446f2f7f89",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "neither of the 2 (completely opposite) futures is likely to develop"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "7a7a3e31-4cce-4826-9f27-c85066c7c598": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "7a7a3e31-4cce-4826-9f27-c85066c7c598",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s take those one after one."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7bee3738-c2aa-4200-9496-e80f80a4d488": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "7bee3738-c2aa-4200-9496-e80f80a4d488",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If we look at the ability to create great software present is better than the past and future will be better than present. The hardware can only become faster and more powerful making new kinds of software possible (would you attempt to process 6 mega-pixel digital photo on an Apple II?) and old kinds of software are getting faster and easier to use. As an industry, we gradually make small improvements and learn from others so the average quality of an application should improve. If we’re lucky from time to time we’ll get another great boost like the internet one. Things can only get better."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "84dd200c-e4c5-46f3-93a6-22a68cceab5c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "84dd200c-e4c5-46f3-93a6-22a68cceab5c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "you’re not even entertaining entering a mature market like that (e.g. by writing another Great American Word Processor), are you?"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "865ea67c-696e-4198-8c9d-a11ae9c145ee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "865ea67c-696e-4198-8c9d-a11ae9c145ee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "even if you create such novel product, you’re unlikely to stay the biggest player in the field for long, with or without Microsoft’s competition. That’s what happened with databases, spreadsheets, word-processors, C compilers, Unix clones etc. On the other hand, in the extremely unlikely case you do create a truly novel product with mass-market appeal, you’ll most likely retire to a sunny island anyway."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "893199a7-bef5-48a8-972c-732141a0c741": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "893199a7-bef5-48a8-972c-732141a0c741",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in first version Microsoft dominates the market so much that it’ll immediately crush any competition taking all the profits from all the possible software ideas"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "8e4b618c-ae0e-4167-a454-ac1c579f40c8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "8e4b618c-ae0e-4167-a454-ac1c579f40c8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On the upside there’s plenty of products that one can build that while not bringing billions of dollar will still be useful for many people and will bring respectable amounts of money."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8edda2ad-4e84-44b3-a72f-4a830f7fa1f2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "8edda2ad-4e84-44b3-a72f-4a830f7fa1f2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625150280,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 31
+        }
+      },
+      "92f4afd2-d3af-4d83-8b60-558e3243d000": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "92f4afd2-d3af-4d83-8b60-558e3243d000",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To paint the possible future Eric just extrapolates the most obvious present trends, which are: Microsoft’s dominant position on the market and the raise of open-source. So either Microsoft will become even more dominant or open-source will raise to total domination instead. Predicting the future was never easier. Let’s see what would happen if we applied the same logic 20 years ago. If we were to be so insightful:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9fbae4ca-8dcf-4a1d-acf1-2c4fefbd67ed": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "9fbae4ca-8dcf-4a1d-acf1-2c4fefbd67ed",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The past wasn’t so much better for small software companies than present is. Eric is concerned about two things:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a2282e24-25e3-4a98-974d-51d27b18f677": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "a2282e24-25e3-4a98-974d-51d27b18f677",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "ability to make money out of it"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "a3763e5c-d752-4dae-8011-d89f0eb459cd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "a3763e5c-d752-4dae-8011-d89f0eb459cd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "still in 1982: today Digital Research would be bigger than Microsoft (Microsoft only overtook them in 1983)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "a7b10abd-3ede-4e69-a961-dd36e17aeec4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "a7b10abd-3ede-4e69-a961-dd36e17aeec4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625145100,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1649"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "b2c38b40-6b87-4c59-ad78-c1a028c84baf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "b2c38b40-6b87-4c59-ad78-c1a028c84baf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in second version open-source dominates the market so much that it’ll replicate any good idea, leaving no profits at all (effectively crushing the “competition”)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "b6a24f38-785b-42be-9ea1-7b9516bdfadf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "b6a24f38-785b-42be-9ea1-7b9516bdfadf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "(Data courtesy of "
+              ],
+              [
+                "A history of software industry",
+                [
+                  [
+                    "a",
+                    "http://www.amazon.com/exec/obidos/tg/detail/-/0262033038/"
+                  ]
+                ]
+              ],
+              [
+                ".) Looks like the algorithm didn’t work in the past and I see no reason why it should work today. Things change, paradigms shift, companies make mistakes, Roman empires fall. There’ll always be a number one and there’ll always be many whining that the existence of number one makes it impossible for them to create good software. In the future there will be number one, but there will also be number two, number three and number three thousand. There will be open-source and there will be commercial software."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b831f534-3274-4296-8939-ac9668cf5aef": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "b831f534-3274-4296-8939-ac9668cf5aef",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786970,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I wonder how sympathetic people will be to Eric Kidd’s plea formulated in "
+              ],
+              [
+                "The Missing Future",
+                [
+                  [
+                    "a",
+                    "http://www.randomhacks.net/stories/the-missing-future.html"
+                  ]
+                ]
+              ],
+              [
+                " article. There’s a little bit for everyone: a bit of Microsoft bashing, a bit of love-and-hate relationship with open-source and a bit of nostalgia for the lost days of the golden era of software entrepreneurship when you could change the world *and* make lots of money as a small software developer. As for me, the article tickles me the wrong way."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c122ae48-097f-40b4-95bd-99005270369c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "a7b10abd-3ede-4e69-a961-dd36e17aeec4",
+            "f1aba1fa-a6f5-4528-9145-02da798acdfe",
+            "8edda2ad-4e84-44b3-a72f-4a830f7fa1f2",
+            "34b9d7ac-a705-4fd8-bd8d-51ab1f608751",
+            "b831f534-3274-4296-8939-ac9668cf5aef",
+            "eada1abd-1ca0-4e57-9248-2896c7d0878a",
+            "893199a7-bef5-48a8-972c-732141a0c741",
+            "b2c38b40-6b87-4c59-ad78-c1a028c84baf",
+            "34fe34a5-468d-4c6a-ae1e-4c4e5b7fa861",
+            "77d75e59-7498-458d-ad29-da446f2f7f89",
+            "17ecca25-bb94-4ea6-8821-697717d2918f",
+            "cbdf7ade-7a33-4ded-8f9b-cfe4955584e7",
+            "f9c65a40-aefc-468c-8875-f2eede801942",
+            "156533df-555a-474b-aeed-18a812a45847",
+            "7a7a3e31-4cce-4826-9f27-c85066c7c598",
+            "92f4afd2-d3af-4d83-8b60-558e3243d000",
+            "f038b858-f70d-43c6-93e6-6cc85bd117ca",
+            "a3763e5c-d752-4dae-8011-d89f0eb459cd",
+            "fc402ba3-83a8-4a0d-8d90-f75f6df4acb5",
+            "b6a24f38-785b-42be-9ea1-7b9516bdfadf",
+            "087f2a6c-165b-4f00-8c7a-83c2c02e1c60",
+            "84dd200c-e4c5-46f3-93a6-22a68cceab5c",
+            "5f841fca-4bec-436e-9af3-a44ebcec7af1",
+            "865ea67c-696e-4198-8c9d-a11ae9c145ee",
+            "8e4b618c-ae0e-4167-a454-ac1c579f40c8",
+            "4117914f-c49e-4e1a-8751-c73a0f973bbe",
+            "9fbae4ca-8dcf-4a1d-acf1-2c4fefbd67ed",
+            "77bebcca-cfa8-4b30-98de-7714432e6d2d",
+            "a2282e24-25e3-4a98-974d-51d27b18f677",
+            "7bee3738-c2aa-4200-9496-e80f80a4d488",
+            "eacb2a2b-7541-428d-b97f-e704e04a65be",
+            "22cb5d19-d653-4e24-9bf1-197a6226cf03",
+            "4ce47bb8-9c77-431f-a071-53067722a957",
+            "d8083ee9-48ec-4713-823c-3e2fa59bee37",
+            "37abc6fb-2004-437d-8bff-42352c75bbe2",
+            "495d9231-dbb9-4279-8bf0-f526e73e1f1f",
+            "1f34fa7c-fa31-47af-9f4d-fbfb6d41b0ba"
+          ],
+          "copied_from": "9bdda999-1fbe-407c-8746-634eed42f4cf",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996287576,
+          "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "My future is so bright that I’ll need to wear sunglasses"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "cbdf7ade-7a33-4ded-8f9b-cfe4955584e7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "cbdf7ade-7a33-4ded-8f9b-cfe4955584e7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "on the average, open-source is no competition at all"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "d8083ee9-48ec-4713-823c-3e2fa59bee37": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "d8083ee9-48ec-4713-823c-3e2fa59bee37",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Apparently, Eric will just wait for others to do the job for him and complain bitterly if they don’t. What started as an essay from the point of view of a software entrepreneur ends up laying blame for the bad things on some vague, collective entity (“small companies”). Why anyone owes Eric a vision? Why any company needs to seek his support? Ever heard the "
+              ],
+              [
+                "wise words of Gandhi",
+                [
+                  [
+                    "a",
+                    "http://www.brainyquote.com/quotes/quotes/m/q131253.html"
+                  ]
+                ]
+              ],
+              [
+                " ?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "20b34bf6-02e0-49f0-8aed-2309a097873c",
+            "1363796b-7441-4e15-9470-ed2efd2bc585",
+            "d23f2e68-4d9f-45b4-9a8b-2981ff8d05c9",
+            "98494e10-661d-4bfb-a379-0aec1ac313dd",
+            "866dbdd5-b5e0-4900-9e18-6f204af2ffab",
+            "31a8bf9c-23fa-49e6-8061-22c4913048d3",
+            "52979d4b-5163-4a03-9077-7890670a9753",
+            "0e6cf17c-3de1-4806-922f-8d0402843b8f",
+            "a80c396b-b324-41bb-990a-980ea3ddc25a",
+            "2c8def1e-b066-4453-b0b1-f163840ca646",
+            "adcd152c-ba2a-48dd-ba7e-2de4d07d448b",
+            "e87a3fdb-32c1-4d46-83d7-693a654485f3",
+            "9215e7c9-6695-40eb-9ab0-dabe4afe2672",
+            "8478a4c2-8702-4837-8997-18a1d8137f96",
+            "03c5dea0-1e8e-4ef4-a041-904d6a5de46a",
+            "f79ab418-940d-4ebb-9f68-3900252f75ed",
+            "4194c048-3ff5-46d2-88c4-51818da3725e",
+            "0a4da7d6-e93c-4ba8-a87c-c505e8bc81c8",
+            "fe5b16a8-15d4-4c15-ba2a-94ad67f482ba",
+            "8aada009-b073-4777-9ce3-decfc633756d",
+            "97cc2daf-fe57-444c-b1e4-7b436b022fe4",
+            "477ec7bd-f5ae-41bf-bd51-5c1b7d68dca5",
+            "b13f1d68-28e2-4b8b-b1d1-47519b728b29",
+            "941a1f2c-5c20-4f27-aa51-b38f116c74f4",
+            "967972ad-be0b-494b-b772-e9f6489eb84b",
+            "36181bcd-8399-42c4-a1a3-1caad933721b",
+            "84366008-dcc2-42d6-9949-03817c8eaab8",
+            "63dd2935-607b-465e-a707-111d981d8710",
+            "c122ae48-097f-40b4-95bd-99005270369c",
+            "958402a6-8fe9-41f4-9626-2e7f83486a47",
+            "464c291c-d660-4f8c-9fbc-3f26069438ca",
+            "bc81e70c-d754-4700-baf4-56e41199ec72",
+            "c1a2e879-d8db-4810-ab18-db144948f668",
+            "dfa0ad7d-312f-45f7-8f3c-92561f748ac7",
+            "a726fefe-0c1b-4829-b53c-361bdb347359",
+            "5db03935-3cbb-4606-b8ab-614471617263",
+            "7edf7239-89d6-41c7-870f-7ee40b01c19e",
+            "22ee7837-6409-4e15-86de-7d7be59ce2ef",
+            "678979c4-7969-4122-b9ed-65528647e01e",
+            "68a7a4e3-7168-4e57-8b43-df4480fc2db8",
+            "76e0c432-f234-4045-8ec2-495ab17b4597",
+            "2557e059-05d9-45d3-b89e-d2a6000eda11",
+            "ac3fc93e-21a7-474e-8a9a-9267f63d2893",
+            "c5e8489d-ebb9-4ece-95ff-97b19ede3e49",
+            "d08ad186-b982-4fd4-a3c3-42088422bc68",
+            "529d5b82-5b8c-4e3a-89b6-2f5c044bf473",
+            "3b720874-e7b6-4ec7-ac1e-2cc94cb0b96c",
+            "5d488681-25c1-4fbc-bde7-cbb1ce917077",
+            "6058622a-cf4c-41d6-977b-347f07e14fa1",
+            "900168f6-c3eb-4b13-bd39-bb0148d9d421",
+            "cbbdbe2d-3848-415f-9f8f-63017e7ec398"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195702218,
+          "id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996452327,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2003"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 92
+        }
+      },
+      "eacb2a2b-7541-428d-b97f-e704e04a65be": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786972,
+          "id": "eacb2a2b-7541-428d-b97f-e704e04a65be",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786972,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If we look at the ability to make money, things are less clear. On the one hand, more computers mean bigger potential market. Better/faster computers mean a market for new kinds of software, kinds that didn’t exist before. Same for new technologies (e.g. because we got network, a market for web browsers or IM was created; because we got digital cameras, a market for software for managing photos was created; because we have re-writeable CDs/DVDs, a market for CD/DVD burning software was created etc.) Thanks to the internet selling and promoting your software was never easier. On the other hand the competition increases. Competition coming from all sides: open-source, other small software companies, big software companies (if you’re lucky). It also gets harder to create a significant application i.e. it’s probably unrealistic to repeat "
+              ],
+              [
+                "VisiCalc",
+                [
+                  [
+                    "a",
+                    "http://www.bricklin.com/history/saiidea.htm"
+                  ]
+                ]
+              ],
+              [
+                " and create a break-through product with only 2 people on the board).\nSo there are trade-offs but the important question is: if my goal was to create software and make a killing, would I rather be thrown 20 years back when a ridiculously under-powered computers cost ridiculous amounts of money and were available to a ridiculously small number of people? Would I rather be thrown in pre-internet days where making the software available to people was as hard as writing it? Or would I rather do it now? I choose now."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "eada1abd-1ca0-4e57-9248-2896c7d0878a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "eada1abd-1ca0-4e57-9248-2896c7d0878a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786970,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "You see, I’m almost like Eric. I’m almost the same age, I’m a programmer too and have the same dream: create great software, make gobs of money and retire young on a sunny island. Eric sees a problem: the dream is no longer possible. He paints a bleak picture of the future. To him only two versions of the future are possible:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f038b858-f70d-43c6-93e6-6cc85bd117ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "f038b858-f70d-43c6-93e6-6cc85bd117ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in 1982: VisiCorp would be the biggest software company today (they were the biggest then)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "f1aba1fa-a6f5-4528-9145-02da798acdfe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786970,
+          "id": "f1aba1fa-a6f5-4528-9145-02da798acdfe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786970,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2003-06-23T00:43:22-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f9c65a40-aefc-468c-8875-f2eede801942": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "f9c65a40-aefc-468c-8875-f2eede801942",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the past wasn’t so glorious as Eric wants to believe"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "fc402ba3-83a8-4a0d-8d90-f75f6df4acb5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786971,
+          "id": "fc402ba3-83a8-4a0d-8d90-f75f6df4acb5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786971,
+          "parent_id": "c122ae48-097f-40b4-95bd-99005270369c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in 1984: today Lotus would rule them all (as it did then)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b740f5b7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:06 GMT"
+  ],
+  "Etag": [
+    "W/\"8f17-dJJQL+Ig8eLmdIEsH6SOSrF659I\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df7ebbd8aeef05f7d072415b9c6a84e9e1565326206; expires=Sat, 08-Aug-20 04:50:06 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

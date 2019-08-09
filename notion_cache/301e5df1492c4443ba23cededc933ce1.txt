@@ -1,0 +1,586 @@
+2235 1565326172673 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "301e5df1-492c-4443-ba23-cededc933ce1",
+      "table": "block"
+    }
+  ]
+}
+Response:+1086
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "77c939b5-154d-42d0-a29e-504b05cc748f",
+          "64d6135b-b05c-4ad9-9a5e-706a5f4b2848",
+          "e3334a03-709e-400b-bd77-2e6874b11228",
+          "8b22eaa6-bd4d-434f-9e50-f6ba34aec5cc",
+          "783a197d-5fcb-46ef-a46c-21c1dd13fe7e"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530157258211,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "301e5df1-492c-4443-ba23-cededc933ce1",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996261999,
+        "parent_id": "7e948259-8dd7-4bf7-8f03-a7833279f444",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Laws of marketing #17 (unpredictability)"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 65
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a9e0fe97fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:31 GMT"
+  ],
+  "Etag": [
+    "W/\"2df-v6z7eK2cpD0CiU3vJ6VNX2W+Xws\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2e950c6a6750bc5b1cdafcec4728e9e31565326171; expires=Sat, 08-Aug-20 04:49:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+17103 1565326172676 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "301e5df1-492c-4443-ba23-cededc933ce1",
+  "verticalColumns": false
+}
+Response:+15912
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "301e5df1-492c-4443-ba23-cededc933ce1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77c939b5-154d-42d0-a29e-504b05cc748f",
+            "64d6135b-b05c-4ad9-9a5e-706a5f4b2848",
+            "e3334a03-709e-400b-bd77-2e6874b11228",
+            "8b22eaa6-bd4d-434f-9e50-f6ba34aec5cc",
+            "783a197d-5fcb-46ef-a46c-21c1dd13fe7e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157258211,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996261999,
+          "parent_id": "7e948259-8dd7-4bf7-8f03-a7833279f444",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Laws of marketing #17 (unpredictability)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 65
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "64d6135b-b05c-4ad9-9a5e-706a5f4b2848": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531120279731,
+          "id": "64d6135b-b05c-4ad9-9a5e-706a5f4b2848",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531127954106,
+          "parent_id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2002-07-13T18:01:08-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 12
+        }
+      },
+      "77c939b5-154d-42d0-a29e-504b05cc748f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157258207,
+          "id": "77c939b5-154d-42d0-a29e-504b05cc748f",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531308013329,
+          "parent_id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1343"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "783a197d-5fcb-46ef-a46c-21c1dd13fe7e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157258211,
+          "id": "783a197d-5fcb-46ef-a46c-21c1dd13fe7e",
+          "ignore_block_count": true,
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1530157258211,
+          "parent_id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "See also "
+              ],
+              [
+                "Eric’s take",
+                [
+                  [
+                    "a",
+                    "http://www.ericsink.com/laws/Law_17.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7e948259-8dd7-4bf7-8f03-a7833279f444": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2131b10c-ebf6-4938-a127-7089ff02dbe4",
+            "1e33182a-b0f5-4ed2-bb06-5032d430c5f9",
+            "d0e60959-709e-4032-b314-0e24c51c5ad2",
+            "e599e77a-5a51-4169-8af5-95272cc23fd2",
+            "2ed70f46-d810-440e-b423-6315dfec47c6",
+            "1f952bfd-3a74-4af8-8e4f-1c3b5f2f1e7d",
+            "9ec61c28-83b6-4af7-9a46-d05652abf86b",
+            "c7192353-11d6-446c-b656-e1b0d996e25d",
+            "69a6ecec-622a-4a4d-8f07-9cf9ddef19f1",
+            "b0bc5bfa-80da-41d2-a3db-03f816fcab4d",
+            "e21cb260-6f73-4f78-8bab-07f84e3b87e9",
+            "4002cbc6-1560-41a4-946c-0825b32ccb2d",
+            "a5bd825a-8e3d-467d-bf70-6a9456ecbea3",
+            "1fd987e3-064c-4d94-9c7b-736f07d9fd07",
+            "d4ca5a99-fb1f-4ade-add7-b31fe1c40084",
+            "11a3526b-89fa-41f5-876c-05e03a039f16",
+            "57c31cb9-6f98-431e-bf07-18c41c35aacb",
+            "4787e4a9-cdd4-4176-8c98-8db8eb6fc213",
+            "961394de-ddad-4635-b239-f0a921b0cbb0",
+            "0856dc2d-b0c4-4251-a7c8-534fec8c2099",
+            "e66f391f-4a4d-4467-9e23-c26672967ddd",
+            "cb9dbf89-5be2-4b54-87d3-84731db07b66",
+            "301e5df1-492c-4443-ba23-cededc933ce1",
+            "7895df89-cef4-4453-a7cf-a1253fcd9bd5",
+            "184ec50a-f696-49a5-9a4e-e0e55d8965f4",
+            "3564ec91-8934-4586-94a2-93eea413f01a",
+            "3f7401a9-7da8-4112-80fe-d29a344aa54b",
+            "95b8c139-15bb-4502-a471-63ff5a3c292e",
+            "f0457ea8-4f73-4ecb-8639-e8aa4104435b",
+            "a73063bc-db6f-4dff-b791-b8529a6b1dd8",
+            "bee99cd6-acaf-4820-8ed2-6bf0d3c20284",
+            "d5466dd9-73f9-426f-83f3-f6d2bebfd1b9",
+            "78202ec2-40d5-40fb-9eae-1739753a9221",
+            "9716642e-6502-4d21-aefa-ab3d27a7bff8",
+            "7462f37a-1a73-4b74-a216-b6abfd7ef858",
+            "e35e7996-54c9-4b81-8dba-6df169a2dab8",
+            "7f4d5f16-9d92-443a-89c2-903ae4d17b3c",
+            "6ce3494a-710e-4c6c-8860-fdcaf8f6fbae",
+            "cb856a96-c486-4b59-b666-48608f8dad2b",
+            "1dadfa12-6bf2-4ce5-9f83-7fe2a61afd44",
+            "ad6518e5-87d5-4507-8442-ef0160061f08",
+            "9f87b32c-b8a8-4272-b077-8f446a20b2ef",
+            "9247cf31-5ba2-4d99-866a-f9234d8cda5c",
+            "7e2191f1-54fe-4a23-93bd-49fefbbe7d53",
+            "0d386bf2-6016-4b54-a456-e86e4fe79fad",
+            "ee31fb77-48d8-44e1-a0b0-9b130ad1d50e",
+            "20af8ee1-06ae-4ce4-9b55-1d817b63c767",
+            "24780da2-5fa7-4180-a3e0-f509d9b60eda",
+            "8a0571a6-c86c-41ce-b154-5415158216f9",
+            "17f2bb79-7a63-483d-9045-8d4787547fde",
+            "d2061080-04d4-4583-ac50-744749666286",
+            "eadac88a-1b34-4697-b3a4-f3156cd315d3",
+            "4248ede9-3abb-4e10-b11f-408de05cce95",
+            "b985dde4-9ea5-4582-b116-1747fea47a5a",
+            "9f220a2f-b83d-4655-b465-c543261324da",
+            "99fbd1fb-39d6-48f6-9364-aeb5666148cd",
+            "8a984cca-17d3-43fb-89c0-c004fbba2ba4",
+            "c2663e2f-837f-4a68-98c4-1e48fff94deb",
+            "8e11eb02-afc4-4f54-b2e2-8cec52664dd8",
+            "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
+            "737a74ef-b014-4e41-b9ce-6128bee14e17",
+            "1d20d3ec-fbfe-4724-b755-aab576d5c2b8",
+            "5710968c-9edb-4a7d-ba77-15f379d4c4c4",
+            "3171b883-8b61-49ed-978e-b2c26b7a7a4c",
+            "0992260b-6f9a-4130-b500-d2be85cd56b0",
+            "2dddcefe-2d3a-47c3-a3c2-4dcfdd8f6819",
+            "17e0c028-b6ba-4d62-8078-34adf6fb3459",
+            "1a8ae7d9-652f-40e6-89c2-edac7bf53f61",
+            "4b2b3625-1643-4550-a06e-f5ad5056145d",
+            "015a7bdc-38b5-4845-b42c-047b49343188"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195689778,
+          "id": "7e948259-8dd7-4bf7-8f03-a7833279f444",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996425387,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2002"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 215
+        }
+      },
+      "8b22eaa6-bd4d-434f-9e50-f6ba34aec5cc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531120286953,
+          "id": "8b22eaa6-bd4d-434f-9e50-f6ba34aec5cc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531120286968,
+          "parent_id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The book",
+                [
+                  [
+                    "a",
+                    "http://www.amazon.com/exec/obidos/ASIN/0887306667"
+                  ]
+                ]
+              ],
+              [
+                " says: unless you write your competitors’ plans, you can’t predict the future. You don’t know the future, you don’t know what your competition will do so you have to build your company and marketing strategies to be flexible, to be able to quickly respond to changing situation."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 6
+        }
+      },
+      "e3334a03-709e-400b-bd77-2e6874b11228": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531120284451,
+          "id": "e3334a03-709e-400b-bd77-2e6874b11228",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531308014608,
+          "parent_id": "301e5df1-492c-4443-ba23-cededc933ce1",
+          "parent_table": "block",
+          "type": "text",
+          "version": 12
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a9e68137fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:31 GMT"
+  ],
+  "Etag": [
+    "W/\"29c2-DUe3LQNnhBorQTuzmhRH0lh+02g\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2e950c6a6750bc5b1cdafcec4728e9e31565326171; expires=Sat, 08-Aug-20 04:49:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

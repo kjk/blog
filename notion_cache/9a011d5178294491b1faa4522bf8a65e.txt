@@ -1,0 +1,1458 @@
+4022 1565326198291 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+      "table": "block"
+    }
+  ]
+}
+Response:+2873
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "bfed8a38-216b-44d8-8913-bc6609ae11d7",
+          "9331b51c-8d9f-4a0a-a5e0-cd35a432dba6",
+          "89daa7c5-df1f-4fb5-b053-660aad0e02ea",
+          "976db7a8-45cc-4f82-8627-a12b8af3130c",
+          "65aaa8e3-82a7-4335-91b4-983735994551",
+          "195c2f79-c799-4ef0-9c26-89314f98a867",
+          "3b3f7b4b-db87-49d4-bbb7-f510f46db407",
+          "bf01c75d-0147-46ae-ba29-6dd7c65c5e41",
+          "7bd07707-3fb8-47b7-b18c-70dbb5126731",
+          "7f20fbc5-2625-4a9b-85b9-c7887714029f",
+          "1dc5c983-2aad-45f4-8118-d4c9fe3c97c0",
+          "8f77bc8e-82e2-4577-82a1-a583daac2ac2",
+          "80c6b3bb-f8b6-47fa-9851-e2765d2cd1da",
+          "0cbcb603-0f04-4886-a1e6-0c2c327e1f7b",
+          "8839c50c-d1a9-469a-ada6-74ee2c82ac9c",
+          "3255915a-6574-4705-b808-fd67b71b0178",
+          "7aa8ed52-8587-4a08-9676-5ce8554c46c3",
+          "ff2268c8-a48e-4be7-95c7-ecaf12b88e0a",
+          "89e9205b-69f7-417b-8022-e72f63e2c550",
+          "aabe80a5-8cf7-433e-8bba-55b73a27d4c3",
+          "54ba006b-e8b4-44e3-8d7a-032d9253c91f",
+          "e6c1e53e-ffa6-4b1a-b99d-97755d40f2a6",
+          "6c5e59de-933f-4251-9b44-31631e85bc52",
+          "9cea76f9-f983-4aef-89ee-80f2716c5475",
+          "b694657c-936a-4fee-b611-5a8894e31bb1",
+          "aa1424a7-4f7b-4b4d-bf7e-f444748efbf7",
+          "fc94e420-9029-42b4-9287-64b7b71178a6",
+          "a9ec0f6d-e21c-4ee1-b989-7f9e0b5511c0",
+          "75dedb78-ad04-491a-b757-74ba10f86344",
+          "f4532279-30eb-4f64-b549-5442c3060dcd",
+          "20573649-d8ec-451a-9a7b-66748f2d77af",
+          "383c240c-d25c-4202-be8c-530a61f7b304",
+          "f7c0f6a2-bb04-4484-b083-e92e17555909",
+          "3bf43bd8-d893-4c21-af1c-e5d4804660ec",
+          "7b3bda18-118e-4312-a505-a35a2ac0bfcf",
+          "9653b1d8-1525-4193-a039-96c64c3d5abd",
+          "5c9e9537-d4d7-4a10-a206-7e5e29fd4fb0",
+          "f55820eb-ae3f-4fa7-a139-13dd1cbb4b9d",
+          "c009dea1-4747-4e78-8c89-42f822463872",
+          "7f9c34ec-5d9e-41a1-ae73-93dc57f7f373"
+        ],
+        "copied_from": "6f788f55-f4ed-47a7-9533-63e979972a05",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531200903446,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996386089,
+        "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "BitTorrent-based, large file distribution for HTTP"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 12
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b3e1d387fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"859-c1Rye+6v1Zm5HDIeD2h1WroWzwQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+48494 1565326198293 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+  "verticalColumns": false
+}
+Response:+47303
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0cbcb603-0f04-4886-a1e6-0c2c327e1f7b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "0cbcb603-0f04-4886-a1e6-0c2c327e1f7b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Let’s take them one by one."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "195c2f79-c799-4ef0-9c26-89314f98a867": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "id": "195c2f79-c799-4ef0-9c26-89314f98a867",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903446,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The basic problem is that no matter how big your pipe to the internet is, if enough people want to use it at the same time, you’ll eventually run out of outgoing bandwidth. Additionally, big pipes cost big money so only few can afford them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1dc5c983-2aad-45f4-8118-d4c9fe3c97c0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "1dc5c983-2aad-45f4-8118-d4c9fe3c97c0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "support for web seeds"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "20573649-d8ec-451a-9a7b-66748f2d77af": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "20573649-d8ec-451a-9a7b-66748f2d77af",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those who wish to enable BitTorrent support for their files would have to create *.torrent files for each download (possibly with a different extension, e.g. .webtorrent, so as to not confuse those files with regular .torrent files)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3255915a-6574-4705-b808-fd67b71b0178": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "3255915a-6574-4705-b808-fd67b71b0178",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Browsers already natively support HTTP and FTP downloads (at the minimum). It would be imperative to have support for this kinds of downloads natively in the browser, as part of regular download manager. Users should not even be aware they are using BitTorrent protocol."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "383c240c-d25c-4202-be8c-530a61f7b304": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "383c240c-d25c-4202-be8c-530a61f7b304",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those files could either be exposed directly and browsers supporting them would be able to download them."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3b3f7b4b-db87-49d4-bbb7-f510f46db407": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "3b3f7b4b-db87-49d4-bbb7-f510f46db407",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem in general has been solved by BitTorrent protocol with a simple, yet brilliant idea: convert downloaders into uploaders and offload some of the outgoing bandwidth needed by the host to peers (other downloaders). The beauty of this solution is that it scales with the traffic: the more peers try to download your stuff, the more peers there are to also upload your stuff. BitTorrent is wildly popular: it has been reported that BitTorrent traffic is responsible for 150% of total internet traffic and generates 17% of technology-related lawsuits."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3bf43bd8-d893-4c21-af1c-e5d4804660ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "3bf43bd8-d893-4c21-af1c-e5d4804660ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Doing additional requests, potentially for nothing, might be too much so we could come up with some metadata to embed in html itself that would instruct the browser that file foo.iso has corresponding foo.iso.webtorrent."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "54ba006b-e8b4-44e3-8d7a-032d9253c91f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "54ba006b-e8b4-44e3-8d7a-032d9253c91f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There’s still a bootstrap problem: you have to make first DHT query somewhere so there would still be need for a bootstrap DHT server. Bootstrap server could be run by one or two trusted entities (e.g. Mozilla or Google)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c9e9537-d4d7-4a10-a206-7e5e29fd4fb0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "5c9e9537-d4d7-4a10-a206-7e5e29fd4fb0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Competing existing solution"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "65aaa8e3-82a7-4335-91b4-983735994551": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "id": "65aaa8e3-82a7-4335-91b4-983735994551",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903446,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Serving large files to many users at the same time is not a solved problem on the web. Unless, of course, you have enough money to pay Akamai to host your files. But even Akamai "
+              ],
+              [
+                "isn’t infallible",
+                [
+                  [
+                    "a",
+                    "http://www.techcrunch.com/2009/01/21/the-day-live-web-video-streaming-failed-us/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6c5e59de-933f-4251-9b44-31631e85bc52": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "6c5e59de-933f-4251-9b44-31631e85bc52",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "In BitTorrent there’s no permanent, canonical source of your data. The original uploader becomes the first source of data and the more people download it (and remain uploaders), the more it becomes replicated."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "75dedb78-ad04-491a-b757-74ba10f86344": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "75dedb78-ad04-491a-b757-74ba10f86344",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Currently the most viable choices are "
+              ],
+              [
+                "libtorrent",
+                [
+                  [
+                    "a",
+                    "http://www.rasterbar.com/products/libtorrent/index.html"
+                  ]
+                ]
+              ],
+              [
+                " and "
+              ],
+              [
+                "unworkable",
+                [
+                  [
+                    "a",
+                    "http://p2presearch.com/unworkable/"
+                  ]
+                ]
+              ],
+              [
+                ". "
+              ],
+              [
+                "libtransmission",
+                [
+                  [
+                    "a",
+                    "http://www.transmissionbt.com/"
+                  ]
+                ]
+              ],
+              [
+                " is not on this list because of the weird “mostly MIT but with selected files under GPL” license."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7aa8ed52-8587-4a08-9676-5ce8554c46c3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "7aa8ed52-8587-4a08-9676-5ce8554c46c3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s a chicken and egg problem: no files available for this kind of a download means no incentive for browser vendors to add support for them. But miracles do happen and Mozilla in particular has recently shown strong leadership in moving all things web forward. Having average Joe be able to distribute large files efficiently and cheaply, even if they become wildly popular, would be good for the web. Humankind, even."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7b3bda18-118e-4312-a505-a35a2ac0bfcf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "7b3bda18-118e-4312-a505-a35a2ac0bfcf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Bonus - streaming support"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "7bd07707-3fb8-47b7-b18c-70dbb5126731": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "7bd07707-3fb8-47b7-b18c-70dbb5126731",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "browser integration"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "7f20fbc5-2625-4a9b-85b9-c7887714029f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "7f20fbc5-2625-4a9b-85b9-c7887714029f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "no tracker, DHT-only"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "7f9c34ec-5d9e-41a1-ae73-93dc57f7f373": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "7f9c34ec-5d9e-41a1-ae73-93dc57f7f373",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Amazon’s s3 hosting has an option for automatic generation of .torrent files for any file hosted with s3. It removes the need for running a tracker and manually generating .torrent files but still requires users to use a special client."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "80c6b3bb-f8b6-47fa-9851-e2765d2cd1da": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "80c6b3bb-f8b6-47fa-9851-e2765d2cd1da",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "additional bonus: streaming support"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "8839c50c-d1a9-469a-ada6-74ee2c82ac9c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "8839c50c-d1a9-469a-ada6-74ee2c82ac9c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "If it ain’t in the browser, it doesn’t exist"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "89daa7c5-df1f-4fb5-b053-660aad0e02ea": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531623365455,
+          "id": "89daa7c5-df1f-4fb5-b053-660aad0e02ea",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623372872,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2010-04-18T15:35:18-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 10
+        }
+      },
+      "89e9205b-69f7-417b-8022-e72f63e2c550": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "89e9205b-69f7-417b-8022-e72f63e2c550",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Originally BitTorrent protocol required additional piece of infrastructure: a tracker. Tracker is a broker - it tells downloaders about other downloaders. This creates a single point of failure - if tracker doesn’t work, nothing works."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8f77bc8e-82e2-4577-82a1-a583daac2ac2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "8f77bc8e-82e2-4577-82a1-a583daac2ac2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "open-source implementation with no strings attached"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "9331b51c-8d9f-4a0a-a5e0-cd35a432dba6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "id": "9331b51c-8d9f-4a0a-a5e0-cd35a432dba6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623365455,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: idea"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "9653b1d8-1525-4193-a039-96c64c3d5abd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "9653b1d8-1525-4193-a039-96c64c3d5abd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Often the large files people want to download are video files and they aren’t actually interested in downloading them, just watching once. This solution could be supported to support streaming as well - there already are modifications to BitTorrent algorithm to work in streaming mode i.e. try to deliver the file sequentially from the beginning at a desired bit rate."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "976db7a8-45cc-4f82-8627-a12b8af3130c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "id": "976db7a8-45cc-4f82-8627-a12b8af3130c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623363291,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "9a011d51-7829-4491-b1fa-a4522bf8a65e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "bfed8a38-216b-44d8-8913-bc6609ae11d7",
+            "9331b51c-8d9f-4a0a-a5e0-cd35a432dba6",
+            "89daa7c5-df1f-4fb5-b053-660aad0e02ea",
+            "976db7a8-45cc-4f82-8627-a12b8af3130c",
+            "65aaa8e3-82a7-4335-91b4-983735994551",
+            "195c2f79-c799-4ef0-9c26-89314f98a867",
+            "3b3f7b4b-db87-49d4-bbb7-f510f46db407",
+            "bf01c75d-0147-46ae-ba29-6dd7c65c5e41",
+            "7bd07707-3fb8-47b7-b18c-70dbb5126731",
+            "7f20fbc5-2625-4a9b-85b9-c7887714029f",
+            "1dc5c983-2aad-45f4-8118-d4c9fe3c97c0",
+            "8f77bc8e-82e2-4577-82a1-a583daac2ac2",
+            "80c6b3bb-f8b6-47fa-9851-e2765d2cd1da",
+            "0cbcb603-0f04-4886-a1e6-0c2c327e1f7b",
+            "8839c50c-d1a9-469a-ada6-74ee2c82ac9c",
+            "3255915a-6574-4705-b808-fd67b71b0178",
+            "7aa8ed52-8587-4a08-9676-5ce8554c46c3",
+            "ff2268c8-a48e-4be7-95c7-ecaf12b88e0a",
+            "89e9205b-69f7-417b-8022-e72f63e2c550",
+            "aabe80a5-8cf7-433e-8bba-55b73a27d4c3",
+            "54ba006b-e8b4-44e3-8d7a-032d9253c91f",
+            "e6c1e53e-ffa6-4b1a-b99d-97755d40f2a6",
+            "6c5e59de-933f-4251-9b44-31631e85bc52",
+            "9cea76f9-f983-4aef-89ee-80f2716c5475",
+            "b694657c-936a-4fee-b611-5a8894e31bb1",
+            "aa1424a7-4f7b-4b4d-bf7e-f444748efbf7",
+            "fc94e420-9029-42b4-9287-64b7b71178a6",
+            "a9ec0f6d-e21c-4ee1-b989-7f9e0b5511c0",
+            "75dedb78-ad04-491a-b757-74ba10f86344",
+            "f4532279-30eb-4f64-b549-5442c3060dcd",
+            "20573649-d8ec-451a-9a7b-66748f2d77af",
+            "383c240c-d25c-4202-be8c-530a61f7b304",
+            "f7c0f6a2-bb04-4484-b083-e92e17555909",
+            "3bf43bd8-d893-4c21-af1c-e5d4804660ec",
+            "7b3bda18-118e-4312-a505-a35a2ac0bfcf",
+            "9653b1d8-1525-4193-a039-96c64c3d5abd",
+            "5c9e9537-d4d7-4a10-a206-7e5e29fd4fb0",
+            "f55820eb-ae3f-4fa7-a139-13dd1cbb4b9d",
+            "c009dea1-4747-4e78-8c89-42f822463872",
+            "7f9c34ec-5d9e-41a1-ae73-93dc57f7f373"
+          ],
+          "copied_from": "6f788f55-f4ed-47a7-9533-63e979972a05",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996386089,
+          "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "BitTorrent-based, large file distribution for HTTP"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 12
+        }
+      },
+      "9cea76f9-f983-4aef-89ee-80f2716c5475": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "9cea76f9-f983-4aef-89ee-80f2716c5475",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "However, if all current uploaders (called seeders in BitTorrent lingo) go offline, the file is gone."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a9ec0f6d-e21c-4ee1-b989-7f9e0b5511c0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "a9ec0f6d-e21c-4ee1-b989-7f9e0b5511c0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The license should be non-restrictive (BSD, MPL, Apache but not GPL or LGPL)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "aa1424a7-4f7b-4b4d-bf7e-f444748efbf7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "aa1424a7-4f7b-4b4d-bf7e-f444748efbf7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Open web requires open-source"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "aabe80a5-8cf7-433e-8bba-55b73a27d4c3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "aabe80a5-8cf7-433e-8bba-55b73a27d4c3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A later addition to the protocol was support for DHT (Distributed Hash Table). It does the same thing as tracker except it uses ad-hoc network created by downloaders themselves to exchange information about who’s downloading what."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b059308f-5cc3-43fb-af19-9c71ae359418": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6d2dfef4-d424-40e0-ae5d-a1fbb96cfa46",
+            "da3ca38c-1443-4994-949e-1fe55fe6068c",
+            "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+            "6b2a8a79-7e37-489d-aaad-f69e191ab527",
+            "36e15674-d4a1-480c-aa0a-259b4b42dabb",
+            "cda91fb7-5983-45d9-bed0-55a1534104a8",
+            "0c7a8892-80c7-4f33-98b5-1023c93c46df",
+            "d4edeaa9-f442-4822-8a1f-6482821c927c",
+            "cfc885cc-2252-4ed8-a27a-5a31d435fd9f",
+            "83c4f593-f094-44b5-bce6-3eb76fd900db",
+            "e07c513b-44ea-419b-acdb-a1b41e618d43",
+            "567d71b1-013e-4fbb-8019-7847522d8013",
+            "a4a65836-65d3-41da-a5f9-d678e649ead2",
+            "f004ddf8-d670-4211-94b0-cc926c85567c",
+            "ec5d5fbd-1360-4922-829a-f736e816fe16",
+            "04d4639b-fdf6-4439-88a9-7cb8d9915e44",
+            "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
+            "b16813de-497f-45db-b305-dc1accf42c0a",
+            "edc47cc3-5219-4309-afe1-1cd91b2e1533",
+            "69b73f18-d1b7-417e-a739-6a76ef50a624",
+            "4c55356e-f248-4267-aa3c-e2713c113df1",
+            "1c4392af-d216-4531-98db-8fda708d111b",
+            "afe30f39-1257-4383-ae09-8d9e978af697",
+            "1d1036c1-8617-451b-bd30-d0bdfcf08b43",
+            "5b52b4a3-ce91-4794-995d-3a364ea1f443",
+            "162f7ce8-58b5-44ae-bcd2-69bfd209fe97",
+            "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
+            "96ed86c9-5c52-4d33-9665-32fc9090e65f",
+            "9725a8e9-eadd-4f2b-b687-6f7977036f96",
+            "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
+            "74e313f2-afe7-41ad-b568-240d907e3f5e",
+            "d23c8976-8dc4-41ca-852d-d6742944cf39",
+            "6dcf730e-4909-4075-bf18-1acf27b3b3b9",
+            "c229ef8b-afe9-478b-8a2e-05f29c07f86a"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195940647,
+          "id": "b059308f-5cc3-43fb-af19-9c71ae359418",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2010 (34)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 69
+        }
+      },
+      "b694657c-936a-4fee-b611-5a8894e31bb1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "b694657c-936a-4fee-b611-5a8894e31bb1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On the web we do have the file available via HTTP. Support for web seeds simply means that location of this file is known (by being encoded inside .torrent file) and software is able to use it even if there are no other people to download from. In the worst case the performance is no worse than plain HTTP download."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bf01c75d-0147-46ae-ba29-6dd7c65c5e41": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "bf01c75d-0147-46ae-ba29-6dd7c65c5e41",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem has not been solved yet specifically for the web. All the pieces are almost there, they just need to be put together in just the right order. So here’s what I think is needed to bring BitTorrent advantages for large file distribution to the web:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bfed8a38-216b-44d8-8913-bc6609ae11d7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903446,
+          "id": "bfed8a38-216b-44d8-8913-bc6609ae11d7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623370164,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 2017"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "c009dea1-4747-4e78-8c89-42f822463872": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "c009dea1-4747-4e78-8c89-42f822463872",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Some websites",
+                [
+                  [
+                    "a",
+                    "http://torrent.fedoraproject.org/"
+                  ]
+                ]
+              ],
+              [
+                " have special section with torrent version of their files. This method requires more work on the provider part and requires users to use a special client for download. BitTorrent clients, while extremely popular, are not as popular as web browsers and are more difficult to use."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e6c1e53e-ffa6-4b1a-b99d-97755d40f2a6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "e6c1e53e-ffa6-4b1a-b99d-97755d40f2a6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Things that grow on the web"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "f4532279-30eb-4f64-b549-5442c3060dcd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "f4532279-30eb-4f64-b549-5442c3060dcd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How it would work - the big picture"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "f55820eb-ae3f-4fa7-a139-13dd1cbb4b9d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "f55820eb-ae3f-4fa7-a139-13dd1cbb4b9d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This idea came to me while reading about "
+              ],
+              [
+                "zsync",
+                [
+                  [
+                    "a",
+                    "http://zsync.moria.org.uk/"
+                  ]
+                ]
+              ],
+              [
+                " which has similar requirements for generating additional metadata files on the server. Zsync optimizes for subsequent updates of the same file, this idea optimizes for cheap and fast delivery of large and popular files."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f7c0f6a2-bb04-4484-b083-e92e17555909": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "f7c0f6a2-bb04-4484-b083-e92e17555909",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Alternatively, there could be a naming scheme e.g. that for "
+              ],
+              [
+                "/foo/bar.iso",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ", corresponding torrent file would be "
+              ],
+              [
+                "/foo/bar.iso.webtorrent",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " and browsers supporting this scheme would also try to hit this url."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fc94e420-9029-42b4-9287-64b7b71178a6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "fc94e420-9029-42b4-9287-64b7b71178a6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Open-source implementation is a must for inclusion with Firefox or Chrome and would go a long way in convincing other browser vendors to include it as well."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ff2268c8-a48e-4be7-95c7-ecaf12b88e0a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531200903447,
+          "id": "ff2268c8-a48e-4be7-95c7-ecaf12b88e0a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531200903447,
+          "parent_id": "9a011d51-7829-4491-b1fa-a4522bf8a65e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Trackers? We don’t need no stinking trackers"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b3e7d5f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:57 GMT"
+  ],
+  "Etag": [
+    "W/\"7c21-ie+irNShr/6iPHg4gB8rLxymM+A\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=df2a7f586dc8e5e1a8a4ac36ea360b8201565326197; expires=Sat, 08-Aug-20 04:49:57 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

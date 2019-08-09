@@ -1,0 +1,728 @@
+2598 1565326204637 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+      "table": "block"
+    }
+  ]
+}
+Response:+1449
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "5bc7e8e0-4300-4096-ad24-2ad87fbf523c",
+          "4257fe65-f332-41e5-bfc3-cbe82cd60dfc",
+          "df9753bc-b393-4ba4-a84c-3015512de199",
+          "ca339080-2666-49f2-9767-567da5b4390d",
+          "718d0981-7873-4810-bcd3-a96dc45da5da",
+          "11a72be8-54fa-4b2e-987b-9cfeb64005ce",
+          "2bb4873e-287a-48e5-94b9-005aabf09062",
+          "cf68a1e4-b22d-45b5-9bf0-2b2156e273df",
+          "b3a621d7-9cdc-4d9f-997a-8b9af955b2f1",
+          "08342d46-9137-4383-97e6-48116aba9920",
+          "f6abb3c5-04d5-4864-99ed-85ebd580129c",
+          "a36d4234-14fa-4458-b79f-d7a202759088"
+        ],
+        "copied_from": "f09478e8-e9b2-4ab9-8a26-5a874414ea29",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195926019,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996353736,
+        "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gflags - a debugging story"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 10
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b65482b7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:03 GMT"
+  ],
+  "Etag": [
+    "W/\"3fd-rLpctIW97Ec5Kkk5uoF+Q2edoQo\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=da33faa2878260e2da988f41709a4bc7c1565326203; expires=Sat, 08-Aug-20 04:50:03 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+21483 1565326204643 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+  "verticalColumns": false
+}
+Response:+20292
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "08342d46-9137-4383-97e6-48116aba9920": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "08342d46-9137-4383-97e6-48116aba9920",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "From now on foo.exe will always be run with this instrumentation turned on. To disable, do "
+              ],
+              [
+                "gflags /p /disable foo.exe",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "11a72be8-54fa-4b2e-987b-9cfeb64005ce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "11a72be8-54fa-4b2e-987b-9cfeb64005ce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It helps to know that there’s at least one reason for a changed behavior under the debugger: it automatically triggers using debugging heap. While debugging heap usually helps find problems, sometimes it does the opposite by changing the details of memory allocation."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2bb4873e-287a-48e5-94b9-005aabf09062": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "2bb4873e-287a-48e5-94b9-005aabf09062",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One helpful tool when debugging memory problems on Windows is gflags which can enable page heap instrumentation for a given program. It works by putting each allocation into a separate region of memory and putting a non-readable page right after that. Also, upon freeing it makes the memory unreadable. That way an overwrite of memory block while it’s still being used or accessing the memory after it was freed will cause immediate crash."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "4257fe65-f332-41e5-bfc3-cbe82cd60dfc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "4257fe65-f332-41e5-bfc3-cbe82cd60dfc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming, debugging, win32"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5bc7e8e0-4300-4096-ad24-2ad87fbf523c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "5bc7e8e0-4300-4096-ad24-2ad87fbf523c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623732190,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1989"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "718d0981-7873-4810-bcd3-a96dc45da5da": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "718d0981-7873-4810-bcd3-a96dc45da5da",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I hate crashes that disappear when run under the debugger and I had one when porting mupdf to Windows."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a36d4234-14fa-4458-b79f-d7a202759088": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "a36d4234-14fa-4458-b79f-d7a202759088",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It worked like a charm. I got a crash on accessing freed memory and all I had to do was to backtrack to where this memory was allocated to figure out the problem."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b15f453e-1878-4f56-8b35-0944b082dc5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "5bc7e8e0-4300-4096-ad24-2ad87fbf523c",
+            "4257fe65-f332-41e5-bfc3-cbe82cd60dfc",
+            "df9753bc-b393-4ba4-a84c-3015512de199",
+            "ca339080-2666-49f2-9767-567da5b4390d",
+            "718d0981-7873-4810-bcd3-a96dc45da5da",
+            "11a72be8-54fa-4b2e-987b-9cfeb64005ce",
+            "2bb4873e-287a-48e5-94b9-005aabf09062",
+            "cf68a1e4-b22d-45b5-9bf0-2b2156e273df",
+            "b3a621d7-9cdc-4d9f-997a-8b9af955b2f1",
+            "08342d46-9137-4383-97e6-48116aba9920",
+            "f6abb3c5-04d5-4864-99ed-85ebd580129c",
+            "a36d4234-14fa-4458-b79f-d7a202759088"
+          ],
+          "copied_from": "f09478e8-e9b2-4ab9-8a26-5a874414ea29",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996353736,
+          "parent_id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "gflags - a debugging story"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 10
+        }
+      },
+      "b3a621d7-9cdc-4d9f-997a-8b9af955b2f1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "b3a621d7-9cdc-4d9f-997a-8b9af955b2f1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Basic usage of gflags.exe is simple: "
+              ],
+              [
+                "gflags /p /full /enable foo.exe",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ba2e39ae-fb47-4fc7-9d89-54d8f734476f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6304b86f-fe53-42a2-bed0-07f2563a4230",
+            "197b2814-2034-48cb-933f-f05432e01d81",
+            "5fb4c6fe-33ef-4f43-9223-22abe598d008",
+            "8224bdb4-0545-4a86-ad7a-8659a8d50b50",
+            "16a651dd-4b01-4b73-8974-befd23ffe539",
+            "71497e6c-49d5-4fcc-889e-1b39fdd453da",
+            "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
+            "6568863d-9f85-4eca-ae74-28d2d86e9d34",
+            "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
+            "e06c81e6-7666-490c-989b-7e7aeab8225c",
+            "1cf51fe5-cc69-42e8-b43b-31049aebe333",
+            "b15f453e-1878-4f56-8b35-0944b082dc5e",
+            "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
+            "98823469-6c65-4223-8117-5605a311fbb3",
+            "2c61a22c-b459-4d43-8cb0-9f81dd8584ff",
+            "c822c83a-86b9-4e23-b9ff-8ddb89aa6e33",
+            "2457a729-f4b0-482e-b2ea-6b2cd4de7cf9",
+            "3a476938-a9f3-409a-9bd2-3cf2b1157986",
+            "f2b15335-f9b7-4eab-a7b5-b084ff1b1bbb",
+            "b62ca976-a51d-4708-a65f-c676b1d55058",
+            "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
+            "e61f8b9a-55ee-4bde-8f9f-c6e86105a422",
+            "c26d8fef-5360-4830-8f6b-af20da67cbe2",
+            "cce783d8-887e-48e6-abeb-aee06b0a074a",
+            "24ce1b6e-ffe0-43d1-8493-61ba8524642b",
+            "723d09e3-6e85-4ba0-a706-1a36452a2b34"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195890466,
+          "id": "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2008 (26)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 59
+        }
+      },
+      "ca339080-2666-49f2-9767-567da5b4390d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "ca339080-2666-49f2-9767-567da5b4390d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623730925,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "cf68a1e4-b22d-45b5-9bf0-2b2156e273df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "cf68a1e4-b22d-45b5-9bf0-2b2156e273df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The downside is that using gflags uses much more memory. But in those days of cheap gigabytes it’s not a problem that can’t be solved with a couple hundred bucks."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "df9753bc-b393-4ba4-a84c-3015512de199": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "df9753bc-b393-4ba4-a84c-3015512de199",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2008-04-07T00:28:39-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f6abb3c5-04d5-4864-99ed-85ebd580129c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195926019,
+          "id": "f6abb3c5-04d5-4864-99ed-85ebd580129c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195926019,
+          "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "To see which programs have page heap enabled, do "
+              ],
+              [
+                "gflags /p",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". gflags offers many other option and you can learn about them via "
+              ],
+              [
+                "gflags /?",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". If you run gflags without any options, you’ll get a (very confusing) GUI."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b65b8567fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:03 GMT"
+  ],
+  "Etag": [
+    "W/\"3468-HgybYDeGuMGSRyv4RC4Q+Cp6gRI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=da33faa2878260e2da988f41709a4bc7c1565326203; expires=Sat, 08-Aug-20 04:50:03 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,832 @@
+2867 1565326155053 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+      "table": "block"
+    }
+  ]
+}
+Response:+1718
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "c01805df-711a-49e4-a400-a9445f682acb",
+          "647294f3-4512-49d8-8454-eed4deb3a83d",
+          "7ad2e591-5cba-4107-89df-ff5ddc608b86",
+          "72cf8b51-a71f-47d7-850c-d49983b5071d",
+          "f1757cd3-5c98-4039-bd49-bebc897e1246",
+          "4bf2138b-8564-4c08-a61a-3919ad5e0361",
+          "b9f2d836-3f05-47ad-a565-34f7978984bb",
+          "3c9bd4bc-c6e0-47b0-87df-518482d18bf5",
+          "1b6d3593-9f17-4a54-be27-4a663a06899a",
+          "9bf67e40-1d13-464f-a98c-1c037e2fa362",
+          "d977cc3d-de33-4636-8765-33f53ceeaf59",
+          "47ec1789-f405-4a75-8b32-26e770c46e77",
+          "85b7faea-d9ef-41b6-a58a-0fd017a0a475",
+          "aa0f45e1-9b45-4304-9a71-ed831ce86e0f",
+          "feffa722-b574-412a-8e57-c9eb8c1f3681",
+          "3ae7645f-70fa-4e00-89b7-8553a4e94829",
+          "304814f3-23e4-477c-9728-da6cabc7347c",
+          "afa2d7db-b9b7-408c-825a-4109127cc038"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1564293600216,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1564774080000,
+        "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "List of website with free eBooks in EPUB and MOBI formats"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 155
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a2feedc7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"4d2-1yYtTPtstbwELBQMOVh+F+OBy0U\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+22890 1565326155057 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+  "verticalColumns": false
+}
+Response:+21699
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1b6d3593-9f17-4a54-be27-4a663a06899a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601394,
+          "id": "1b6d3593-9f17-4a54-be27-4a663a06899a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Internet Archive",
+                [
+                  [
+                    "a",
+                    "http://archive.org/"
+                  ]
+                ]
+              ],
+              [
+                " has lots of "
+              ],
+              [
+                "free texts",
+                [
+                  [
+                    "a",
+                    "http://archive.org/details/texts"
+                  ]
+                ]
+              ],
+              [
+                " available in ePub and mobi (Kindle) formats."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "304814f3-23e4-477c-9728-da6cabc7347c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564294020000,
+          "id": "304814f3-23e4-477c-9728-da6cabc7347c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564294080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Online Books Page",
+                [
+                  [
+                    "a",
+                    "https://onlinebooks.library.upenn.edu/"
+                  ]
+                ]
+              ],
+              [
+                " is an index of over 3 million public domain books."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 129
+        }
+      },
+      "3ae7645f-70fa-4e00-89b7-8553a4e94829": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601399,
+          "id": "3ae7645f-70fa-4e00-89b7-8553a4e94829",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The Online Books Page"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 31
+        }
+      },
+      "3c9bd4bc-c6e0-47b0-87df-518482d18bf5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601394,
+          "id": "3c9bd4bc-c6e0-47b0-87df-518482d18bf5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Internet Archive"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 4
+        }
+      },
+      "47ec1789-f405-4a75-8b32-26e770c46e77": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601397,
+          "id": "47ec1789-f405-4a75-8b32-26e770c46e77",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Baen"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 4
+        }
+      },
+      "4bf2138b-8564-4c08-a61a-3919ad5e0361": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601392,
+          "id": "4bf2138b-8564-4c08-a61a-3919ad5e0361",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774020000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Feedbooks"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 5
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "647294f3-4512-49d8-8454-eed4deb3a83d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293600000,
+          "id": "647294f3-4512-49d8-8454-eed4deb3a83d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "72cf8b51-a71f-47d7-850c-d49983b5071d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564773960000,
+          "id": "72cf8b51-a71f-47d7-850c-d49983b5071d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774020000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Standard ebooks"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 41
+        }
+      },
+      "7ad2e591-5cba-4107-89df-ff5ddc608b86": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601390,
+          "id": "7ad2e591-5cba-4107-89df-ff5ddc608b86",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293660000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sumatra PDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/"
+                  ]
+                ]
+              ],
+              [
+                " supports reading eBooks in ePub and Mobi (Kindle) format. Here's a list of website that offer eBooks in those formats for a free download."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "85b7faea-d9ef-41b6-a58a-0fd017a0a475": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601397,
+          "id": "85b7faea-d9ef-41b6-a58a-0fd017a0a475",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Baen",
+                [
+                  [
+                    "a",
+                    "http://www.baen.com/"
+                  ]
+                ]
+              ],
+              [
+                " is a publisher of science fiction books which offers "
+              ],
+              [
+                "some of their books",
+                [
+                  [
+                    "a",
+                    "http://www.baen.com/library/"
+                  ]
+                ]
+              ],
+              [
+                " as a free download in ePub and mobi (Kindle) format."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "9bf67e40-1d13-464f-a98c-1c037e2fa362": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601396,
+          "id": "9bf67e40-1d13-464f-a98c-1c037e2fa362",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Project Gutenberg"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 4
+        }
+      },
+      "aa0f45e1-9b45-4304-9a71-ed831ce86e0f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601398,
+          "id": "aa0f45e1-9b45-4304-9a71-ed831ce86e0f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Smashwords"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 4
+        }
+      },
+      "afa2d7db-b9b7-408c-825a-4109127cc038": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601399,
+          "id": "afa2d7db-b9b7-408c-825a-4109127cc038",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564294080000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "type": "text",
+          "version": 6
+        }
+      },
+      "b9f2d836-3f05-47ad-a565-34f7978984bb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601393,
+          "id": "b9f2d836-3f05-47ad-a565-34f7978984bb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Feedbooks",
+                [
+                  [
+                    "a",
+                    "http://www.feedbooks.com/"
+                  ]
+                ]
+              ],
+              [
+                " offers both paid and "
+              ],
+              [
+                "free",
+                [
+                  [
+                    "a",
+                    "http://www.feedbooks.com/publicdomain"
+                  ]
+                ]
+              ],
+              [
+                " ebooks."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 8
+        }
+      },
+      "c01805df-711a-49e4-a400-a9445f682acb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293600000,
+          "id": "c01805df-711a-49e4-a400-a9445f682acb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "URL: /articles/where-to-get-free-ebooks-epub-mobi.html"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 10
+        }
+      },
+      "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c01805df-711a-49e4-a400-a9445f682acb",
+            "647294f3-4512-49d8-8454-eed4deb3a83d",
+            "7ad2e591-5cba-4107-89df-ff5ddc608b86",
+            "72cf8b51-a71f-47d7-850c-d49983b5071d",
+            "f1757cd3-5c98-4039-bd49-bebc897e1246",
+            "4bf2138b-8564-4c08-a61a-3919ad5e0361",
+            "b9f2d836-3f05-47ad-a565-34f7978984bb",
+            "3c9bd4bc-c6e0-47b0-87df-518482d18bf5",
+            "1b6d3593-9f17-4a54-be27-4a663a06899a",
+            "9bf67e40-1d13-464f-a98c-1c037e2fa362",
+            "d977cc3d-de33-4636-8765-33f53ceeaf59",
+            "47ec1789-f405-4a75-8b32-26e770c46e77",
+            "85b7faea-d9ef-41b6-a58a-0fd017a0a475",
+            "aa0f45e1-9b45-4304-9a71-ed831ce86e0f",
+            "feffa722-b574-412a-8e57-c9eb8c1f3681",
+            "3ae7645f-70fa-4e00-89b7-8553a4e94829",
+            "304814f3-23e4-477c-9728-da6cabc7347c",
+            "afa2d7db-b9b7-408c-825a-4109127cc038"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293600216,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774080000,
+          "parent_id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "List of website with free eBooks in EPUB and MOBI formats"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 155
+        }
+      },
+      "d977cc3d-de33-4636-8765-33f53ceeaf59": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601396,
+          "id": "d977cc3d-de33-4636-8765-33f53ceeaf59",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Project Gutenberg",
+                [
+                  [
+                    "a",
+                    "http://www.gutenberg.org/"
+                  ]
+                ]
+              ],
+              [
+                " has thousands of free, public domain books that are available for download in ePub and mobi (Kindle) format."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 4
+        }
+      },
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "437eae6b-4ffd-4f4e-ab55-d186a3ca21c3",
+            "19602cce-611b-4e7e-a79a-533dca66b8a1",
+            "3c072e6e-df66-4ffb-a522-38a07222d3c3",
+            "56938d9a-81de-43f4-a766-235ed4e9e9ea",
+            "7f45c154-04c3-4940-b6ca-4c8725efb5e8",
+            "be2da96b-1802-4cf1-995e-11794d303358",
+            "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+            "ec96b10a-82df-41c1-8e7c-b01e5c2303ea",
+            "af7e8c6d-ef25-4e2a-b34d-9d39eee725bf",
+            "da7f7cb5-0008-4dd3-8635-2d7bc4151788",
+            "1005c633-46e7-48ab-a225-b2cff0274aed",
+            "2299e4ce-51f2-425d-b192-fca7a6ce6242",
+            "ed7c0f8d-4076-4b9a-b1be-7251ad8e29d6"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532669517099,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564356900000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Documents"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 226
+        }
+      },
+      "f1757cd3-5c98-4039-bd49-bebc897e1246": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564773960000,
+          "id": "f1757cd3-5c98-4039-bd49-bebc897e1246",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564774020000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Standard ebooks",
+                [
+                  [
+                    "a",
+                    "https://standardebooks.org/ebooks/"
+                  ]
+                ]
+              ],
+              [
+                " has free, public-domain, carefully produced ebooks."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 113
+        }
+      },
+      "feffa722-b574-412a-8e57-c9eb8c1f3681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1564293601399,
+          "id": "feffa722-b574-412a-8e57-c9eb8c1f3681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564293600000,
+          "parent_id": "c7ed2e3e-4000-4dd8-b5a3-41c5f0a49572",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Smashwords",
+                [
+                  [
+                    "a",
+                    "http://www.smashwords.com/"
+                  ]
+                ]
+              ],
+              [
+                " is an eBook publishers and some of their books are free. They are offered for download in ePub and mobi (Kindle) formats."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 4
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a304f1c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:14 GMT"
+  ],
+  "Etag": [
+    "W/\"33ec-xkoDe8m4jSCOdXW5zztsfni/q30\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d2272e844a75421d359d225a290a165e31565326154; expires=Sat, 08-Aug-20 04:49:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

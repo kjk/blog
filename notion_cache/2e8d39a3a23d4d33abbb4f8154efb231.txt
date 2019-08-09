@@ -1,0 +1,1178 @@
+2185 1565326118840 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+      "table": "block"
+    }
+  ]
+}
+Response:+1036
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
+          "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
+          "cd13037d-cbf3-4737-8886-99dc21e1b545",
+          "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+          "f7d5b306-4481-45e7-b789-af03f5beff7f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455139144,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1563299100000,
+        "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "vscode, visual studio code"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 22
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037194c9fd77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:37 GMT"
+  ],
+  "Etag": [
+    "W/\"2b7-sYKREayFUwUsAawRwl+JV59SQB4\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dede7e74aa1121def8c2bcaee8b33e70e1565326117; expires=Sat, 08-Aug-20 04:48:37 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+14113 1565326118841 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+  "verticalColumns": false
+}
+Response:+12922
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2e8d39a3-a23d-4d33-abbb-4f8154efb231": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
+            "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
+            "cd13037d-cbf3-4737-8886-99dc21e1b545",
+            "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+            "f7d5b306-4481-45e7-b789-af03f5beff7f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512455139144,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1563299100000,
+          "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "vscode, visual studio code"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 22
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "7f1d3f69-0a40-4309-b05b-7bcd44c7836c",
+            "57296436-f95f-485b-b47d-2f3c28237bd6",
+            "bd63faec-f750-4421-aeb6-937c2b2ddd54"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512455165009,
+          "id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1563299040000,
+          "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "settings"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 34
+        }
+      },
+      "62b80980-1615-4854-be6e-a27b1af66960": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+            "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512456410501,
+          "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "943f9255-a27b-472d-8d24-169797f4f780",
+            "62b80980-1615-4854-be6e-a27b1af66960"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1492378440043,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Tools and services"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 80
+        }
+      },
+      "cd13037d-cbf3-4737-8886-99dc21e1b545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "ca75cd3e-b884-448c-804d-1179446d4739",
+            "8838cd33-8852-440b-8d11-cae8b3cda085"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1518165792182,
+          "id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1518166246786,
+          "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "extensions to install"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 73
+        }
+      },
+      "db05c076-3ce4-40b6-bc79-29ee3703b7d8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512455165009,
+          "id": "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512455165009,
+          "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
+                [
+                  [
+                    "a",
+                    "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 0
+        }
+      },
+      "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+            "f511e438-4d54-4bf4-9b99-deee90438992",
+            "79f8d68c-67a7-47fb-93bf-88a868e85c36",
+            "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+            "7097d0b0-6616-4177-9ea3-5929049be1c4",
+            "c35e671a-9211-44dd-97e7-71325c4f8c61",
+            "bf1261dd-c29f-49de-9a9b-49611911a6da",
+            "a518f0ec-d095-42b1-9aea-4034849fa37e",
+            "184e6d93-e489-4448-b837-9241accf6bda",
+            "16159d4a-d712-4326-8165-c72f4cfe4eec",
+            "4653fe6a-59f2-4002-bac1-2abba014e77e",
+            "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+            "5749be0d-4e27-4e61-99a5-d9de82cb57f8",
+            "c174875e-f8e4-4d6f-b149-4ae10bd5a33c",
+            "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+            "ed889e66-a03b-4980-afe1-e1578ab522e5",
+            "de6b4f3a-a858-466f-9771-6be86ae0a9d4",
+            "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+            "9d802f54-65d3-4881-8445-c46ba6c7202c",
+            "a6bfde90-c3d5-479b-9c38-85dcb126dea0",
+            "ef11ef21-0f07-45d9-b473-2de7b8563a2a",
+            "896a9d12-f40c-44da-924b-b4979993cef3",
+            "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+            "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
+            "e7b071b3-6bfc-4eaa-aa7c-897f19153802",
+            "e9c202dd-9c5a-4e46-b2da-9c492c12ce9d",
+            "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+            "61ad39c0-e049-4818-92ff-7420fa27a390",
+            "ae389859-fcfe-4b73-9187-6decbe1aab54",
+            "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
+            "1b61c073-c94e-46ed-b1f6-e3cb1b4bad4e",
+            "1154caf2-d6b8-430a-83a6-80be9d0a340c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512456410501,
+          "format": {
+            "column_ratio": 0.5
+          },
+          "id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1564184160000,
+          "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
+          "parent_table": "block",
+          "type": "column",
+          "version": 143
+        }
+      },
+      "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1512455165009,
+          "id": "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1512455165009,
+          "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Links:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 0
+        }
+      },
+      "f7d5b306-4481-45e7-b789-af03f5beff7f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "09477015-8390-4d4c-b794-c9bf334808c6",
+            "04c1b189-b10d-4f4b-bcfc-b6e3e852095f",
+            "20039997-7531-4397-8553-04e4af55ec35",
+            "7d5cae62-323f-4231-99ff-d366650f50fa",
+            "25444627-e010-440d-9e33-99dc313013ce",
+            "8a324dee-234b-40b4-bbdd-30f04ab86c2b",
+            "a248cd34-23ed-4fd6-b473-40212c304ac1",
+            "47e52676-a03a-454c-b1f8-5e5450034978",
+            "ac6979fa-f4b0-4470-bb88-7086f8833abc",
+            "4411b625-6e49-4e0a-8afb-4fe6134a917b",
+            "4006244b-9828-444c-af64-8154717a4fe0",
+            "5b5a3691-d141-4c65-989b-6ba3c476b49d"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1535264716124,
+          "id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1539661708603,
+          "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "building C++, msbuild"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 81
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037194d0ffa7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:37 GMT"
+  ],
+  "Etag": [
+    "W/\"2188-CQsx9c9Z3bcayvyGFlkDsaU4pdg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dede7e74aa1121def8c2bcaee8b33e70e1565326117; expires=Sat, 08-Aug-20 04:48:37 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+17212 1565326118842 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+1518
+{
+  "requests": [
+    {
+      "id": "ca75cd3e-b884-448c-804d-1179446d4739",
+      "table": "block"
+    },
+    {
+      "id": "8838cd33-8852-440b-8d11-cae8b3cda085",
+      "table": "block"
+    },
+    {
+      "id": "7f1d3f69-0a40-4309-b05b-7bcd44c7836c",
+      "table": "block"
+    },
+    {
+      "id": "57296436-f95f-485b-b47d-2f3c28237bd6",
+      "table": "block"
+    },
+    {
+      "id": "bd63faec-f750-4421-aeb6-937c2b2ddd54",
+      "table": "block"
+    },
+    {
+      "id": "09477015-8390-4d4c-b794-c9bf334808c6",
+      "table": "block"
+    },
+    {
+      "id": "04c1b189-b10d-4f4b-bcfc-b6e3e852095f",
+      "table": "block"
+    },
+    {
+      "id": "20039997-7531-4397-8553-04e4af55ec35",
+      "table": "block"
+    },
+    {
+      "id": "7d5cae62-323f-4231-99ff-d366650f50fa",
+      "table": "block"
+    },
+    {
+      "id": "25444627-e010-440d-9e33-99dc313013ce",
+      "table": "block"
+    },
+    {
+      "id": "8a324dee-234b-40b4-bbdd-30f04ab86c2b",
+      "table": "block"
+    },
+    {
+      "id": "a248cd34-23ed-4fd6-b473-40212c304ac1",
+      "table": "block"
+    },
+    {
+      "id": "47e52676-a03a-454c-b1f8-5e5450034978",
+      "table": "block"
+    },
+    {
+      "id": "ac6979fa-f4b0-4470-bb88-7086f8833abc",
+      "table": "block"
+    },
+    {
+      "id": "4411b625-6e49-4e0a-8afb-4fe6134a917b",
+      "table": "block"
+    },
+    {
+      "id": "4006244b-9828-444c-af64-8154717a4fe0",
+      "table": "block"
+    },
+    {
+      "id": "5b5a3691-d141-4c65-989b-6ba3c476b49d",
+      "table": "block"
+    }
+  ]
+}
+Response:+14652
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518165803914,
+        "id": "ca75cd3e-b884-448c-804d-1179446d4739",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518193419037,
+        "parent_id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "c/c++, c#, Code Runner, Dart Code, Docker, EditorConfig for VS Code, ESLint, Go, HTMLHint, jsx, PowerShell, Prettier, Prettify JSON, Terminal Here, TSLint, vetur"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 472
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "fa7cd01f-cf08-4768-a8da-4855d0d0050d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518166241082,
+        "id": "8838cd33-8852-440b-8d11-cae8b3cda085",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518166246786,
+        "parent_id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "abandoned:"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 28
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1563299040000,
+        "id": "7f1d3f69-0a40-4309-b05b-7bcd44c7836c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1563299040000,
+        "parent_id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For Go:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 13
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1563299097218,
+        "id": "57296436-f95f-485b-b47d-2f3c28237bd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1563299100000,
+        "parent_id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "JavaScript"
+            ]
+          ],
+          "title": [
+            [
+              "\"go.lintOnSave\": \"off\",\n\"go.useLanguageServer\": true,\n\"go.formatTool\": \"goimports\""
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 9
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455165009,
+        "id": "bd63faec-f750-4421-aeb6-937c2b2ddd54",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535264715320,
+        "parent_id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 26
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539661702570,
+        "id": "09477015-8390-4d4c-b794-c9bf334808c6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539661713488,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "call \"c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcvarsall.bat\" x64 \u0026 msbuild ALL_BUILD.vcxproj /m /property:Configuration=Release",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 23
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535264726679,
+        "id": "04c1b189-b10d-4f4b-bcfc-b6e3e852095f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535264738107,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 39
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535264739429,
+        "id": "20039997-7531-4397-8553-04e4af55ec35",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535264820331,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://marketplace.visualstudio.com/items?itemName=sterin.msbuild-tools",
+              [
+                [
+                  "a",
+                  "https://marketplace.visualstudio.com/items?itemName=sterin.msbuild-tools"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535264821413,
+        "id": "7d5cae62-323f-4231-99ff-d366650f50fa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535264829294,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/vscode-cpptools/issues/1839",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/vscode-cpptools/issues/1839"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535264830624,
+        "id": "25444627-e010-440d-9e33-99dc313013ce",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535264957938,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.40tude.fr/blog/compile-cpp-code-with-vscode-cmake-nmake/",
+              [
+                [
+                  "a",
+                  "https://www.40tude.fr/blog/compile-cpp-code-with-vscode-cmake-nmake/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535264959025,
+        "id": "8a324dee-234b-40b4-bbdd-30f04ab86c2b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265112204,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/vscode-cpptools/issues/1839",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/vscode-cpptools/issues/1839"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535265113750,
+        "id": "a248cd34-23ed-4fd6-b473-40212c304ac1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265170566,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@jerrygoyal/run-debug-intellisense-c-c-in-vscode-within-5-minutes-3ed956e059d6",
+              [
+                [
+                  "a",
+                  "https://medium.com/@jerrygoyal/run-debug-intellisense-c-c-in-vscode-within-5-minutes-3ed956e059d6"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535265172073,
+        "id": "47e52676-a03a-454c-b1f8-5e5450034978",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265180628,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/LambdaSchool/CS-Wiki/wiki/C-and-Cpp-Debugging-in-VS-Code",
+              [
+                [
+                  "a",
+                  "https://github.com/LambdaSchool/CS-Wiki/wiki/C-and-Cpp-Debugging-in-VS-Code"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535265183586,
+        "id": "ac6979fa-f4b0-4470-bb88-7086f8833abc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265198422,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@piyushchauhan/debugging-c-and-c-with-vscode-77dae50eaf7f",
+              [
+                [
+                  "a",
+                  "https://medium.com/@piyushchauhan/debugging-c-and-c-with-vscode-77dae50eaf7f"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535265199789,
+        "id": "4411b625-6e49-4e0a-8afb-4fe6134a917b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265241219,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://code.visualstudio.com/docs/languages/cpp",
+              [
+                [
+                  "a",
+                  "https://code.visualstudio.com/docs/languages/cpp"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535265253314,
+        "id": "4006244b-9828-444c-af64-8154717a4fe0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535265253746,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/#MSBuild",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/#MSBuild"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8
+      }
+    },
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539661708603,
+        "id": "5b5a3691-d141-4c65-989b-6ba3c476b49d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539661708603,
+        "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    }
+  ]
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037194d78167fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:38 GMT"
+  ],
+  "Etag": [
+    "W/\"267d-p+P3bN5lYRe5Jgeba3bo0uBK5qM\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=dede7e74aa1121def8c2bcaee8b33e70e1565326117; expires=Sat, 08-Aug-20 04:48:37 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+1797 1565326118842 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "fa7cd01f-cf08-4768-a8da-4855d0d0050d",
+      "table": "block"
+    }
+  ]
+}
+Response:+649
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518166246362,
+        "id": "fa7cd01f-cf08-4768-a8da-4855d0d0050d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518166250492,
+        "parent_id": "8838cd33-8852-440b-8d11-cae8b3cda085",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Git History"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 31
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037194df8447fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:38 GMT"
+  ],
+  "Etag": [
+    "W/\"1a9-etUkSMaVJ5u3jlDW6pFe+X7VTtY\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d195824097d032658c37e5ccf2c4ab39a1565326118; expires=Sat, 08-Aug-20 04:48:38 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

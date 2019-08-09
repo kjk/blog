@@ -1,0 +1,683 @@
+2631 1565326226228 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+      "table": "block"
+    }
+  ]
+}
+Response:+1482
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "4e3b8b38-dd5b-49a6-9491-0d5fb7a763b3",
+          "db420453-9150-4386-bf0e-632f7ae6da31",
+          "6bcfa1e3-a251-4ecf-87fa-ffb6d181fb80",
+          "e84a60ad-e33e-4188-90f1-ee3785fc9161",
+          "418a6e27-2991-4841-8635-aeff2cc6551b",
+          "3e847eb1-cf34-4d87-b7ac-3c077e952983",
+          "8e136882-58d2-494c-b5af-29197fc3dfee",
+          "2e5c1c99-fc68-41c6-9e0e-57e687a57098",
+          "495669a7-cfa5-4b7c-a137-ada7a328a006",
+          "5e78bed7-5a75-4811-b236-487f3dc3fc1b",
+          "6f6b205b-3613-43f4-a7ca-952da5d8e9ec",
+          "2fa71dde-5537-40d0-a5b7-6584bcece26b",
+          "962bc04e-a327-44f1-b324-d2588f97d72d",
+          "21c2302e-67be-46a1-91e0-72c17f957968"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528255848752,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1528258996262,
+        "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Impossible Foods facts"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 91
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371becb9a27fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"412-yHQzu/bt6269LbP2wtoDbDfqntw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+19090 1565326226231 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+  "verticalColumns": false
+}
+Response:+17899
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "21c2302e-67be-46a1-91e0-72c17f957968": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528256913412,
+          "id": "21c2302e-67be-46a1-91e0-72c17f957968",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528256913412,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "type": "text",
+          "version": 4
+        }
+      },
+      "2ba0b2e0-deae-4c77-b31e-4481777b70a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+            "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+            "1038b484-044d-42fa-9242-d2445cdf9c53",
+            "87b42ff4-81ca-4ea3-bf4d-11ae306831b2",
+            "07d8cbcf-3f47-4724-b539-3753a588a64c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233350473,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532409014482,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research for investing"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 138
+        }
+      },
+      "2e5c1c99-fc68-41c6-9e0e-57e687a57098": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528257020153,
+          "id": "2e5c1c99-fc68-41c6-9e0e-57e687a57098",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528258812133,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "April 2018: makes 2.5 million pounds per month (at end of 2018)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 152
+        }
+      },
+      "2fa71dde-5537-40d0-a5b7-6584bcece26b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528256992068,
+          "id": "2fa71dde-5537-40d0-a5b7-6584bcece26b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528257712536,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "June 2018: available in 2000 restaurants in US"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 137
+        }
+      },
+      "3e847eb1-cf34-4d87-b7ac-3c077e952983": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528256491410,
+          "id": "3e847eb1-cf34-4d87-b7ac-3c077e952983",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528257035735,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "March 2017 - started building Oackland factory, planned production 1 million pound of meat per month"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 136
+        }
+      },
+      "418a6e27-2991-4841-8635-aeff2cc6551b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258781218,
+          "id": "418a6e27-2991-4841-8635-aeff2cc6551b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528259313365,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "July 2016 debuted at Momofuku Nishi"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 124
+        }
+      },
+      "495669a7-cfa5-4b7c-a137-ada7a328a006": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528257858567,
+          "id": "495669a7-cfa5-4b7c-a137-ada7a328a006",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528257867480,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "April 2018 1000 restaurants"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 80
+        }
+      },
+      "4e3b8b38-dd5b-49a6-9491-0d5fb7a763b3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258666121,
+          "id": "4e3b8b38-dd5b-49a6-9491-0d5fb7a763b3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528258675348,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "US: 5 billion ground beef"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 69
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5e78bed7-5a75-4811-b236-487f3dc3fc1b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258600102,
+          "id": "5e78bed7-5a75-4811-b236-487f3dc3fc1b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528258614562,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "April 2018: raised $117 million in convertible notes"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 114
+        }
+      },
+      "6bcfa1e3-a251-4ecf-87fa-ffb6d181fb80": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258996262,
+          "id": "6bcfa1e3-a251-4ecf-87fa-ffb6d181fb80",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528259004064,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "mission: replace animals by 2035"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 74
+        }
+      },
+      "6f6b205b-3613-43f4-a7ca-952da5d8e9ec": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528257233915,
+          "id": "6f6b205b-3613-43f4-a7ca-952da5d8e9ec",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528257716116,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "June 2018 launched in Asia (Hong Kong)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 97
+        }
+      },
+      "8e136882-58d2-494c-b5af-29197fc3dfee": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528257078336,
+          "id": "8e136882-58d2-494c-b5af-29197fc3dfee",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528257128321,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "September 2017: 1 million pound per month in the future"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 144
+        }
+      },
+      "962bc04e-a327-44f1-b324-d2588f97d72d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528258191075,
+          "id": "962bc04e-a327-44f1-b324-d2588f97d72d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528258224773,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "April 2018: in blind test 48% preferred impossible over beef (compared to 6% 5 years ago) source: "
+              ],
+              [
+                "https://www.foodnavigator-usa.com/Article/2018/04/13/Impossible-Foods-Our-goal-is-to-produce-a-full-range-of-meats-and-dairy-products-for-every-cultural-region-in-the-world",
+                [
+                  [
+                    "a",
+                    "https://www.foodnavigator-usa.com/Article/2018/04/13/Impossible-Foods-Our-goal-is-to-produce-a-full-range-of-meats-and-dairy-products-for-every-cultural-region-in-the-world"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 220
+        }
+      },
+      "a1456e9c-a227-4c32-be8c-6ae065f3855b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4e3b8b38-dd5b-49a6-9491-0d5fb7a763b3",
+            "db420453-9150-4386-bf0e-632f7ae6da31",
+            "6bcfa1e3-a251-4ecf-87fa-ffb6d181fb80",
+            "e84a60ad-e33e-4188-90f1-ee3785fc9161",
+            "418a6e27-2991-4841-8635-aeff2cc6551b",
+            "3e847eb1-cf34-4d87-b7ac-3c077e952983",
+            "8e136882-58d2-494c-b5af-29197fc3dfee",
+            "2e5c1c99-fc68-41c6-9e0e-57e687a57098",
+            "495669a7-cfa5-4b7c-a137-ada7a328a006",
+            "5e78bed7-5a75-4811-b236-487f3dc3fc1b",
+            "6f6b205b-3613-43f4-a7ca-952da5d8e9ec",
+            "2fa71dde-5537-40d0-a5b7-6584bcece26b",
+            "962bc04e-a327-44f1-b324-d2588f97d72d",
+            "21c2302e-67be-46a1-91e0-72c17f957968"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528255848752,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528258996262,
+          "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Impossible Foods facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 91
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "db420453-9150-4386-bf0e-632f7ae6da31": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528255853778,
+          "id": "db420453-9150-4386-bf0e-632f7ae6da31",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528256369957,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "founded in 2011"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 43
+        }
+      },
+      "e84a60ad-e33e-4188-90f1-ee3785fc9161": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528256417472,
+          "id": "e84a60ad-e33e-4188-90f1-ee3785fc9161",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528256491115,
+          "parent_id": "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "$387 million in funding ("
+              ],
+              [
+                "https://www.crunchbase.com/organization/impossible-foods#section-locked-charts",
+                [
+                  [
+                    "a",
+                    "https://www.crunchbase.com/organization/impossible-foods#section-locked-charts"
+                  ]
+                ]
+              ],
+              [
+                "), last round $100 million in April 2018"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 146
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bed29cd7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:25 GMT"
+  ],
+  "Etag": [
+    "W/\"2dc0-6sTBgVwHaEbez6hdGAv8FfUePi8\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d0b8660a3f8d8889fe24b73dd33d245bc1565326225; expires=Sat, 08-Aug-20 04:50:25 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,611 @@
+2140 1565326231973 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+      "table": "block"
+    }
+  ]
+}
+Response:+992
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "6f4ba19a-7438-408c-9624-999ffd5ae53f",
+          "396513ca-1e02-420e-b227-8aef89ac6500",
+          "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+          "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541722131991,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544217655257,
+        "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "chocolatey setup and boxstarter"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 105
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c102c8c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:31 GMT"
+  ],
+  "Etag": [
+    "W/\"296-+LNZeK5BMNZKwakj7rBKBnn0k40\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3bc275bd74c309c9f7af781b6b0abebd1565326231; expires=Sat, 08-Aug-20 04:50:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+13992 1565326231974 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+  "verticalColumns": false
+}
+Response:+12801
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "396513ca-1e02-420e-b227-8aef89ac6500": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1544217655257,
+          "id": "396513ca-1e02-420e-b227-8aef89ac6500",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544217666293,
+          "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/",
+                [
+                  [
+                    "a",
+                    "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/"
+                  ]
+                ]
+              ],
+              [
+                " : example boxstarter script"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 103
+        }
+      },
+      "515006ec-a4e4-48fa-af52-65dce7674e79": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2deca6d7-09eb-4b54-9b1c-8397165d9972",
+            "91b14d80-b9df-458c-ab7d-588a9f5dccec",
+            "6a2aafdb-0faa-4881-ad72-a7c29d355691",
+            "6325967d-6fab-488e-8882-a4b619ac90fc",
+            "ba0bb283-71f2-42f2-a35b-781a8a668b3a",
+            "4df7b812-4234-4e24-8135-1c3898254ba2",
+            "9491f8fb-6117-4313-9c98-fc1fc32605c4",
+            "a0918966-943e-427c-8f9f-0171a6f52745",
+            "b28448f6-f67b-4919-bcea-922a116a1144",
+            "1a23cb2d-ca3e-40e3-bfff-ae52b04551fb",
+            "ea50f379-0961-4e43-93f5-05a0641bd92a",
+            "8bba674f-b821-45d7-b654-ac75f711c31b",
+            "7992e194-348d-481c-89d2-082f6a945b3c",
+            "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+            "28a9eec3-d1de-42f7-9c95-ba9cbe399758",
+            "bf9325b5-606d-4e27-b27a-4a5dd1b12f46",
+            "85d70691-eb7a-45f6-991c-e9c20cbae0b9",
+            "0e931590-f27c-40fc-8710-5626a4ad6324",
+            "9a2c2066-aee3-4427-95ed-c1c3c058741a",
+            "f074cc9e-dae7-4b63-9544-30cd19c2ba04",
+            "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+            "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
+            "f1d2dc66-ecfe-417d-9cd6-3e7ae33d6078",
+            "5734a97a-c4bb-4777-9a23-e7e54764e1c1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "format": {
+            "column_ratio": 0.5625
+          },
+          "id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540277182949,
+          "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "parent_table": "block",
+          "type": "column",
+          "version": 106
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6a8df83c-eda4-4996-b98f-0dcb421bf563": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6f4ba19a-7438-408c-9624-999ffd5ae53f",
+            "396513ca-1e02-420e-b227-8aef89ac6500",
+            "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+            "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541722131991,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544217655257,
+          "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "chocolatey setup and boxstarter"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 105
+        }
+      },
+      "6f4ba19a-7438-408c-9624-999ffd5ae53f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541722135193,
+          "id": "6f4ba19a-7438-408c-9624-999ffd5ae53f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541722174977,
+          "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://github.com/Microsoft/windows-dev-box-setup-scripts",
+                [
+                  [
+                    "a",
+                    "https://github.com/Microsoft/windows-dev-box-setup-scripts"
+                  ]
+                ]
+              ],
+              [
+                " : choco scripts for automating setting up a dev machine (installs git, Visual Studio, Visual Studio Code etc.)"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 354
+        }
+      },
+      "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1544217649581,
+          "id": "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544217652993,
+          "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+          "parent_table": "block",
+          "type": "text",
+          "version": 24
+        }
+      },
+      "bf81fe36-c226-4c88-908d-3d6eae3c4451": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "06a28ca1-5053-4293-b525-af8dba46b21b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1541722175291,
+          "id": "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1541993078220,
+          "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "my setup"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 35
+        }
+      },
+      "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f60311c9-c6ed-4678-a1e8-497fb0ab8545"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1481054370082,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1528059358122,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Programming"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 7
+        }
+      },
+      "f60311c9-c6ed-4678-a1e8-497fb0ab8545": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+            "515006ec-a4e4-48fa-af52-65dce7674e79"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1496280773065,
+          "id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1496280773065,
+          "parent_id": "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+          "parent_table": "block",
+          "type": "column_list",
+          "version": 0
+        }
+      },
+      "fbf4f25f-ad76-491c-a266-d07154f5a6f9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "bbedaf77-da5b-4d0e-a94e-4960162328a5",
+            "92c23bf1-5168-4417-a77d-e74eb3e244dd",
+            "3abcd7bd-56bc-4a81-9f78-5737d42210d0",
+            "06e18e67-4915-49c1-b54b-2ef8c78bd6bb",
+            "579468fe-f56f-4dc0-8525-62e89803b09a",
+            "77f853fb-9a1a-453f-9cbf-d5a4cdbf5919",
+            "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+            "2bb774c0-845f-438a-a586-82f628e23829",
+            "7158e361-34a2-4b28-be92-b18e06dd2175",
+            "289151dc-16f8-43ca-940f-2ceca1c9726d",
+            "2b2b3c56-a0e5-4353-a94d-c19f548c871b",
+            "9b25f742-bd92-4319-bc3d-821313bbac74",
+            "cee6518e-28c3-4ac1-8eab-24523a8e074d",
+            "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
+            "fa3fc358-e564-4f39-b89c-57f13d426d54",
+            "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+            "865ca4c4-d5fc-499e-8c9a-130d65a82cdf"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1495307923991,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1544217625866,
+          "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 48
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371c109cc17fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:31 GMT"
+  ],
+  "Etag": [
+    "W/\"20f9-DuuilDm1wOBHuK1w5MU+PnJMi0k\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3bc275bd74c309c9f7af781b6b0abebd1565326231; expires=Sat, 08-Aug-20 04:50:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+3471 1565326231974 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "06a28ca1-5053-4293-b525-af8dba46b21b",
+      "table": "block"
+    }
+  ]
+}
+Response:+2322
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541924088002,
+        "id": "06a28ca1-5053-4293-b525-af8dba46b21b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546327128263,
+        "parent_id": "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "choco install -y golang\nchoco install -y git\nchoco install -y 7zip\nchoco install -y conemu\nchoco install -y cmake\nchoco install -y nodejs\nchoco install -y python2\nchoco install -y llvm\nchoco install -y windbg -params '\"/SymbolPath:c:\\symbols\"'\n\nchoco install -y visualstudio2017community \nchoco install -y visualstudio2017-workload-manageddesktop \nchoco install -y visualstudio2017-workload-netcoretools \nchoco install -y visualstudio2017-workload-universal\nchoco install -y visualstudio2017-workload-nativedesktop --package-parameters \"--add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81 --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.WinXP\"\n\nchoco install -y visualstudio2017-workload-nativedesktop --package-parameters \"--includeOptional\"\nor components: Microsoft.VisualStudio.Component.Windows81SDK\nor: Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81, Microsoft.VisualStudio.ComponentGroup.NativeDesktop.WinXP\n\nchoco install -y potplayer\nchoco install -y calibre\nchoco install -y sharex\n\nUpgrading Visual Studio\nchoco upgrade -y visualstudio2017community visualstudio2017-workload-manageddesktop visualstudio2017-workload-netcoretools visualstudio2017-workload-universal\nchoco upgrade -y visualstudio2017-workload-nativedesktop --package-parameters \"--add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81 --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.WinXP\"\n\nmaybe:\njdk8\nmingw\npython3\nmaven\ndart-sdk\n\nOther commands\nchoco upgrade all # but it might break Visual Studio\nchoco list -l : list local"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 1961
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371c110cf17fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:31 GMT"
+  ],
+  "Etag": [
+    "W/\"7f2-4t2A4VCWZ2Zk0gYeyaCS+foNc1Y\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d3bc275bd74c309c9f7af781b6b0abebd1565326231; expires=Sat, 08-Aug-20 04:50:31 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

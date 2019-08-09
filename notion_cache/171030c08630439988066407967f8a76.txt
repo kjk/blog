@@ -1,0 +1,989 @@
+2860 1565326164075 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "171030c0-8630-4399-8806-6407967f8a76",
+      "table": "block"
+    }
+  ]
+}
+Response:+1711
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "32d0a5f9-194c-4111-94ef-d32732a7d287",
+          "d4d6ce5e-ede9-41e0-ab73-936aa14c308c",
+          "f791acfc-cfca-46bd-9df7-40cb4b3d72d6",
+          "dd4c0ce8-201d-472b-a649-f0f844a77048",
+          "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+          "94113210-c0f9-41d0-a312-3b0fbce23beb",
+          "99c86b4a-b74a-4f30-8687-cc427ccd2c1e",
+          "bcf108b2-3da6-4fe1-81a5-b98b8b30a627",
+          "ef4b95bc-1dd0-4ba9-9fa7-e617cd1b81a3",
+          "c2c0e3a1-f9a6-4282-8827-a10abcff6c40",
+          "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618",
+          "22bcd48a-6990-49d0-873a-b9fe833e15b3",
+          "28c76ebd-dbae-4ef1-9f5f-ea4732975f11",
+          "eac5d2ba-a14a-4114-b2a7-403832a57edd",
+          "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
+          "1294b0d1-56fb-41dd-95cd-c34782a02e86",
+          "1672e011-5853-4631-a89e-3cd8ff0a9b8d"
+        ],
+        "copied_from": "14bbcdfb-f9c1-43c9-a651-a5d3fbb0cf5f",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195848766,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "171030c0-8630-4399-8806-6407967f8a76",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552537020000,
+        "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Basics of writing DOS .bat batch files"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 38
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a680ee47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:23 GMT"
+  ],
+  "Etag": [
+    "W/\"4cc-qglKEJXjHc5YQvwRly1qUp4SYWg\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d65abf77fcb08dc500d1eb4c43cae3eee1565326163; expires=Sat, 08-Aug-20 04:49:23 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+27868 1565326164079 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "171030c0-8630-4399-8806-6407967f8a76",
+  "verticalColumns": false
+}
+Response:+26677
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1294b0d1-56fb-41dd-95cd-c34782a02e86": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "copied_from": "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552536911695,
+          "id": "1294b0d1-56fb-41dd-95cd-c34782a02e86",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552536900000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For comprehensive info, see a free "
+              ],
+              [
+                "Essential Batch",
+                [
+                  [
+                    "a",
+                    "https://www.programming-books.io/essential/batch/"
+                  ]
+                ]
+              ],
+              [
+                " book."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 5
+        }
+      },
+      "1672e011-5853-4631-a89e-3cd8ff0a9b8d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552537020000,
+          "id": "1672e011-5853-4631-a89e-3cd8ff0a9b8d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552537020000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "171030c0-8630-4399-8806-6407967f8a76": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "32d0a5f9-194c-4111-94ef-d32732a7d287",
+            "d4d6ce5e-ede9-41e0-ab73-936aa14c308c",
+            "f791acfc-cfca-46bd-9df7-40cb4b3d72d6",
+            "dd4c0ce8-201d-472b-a649-f0f844a77048",
+            "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+            "94113210-c0f9-41d0-a312-3b0fbce23beb",
+            "99c86b4a-b74a-4f30-8687-cc427ccd2c1e",
+            "bcf108b2-3da6-4fe1-81a5-b98b8b30a627",
+            "ef4b95bc-1dd0-4ba9-9fa7-e617cd1b81a3",
+            "c2c0e3a1-f9a6-4282-8827-a10abcff6c40",
+            "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618",
+            "22bcd48a-6990-49d0-873a-b9fe833e15b3",
+            "28c76ebd-dbae-4ef1-9f5f-ea4732975f11",
+            "eac5d2ba-a14a-4114-b2a7-403832a57edd",
+            "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
+            "1294b0d1-56fb-41dd-95cd-c34782a02e86",
+            "1672e011-5853-4631-a89e-3cd8ff0a9b8d"
+          ],
+          "copied_from": "14bbcdfb-f9c1-43c9-a651-a5d3fbb0cf5f",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848766,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "171030c0-8630-4399-8806-6407967f8a76",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552537020000,
+          "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Basics of writing DOS .bat batch files"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 38
+        }
+      },
+      "22bcd48a-6990-49d0-873a-b9fe833e15b3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "22bcd48a-6990-49d0-873a-b9fe833e15b3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Execute another script",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "call another.bat",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "28c76ebd-dbae-4ef1-9f5f-ea4732975f11": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "28c76ebd-dbae-4ef1-9f5f-ea4732975f11",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Check if directory exists",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "IF EXIST e:\\directory GOTO USE_E",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "32d0a5f9-194c-4111-94ef-d32732a7d287": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848766,
+          "id": "32d0a5f9-194c-4111-94ef-d32732a7d287",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531624161812,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 301"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "39570cbd-76d3-487c-bfc7-904414b4b4c5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552536900000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For comprehensive info, see a free "
+              ],
+              [
+                "Essential Batch",
+                [
+                  [
+                    "a",
+                    "https://www.programming-books.io/essential/batch/"
+                  ]
+                ]
+              ],
+              [
+                " book."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 208
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552467240000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Do things in a loop",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "FOR /L %%A IN (1,1,10) DO @echo hello",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552469580000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "language": [
+              [
+                "Shell"
+              ]
+            ],
+            "title": [
+              [
+                "@ECHO OFF\n@rem \"pushd $dir\" puts $dir on directory stack\npushd .\nSET COMMENT=%1\nIF NOT DEFINED COMMENT SET COMMENT=\"\"\n\nSET FOO=\"bar\"\n\nIF %FOO%==\"bar\" goto IS_BAR\necho The above should always be true\ngoto END\n\n:IS_BAR\nnmake -f Makefile.vc\nIF ERRORLEVEL 1 goto ERR_ONE_OR_HIGHER\necho Compilation successful!\ngoto END\n\n:ERR_ONE_OR_HIGHER\necho Compilation failed!\ngoto END\n\n:END\n@rem popd pops the directory name from the stack and does cd there\npopd"
+              ]
+            ]
+          },
+          "type": "code",
+          "version": 3
+        }
+      },
+      "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "c17c9bfe-9b64-48f3-a3ca-a4080de8527d",
+            "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
+            "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+            "171030c0-8630-4399-8806-6407967f8a76",
+            "5d89b199-892a-4dcb-a6de-f754b28e347a",
+            "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
+            "5094f3ac-18ed-4d98-8e2f-716bb4d74e66",
+            "52e46e84-edb5-47ae-9c99-2b00f9fb117f",
+            "828c5dfe-b184-42a3-bf07-70cb2f430979",
+            "42795644-40b2-4758-9b8b-edb7ed4f20ad",
+            "e83f12b0-4e79-481d-82ce-142d61fdf7ab",
+            "e3f3de70-632c-426e-8c48-2d7aca3bdf62",
+            "f8aa7527-bd9a-42d6-aa33-399daa4bd612",
+            "430e8f23-1fc8-454b-9089-158b2fba45d4",
+            "e7eb256f-bcbb-4034-a685-c46149832cd3",
+            "da1f1944-ed04-426b-a103-db27afc77e2f",
+            "f830f945-8e01-415c-9e8d-d3a243504647",
+            "f3fd52ee-cad8-4862-a054-54fcdeb7c6df",
+            "2ac56de1-d067-4464-bee8-eff2a5768ca5",
+            "c598349d-9349-4937-94d8-9041f694a5cb",
+            "68d1dadd-39e2-4588-a0dd-bc34b75990a2",
+            "6ca7ef8d-216c-428c-9248-3ecd1b144377",
+            "44db41a4-3b22-4eba-b59d-c3fe00cef4dc",
+            "b6e07724-a143-4aff-a26a-69cf18186e0b",
+            "d9eef152-f793-4ff8-96c0-d78744527a3e",
+            "03fc93fd-c0f4-4092-9350-41113b2fe75e",
+            "3def6f60-a5a0-4560-a402-55e40754acd8",
+            "a6d438b1-00d7-458e-b82d-2303aedb1487",
+            "87034445-4be2-4df3-bcea-14f1394ae191",
+            "90c97050-d91a-46d9-989b-73c2652303f8",
+            "281d8b5e-dce2-403b-802f-91c2b2700bf5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195819922,
+          "id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268380000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2006 (31)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 64
+        }
+      },
+      "94113210-c0f9-41d0-a312-3b0fbce23beb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "94113210-c0f9-41d0-a312-3b0fbce23beb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Set a variable",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "SET FOO=\"bar\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "99c86b4a-b74a-4f30-8687-cc427ccd2c1e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "99c86b4a-b74a-4f30-8687-cc427ccd2c1e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Use a variable",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "echo %FOO%",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "bcf108b2-3da6-4fe1-81a5-b98b8b30a627": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "bcf108b2-3da6-4fe1-81a5-b98b8b30a627",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Command line arguments are variables: "
+              ],
+              [
+                "%1",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ", "
+              ],
+              [
+                "%2",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                " etc."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c2c0e3a1-f9a6-4282-8827-a10abcff6c40": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "c2c0e3a1-f9a6-4282-8827-a10abcff6c40",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Check a result code from the last executed command",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "IF ERRORLEVEL $n $CMD-TO-EXECUTE",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". It executes the command if result code is "
+              ],
+              [
+                "equal or greater",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                " to $n, so to check for any failures use 1."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d4d6ce5e-ede9-41e0-ab73-936aa14c308c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "d4d6ce5e-ede9-41e0-ab73-936aa14c308c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: reference"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "dd4c0ce8-201d-472b-a649-f0f844a77048": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552536780000,
+          "id": "dd4c0ce8-201d-472b-a649-f0f844a77048",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552536780000,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "type": "text",
+          "version": 5
+        }
+      },
+      "eac5d2ba-a14a-4114-b2a7-403832a57edd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "eac5d2ba-a14a-4114-b2a7-403832a57edd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Here’s an example of a batch file that does a few common things:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ef4b95bc-1dd0-4ba9-9fa7-e617cd1b81a3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "ef4b95bc-1dd0-4ba9-9fa7-e617cd1b81a3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Check if a variable is defined",
+                [
+                  [
+                    "b"
+                  ]
+                ]
+              ],
+              [
+                ": "
+              ],
+              [
+                "IF NOT DEFINED FOO SET FOO=\"bar\"",
+                [
+                  [
+                    "c"
+                  ]
+                ]
+              ],
+              [
+                ". Useful for testing command line arguments."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f791acfc-cfca-46bd-9df7-40cb4b3d72d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195848767,
+          "id": "f791acfc-cfca-46bd-9df7-40cb4b3d72d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195848767,
+          "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2006-01-13T16:00:00-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a689f2e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:23 GMT"
+  ],
+  "Etag": [
+    "W/\"3e80-cO2pC4koU1Ui1fwewQ0RGYxE0ho\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d65abf77fcb08dc500d1eb4c43cae3eee1565326163; expires=Sat, 08-Aug-20 04:49:23 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

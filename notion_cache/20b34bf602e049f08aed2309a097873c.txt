@@ -1,0 +1,895 @@
+2841 1565326169293 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+      "table": "block"
+    }
+  ]
+}
+Response:+1692
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "77dc998f-f769-4739-aef2-3d9097678595",
+          "1f8de199-b11f-4e4a-8685-177d6de18b1c",
+          "65e3a89c-ee73-4832-9a60-1a1d71e2533b",
+          "612947ac-cc3b-4bad-b6ae-413ecf87580f",
+          "b200a537-d7de-402b-970e-890d0db35cca",
+          "1247b28a-9f6d-4cea-b515-47d7772cef58",
+          "83ba1be2-ee48-4791-8983-0dd5ddd37c67",
+          "fb073bf3-df42-47e4-9f98-befc50440371",
+          "f12e2513-b1b9-493d-ba82-afe9e7d2bd13",
+          "fc7c8915-f026-4398-b6ce-4c94d616c99e",
+          "a8b28ac1-51d9-415e-981f-e3f2ecb3bb19",
+          "1296d139-65bb-447b-8779-785bd2b66c4f",
+          "e978fa08-d504-47d9-81a1-fbf345e9d939",
+          "a6bfced2-0138-4f2a-a6a2-06656226e300",
+          "f1bae55c-68ef-4bf1-9396-a8e828394ad7",
+          "150a08e2-59de-4b9f-ad61-e359180cd535",
+          "e2a845a1-fdae-4d3f-aa9f-cf37c60021af"
+        ],
+        "copied_from": "6d84347e-1561-4a8c-b5f8-3eeca984bd50",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195786443,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996281816,
+        "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Catch me if you can"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371a887dea7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:28 GMT"
+  ],
+  "Etag": [
+    "W/\"4b9-Kwaa665ESG+0iBxKXkepca1w5LE\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5e78596c9ef22aff48b0f93ce0d1deec1565326168; expires=Sat, 08-Aug-20 04:49:28 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+28012 1565326169295 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+  "verticalColumns": false
+}
+Response:+26821
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1247b28a-9f6d-4cea-b515-47d7772cef58": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "1247b28a-9f6d-4cea-b515-47d7772cef58",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786443,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I just saw "
+              ],
+              [
+                "Catch me",
+                [
+                  [
+                    "a",
+                    "http://www.rottentomatoes.com/m/CatchMeIfYouCan-1118711/"
+                  ]
+                ]
+              ],
+              [
+                " "
+              ],
+              [
+                "if you can",
+                [
+                  [
+                    "a",
+                    "http://us.imdb.com/Title?0264464"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1296d139-65bb-447b-8779-785bd2b66c4f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "1296d139-65bb-447b-8779-785bd2b66c4f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the book is structured along the “I did this and that” theme i.e. it tells the story from the point of view of Frank; the movie is structured as a cat-and-a-mouse game between Frank Abagnail (the young con man played by DiCaprio) and Carl (FBI agent on his trail played by Tom Hanks) and Frank’s relationship with his father"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "150a08e2-59de-4b9f-ad61-e359180cd535": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "150a08e2-59de-4b9f-ad61-e359180cd535",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "according to the movie he’s released from jail explicitly to work for FBI; in the book he’s released on an ordinary parole. After working some time in low-paying jobs he offers his anti-fraud consulting services to businesses and becomes wildly successful at this (typical bad-hacker-turned-security-specialist scenario)."
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "1f8de199-b11f-4e4a-8685-177d6de18b1c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "1f8de199-b11f-4e4a-8685-177d6de18b1c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786443,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2003-01-05T02:51:09-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "20b34bf6-02e0-49f0-8aed-2309a097873c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "77dc998f-f769-4739-aef2-3d9097678595",
+            "1f8de199-b11f-4e4a-8685-177d6de18b1c",
+            "65e3a89c-ee73-4832-9a60-1a1d71e2533b",
+            "612947ac-cc3b-4bad-b6ae-413ecf87580f",
+            "b200a537-d7de-402b-970e-890d0db35cca",
+            "1247b28a-9f6d-4cea-b515-47d7772cef58",
+            "83ba1be2-ee48-4791-8983-0dd5ddd37c67",
+            "fb073bf3-df42-47e4-9f98-befc50440371",
+            "f12e2513-b1b9-493d-ba82-afe9e7d2bd13",
+            "fc7c8915-f026-4398-b6ce-4c94d616c99e",
+            "a8b28ac1-51d9-415e-981f-e3f2ecb3bb19",
+            "1296d139-65bb-447b-8779-785bd2b66c4f",
+            "e978fa08-d504-47d9-81a1-fbf345e9d939",
+            "a6bfced2-0138-4f2a-a6a2-06656226e300",
+            "f1bae55c-68ef-4bf1-9396-a8e828394ad7",
+            "150a08e2-59de-4b9f-ad61-e359180cd535",
+            "e2a845a1-fdae-4d3f-aa9f-cf37c60021af"
+          ],
+          "copied_from": "6d84347e-1561-4a8c-b5f8-3eeca984bd50",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996281816,
+          "parent_id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Catch me if you can"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "612947ac-cc3b-4bad-b6ae-413ecf87580f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "612947ac-cc3b-4bad-b6ae-413ecf87580f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786443,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: book"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "65e3a89c-ee73-4832-9a60-1a1d71e2533b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "65e3a89c-ee73-4832-9a60-1a1d71e2533b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625677961,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Status: hidden"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 15
+        }
+      },
+      "77dc998f-f769-4739-aef2-3d9097678595": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "77dc998f-f769-4739-aef2-3d9097678595",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625679106,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 495"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "83ba1be2-ee48-4791-8983-0dd5ddd37c67": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "83ba1be2-ee48-4791-8983-0dd5ddd37c67",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Watching the movie was a bit weird because I’ve already read "
+              ],
+              [
+                "the book",
+                [
+                  [
+                    "a",
+                    "http://www.amazon.com/exec/obidos/tg/detail/-/0767905385/"
+                  ]
+                ]
+              ],
+              [
+                " on which the movie was based so in principle I knew what was going to happen."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a6bfced2-0138-4f2a-a6a2-06656226e300": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "a6bfced2-0138-4f2a-a6a2-06656226e300",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the book doesn’t mention “the secret service man accident”"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "a8b28ac1-51d9-415e-981f-e3f2ecb3bb19": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "a8b28ac1-51d9-415e-981f-e3f2ecb3bb19",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "So for those who only saw the movie, here’s a list of things that was different in the book:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b200a537-d7de-402b-970e-890d0db35cca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786443,
+          "id": "b200a537-d7de-402b-970e-890d0db35cca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531625674940,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "e2a845a1-fdae-4d3f-aa9f-cf37c60021af": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "e2a845a1-fdae-4d3f-aa9f-cf37c60021af",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Frank Abagnale’s other book "
+              ],
+              [
+                "The art of the steal",
+                [
+                  [
+                    "a",
+                    "http://www.amazon.com/exec/obidos/tg/detail/-/0767906845/"
+                  ]
+                ]
+              ],
+              [
+                " is also interesting. Based on years of work on anti-fraud he describes many kinds of scam and offers tips on how to avoid being a victim of those scams."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "20b34bf6-02e0-49f0-8aed-2309a097873c",
+            "1363796b-7441-4e15-9470-ed2efd2bc585",
+            "d23f2e68-4d9f-45b4-9a8b-2981ff8d05c9",
+            "98494e10-661d-4bfb-a379-0aec1ac313dd",
+            "866dbdd5-b5e0-4900-9e18-6f204af2ffab",
+            "31a8bf9c-23fa-49e6-8061-22c4913048d3",
+            "52979d4b-5163-4a03-9077-7890670a9753",
+            "0e6cf17c-3de1-4806-922f-8d0402843b8f",
+            "a80c396b-b324-41bb-990a-980ea3ddc25a",
+            "2c8def1e-b066-4453-b0b1-f163840ca646",
+            "adcd152c-ba2a-48dd-ba7e-2de4d07d448b",
+            "e87a3fdb-32c1-4d46-83d7-693a654485f3",
+            "9215e7c9-6695-40eb-9ab0-dabe4afe2672",
+            "8478a4c2-8702-4837-8997-18a1d8137f96",
+            "03c5dea0-1e8e-4ef4-a041-904d6a5de46a",
+            "f79ab418-940d-4ebb-9f68-3900252f75ed",
+            "4194c048-3ff5-46d2-88c4-51818da3725e",
+            "0a4da7d6-e93c-4ba8-a87c-c505e8bc81c8",
+            "fe5b16a8-15d4-4c15-ba2a-94ad67f482ba",
+            "8aada009-b073-4777-9ce3-decfc633756d",
+            "97cc2daf-fe57-444c-b1e4-7b436b022fe4",
+            "477ec7bd-f5ae-41bf-bd51-5c1b7d68dca5",
+            "b13f1d68-28e2-4b8b-b1d1-47519b728b29",
+            "941a1f2c-5c20-4f27-aa51-b38f116c74f4",
+            "967972ad-be0b-494b-b772-e9f6489eb84b",
+            "36181bcd-8399-42c4-a1a3-1caad933721b",
+            "84366008-dcc2-42d6-9949-03817c8eaab8",
+            "63dd2935-607b-465e-a707-111d981d8710",
+            "c122ae48-097f-40b4-95bd-99005270369c",
+            "958402a6-8fe9-41f4-9626-2e7f83486a47",
+            "464c291c-d660-4f8c-9fbc-3f26069438ca",
+            "bc81e70c-d754-4700-baf4-56e41199ec72",
+            "c1a2e879-d8db-4810-ab18-db144948f668",
+            "dfa0ad7d-312f-45f7-8f3c-92561f748ac7",
+            "a726fefe-0c1b-4829-b53c-361bdb347359",
+            "5db03935-3cbb-4606-b8ab-614471617263",
+            "7edf7239-89d6-41c7-870f-7ee40b01c19e",
+            "22ee7837-6409-4e15-86de-7d7be59ce2ef",
+            "678979c4-7969-4122-b9ed-65528647e01e",
+            "68a7a4e3-7168-4e57-8b43-df4480fc2db8",
+            "76e0c432-f234-4045-8ec2-495ab17b4597",
+            "2557e059-05d9-45d3-b89e-d2a6000eda11",
+            "ac3fc93e-21a7-474e-8a9a-9267f63d2893",
+            "c5e8489d-ebb9-4ece-95ff-97b19ede3e49",
+            "d08ad186-b982-4fd4-a3c3-42088422bc68",
+            "529d5b82-5b8c-4e3a-89b6-2f5c044bf473",
+            "3b720874-e7b6-4ec7-ac1e-2cc94cb0b96c",
+            "5d488681-25c1-4fbc-bde7-cbb1ce917077",
+            "6058622a-cf4c-41d6-977b-347f07e14fa1",
+            "900168f6-c3eb-4b13-bd39-bb0148d9d421",
+            "cbbdbe2d-3848-415f-9f8f-63017e7ec398"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195702218,
+          "id": "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996452327,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2003"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 92
+        }
+      },
+      "e978fa08-d504-47d9-81a1-fbf345e9d939": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "e978fa08-d504-47d9-81a1-fbf345e9d939",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "the book doesn’t mention Frank teaching French in the school; this transfigurement is probably based on Frank impersonating college professor in the book"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "f12e2513-b1b9-493d-ba82-afe9e7d2bd13": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "f12e2513-b1b9-493d-ba82-afe9e7d2bd13",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I was surprised that Hollywood felt the need to alter this extraordinary by any measure story but that probably explains why I’m not one of the most successful "
+              ],
+              [
+                "movie directors",
+                [
+                  [
+                    "a",
+                    "http://us.imdb.com/Name?Spielberg,%20Steven"
+                  ]
+                ]
+              ],
+              [
+                " of all times."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f1bae55c-68ef-4bf1-9396-a8e828394ad7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "f1bae55c-68ef-4bf1-9396-a8e828394ad7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "in the movie Frank is arrested by Carl in France, put in French jail and taken away from jail by Carl; in the book Frank decides to retire from criminal life and hides in a small French village where he’s spotted by a stewardess that knew him from his Pan Am pilot impersonation days. He’s arrested by French police and spends 6 months out of 1 year sentence in a French prison. Then he’s extradited to Sweden for another prison time. He avoids being imprisoned in multiple European countries where he committed fraud and goes back to US where he’s sentenced for 12 years (but gets out earlier)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "fb073bf3-df42-47e4-9f98-befc50440371": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "fb073bf3-df42-47e4-9f98-befc50440371",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Or so I thought: turns out that the story was significantly altered."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fc7c8915-f026-4398-b6ce-4c94d616c99e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195786444,
+          "id": "fc7c8915-f026-4398-b6ce-4c94d616c99e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195786444,
+          "parent_id": "20b34bf6-02e0-49f0-8aed-2309a097873c",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "At some point in the movie Tom Hanks’ character says “Sometimes it’s better to live a lie.” Sounds like a good tagline for Hollywood."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371a895e5e7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:28 GMT"
+  ],
+  "Etag": [
+    "W/\"45c8-l1w8bPBzscRFMCaRRMYjA1Uxa18\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5e78596c9ef22aff48b0f93ce0d1deec1565326168; expires=Sat, 08-Aug-20 04:49:28 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

@@ -1,0 +1,926 @@
+3074 1565326215752 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "e287a852-cce0-42a7-b013-a6325864be88",
+      "table": "block"
+    }
+  ]
+}
+Response:+1925
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "6e779c33-fc86-43e1-85f6-212213c01d38",
+          "1e5e24f0-176e-429d-bab0-c60352d5fd41",
+          "10a56904-d4cd-49fe-9868-e3aa05fa52c5",
+          "89d08354-6023-4769-8569-008fe1b0653e",
+          "21160a37-6297-4f33-997c-7d44db90a03d",
+          "55dcc7ff-d74f-4b23-b3d4-c4128a108ea4",
+          "e53df8d7-df86-4021-9832-c436590e9ac4",
+          "385838c5-03d8-491a-a1e1-06b7d0331315",
+          "add63c01-584f-4ec9-ba68-16e5a3ff5c20",
+          "7f0b38b9-d92f-465e-843d-490c22963a97",
+          "15278c7d-3a6a-4198-8ff5-586ff0598ebf",
+          "fcb1dcab-aa67-424a-8d31-9985be1096d4",
+          "ea358acc-af37-491b-8181-f82a7594ba5e",
+          "06f0d54d-6d2d-4f6e-905a-c8eed1bf0d4d",
+          "c6eca1a6-4c2f-45f0-986d-4c5f6ddcfded",
+          "209b52f8-5509-445c-b16c-916472b62359",
+          "7b6319b0-6629-4ab0-9491-e5b33e356e43",
+          "32f31f1b-e392-4a0f-9742-61e55aa4ef62",
+          "dbecc960-195c-4e14-8eef-9430cf1b7c50",
+          "2c85a7f7-a396-418a-842a-686d96fb3aff",
+          "48bc426a-7fe0-4f9d-a482-65b6e7dd0ad1"
+        ],
+        "copied_from": "805aeb7e-9337-48bd-89c1-245355b486cb",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736919115,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "e287a852-cce0-42a7-b013-a6325864be88",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996165682,
+        "parent_id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Buying a certificate for signing windows applications"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371bab1e657fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:14 GMT"
+  ],
+  "Etag": [
+    "W/\"576-Y8y+4Vv0qYrM429v8ExAPukVlNI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=def21148f77e9c056666e3c2c607c91d81565326214; expires=Sat, 08-Aug-20 04:50:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+29227 1565326215753 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "e287a852-cce0-42a7-b013-a6325864be88",
+  "verticalColumns": false
+}
+Response:+28036
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4239c5b5-0df2-4db0-88c8-c00ad6e67d08",
+            "5d061d4c-40d8-4d9f-b407-2d8167695bb0",
+            "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+            "6a89b20b-0c0b-4fb6-98a3-8d0ca381dcf0",
+            "0a694781-2e36-4c42-bb01-5b8d7f9e3952",
+            "b0e651eb-420e-411f-9305-1323bba8536d",
+            "cad29e34-5e6c-46ae-80e8-820d030ceaeb",
+            "10cad72c-7757-4403-b767-2eb16b5505a5",
+            "31cf3597-4bdf-46ea-9819-6cd969d6ecdd",
+            "e287a852-cce0-42a7-b013-a6325864be88"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736916862,
+          "id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2012 (10)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 29
+        }
+      },
+      "06f0d54d-6d2d-4f6e-905a-c8eed1bf0d4d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "06f0d54d-6d2d-4f6e-905a-c8eed1bf0d4d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The verification process starts after your purchase the certificate. The details depend on whether you’re a company or an individual. I ordered as an individual and the verification process was:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "10a56904-d4cd-49fe-9868-e3aa05fa52c5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "10a56904-d4cd-49fe-9868-e3aa05fa52c5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2012-04-15T22:28:01-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "15278c7d-3a6a-4198-8ff5-586ff0598ebf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "15278c7d-3a6a-4198-8ff5-586ff0598ebf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The domain is necessary to complete verification process of your identity that Comodo does. It’s a strange requirement for a certificate for signing applications but I’m guessing it’s because certificate have roots in SSL/internet and in that case domain name is required."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1e5e24f0-176e-429d-bab0-c60352d5fd41": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "1e5e24f0-176e-429d-bab0-c60352d5fd41",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "209b52f8-5509-445c-b16c-916472b62359": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "209b52f8-5509-445c-b16c-916472b62359",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Then they asked for a copy of a phone bill. I e-mailed them the PDF bill I downloaded from AT\u0026T’s website"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "21160a37-6297-4f33-997c-7d44db90a03d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "21160a37-6297-4f33-997c-7d44db90a03d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Recently I’ve bought a code signing certificate so that I can sign my Windows application "
+              ],
+              [
+                "SumatraPDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ],
+              [
+                " (I’m hoping it’ll reduce number of false positive from various anti-virus programs that claim that SumatraPDF is suspect)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2c85a7f7-a396-418a-842a-686d96fb3aff": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919118,
+          "id": "2c85a7f7-a396-418a-842a-686d96fb3aff",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919118,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That creates a certificate and adds it to browser’s certificate store. Finally, you export the certificate to a file. The steps are detailed at "
+              ],
+              [
+                "http://blog.ksoftware.net/",
+                [
+                  [
+                    "a",
+                    "http://blog.ksoftware.net/"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "32f31f1b-e392-4a0f-9742-61e55aa4ef62": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "32f31f1b-e392-4a0f-9742-61e55aa4ef62",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "All in all, the back and forth took the whole day."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "385838c5-03d8-491a-a1e1-06b7d0331315": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "385838c5-03d8-491a-a1e1-06b7d0331315",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I bought a certificate valid for 3 years ($245). The validity only affects whether you can use the certificate to sign. After you sign the app, its signature is valid forever."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "48bc426a-7fe0-4f9d-a482-65b6e7dd0ad1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919118,
+          "id": "48bc426a-7fe0-4f9d-a482-65b6e7dd0ad1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919118,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "As to actual signing, I use K Software’s ksign tool (the command-line version ksigncmd that I call from my build script)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "55dcc7ff-d74f-4b23-b3d4-c4128a108ea4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "55dcc7ff-d74f-4b23-b3d4-c4128a108ea4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There were some things that I wish I knew before starting the process, so I’m documenting the process here for posterity."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6e779c33-fc86-43e1-85f6-212213c01d38": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "6e779c33-fc86-43e1-85f6-212213c01d38",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1002039"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7b6319b0-6629-4ab0-9491-e5b33e356e43": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "7b6319b0-6629-4ab0-9491-e5b33e356e43",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Then they called me on my phone to verify the phone number on the bill is my phone number"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "7f0b38b9-d92f-465e-843d-490c22963a97": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "7f0b38b9-d92f-465e-843d-490c22963a97",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Important note before you start: you also need to have some internet domain registered in your name (or in your organization’s name) and to minimize the troubles make sure there is a valid e-mail address with that domain that you can receive (I use Google Apps for that domain and use it to forward e-mails for that domain to my personal gmail account)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "89d08354-6023-4769-8569-008fe1b0653e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "89d08354-6023-4769-8569-008fe1b0653e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "add63c01-584f-4ec9-ba68-16e5a3ff5c20": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "add63c01-584f-4ec9-ba68-16e5a3ff5c20",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "After certificate expires, you can renew it. The shortest (and cheapest) validity period is 1 year. I opted for 3 years because it minimizes the hassle of renewing every year."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c6eca1a6-4c2f-45f0-986d-4c5f6ddcfded": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "c6eca1a6-4c2f-45f0-986d-4c5f6ddcfded",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "They asked for a copy of valid id. I e-mailed them a photo of my driver’s license (taken with iPhone)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "dbecc960-195c-4e14-8eef-9430cf1b7c50": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "dbecc960-195c-4e14-8eef-9430cf1b7c50",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "After the certificate is issued you need to download it to a file. To do that you need to visit a web page that Comodo created for you in a supported browser (FireFox or IE, Chrome is not supported, I used FireFox) on the same computer that was used to order the certificate."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e287a852-cce0-42a7-b013-a6325864be88": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "6e779c33-fc86-43e1-85f6-212213c01d38",
+            "1e5e24f0-176e-429d-bab0-c60352d5fd41",
+            "10a56904-d4cd-49fe-9868-e3aa05fa52c5",
+            "89d08354-6023-4769-8569-008fe1b0653e",
+            "21160a37-6297-4f33-997c-7d44db90a03d",
+            "55dcc7ff-d74f-4b23-b3d4-c4128a108ea4",
+            "e53df8d7-df86-4021-9832-c436590e9ac4",
+            "385838c5-03d8-491a-a1e1-06b7d0331315",
+            "add63c01-584f-4ec9-ba68-16e5a3ff5c20",
+            "7f0b38b9-d92f-465e-843d-490c22963a97",
+            "15278c7d-3a6a-4198-8ff5-586ff0598ebf",
+            "fcb1dcab-aa67-424a-8d31-9985be1096d4",
+            "ea358acc-af37-491b-8181-f82a7594ba5e",
+            "06f0d54d-6d2d-4f6e-905a-c8eed1bf0d4d",
+            "c6eca1a6-4c2f-45f0-986d-4c5f6ddcfded",
+            "209b52f8-5509-445c-b16c-916472b62359",
+            "7b6319b0-6629-4ab0-9491-e5b33e356e43",
+            "32f31f1b-e392-4a0f-9742-61e55aa4ef62",
+            "dbecc960-195c-4e14-8eef-9430cf1b7c50",
+            "2c85a7f7-a396-418a-842a-686d96fb3aff",
+            "48bc426a-7fe0-4f9d-a482-65b6e7dd0ad1"
+          ],
+          "copied_from": "805aeb7e-9337-48bd-89c1-245355b486cb",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919115,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996165682,
+          "parent_id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Buying a certificate for signing windows applications"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      },
+      "e53df8d7-df86-4021-9832-c436590e9ac4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "e53df8d7-df86-4021-9832-c436590e9ac4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There are many places to buy a code signing certificate. I bought it from "
+              ],
+              [
+                "K Software",
+                [
+                  [
+                    "a",
+                    "http://ksoftware.net/"
+                  ]
+                ]
+              ],
+              [
+                " as they have low prices and there’s enough info on the internet to assure me that it’s the right kind of certificate for signing Windows apps. The certificate is actually issued by Comodo, K Software is only a reseller (but they have lower prices than Comodo - go figure)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "ea358acc-af37-491b-8181-f82a7594ba5e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919117,
+          "id": "ea358acc-af37-491b-8181-f82a7594ba5e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919117,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "For that reason the organization that issues certificates (in this case Comodo) needs to verify the identity of the person buying the certificate so that e.g. I can’t order a certificate that says my name is “Microsoft” and start signing my apps as coming from Microsoft."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "fcb1dcab-aa67-424a-8d31-9985be1096d4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736919116,
+          "id": "fcb1dcab-aa67-424a-8d31-9985be1096d4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736919116,
+          "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Signing an app with a certificate basically serves as a stamp that says “this application has been signed by company/individual X”. For the system to work, X must be a legitimate company/person and not, say, a hacker."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371bab8eb47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:15 GMT"
+  ],
+  "Etag": [
+    "W/\"49ef-FB0282LLU3X0f3ddygPrbH1olUA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=def21148f77e9c056666e3c2c607c91d81565326214; expires=Sat, 08-Aug-20 04:50:14 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

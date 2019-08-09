@@ -1,0 +1,588 @@
+2423 1565326114155 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+      "table": "block"
+    }
+  ]
+}
+Response:+1274
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+          "ab8424f4-f114-4776-9c6f-e07866476781",
+          "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+          "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+          "85b21b5b-b505-4dba-a79d-ad869cd10519",
+          "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+          "23d339b6-12c2-4065-bccb-6d57946d09e1",
+          "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+          "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+          "43c56b40-56bd-419e-af2d-7594ec40ecac"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422366349,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422600000,
+        "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "CDN comparison"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 38
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037193048a47fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"36e-xPovcJmIb6FK4MKcngXqLwvwk1I\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+15440 1565326114157 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+  "verticalColumns": false
+}
+Response:+14249
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422480000,
+          "id": "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422600000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.cdnperf.com/tools/cdn-calculator",
+                [
+                  [
+                    "a",
+                    "https://www.cdnperf.com/tools/cdn-calculator"
+                  ]
+                ]
+              ],
+              [
+                " (needed to disable ad blocker for it to work)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 52
+        }
+      },
+      "23d339b6-12c2-4065-bccb-6d57946d09e1": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432585,
+          "id": "23d339b6-12c2-4065-bccb-6d57946d09e1",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Cloudflare: the best all-in-one solution, as long as you don't go above the Business tier"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "2bb10cd2-9459-4716-b7df-7ea966d3fce6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422480000,
+          "id": "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Sources:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 14
+        }
+      },
+      "43c56b40-56bd-419e-af2d-7594ec40ecac": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432586,
+          "id": "43c56b40-56bd-419e-af2d-7594ec40ecac",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "BunnyCDN: the best value-for-money CDN for distributing large static assets across the globe (can get as low as $0.0025 / GB)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422360000,
+          "id": "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "From "
+              ],
+              [
+                "https://news.ycombinator.com/item?id=19367845",
+                [
+                  [
+                    "a",
+                    "https://news.ycombinator.com/item?id=19367845"
+                  ]
+                ]
+              ],
+              [
+                ", based on data from "
+              ],
+              [
+                "https://www.cdnperf.com/",
+                [
+                  [
+                    "a",
+                    "https://www.cdnperf.com/"
+                  ]
+                ]
+              ],
+              [
+                ":"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 51
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "85b21b5b-b505-4dba-a79d-ad869cd10519": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432584,
+          "id": "85b21b5b-b505-4dba-a79d-ad869cd10519",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CDNPerf ",
+                [
+                  [
+                    "a",
+                    "https://www.cdnperf.com/"
+                  ]
+                ]
+              ],
+              [
+                "provides a real-time performance analysis of all major CDN providers."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 7
+        }
+      },
+      "991b89be-2774-4b82-9670-1aef5e4ffdcb": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432585,
+          "id": "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I have researched this space a lot, and my conclusions are:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 2
+        }
+      },
+      "ab8424f4-f114-4776-9c6f-e07866476781": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422480000,
+          "id": "ab8424f4-f114-4776-9c6f-e07866476781",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "https://www.cdnperf.com/",
+                [
+                  [
+                    "a",
+                    "https://www.cdnperf.com/"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 9
+        }
+      },
+      "b51c5400-2cb8-42eb-8dec-2185ad877a9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+            "ab8424f4-f114-4776-9c6f-e07866476781",
+            "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+            "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+            "85b21b5b-b505-4dba-a79d-ad869cd10519",
+            "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+            "23d339b6-12c2-4065-bccb-6d57946d09e1",
+            "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+            "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+            "43c56b40-56bd-419e-af2d-7594ec40ecac"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422366349,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422600000,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CDN comparison"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 38
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "d86a1ed7-cbee-4434-9fa3-eb246092c2d8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432585,
+          "id": "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "KeyCDN: the best fully-featured value-for-money CDN, if you just want to replace AWS Cloudfront CDN / Google Cloud CDN / Azure CDN"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      },
+      "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422432585,
+          "id": "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422420000,
+          "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Fastly: the most technically advanced CDN, but also one of the most expensive ones (there is a reason why StackExchange and Reddit moved from Cloudflare to Fastly)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 8
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371930b8ec7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:33 GMT"
+  ],
+  "Etag": [
+    "W/\"2312-HnYBb0hHi0kvWGIPNJqkd91TtiQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d5dd98013a26ec7ae3e1911da1de79aca1565326113; expires=Sat, 08-Aug-20 04:48:33 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

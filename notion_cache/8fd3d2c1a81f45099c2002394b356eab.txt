@@ -1,0 +1,770 @@
+2795 1565326194954 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+      "table": "block"
+    }
+  ]
+}
+Response:+1646
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "50f73614-3d57-46bc-8031-a5cd3abccf7c",
+          "021aed25-5fc2-4d14-84ac-75acebd86a0d",
+          "ed4eda48-337e-4b7b-ad48-fd98d2d7051b",
+          "9924570f-441e-4052-bd4b-4229b06b8f08",
+          "193e70d9-aec8-4275-a9b2-266786d91dcd",
+          "479cb94e-fe54-46f3-81e0-75b33120b0d6",
+          "9b7b728c-bcd3-4f6a-9372-da86fc014c95",
+          "7ef42a7b-0598-49d8-9cce-3e45a3cd49bf",
+          "9cbc9508-c585-4ba8-b899-1afd5489f8f0",
+          "9739393d-37c6-49fc-a9aa-55c4bfa021d6",
+          "f5dc03c5-3283-4890-8349-8ac5488935e3",
+          "e659a603-29db-4230-a161-20894e8b28ca",
+          "67b34af9-4d9e-4b03-b7fa-bf92151b145e",
+          "0cfa4b15-3322-457c-8561-dba77178755d",
+          "a1d195dd-a791-4ac9-9098-b59168285cab",
+          "b3b3a85e-689f-4020-a7f0-cc9642c7b04e"
+        ],
+        "copied_from": "b4b57811-f66f-4790-b527-d81699f20dfc",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195893571,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996344705,
+        "parent_id": "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SumatraPDF 0.4 released"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 12
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b292aad7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:54 GMT"
+  ],
+  "Etag": [
+    "W/\"496-v0xYdk03ckeUVuDEr/jYvIKnUuI\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d4fa4b2593667fd5cb5d152ad60dc6b481565326194; expires=Sat, 08-Aug-20 04:49:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+22953 1565326194958 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+  "verticalColumns": false
+}
+Response:+21762
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "021aed25-5fc2-4d14-84ac-75acebd86a0d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "021aed25-5fc2-4d14-84ac-75acebd86a0d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: sumatra"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "0cfa4b15-3322-457c-8561-dba77178755d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "0cfa4b15-3322-457c-8561-dba77178755d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "improve the way fonts directory is found (hopefully)"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "193e70d9-aec8-4275-a9b2-266786d91dcd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "193e70d9-aec8-4275-a9b2-266786d91dcd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Weekend came, weekend went but what it left is another release of SumatraPDF - my humble reader for PDF files."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "479cb94e-fe54-46f3-81e0-75b33120b0d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "479cb94e-fe54-46f3-81e0-75b33120b0d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This release adds some of the most requested (in the forums) features and fixes."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "50f73614-3d57-46bc-8031-a5cd3abccf7c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "50f73614-3d57-46bc-8031-a5cd3abccf7c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623872419,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1974"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 3
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "67b34af9-4d9e-4b03-b7fa-bf92151b145e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "67b34af9-4d9e-4b03-b7fa-bf92151b145e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "fix toolbar issues on win2k"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "7a545f91-66c3-48a9-a0b7-00e83dffeafa": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "24ed7d27-904f-4e7e-af16-7c68eadc60a8",
+            "b6b24076-4374-47a7-b6d8-5b17630b10f5",
+            "7ac06eee-d2c9-48bf-9357-abce5e77fd9e",
+            "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+            "4e3d3b4a-b3f4-4010-b267-6d6baab0da36",
+            "32c27f57-8da7-4208-ae55-1f876a74fa4f",
+            "2169704b-9353-40bb-9268-0cc86aafbf33",
+            "85a9dcbd-aa7b-4510-b7c1-93dd26c785a1",
+            "7507d2a0-be2f-4cfb-9306-74187e6e647e",
+            "8937daac-51ac-4286-97f7-3675e4a270c1"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195854959,
+          "id": "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268320000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2007 (10)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 43
+        }
+      },
+      "7ef42a7b-0598-49d8-9cce-3e45a3cd49bf": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "7ef42a7b-0598-49d8-9cce-3e45a3cd49bf",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It has improved support for portable usage (i.e. running off of e.g. USB drive). When it detects it’s not running from Program Files directory, it assumes portable usage and doesn’t write any files or registry items on the computer. It writes its preferences files in the same directory as the executable. Because of that I changed the name of preferences file from prefs.txt to sumatrapdfprefs.txt, to make it clear it is related to Sumatra. Unfortunate side effect is that settings from 0.3 will be lost."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8fd3d2c1-a81f-4509-9c20-02394b356eab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "50f73614-3d57-46bc-8031-a5cd3abccf7c",
+            "021aed25-5fc2-4d14-84ac-75acebd86a0d",
+            "ed4eda48-337e-4b7b-ad48-fd98d2d7051b",
+            "9924570f-441e-4052-bd4b-4229b06b8f08",
+            "193e70d9-aec8-4275-a9b2-266786d91dcd",
+            "479cb94e-fe54-46f3-81e0-75b33120b0d6",
+            "9b7b728c-bcd3-4f6a-9372-da86fc014c95",
+            "7ef42a7b-0598-49d8-9cce-3e45a3cd49bf",
+            "9cbc9508-c585-4ba8-b899-1afd5489f8f0",
+            "9739393d-37c6-49fc-a9aa-55c4bfa021d6",
+            "f5dc03c5-3283-4890-8349-8ac5488935e3",
+            "e659a603-29db-4230-a161-20894e8b28ca",
+            "67b34af9-4d9e-4b03-b7fa-bf92151b145e",
+            "0cfa4b15-3322-457c-8561-dba77178755d",
+            "a1d195dd-a791-4ac9-9098-b59168285cab",
+            "b3b3a85e-689f-4020-a7f0-cc9642c7b04e"
+          ],
+          "copied_from": "b4b57811-f66f-4790-b527-d81699f20dfc",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893571,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996344705,
+          "parent_id": "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "SumatraPDF 0.4 released"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 12
+        }
+      },
+      "9739393d-37c6-49fc-a9aa-55c4bfa021d6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "9739393d-37c6-49fc-a9aa-55c4bfa021d6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Under the covers a lot of effort went into supporting alternative PDF rendering engine. This new engine is significantly faster than poppler so I’ve enabled it by default. You can switch back to poppler by unchecking menu item."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9924570f-441e-4052-bd4b-4229b06b8f08": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "9924570f-441e-4052-bd4b-4229b06b8f08",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531623871255,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "type": "text",
+          "version": 3
+        }
+      },
+      "9b7b728c-bcd3-4f6a-9372-da86fc014c95": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "9b7b728c-bcd3-4f6a-9372-da86fc014c95",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is the first release to have printing, a feature contributed in great part by Omar. It had limited testing (there are only so many pages I’m willing to print)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9cbc9508-c585-4ba8-b899-1afd5489f8f0": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "9cbc9508-c585-4ba8-b899-1afd5489f8f0",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It no longer blindly registers itself as a default handler for PDF files. It asks the user nicely first."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a1d195dd-a791-4ac9-9098-b59168285cab": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "a1d195dd-a791-4ac9-9098-b59168285cab",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "uninstaller completely removes the program"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "b3b3a85e-689f-4020-a7f0-cc9642c7b04e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "b3b3a85e-689f-4020-a7f0-cc9642c7b04e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "A side effect of using new engine is that support for link inside PDF files was disabled. Well, one more reason to wait for the next version…"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e659a603-29db-4230-a161-20894e8b28ca": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "e659a603-29db-4230-a161-20894e8b28ca",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "scrolling with mouse wheel works"
+              ]
+            ]
+          },
+          "type": "bulleted_list",
+          "version": 1
+        }
+      },
+      "ed4eda48-337e-4b7b-ad48-fd98d2d7051b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "ed4eda48-337e-4b7b-ad48-fd98d2d7051b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2007-02-19T21:24:41-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f5dc03c5-3283-4890-8349-8ac5488935e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531195893572,
+          "id": "f5dc03c5-3283-4890-8349-8ac5488935e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531195893572,
+          "parent_id": "8fd3d2c1-a81f-4509-9c20-02394b356eab",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "And a bunch of fixes, most of them reported at some point on those forums:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b299aec7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:49:54 GMT"
+  ],
+  "Etag": [
+    "W/\"393c-PzTGV3UIXYlrqZn2DqAJKdNWl90\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d4fa4b2593667fd5cb5d152ad60dc6b481565326194; expires=Sat, 08-Aug-20 04:49:54 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

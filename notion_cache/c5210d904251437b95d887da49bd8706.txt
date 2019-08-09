@@ -1,0 +1,564 @@
+2268 1565326090959 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+      "table": "block"
+    }
+  ]
+}
+Response:+1119
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "ef5d3105-090f-453e-aa8d-aa628a76837a",
+          "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+          "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+          "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531194475639,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422480000,
+        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Research"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 124
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "5037189f4b547fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:10 GMT"
+  ],
+  "Etag": [
+    "W/\"2f4-bhPA66tMSgTO/2dC66oiYFEbjrQ\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1cced1c870455e7b682877b2678829d21565326090; expires=Sat, 08-Aug-20 04:48:10 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+15791 1565326090961 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "c5210d90-4251-437b-95d8-87da49bd8706",
+  "verticalColumns": false
+}
+Response:+14600
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "2ba0b2e0-deae-4c77-b31e-4481777b70a2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+            "a1456e9c-a227-4c32-be8c-6ae065f3855b",
+            "1038b484-044d-42fa-9242-d2445cdf9c53",
+            "87b42ff4-81ca-4ea3-bf4d-11ae306831b2",
+            "07d8cbcf-3f47-4724-b539-3753a588a64c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528233350473,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532409014482,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research for investing"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 138
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "615ae33e-1f87-4b5c-98a9-876e4915b021": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "e45ccf24-8c82-4fbf-96db-31102922b68e",
+            "12cc89ed-86bb-453b-bd90-58bec0f2ca49",
+            "09b2c19d-d6cd-4478-9df5-80a4b109c775",
+            "4edb6306-f250-4642-94a9-86cca78a1749",
+            "3b7d686e-5372-4a10-be00-0824b82fe41e",
+            "df8fb4ac-4f7e-453e-b50c-407f41451194",
+            "e7db2b30-6853-48ae-be55-a18a617c7a1b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528827180687,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "615ae33e-1f87-4b5c-98a9-876e4915b021",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531342769647,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Solar energy facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 65
+        }
+      },
+      "b51c5400-2cb8-42eb-8dec-2185ad877a9b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+            "ab8424f4-f114-4776-9c6f-e07866476781",
+            "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+            "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+            "85b21b5b-b505-4dba-a79d-ad869cd10519",
+            "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+            "23d339b6-12c2-4065-bccb-6d57946d09e1",
+            "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+            "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+            "43c56b40-56bd-419e-af2d-7594ec40ecac"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1552422366349,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422600000,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "CDN comparison"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 38
+        }
+      },
+      "c5210d90-4251-437b-95d8-87da49bd8706": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+            "ef5d3105-090f-453e-aa8d-aa628a76837a",
+            "615ae33e-1f87-4b5c-98a9-876e4915b021",
+            "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+            "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+            "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+            "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531194475639,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1552422480000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Research"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 124
+        }
+      },
+      "c674bebe-8adf-44d1-8c3a-36cc18c131e2": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "45f8b0c5-57d5-4fe8-b9c6-1ef90c02ffa3",
+            "075c33d0-8058-4882-bb75-e21ecbc32ea8",
+            "0a979982-f1d7-429e-ad6b-15f9a89cf8e3",
+            "dacee791-2730-4df3-af1a-d101f2328322",
+            "ffb27a11-ad6c-4d79-ae7f-f8149e4b9fe9",
+            "e2423e6b-e580-4c74-8361-b93461e51efc",
+            "19ef5dfc-247c-4f50-a54b-90a73cb8f462",
+            "f9dc7745-9ad4-4561-b5ee-8cc04f462f1f",
+            "3b37413f-3ef6-47d3-9b76-820fd03d3457",
+            "55ee1fee-c089-4866-b908-3dbb475da3ae",
+            "9712665b-b331-4871-83d8-37b59bffd0d6",
+            "7e6fa619-4186-4499-b97a-3b53407653a0",
+            "d5f27f3a-a625-41b9-b314-69bf71cffc6c",
+            "ed80783d-5ce1-4d08-8d34-5ebb55dfbbdd",
+            "43d4b69c-bcfb-4c66-a1ca-6cfd69562876"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1532991467423,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532995904758,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Web services for hosting static websites"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 290
+        }
+      },
+      "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8efa5166-5dd9-4231-988d-70f9349897b6",
+            "391b3575-a761-4d0f-b129-74b0366590ef",
+            "ceadd5d6-ee5e-4b09-9bad-58096c2fd154",
+            "fc3dd1d3-25e4-439d-96e0-6e6adf8f98c8",
+            "648dba17-a115-4030-8820-3e65432664fc",
+            "94067982-666f-4d49-ab1b-d9b9c9f56aee",
+            "f8415555-3dfc-45b2-b9a7-01fe517c8cd7",
+            "ad2e35cf-4a18-4af3-8407-7b5a8c3595ec",
+            "eda4c945-8cb2-49c0-a9e2-f48e9e8eb885",
+            "48f52c1f-c135-4cd6-a79d-d9322d726903",
+            "665fda0d-20c5-43d0-b21a-7ca17f7a05d1",
+            "50018ac8-86c1-42a0-bf7e-6e110067098e",
+            "9c7012bb-3de7-42c2-9543-bf49fac8aa5e",
+            "83ca4f96-4ab4-4d1b-aca4-45b19c43e9e0",
+            "b86a932e-e38a-4a0e-89a7-4ee73cdebf1d",
+            "77fcd4dc-334c-4bf6-87fb-5eacb4b45ffd",
+            "a656a0f6-236c-4d42-98ad-c97d56b2a124",
+            "9635a5a5-5294-4c17-82d0-c1027571a50d",
+            "bd97b1f3-48c1-4f9c-8870-2df3b9621295",
+            "c8353362-e8d5-4341-9709-d031ce8be8b6",
+            "5da9e30d-c967-4220-8c69-0165b385b9ed",
+            "bb752b9d-e6a7-4727-8065-0e440a316191",
+            "6c22350d-e2bc-4da0-be92-42fd0b0360f2",
+            "1b057274-7aee-4552-b2c8-d40b5ad974f5",
+            "56af9ac6-7751-400e-932f-928cb3b54f15",
+            "684a3a13-db60-4e45-8fe6-6acef91d796f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530071194505,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532925117930,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Comparing prices of VPS servers"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 232
+        }
+      },
+      "ef5d3105-090f-453e-aa8d-aa628a76837a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "d488322b-6416-4cc8-810d-03a3738d7ca6",
+            "95b211e5-ec44-45b8-9f7b-4a6b1275dd37",
+            "4a3b16b4-88ae-4dc8-9bf3-f4fb8fb3bd43",
+            "a144f012-4879-4d4a-826a-2bc334259675",
+            "721e8163-5b2a-4f36-99e6-d4f4e08685f5"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528752773008,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "ef5d3105-090f-453e-aa8d-aa628a76837a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531194504847,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "San Francisco facts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 63
+        }
+      },
+      "f3dfcf36-fb46-4129-80b8-efa4336c0ea5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "9437238f-878d-4fea-b0fe-7f64d2d6e2dd",
+            "65676908-602e-49dc-a023-3de8083ed0c5",
+            "25b01050-efc5-4d59-a5c0-9e2519c4195c",
+            "bd2f049d-b163-4416-8fdb-64d4187dc612",
+            "04ce5c78-9526-4661-a802-70cd01c68128",
+            "c7f64a94-1998-468b-a7d9-c00059b0737d",
+            "ebf1f9dd-20fa-447f-96ed-0488c32185d9",
+            "7fc77b67-4b1c-44bc-8f45-1dcea83c9a35",
+            "829c2fef-2718-443a-bf41-28059c8fae03",
+            "53653383-696f-4e15-8497-f63528976c99",
+            "3c848e34-2d4b-4528-a5b8-5292e78f80b9",
+            "e5ade3da-5a12-4e4e-b092-c64be55f6b90",
+            "a19daccc-09ad-4705-a48f-44e5bb48eb4b",
+            "177d1a3f-4961-453a-82e7-cdb44225b4b1",
+            "ed79fc8d-f033-4a16-826f-d6d57e0f8c33",
+            "272ee4d1-d672-406d-bb76-2ecee1f8bb8d",
+            "9bc0e40f-5dd0-4518-917d-d2abb701407f",
+            "f56f5bac-bd21-41a4-8c12-96bea3bdd849",
+            "b5364392-d53f-460f-a94f-900230b778d5",
+            "c12bd6ff-16b9-40e7-940e-6bb420a95cfa",
+            "a2dd1a5f-8e99-443e-b2b7-903b579d7b0f"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530072473905,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1540357013918,
+          "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Online storage comparison"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 144
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "5037189fab7f7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:48:10 GMT"
+  ],
+  "Etag": [
+    "W/\"261a-sMFhAF73VQehCFzwbMvp2ZntrYA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1cced1c870455e7b682877b2678829d21565326090; expires=Sat, 08-Aug-20 04:48:10 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

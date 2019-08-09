@@ -1,0 +1,1029 @@
+3230 1565326204272 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "b0e651eb-420e-411f-9305-1323bba8536d",
+      "table": "block"
+    }
+  ]
+}
+Response:+2081
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "f64c0fc8-02e1-4ff8-8d0b-0e8747a4ad70",
+          "d9d4f335-196b-4e4e-a06d-419a6ea33cb7",
+          "42746957-212a-4005-8501-71a35b191bbc",
+          "6cce9077-05c9-4f20-83b7-4c3a79e04d05",
+          "4c134336-d285-4a99-9c02-9d3c573d1c10",
+          "c6ccb468-def6-44d7-80c0-72e22bd1c48e",
+          "e605c781-9371-4777-9b2d-33b5164b9443",
+          "6acb882f-81fa-4365-9420-af54f8c0c2b6",
+          "15af0f1d-1f75-4543-94af-7e81478687af",
+          "24e16a66-a2ce-4330-8fa8-0cb22f062f0d",
+          "aea82f37-8b6f-4afa-afa2-2356d1f6563a",
+          "e19b96e0-28f7-4e59-bc0f-0690990e75df",
+          "1984a904-3fc0-4714-a35f-17bdf1583ead",
+          "cca4d561-8156-486a-a392-6b09fac1dcbe",
+          "8b28cebd-834a-442d-9b6a-f8e9cc94091e",
+          "79267bad-e5aa-4bf6-b4b0-d9caaa7512b8",
+          "e6f90445-7525-4837-9033-677002a065d4",
+          "5d023c1f-fc84-488d-b38e-fd874a8ed27c",
+          "d855b171-6fcd-4db2-a9de-55789af49ee7",
+          "2788531e-d1cf-4973-8bba-438d800ec41b",
+          "0bd66ad7-551a-4213-8aa5-17fc45bc30dd",
+          "b17e1408-266e-41f9-bfd6-a211a2229f0e",
+          "4860b360-66a9-4e13-bb81-69499b8caf92",
+          "8fb92408-6251-4e80-8415-143b3171f1d3"
+        ],
+        "copied_from": "be92a5a9-76cf-4c16-9141-99a23611db9f",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736918975,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b0e651eb-420e-411f-9305-1323bba8536d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996165682,
+        "parent_id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How I sped up Go by 20% (or is Go really slower than Java?)"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b637f6c7fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:03 GMT"
+  ],
+  "Etag": [
+    "W/\"5f1-g+x//l1DujP7i798kEcL21KCxso\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=da33faa2878260e2da988f41709a4bc7c1565326203; expires=Sat, 08-Aug-20 04:50:03 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+31892 1565326204273 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "b0e651eb-420e-411f-9305-1323bba8536d",
+  "verticalColumns": false
+}
+Response:+30701
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4239c5b5-0df2-4db0-88c8-c00ad6e67d08",
+            "5d061d4c-40d8-4d9f-b407-2d8167695bb0",
+            "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+            "6a89b20b-0c0b-4fb6-98a3-8d0ca381dcf0",
+            "0a694781-2e36-4c42-bb01-5b8d7f9e3952",
+            "b0e651eb-420e-411f-9305-1323bba8536d",
+            "cad29e34-5e6c-46ae-80e8-820d030ceaeb",
+            "10cad72c-7757-4403-b767-2eb16b5505a5",
+            "31cf3597-4bdf-46ea-9819-6cd969d6ecdd",
+            "e287a852-cce0-42a7-b013-a6325864be88"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736916862,
+          "id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2012 (10)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 29
+        }
+      },
+      "0bd66ad7-551a-4213-8aa5-17fc45bc30dd": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918979,
+          "id": "0bd66ad7-551a-4213-8aa5-17fc45bc30dd",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918979,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Java garbage collector is much better than Go’s which explains why allocation-heavy benchmarks (e.g. binary-trees) perform so much better (there’s almost no computation there, just allocation of a lot of tree nodes)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "15af0f1d-1f75-4543-94af-7e81478687af": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "15af0f1d-1f75-4543-94af-7e81478687af",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I took a look at "
+              ],
+              [
+                "Go implementation",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/kjkpub/blob/master/gobench/revcomp.go"
+                  ]
+                ]
+              ],
+              [
+                ". I’m not an expert in implementing reverse-complement algorithm but I immediately noticed that the code does a lot of unnecessary memory allocations and copying."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1984a904-3fc0-4714-a35f-17bdf1583ead": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "1984a904-3fc0-4714-a35f-17bdf1583ead",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The argument of HN commenter was: look at those benchmarks, Go is 2x slower than Java."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "24e16a66-a2ce-4330-8fa8-0cb22f062f0d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "24e16a66-a2ce-4330-8fa8-0cb22f062f0d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I looked at "
+              ],
+              [
+                "Java implementation",
+                [
+                  [
+                    "a",
+                    "http://shootout.alioth.debian.org/u64/program.php?test=revcomp\u0026lang=java\u0026id=6"
+                  ]
+                ]
+              ],
+              [
+                " and what do you know: it’s implemented more efficiently, without unnecessary memory allocations and copying. Plus it parallelizes the computation."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2788531e-d1cf-4973-8bba-438d800ec41b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918978,
+          "id": "2788531e-d1cf-4973-8bba-438d800ec41b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918978,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "On equivalent programs, Go generates programs similar in speed or faster. 64-bit version will be slightly better than 32-bit version."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "42746957-212a-4005-8501-71a35b191bbc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "id": "42746957-212a-4005-8501-71a35b191bbc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918975,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2012-09-16T01:55:48-07:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4860b360-66a9-4e13-bb81-69499b8caf92": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918980,
+          "id": "4860b360-66a9-4e13-bb81-69499b8caf92",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918980,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Go is already competitive with Java and will only get better. Let’s not forget that Java had over 20 years of investments in code generation and garbage collection. Go is only 5 years old. There already were compiler and garbage collection improvements since the latest released version."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4c134336-d285-4a99-9c02-9d3c573d1c10": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "id": "4c134336-d285-4a99-9c02-9d3c573d1c10",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918975,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I confess: I didn’t really speed up Go by 20%. However, if you were to believe simplistic arguments, I did."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "5d023c1f-fc84-488d-b38e-fd874a8ed27c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "5d023c1f-fc84-488d-b38e-fd874a8ed27c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Is Go really slower than Java?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "6acb882f-81fa-4365-9420-af54f8c0c2b6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "6acb882f-81fa-4365-9420-af54f8c0c2b6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That seemed wrong to me - Go compiles to native code. Java, ultimately, does too, but compilation happens at runtime, which is an overhead that Go doesn’t have, so in principle Go should be faster."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "6cce9077-05c9-4f20-83b7-4c3a79e04d05": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "id": "6cce9077-05c9-4f20-83b7-4c3a79e04d05",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918975,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The story of a faulty benchmark"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "79267bad-e5aa-4bf6-b4b0-d9caaa7512b8": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "79267bad-e5aa-4bf6-b4b0-d9caaa7512b8",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The story doesn’t end here. The above results were for single core x86 machine. If you look at results for "
+              ],
+              [
+                "single-core 64-bit machine",
+                [
+                  [
+                    "a",
+                    "http://shootout.alioth.debian.org/u64/benchmark.php?test=all\u0026lang=go\u0026lang2=java"
+                  ]
+                ]
+              ],
+              [
+                ", Go actually wins on this and 2 other benchmarks."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8b28cebd-834a-442d-9b6a-f8e9cc94091e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "8b28cebd-834a-442d-9b6a-f8e9cc94091e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "By that simplistic argument I’ve improved speed of Go by 20% by writing a slightly better implementation of the benchmark."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8fb92408-6251-4e80-8415-143b3171f1d3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918980,
+          "id": "8fb92408-6251-4e80-8415-143b3171f1d3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918980,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "One area where Go wins undeniably is memory usage - the programs use at least order of magnitude less memory. Java is paying the cost of sophisticated virtual machine."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "aea82f37-8b6f-4afa-afa2-2356d1f6563a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "aea82f37-8b6f-4afa-afa2-2356d1f6563a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I wrote "
+              ],
+              [
+                "my own Go implementation",
+                [
+                  [
+                    "a",
+                    "https://github.com/kjk/kjkpub/blob/master/gobench/revcomp8c.go"
+                  ]
+                ]
+              ],
+              [
+                ", more similar to Java’s."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b0e651eb-420e-411f-9305-1323bba8536d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "f64c0fc8-02e1-4ff8-8d0b-0e8747a4ad70",
+            "d9d4f335-196b-4e4e-a06d-419a6ea33cb7",
+            "42746957-212a-4005-8501-71a35b191bbc",
+            "6cce9077-05c9-4f20-83b7-4c3a79e04d05",
+            "4c134336-d285-4a99-9c02-9d3c573d1c10",
+            "c6ccb468-def6-44d7-80c0-72e22bd1c48e",
+            "e605c781-9371-4777-9b2d-33b5164b9443",
+            "6acb882f-81fa-4365-9420-af54f8c0c2b6",
+            "15af0f1d-1f75-4543-94af-7e81478687af",
+            "24e16a66-a2ce-4330-8fa8-0cb22f062f0d",
+            "aea82f37-8b6f-4afa-afa2-2356d1f6563a",
+            "e19b96e0-28f7-4e59-bc0f-0690990e75df",
+            "1984a904-3fc0-4714-a35f-17bdf1583ead",
+            "cca4d561-8156-486a-a392-6b09fac1dcbe",
+            "8b28cebd-834a-442d-9b6a-f8e9cc94091e",
+            "79267bad-e5aa-4bf6-b4b0-d9caaa7512b8",
+            "e6f90445-7525-4837-9033-677002a065d4",
+            "5d023c1f-fc84-488d-b38e-fd874a8ed27c",
+            "d855b171-6fcd-4db2-a9de-55789af49ee7",
+            "2788531e-d1cf-4973-8bba-438d800ec41b",
+            "0bd66ad7-551a-4213-8aa5-17fc45bc30dd",
+            "b17e1408-266e-41f9-bfd6-a211a2229f0e",
+            "4860b360-66a9-4e13-bb81-69499b8caf92",
+            "8fb92408-6251-4e80-8415-143b3171f1d3"
+          ],
+          "copied_from": "be92a5a9-76cf-4c16-9141-99a23611db9f",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996165682,
+          "parent_id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How I sped up Go by 20% (or is Go really slower than Java?)"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      },
+      "b17e1408-266e-41f9-bfd6-a211a2229f0e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918980,
+          "id": "b17e1408-266e-41f9-bfd6-a211a2229f0e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918980,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Those benchmarks aren’t currently representative of Go performance - from cursory look it seems that C++ and Java implementations are extremely optimized and Go implementations aren’t (I’ve submitted my improved version, hopefully it’ll get incorporated)."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "c6ccb468-def6-44d7-80c0-72e22bd1c48e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918976,
+          "id": "c6ccb468-def6-44d7-80c0-72e22bd1c48e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918976,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It all started when a comment on Hacker News claimed that Java is faster than Go and pointed to "
+              ],
+              [
+                "those benchmarks",
+                [
+                  [
+                    "a",
+                    "http://shootout.alioth.debian.org/u32/benchmark.php?test=all\u0026lang=go\u0026lang2=java"
+                  ]
+                ]
+              ],
+              [
+                " as proof."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "cca4d561-8156-486a-a392-6b09fac1dcbe": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "cca4d561-8156-486a-a392-6b09fac1dcbe",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "It’s a simplistic but unfortunately powerful argument: most people won’t take the time to look at the code to determine that part of the issue is that Java implementation is simply better than Go one."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d855b171-6fcd-4db2-a9de-55789af49ee7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918978,
+          "id": "d855b171-6fcd-4db2-a9de-55789af49ee7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918978,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "There is no simplistic answer to this, but there are rules of thumb."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "d9d4f335-196b-4e4e-a06d-419a6ea33cb7": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "id": "d9d4f335-196b-4e4e-a06d-419a6ea33cb7",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918975,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: go, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e19b96e0-28f7-4e59-bc0f-0690990e75df": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "e19b96e0-28f7-4e59-bc0f-0690990e75df",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The result? On my Mac Pro I got about 20% speedup."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e605c781-9371-4777-9b2d-33b5164b9443": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918976,
+          "id": "e605c781-9371-4777-9b2d-33b5164b9443",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918976,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Indeed, every Go benchmark there is 2x to 10x slower than Java 7 program."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "e6f90445-7525-4837-9033-677002a065d4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918977,
+          "id": "e6f90445-7525-4837-9033-677002a065d4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918977,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The explanation is simple: 64-bit Go compiler is a little bit smarter than 32-bit Go compiler."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "f64c0fc8-02e1-4ff8-8d0b-0e8747a4ad70": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736918975,
+          "id": "f64c0fc8-02e1-4ff8-8d0b-0e8747a4ad70",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736918975,
+          "parent_id": "b0e651eb-420e-411f-9305-1323bba8536d",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 1404040"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b63efb77fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:03 GMT"
+  ],
+  "Etag": [
+    "W/\"4f08-0E7M7+8FNwMv8awfH1g5de2VieA\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=da33faa2878260e2da988f41709a4bc7c1565326203; expires=Sat, 08-Aug-20 04:50:03 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}

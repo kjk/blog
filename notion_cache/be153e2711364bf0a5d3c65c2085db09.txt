@@ -1,0 +1,988 @@
+3130 1565326206549 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+      "table": "block"
+    }
+  ]
+}
+Response:+1981
+{
+  "results": [
+    {
+      "role": "comment_only",
+      "value": {
+        "alive": true,
+        "content": [
+          "4e48eaf0-1a4c-4b0d-8b10-d795c9cd1bce",
+          "7a48cf6c-c838-458c-9907-82c3d0af9d52",
+          "3b0a82d6-feed-463c-9f9b-923e27cfe43c",
+          "192ae569-d64c-4671-ade2-bd5543d5282a",
+          "4edb4222-ec06-46e7-aac8-c53a5a71ea82",
+          "0cb4ae07-593e-4821-82fa-55fd5bd0261b",
+          "e8685647-d00c-48d3-8605-65cca5270499",
+          "a34607f6-9a76-477b-8749-3dd230c46036",
+          "89c17bf5-16ba-462b-9f5e-bd5608c6b86f",
+          "2864d763-a599-4d15-8b61-e6f02c54150e",
+          "9b5a2fe7-59ce-4c82-88e0-a3b72e7ad53d",
+          "9ecc6db7-7193-40db-b8ae-ab509e2b9379",
+          "99ee1b8c-1694-40b7-85de-a5d4fc280617",
+          "3b223fdc-2111-4eeb-949b-170b5d55c8e6",
+          "1e259190-ded9-4df9-81e6-d49083546c40",
+          "a1bb0f31-7df7-4e7a-bd11-1f170c16d1bc",
+          "6a584957-f716-4098-8470-99539f0cfaf5",
+          "add2413f-d92d-452d-8ba5-8c8eafaa2b92",
+          "8068f426-97bb-4ed2-8a13-0691ecc605c4",
+          "b26c4e43-6d16-4a9e-bc3d-b86cb2bf25b4",
+          "87a4d0e0-d9aa-4149-a74d-2250a112b213",
+          "baf9186a-21e4-4616-9927-b19dacfea479"
+        ],
+        "copied_from": "a0990645-08f9-44e0-ab0a-33233e38f578",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531736998579,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532996226297,
+        "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Showing html from memory in embedded web control on windows"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 8
+      }
+    }
+  ]
+}
+HeadersJSON:+931
+{
+  "Cf-Ray": [
+    "50371b71ce817fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:05 GMT"
+  ],
+  "Etag": [
+    "W/\"5a3-ahuXhik1jjDhTEOIysiCMphRM6Q\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1a3b68be4bfc77a5c1499bcca5de2b0d1565326205; expires=Sat, 08-Aug-20 04:50:05 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
+31514 1565326206551 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+  "verticalColumns": false
+}
+Response:+30323
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "0cb4ae07-593e-4821-82fa-55fd5bd0261b": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "0cb4ae07-593e-4821-82fa-55fd5bd0261b",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The problem: an easy way to show HTML in a windows program is by hosting (embedding) a web browser COM control in win32 HWND. To display HTML that lives on some http server or is a file on disk is easy: call IWebBrowser2::Navigate2()."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "192ae569-d64c-4671-ade2-bd5543d5282a": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "192ae569-d64c-4671-ade2-bd5543d5282a",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "type": "text",
+          "version": 1
+        }
+      },
+      "1e259190-ded9-4df9-81e6-d49083546c40": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "1e259190-ded9-4df9-81e6-d49083546c40",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "StackOverflow not so useful for involved question."
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "3daeddb7-7fa9-4271-ba58-6116b66c2490",
+            "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+            "7495260a-1daa-4611-8858-ad2e049e77e6",
+            "8d2ca772-ff28-4b99-b60c-42d84b7a2997",
+            "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
+            "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+            "4d625835-41be-43c9-b94b-a87da9feeee7",
+            "ed25f870-79cc-4b0b-9080-460e062053e4",
+            "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "395f6c6a-f50d-44e4-8919-a45fcc064d3e"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530921610129,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554522240000,
+          "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Words written by me"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 252
+        }
+      },
+      "2864d763-a599-4d15-8b61-e6f02c54150e": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "2864d763-a599-4d15-8b61-e6f02c54150e",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This is all rather complicated, you can look at the actual (BSD-licensed) code: "
+              ],
+              [
+                "HtmlWindow.cpp",
+                [
+                  [
+                    "a",
+                    "http://code.google.com/p/sumatrapdf/source/browse/trunk/src/utils/HtmlWindow.cpp"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "300db9dc-27c8-4958-a08b-8d0c37f4cfe5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
+            "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
+            "56757391-fba8-45bc-8551-262f3c9f81f2",
+            "20614047-3601-4b54-bd82-edd8b58e6b43",
+            "1e4d284d-ffef-4b22-8dc7-3b1d63ac893e",
+            "4c862145-0d29-4c9f-9c1c-cc1568f9169c",
+            "981d650d-2df1-4162-a739-d788c628cdcf",
+            "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
+            "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+            "b059308f-5cc3-43fb-af19-9c71ae359418",
+            "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
+            "ba2e39ae-fb47-4fc7-9d89-54d8f734476f",
+            "7a545f91-66c3-48a9-a0b7-00e83dffeafa",
+            "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
+            "776c926a-0b10-44b0-9fdd-c95c6ec06a7d",
+            "3f75d60c-97da-4648-a30a-55d7d47ec6a6",
+            "e7fe71cf-ab3b-4daa-a0d5-54ec953c9d08",
+            "7e948259-8dd7-4bf7-8f03-a7833279f444",
+            "05edcfe1-f986-4c8e-bc27-dd49d25e079c"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1530157233456,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1556683800000,
+          "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+          "parent_table": "block",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "blog posts"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 1972
+        }
+      },
+      "3b0a82d6-feed-463c-9f9b-923e27cfe43c": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "3b0a82d6-feed-463c-9f9b-923e27cfe43c",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Date: 2011-11-30T04:30:12-08:00"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "3b223fdc-2111-4eeb-949b-170b5d55c8e6": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "3b223fdc-2111-4eeb-949b-170b5d55c8e6",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Microsoft wrote a bunch of documents documenting the basic usage of the embedded browser control but the documentation is far from satisfactory. They recognized the need to load HTML from memory (it’s well documented) but I just can’t believe that they didn’t consider the scenario of linked documents (HTML is, after all, a format based on links). Getting links to embedded resources is not easy (unless I missed the easy way to do it) and not documented at all."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4e48eaf0-1a4c-4b0d-8b10-d795c9cd1bce": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "4e48eaf0-1a4c-4b0d-8b10-d795c9cd1bce",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Id: 759002"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "4edb4222-ec06-46e7-aac8-c53a5a71ea82": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "4edb4222-ec06-46e7-aac8-c53a5a71ea82",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "This came up while working on "
+              ],
+              [
+                "SumatraPDF",
+                [
+                  [
+                    "a",
+                    "https://www.sumatrapdfreader.org/free-pdf-reader.html"
+                  ]
+                ]
+              ],
+              [
+                " and took me a while to figure out, so I’m documenting it for the posterity."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "568ac4c0-64c3-4ef6-a6ad-0b8d77230681": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "08e19004-306b-413a-ba6e-0e86a10fec7a",
+            "623523b6-7e15-48a0-b525-749d6921465c",
+            "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+            "d61b4f94-b10d-4d80-8d3d-238a4e7c4d10",
+            "4da97980-9fb6-45cb-886a-51c656751d35",
+            "aea20e01-890c-4874-ae08-4557d7789195",
+            "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+            "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+            "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+            "db9e9c03-e3e8-4287-a51d-4da5d507138b",
+            "c5210d90-4251-437b-95d8-87da49bd8706",
+            "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+            "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+            "03ece883-f7df-4ce7-8596-73d04811479e",
+            "36859b86-c5ac-423e-a037-4f3a4331b814"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1528059171080,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1555525560000,
+          "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "user_permission",
+              "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+            },
+            {
+              "allow_duplicate": false,
+              "allow_search_engine_indexing": false,
+              "role": "comment_only",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Website"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 370
+        }
+      },
+      "6a584957-f716-4098-8470-99539f0cfaf5": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "6a584957-f716-4098-8470-99539f0cfaf5",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "That turned out to be a big disappointment. I got two responses, neither of which presented acceptable solution. In fact, out of "
+              ],
+              [
+                "5 questions",
+                [
+                  [
+                    "a",
+                    "http://stackoverflow.com/users/2898/krzysztof-kowalczyk?tab=questions"
+                  ]
+                ]
+              ],
+              [
+                " that I asked on StackOverflow, only one got what I consider to be complete, expert answer."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "7a48cf6c-c838-458c-9907-82c3d0af9d52": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "7a48cf6c-c838-458c-9907-82c3d0af9d52",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Tags: note, win32, programming"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "8068f426-97bb-4ed2-8a13-0691ecc605c4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "8068f426-97bb-4ed2-8a13-0691ecc605c4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "StackOverflow can give you an answer to an easy question literally in minutes, but the hard ones are often not answered well at all."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "87a4d0e0-d9aa-4149-a74d-2250a112b213": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "87a4d0e0-d9aa-4149-a74d-2250a112b213",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "The only reason I was able to figure this solution was by using Google’s code search to find out how other programs do it but Google just announced that they’re "
+              ],
+              [
+                "shutting it down",
+                [
+                  [
+                    "a",
+                    "http://googleblog.blogspot.com/2011/10/fall-sweep.html"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "89c17bf5-16ba-462b-9f5e-bd5608c6b86f": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "89c17bf5-16ba-462b-9f5e-bd5608c6b86f",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2. feed html data via custom IMoniker through IPersistentMoniker::Load() and make sure that IMoniker::GetDisplayName() (which is a base url according to which relative links in provided html will be resolved) starts with that protocol scheme (in my case “its://”). That way relative link “foo.png” in the html data will be its://foo.png to IE which will make urlmon call IInternetProtocol::Start() and IInternetProtocol::Read() to ask for the data for that url."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "99ee1b8c-1694-40b7-85de-a5d4fc280617": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "99ee1b8c-1694-40b7-85de-a5d4fc280617",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Hosting web browser control is a maze of interdependent, interconnected COM interfaces that really like to interact via seven layers of indirection. There are "
+              ],
+              [
+                "5 ways to load HTML from memory",
+                [
+                  [
+                    "a",
+                    "http://qualapps.blogspot.com/2008/10/how-to-load-mshtml-with-data.html"
+                  ]
+                ]
+              ],
+              [
+                ", none of which allowed me to easily resolve linked resources. That’s just bad design."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9b5a2fe7-59ce-4c82-88e0-a3b72e7ad53d": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "9b5a2fe7-59ce-4c82-88e0-a3b72e7ad53d",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "And now a few related rants."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "9ecc6db7-7193-40db-b8ae-ab509e2b9379": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "9ecc6db7-7193-40db-b8ae-ab509e2b9379",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Bad design, bad documentation from Microsoft."
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "a1bb0f31-7df7-4e7a-bd11-1f170c16d1bc": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "a1bb0f31-7df7-4e7a-bd11-1f170c16d1bc",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "After battling the issue for many hours, I did what a modern programmer is supposed to do in such case: "
+              ],
+              [
+                "I asked a question on StackOverflow",
+                [
+                  [
+                    "a",
+                    "http://stackoverflow.com/questions/8265887/how-to-provide-image-data-for-embedded-web-control-in-c"
+                  ]
+                ]
+              ],
+              [
+                "."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "a34607f6-9a76-477b-8749-3dd230c46036": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "a34607f6-9a76-477b-8749-3dd230c46036",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "1. register custom IInternetProtocol/IInternetProtocolInfo/ via custom IClassFactory given to IInternetSession::RegisterNameSpace(). For reasons that seem like a bug to me, it has to be a protocol already known to IE (I’ve chosen “its”) even though it would be much better if it was my own, unique namespace."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "add2413f-d92d-452d-8ba5-8c8eafaa2b92": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "add2413f-d92d-452d-8ba5-8c8eafaa2b92",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "I do tend refer to StackOverflow only after reaching the state of desperation and exhausting all my other options (i.e. web and code searches) so my questions are probably a bit harder than an average question but still 20% answer rate is bad."
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "b26c4e43-6d16-4a9e-bc3d-b86cb2bf25b4": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "b26c4e43-6d16-4a9e-bc3d-b86cb2bf25b4",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "How will I live when Google’s code search is gone?"
+              ]
+            ]
+          },
+          "type": "sub_header",
+          "version": 1
+        }
+      },
+      "baf9186a-21e4-4616-9927-b19dacfea479": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998580,
+          "id": "baf9186a-21e4-4616-9927-b19dacfea479",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998580,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Not that I think it was a great service but it’s certainly better than anything else in that domain. What will I use the next time I have a hard time understanding someone’s clunky APIs?"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      },
+      "be153e27-1136-4bf0-a5d3-c65c2085db09": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "4e48eaf0-1a4c-4b0d-8b10-d795c9cd1bce",
+            "7a48cf6c-c838-458c-9907-82c3d0af9d52",
+            "3b0a82d6-feed-463c-9f9b-923e27cfe43c",
+            "192ae569-d64c-4671-ade2-bd5543d5282a",
+            "4edb4222-ec06-46e7-aac8-c53a5a71ea82",
+            "0cb4ae07-593e-4821-82fa-55fd5bd0261b",
+            "e8685647-d00c-48d3-8605-65cca5270499",
+            "a34607f6-9a76-477b-8749-3dd230c46036",
+            "89c17bf5-16ba-462b-9f5e-bd5608c6b86f",
+            "2864d763-a599-4d15-8b61-e6f02c54150e",
+            "9b5a2fe7-59ce-4c82-88e0-a3b72e7ad53d",
+            "9ecc6db7-7193-40db-b8ae-ab509e2b9379",
+            "99ee1b8c-1694-40b7-85de-a5d4fc280617",
+            "3b223fdc-2111-4eeb-949b-170b5d55c8e6",
+            "1e259190-ded9-4df9-81e6-d49083546c40",
+            "a1bb0f31-7df7-4e7a-bd11-1f170c16d1bc",
+            "6a584957-f716-4098-8470-99539f0cfaf5",
+            "add2413f-d92d-452d-8ba5-8c8eafaa2b92",
+            "8068f426-97bb-4ed2-8a13-0691ecc605c4",
+            "b26c4e43-6d16-4a9e-bc3d-b86cb2bf25b4",
+            "87a4d0e0-d9aa-4149-a74d-2250a112b213",
+            "baf9186a-21e4-4616-9927-b19dacfea479"
+          ],
+          "copied_from": "a0990645-08f9-44e0-ab0a-33233e38f578",
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "format": {
+            "page_full_width": true,
+            "page_small_text": true
+          },
+          "id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1532996226297,
+          "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Showing html from memory in embedded web control on windows"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 8
+        }
+      },
+      "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "content": [
+            "86f1e3f8-c08c-4554-98f2-8cfb464398a4",
+            "f1fcdd01-b2dd-4794-a7af-3b00eebda21e",
+            "4b52129c-080e-4159-aebe-3e510d4b81d2",
+            "f5652f25-3b4d-4dc0-bb99-c673ca61b977",
+            "be153e27-1136-4bf0-a5d3-c65c2085db09",
+            "a8d20cf4-69be-48fd-b305-44e34a281704",
+            "0aaab80b-35fb-473e-af08-3c5c3f13b829",
+            "d0c12a9a-f1c5-4726-bfa4-502c41161763",
+            "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+            "c1ce4215-5b65-4edd-afa0-63e314119f75",
+            "1e14f055-b2ea-4ec9-b451-ed64f38732ac",
+            "99d0b424-dc31-47da-86f3-4388e6b933e1",
+            "1287e403-5c29-436b-9f4a-249a433ceff5",
+            "faff1f91-88e2-4351-8839-7fb0edb524b6",
+            "d3c4a006-1407-4f16-a096-fa084233dfdd",
+            "171e0029-5b7c-4f69-aedc-8dfbb1082f63",
+            "07cab082-7c10-4439-b356-31396c3c99ed",
+            "465ee96a-4544-410f-9c87-9338e179890b"
+          ],
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736995601,
+          "id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1554268260000,
+          "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "2011 (17)"
+              ]
+            ]
+          },
+          "type": "toggle",
+          "version": 41
+        }
+      },
+      "e8685647-d00c-48d3-8605-65cca5270499": {
+        "role": "comment_only",
+        "value": {
+          "alive": true,
+          "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "created_time": 1531736998579,
+          "id": "e8685647-d00c-48d3-8605-65cca5270499",
+          "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "last_edited_time": 1531736998579,
+          "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "What if the HTML is just a piece of data in memory? Easy, call IWebBrowser2::write(). But what happens if that HTML refers to other things e.g. a CSS file or a PNG image? Well, that becomes really complicated. Solution I’ve settled on can be summarized as:"
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 1
+        }
+      }
+    },
+    "notion_user": {
+      "bb760e2d-d679-4b64-b2a9-03005b21870a": {
+        "role": "reader",
+        "value": {
+          "clipper_onboarding_completed": true,
+          "email": "kkowalczyk@gmail.com",
+          "family_name": "Kowalczyk",
+          "given_name": "Krzysztof",
+          "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+          "version": 176
+        }
+      }
+    },
+    "space": {}
+  }
+}
+HeadersJSON:+932
+{
+  "Cf-Ray": [
+    "50371b723ea67fb4-SAN"
+  ],
+  "Content-Type": [
+    "application/json; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 09 Aug 2019 04:50:05 GMT"
+  ],
+  "Etag": [
+    "W/\"4f57-mlcvCXLUxqfA3ZUYV48gLA7o3nw\""
+  ],
+  "Expect-Ct": [
+    "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+  ],
+  "Referrer-Policy": [
+    "same-origin"
+  ],
+  "Server": [
+    "cloudflare"
+  ],
+  "Set-Cookie": [
+    "__cfduid=d1a3b68be4bfc77a5c1499bcca5de2b0d1565326205; expires=Sat, 08-Aug-20 04:50:05 GMT; path=/; domain=.notion.so; HttpOnly"
+  ],
+  "Strict-Transport-Security": [
+    "max-age=5184000; includeSubDomains"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-Content-Type-Options": [
+    "nosniff"
+  ],
+  "X-Dns-Prefetch-Control": [
+    "off"
+  ],
+  "X-Download-Options": [
+    "noopen"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Xss-Protection": [
+    "1; mode=block"
+  ]
+}
