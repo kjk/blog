@@ -256,6 +256,9 @@ See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
 .article-meta > div:nth-child(2) {
   text-align: center;
   font-size: 1.4em;
+  /* make center element non-growable so that left and right
+     take up as much space as needed */
+  flex-grow: 0;
 }
 
 .article-meta > div:nth-child(3) {
