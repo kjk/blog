@@ -19,7 +19,7 @@ type CachingDownloader struct {
 	cachedPagesFromDisk map[string]*notionapi.Page
 	// pages that were loaded from cache but are outdated
 	cachedOutdatedPages map[string]bool
-	n                   int
+	nDownloaded         int
 }
 
 func NewCachingDownloader(cacheDir string) *CachingDownloader {
@@ -205,7 +205,7 @@ func (d *CachingDownloader) DownloadPages(indexPageID string) ([]*notionapi.Page
 	d.checkIfPagesAreOutdated()
 	toVisit := []string{indexPageID}
 
-	d.n = 1
+	d.nDownloaded = 1
 	for len(toVisit) > 0 {
 		pageID := notionapi.ToNoDashID(toVisit[0])
 		toVisit = toVisit[1:]
@@ -216,7 +216,7 @@ func (d *CachingDownloader) DownloadPages(indexPageID string) ([]*notionapi.Page
 
 		page, err := d.DownloadPage(pageID)
 		panicIfErr(err)
-		d.n++
+		d.nDownloaded++
 
 		d.idToPage[pageID] = page
 
@@ -264,7 +264,7 @@ func (d *CachingDownloader) DownloadPage(pageID string) (*notionapi.Page, error)
 		page := d.cachedPagesFromDisk[pageID]
 		//nTotalFromCache++
 		title := page.Root().Title
-		verbose("Page %4d %s: skipping (ver not changed), title: %s\n", d.n, page.ID, title)
+		verbose("Page %4d %s: skipping (ver not changed), title: %s\n", d.nDownloaded, page.ID, title)
 		return page, nil
 	}
 
@@ -272,7 +272,7 @@ func (d *CachingDownloader) DownloadPage(pageID string) (*notionapi.Page, error)
 	if err != nil {
 		return nil, err
 	}
-	lg("Page %4d %s: downloaded. Title: %s\n", d.n, page.ID, page.Root().Title)
+	lg("Page %4d %s: downloaded. Title: %s\n", d.nDownloaded, page.ID, page.Root().Title)
 	return page, nil
 	return nil, nil
 }
