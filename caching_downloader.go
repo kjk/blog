@@ -13,21 +13,22 @@ import (
 )
 
 type CachingDownloader struct {
-	Client                  *notionapi.Client
-	CacheDir                string
-	idToPage                map[string]*notionapi.Page
-	cachedPagesFromDisk     map[string]*notionapi.Page
-	isCachedPageNotOutdated map[string]bool
-	n                       int
+	Client              *notionapi.Client
+	CacheDir            string
+	idToPage            map[string]*notionapi.Page
+	cachedPagesFromDisk map[string]*notionapi.Page
+	// pages that were loaded from cache but are outdated
+	cachedOutdatedPages map[string]bool
+	n                   int
 }
 
 func NewCachingDownloader(cacheDir string) *CachingDownloader {
 	return &CachingDownloader{
-		Client:                  &notionapi.Client{},
-		CacheDir:                cacheDir,
-		idToPage:                make(map[string]*notionapi.Page),
-		cachedPagesFromDisk:     make(map[string]*notionapi.Page),
-		isCachedPageNotOutdated: map[string]bool{},
+		Client:              &notionapi.Client{},
+		CacheDir:            cacheDir,
+		idToPage:            make(map[string]*notionapi.Page),
+		cachedPagesFromDisk: make(map[string]*notionapi.Page),
+		cachedOutdatedPages: map[string]bool{},
 	}
 }
 
@@ -170,7 +171,7 @@ func (d *CachingDownloader) checkIfPagesAreOutdated() {
 		id := ids[i]
 		page := d.cachedPagesFromDisk[id]
 		isOutdated := ver > page.Root().Version
-		d.isCachedPageNotOutdated[id] = !isOutdated
+		d.cachedOutdatedPages[id] = !isOutdated
 		if isOutdated {
 			nOutdated++
 		}
@@ -259,7 +260,7 @@ func (d *CachingDownloader) downloadAndCachePage(pageID string) (*notionapi.Page
 }
 
 func (d *CachingDownloader) DownloadPage(pageID string) (*notionapi.Page, error) {
-	if d.isCachedPageNotOutdated[pageID] {
+	if d.cachedOutdatedPages[pageID] {
 		page := d.cachedPagesFromDisk[pageID]
 		//nTotalFromCache++
 		title := page.Root().Title
