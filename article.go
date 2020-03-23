@@ -7,6 +7,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"net/url"
 
 	"github.com/kjk/notionapi"
 	"github.com/kjk/u"
@@ -497,7 +498,8 @@ func (a *Article) processBlocks(blocks []*notionapi.Block) {
 
 		if block.Type == notionapi.BlockImage {
 			link := block.Source
-			path, err := downloadAndCacheImage(a.notionClient, link)
+			downloadLink := "https://www.notion.so/image/" + url.QueryEscape(link)
+			path, err := downloadAndCacheImage(a.notionClient, downloadLink)
 			if err != nil {
 				logf("genImage: downloadAndCacheImage('%s') from page https://notion.so/%s failed with '%s'\n", link, normalizeID(a.page.ID), err)
 				must(err)
